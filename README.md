@@ -4,6 +4,16 @@
 
 Matchmate explores conversations with matches, teams and stadiums, grounded in the football evidence available to them. The current prototype combines a Premier League season explorer, club and historical-result conversations, and a recorded-match workspace with pitch replay, player details and chat. A personal football guide, voice and live-source integration remain part of the wider direction.
 
+## Watch the demo
+
+[![Watch the 1:58 Matchmate demo on YouTube](docs/media/matchmate-demo.jpg)](https://youtu.be/gDE9rDQOmPE)
+
+**[Watch on YouTube](https://youtu.be/gDE9rDQOmPE)** · [Watch/download MP4](docs/media/matchmate-demo.mp4) · [English subtitles (SRT)](docs/media/matchmate-demo.en.srt)
+
+A 1:58 recorded walkthrough of goal sequences, player details, Fan and Analyst styles, and the Premier League season explorer. The replay includes labelled generated movement.
+
+## Explore Matchmate
+
 **Built on Microsoft and Azure.** Matchmate runs .NET and Blazor services on Azure Container Apps, with Aspire for development, Event Hubs for incoming records, and Cosmos DB and Blob Storage for football data. **Microsoft Foundry serves all three deployed models:** Microsoft Decision-1 for workflow selection, OpenAI GPT-6 Luna for narration, and OpenAI GPT-6.1 Sol available as a historical-narrator override. The deployed app currently selects Decision-1 and Luna; historical conversation uses Luna unless the Sol override is configured. Microsoft Entra handles tester sign-in, and separate managed identities provide keyless AI/data access. Read the [Azure deployment and identity architecture](public-docs/ARCHITECTURE.md#azure-deployment-and-identity).
 
 Try the [hosted demo — judge access required](https://mm-web-dev.redtree-349789df.swedencentral.azurecontainerapps.io/) and read the [judge testing instructions](public-docs/JUDGE-TESTING.md). Judge identities and private access remain pending.

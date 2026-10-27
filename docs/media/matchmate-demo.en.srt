@@ -1,0 +1,132 @@
+1
+00:00:01,200 --> 00:00:05,320
+I've always wanted to talk
+to a football match.
+
+2
+00:00:05,580 --> 00:00:08,780
+To pause it, ask a question,
+
+3
+00:00:09,220 --> 00:00:12,760
+and feel a little closer
+to what's happening.
+
+4
+00:00:15,260 --> 00:00:18,000
+That's why I'm building Matchmate.
+
+5
+00:00:18,820 --> 00:00:21,060
+Here's Brentford against Chelsea.
+
+6
+00:00:21,520 --> 00:00:24,680
+Choose a goal, see the sequence
+on the pitch,
+
+7
+00:00:24,880 --> 00:00:27,300
+and open a conversation about it.
+
+8
+00:00:27,300 --> 00:00:31,940
+The movement and statistics here
+are generated illustrations,
+
+9
+00:00:32,580 --> 00:00:34,580
+not measurements of the real match.
+
+10
+00:00:35,860 --> 00:00:37,620
+Reported events are kept separate,
+
+11
+00:00:37,620 --> 00:00:40,680
+so the evidence stays visible.
+
+12
+00:00:43,220 --> 00:00:44,980
+I can pause,
+
+13
+00:00:45,320 --> 00:00:48,540
+select a player and explore
+their details.
+
+14
+00:00:49,180 --> 00:00:51,020
+Then I can ask about the replay
+
+15
+00:00:51,020 --> 00:00:54,340
+or compare the teams in a chart,
+
+16
+00:00:54,440 --> 00:00:58,420
+while keeping the match
+and its context in view.
+
+17
+00:01:00,760 --> 00:01:04,300
+I want it to feel comfortable
+for different fans.
+
+18
+00:01:04,900 --> 00:01:10,400
+Fan and Analyst offer different ways
+into the same evidence,
+
+19
+00:01:10,840 --> 00:01:13,020
+with language choices too.
+
+20
+00:01:15,180 --> 00:01:18,460
+Beyond one match,
+there's a season to explore.
+
+21
+00:01:18,460 --> 00:01:20,300
+Move through dates,
+
+22
+00:01:21,100 --> 00:01:25,180
+select a club and find its ground
+on the illustrated map.
+
+23
+00:01:25,780 --> 00:01:28,000
+I want those clubs and grounds
+
+24
+00:01:28,000 --> 00:01:30,880
+to feel like familiar companions.
+
+25
+00:01:33,480 --> 00:01:37,980
+This demo replays prepared recordings.
+
+26
+00:01:38,800 --> 00:01:41,960
+Live football integration
+is still future work.
+
+27
+00:01:42,540 --> 00:01:46,140
+My dream is to connect it
+to the live game
+
+28
+00:01:46,140 --> 00:01:51,080
+and one day let even the ball
+and the pitch have a voice.
+
+29
+00:01:51,080 --> 00:01:52,450
+Matchmate.
+
+30
+00:01:52,450 --> 00:01:55,740
+A little closer to the match.
