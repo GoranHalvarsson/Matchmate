@@ -1,24 +1,36 @@
 # Development cloud AI configuration
 
-This prepares an explicit, Web-only opt-in for the existing narration and Decision-1 routing clients. The default is **off**. Merging this change or setting GitHub variables does not update a running Container App: an operator must separately authorize and run the release deployment. No inference request, cloud configuration change or new resource is part of this preparation.
+Hosted AI is an explicit, Web-only opt-in for narration and Decision-1 workflow routing. The deployment template defaults to **off**. Configure your own Azure resource and deployments below, then run an authorized release deployment; setting GitHub variables alone does not update a running Container App.
 
 ## Operator settings
 
 Set these **nonsecret variables** in the repository's GitHub **development environment** before an authorized release preview/deployment. Keep the existing deployment identity, registry and External ID variables required by `deploy-development.yml`.
 
-| GitHub development variable | Value for the existing development Foundry resource | Bicep parameter | Web runtime setting |
+Replace `<your-foundry-resource>` with the Foundry resource name in **your own Azure account**, and use deployment names from that resource. The deployment names below show Matchmate's configuration; replace them if yours differ. Do not enter the endpoint placeholder literally.
+
+| GitHub development variable | Example value — replace with your own Azure configuration | Bicep parameter | Web runtime setting |
 | --- | --- | --- | --- |
 | `WEB_AI_ENABLED` | `true` to opt in; unset or `false` keeps AI off | `webAiEnabled` | `MatchChat__Enabled` and `DecisionRouting__Enabled` |
-| `MATCH_CHAT_ENDPOINT` | `https://mm-foundry-dev-7ntncaxgzqagy.cognitiveservices.azure.com/` | `matchChatEndpoint` | `MatchChat__Endpoint` |
+| `MATCH_CHAT_ENDPOINT` | `https://<your-foundry-resource>.cognitiveservices.azure.com/` | `matchChatEndpoint` | `MatchChat__Endpoint` |
 | `MATCH_CHAT_DEPLOYMENT` | `matchmate-luna` | `matchChatDeployment` | `MatchChat__Deployment` |
-| `DECISION_ROUTING_ENDPOINT` | `https://mm-foundry-dev-7ntncaxgzqagy.cognitiveservices.azure.com/` | `decisionRoutingEndpoint` | `DecisionRouting__Endpoint` |
+| `DECISION_ROUTING_ENDPOINT` | `https://<your-foundry-resource>.cognitiveservices.azure.com/` | `decisionRoutingEndpoint` | `DecisionRouting__Endpoint` |
 | `DECISION_ROUTING_DEPLOYMENT` | `matchmate-decision-1` | `decisionRoutingDeployment` | `DecisionRouting__Deployment` |
 
-The resource and deployments above were confirmed by a read-only Azure inspection on 25 October 2026. Both deployments reported `Succeeded`; the Foundry resource has local/key authentication disabled. The existing Web user-assigned managed identity already has `Cognitive Services User` at the Foundry resource scope. Those checks establish available configuration and access assignments, not a successful inference call or a verified hosted chat experience. Recheck the existing resource, deployment readiness and role assignment before activation; this template does not provision or repair them.
+Before enabling AI, verify that your Foundry resource and model deployments are ready and that the Web user-assigned managed identity has `Cognitive Services User` at the Foundry resource scope. This template does not provision or repair the resource, deployments or access assignment.
 
 The hosted Web app already registers `ManagedIdentityCredential` using `Runtime__ManagedIdentityClientId`; the model clients receive that credential through dependency injection. The template continues to use the existing Web identity. Do not supply API keys or change `AZURE_CLIENT_ID` for the model clients. The workflow's `AZURE_CLIENT_ID` remains the deployment login identity, a separate purpose.
 
-This configuration enables the existing default Luna narrator and Decision-1 router together. It does not add a Sol profile or configure the separate historical-chat model override. The existing Sol deployment alone does not activate that profile. Model availability, routing quality and the unfinished league-routing checkpoint retain their separate acceptance gates.
+## Model roles
+
+Matchmate has three deployed models in Microsoft Foundry:
+
+| Model | Deployment | Role in the current hosted configuration |
+| --- | --- | --- |
+| Microsoft Decision-1 | `matchmate-decision-1` | Selects a fixed workflow for the application to run |
+| OpenAI GPT-6 Luna | `matchmate-luna` | Current shared narrator for replay, league and historical evidence |
+| OpenAI GPT-6.1 Sol | `matchmate-sol61` | Deployed and available as an optional historical narrator; the current hosted configuration has no historical override selected |
+
+Historical narration falls back to `MatchChat:Deployment` when no override is set. To select Sol for historical narration, set the optional Web application configuration `HistoricalReplyModel:Deployment` (environment variable `HistoricalReplyModel__Deployment`) to `matchmate-sol61`. It shares the `MatchChat` connection settings. The existing deployment template does not emit this optional override or expose a GitHub variable or Bicep parameter for it. Model availability alone does not establish inference access or routing quality.
 
 ## Validation and disabling
 
@@ -36,6 +48,6 @@ With AI disabled, Bicep emits explicit `false` flags for both clients and no mod
 
 Preview validation, what-if and deployment construct identical Bicep parameter arrays from the validated variables. The retained validator comes from the workflow source before the selected release is checked out. A selected older release without all five AI parameters can still be previewed with AI off; an enabled request fails with a clear error instead of silently dropping the AI configuration. Choose a release containing this template before enabling AI.
 
-After a separately authorized deployment, verify the Web revision has the expected flags, endpoints and deployment names and that its existing managed identity still has access. Then verify real authenticated model behavior under a separately authorized inference/dogfood gate. `/alive` and `/health` establish hosting and Web-to-API health; they do not test model access or chat quality. No browser or paid-inference gate was run for this preparation.
+After a separately authorized deployment, verify the Web revision has the expected flags, endpoints and deployment names and that its existing managed identity still has access. Then verify real authenticated model behavior under a separately authorized inference/dogfood gate. `/alive` and `/health` establish hosting and Web-to-API health; they do not test model access or chat quality.
 
 Microsoft guidance: [Container Apps runtime environment variables](https://learn.microsoft.com/azure/container-apps/environment-variables) and [Foundry keyless authentication and the Cognitive Services User role](https://learn.microsoft.com/azure/foundry/foundry-models/how-to/configure-entra-id).
