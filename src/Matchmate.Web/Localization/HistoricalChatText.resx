@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <data name="Question.result" xml:space="preserve"><value>Give me the story of this result.</value></data>
+  <data name="Question.form" xml:space="preserve"><value>Compare their form before the match.</value></data>
+  <data name="Question.table" xml:space="preserve"><value>What changed in the table?</value></data>
+  <data name="Question.meetings" xml:space="preserve"><value>Had these two met before?</value></data>
+  <data name="Title.result" xml:space="preserve"><value>The result</value></data>
+  <data name="Title.form" xml:space="preserve"><value>Before the match</value></data>
+  <data name="Title.table" xml:space="preserve"><value>The table</value></data>
+  <data name="Title.meetings" xml:space="preserve"><value>Earlier meetings</value></data>
+  <data name="Source.Result" xml:space="preserve"><value>{0}, {1}: {2} {3}–{4} {5}, full time.</value></data>
+  <data name="Source.Snapshot" xml:space="preserve"><value>Ongoing-season snapshot: results through {0}; retrieved {1}. No automatic updates.</value></data>
+  <data name="Source.FormScope" xml:space="preserve"><value>Season {0}, strictly before {1}, up to 5 most recent results per club.</value></data>
+  <data name="Source.Form" xml:space="preserve"><value>{0}: {1} earlier results in this sample; {2} wins, {3} draws, {4} losses; {5} points, {6} goals for and {7} against.</value></data>
+  <data name="Source.NoForm" xml:space="preserve"><value>{0}: no earlier results supplied; not an all-time record.</value></data>
+  <data name="Source.EmptyForm" xml:space="preserve"><value>No earlier loaded results for {0} or {1} in season {2}, strictly before {3}. I cannot compare form from this sample; this does not mean they had never played.</value></data>
+  <data name="Source.Table" xml:space="preserve"><value>{0}: {1}, {2} points from {3} played; points change {4}. {5}</value></data>
+  <data name="Source.Movement" xml:space="preserve"><value>Position movement {0} (positive means places gained).</value></data>
+  <data name="Source.NoMovement" xml:space="preserve"><value>Previous played-date rank unavailable.</value></data>
+  <data name="Source.TableScope" xml:space="preserve"><value>End of {0}: all results that day enter together. Changes compare the previous played date and are not solely caused by this fixture.</value></data>
+  <data name="Source.Rank" xml:space="preserve"><value>position {0}</value></data>
+  <data name="Source.SharedRank" xml:space="preserve"><value>shared position {0}</value></data>
+  <data name="Source.Unranked" xml:space="preserve"><value>unranked</value></data>
+  <data name="Source.Meetings" xml:space="preserve"><value>Strictly before {0}: {1} earlier meetings from loaded seasons (up to 8 most recent). {2} Not an all-time head-to-head record.</value></data>
+  <data name="Source.NoMeetings" xml:space="preserve"><value>None in this loaded sample.</value></data>
+  <data name="Source.Compact" xml:space="preserve"><value>See Supporting facts for complete prepared facts.</value></data>
+  <data name="Source.Home" xml:space="preserve"><value>Home club</value></data>
+  <data name="Source.Away" xml:space="preserve"><value>Away club</value></data>
+  <data name="Source.Recovery" xml:space="preserve"><value>I couldn’t provide a verified AI reply. Here are the match facts.
+
+</value></data>
+  <data name="Feedback.Source" xml:space="preserve"><value>Choose one of the available suggested questions.</value></data>
+  <data name="Feedback.Input" xml:space="preserve"><value>Ask a question of at most 1,000 characters about this match.</value></data>
+  <data name="Feedback.SignIn" xml:space="preserve"><value>Sign in with your test account to chat.</value></data>
+  <data name="Feedback.Disconnected" xml:space="preserve"><value>AI chat is not connected right now. You can still explore the match facts below.</value></data>
+  <data name="Feedback.Clarify" xml:space="preserve"><value>Please clarify the team or result, or choose a suggested question.</value></data>
+  <data name="Feedback.Routing" xml:space="preserve"><value>I could not route that question right now. Please try again.</value></data>
+  <data name="Feedback.Unsupported" xml:space="preserve"><value>I can explore results, pre-match form, table positions, earlier meetings and season ground references. Player details, goal events and tactics are unavailable.</value></data>
+  <data name="Feedback.Unavailable" xml:space="preserve"><value>I could not verify a reply for this match. Please try again.</value></data>
+  <data name="Feedback.Cancelled" xml:space="preserve"><value>Reply cancelled or context changed. No answer was added.</value></data>
+  <data name="Feedback.Stale" xml:space="preserve"><value>The match or signed-in session changed; reply discarded.</value></data>
+  <data name="Narrator.Goals" xml:space="preserve"><value>Use the existing English goal templates.</value></data>
+</root>

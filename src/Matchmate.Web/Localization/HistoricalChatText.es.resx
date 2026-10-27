@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <data name="Question.result" xml:space="preserve"><value>Cuéntame la historia de este resultado.</value></data>
+  <data name="Question.form" xml:space="preserve"><value>Compara la forma de los equipos antes del partido.</value></data>
+  <data name="Question.table" xml:space="preserve"><value>¿Qué cambió en la clasificación?</value></data>
+  <data name="Question.meetings" xml:space="preserve"><value>¿Se habían enfrentado antes estos equipos?</value></data>
+  <data name="Title.result" xml:space="preserve"><value>El resultado</value></data>
+  <data name="Title.form" xml:space="preserve"><value>Antes del partido</value></data>
+  <data name="Title.table" xml:space="preserve"><value>La clasificación</value></data>
+  <data name="Title.meetings" xml:space="preserve"><value>Enfrentamientos anteriores</value></data>
+  <data name="Source.Result" xml:space="preserve"><value>{0}, {1}: {2} {3}–{4} {5}, resultado final.</value></data>
+  <data name="Source.Snapshot" xml:space="preserve"><value>Instantánea de temporada en curso: resultados hasta {0}; obtenida el {1}. Sin actualizaciones automáticas.</value></data>
+  <data name="Source.FormScope" xml:space="preserve"><value>Temporada {0}, estrictamente antes de {1}, con los 5 resultados más recientes por club como máximo.</value></data>
+  <data name="Source.Form" xml:space="preserve"><value>{0}: {1} resultados anteriores en esta muestra; {2} victorias, {3} empates, {4} derrotas; {5} puntos, {6} goles a favor y {7} en contra.</value></data>
+  <data name="Source.NoForm" xml:space="preserve"><value>{0}: no hay resultados anteriores en esta muestra; no es un registro histórico completo.</value></data>
+  <data name="Source.EmptyForm" xml:space="preserve"><value>No hay resultados anteriores cargados de {0} ni de {1} en la temporada {2}, estrictamente antes del {3}. No puedo comparar su forma con esta muestra; no significa que nunca hubieran jugado.</value></data>
+  <data name="Source.Table" xml:space="preserve"><value>{0}: {1}, {2} puntos en {3} partidos; cambio de puntos {4}. {5}</value></data>
+  <data name="Source.Movement" xml:space="preserve"><value>Cambio de posición {0} (positivo indica puestos ganados).</value></data>
+  <data name="Source.NoMovement" xml:space="preserve"><value>No se dispone de la posición de la fecha jugada anterior.</value></data>
+  <data name="Source.TableScope" xml:space="preserve"><value>Al final del {0}: se incorporan juntos todos los resultados de ese día. Los cambios se comparan con la fecha jugada anterior y no se deben solo a este partido.</value></data>
+  <data name="Source.Rank" xml:space="preserve"><value>posición {0}</value></data>
+  <data name="Source.SharedRank" xml:space="preserve"><value>posición {0} compartida</value></data>
+  <data name="Source.Unranked" xml:space="preserve"><value>sin posición</value></data>
+  <data name="Source.Meetings" xml:space="preserve"><value>Estrictamente antes del {0}: {1} enfrentamientos anteriores de las temporadas cargadas (los 8 más recientes como máximo). {2} No es un historial completo de enfrentamientos.</value></data>
+  <data name="Source.NoMeetings" xml:space="preserve"><value>Ninguno en esta muestra cargada.</value></data>
+  <data name="Source.Compact" xml:space="preserve"><value>Consulta los datos de apoyo para ver todos los datos preparados.</value></data>
+  <data name="Source.Home" xml:space="preserve"><value>Equipo local</value></data>
+  <data name="Source.Away" xml:space="preserve"><value>Equipo visitante</value></data>
+  <data name="Source.Recovery" xml:space="preserve"><value>No pude ofrecer una respuesta de IA verificada. Estos son los datos del partido.
+
+</value></data>
+  <data name="Feedback.Source" xml:space="preserve"><value>Elige una de las preguntas sugeridas disponibles.</value></data>
+  <data name="Feedback.Input" xml:space="preserve"><value>Haz una pregunta de hasta 1.000 caracteres sobre este partido.</value></data>
+  <data name="Feedback.SignIn" xml:space="preserve"><value>Inicia sesión con tu cuenta de prueba para conversar.</value></data>
+  <data name="Feedback.Disconnected" xml:space="preserve"><value>El chat de IA no está conectado ahora. Puedes consultar los datos del partido más abajo.</value></data>
+  <data name="Feedback.Clarify" xml:space="preserve"><value>Aclara a qué equipo o resultado te refieres, o elige una pregunta sugerida.</value></data>
+  <data name="Feedback.Routing" xml:space="preserve"><value>No pude dirigir la pregunta al contexto adecuado. Inténtalo de nuevo.</value></data>
+  <data name="Feedback.Unsupported" xml:space="preserve"><value>Puedo explorar resultados, forma previa, posiciones, enfrentamientos anteriores y estadios de referencia. No hay detalles de jugadores, eventos de gol ni datos tácticos.</value></data>
+  <data name="Feedback.Unavailable" xml:space="preserve"><value>No pude verificar una respuesta sobre este partido. Inténtalo de nuevo.</value></data>
+  <data name="Feedback.Cancelled" xml:space="preserve"><value>La respuesta se canceló o cambió el contexto. No se añadió ninguna respuesta.</value></data>
+  <data name="Feedback.Stale" xml:space="preserve"><value>Cambió el partido o la sesión iniciada; se descartó la respuesta.</value></data>
+  <data name="Narrator.Goals" xml:space="preserve"><value>For supported totals use full prepared club name followed by 'marcó N goles en este partido.' for fixture or 'marcó N goles en la muestra de resultados anteriores.' for earlier_results. Copy N and cite the exact goal fact. Keep these sentences separate. For unavailable details use 'No hay datos de goleadores ni de mecanismos de gol.'</value></data>
+</root>

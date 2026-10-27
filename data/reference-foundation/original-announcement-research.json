@@ -1,0 +1,204 @@
+{
+  "observed_at": "2026-10-17",
+  "scope": "One bounded original-source target pass across12chains; prior targets explicitly distinguished from fresh opens. No claim all target URLs newly fetched or originals universally unavailable.",
+  "counts": {
+    "chains_checked": 12,
+    "new_original_announcements_recovered": 0,
+    "new_primary_notes": 4,
+    "new_primary_retrospective_rename_days": 1
+  },
+  "prefix_preservation": {
+    "stadium-naming-review.json": {
+      "key": "evidence",
+      "prefix_count": 116,
+      "canonical_sha256": "1d6e608f16edcd490f392008ad2bae63373f1e7af7079a9300ae0711e5a4cbd0",
+      "verified_after_append": true,
+      "canonicalization": "Ordered record list; JSON ensure_ascii=false, sorted object keys, compact comma/colon separators; UTF-8 bytes."
+    },
+    "stadium-naming-periods.json": {
+      "key": "periods",
+      "prefix_count": 14,
+      "canonical_sha256": "0b896bfad15897ea45467387fb3cedeb3ffdbea2d094bb26c3a2df39112d7f5c",
+      "verified_after_append": true,
+      "canonicalization": "Ordered record list; JSON ensure_ascii=false, sorted object keys, compact comma/colon separators; UTF-8 bytes."
+    }
+  },
+  "chains": [
+    {
+      "ground_id": "britannia-stadium",
+      "checked_at": "2026-10-17",
+      "attempts": [
+        {
+          "target_url": "https://www.stokecityfc.com/news/stoke-city-fc-strike-bet365-deal-over-stadium-naming-rights",
+          "result": "prior_original_route_not_retried",
+          "inspection_note": "Prior page was a news fallback. New targeted21April2016 announcement search supplied citation leads, not an accessible original body."
+        }
+      ],
+      "original_announcement_newly_recovered": false,
+      "new_evidence_ids": [],
+      "outcome": "original_access_gap_retained"
+    },
+    {
+      "ground_id": "leicester-city-stadium",
+      "checked_at": "2026-10-17",
+      "attempts": [
+        {
+          "target_url": "https://www.lcfc.com/media-article/Links-With-The-Past%3A-Gifts-From-Spanish-Clubs",
+          "result": "opened_primary_retrospective",
+          "inspection_note": "Full club body explicitly5July2011 rename; original2011 press release not recovered."
+        }
+      ],
+      "original_announcement_newly_recovered": false,
+      "new_evidence_ids": [
+        "naming-117"
+      ],
+      "outcome": "original_access_gap_retained"
+    },
+    {
+      "ground_id": "dean-court",
+      "checked_at": "2026-10-17",
+      "attempts": [
+        {
+          "target_url": "https://www.afcb.co.uk/news/article/afc-bournemouth-announce-three-year-naming-rights-deal-for-vitality-stadium-2533583.aspx",
+          "result": "opened_original_target_empty",
+          "inspection_note": "Observed original link from Wikipedia footnote13 returned zero lines. Linked archive click261 returned internal error; no guessed archive timestamps or bypass."
+        }
+      ],
+      "original_announcement_newly_recovered": false,
+      "new_evidence_ids": [],
+      "outcome": "original_access_gap_retained"
+    },
+    {
+      "ground_id": "st-james-park",
+      "checked_at": "2026-10-17",
+      "attempts": [
+        {
+          "target_url": "https://web.archive.org/web/20111113184643/http://www.nufc.co.uk/page/Club/History/SportsDirectArena",
+          "result": "prior_archive_access_failure_not_retried",
+          "inspection_note": "Prior public archive route inaccessible. Fresh original-title search did not recover another primary target; secondary reports remain leads."
+        }
+      ],
+      "original_announcement_newly_recovered": false,
+      "new_evidence_ids": [],
+      "outcome": "original_access_gap_retained"
+    },
+    {
+      "ground_id": "london-stadium",
+      "checked_at": "2026-10-17",
+      "attempts": [
+        {
+          "target_url": "https://www.queenelizabetholympicpark.co.uk/sites/default/files/attachments/16-114.%20Internal%20review%20Annex%20B_0.pdf",
+          "result": "new_indexed_primary_target_only",
+          "inspection_note": "2016stadium-hire disclosure surfaced; labelsLondonStadium but is not original naming announcement. Not counted as newly opened evidence."
+        }
+      ],
+      "original_announcement_newly_recovered": false,
+      "new_evidence_ids": [],
+      "outcome": "original_access_gap_retained"
+    },
+    {
+      "ground_id": "coventry-building-society-arena",
+      "checked_at": "2026-10-17",
+      "attempts": [
+        {
+          "target_url": "https://www.ricoh.com/-/Media/Ricoh/Sites/com/IR/financial_data/annual_report/ar/07/ar00.pdf",
+          "result": "opened_contemporary_primary_report",
+          "inspection_note": "Sponsor annual report corroborates2005name, not original2005 naming-day notice."
+        }
+      ],
+      "original_announcement_newly_recovered": false,
+      "new_evidence_ids": [
+        "naming-119"
+      ],
+      "outcome": "original_access_gap_retained"
+    },
+    {
+      "ground_id": "riverside-stadium",
+      "checked_at": "2026-10-17",
+      "attempts": [
+        {
+          "target_url": "https://find-and-update.company-information.service.gov.uk/company/01947851/charges",
+          "result": "prior_primary_document_not_retried",
+          "inspection_note": "Fresh BT/club original-release search recovered no original sponsorship announcement; prior legal particulars remain documentary usage only."
+        }
+      ],
+      "original_announcement_newly_recovered": false,
+      "new_evidence_ids": [],
+      "outcome": "original_access_gap_retained"
+    },
+    {
+      "ground_id": "emirates-stadium",
+      "checked_at": "2026-10-17",
+      "attempts": [
+        {
+          "target_url": "https://cdn.ek.aero/downloads/ek/pdfs/report/2004-05-annual-report.pdf",
+          "result": "opened_contemporary_primary_report",
+          "inspection_note": "Sponsor annual report immediate-effect wording; no announcement day. Root independently checked; worker also opened text."
+        }
+      ],
+      "original_announcement_newly_recovered": false,
+      "new_evidence_ids": [
+        "naming-118"
+      ],
+      "outcome": "original_access_gap_retained"
+    },
+    {
+      "ground_id": "brighton-community-stadium",
+      "checked_at": "2026-10-17",
+      "attempts": [
+        {
+          "target_url": "https://sussexfoodanddrink.org/american-express-names-community-stadium/",
+          "result": "opened_redistribution_target_challenge",
+          "inspection_note": "Indexed24June2010 redistributed announcement text; direct body is challenge page. Not sponsor/club origin, not accepted primary day proof."
+        }
+      ],
+      "original_announcement_newly_recovered": false,
+      "new_evidence_ids": [],
+      "outcome": "original_access_gap_retained"
+    },
+    {
+      "ground_id": "mkm-stadium",
+      "checked_at": "2026-10-17",
+      "attempts": [
+        {
+          "target_url": "https://www.kcom.com/news/happy-20th-birthday-to-the-mkm-stadium/",
+          "result": "prior_primary_retrospective_not_retried",
+          "inspection_note": "Fresh sponsor original2002 agreement search did not recover original press release; prior retrospective opening-name evidence retained."
+        }
+      ],
+      "original_announcement_newly_recovered": false,
+      "new_evidence_ids": [],
+      "outcome": "original_access_gap_retained"
+    },
+    {
+      "ground_id": "hill-dickinson-stadium",
+      "checked_at": "2026-10-17",
+      "attempts": [
+        {
+          "target_url": "https://www.hilldickinsonstadium.com/news/2025/may/16/hill-dickinson-named-as-official-stadium-naming-rights-partner-/",
+          "result": "opened_original_already_known",
+          "inspection_note": "Original venue/club16May2025 announcement remains available; will-be-named wording does not establish exact effective day. No new date gain."
+        }
+      ],
+      "original_announcement_newly_recovered": false,
+      "new_evidence_ids": [],
+      "outcome": "known_original_available_effective_day_unknown"
+    },
+    {
+      "ground_id": "liberty-stadium",
+      "checked_at": "2026-10-17",
+      "attempts": [
+        {
+          "target_url": "https://www.liverpoolfc.com/news/first-team/100477-12-preview-away-days",
+          "result": "opened_primary_retrospective",
+          "inspection_note": "2011official opponent preview gives October2005rights award. BBC2005link surfaced viaWikipedia but errored; secondary, not original club/sponsor announcement."
+        }
+      ],
+      "original_announcement_newly_recovered": false,
+      "new_evidence_ids": [
+        "naming-120"
+      ],
+      "outcome": "original_access_gap_retained"
+    }
+  ]
+}

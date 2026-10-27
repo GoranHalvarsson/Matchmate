@@ -1,0 +1,40 @@
+{
+  "version": 1,
+  "artifact": {
+    "file": "brentford-chelsea-2026-09-18-combined-native-passage.json",
+    "sha256": "2d958e47f1553aa0d51fe1701a3fcad4ea01ac7fc22dbaf6a5a0a7455780f889",
+    "bytes": 1573028
+  },
+  "source": {
+    "url": "https://www.brentfordfc.com/en/video/0_2hoy7vw7?provider=stream",
+    "videoSha256": "87b511b61f3d48e410294e06bf71bbc3a88c7b7ca6a50b89e572808c3e82711f",
+    "personArtifact": {
+      "sha256": "27d9da0fa866b39d94a922085c07aac86aba2b9725842172446fead6dbaeb10c",
+      "bytes": 550466
+    },
+    "ballArtifact": {
+      "sha256": "028f0b59242f9f393779bea4d69a703896bd2c4fccb86eb82c1e61ad5de3536f",
+      "bytes": 102358
+    },
+    "nativeResearch": {
+      "sha256": "7a006c30cb66227433172228c78657e2e1256f15fb3ab719176600f59c9bc9cc",
+      "bytes": 22093469
+    },
+    "reviewLedger": {
+      "sha256": "1c02a72d477244932dbb3cebeb47c7eed05205ef776a72280ba05753cc240fd0",
+      "bytes": 331878
+    },
+    "reviewProtocol": {
+      "sha256": "4c6fc3d9418aee5327958c7cfa36f1147748bcfb54aeee3fa93198bb54e9e144",
+      "bytes": 1697
+    }
+  },
+  "nativeFrames": 201,
+  "personEstimates": 2512,
+  "ballPitchFrames": 104,
+  "ballScreenOnlyFrames": 81,
+  "ballUnknownFrames": 16,
+  "manualAugmentation": "M803-1",
+  "sourceMediaBundled": false,
+  "publicationClearance": false
+}

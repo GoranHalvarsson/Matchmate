@@ -1,0 +1,2395 @@
+[
+  {
+    "ground_id": "selhurst-park",
+    "name": "Selhurst Park",
+    "wikidata_id": "Q1066373",
+    "source_id": "wikidata-Q1066373",
+    "claim_id": "q1066373$EC39DCEA-3C29-4CB9-901D-3B51C8FB2CEB",
+    "latitude": 51.398333333333,
+    "longitude": -0.085555555555556,
+    "source_coordinate_precision": null,
+    "precision_interpretation": "Raw Wikidata precision, not independently verified survey accuracy.",
+    "globe": "http://www.wikidata.org/entity/Q2",
+    "point_meaning": "Stadium reference point, not verified pitch centre, entrance or survey point.",
+    "source_rank": "normal",
+    "source_reference_count": 0,
+    "observed_at": "2026-10-17",
+    "locality": null,
+    "address": null,
+    "region": null,
+    "administrative_area_claims": [
+      {
+        "value": {
+          "entity-type": "item",
+          "numeric-id": 2265962,
+          "id": "Q2265962"
+        },
+        "claim_id": "Q1066373$4951D89C-7AF5-4534-8816-119BB92460F3",
+        "source_id": "wikidata-Q1066373",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "label": "South Norwood",
+        "label_source_id": "wikidata-bulk-2"
+      }
+    ],
+    "country_claims": [
+      {
+        "value": {
+          "entity-type": "item",
+          "numeric-id": 145,
+          "id": "Q145"
+        },
+        "claim_id": "Q1066373$87EC975D-9F0B-48BD-800C-935CA1E615CF",
+        "source_id": "wikidata-Q1066373",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "label": "United Kingdom",
+        "label_source_id": "wikidata-bulk-2"
+      }
+    ],
+    "location_claims": [
+      {
+        "value": {
+          "entity-type": "item",
+          "numeric-id": 2268251,
+          "id": "Q2268251"
+        },
+        "claim_id": "Q1066373$32C87BBE-4D83-4FDC-916F-7776F61BCE60",
+        "source_id": "wikidata-Q1066373",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "label": "Selhurst",
+        "label_source_id": "wikidata-bulk-2"
+      }
+    ],
+    "street_address_claims": [],
+    "legacy_address_claims": [],
+    "geography_limitation": "Current source claims; no historical address interval or football home-town/legal-address equivalence established."
+  },
+  {
+    "ground_id": "griffin-park",
+    "name": "Griffin Park",
+    "wikidata_id": "Q1546623",
+    "source_id": "wikidata-Q1546623",
+    "claim_id": "q1546623$4E3DF11C-4FD1-4461-AABB-58ED3B798D48",
+    "latitude": 51.488167,
+    "longitude": -0.302639,
+    "source_coordinate_precision": 1e-05,
+    "precision_interpretation": "Raw Wikidata precision, not independently verified survey accuracy.",
+    "globe": "http://www.wikidata.org/entity/Q2",
+    "point_meaning": "Stadium reference point, not verified pitch centre, entrance or survey point.",
+    "source_rank": "normal",
+    "source_reference_count": 1,
+    "observed_at": "2026-10-17",
+    "locality": null,
+    "address": null,
+    "region": null,
+    "administrative_area_claims": [
+      {
+        "value": {
+          "entity-type": "item",
+          "numeric-id": 1013528,
+          "id": "Q1013528"
+        },
+        "claim_id": "Q1546623$F76BEE27-AFEE-4393-A1B9-44C60A92E6CE",
+        "source_id": "wikidata-Q1546623",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "label": "Brentford",
+        "label_source_id": "wikidata-bulk-2"
+      }
+    ],
+    "country_claims": [
+      {
+        "value": {
+          "entity-type": "item",
+          "numeric-id": 145,
+          "id": "Q145"
+        },
+        "claim_id": "Q1546623$FF4A5046-2D0A-4A8A-8A2C-311C4BB36945",
+        "source_id": "wikidata-Q1546623",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "label": "United Kingdom",
+        "label_source_id": "wikidata-bulk-2"
+      }
+    ],
+    "location_claims": [],
+    "street_address_claims": [],
+    "legacy_address_claims": [],
+    "geography_limitation": "Current source claims; no historical address interval or football home-town/legal-address equivalence established."
+  },
+  {
+    "ground_id": "emirates-stadium",
+    "name": "Emirates Stadium",
+    "wikidata_id": "Q163995",
+    "source_id": "wikidata-Q163995",
+    "claim_id": "q163995$CDADF725-FC93-456D-990F-77807C009A91",
+    "latitude": 51.555,
+    "longitude": -0.10833333333333334,
+    "source_coordinate_precision": 0.0002777777777777778,
+    "precision_interpretation": "Raw Wikidata precision, not independently verified survey accuracy.",
+    "globe": "http://www.wikidata.org/entity/Q2",
+    "point_meaning": "Stadium reference point, not verified pitch centre, entrance or survey point.",
+    "source_rank": "normal",
+    "source_reference_count": 0,
+    "observed_at": "2026-10-17",
+    "locality": null,
+    "address": null,
+    "region": null,
+    "administrative_area_claims": [
+      {
+        "value": {
+          "entity-type": "item",
+          "numeric-id": 205817,
+          "id": "Q205817"
+        },
+        "claim_id": "q163995$666770B2-2B56-47F3-BACE-EABE296127B8",
+        "source_id": "wikidata-Q163995",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "label": "London Borough of Islington",
+        "label_source_id": "wikidata-bulk-2"
+      }
+    ],
+    "country_claims": [
+      {
+        "value": {
+          "entity-type": "item",
+          "numeric-id": 145,
+          "id": "Q145"
+        },
+        "claim_id": "Q163995$CB09721F-F868-4153-A461-F82543C4B62E",
+        "source_id": "wikidata-Q163995",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "label": "United Kingdom",
+        "label_source_id": "wikidata-bulk-2"
+      }
+    ],
+    "location_claims": [
+      {
+        "value": {
+          "entity-type": "item",
+          "numeric-id": 124308,
+          "id": "Q124308"
+        },
+        "claim_id": "Q163995$0194C992-7490-4F41-AB18-CCCF128F9920",
+        "source_id": "wikidata-Q163995",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "label": "Holloway",
+        "label_source_id": "wikidata-bulk-2"
+      }
+    ],
+    "street_address_claims": [
+      {
+        "value": {
+          "text": "Hornsey Rd, London N7 7AJ",
+          "language": "en"
+        },
+        "claim_id": "Q163995$b57bc1b6-4c76-79ce-4d51-668eb5b8b1a1",
+        "source_id": "wikidata-Q163995",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "label": null
+      }
+    ],
+    "legacy_address_claims": [],
+    "geography_limitation": "Current source claims; no historical address interval or football home-town/legal-address equivalence established."
+  },
+  {
+    "ground_id": "london-stadium",
+    "name": "London Stadium",
+    "wikidata_id": "Q172190",
+    "source_id": "wikidata-Q172190",
+    "claim_id": "q172190$15757622-83DA-485C-BBFA-87453A43CACE",
+    "latitude": 51.538611111111,
+    "longitude": -0.016388888888889,
+    "source_coordinate_precision": 0.00027777777777778,
+    "precision_interpretation": "Raw Wikidata precision, not independently verified survey accuracy.",
+    "globe": "http://www.wikidata.org/entity/Q2",
+    "point_meaning": "Stadium reference point, not verified pitch centre, entrance or survey point.",
+    "source_rank": "normal",
+    "source_reference_count": 1,
+    "observed_at": "2026-10-17",
+    "locality": null,
+    "address": null,
+    "region": null,
+    "administrative_area_claims": [
+      {
+        "value": {
+          "entity-type": "item",
+          "numeric-id": 676136,
+          "id": "Q676136"
+        },
+        "claim_id": "Q172190$EFADBF54-FA19-451B-B13B-8707FC2BF782",
+        "source_id": "wikidata-Q172190",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "label": "Stratford",
+        "label_source_id": "wikidata-bulk-2"
+      }
+    ],
+    "country_claims": [
+      {
+        "value": {
+          "entity-type": "item",
+          "numeric-id": 145,
+          "id": "Q145"
+        },
+        "claim_id": "q172190$970F7C2F-5450-41C8-B3B7-1FB026E470AF",
+        "source_id": "wikidata-Q172190",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "label": "United Kingdom",
+        "label_source_id": "wikidata-bulk-2"
+      }
+    ],
+    "location_claims": [
+      {
+        "value": {
+          "entity-type": "item",
+          "numeric-id": 84,
+          "id": "Q84"
+        },
+        "claim_id": "Q172190$A05D64E3-B1ED-45A6-8B3F-0B04B722F9D3",
+        "source_id": "wikidata-Q172190",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "label": "London",
+        "label_source_id": "wikidata-bulk-3"
+      }
+    ],
+    "street_address_claims": [
+      {
+        "value": {
+          "text": "Queen Elizabeth Olympic Park, London, UK E20 2ST",
+          "language": "en"
+        },
+        "claim_id": "Q172190$4a297c7a-49be-75ab-a909-1a17fa28e4f3",
+        "source_id": "wikidata-Q172190",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "label": null
+      }
+    ],
+    "legacy_address_claims": [],
+    "geography_limitation": "Current source claims; no historical address interval or football home-town/legal-address equivalence established."
+  },
+  {
+    "ground_id": "villa-park",
+    "name": "Villa Park",
+    "wikidata_id": "Q175339",
+    "source_id": "wikidata-Q175339",
+    "claim_id": "q175339$9B92BB6D-E267-4F03-9F20-A00E26827196",
+    "latitude": 52.509166666667,
+    "longitude": -1.8847222222222,
+    "source_coordinate_precision": null,
+    "precision_interpretation": "Raw Wikidata precision, not independently verified survey accuracy.",
+    "globe": "http://www.wikidata.org/entity/Q2",
+    "point_meaning": "Stadium reference point, not verified pitch centre, entrance or survey point.",
+    "source_rank": "normal",
+    "source_reference_count": 0,
+    "observed_at": "2026-10-17",
+    "locality": null,
+    "address": null,
+    "region": null,
+    "administrative_area_claims": [
+      {
+        "value": {
+          "entity-type": "item",
+          "numeric-id": 2256,
+          "id": "Q2256"
+        },
+        "claim_id": "Q175339$E0105FFD-020D-4E75-B582-23713C76B0B1",
+        "source_id": "wikidata-Q175339",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "label": "Birmingham",
+        "label_source_id": "wikidata-bulk-2"
+      }
+    ],
+    "country_claims": [
+      {
+        "value": {
+          "entity-type": "item",
+          "numeric-id": 145,
+          "id": "Q145"
+        },
+        "claim_id": "Q175339$31B64FA7-2B7C-482A-A335-00623C22C2F9",
+        "source_id": "wikidata-Q175339",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "label": "United Kingdom",
+        "label_source_id": "wikidata-bulk-2"
+      }
+    ],
+    "location_claims": [],
+    "street_address_claims": [
+      {
+        "value": {
+          "text": "Trinity Road, Birmingham, B6 6HE",
+          "language": "en"
+        },
+        "claim_id": "Q175339$9B85E009-AE9B-4879-A4B4-F79B5E0E86A5",
+        "source_id": "wikidata-Q175339",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "label": null
+      }
+    ],
+    "legacy_address_claims": [],
+    "geography_limitation": "Current source claims; no historical address interval or football home-town/legal-address equivalence established."
+  },
+  {
+    "ground_id": "white-hart-lane",
+    "name": "White Hart Lane",
+    "wikidata_id": "Q186425",
+    "source_id": "wikidata-Q186425",
+    "claim_id": "q186425$A577DEBD-8435-4607-90A0-1DFE5CE9E6CC",
+    "latitude": 51.603333333333,
+    "longitude": -0.065833333333333,
+    "source_coordinate_precision": null,
+    "precision_interpretation": "Raw Wikidata precision, not independently verified survey accuracy.",
+    "globe": "http://www.wikidata.org/entity/Q2",
+    "point_meaning": "Stadium reference point, not verified pitch centre, entrance or survey point.",
+    "source_rank": "normal",
+    "source_reference_count": 0,
+    "observed_at": "2026-10-17",
+    "locality": null,
+    "address": null,
+    "region": null,
+    "administrative_area_claims": [
+      {
+        "value": {
+          "entity-type": "item",
+          "numeric-id": 503375,
+          "id": "Q503375"
+        },
+        "claim_id": "Q186425$D69B2F0F-B751-4255-8C09-23BEBD367B61",
+        "source_id": "wikidata-Q186425",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "label": "Tottenham",
+        "label_source_id": "wikidata-bulk-2"
+      }
+    ],
+    "country_claims": [
+      {
+        "value": {
+          "entity-type": "item",
+          "numeric-id": 145,
+          "id": "Q145"
+        },
+        "claim_id": "Q186425$569DDF86-54AA-48F9-B9EF-84A7783825C4",
+        "source_id": "wikidata-Q186425",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "label": "United Kingdom",
+        "label_source_id": "wikidata-bulk-2"
+      }
+    ],
+    "location_claims": [
+      {
+        "value": {
+          "entity-type": "item",
+          "numeric-id": 503375,
+          "id": "Q503375"
+        },
+        "claim_id": "Q186425$0D20ED03-C238-4067-A605-BF28FBE8BA96",
+        "source_id": "wikidata-Q186425",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "label": "Tottenham",
+        "label_source_id": "wikidata-bulk-2"
+      }
+    ],
+    "street_address_claims": [],
+    "legacy_address_claims": [],
+    "geography_limitation": "Current source claims; no historical address interval or football home-town/legal-address equivalence established."
+  },
+  {
+    "ground_id": "hill-dickinson-stadium",
+    "name": "Hill Dickinson Stadium",
+    "wikidata_id": "Q29347805",
+    "source_id": "wikidata-Q29347805",
+    "claim_id": "Q29347805$C34745F9-6975-4E50-8437-D7D298A12E06",
+    "latitude": 53.425,
+    "longitude": -3.0027777777777778,
+    "source_coordinate_precision": 0.0002777777777777778,
+    "precision_interpretation": "Raw Wikidata precision, not independently verified survey accuracy.",
+    "globe": "http://www.wikidata.org/entity/Q2",
+    "point_meaning": "Stadium reference point, not verified pitch centre, entrance or survey point.",
+    "source_rank": "normal",
+    "source_reference_count": 1,
+    "observed_at": "2026-10-17",
+    "locality": null,
+    "address": null,
+    "region": null,
+    "administrative_area_claims": [
+      {
+        "value": {
+          "entity-type": "item",
+          "numeric-id": 1309863,
+          "id": "Q1309863"
+        },
+        "claim_id": "Q29347805$4e94bb5f-432e-a563-4aff-415f1674bdb1",
+        "source_id": "wikidata-Q29347805",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "label": "City of Liverpool",
+        "label_source_id": "wikidata-bulk-2"
+      }
+    ],
+    "country_claims": [
+      {
+        "value": {
+          "entity-type": "item",
+          "numeric-id": 145,
+          "id": "Q145"
+        },
+        "claim_id": "Q29347805$4FB53EE9-4690-4698-A4CC-B47D88DA4F93",
+        "source_id": "wikidata-Q29347805",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "label": "United Kingdom",
+        "label_source_id": "wikidata-bulk-2"
+      }
+    ],
+    "location_claims": [
+      {
+        "value": {
+          "entity-type": "item",
+          "numeric-id": 4956188,
+          "id": "Q4956188"
+        },
+        "claim_id": "Q29347805$8B6FA80C-BF85-478F-B4A1-75F9C837AE8D",
+        "source_id": "wikidata-Q29347805",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "label": "Bramley-Moore Dock",
+        "label_source_id": "wikidata-bulk-2"
+      }
+    ],
+    "street_address_claims": [
+      {
+        "value": {
+          "text": "Bramley-Moore Dock, Liverpool, L3 0AP",
+          "language": "en"
+        },
+        "claim_id": "Q29347805$b84f8a34-4d3d-c78d-e1fd-eaf249aaa98f",
+        "source_id": "wikidata-Q29347805",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "label": null
+      }
+    ],
+    "legacy_address_claims": [],
+    "geography_limitation": "Current source claims; no historical address interval or football home-town/legal-address equivalence established."
+  },
+  {
+    "ground_id": "boleyn-ground",
+    "name": "Boleyn Ground",
+    "wikidata_id": "Q330731",
+    "source_id": "wikidata-Q330731",
+    "claim_id": "q330731$8B998D8B-12DB-4CB8-8388-837AE4B2E662",
+    "latitude": 51.531944444444,
+    "longitude": 0.039444444444444,
+    "source_coordinate_precision": null,
+    "precision_interpretation": "Raw Wikidata precision, not independently verified survey accuracy.",
+    "globe": "http://www.wikidata.org/entity/Q2",
+    "point_meaning": "Stadium reference point, not verified pitch centre, entrance or survey point.",
+    "source_rank": "normal",
+    "source_reference_count": 0,
+    "observed_at": "2026-10-17",
+    "locality": null,
+    "address": null,
+    "region": null,
+    "administrative_area_claims": [
+      {
+        "value": {
+          "entity-type": "item",
+          "numeric-id": 7899393,
+          "id": "Q7899393"
+        },
+        "claim_id": "Q330731$84DAFA32-AF88-4145-9E8A-9317E42C8B13",
+        "source_id": "wikidata-Q330731",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "label": "Upton Park",
+        "label_source_id": "wikidata-bulk-3"
+      }
+    ],
+    "country_claims": [
+      {
+        "value": {
+          "entity-type": "item",
+          "numeric-id": 145,
+          "id": "Q145"
+        },
+        "claim_id": "Q330731$2CB9F8F0-D42B-44B6-BE1F-E0F7C49296BA",
+        "source_id": "wikidata-Q330731",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "label": "United Kingdom",
+        "label_source_id": "wikidata-bulk-2"
+      }
+    ],
+    "location_claims": [
+      {
+        "value": {
+          "entity-type": "item",
+          "numeric-id": 7899393,
+          "id": "Q7899393"
+        },
+        "claim_id": "Q330731$11C08545-7F51-49B6-984B-2BAEE42F5BB4",
+        "source_id": "wikidata-Q330731",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "label": "Upton Park",
+        "label_source_id": "wikidata-bulk-3"
+      }
+    ],
+    "street_address_claims": [],
+    "legacy_address_claims": [],
+    "geography_limitation": "Current source claims; no historical address interval or football home-town/legal-address equivalence established."
+  },
+  {
+    "ground_id": "tottenham-hotspur-stadium",
+    "name": "Tottenham Hotspur Stadium",
+    "wikidata_id": "Q55074091",
+    "source_id": "wikidata-Q55074091",
+    "claim_id": "Q55074091$e11c30d8-4e0e-367f-4bb5-247313e0309f",
+    "latitude": 51.604444444444,
+    "longitude": -0.066388888888889,
+    "source_coordinate_precision": 0.00027777777777778,
+    "precision_interpretation": "Raw Wikidata precision, not independently verified survey accuracy.",
+    "globe": "http://www.wikidata.org/entity/Q2",
+    "point_meaning": "Stadium reference point, not verified pitch centre, entrance or survey point.",
+    "source_rank": "normal",
+    "source_reference_count": 0,
+    "observed_at": "2026-10-17",
+    "locality": null,
+    "address": null,
+    "region": null,
+    "administrative_area_claims": [
+      {
+        "value": {
+          "entity-type": "item",
+          "numeric-id": 503375,
+          "id": "Q503375"
+        },
+        "claim_id": "Q55074091$87601401-4cb3-3dae-4508-478efbb1f335",
+        "source_id": "wikidata-Q55074091",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "label": "Tottenham",
+        "label_source_id": "wikidata-bulk-2"
+      }
+    ],
+    "country_claims": [
+      {
+        "value": {
+          "entity-type": "item",
+          "numeric-id": 145,
+          "id": "Q145"
+        },
+        "claim_id": "Q55074091$c045181b-4601-0ff1-fa57-5a5352dc4087",
+        "source_id": "wikidata-Q55074091",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "label": "United Kingdom",
+        "label_source_id": "wikidata-bulk-2"
+      }
+    ],
+    "location_claims": [
+      {
+        "value": {
+          "entity-type": "item",
+          "numeric-id": 503375,
+          "id": "Q503375"
+        },
+        "claim_id": "Q55074091$00B19533-6A44-4DAA-83DC-E0E9B451E7AB",
+        "source_id": "wikidata-Q55074091",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "label": "Tottenham",
+        "label_source_id": "wikidata-bulk-2"
+      }
+    ],
+    "street_address_claims": [
+      {
+        "value": {
+          "text": "Bill Nicholson Way, 748 High Road Tottenham",
+          "language": "en"
+        },
+        "claim_id": "Q55074091$bd0f7c2b-4192-fae3-f280-3caa1a2f05da",
+        "source_id": "wikidata-Q55074091",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "label": null
+      }
+    ],
+    "legacy_address_claims": [],
+    "geography_limitation": "Current source claims; no historical address interval or football home-town/legal-address equivalence established."
+  },
+  {
+    "ground_id": "dean-court",
+    "name": "Dean Court",
+    "wikidata_id": "Q619094",
+    "source_id": "wikidata-Q619094",
+    "claim_id": "q619094$28DCCA9E-CF78-417C-8E63-546F68D8BB12",
+    "latitude": 50.735278,
+    "longitude": -1.838333,
+    "source_coordinate_precision": 0.0001,
+    "precision_interpretation": "Raw Wikidata precision, not independently verified survey accuracy.",
+    "globe": "http://www.wikidata.org/entity/Q2",
+    "point_meaning": "Stadium reference point, not verified pitch centre, entrance or survey point.",
+    "source_rank": "normal",
+    "source_reference_count": 1,
+    "observed_at": "2026-10-17",
+    "locality": null,
+    "address": null,
+    "region": null,
+    "administrative_area_claims": [
+      {
+        "value": {
+          "entity-type": "item",
+          "numeric-id": 170478,
+          "id": "Q170478"
+        },
+        "claim_id": "Q619094$991778E7-4549-4878-9738-BF9690CADF7B",
+        "source_id": "wikidata-Q619094",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "label": "Bournemouth",
+        "label_source_id": "wikidata-bulk-2"
+      }
+    ],
+    "country_claims": [
+      {
+        "value": {
+          "entity-type": "item",
+          "numeric-id": 145,
+          "id": "Q145"
+        },
+        "claim_id": "Q619094$090E331B-8D54-4E92-A66F-2A92BD8C5358",
+        "source_id": "wikidata-Q619094",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "label": "United Kingdom",
+        "label_source_id": "wikidata-bulk-2"
+      }
+    ],
+    "location_claims": [
+      {
+        "value": {
+          "entity-type": "item",
+          "numeric-id": 20712059,
+          "id": "Q20712059"
+        },
+        "claim_id": "Q619094$E8B589F3-7F34-4FE0-B320-9F4A80C0EBCC",
+        "source_id": "wikidata-Q619094",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "label": "Kings Park, Boscombe",
+        "label_source_id": "wikidata-bulk-2"
+      }
+    ],
+    "street_address_claims": [],
+    "legacy_address_claims": [],
+    "geography_limitation": "Current source claims; no historical address interval or football home-town/legal-address equivalence established."
+  },
+  {
+    "ground_id": "brighton-community-stadium",
+    "name": "Brighton Community Stadium",
+    "wikidata_id": "Q619409",
+    "source_id": "wikidata-Q619409",
+    "claim_id": "q619409$017A18F7-853C-4615-84FE-9E7A4A14B99E",
+    "latitude": 50.861822222222,
+    "longitude": -0.083277777777778,
+    "source_coordinate_precision": null,
+    "precision_interpretation": "Raw Wikidata precision, not independently verified survey accuracy.",
+    "globe": "http://www.wikidata.org/entity/Q2",
+    "point_meaning": "Stadium reference point, not verified pitch centre, entrance or survey point.",
+    "source_rank": "normal",
+    "source_reference_count": 0,
+    "observed_at": "2026-10-17",
+    "locality": null,
+    "address": null,
+    "region": null,
+    "administrative_area_claims": [
+      {
+        "value": {
+          "entity-type": "item",
+          "numeric-id": 56573534,
+          "id": "Q56573534"
+        },
+        "claim_id": "Q619409$69620EFB-D189-4DD4-BEDC-6679F84B1479",
+        "source_id": "wikidata-Q619409",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "label": "Moulsecoomb and Bevendean",
+        "label_source_id": "wikidata-bulk-2"
+      }
+    ],
+    "country_claims": [
+      {
+        "value": {
+          "entity-type": "item",
+          "numeric-id": 145,
+          "id": "Q145"
+        },
+        "claim_id": "Q619409$E63E4775-272C-48E2-BEDE-9182A03EDD13",
+        "source_id": "wikidata-Q619409",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "label": "United Kingdom",
+        "label_source_id": "wikidata-bulk-2"
+      }
+    ],
+    "location_claims": [
+      {
+        "value": {
+          "entity-type": "item",
+          "numeric-id": 1005234,
+          "id": "Q1005234"
+        },
+        "claim_id": "Q619409$1388FAE5-C617-47B2-9938-CE6A9E7BADA5",
+        "source_id": "wikidata-Q619409",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "label": "Falmer",
+        "label_source_id": "wikidata-bulk-2"
+      }
+    ],
+    "street_address_claims": [
+      {
+        "value": {
+          "text": "Village Way, Brighton BN1 9BL",
+          "language": "en"
+        },
+        "claim_id": "Q619409$7e543cd1-4a01-db11-a648-df8bbd75865a",
+        "source_id": "wikidata-Q619409",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "label": null
+      }
+    ],
+    "legacy_address_claims": [],
+    "geography_limitation": "Current source claims; no historical address interval or football home-town/legal-address equivalence established."
+  },
+  {
+    "ground_id": "turf-moor",
+    "name": "Turf Moor",
+    "wikidata_id": "Q683112",
+    "source_id": "wikidata-Q683112",
+    "claim_id": "q683112$22AB8DC2-ED86-4060-A56A-FE48042382BE",
+    "latitude": 53.789064,
+    "longitude": -2.230225,
+    "source_coordinate_precision": 1e-05,
+    "precision_interpretation": "Raw Wikidata precision, not independently verified survey accuracy.",
+    "globe": "http://www.wikidata.org/entity/Q2",
+    "point_meaning": "Stadium reference point, not verified pitch centre, entrance or survey point.",
+    "source_rank": "normal",
+    "source_reference_count": 1,
+    "observed_at": "2026-10-17",
+    "locality": null,
+    "address": null,
+    "region": null,
+    "administrative_area_claims": [
+      {
+        "value": {
+          "entity-type": "item",
+          "numeric-id": 209096,
+          "id": "Q209096"
+        },
+        "claim_id": "Q683112$8bb6c66b-4db0-cbea-03b5-ecb43997d2ea",
+        "source_id": "wikidata-Q683112",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "label": "Burnley",
+        "label_source_id": "wikidata-bulk-2"
+      }
+    ],
+    "country_claims": [
+      {
+        "value": {
+          "entity-type": "item",
+          "numeric-id": 145,
+          "id": "Q145"
+        },
+        "claim_id": "Q683112$14892462-72D7-430B-82F8-DDA81BF29C82",
+        "source_id": "wikidata-Q683112",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "label": "United Kingdom",
+        "label_source_id": "wikidata-bulk-2"
+      }
+    ],
+    "location_claims": [],
+    "street_address_claims": [],
+    "legacy_address_claims": [],
+    "geography_limitation": "Current source claims; no historical address interval or football home-town/legal-address equivalence established."
+  },
+  {
+    "ground_id": "coventry-building-society-arena",
+    "name": "Coventry Building Society Arena",
+    "wikidata_id": "Q842077",
+    "source_id": "wikidata-Q842077",
+    "claim_id": "q842077$B73BB4EB-CC81-422C-8E6B-7E66AF862FBB",
+    "latitude": 52.448056,
+    "longitude": -1.495556,
+    "source_coordinate_precision": 1e-05,
+    "precision_interpretation": "Raw Wikidata precision, not independently verified survey accuracy.",
+    "globe": "http://www.wikidata.org/entity/Q2",
+    "point_meaning": "Stadium reference point, not verified pitch centre, entrance or survey point.",
+    "source_rank": "normal",
+    "source_reference_count": 1,
+    "observed_at": "2026-10-17",
+    "locality": null,
+    "address": null,
+    "region": null,
+    "administrative_area_claims": [
+      {
+        "value": {
+          "entity-type": "item",
+          "numeric-id": 6225,
+          "id": "Q6225"
+        },
+        "claim_id": "Q842077$619ED824-3EB7-488B-87E2-B20EA1615DFB",
+        "source_id": "wikidata-Q842077",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "label": "Coventry",
+        "label_source_id": "wikidata-bulk-2"
+      }
+    ],
+    "country_claims": [
+      {
+        "value": {
+          "entity-type": "item",
+          "numeric-id": 145,
+          "id": "Q145"
+        },
+        "claim_id": "Q842077$04A6CDBE-5943-41F5-A05C-DB5C18ACBE43",
+        "source_id": "wikidata-Q842077",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "label": "United Kingdom",
+        "label_source_id": "wikidata-bulk-2"
+      }
+    ],
+    "location_claims": [],
+    "street_address_claims": [],
+    "legacy_address_claims": [],
+    "geography_limitation": "Current source claims; no historical address interval or football home-town/legal-address equivalence established."
+  },
+  {
+    "ground_id": "goodison-park",
+    "name": "Goodison Park",
+    "wikidata_id": "Q968420",
+    "source_id": "wikidata-Q968420",
+    "claim_id": "q968420$973DBA30-E300-4B03-86EC-AC1EF5DC1622",
+    "latitude": 53.43888888888889,
+    "longitude": -2.966388888888889,
+    "source_coordinate_precision": 0.0002777777777777778,
+    "precision_interpretation": "Raw Wikidata precision, not independently verified survey accuracy.",
+    "globe": "http://www.wikidata.org/entity/Q2",
+    "point_meaning": "Stadium reference point, not verified pitch centre, entrance or survey point.",
+    "source_rank": "normal",
+    "source_reference_count": 0,
+    "observed_at": "2026-10-17",
+    "locality": null,
+    "address": null,
+    "region": null,
+    "administrative_area_claims": [
+      {
+        "value": {
+          "entity-type": "item",
+          "numeric-id": 21665571,
+          "id": "Q21665571"
+        },
+        "claim_id": "Q968420$C058417C-4955-4F8B-8D8E-C8806A568FAC",
+        "source_id": "wikidata-Q968420",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "label": "Liverpool",
+        "label_source_id": "wikidata-bulk-2"
+      }
+    ],
+    "country_claims": [
+      {
+        "value": {
+          "entity-type": "item",
+          "numeric-id": 145,
+          "id": "Q145"
+        },
+        "claim_id": "Q968420$F8F3B89D-8021-487A-B5D6-14926E92F853",
+        "source_id": "wikidata-Q968420",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "label": "United Kingdom",
+        "label_source_id": "wikidata-bulk-2"
+      }
+    ],
+    "location_claims": [],
+    "street_address_claims": [],
+    "legacy_address_claims": [],
+    "geography_limitation": "Current source claims; no historical address interval or football home-town/legal-address equivalence established."
+  },
+  {
+    "ground_id": "vicarage-road",
+    "name": "Vicarage Road",
+    "wikidata_id": "Q10626",
+    "source_id": "wikidata-Q10626",
+    "claim_id": "q10626$E1765455-9607-4A7C-8C28-C8E5275E007B",
+    "latitude": 51.649928,
+    "longitude": -0.401606,
+    "source_coordinate_precision": 1e-05,
+    "precision_interpretation": "Raw source precision, not verified survey accuracy.",
+    "globe": "http://www.wikidata.org/entity/Q2",
+    "point_meaning": "Stadium reference point, not verified pitch centre, entrance or survey point.",
+    "source_rank": "normal",
+    "source_reference_count": 1,
+    "observed_at": "2026-10-17",
+    "locality": null,
+    "address": null,
+    "region": null,
+    "administrative_area_claims": [
+      {
+        "value": {
+          "entity-type": "item",
+          "numeric-id": 2598,
+          "id": "Q2598"
+        },
+        "claim_id": "Q10626$C794F273-E45A-43F0-ABFC-14554B3691B1",
+        "source_id": "wikidata-Q10626",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "label": "Watford",
+        "label_source_id": "wikidata-bulk-2"
+      }
+    ],
+    "country_claims": [
+      {
+        "value": {
+          "entity-type": "item",
+          "numeric-id": 145,
+          "id": "Q145"
+        },
+        "claim_id": "Q10626$F1C982C0-8004-400F-A799-AB44CFC711E8",
+        "source_id": "wikidata-Q10626",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "label": "United Kingdom",
+        "label_source_id": "wikidata-bulk-2"
+      }
+    ],
+    "location_claims": [],
+    "street_address_claims": [],
+    "legacy_address_claims": [],
+    "geography_limitation": "Current source claims; no historical address interval or football home-town/legal-address equivalence established."
+  },
+  {
+    "ground_id": "carrow-road",
+    "name": "Carrow Road",
+    "wikidata_id": "Q123017",
+    "source_id": "wikidata-Q123017",
+    "claim_id": "q123017$9E0C5A64-897C-4CF5-B16D-E3D9F986BDCF",
+    "latitude": 52.62222222222222,
+    "longitude": 1.3091666666666666,
+    "source_coordinate_precision": 0.0002777777777777778,
+    "precision_interpretation": "Raw source precision, not verified survey accuracy.",
+    "globe": "http://www.wikidata.org/entity/Q2",
+    "point_meaning": "Stadium reference point, not verified pitch centre, entrance or survey point.",
+    "source_rank": "normal",
+    "source_reference_count": 1,
+    "observed_at": "2026-10-17",
+    "locality": null,
+    "address": null,
+    "region": null,
+    "administrative_area_claims": [
+      {
+        "value": {
+          "entity-type": "item",
+          "numeric-id": 130191,
+          "id": "Q130191"
+        },
+        "claim_id": "Q123017$71325268-E064-4F17-89DC-EEA16E469499",
+        "source_id": "wikidata-Q123017",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "label": "Norwich",
+        "label_source_id": "wikidata-bulk-2"
+      }
+    ],
+    "country_claims": [
+      {
+        "value": {
+          "entity-type": "item",
+          "numeric-id": 145,
+          "id": "Q145"
+        },
+        "claim_id": "Q123017$98675B5C-7EF4-4509-AD7D-0CBC3EAD198B",
+        "source_id": "wikidata-Q123017",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "label": "United Kingdom",
+        "label_source_id": "wikidata-bulk-2"
+      }
+    ],
+    "location_claims": [],
+    "street_address_claims": [],
+    "legacy_address_claims": [],
+    "geography_limitation": "Current source claims; no historical address interval or football home-town/legal-address equivalence established."
+  },
+  {
+    "ground_id": "st-james-park",
+    "name": "St James’ Park",
+    "wikidata_id": "Q191774",
+    "source_id": "wikidata-Q191774",
+    "claim_id": "q191774$016B5C47-4077-49AB-997D-79A0EF2E2660",
+    "latitude": 54.975555555556,
+    "longitude": -1.6216666666667,
+    "source_coordinate_precision": null,
+    "precision_interpretation": "Raw source precision, not verified survey accuracy.",
+    "globe": "http://www.wikidata.org/entity/Q2",
+    "point_meaning": "Stadium reference point, not verified pitch centre, entrance or survey point.",
+    "source_rank": "normal",
+    "source_reference_count": 0,
+    "observed_at": "2026-10-17",
+    "locality": null,
+    "address": null,
+    "region": null,
+    "administrative_area_claims": [
+      {
+        "value": {
+          "entity-type": "item",
+          "numeric-id": 21012735,
+          "id": "Q21012735"
+        },
+        "claim_id": "Q191774$3750F470-7341-4C59-9ED1-06DFAB88A667",
+        "source_id": "wikidata-Q191774",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "label": "Newcastle upon Tyne",
+        "label_source_id": "wikidata-bulk-2"
+      }
+    ],
+    "country_claims": [
+      {
+        "value": {
+          "entity-type": "item",
+          "numeric-id": 145,
+          "id": "Q145"
+        },
+        "claim_id": "Q191774$BE136DE3-F7A3-4319-BB7A-388CE8C3CD5A",
+        "source_id": "wikidata-Q191774",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "label": "United Kingdom",
+        "label_source_id": "wikidata-bulk-2"
+      }
+    ],
+    "location_claims": [
+      {
+        "value": {
+          "entity-type": "item",
+          "numeric-id": 1425428,
+          "id": "Q1425428"
+        },
+        "claim_id": "Q191774$C403EC71-5B8B-4D3F-80D6-116CBF79F579",
+        "source_id": "wikidata-Q191774",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "label": "Newcastle upon Tyne",
+        "label_source_id": "wikidata-bulk-2"
+      }
+    ],
+    "street_address_claims": [
+      {
+        "value": {
+          "text": "Strawberry Place, Newcastle upon Tyne NE1 4ST",
+          "language": "en"
+        },
+        "claim_id": "Q191774$746889bf-4ce8-268f-8c75-39226ce15e7c",
+        "source_id": "wikidata-Q191774",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "label": null
+      }
+    ],
+    "legacy_address_claims": [],
+    "geography_limitation": "Current source claims; no historical address interval or football home-town/legal-address equivalence established."
+  },
+  {
+    "ground_id": "the-hawthorns",
+    "name": "The Hawthorns",
+    "wikidata_id": "Q31678",
+    "source_id": "wikidata-Q31678",
+    "claim_id": "q31678$2A1C0AF8-4299-43BA-8828-3D69CCF4C231",
+    "latitude": 52.509166666667,
+    "longitude": -1.9638888888889,
+    "source_coordinate_precision": null,
+    "precision_interpretation": "Raw source precision, not verified survey accuracy.",
+    "globe": "http://www.wikidata.org/entity/Q2",
+    "point_meaning": "Stadium reference point, not verified pitch centre, entrance or survey point.",
+    "source_rank": "normal",
+    "source_reference_count": 0,
+    "observed_at": "2026-10-17",
+    "locality": null,
+    "address": null,
+    "region": null,
+    "administrative_area_claims": [
+      {
+        "value": {
+          "entity-type": "item",
+          "numeric-id": 212826,
+          "id": "Q212826"
+        },
+        "claim_id": "Q31678$10A1C749-F596-4EE2-8714-C9F63C4D3C04",
+        "source_id": "wikidata-Q31678",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "label": "West Bromwich",
+        "label_source_id": "wikidata-bulk-2"
+      }
+    ],
+    "country_claims": [
+      {
+        "value": {
+          "entity-type": "item",
+          "numeric-id": 145,
+          "id": "Q145"
+        },
+        "claim_id": "Q31678$9F9E6363-87F1-4AF8-BB93-F7535A8CAC30",
+        "source_id": "wikidata-Q31678",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "label": "United Kingdom",
+        "label_source_id": "wikidata-bulk-2"
+      }
+    ],
+    "location_claims": [],
+    "street_address_claims": [],
+    "legacy_address_claims": [],
+    "geography_limitation": "Current source claims; no historical address interval or football home-town/legal-address equivalence established."
+  },
+  {
+    "ground_id": "craven-cottage",
+    "name": "Craven Cottage",
+    "wikidata_id": "Q318043",
+    "source_id": "wikidata-Q318043",
+    "claim_id": "q318043$658BA76A-B637-499F-B78B-5630360BE1CA",
+    "latitude": 51.475,
+    "longitude": -0.22166666666667,
+    "source_coordinate_precision": null,
+    "precision_interpretation": "Raw source precision, not verified survey accuracy.",
+    "globe": "http://www.wikidata.org/entity/Q2",
+    "point_meaning": "Stadium reference point, not verified pitch centre, entrance or survey point.",
+    "source_rank": "normal",
+    "source_reference_count": 1,
+    "observed_at": "2026-10-17",
+    "locality": null,
+    "address": null,
+    "region": null,
+    "administrative_area_claims": [
+      {
+        "value": {
+          "entity-type": "item",
+          "numeric-id": 3367868,
+          "id": "Q3367868"
+        },
+        "claim_id": "q318043$0FDF3540-F424-40D4-B66D-2988FD10D48F",
+        "source_id": "wikidata-Q318043",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "label": "Fulham",
+        "label_source_id": "wikidata-bulk-2"
+      }
+    ],
+    "country_claims": [
+      {
+        "value": {
+          "entity-type": "item",
+          "numeric-id": 145,
+          "id": "Q145"
+        },
+        "claim_id": "Q318043$F567050B-6181-4BF6-A030-70E073F56AA1",
+        "source_id": "wikidata-Q318043",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "label": "United Kingdom",
+        "label_source_id": "wikidata-bulk-2"
+      }
+    ],
+    "location_claims": [
+      {
+        "value": {
+          "entity-type": "item",
+          "numeric-id": 3367868,
+          "id": "Q3367868"
+        },
+        "claim_id": "Q318043$F534F12D-E5F5-4DC0-8A2B-95F1F95E2729",
+        "source_id": "wikidata-Q318043",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "label": "Fulham",
+        "label_source_id": "wikidata-bulk-2"
+      }
+    ],
+    "street_address_claims": [],
+    "legacy_address_claims": [],
+    "geography_limitation": "Current source claims; no historical address interval or football home-town/legal-address equivalence established."
+  },
+  {
+    "ground_id": "stadium-of-light",
+    "name": "Stadium of Light",
+    "wikidata_id": "Q31969",
+    "source_id": "wikidata-Q31969",
+    "claim_id": "q31969$8B3533AF-816B-43EE-A32E-6C7C4EEA2E63",
+    "latitude": 54.91442906893247,
+    "longitude": -1.388172971350196,
+    "source_coordinate_precision": 1e-08,
+    "precision_interpretation": "Raw source precision, not verified survey accuracy.",
+    "globe": "http://www.wikidata.org/entity/Q2",
+    "point_meaning": "Stadium reference point, not verified pitch centre, entrance or survey point.",
+    "source_rank": "normal",
+    "source_reference_count": 1,
+    "observed_at": "2026-10-17",
+    "locality": null,
+    "address": null,
+    "region": null,
+    "administrative_area_claims": [
+      {
+        "value": {
+          "entity-type": "item",
+          "numeric-id": 188304,
+          "id": "Q188304"
+        },
+        "claim_id": "Q31969$24FD60A7-F615-417A-A228-DA71EE3DE227",
+        "source_id": "wikidata-Q31969",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "label": "Sunderland",
+        "label_source_id": "wikidata-bulk-2"
+      }
+    ],
+    "country_claims": [
+      {
+        "value": {
+          "entity-type": "item",
+          "numeric-id": 145,
+          "id": "Q145"
+        },
+        "claim_id": "Q31969$2C61F5FF-0404-4121-952C-353EE48C6F10",
+        "source_id": "wikidata-Q31969",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "label": "United Kingdom",
+        "label_source_id": "wikidata-bulk-2"
+      }
+    ],
+    "location_claims": [
+      {
+        "value": {
+          "entity-type": "item",
+          "numeric-id": 188304,
+          "id": "Q188304"
+        },
+        "claim_id": "Q31969$62E64413-4125-46F3-B7AD-C8DF356BC742",
+        "source_id": "wikidata-Q31969",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "label": "Sunderland",
+        "label_source_id": "wikidata-bulk-2"
+      }
+    ],
+    "street_address_claims": [
+      {
+        "value": {
+          "text": "Millennium Way, Monkwearmouth, Sunderland, SR5 1SU",
+          "language": "en"
+        },
+        "claim_id": "Q31969$dcec8e60-4633-20ac-10a3-93c987c36139",
+        "source_id": "wikidata-Q31969",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "label": null
+      }
+    ],
+    "legacy_address_claims": [],
+    "geography_limitation": "Current source claims; no historical address interval or football home-town/legal-address equivalence established."
+  },
+  {
+    "ground_id": "anfield",
+    "name": "Anfield",
+    "wikidata_id": "Q45671",
+    "source_id": "wikidata-Q45671",
+    "claim_id": "q45671$338ECC5A-8FDB-4D48-8171-5A066A97C277",
+    "latitude": 53.43083333333333,
+    "longitude": -2.9608333333333334,
+    "source_coordinate_precision": 0.0002777777777777778,
+    "precision_interpretation": "Raw source precision, not verified survey accuracy.",
+    "globe": "http://www.wikidata.org/entity/Q2",
+    "point_meaning": "Stadium reference point, not verified pitch centre, entrance or survey point.",
+    "source_rank": "normal",
+    "source_reference_count": 0,
+    "observed_at": "2026-10-17",
+    "locality": null,
+    "address": null,
+    "region": null,
+    "administrative_area_claims": [
+      {
+        "value": {
+          "entity-type": "item",
+          "numeric-id": 769186,
+          "id": "Q769186"
+        },
+        "claim_id": "Q45671$ef26b178-4b1a-e134-31fe-84d67a20b2be",
+        "source_id": "wikidata-Q45671",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "label": "Anfield",
+        "label_source_id": "wikidata-bulk-2"
+      },
+      {
+        "value": {
+          "entity-type": "item",
+          "numeric-id": 21665571,
+          "id": "Q21665571"
+        },
+        "claim_id": "Q45671$46f95359-4184-8aa2-7caa-94d80f733fc7",
+        "source_id": "wikidata-Q45671",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "label": "Liverpool",
+        "label_source_id": "wikidata-bulk-2"
+      }
+    ],
+    "country_claims": [
+      {
+        "value": {
+          "entity-type": "item",
+          "numeric-id": 145,
+          "id": "Q145"
+        },
+        "claim_id": "q45671$30262B18-2C22-41FB-9EB9-9D8DC31D12EB",
+        "source_id": "wikidata-Q45671",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "label": "United Kingdom",
+        "label_source_id": "wikidata-bulk-2"
+      }
+    ],
+    "location_claims": [
+      {
+        "value": {
+          "entity-type": "item",
+          "numeric-id": 24826,
+          "id": "Q24826"
+        },
+        "claim_id": "Q45671$f7eeb05a-40e3-1175-39eb-f0fabb299c36",
+        "source_id": "wikidata-Q45671",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "label": "Liverpool",
+        "label_source_id": "wikidata-bulk-2"
+      }
+    ],
+    "street_address_claims": [
+      {
+        "value": {
+          "text": "Anfield Road, Liverpool L4 0TH",
+          "language": "en"
+        },
+        "claim_id": "Q45671$8aca7582-49f7-c81f-e335-6ef5fbb45655",
+        "source_id": "wikidata-Q45671",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "label": null
+      }
+    ],
+    "legacy_address_claims": [],
+    "geography_limitation": "Current source claims; no historical address interval or football home-town/legal-address equivalence established."
+  },
+  {
+    "ground_id": "etihad-stadium",
+    "name": "Etihad Stadium",
+    "wikidata_id": "Q48159",
+    "source_id": "wikidata-Q48159",
+    "claim_id": "q48159$3F39A845-F2A3-4713-9AD1-25499DF12BB5",
+    "latitude": 53.483055555556,
+    "longitude": -2.2002777777778,
+    "source_coordinate_precision": null,
+    "precision_interpretation": "Raw source precision, not verified survey accuracy.",
+    "globe": "http://www.wikidata.org/entity/Q2",
+    "point_meaning": "Stadium reference point, not verified pitch centre, entrance or survey point.",
+    "source_rank": "normal",
+    "source_reference_count": 0,
+    "observed_at": "2026-10-17",
+    "locality": null,
+    "address": null,
+    "region": null,
+    "administrative_area_claims": [
+      {
+        "value": {
+          "entity-type": "item",
+          "numeric-id": 21525592,
+          "id": "Q21525592"
+        },
+        "claim_id": "q48159$9584B76D-3A03-4363-A655-2CED06DE68CD",
+        "source_id": "wikidata-Q48159",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "label": "Manchester",
+        "label_source_id": "wikidata-bulk-2"
+      }
+    ],
+    "country_claims": [
+      {
+        "value": {
+          "entity-type": "item",
+          "numeric-id": 145,
+          "id": "Q145"
+        },
+        "claim_id": "q48159$CDA220FF-03AC-4290-94D3-9F0E2DE37BB7",
+        "source_id": "wikidata-Q48159",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "label": "United Kingdom",
+        "label_source_id": "wikidata-bulk-2"
+      }
+    ],
+    "location_claims": [
+      {
+        "value": {
+          "entity-type": "item",
+          "numeric-id": 18125,
+          "id": "Q18125"
+        },
+        "claim_id": "Q48159$2B60AC72-194A-47A2-97C7-F0CC77CC1219",
+        "source_id": "wikidata-Q48159",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "label": "Manchester",
+        "label_source_id": "wikidata-bulk-2"
+      }
+    ],
+    "street_address_claims": [
+      {
+        "value": {
+          "text": "Alan Turing Way, Manchester M11 3JB",
+          "language": "en"
+        },
+        "claim_id": "Q48159$5f22fc27-47a7-d759-e71a-dadf1a838444",
+        "source_id": "wikidata-Q48159",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "label": null
+      }
+    ],
+    "legacy_address_claims": [],
+    "geography_limitation": "Current source claims; no historical address interval or football home-town/legal-address equivalence established."
+  },
+  {
+    "ground_id": "britannia-stadium",
+    "name": "Britannia Stadium",
+    "wikidata_id": "Q500922",
+    "source_id": "wikidata-Q500922",
+    "claim_id": "q500922$145FE852-E8D0-4B9A-B806-301C1D130744",
+    "latitude": 52.988333333333,
+    "longitude": -2.1755555555556,
+    "source_coordinate_precision": null,
+    "precision_interpretation": "Raw source precision, not verified survey accuracy.",
+    "globe": "http://www.wikidata.org/entity/Q2",
+    "point_meaning": "Stadium reference point, not verified pitch centre, entrance or survey point.",
+    "source_rank": "normal",
+    "source_reference_count": 0,
+    "observed_at": "2026-10-17",
+    "locality": null,
+    "address": null,
+    "region": null,
+    "administrative_area_claims": [
+      {
+        "value": {
+          "entity-type": "item",
+          "numeric-id": 21891722,
+          "id": "Q21891722"
+        },
+        "claim_id": "Q500922$E729AC9A-DBDA-4E5B-8FD4-9696C370BFCE",
+        "source_id": "wikidata-Q500922",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "label": "City of Stoke-on-Trent",
+        "label_source_id": "wikidata-bulk-2"
+      }
+    ],
+    "country_claims": [
+      {
+        "value": {
+          "entity-type": "item",
+          "numeric-id": 145,
+          "id": "Q145"
+        },
+        "claim_id": "Q500922$2C5ED5E0-20A5-4C4D-B853-892F07AF01A4",
+        "source_id": "wikidata-Q500922",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "label": "United Kingdom",
+        "label_source_id": "wikidata-bulk-2"
+      }
+    ],
+    "location_claims": [],
+    "street_address_claims": [],
+    "legacy_address_claims": [],
+    "geography_limitation": "Current source claims; no historical address interval or football home-town/legal-address equivalence established."
+  },
+  {
+    "ground_id": "st-mary-s-stadium",
+    "name": "St Mary's Stadium",
+    "wikidata_id": "Q567339",
+    "source_id": "wikidata-Q567339",
+    "claim_id": "Q567339$1AA9435A-5FF6-4128-96FD-9DAAE7CE5A77",
+    "latitude": 50.90583333,
+    "longitude": -1.39111111,
+    "source_coordinate_precision": 1e-05,
+    "precision_interpretation": "Raw source precision, not verified survey accuracy.",
+    "globe": "http://www.wikidata.org/entity/Q2",
+    "point_meaning": "Stadium reference point, not verified pitch centre, entrance or survey point.",
+    "source_rank": "normal",
+    "source_reference_count": 1,
+    "observed_at": "2026-10-17",
+    "locality": null,
+    "address": null,
+    "region": null,
+    "administrative_area_claims": [
+      {
+        "value": {
+          "entity-type": "item",
+          "numeric-id": 79848,
+          "id": "Q79848"
+        },
+        "claim_id": "Q567339$0DD06FEF-776A-4306-A2CA-DAD5FA5F17C1",
+        "source_id": "wikidata-Q567339",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "label": "Southampton",
+        "label_source_id": "wikidata-bulk-3"
+      }
+    ],
+    "country_claims": [
+      {
+        "value": {
+          "entity-type": "item",
+          "numeric-id": 145,
+          "id": "Q145"
+        },
+        "claim_id": "Q567339$0DE2A1A0-2EC1-4B81-97CA-3D37EDD99DE5",
+        "source_id": "wikidata-Q567339",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "label": "United Kingdom",
+        "label_source_id": "wikidata-bulk-2"
+      }
+    ],
+    "location_claims": [],
+    "street_address_claims": [],
+    "legacy_address_claims": [],
+    "geography_limitation": "Current source claims; no historical address interval or football home-town/legal-address equivalence established."
+  },
+  {
+    "ground_id": "liberty-stadium",
+    "name": "Liberty Stadium",
+    "wikidata_id": "Q580480",
+    "source_id": "wikidata-Q580480",
+    "claim_id": "q580480$6B3FD5C1-39DB-465E-8CDE-60E6D6DACAEB",
+    "latitude": 51.6422,
+    "longitude": -3.9351,
+    "source_coordinate_precision": 0.0001,
+    "precision_interpretation": "Raw source precision, not verified survey accuracy.",
+    "globe": "http://www.wikidata.org/entity/Q2",
+    "point_meaning": "Stadium reference point, not verified pitch centre, entrance or survey point.",
+    "source_rank": "normal",
+    "source_reference_count": 1,
+    "observed_at": "2026-10-17",
+    "locality": null,
+    "address": null,
+    "region": null,
+    "administrative_area_claims": [
+      {
+        "value": {
+          "entity-type": "item",
+          "numeric-id": 23051,
+          "id": "Q23051"
+        },
+        "claim_id": "Q580480$6A561E6D-5B8F-4663-BEA7-13C718C47EA1",
+        "source_id": "wikidata-Q580480",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "label": "Swansea",
+        "label_source_id": "wikidata-bulk-2"
+      },
+      {
+        "value": {
+          "entity-type": "item",
+          "numeric-id": 25,
+          "id": "Q25"
+        },
+        "claim_id": "Q580480$3f77b3ac-4430-089a-e922-f5e6e201c830",
+        "source_id": "wikidata-Q580480",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "label": "Wales",
+        "label_source_id": "wikidata-bulk-2"
+      }
+    ],
+    "country_claims": [
+      {
+        "value": {
+          "entity-type": "item",
+          "numeric-id": 145,
+          "id": "Q145"
+        },
+        "claim_id": "Q580480$8B674327-3747-4A95-8D5D-23ACA4974003",
+        "source_id": "wikidata-Q580480",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "label": "United Kingdom",
+        "label_source_id": "wikidata-bulk-2"
+      }
+    ],
+    "location_claims": [],
+    "street_address_claims": [],
+    "legacy_address_claims": [],
+    "geography_limitation": "Current source claims; no historical address interval or football home-town/legal-address equivalence established."
+  },
+  {
+    "ground_id": "city-ground",
+    "name": "City Ground",
+    "wikidata_id": "Q593446",
+    "source_id": "wikidata-Q593446",
+    "claim_id": "q593446$640B919E-AE04-457E-8415-57FDB2E72AD4",
+    "latitude": 52.94,
+    "longitude": -1.132778,
+    "source_coordinate_precision": 1e-05,
+    "precision_interpretation": "Raw source precision, not verified survey accuracy.",
+    "globe": "http://www.wikidata.org/entity/Q2",
+    "point_meaning": "Stadium reference point, not verified pitch centre, entrance or survey point.",
+    "source_rank": "normal",
+    "source_reference_count": 1,
+    "observed_at": "2026-10-17",
+    "locality": null,
+    "address": null,
+    "region": null,
+    "administrative_area_claims": [
+      {
+        "value": {
+          "entity-type": "item",
+          "numeric-id": 1854225,
+          "id": "Q1854225"
+        },
+        "claim_id": "Q593446$184B4904-8EAF-483B-A271-F617045CF9AD",
+        "source_id": "wikidata-Q593446",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "label": "Rushcliffe",
+        "label_source_id": "wikidata-bulk-2"
+      }
+    ],
+    "country_claims": [
+      {
+        "value": {
+          "entity-type": "item",
+          "numeric-id": 145,
+          "id": "Q145"
+        },
+        "claim_id": "Q593446$CD072703-0557-4EA1-B6F2-CA132C7BAC98",
+        "source_id": "wikidata-Q593446",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "label": "United Kingdom",
+        "label_source_id": "wikidata-bulk-2"
+      }
+    ],
+    "location_claims": [
+      {
+        "value": {
+          "entity-type": "item",
+          "numeric-id": 41262,
+          "id": "Q41262"
+        },
+        "claim_id": "Q593446$69bab396-4591-c4d5-5cdb-e314c8aefdc2",
+        "source_id": "wikidata-Q593446",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "label": "Nottingham",
+        "label_source_id": "wikidata-bulk-2"
+      }
+    ],
+    "street_address_claims": [
+      {
+        "value": {
+          "text": "Trentside North, West Bridgford, Nottingham NG2 5FJ",
+          "language": "en"
+        },
+        "claim_id": "Q593446$c6a6108f-451e-75e5-e246-01d90ab14e79",
+        "source_id": "wikidata-Q593446",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "label": null
+      }
+    ],
+    "legacy_address_claims": [],
+    "geography_limitation": "Current source claims; no historical address interval or football home-town/legal-address equivalence established."
+  },
+  {
+    "ground_id": "elland-road",
+    "name": "Elland Road",
+    "wikidata_id": "Q619505",
+    "source_id": "wikidata-Q619505",
+    "claim_id": "q619505$D2E8408D-481B-47F8-BE0E-CD959A4F132E",
+    "latitude": 53.777777777778,
+    "longitude": -1.5722222222222,
+    "source_coordinate_precision": null,
+    "precision_interpretation": "Raw source precision, not verified survey accuracy.",
+    "globe": "http://www.wikidata.org/entity/Q2",
+    "point_meaning": "Stadium reference point, not verified pitch centre, entrance or survey point.",
+    "source_rank": "normal",
+    "source_reference_count": 0,
+    "observed_at": "2026-10-17",
+    "locality": null,
+    "address": null,
+    "region": null,
+    "administrative_area_claims": [
+      {
+        "value": {
+          "entity-type": "item",
+          "numeric-id": 774015,
+          "id": "Q774015"
+        },
+        "claim_id": "Q619505$AA06F144-2D70-4357-BC50-056B9B9F013C",
+        "source_id": "wikidata-Q619505",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "label": "Leeds",
+        "label_source_id": "wikidata-bulk-3"
+      }
+    ],
+    "country_claims": [
+      {
+        "value": {
+          "entity-type": "item",
+          "numeric-id": 145,
+          "id": "Q145"
+        },
+        "claim_id": "Q619505$EEEFE278-8342-48A5-9797-8593F9727A1C",
+        "source_id": "wikidata-Q619505",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "label": "United Kingdom",
+        "label_source_id": "wikidata-bulk-2"
+      }
+    ],
+    "location_claims": [],
+    "street_address_claims": [
+      {
+        "value": {
+          "text": "Elland Road, Leeds, LS11 0ES",
+          "language": "it"
+        },
+        "claim_id": "Q619505$b2f40f54-47b8-3b63-27ff-73c30d46e7f0",
+        "source_id": "wikidata-Q619505",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "label": null
+      }
+    ],
+    "legacy_address_claims": [],
+    "geography_limitation": "Current source claims; no historical address interval or football home-town/legal-address equivalence established."
+  },
+  {
+    "ground_id": "portman-road",
+    "name": "Portman Road",
+    "wikidata_id": "Q619558",
+    "source_id": "wikidata-Q619558",
+    "claim_id": "q619558$C1241DD5-8000-4B2F-807E-764A180C2E03",
+    "latitude": 52.055,
+    "longitude": 1.1452777777777778,
+    "source_coordinate_precision": 0.0002777777777777778,
+    "precision_interpretation": "Raw source precision, not verified survey accuracy.",
+    "globe": "http://www.wikidata.org/entity/Q2",
+    "point_meaning": "Stadium reference point, not verified pitch centre, entrance or survey point.",
+    "source_rank": "normal",
+    "source_reference_count": 0,
+    "observed_at": "2026-10-17",
+    "locality": null,
+    "address": null,
+    "region": null,
+    "administrative_area_claims": [
+      {
+        "value": {
+          "entity-type": "item",
+          "numeric-id": 184775,
+          "id": "Q184775"
+        },
+        "claim_id": "Q619558$4284E3D9-7C56-4C61-A0E8-976F0F6003FD",
+        "source_id": "wikidata-Q619558",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "label": "Ipswich",
+        "label_source_id": "wikidata-bulk-2"
+      }
+    ],
+    "country_claims": [
+      {
+        "value": {
+          "entity-type": "item",
+          "numeric-id": 145,
+          "id": "Q145"
+        },
+        "claim_id": "Q619558$4C3EEE24-1904-4074-B134-C42BD476A7D8",
+        "source_id": "wikidata-Q619558",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "label": "United Kingdom",
+        "label_source_id": "wikidata-bulk-2"
+      }
+    ],
+    "location_claims": [
+      {
+        "value": {
+          "entity-type": "item",
+          "numeric-id": 184775,
+          "id": "Q184775"
+        },
+        "claim_id": "Q619558$9D490530-28D4-4BEA-B3ED-74CFF003302D",
+        "source_id": "wikidata-Q619558",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "label": "Ipswich",
+        "label_source_id": "wikidata-bulk-2"
+      }
+    ],
+    "street_address_claims": [],
+    "legacy_address_claims": [],
+    "geography_limitation": "Current source claims; no historical address interval or football home-town/legal-address equivalence established."
+  },
+  {
+    "ground_id": "leicester-city-stadium",
+    "name": "Leicester City Stadium",
+    "wikidata_id": "Q620031",
+    "source_id": "wikidata-Q620031",
+    "claim_id": "q620031$C9165FFC-FC79-4EBD-A465-609C05FF6D79",
+    "latitude": 52.620277777778,
+    "longitude": -1.1422222222222,
+    "source_coordinate_precision": null,
+    "precision_interpretation": "Raw source precision, not verified survey accuracy.",
+    "globe": "http://www.wikidata.org/entity/Q2",
+    "point_meaning": "Stadium reference point, not verified pitch centre, entrance or survey point.",
+    "source_rank": "normal",
+    "source_reference_count": 0,
+    "observed_at": "2026-10-17",
+    "locality": null,
+    "address": null,
+    "region": null,
+    "administrative_area_claims": [
+      {
+        "value": {
+          "entity-type": "item",
+          "numeric-id": 21683242,
+          "id": "Q21683242"
+        },
+        "claim_id": "Q620031$0EFEB5C7-835A-41D7-B7FD-6D537A17A895",
+        "source_id": "wikidata-Q620031",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "label": "City of Leicester",
+        "label_source_id": "wikidata-bulk-2"
+      }
+    ],
+    "country_claims": [
+      {
+        "value": {
+          "entity-type": "item",
+          "numeric-id": 145,
+          "id": "Q145"
+        },
+        "claim_id": "Q620031$830386B2-27FC-45A9-969E-803190A445CC",
+        "source_id": "wikidata-Q620031",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "label": "United Kingdom",
+        "label_source_id": "wikidata-bulk-2"
+      }
+    ],
+    "location_claims": [],
+    "street_address_claims": [
+      {
+        "value": {
+          "text": "Filbert Way, Leicester LE2 7FL",
+          "language": "en"
+        },
+        "claim_id": "Q620031$8cc9c8fd-4a06-bd9e-c4c4-1015229551b2",
+        "source_id": "wikidata-Q620031",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "label": null
+      }
+    ],
+    "legacy_address_claims": [],
+    "geography_limitation": "Current source claims; no historical address interval or football home-town/legal-address equivalence established."
+  },
+  {
+    "ground_id": "mkm-stadium",
+    "name": "MKM Stadium",
+    "wikidata_id": "Q630160",
+    "source_id": "wikidata-Q630160",
+    "claim_id": "q630160$B85E18D4-CB3A-433C-8EB1-C5F13A5BC98A",
+    "latitude": 53.746111111111,
+    "longitude": -0.36777777777778,
+    "source_coordinate_precision": null,
+    "precision_interpretation": "Raw source precision, not verified survey accuracy.",
+    "globe": "http://www.wikidata.org/entity/Q2",
+    "point_meaning": "Stadium reference point, not verified pitch centre, entrance or survey point.",
+    "source_rank": "normal",
+    "source_reference_count": 0,
+    "observed_at": "2026-10-17",
+    "locality": null,
+    "address": null,
+    "region": null,
+    "administrative_area_claims": [
+      {
+        "value": {
+          "entity-type": "item",
+          "numeric-id": 128147,
+          "id": "Q128147"
+        },
+        "claim_id": "Q630160$25827841-474E-4F0E-BE4A-13EE6D30E35E",
+        "source_id": "wikidata-Q630160",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "label": "Kingston upon Hull",
+        "label_source_id": "wikidata-bulk-2"
+      }
+    ],
+    "country_claims": [
+      {
+        "value": {
+          "entity-type": "item",
+          "numeric-id": 145,
+          "id": "Q145"
+        },
+        "claim_id": "Q630160$75E307CC-1328-40DF-AFF6-DD37379AA746",
+        "source_id": "wikidata-Q630160",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "label": "United Kingdom",
+        "label_source_id": "wikidata-bulk-2"
+      }
+    ],
+    "location_claims": [],
+    "street_address_claims": [],
+    "legacy_address_claims": [],
+    "geography_limitation": "Current source claims; no historical address interval or football home-town/legal-address equivalence established."
+  },
+  {
+    "ground_id": "riverside-stadium",
+    "name": "Riverside Stadium",
+    "wikidata_id": "Q822886",
+    "source_id": "wikidata-Q822886",
+    "claim_id": "q822886$0A549D0F-1BDF-4798-93D3-B5D9420B67EA",
+    "latitude": 54.578333333333,
+    "longitude": -1.2169444444444,
+    "source_coordinate_precision": null,
+    "precision_interpretation": "Raw source precision, not verified survey accuracy.",
+    "globe": "http://www.wikidata.org/entity/Q2",
+    "point_meaning": "Stadium reference point, not verified pitch centre, entrance or survey point.",
+    "source_rank": "normal",
+    "source_reference_count": 0,
+    "observed_at": "2026-10-17",
+    "locality": null,
+    "address": null,
+    "region": null,
+    "administrative_area_claims": [
+      {
+        "value": {
+          "entity-type": "item",
+          "numeric-id": 171866,
+          "id": "Q171866"
+        },
+        "claim_id": "Q822886$4137CB4A-E2BF-4AA6-8CDC-E427C5A8EBB2",
+        "source_id": "wikidata-Q822886",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "label": "Middlesbrough",
+        "label_source_id": "wikidata-bulk-2"
+      }
+    ],
+    "country_claims": [
+      {
+        "value": {
+          "entity-type": "item",
+          "numeric-id": 145,
+          "id": "Q145"
+        },
+        "claim_id": "Q822886$AA6D524F-B18E-4F36-A5A8-8DB5457A440C",
+        "source_id": "wikidata-Q822886",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "label": "United Kingdom",
+        "label_source_id": "wikidata-bulk-2"
+      }
+    ],
+    "location_claims": [
+      {
+        "value": {
+          "entity-type": "item",
+          "numeric-id": 171866,
+          "id": "Q171866"
+        },
+        "claim_id": "Q822886$DBBFFE6B-5B6E-4BD6-B3DF-171E327250F8",
+        "source_id": "wikidata-Q822886",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "label": "Middlesbrough",
+        "label_source_id": "wikidata-bulk-2"
+      }
+    ],
+    "street_address_claims": [],
+    "legacy_address_claims": [],
+    "geography_limitation": "Current source claims; no historical address interval or football home-town/legal-address equivalence established."
+  },
+  {
+    "ground_id": "old-trafford",
+    "name": "Old Trafford",
+    "wikidata_id": "Q83457",
+    "source_id": "wikidata-Q83457",
+    "claim_id": "q83457$3511DBFC-6900-481C-B516-F60DA129B30D",
+    "latitude": 53.463055555556,
+    "longitude": -2.2913888888889,
+    "source_coordinate_precision": null,
+    "precision_interpretation": "Raw source precision, not verified survey accuracy.",
+    "globe": "http://www.wikidata.org/entity/Q2",
+    "point_meaning": "Stadium reference point, not verified pitch centre, entrance or survey point.",
+    "source_rank": "normal",
+    "source_reference_count": 0,
+    "observed_at": "2026-10-17",
+    "locality": null,
+    "address": null,
+    "region": null,
+    "administrative_area_claims": [
+      {
+        "value": {
+          "entity-type": "item",
+          "numeric-id": 915954,
+          "id": "Q915954"
+        },
+        "claim_id": "Q83457$1A3775B2-0AF9-4A16-8EB0-5EADFF33EC5B",
+        "source_id": "wikidata-Q83457",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "label": "Trafford",
+        "label_source_id": "wikidata-bulk-3"
+      },
+      {
+        "value": {
+          "entity-type": "item",
+          "numeric-id": 18125,
+          "id": "Q18125"
+        },
+        "claim_id": "Q83457$22b8184d-40e2-bbbf-5c24-006f94b6a813",
+        "source_id": "wikidata-Q83457",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "label": "Manchester",
+        "label_source_id": "wikidata-bulk-2"
+      },
+      {
+        "value": {
+          "entity-type": "item",
+          "numeric-id": 21,
+          "id": "Q21"
+        },
+        "claim_id": "Q83457$e12ce858-47e6-162e-f2f0-72b4b39a4065",
+        "source_id": "wikidata-Q83457",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "label": "England",
+        "label_source_id": "wikidata-bulk-2"
+      }
+    ],
+    "country_claims": [
+      {
+        "value": {
+          "entity-type": "item",
+          "numeric-id": 145,
+          "id": "Q145"
+        },
+        "claim_id": "Q83457$5E89B035-F77B-412B-85C2-EACF8EB50AA5",
+        "source_id": "wikidata-Q83457",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "label": "United Kingdom",
+        "label_source_id": "wikidata-bulk-2"
+      }
+    ],
+    "location_claims": [
+      {
+        "value": {
+          "entity-type": "item",
+          "numeric-id": 1455478,
+          "id": "Q1455478"
+        },
+        "claim_id": "Q83457$8d7c335e-4452-5056-88d9-a27f06d454a8",
+        "source_id": "wikidata-Q83457",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "label": "Old Trafford",
+        "label_source_id": "wikidata-bulk-2"
+      }
+    ],
+    "street_address_claims": [],
+    "legacy_address_claims": [],
+    "geography_limitation": "Current source claims; no historical address interval or football home-town/legal-address equivalence established."
+  },
+  {
+    "ground_id": "stamford-bridge",
+    "name": "Stamford Bridge",
+    "wikidata_id": "Q171458",
+    "source_id": "wikidata-Q171458",
+    "claim_id": "q171458$B337E8C1-C41B-4176-9C35-C98BADCB0F71",
+    "latitude": 51.481666666667,
+    "longitude": -0.19111111111111,
+    "source_coordinate_precision": null,
+    "precision_interpretation": "Raw source precision, not verified survey accuracy.",
+    "globe": "http://www.wikidata.org/entity/Q2",
+    "point_meaning": "Stadium reference point, not verified pitch centre, entrance or survey point.",
+    "source_rank": "normal",
+    "source_reference_count": 0,
+    "observed_at": "2026-10-17",
+    "locality": null,
+    "address": null,
+    "region": null,
+    "administrative_area_claims": [
+      {
+        "value": {
+          "entity-type": "item",
+          "numeric-id": 3367868,
+          "id": "Q3367868"
+        },
+        "claim_id": "q171458$E67A1C0D-3DAF-40D3-B93C-A84A2372306C",
+        "source_id": "wikidata-Q171458",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "label": "Fulham",
+        "label_source_id": "wikidata-bulk-2"
+      }
+    ],
+    "country_claims": [
+      {
+        "value": {
+          "entity-type": "item",
+          "numeric-id": 145,
+          "id": "Q145"
+        },
+        "claim_id": "Q171458$5D745FEA-BD1D-45D2-82D4-ABAAF19BA67C",
+        "source_id": "wikidata-Q171458",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "label": "United Kingdom",
+        "label_source_id": "wikidata-bulk-2"
+      }
+    ],
+    "location_claims": [
+      {
+        "value": {
+          "entity-type": "item",
+          "numeric-id": 3367868,
+          "id": "Q3367868"
+        },
+        "claim_id": "Q171458$81417278-9F92-4A62-B74D-EB2EC18D38ED",
+        "source_id": "wikidata-Q171458",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "label": "Fulham",
+        "label_source_id": "wikidata-bulk-2"
+      }
+    ],
+    "street_address_claims": [
+      {
+        "value": {
+          "text": "Fulham Road, London, SW6 1HS",
+          "language": "en"
+        },
+        "claim_id": "Q171458$4565ff36-4d8d-5839-e102-0cf4ae39c4df",
+        "source_id": "wikidata-Q171458",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "label": null
+      }
+    ],
+    "legacy_address_claims": [],
+    "geography_limitation": "Current source claims; no historical address interval or football home-town/legal-address equivalence established."
+  },
+  {
+    "ground_id": "brentford-community-stadium",
+    "name": "Brentford Community Stadium",
+    "wikidata_id": "Q4961609",
+    "source_id": "wikidata-Q4961609",
+    "claim_id": "q4961609$624F34E0-7A61-4439-ABFA-730F617FA999",
+    "latitude": 51.490825,
+    "longitude": -0.2887,
+    "source_coordinate_precision": 0.0001,
+    "precision_interpretation": "Raw source precision, not verified survey accuracy.",
+    "globe": "http://www.wikidata.org/entity/Q2",
+    "point_meaning": "Stadium reference point, not verified pitch centre, entrance or survey point.",
+    "source_rank": "normal",
+    "source_reference_count": 1,
+    "observed_at": "2026-10-17",
+    "locality": null,
+    "address": null,
+    "region": null,
+    "administrative_area_claims": [
+      {
+        "value": {
+          "entity-type": "item",
+          "numeric-id": 214162,
+          "id": "Q214162"
+        },
+        "claim_id": "Q4961609$3A096784-BA91-4982-ACEB-F749C72D6D92",
+        "source_id": "wikidata-Q4961609",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "label": null,
+        "label_source_id": null
+      }
+    ],
+    "country_claims": [
+      {
+        "value": {
+          "entity-type": "item",
+          "numeric-id": 145,
+          "id": "Q145"
+        },
+        "claim_id": "Q4961609$95E51A87-34AE-4450-AD93-C761FAFB9ACE",
+        "source_id": "wikidata-Q4961609",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "label": "United Kingdom",
+        "label_source_id": "wikidata-bulk-2"
+      }
+    ],
+    "location_claims": [],
+    "street_address_claims": [],
+    "legacy_address_claims": [],
+    "geography_limitation": "Current source claims; no historical address interval or football home-town/legal-address equivalence established."
+  }
+]

@@ -1,0 +1,223 @@
+{
+  "entities": {
+    "Q20312075": {
+      "pageid": 22061057,
+      "ns": 0,
+      "title": "Q20312075",
+      "lastrevid": 2399743696,
+      "modified": "2025-09-02T21:09:57Z",
+      "type": "item",
+      "id": "Q20312075",
+      "labels": {
+        "en": {
+          "language": "en",
+          "value": "2015–16 Watford F.C. season"
+        }
+      },
+      "claims": {
+        "P31": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P31",
+              "hash": "9ddb403180b684facfb50183c3b3a99ce0b171d1",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 26887310,
+                  "id": "Q26887310"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q20312075$BD49A419-624F-450D-BC3A-AFE5042D75CA",
+            "rank": "normal"
+          }
+        ],
+        "P641": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P641",
+              "hash": "1624e15e061523279bc14bb6497168e45caacb32",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 2736,
+                  "id": "Q2736"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q20312075$3A061A48-44B1-4D0F-8F22-245E243640F1",
+            "rank": "normal"
+          }
+        ],
+        "P5138": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P5138",
+              "hash": "37835d41fbc3fbc9773fdcea83a7d18584068d16",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 2714,
+                  "id": "Q2714"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q20312075$EA08442B-0C09-4C74-8D5E-67E6F6F215CD",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "fa278ebfc458360e5aed63d5058cca83c46134f1",
+                "snaks": {
+                  "P143": [
+                    {
+                      "snaktype": "value",
+                      "property": "P143",
+                      "hash": "e4f6d9441d0600513c4533c672b5ab472dc73694",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 328,
+                          "id": "Q328"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P143"
+                ]
+              }
+            ]
+          }
+        ],
+        "P2348": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P2348",
+              "hash": "aa2170c45da73f28c5e261a9d37f3a75ef9799c5",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 53386085,
+                  "id": "Q53386085"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q20312075$9A2AC3A5-CDD8-45CC-B8A0-DBDCFA21475B",
+            "rank": "normal"
+          }
+        ],
+        "P17": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P17",
+              "hash": "a44880420787fb348836dc51d3babc5227c4ef7e",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 145,
+                  "id": "Q145"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q20312075$31B2FCA0-332D-43E5-B91B-60755ED8286A",
+            "rank": "normal"
+          }
+        ],
+        "P155": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P155",
+              "hash": "9b19d15ca733d99483db2df24af118a001e8682b",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 17015956,
+                  "id": "Q17015956"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q20312075$73EF651F-5E92-4049-864F-5976832592C3",
+            "rank": "normal"
+          }
+        ],
+        "P156": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P156",
+              "hash": "5855a64b3c02d1dfe7fffb5f3746082301977a1f",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 24909616,
+                  "id": "Q24909616"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q20312075$0563AB78-7ED1-44F5-AAF7-52298B159150",
+            "rank": "normal"
+          }
+        ],
+        "P2671": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P2671",
+              "hash": "d0e486b0b2de23e87c0bc762110fa20b12ed4e88",
+              "datavalue": {
+                "value": "/g/11btzxqg6h",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q20312075$397AD4DF-9C3A-4145-8524-677B74968EF6",
+            "rank": "normal"
+          }
+        ]
+      },
+      "sitelinks": {
+        "enwiki": {
+          "site": "enwiki",
+          "title": "2015–16 Watford F.C. season",
+          "badges": []
+        },
+        "zhwiki": {
+          "site": "zhwiki",
+          "title": "屈福特2015年至2016年球季",
+          "badges": []
+        }
+      }
+    }
+  }
+}

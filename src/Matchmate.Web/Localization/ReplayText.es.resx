@@ -1,0 +1,451 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms</value></resheader>
+  <data name="LanguageLabel" xml:space="preserve"><value>Idioma de la repetición</value></data>
+  <data name="LanguageScope" xml:space="preserve"><value>Las páginas de la liga y de partidos históricos están en inglés por ahora.</value></data>
+  <data name="AudienceStyle" xml:space="preserve"><value>Estilo de explicación</value></data>
+  <data name="AudienceFan" xml:space="preserve"><value>Aficionado</value></data>
+  <data name="AudienceAnalyst" xml:space="preserve"><value>Analista</value></data>
+  <data name="AudienceSame" xml:space="preserve"><value>Las mismas evidencias.</value></data>
+  <data name="AudienceFanNote" xml:space="preserve"><value>El fútbol, explicado de forma sencilla.</value></data>
+  <data name="AudienceAnalystNote" xml:space="preserve"><value>Cifras y método.</value></data>
+  <data name="PageTitle" xml:space="preserve"><value>Matchmate · Un poco más cerca del partido</value></data>
+  <data name="ExploreLeague" xml:space="preserve"><value>← Explorar la Premier League</value></data>
+  <data name="TechnicalSample" xml:space="preserve"><value>Muestra técnica</value></data>
+  <data name="BackRecordings" xml:space="preserve"><value>Volver a las grabaciones de partidos</value></data>
+  <data name="ChooseRecording" xml:space="preserve"><value>Elige una grabación de partido</value></data>
+  <data name="LoadingMatchRecordings" xml:space="preserve"><value>Cargando grabaciones de partidos…</value></data>
+  <data name="NoRecordings" xml:space="preserve"><value>No hay grabaciones de partidos disponibles</value></data>
+  <data name="RefreshRecordings" xml:space="preserve"><value>Actualizar grabaciones</value></data>
+  <data name="Refreshing" xml:space="preserve"><value>Actualizando…</value></data>
+  <data name="Refresh" xml:space="preserve"><value>Actualizar</value></data>
+  <data name="TechnicalSamples" xml:space="preserve"><value>Muestras técnicas</value></data>
+  <data name="TechnicalSamplesNote" xml:space="preserve"><value>Grabaciones de referencia para comprobar la reproducción y la calidad de los datos.</value></data>
+  <data name="Versus" xml:space="preserve"><value>{0} contra {1}</value></data>
+  <data name="RetrospectiveReplay" xml:space="preserve"><value>Repetición retrospectiva</value></data>
+  <data name="GeneratedSource" xml:space="preserve"><value>Ilustración generada a partir del modelo existente. Las posiciones no representan movimientos observados.</value></data>
+  <data name="RecordedSource" xml:space="preserve"><value>Observaciones y estimaciones registradas en la fuente. Las posiciones ausentes siguen ausentes.</value></data>
+  <data name="PreparingRecording" xml:space="preserve"><value>Preparando esta grabación…</value></data>
+  <data name="PitchLabel" xml:space="preserve"><value>Campo de la repetición del partido</value></data>
+  <data name="LoadingMoment" xml:space="preserve"><value>Cargando el momento</value></data>
+  <data name="ReportedGoalsShort" xml:space="preserve"><value>Goles registrados · {0}–{1}</value></data>
+  <data name="NoScore" xml:space="preserve"><value>No se ha proporcionado el marcador</value></data>
+  <data name="LoadingReplayMoment" xml:space="preserve"><value>Cargando el momento de la repetición…</value></data>
+  <data name="PreparingPositions" xml:space="preserve"><value>Preparando este momento… Las posiciones de los jugadores siguen cargándose.</value></data>
+  <data name="GapPaused" xml:space="preserve"><value>Reproducción en pausa por un vacío en la fuente o una muestra no disponible.</value></data>
+  <data name="ContinueGap" xml:space="preserve"><value>Avanzar el reloj por el vacío</value></data>
+  <data name="NextMilestone" xml:space="preserve"><value>Siguiente hito de la fuente</value></data>
+  <data name="PreviousMilestone" xml:space="preserve"><value>Hito anterior de la fuente</value></data>
+  <data name="LoadingMomentHeading" xml:space="preserve"><value>Cargando este momento…</value></data>
+  <data name="LoadingVerifiedMoment" xml:space="preserve"><value>Se está cargando un momento verificado de la repetición.</value></data>
+  <data name="EligibleFacts" xml:space="preserve"><value>Solo datos disponibles en este instante</value></data>
+  <data name="MatchSoFar" xml:space="preserve"><value>El partido, hasta ahora.</value></data>
+  <data name="AcceptedMoment" xml:space="preserve"><value>Se muestra el momento aceptado {0}. El momento solicitado aún no está listo.</value></data>
+  <data name="ReportedGoals" xml:space="preserve"><value>Goles registrados: {0} – {1}</value></data>
+  <data name="ReportedGoalsNote" xml:space="preserve"><value>Se excluyen los goles anulados explícitamente; las demás decisiones siguen siendo registros de la fuente. Son eventos de este flujo, no un marcador verificado por separado. Los datos solo confirmados no se usan como marcador del partido.</value></data>
+  <data name="PositionsNotScore" xml:space="preserve"><value>Esta grabación aporta posiciones y anotaciones de posesión, no un registro de goles ni un marcador.</value></data>
+  <data name="EventReport" xml:space="preserve"><value>{0} · decisión {1} · {2} · registrado {3}</value></data>
+  <data name="NotSupplied" xml:space="preserve"><value>no proporcionado</value></data>
+  <data name="EligiblePossessions" xml:space="preserve"><value>{0} intervalos de posesión registrados disponibles. No se deducen pases, velocidad, distancia ni datos tácticos del partido real de las posiciones generadas.</value></data>
+  <data name="SourcesTiming" xml:space="preserve"><value>Fuentes, coordenadas y tiempos</value></data>
+  <data name="SourceTimingNote" xml:space="preserve"><value>{0} personas en la plantilla. Identidades canónicas, metros desde la esquina superior izquierda y milisegundos de cada periodo. Se desconoce la disponibilidad de la fuente; no se admite lo conocido entonces. Los intervalos de minutos registrados no son instantes observados exactos. Los momentos destacados permiten navegar. Un gol seleccionado puede comentarse retrospectivamente mientras se vea la etiqueta Gol seleccionado; las respuestas sobre el marcador y el partido hasta ahora siguen el reloj de la repetición.</value></data>
+  <data name="RecordingMetadata" xml:space="preserve"><value>Versión de grabación {0} · esquema {1} · flujo {2} · cabecera {3} · {4} dependencias pendientes.</value></data>
+  <data name="Closed" xml:space="preserve"><value>cerrado</value></data>
+  <data name="Open" xml:space="preserve"><value>abierto</value></data>
+  <data name="MatchSpendTime" xml:space="preserve"><value>Un partido al que dedicar tiempo.</value></data>
+  <data name="LoadingRecordings" xml:space="preserve"><value>Cargando grabaciones…</value></data>
+  <data name="NoMainRecordingsNote" xml:space="preserve"><value>No hay grabaciones de partidos disponibles ahora. Abre Muestras técnicas para explorar una grabación de referencia.</value></data>
+  <data name="RecordingsUnavailable" xml:space="preserve"><value>Las grabaciones no están disponibles ahora. Inténtalo de nuevo para recargar el catálogo.</value></data>
+  <data name="TryAgain" xml:space="preserve"><value>Intentar de nuevo</value></data>
+  <data name="ThisMatch" xml:space="preserve"><value>este partido</value></data>
+  <data name="ChooseReadyMoment" xml:space="preserve"><value>Elige un momento listo de la repetición.</value></data>
+  <data name="ConversationClock" xml:space="preserve"><value>{0} · {1} · repetición {2}</value></data>
+  <data name="UnspecifiedPlayer" xml:space="preserve"><value>Jugador sin especificar</value></data>
+  <data name="PeriodUnavailable" xml:space="preserve"><value>Periodo no disponible</value></data>
+  <data name="MatchPeriod" xml:space="preserve"><value>Periodo del partido</value></data>
+  <data name="FirstHalf" xml:space="preserve"><value>Primera parte</value></data>
+  <data name="SecondHalf" xml:space="preserve"><value>Segunda parte</value></data>
+  <data name="ReplayClock" xml:space="preserve"><value>Reloj de la repetición</value></data>
+  <data name="SharedCursor" xml:space="preserve"><value>Cursor compartido de la repetición</value></data>
+  <data name="GoalTimeline" xml:space="preserve"><value>Goles en la línea de tiempo de la repetición</value></data>
+  <data name="WatchLabel" xml:space="preserve"><value>Ver {0}, registrado {1}</value></data>
+  <data name="GoalPinTitle" xml:space="preserve"><value>{0} · registrado {1} · creado {2}</value></data>
+  <data name="Pause" xml:space="preserve"><value>Ⅱ Pausa</value></data>
+  <data name="Play" xml:space="preserve"><value>▶ Reproducir</value></data>
+  <data name="Start" xml:space="preserve"><value>← Inicio</value></data>
+  <data name="NextPeriod" xml:space="preserve"><value>Siguiente periodo →</value></data>
+  <data name="End" xml:space="preserve"><value>Final →</value></data>
+  <data name="Speed" xml:space="preserve"><value>Velocidad</value></data>
+  <data name="MatchInMoments" xml:space="preserve"><value>Los momentos del partido</value></data>
+  <data name="MatchHighlights" xml:space="preserve"><value>Momentos destacados</value></data>
+  <data name="RetrospectiveSpoilers" xml:space="preserve"><value>Índice completo · revela eventos posteriores</value></data>
+  <data name="FilterHighlights" xml:space="preserve"><value>Filtrar momentos destacados</value></data>
+  <data name="FilterGoals" xml:space="preserve"><value>Goles</value></data>
+  <data name="FilterSubstitutions" xml:space="preserve"><value>Sustituciones</value></data>
+  <data name="FilterCards" xml:space="preserve"><value>Tarjetas</value></data>
+  <data name="FilterPossessions" xml:space="preserve"><value>Posesiones finalizadas</value></data>
+  <data name="FilterAll" xml:space="preserve"><value>Todos los momentos</value></data>
+  <data name="FilterPinned" xml:space="preserve"><value>Fijados</value></data>
+  <data name="LoadingHighlights" xml:space="preserve"><value>Cargando momentos destacados…</value></data>
+  <data name="RefreshingHighlights" xml:space="preserve"><value>Actualizando momentos destacados…</value></data>
+  <data name="GoalNumber" xml:space="preserve"><value>Gol {0}</value></data>
+  <data name="ReportedAfterRelease" xml:space="preserve"><value>registrado tras su publicación</value></data>
+  <data name="Assist" xml:space="preserve"><value>Asistencia · {0}</value></data>
+  <data name="ForPlayer" xml:space="preserve"><value>Por {0}</value></data>
+  <data name="SourceReportedEvent" xml:space="preserve"><value>Evento registrado por la fuente</value></data>
+  <data name="Decision" xml:space="preserve"><value>Decisión: {0}</value></data>
+  <data name="WatchGoal" xml:space="preserve"><value>▶ Ver este gol</value></data>
+  <data name="ExploreMoment" xml:space="preserve"><value>Explorar este momento →</value></data>
+  <data name="HighlightClock" xml:space="preserve"><value>Repetición {0} · {1}</value></data>
+  <data name="EligibleCompletion" xml:space="preserve"><value>finalización disponible</value></data>
+  <data name="AuthoredRelease" xml:space="preserve"><value>publicación definida</value></data>
+  <data name="PinLabel" xml:space="preserve"><value>Fijar {0}</value></data>
+  <data name="HighlightsBoundary" xml:space="preserve"><value>Los minutos registrados y los tiempos de la repetición son distintos. Los registros publicados juntos aparecen a la vez; los datos actuales siguen tu reloj.</value></data>
+  <data name="PlayersLabel" xml:space="preserve"><value>Jugadores en el momento seleccionado</value></data>
+  <data name="OnPitch" xml:space="preserve"><value>En el campo</value></data>
+  <data name="ActiveSlots" xml:space="preserve"><value>{0} / 22 posiciones activas</value></data>
+  <data name="GeneratedRosterNote" xml:space="preserve"><value>Nombres y dorsales de la fuente · Posiciones asignadas generadas</value></data>
+  <data name="RecordedRosterNote" xml:space="preserve"><value>Nombres y dorsales de la fuente · Se conservan observaciones, estimaciones y vacíos</value></data>
+  <data name="PositionsStillLoading" xml:space="preserve"><value>Las posiciones de los jugadores siguen cargándose.</value></data>
+  <data name="PositionUnavailable" xml:space="preserve"><value>posición no disponible</value></data>
+  <data name="IllustratedSlot" xml:space="preserve"><value>Posición ilustrada</value></data>
+  <data name="SourceSample" xml:space="preserve"><value>Muestra de la fuente</value></data>
+  <data name="AllRoster" xml:space="preserve"><value>Las {0} personas de la plantilla</value></data>
+  <data name="RosterNote" xml:space="preserve"><value>Pertenecer a la plantilla no indica una posición activa. No se deducen roles tácticos del dorsal.</value></data>
+  <data name="SelectedPlayer" xml:space="preserve"><value>Jugador seleccionado</value></data>
+  <data name="PositionsLoadingNotCarried" xml:space="preserve"><value>Las posiciones siguen cargándose. No se conserva una posición anterior.</value></data>
+  <data name="NotActiveSample" xml:space="preserve"><value>No aparece en esta muestra activa. No se conserva una posición anterior.</value></data>
+  <data name="Coordinates" xml:space="preserve"><value>x {0} m · y {1} m · altura {2}</value></data>
+  <data name="Unknown" xml:space="preserve"><value>desconocido</value></data>
+  <data name="Observed" xml:space="preserve"><value>observado</value></data>
+  <data name="Estimated" xml:space="preserve"><value>estimado</value></data>
+  <data name="Generated" xml:space="preserve"><value>generado</value></data>
+  <data name="ReportedValue" xml:space="preserve"><value>registrado</value></data>
+  <data name="Present" xml:space="preserve"><value>presente</value></data>
+  <data name="Missing" xml:space="preserve"><value>ausente</value></data>
+  <data name="NotObserved" xml:space="preserve"><value>no observado</value></data>
+  <data name="Confirmed" xml:space="preserve"><value>confirmado</value></data>
+  <data name="Unconfirmed" xml:space="preserve"><value>sin confirmar</value></data>
+  <data name="Disallowed" xml:space="preserve"><value>anulado</value></data>
+  <data name="High" xml:space="preserve"><value>alta</value></data>
+  <data name="Medium" xml:space="preserve"><value>media</value></data>
+  <data name="Low" xml:space="preserve"><value>baja</value></data>
+  <data name="CoverageNoSample" xml:space="preserve"><value>No hay una muestra de seguimiento confirmada en este instante; las posiciones no se conservan a través de los vacíos.</value></data>
+  <data name="CoverageEmptyFrame" xml:space="preserve"><value>Fotograma de jugadores explícitamente vacío; se conserva la evidencia independiente del balón.</value></data>
+  <data name="CoverageSourceSample" xml:space="preserve"><value>Muestra de la fuente; sin interpolación ni estadísticas de movimiento medidas.</value></data>
+  <data name="CoverageUnknown" xml:space="preserve"><value>No hay información de cobertura para este estado de la fuente.</value></data>
+  <data name="GeneratedStats" xml:space="preserve"><value>Estadísticas de la ilustración generada</value></data>
+  <data name="AtAcceptedReplay" xml:space="preserve"><value>En el momento aceptado {0}</value></data>
+  <data name="StatsDescription" xml:space="preserve"><value>Calculadas a partir de las acciones generadas. Describen la ilustración, no el partido real.</value></data>
+  <data name="Team" xml:space="preserve"><value>Equipo</value></data>
+  <data name="Passes" xml:space="preserve"><value>Pases</value></data>
+  <data name="Completed" xml:space="preserve"><value>Completados</value></data>
+  <data name="Shots" xml:space="preserve"><value>Tiros</value></data>
+  <data name="IllustratedControl" xml:space="preserve"><value>Control ilustrado</value></data>
+  <data name="ControlShare" xml:space="preserve"><value>Porcentaje de control</value></data>
+  <data name="StatsNote" xml:space="preserve"><value>Solo cuentan acciones y periodos de control finalizados. El porcentaje usa {0} de control clasificado hasta ahora; se excluyen periodos abiertos, pausas, reinicios y tiempo desconocido. — indica que no está disponible.</value></data>
+  <data name="GeneratedInsight" xml:space="preserve"><value>Observación de la repetición generada</value></data>
+  <data name="InsightScope" xml:space="preserve"><value>Repetición generada · {0} · {1}</value></data>
+  <data name="AskAboutThis" xml:space="preserve"><value>Preguntar sobre esto</value></data>
+  <data name="KindGoal" xml:space="preserve"><value>Gol</value></data>
+  <data name="KindSubstitution" xml:space="preserve"><value>Sustitución</value></data>
+  <data name="KindBooking" xml:space="preserve"><value>Amonestación</value></data>
+  <data name="KindCompletedPossession" xml:space="preserve"><value>Posesión finalizada</value></data>
+  <data name="KindReportedEvent" xml:space="preserve"><value>Evento registrado</value></data>
+  <data name="StepCorner" xml:space="preserve"><value>Saque de esquina</value></data>
+  <data name="StepHeadedAssist" xml:space="preserve"><value>Cabezazo cruzado ante la portería</value></data>
+  <data name="StepHeaderFinish" xml:space="preserve"><value>Remate de cabeza a corta distancia</value></data>
+  <data name="StepAdvance" xml:space="preserve"><value>Avance</value></data>
+  <data name="StepKeeperOut" xml:space="preserve"><value>Salida del portero</value></data>
+  <data name="StepUncertainGoalmouth" xml:space="preserve"><value>Pase o rechace sin determinar</value></data>
+  <data name="StepReportedFinish" xml:space="preserve"><value>Remate registrado</value></data>
+  <data name="StepThrowIn" xml:space="preserve"><value>Saque de banda</value></data>
+  <data name="StepIntoArea" xml:space="preserve"><value>Acción hacia el área</value></data>
+  <data name="StepReleasePass" xml:space="preserve"><value>Pase de salida</value></data>
+  <data name="StepShot" xml:space="preserve"><value>Tiro</value></data>
+  <data name="StepSave" xml:space="preserve"><value>Parada</value></data>
+  <data name="StepReboundFinish" xml:space="preserve"><value>Remate del rechace</value></data>
+  <data name="StepCross" xml:space="preserve"><value>Centro</value></data>
+  <data name="StepDeflection" xml:space="preserve"><value>Ligero desvío</value></data>
+  <data name="PitchGeneratedLabel" xml:space="preserve"><value>Posiciones de fútbol ilustrativas. La geometría es generada; selecciona un jugador en la plantilla.</value></data>
+  <data name="PitchObservedLabel" xml:space="preserve"><value>Posiciones de fútbol. Local en rojo, visitante en azul. Selecciona un jugador por su nombre o usa la plantilla.</value></data>
+  <data name="PlayerPositionLabel" xml:space="preserve"><value>{0}, posición {1}, {2}</value></data>
+  <data name="BallDetails" xml:space="preserve"><value>Balón · {0} · {1}</value></data>
+  <data name="PreparingMoment" xml:space="preserve"><value>Preparando este momento…</value></data>
+  <data name="TrackingGap" xml:space="preserve"><value>Vacío en el seguimiento</value></data>
+  <data name="SelectedGoal" xml:space="preserve"><value>Gol seleccionado</value></data>
+  <data name="SelectedSubstitution" xml:space="preserve"><value>Sustitución seleccionada</value></data>
+  <data name="SelectedBooking" xml:space="preserve"><value>Amonestación seleccionada</value></data>
+  <data name="SelectedPossession" xml:space="preserve"><value>Posesión finalizada seleccionada</value></data>
+  <data name="SequenceEvidenceLimits" xml:space="preserve"><value>Evidencias y límites de la secuencia</value></data>
+  <data name="SequenceLimits" xml:space="preserve"><value>Las posiciones y los tiempos son ilustrativos. Las identidades y los contactos desconocidos siguen sin determinarse.</value></data>
+  <data name="CompletedInterval" xml:space="preserve"><value>Posesión finalizada · {0}–{1} · no es la posesión actual.</value></data>
+  <data name="IllustrativeLegend" xml:space="preserve"><value>Posiciones ilustrativas · sin trayectorias medidas</value></data>
+  <data name="GeneratedMotionLegend" xml:space="preserve"><value>Posiciones generadas · transiciones suaves entre fotogramas aceptados durante la reproducción · no es movimiento medido</value></data>
+  <data name="GeneratedMotionCoverage" xml:space="preserve"><value>Movimiento generado para la repetición. Las transiciones suaves no cambian el reloj aceptado ni las pruebas del partido.</value></data>
+  <data name="ObservationLegend" xml:space="preserve"><value>Sólido = observado · discontinuo = estimado/generado · cuadrado = método desconocido</value></data>
+  <data name="BallLegend" xml:space="preserve"><value>Balón: {0} / {1}</value></data>
+  <data name="NoSample" xml:space="preserve"><value>sin muestra</value></data>
+  <data name="NoCurrentPosition" xml:space="preserve"><value>No hay una muestra de posición actual disponible.</value></data>
+  <data name="EventEvidenceLoading" xml:space="preserve"><value>Cargando evidencias del evento; posiciones ilustrativas neutrales. Usa Actualizar para reintentar.</value></data>
+  <data name="NeutralPlay" xml:space="preserve"><value>Juego ilustrativo neutro. Selecciona un gol para explorar la secuencia respaldada.</value></data>
+  <data name="SubstitutionsCaption" xml:space="preserve"><value>Sustituciones · {0} cambios registrados en este minuto; orden desconocido.</value></data>
+  <data name="Goalkeeper" xml:space="preserve"><value>portero de {0}</value></data>
+  <data name="DiagramCaption" xml:space="preserve"><value>{0} {1} · pregunta en la repetición {2}</value></data>
+  <data name="Interval" xml:space="preserve"><value>Intervalo</value></data>
+  <data name="Reported" xml:space="preserve"><value>Registrado</value></data>
+  <data name="ShowOnPitch" xml:space="preserve"><value>Mostrar en el campo</value></data>
+  <data name="GoalDiagramLabel" xml:space="preserve"><value>Ilustración numerada de la secuencia del gol registrado; los pasos aparecen debajo.</value></data>
+  <data name="ReportedSequence" xml:space="preserve"><value>Ilustración de la secuencia registrada</value></data>
+  <data name="Off" xml:space="preserve"><value>Sale</value></data>
+  <data name="On" xml:space="preserve"><value>Entra</value></data>
+  <data name="PlayerUnconfirmed" xml:space="preserve"><value>Jugador sin confirmar</value></data>
+  <data name="SubstitutionDiagramNote" xml:space="preserve"><value>Cambio de jugador registrado. Se desconoce el orden de los cambios en el mismo minuto y no hay trayectorias de carrera.</value></data>
+  <data name="ReportedBooking" xml:space="preserve"><value>Amonestación registrada</value></data>
+  <data name="BookingDiagramNote" xml:space="preserve"><value>El motivo registrado no permite reconstruir una entrada ni su ubicación.</value></data>
+  <data name="PointAnnotation" xml:space="preserve"><value>Anotación puntual · no es la posesión actual</value></data>
+  <data name="CompletedSourceInterval" xml:space="preserve"><value>Intervalo de la fuente finalizado · no es la posesión actual</value></data>
+  <data name="PossessionDiagramNote" xml:space="preserve"><value>Los extremos del intervalo siguen la anotación de la fuente; es un diagrama temporal, no una trayectoria.</value></data>
+  <data name="ActorUnconfirmed" xml:space="preserve"><value> · participante sin confirmar</value></data>
+  <data name="RelatedParticipant" xml:space="preserve"><value>Participante relacionado: {0}</value></data>
+  <data name="SequenceSources" xml:space="preserve"><value>Fuentes de la secuencia</value></data>
+  <data name="SchematicLabel" xml:space="preserve"><value>Trayectoria y contacto ilustrativos; las identidades siguen vinculadas a la fuente.</value></data>
+  <data name="Loading" xml:space="preserve"><value>Cargando…</value></data>
+  <data name="ChatLabel" xml:space="preserve"><value>Conversación del partido</value></data>
+  <data name="ChatEyebrow" xml:space="preserve"><value>Una conversación con el partido</value></data>
+  <data name="ChatHeading" xml:space="preserve"><value>Hablemos de este momento.</value></data>
+  <data name="NewChat" xml:space="preserve"><value>Nuevo chat</value></data>
+  <data name="SelectionClock" xml:space="preserve"><value>{0} {1} · repetición {2}</value></data>
+  <data name="GoalSelectionNote" xml:space="preserve"><value>Las preguntas sobre el gol usan esta selección retrospectiva. Las respuestas sobre el marcador y el partido hasta ahora siguen el momento de la repetición.</value></data>
+  <data name="EventSelectionNote" xml:space="preserve"><value>El evento debe estar disponible en este momento. Las respuestas sobre marcador y jugadores conservan su alcance actual.</value></data>
+  <data name="BackReplayMoment" xml:space="preserve"><value>Volver al momento de la repetición</value></data>
+  <data name="ChatThread" xml:space="preserve"><value>Historial de conversación del partido</value></data>
+  <data name="ChatWaiting" xml:space="preserve"><value>Esperando un momento verificado. Las respuestas anteriores vuelven cuando el contexto está listo.</value></data>
+  <data name="ChatEmpty" xml:space="preserve"><value>¿Una pregunta sobre este momento? Empieza abajo o escribe la tuya.</value></data>
+  <data name="You" xml:space="preserve"><value>Tú</value></data>
+  <data name="AskedAt" xml:space="preserve"><value>Pregunta en la repetición {0} · {1} · {2} · {3}</value></data>
+  <data name="SourceAnswer" xml:space="preserve"><value>Respuesta de la fuente</value></data>
+  <data name="MatchmateAi" xml:space="preserve"><value>Matchmate · IA</value></data>
+  <data name="SelectionWhenAsked" xml:space="preserve"><value>Selección al preguntar · registrado {0} · repetición {1}</value></data>
+  <data name="AnswerSelectionScope" xml:space="preserve"><value>{0} · {1} · repetición {2} · {3}</value></data>
+  <data name="Retrospective" xml:space="preserve"><value>retrospectivo</value></data>
+  <data name="EligibleEvent" xml:space="preserve"><value>evento disponible</value></data>
+  <data name="ReplayMomentScope" xml:space="preserve"><value>Momento de la repetición · {0}</value></data>
+  <data name="SupportingEvidence" xml:space="preserve"><value>Evidencias de apoyo {0}</value></data>
+  <data name="EvidenceTool" xml:space="preserve"><value>Evidencia · {0}</value></data>
+  <data name="CheckingEvidence" xml:space="preserve"><value>Comprobando las evidencias actuales…</value></data>
+  <data name="Cancel" xml:space="preserve"><value>Cancelar</value></data>
+  <data name="SourceQuestions" xml:space="preserve"><value>Preguntas a la fuente</value></data>
+  <data name="EventQuestions" xml:space="preserve"><value>Preguntas sobre eventos</value></data>
+  <data name="AskMatch" xml:space="preserve"><value>Preguntar al partido</value></data>
+  <data name="ClarifyPlaceholder" xml:space="preserve"><value>Aclara el jugador o si te refieres a repetición/directo…</value></data>
+  <data name="AskPlaceholder" xml:space="preserve"><value>Pregunta sobre este momento o continúa…</value></data>
+  <data name="AskMatchmate" xml:space="preserve"><value>Preguntar a Matchmate</value></data>
+  <data name="ChatDisclosure" xml:space="preserve"><value>Las respuestas de la fuente usan la evidencia disponible; la IA puede equivocarse. El historial temporal dura esta sesión. Nuevo chat lo borra.</value></data>
+  <data name="ChatUpdating" xml:space="preserve"><value>El contexto se está actualizando o no está disponible. Las respuestas anteriores conservan el instante de la pregunta.</value></data>
+  <data name="ChatDisconnected" xml:space="preserve"><value>Los seguimientos con IA no están conectados. Las preguntas a la fuente están disponibles.</value></data>
+  <data name="ChatReady" xml:space="preserve"><value>Los cambios en la repetición cancelan respuestas pendientes; las anteriores conservan el instante de la pregunta.</value></data>
+  <data name="FeedbackClarify" xml:space="preserve"><value>Aclaración</value></data>
+  <data name="FeedbackUnsupported" xml:space="preserve"><value>No admitido</value></data>
+  <data name="FeedbackUnavailable" xml:space="preserve"><value>No disponible</value></data>
+  <data name="AudienceChanged" xml:space="preserve"><value>Ahora se usa el estilo {0}. {1}</value></data>
+  <data name="LanguageChanged" xml:space="preserve"><value>El idioma es ahora {0}. {1}</value></data>
+  <data name="PendingCancelledDraft" xml:space="preserve"><value>Respuesta pendiente cancelada; se conserva tu borrador.</value></data>
+  <data name="EarlierStyleKept" xml:space="preserve"><value>Las respuestas anteriores conservan su estilo original.</value></data>
+  <data name="EarlierLanguageKept" xml:space="preserve"><value>Las respuestas anteriores conservan su idioma original.</value></data>
+  <data name="DraftKept" xml:space="preserve"><value>Tu pregunta sigue aquí. Envíala o bórrala antes de preparar otra.</value></data>
+  <data name="QuestionReady" xml:space="preserve"><value>La pregunta está lista. Envíala cuando quieras.</value></data>
+  <data name="VisualGoalQuestion" xml:space="preserve"><value>Muéstrame cómo se produjo este gol</value></data>
+  <data name="VisualSubstitutionQuestion" xml:space="preserve"><value>Muestra esta sustitución en un diagrama</value></data>
+  <data name="VisualBookingQuestion" xml:space="preserve"><value>Muestra esta amonestación en un diagrama</value></data>
+  <data name="VisualPossessionQuestion" xml:space="preserve"><value>Muestra esta posesión finalizada en un diagrama</value></data>
+  <data name="ReplyCancelled" xml:space="preserve"><value>Respuesta cancelada.</value></data>
+  <data name="NewChatNotice" xml:space="preserve"><value>Nuevo chat. Se han borrado las preguntas y respuestas anteriores.</value></data>
+  <data name="ShotQuestion" xml:space="preserve"><value>Muestra los tiros de ambos equipos en esta repetición generada</value></data>
+  <data name="PassQuestion" xml:space="preserve"><value>Muestra el porcentaje de pases completados de ambos equipos en esta repetición</value></data>
+  <data name="ControlQuestion" xml:space="preserve"><value>Muestra las estadísticas de posesión de ambos equipos en esta repetición</value></data>
+  <data name="InsightControlNote" xml:space="preserve"><value>El control usa {0} de periodos finalizados; se excluyen pausas, reinicios, tiempo desconocido y periodos sin terminar.</value></data>
+  <data name="DurationMinutes" xml:space="preserve"><value>{0} min</value></data>
+  <data name="DurationMinutesSeconds" xml:space="preserve"><value>{0} min {1} s</value></data>
+  <data name="InsightShotHeadline" xml:space="preserve"><value>Control repartido. Tiros desiguales.</value></data>
+  <data name="InsightShotAnalyst" xml:space="preserve"><value>{0} ha realizado {1}; {2}, ninguno. El control ilustrado está igualado ({3} / {4}), pero el control y los tiros miden cosas distintas.</value></data>
+  <data name="InsightShotFan" xml:space="preserve"><value>El control ilustrado está casi igualado, pero {0} ha realizado {1}; {2}, ninguno. El control y los tiros miden cosas distintas.</value></data>
+  <data name="AShot" xml:space="preserve"><value>un tiro</value></data>
+  <data name="ShotsCount" xml:space="preserve"><value>{0} tiros</value></data>
+  <data name="OnlyShot" xml:space="preserve"><value>el único tiro</value></data>
+  <data name="AllShots" xml:space="preserve"><value>los {0} tiros</value></data>
+  <data name="InsightPassHeadline" xml:space="preserve"><value>Más acierto en el pase hasta ahora</value></data>
+  <data name="InsightPassAnalyst" xml:space="preserve"><value>{0} ha completado {1} de {2} pases ({3}); {4}, {5} de {6} ({7}). La tasa mayor indica más acierto en los intentos de esta ilustración; no mide la dificultad de los pases.</value></data>
+  <data name="InsightPassFan" xml:space="preserve"><value>{0} completa una mayor proporción de sus pases en esta ilustración. Se comparan tasas de acierto, no pases totales, y no se mide su dificultad.</value></data>
+  <data name="InsightBalancedHeadline" xml:space="preserve"><value>Muy poca diferencia</value></data>
+  <data name="InsightBalancedAnalyst" xml:space="preserve"><value>{0} tiene el {1} del control ilustrado; {2}, el {3}. Ninguno tiene una ventaja clara en esta medida.</value></data>
+  <data name="InsightBalancedFan" xml:space="preserve"><value>El control ilustrado está casi igualado entre {0} y {1}. Ninguno tiene una ventaja clara en esta medida.</value></data>
+  <data name="StatusWaiting" xml:space="preserve"><value>Esperando lotes compartidos de datos de fútbol…</value></data>
+  <data name="StatusLoadingIndex" xml:space="preserve"><value>Cargando el índice retrospectivo…</value></data>
+  <data name="StatusReplayReady" xml:space="preserve"><value>Repetición lista.</value></data>
+  <data name="StatusLoadingRecording" xml:space="preserve"><value>Cargando esta grabación…</value></data>
+  <data name="StatusNoRecordings" xml:space="preserve"><value>No hay grabaciones de partidos disponibles. Las muestras técnicas aparecen abajo.</value></data>
+  <data name="StatusNotInCatalog" xml:space="preserve"><value>Esta grabación no está en el catálogo actual. Elige una disponible.</value></data>
+  <data name="StatusNoBatch" xml:space="preserve"><value>Aún no se puede consultar ningún lote común. La primera importación local completa puede tardar unos tres minutos; actualiza cuando Worker esté listo.</value></data>
+  <data name="StatusApiUnavailable" xml:space="preserve"><value>La API compartida no está disponible. Actualiza cuando Worker esté listo.</value></data>
+  <data name="StatusLoadingStream" xml:space="preserve"><value>Cargando el flujo compartido…</value></data>
+  <data name="StatusAdvancedIndex" xml:space="preserve"><value>La grabación avanzó durante la carga del índice. Se reintentará automáticamente; la repetición sigue disponible.</value></data>
+  <data name="StatusIndexUnavailable" xml:space="preserve"><value>El índice retrospectivo no está disponible. Se reintentará automáticamente; usa Actualizar para hacerlo manualmente.</value></data>
+  <data name="StatusImporting" xml:space="preserve"><value>Esta grabación se está importando. El índice refleja los lotes confirmados y se actualizará automáticamente.</value></data>
+  <data name="StatusNoEvents" xml:space="preserve"><value>No hay eventos registrados en esta grabación.</value></data>
+  <data name="StatusWaitingIndex" xml:space="preserve"><value>Esperando el índice confirmado de la grabación seleccionada. Se reintentará automáticamente.</value></data>
+  <data name="StatusChangedIndex" xml:space="preserve"><value>La repetición cambió mientras se actualizaba el índice. Se reintentará en tu momento actual.</value></data>
+  <data name="StatusStillPreparing" xml:space="preserve"><value>La grabación sigue preparándose. Los momentos destacados se reintentarán automáticamente.</value></data>
+  <data name="StatusRefreshUnavailable" xml:space="preserve"><value>La actualización del índice no está disponible. Se reintentará automáticamente; usa Actualizar para hacerlo manualmente.</value></data>
+  <data name="StatusRetryLimit" xml:space="preserve"><value>La actualización automática se pausó tras alcanzar el límite de intentos. La importación puede seguir en curso; usa Actualizar para reintentar.</value></data>
+  <data name="StatusUpdatingAccepted" xml:space="preserve"><value>Actualizando… Se muestra el momento aceptado {0} hasta que el nuevo esté listo.</value></data>
+  <data name="StatusLoadingContext" xml:space="preserve"><value>Cargando el contexto de la repetición…</value></data>
+  <data name="StatusContextFailed" xml:space="preserve"><value>No se puede cargar este contexto. La reproducción está en pausa; actualiza si cambió la versión.</value></data>
+  <data name="StatusPeriodBoundary" xml:space="preserve"><value>Descanso / cambio de periodo. Continúa cuando quieras.</value></data>
+  <data name="StatusStaleDiagram" xml:space="preserve"><value>Ese diagrama ya no está actualizado. Pregunta de nuevo desde un momento listo.</value></data>
+  <data name="StatusRecordingChanged" xml:space="preserve"><value>La grabación cambió. Su índice se está actualizando; usa Actualizar para reintentar manualmente.</value></data>
+  <data name="StatusUnavailable" xml:space="preserve"><value>La información de estado no está disponible. Prueba Actualizar.</value></data>
+  <data name="DiagramGoalTitle" xml:space="preserve"><value>Cómo se produjo este gol</value></data>
+  <data name="DiagramSubstitutionTitle" xml:space="preserve"><value>El cambio de jugador</value></data>
+  <data name="DiagramBookingTitle" xml:space="preserve"><value>La amonestación registrada</value></data>
+  <data name="DiagramPossessionTitle" xml:space="preserve"><value>Intervalo de posesión finalizado</value></data>
+  <data name="CompletedPossessionCaption" xml:space="preserve"><value>Posesión finalizada · {0} · {1}–{2} · no es la posesión actual.</value></data>
+  <data name="FilterCard" xml:space="preserve"><value>Tarjeta</value></data>
+  <data name="SourceAnnotationEnglish" xml:space="preserve"><value>Anotación de la fuente (inglés)</value></data>
+  <data name="GeneratedDistanceLabel" xml:space="preserve"><value>Distancia generada de la repetición</value></data>
+  <data name="GeneratedDistanceExplanation" xml:space="preserve"><value>Movimiento en la repetición generada, no distancia recorrida realmente. Se excluyen vacíos y saltos; los totales solo incluyen muestras de movimiento aceptadas.</value></data>
+  <data name="GeneratedDistanceCompact" xml:space="preserve"><value>Generado · {0}</value></data>
+  <data name="GeneratedDistanceMetres" xml:space="preserve"><value>{0} m</value></data>
+  <data name="GeneratedDistanceUnavailable" xml:space="preserve"><value>Aún sin movimiento generado</value></data>
+  <data name="RosterPlayers" xml:space="preserve"><value>Jugadores</value></data>
+  <data name="CurrentOnPitch" xml:space="preserve"><value>{0} / 22 en el campo</value></data>
+  <data name="RosterPlayerColumn" xml:space="preserve"><value>Jugador / fuente del rol</value></data>
+  <data name="RosterOffPitch" xml:space="preserve"><value>Fuera del campo en la repetición</value></data>
+  <data name="GeneratedDistanceColumn" xml:space="preserve"><value>Metros generados</value></data>
+  <data name="SortDistanceAscending" xml:space="preserve"><value>{0}: ordenar la distancia generada de menor a mayor</value></data>
+  <data name="SortDistanceDescending" xml:space="preserve"><value>{0}: ordenar la distancia generada de mayor a menor</value></data>
+  <data name="RoleUnverified" xml:space="preserve"><value>Rol sin verificar</value></data>
+  <data name="RoleWithScope" xml:space="preserve"><value>{0} · {1}</value></data>
+  <data name="RoleGoalkeeper" xml:space="preserve"><value>Portero</value></data>
+  <data name="RoleDefender" xml:space="preserve"><value>Defensa</value></data>
+  <data name="RoleMidfielder" xml:space="preserve"><value>Centrocampista</value></data>
+  <data name="RoleMidfield" xml:space="preserve"><value>Centro del campo</value></data>
+  <data name="RoleWinger" xml:space="preserve"><value>Extremo</value></data>
+  <data name="RoleForward" xml:space="preserve"><value>Atacante</value></data>
+  <data name="RoleStriker" xml:space="preserve"><value>Delantero centro</value></data>
+  <data name="RoleRightBack" xml:space="preserve"><value>Lateral derecho</value></data>
+  <data name="RoleStartingPosition" xml:space="preserve"><value>Posición inicial</value></data>
+  <data name="RoleStartingLine" xml:space="preserve"><value>Línea inicial</value></data>
+  <data name="RoleListedCategory" xml:space="preserve"><value>Categoría de la lista</value></data>
+  <data name="RoleReportDescription" xml:space="preserve"><value>Descripción de la crónica</value></data>
+  <data name="RoleSourcePremierLeague" xml:space="preserve"><value>Alineación de la Premier League</value></data>
+  <data name="RoleSourceBrentford" xml:space="preserve"><value>Crónica del Brentford</value></data>
+  <data name="RoleEvidenceBoundary" xml:space="preserve"><value>Descripción de la fuente para este encuentro, no un historial del rol del jugador minuto a minuto. El movimiento de la repetición se genera por separado.</value></data>
+  <data name="GeneratedDistanceShortExplanation" xml:space="preserve"><value>Movimiento generado, no distancia real recorrida.</value></data>
+  <data name="SelectedPlayerDetails" xml:space="preserve"><value>Fuente y detalles de la repetición</value></data>
+  <data name="WorkspaceEyebrow" xml:space="preserve"><value>Tu Matchmate</value></data>
+  <data name="WorkspaceConversation" xml:space="preserve"><value>Conversación</value></data>
+  <data name="WorkspacePaneLabel" xml:space="preserve"><value>Junto al campo</value></data>
+  <data name="WorkspaceExplainMoment" xml:space="preserve"><value>Ponme al día</value></data>
+  <data name="WorkspaceAskPlayer" xml:space="preserve"><value>Pregunta sobre {0}</value></data>
+  <data name="WorkspaceEmpty" xml:space="preserve"><value>Escribe una pregunta encima del campo o elige una sugerencia.</value></data>
+  <data name="WorkspaceIntro" xml:space="preserve"><value>Hola, soy Matchmate. ¿Qué te llamó la atención del partido?</value></data>
+  <data name="WorkspaceWelcomeHeading" xml:space="preserve"><value>Hablemos de fútbol.</value></data>
+  <data name="WorkspaceWelcomeEvent" xml:space="preserve"><value>Podemos explorar juntos el momento seleccionado.</value></data>
+  <data name="WorkspaceWelcomePlayer" xml:space="preserve"><value>Veamos qué muestran las fuentes del partido sobre {0}.</value></data>
+  <data name="WorkspaceWelcomeMatch" xml:space="preserve"><value>Podemos explorar {0} juntos, una pregunta a la vez.</value></data>
+  <data name="RecapHalfTime" xml:space="preserve"><value>Resumen al descanso</value></data>
+  <data name="RecapFullTime" xml:space="preserve"><value>Resumen final</value></data>
+  <data name="RecapScope" xml:space="preserve"><value>Reloj del partido {0} · {1} · resumen automático</value></data>
+  <data name="RecapScore" xml:space="preserve"><value>{0} {1}–{2} {3}.</value></data>
+  <data name="RecapReported" xml:space="preserve"><value>Marcador reportado: {0} {1}</value></data>
+  <data name="RecapGoals" xml:space="preserve"><value>Goles reportados: {0}.</value></data>
+  <data name="RecapScorer" xml:space="preserve"><value>{0} ({1})</value></data>
+  <data name="RecapNoGoals" xml:space="preserve"><value>Sin goles reportados hasta este momento.</value></data>
+  <data name="RecapEvents" xml:space="preserve"><value>Los informes disponibles también incluyen {0} amonestaciones y {1} sustituciones.</value></data>
+  <data name="RecapGeneratedAnalyst" xml:space="preserve"><value>Solo en la repetición generada: {0} completó {1}/{2} pases ({3}), con {4} tiros y el {5} del control clasificado; {6} completó {7}/{8} pases ({9}), con {10} tiros y el {11} del control clasificado.</value></data>
+  <data name="RecapGeneratedFan" xml:space="preserve"><value>En la repetición generada, {0} {1}</value></data>
+  <data name="RecapShotsLevel" xml:space="preserve"><value>ambos equipos tuvieron el mismo número de tiros.</value></data>
+  <data name="RecapShotsLead" xml:space="preserve"><value>{0} tuvo más tiros.</value></data>
+  <data name="RecapControlLevel" xml:space="preserve"><value>El control clasificado estuvo bastante equilibrado.</value></data>
+  <data name="RecapControlLead" xml:space="preserve"><value>{0} tuvo más control clasificado.</value></data>
+  <data name="RecapControlUnavailable" xml:space="preserve"><value>El control clasificado no está disponible.</value></data>
+  <data name="RecapUnavailable" xml:space="preserve"><value>no disponible</value></data>
+  <data name="RecapControlNote" xml:space="preserve"><value>Las estadísticas generadas no miden el partido real. El control abarca {0} de secuencias clasificadas terminadas; excluye secuencias sin terminar, pausas, reinicios y tiempo desconocido. Datos hasta el reloj de repetición {1}.</value></data>
+  <data name="RecapAsk" xml:space="preserve"><value>Preguntar por este resumen</value></data>
+  <data name="RecapHalfTimeQuestion" xml:space="preserve"><value>Explica este resumen al descanso usando el marcador reportado y las estadísticas de la repetición generada.</value></data>
+  <data name="RecapFullTimeQuestion" xml:space="preserve"><value>Explica este resumen final usando el marcador reportado y las estadísticas de la repetición generada.</value></data>
+  <data name="IncomingSyntheticDemo" xml:space="preserve"><value>Demostración de datos sintéticos entrantes</value></data>
+  <data name="HalftimeTransition" xml:space="preserve"><value>Descanso · transición generada · reloj pausado</value></data>
+  <data name="KindRedCard" xml:space="preserve"><value>Tarjeta roja</value></data>
+  <data name="KindVarDecision" xml:space="preserve"><value>Decisión del VAR</value></data>
+  <data name="StraightRed" xml:space="preserve"><value>roja directa</value></data>
+  <data name="SecondYellow" xml:space="preserve"><value>segunda amarilla</value></data>
+  <data name="NoPenalty" xml:space="preserve"><value>sin penalti</value></data>
+  <data name="CardUpgraded" xml:space="preserve"><value>tarjeta elevada a roja</value></data>
+  <data name="GeneratedMovementSource" xml:space="preserve"><value>Ilustración generada con eventos reportados por las fuentes. El movimiento, los tiempos exactos y la duración del descanso son creados, no observados.</value></data>
+  <data name="StepReportedAssist" xml:space="preserve"><value>Asistencia reportada</value></data>
+  <data name="VisualRedCardQuestion" xml:space="preserve"><value>Muestra esta tarjeta roja en un diagrama</value></data>
+  <data name="SelectedDismissal" xml:space="preserve"><value>Expulsión seleccionada</value></data>
+  <data name="DiagramDismissalTitle" xml:space="preserve"><value>La expulsión reportada</value></data>
+  <data name="DismissalDiagramNote" xml:space="preserve"><value>La expulsión y el motivo reportados no reconstruyen una falta ni la posición del árbitro.</value></data>
+  <data name="DismissalAnnotationNote" xml:space="preserve"><value>Anotación del evento · sin ubicación del jugador</value></data>
+  <data name="SourceNotes" xml:space="preserve"><value>Notas de la fuente</value></data>
+  <data name="SourceNoteOriginalEnglish" xml:space="preserve"><value>Original en inglés · traducción no disponible</value></data>
+  <data name="ShowOriginalSourceNotes" xml:space="preserve"><value>Mostrar original</value></data>
+  <data name="SourceNoteSteps" xml:space="preserve"><value>Pasos {0}</value></data>
+  <data name="FullMatchSpoilerWarning" xml:space="preserve"><value>Retrospectiva del partido completo · contiene spoilers</value></data>
+  <data name="ReportedStats" xml:space="preserve"><value>Eventos del partido según los informes</value></data>
+  <data name="ReportedStatsDescription" xml:space="preserve"><value>Goles, tarjetas y cambios contados a partir de los informes disponibles en este punto de la reproducción. No hay datos de pases, tiros ni posesión.</value></data>
+  <data name="ReportedYellows" xml:space="preserve"><value>Amarillas</value></data>
+  <data name="ReportedReds" xml:space="preserve"><value>Rojas</value></data>
+  <data name="ReportedPanelNote" xml:space="preserve"><value>Las cifras abarcan los informes disponibles en este punto, no todos los incidentes ni estadísticas medidas del partido. Una expulsión por doble amarilla suma un informe de roja; otra amarilla solo cuenta si se informa por separado. Las revisiones del VAR no añaden tarjetas.</value></data>
+  <data name="ReportedInsight" xml:space="preserve"><value>Lectura de los informes del partido</value></data>
+  <data name="ReportedInsightScope" xml:space="preserve"><value>Informes del partido · reproducción {0} · {1}</value></data>
+  <data name="ReportedInsightLead" xml:space="preserve"><value>{0} va por delante según los goles informados</value></data>
+  <data name="ReportedInsightLevel" xml:space="preserve"><value>Empate según los goles informados</value></data>
+  <data name="ReportedDismissals" xml:space="preserve"><value>{0}: expulsiones informadas {1}.</value></data>
+  <data name="ReportedInsightCounts" xml:space="preserve"><value>Informes disponibles: {0}; amarillas: {1}; cambios: {2}.</value></data>
+  <data name="ReportedInsightQuestion" xml:space="preserve"><value>Explica el marcador y las tarjetas con los informes disponibles en este punto de la reproducción.</value></data>
+  <data name="ReportedRecapScope" xml:space="preserve"><value>Informes del partido · reloj {0} · {1} · resumen automático</value></data>
+  <data name="ReportedRecapTeamFan" xml:space="preserve"><value>{0}: amarillas {1}, expulsiones {2} y cambios {3}, según los informes.</value></data>
+  <data name="ReportedRecapTeamAnalyst" xml:space="preserve"><value>{0} — informes de amarillas: {1}; rojas: {2}; cambios: {3}.</value></data>
+  <data name="ReportedHalfTimeNote" xml:space="preserve"><value>Datos hasta {0} de reproducción, incluidos los cambios informados del descanso. El tiempo sigue la reproducción creada; no son segundos verificados del silbato ni de los incidentes.</value></data>
+  <data name="ReportedFullTimeNote" xml:space="preserve"><value>Datos hasta el final de la reproducción creada, en {0}. No se indican los segundos exactos del silbato ni de los incidentes.</value></data>
+  <data name="ReportedHalfTimeQuestion" xml:space="preserve"><value>Explica este resumen del descanso con el marcador, las tarjetas y las sustituciones informadas, incluidos los cambios del descanso.</value></data>
+  <data name="ReportedFullTimeQuestion" xml:space="preserve"><value>Explica este resumen final con el marcador, las tarjetas y las sustituciones informadas.</value></data>
+  <data name="ReportedPanelCoverage" xml:space="preserve"><value>Según los informes disponibles en este punto de la reproducción. La cobertura puede ser incompleta; estas cifras no miden la posesión ni el rendimiento global.</value></data>
+  <data name="StoryHeading" xml:space="preserve"><value>Historia del partido</value></data>
+  <data name="StoryGenerated" xml:space="preserve"><value>Repetición generada</value></data>
+  <data name="StoryEmpty" xml:space="preserve"><value>Todavía no hay secuencias completadas en este momento de la repetición.</value></data>
+  <data name="StoryEarlier" xml:space="preserve"><value>Secuencias anteriores ({0})</value></data>
+  <data name="StorySummary" xml:space="preserve"><value>{0} pases completados → {1}</value></data>
+  <data name="StoryTurnover" xml:space="preserve"><value>pérdida de balón</value></data>
+  <data name="StoryShot" xml:space="preserve"><value>tiro</value></data>
+  <data name="StoryPeriodEnd" xml:space="preserve"><value>fin del periodo</value></data>
+  <data name="StoryControlEnd" xml:space="preserve"><value>fin del control</value></data>
+  <data name="StoryInterval" xml:space="preserve"><value>{0}–{1}</value></data>
+  <data name="StoryAsk" xml:space="preserve"><value>Preguntar sobre esto</value></data>
+  <data name="StoryAskLabel" xml:space="preserve"><value>Preguntar sobre {0}, {1}</value></data>
+  <data name="StoryQuestion" xml:space="preserve"><value>¿Qué pasó en la secuencia generada de {0} en {1}?</value></data>
+  <data name="StoryPreparedQuestion" xml:space="preserve"><value>¿Qué pasó en esta secuencia generada seleccionada?</value></data>
+  <data name="StoryAnswer" xml:space="preserve"><value>En esta repetición generada, la secuencia de {0} en {1} duró {5:0.#} segundos: {2} de {3} pases completados y {4} tiros, con este final: {6}.</value></data>
+  <data name="StoryAnswerLimit" xml:space="preserve"><value>Calculado a partir de acciones generadas solo para esta secuencia, no del rendimiento medido en el partido.</value></data>
+  <data name="StoryUnavailable" xml:space="preserve"><value>Esa secuencia generada no está disponible o ha cambiado. Vuelve a seleccionarla en la repetición cargada.</value></data>
+  <data name="StoryReplyReady" xml:space="preserve"><value>Respuesta basada en la secuencia generada seleccionada.</value></data>
+  <data name="StorySelected" xml:space="preserve"><value>Secuencia seleccionada</value></data>
+  <data name="StorySelectedScope" xml:space="preserve"><value>Las preguntas se refieren solo a esta secuencia generada. Vuelve al partido para otras preguntas.</value></data>
+  <data name="StoryReplayInterval" xml:space="preserve"><value>Intervalo de repetición {0}–{1}</value></data>
+  <data name="StoryBackMatch" xml:space="preserve"><value>Volver al partido</value></data>
+  <data name="StoryWelcome" xml:space="preserve"><value>Pregunta por los pases, tiros, duración o final de la secuencia seleccionada.</value></data>
+  <data name="StoryReady" xml:space="preserve"><value>Listo para responder sobre la secuencia seleccionada.</value></data>
+  <data name="StorySummaryOne" xml:space="preserve"><value>{0} pase completado → {1}</value></data>
+  <data name="StoryUnsupportedTactics" xml:space="preserve"><value>Esta secuencia generada no establece por qué ocurrió ni la táctica del partido real.</value></data>
+  <data name="StoryUnsupportedMovement" xml:space="preserve"><value>La velocidad y la distancia no están disponibles para esta secuencia generada.</value></data>
+  <data name="StoryUnsupportedRating" xml:space="preserve"><value>Esta secuencia generada no permite valorar a un jugador ni su rendimiento en el partido real.</value></data>
+  <data name="StoryUnsupportedActual" xml:space="preserve"><value>Las estadísticas del partido real no están disponibles para esta secuencia. Sus acciones son generadas.</value></data>
+  <data name="ReportedStatsWithGeneratedDescription" xml:space="preserve"><value>Esta tabla cuenta los goles, las tarjetas y las sustituciones reportados. La tabla generada, que se muestra por separado, describe la ilustración; no mide el partido.</value></data>
+</root>

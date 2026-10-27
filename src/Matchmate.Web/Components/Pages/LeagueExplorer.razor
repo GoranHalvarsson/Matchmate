@@ -1,0 +1,68 @@
+@page "/"
+@rendermode @(new InteractiveServerRenderMode(prerender: false))
+@attribute [Authorize(Policy = ExternalIdAuthentication.TesterPolicy)]
+@using Matchmate.Web.Localization
+@using Matchmate.Web.Components.League
+@using Matchmate.Web.Components.Experience
+@using Matchmate.Web.Experience
+@implements IAsyncDisposable
+<PageTitle>@T("PageTitle")</PageTitle>
+<CascadingValue Value="Language">
+<main class="experience league-experience" lang="@MatchLanguages.Code(Language)">
+<section class="featured-match" aria-labelledby="featured-match-heading">
+    <div class="featured-match-copy">
+        <p class="eyebrow">@T("FeaturedMatch")</p>
+        <h1 id="featured-match-heading">@T("FeaturedHeadline")</h1>
+        <p class="featured-match-invitation">@T("FeaturedInvitation")</p>
+    </div>
+    <div class="featured-match-cards">
+        <article class="featured-match-card is-featured" aria-labelledby="liverpool-match-heading">
+            <div class="featured-match-meta">
+                <div class="featured-match-context"><span>@T("FeaturedCompetition")</span><time datetime="2026-10-17">@FullDate("2026-10-17")</time></div>
+                <span class="featured-match-badge">@T("ReplayDemo")</span>
+            </div>
+            <h2 id="liverpool-match-heading" class="sr-only">Brentford – Liverpool</h2>
+            <div class="featured-match-fixture" aria-hidden="true">
+                <div class="featured-match-club"><span class="featured-match-crest"><img src="/assets/crests/brentford-2026.png" width="100" height="100" alt=""/></span><strong>Brentford</strong></div>
+                <span class="featured-match-versus">×</span>
+                <div class="featured-match-club"><span class="featured-match-crest"><img src="/assets/crests/liverpool-2026.png" width="100" height="100" alt=""/></span><strong>Liverpool</strong></div>
+            </div>
+            <a class="featured-match-link" href="/recordings/brentford-liverpool-illustration">@T("ExploreLiverpoolMatch")<span aria-hidden="true">→</span></a>
+        </article>
+        <article class="featured-match-card" aria-labelledby="chelsea-match-heading">
+            <div class="featured-match-meta">
+                <div class="featured-match-context"><span>@T("FeaturedCompetition")</span><time datetime="2026-09-18">@FullDate("2026-09-18")</time></div>
+                <span class="featured-match-badge">@T("ReplayDemo")</span>
+            </div>
+            <h2 id="chelsea-match-heading" class="sr-only">Brentford – Chelsea</h2>
+            <div class="featured-match-fixture" aria-hidden="true">
+                <div class="featured-match-club"><img src="/assets/crests/brentford-2026.png" width="100" height="100" alt=""/><strong>Brentford</strong></div>
+                <span class="featured-match-versus">×</span>
+                <div class="featured-match-club"><img src="/assets/crests/chelsea-2026.png" width="100" height="100" alt=""/><strong>Chelsea</strong></div>
+            </div>
+            <a class="featured-match-link" href="/recordings/brentford-existing-illustration">@T("ExploreChelseaMatch")<span aria-hidden="true">→</span></a>
+        </article>
+    </div>
+    <p class="featured-match-provenance">@T("FeaturedProvenance")</p>
+</section>
+<section class="league-intro"><div><p class="eyebrow">@T("LeagueInPlace")</p><h2>@T("SeasonHeading")<br/><em>@T("DayByDay")</em></h2><p>@T("IntroFirst")<br/>@T("IntroSecond")</p></div></section>
+<div class="league-toolbar"><SeasonPicker Seasons="_seasons" Selected="@DisplayedSeason" SelectedChanged="ChangeSeasonAsync"/><p>@T("CatalogSummary", _snapshot?.Clubs.Length ?? 20, _seasons.Length)</p><button class="mobile-map-toggle" @onclick="() => _showMap = !_showMap">@(_showMap ? T("HideMap") : T("ShowMap"))</button></div>
+<div class="league-update-status" role="status" aria-live="polite" aria-busy="@_loading"><span>@DisplayStatus</span>@if (_loadError && _snapshot is not null) { <button @onclick="RetryAsync">@T("RetryUpdate")</button> }</div>
+@if (_snapshot is { } snapshot) {
+<LeagueConversation Context="ConversationContext" Club="snapshot.SelectedClub?.Club" SeasonLabel="@snapshot.Season.Label" Ongoing="@(snapshot.Season.Status == "ongoing")" ResultsThrough="@snapshot.Season.ResultsThrough" Updating="@(_loading || _loadError || _navigatingAway)" OnAsking="PauseForConversation"/>
+<SeasonPlayback Snapshot="snapshot" Playing="_playing" Speed="_speed" Toggle="ToggleAsync" Seek="SeekAsync" SpeedChanged="SetSpeed"/>
+@if (snapshot.Season.Status == "ongoing") { <p class="source-note"><strong>@Coverage(snapshot.Season)</strong><br/>@T("Freshness", FullDate(snapshot.Season.RetrievedAt?[..10]))</p> }
+<div class="league-layout" aria-busy="@_loading"><LeagueStandings Snapshot="snapshot" Selected="@_club" Select="SelectClubAsync"/><div class="map-column @(_showMap ? "is-visible" : "")"><LeagueMap Snapshot="snapshot" Selected="@_club" Select="SelectClubAsync"/></div><ClubDetail Snapshot="snapshot"/></div>
+<details class="source-note"><summary>@T("CalculationTitle")</summary><p>@T("CalculationNote", snapshot.Season.MatchCount, snapshot.Season.ScheduledMatchCount, T(snapshot.Season.Status == "ongoing" ? "Ongoing" : "CompleteStatus"), Coverage(snapshot.Season))</p></details>
+} else { <section class="loading-card" role="status"><h2>@(_loading ? T("FindingSeason") : T("SeasonUnavailable"))</h2><p>@DisplayStatus</p><button @onclick="RetryAsync">@T("TryAgain")</button></section> }
+<section class="replay-background" aria-labelledby="replay-background-heading">
+    <div>
+        <p class="eyebrow">@T("BehindReplay")</p>
+        <h2 id="replay-background-heading">@T("RecordedTrackingSample")</h2>
+        <p>@T("RecordedSampleInvitation")</p>
+        <p class="recorded-sample-limit">@T("RecordedSampleLimit")</p>
+    </div>
+    <a class="recorded-sample-link" href="/recordings/australian-recorded">@T("ExploreRecordedSample")<span aria-hidden="true">→</span></a>
+</section>
+</main>
+</CascadingValue>

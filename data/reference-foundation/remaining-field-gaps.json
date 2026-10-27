@@ -1,0 +1,39 @@
+{
+  "observed_at": "2026-10-17",
+  "ground_street_address_claim_gaps": [
+    "selhurst-park",
+    "griffin-park",
+    "white-hart-lane",
+    "boleyn-ground",
+    "dean-court",
+    "turf-moor",
+    "coventry-building-society-arena",
+    "goodison-park",
+    "vicarage-road",
+    "carrow-road",
+    "the-hawthorns",
+    "craven-cottage",
+    "britannia-stadium",
+    "st-mary-s-stadium",
+    "liberty-stadium",
+    "portman-road",
+    "mkm-stadium",
+    "riverside-stadium",
+    "old-trafford",
+    "brentford-community-stadium"
+  ],
+  "historical_naming_status": "120 notes/16 period-start records; 60/60 selected contexts at usage level. Latest original-source search recovers no new original notice; club retrospective establishes Leicester5July2011 rename, sponsor report corroborates Emirates month-level immediate effect, opponent retrospective gives LibertyOctober2005rights award. See ORIGINAL-ANNOUNCEMENT-RESEARCH.md for exact source/access distinctions and remaining original-notice gaps.",
+  "club_football_home_town_status": "30 source-reported club base claims;29footballlocalities follow direct source descriptions; Forestprimary football cityNottingham separated from communitybaseWest Bridgford. No complete historical intervals.",
+  "source_access_issue": "SEC-filed handbook request returned HTTP403; no retry/evasion or full document retention.",
+  "season_entity_result": "All60 captured season entities inspected; none supplied P115.",
+  "remaining_work": "Historical address applicability, unresolved naming precision/season usage, 2026/27 actual fixture venues and reuse clearance remain incomplete. The 2016/17 380-fixture primary venue audit is complete at its declared scope.",
+  "supplemental_address_reviews": 20,
+  "supplemental_named_street_evidence": 19,
+  "supplemental_street_not_stated": [
+    "liberty-stadium"
+  ],
+  "supplemental_address_limitations": "Nineteen have a named street at differing evidence levels; Boleyn is historic club-directory address, Old Trafford club contact, Riverside legacy government premises. Swansea published postal address complete without street. No current claim backdated.",
+  "ground_street_address_claim_gaps_scope": "Wikidata-only source-claim gap list preserved from prior batch; not the combined remaining-address gap count.",
+  "combined_address_coverage_summary": "All 20 original Wikidata gaps reviewed in supplemental records. Nineteen now have named-street evidence at declared source/temporal levels; Swansea publishes a usable postal address but no street line. Existing 14 Wikidata address-bearing grounds remain separate. Historical date applicability and entrance identification are not complete.",
+  "fixture_venue_coverage_summary": "2016/17: 380/380 actual official Premier League match headers reviewed in the completed primary-fixture audit; zero date/team/score/ground identity disagreements. Independent review accepted the capture and root spotchecks, not an independent 380-page recapture. Historical printed names are a separate review. Prior three-case scope is historical. 2026/27 remains one actual primary case, 379/380 unchecked actual venues plus one separate planned case."
+}

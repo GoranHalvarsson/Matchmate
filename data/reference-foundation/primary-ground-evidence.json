@@ -1,0 +1,619 @@
+[
+  {
+    "note_id": "primary-ground-1",
+    "club_id": "chelsea",
+    "ground_id": "stamford-bridge",
+    "source_url": "https://www.chelseafc.com/en/stadium-history",
+    "observed_at": "2026-10-17",
+    "summary": "Club history identifies Stamford Bridge as home since formation in 1905.",
+    "inspection_scope": "Primary publisher text reviewed through web research; bounded paraphrase only, no full article retained.",
+    "reuse_status": "Research citation only; underlying publisher reuse and external AI/public product rights not cleared.",
+    "effective_interval": null,
+    "known_then": false,
+    "applicable_seasons": [
+      "2015/16",
+      "2016/17",
+      "2026/27"
+    ],
+    "applicability_basis": "Reviewed content described in summary supports these selected season contexts; publication date alone is not an applicability rule. Empty list means candidate/reference only, not approved for season linkage."
+  },
+  {
+    "note_id": "primary-ground-2",
+    "club_id": "fulham",
+    "ground_id": "craven-cottage",
+    "source_url": "https://www.fulhamfc.com/club/history/history-of-fulham-football-club",
+    "observed_at": "2026-10-17",
+    "summary": "Club history identifies Craven Cottage home from 1896; temporary Loftus Road period must not be erased.",
+    "inspection_scope": "Primary publisher text reviewed through web research; bounded paraphrase only, no full article retained.",
+    "reuse_status": "Research citation only; underlying publisher reuse and external AI/public product rights not cleared.",
+    "effective_interval": null,
+    "known_then": false,
+    "applicable_seasons": [],
+    "applicability_basis": "Reviewed content described in summary supports these selected season contexts; publication date alone is not an applicability rule. Empty list means candidate/reference only, not approved for season linkage."
+  },
+  {
+    "note_id": "primary-ground-3",
+    "club_id": "hull",
+    "ground_id": "mkm-stadium",
+    "source_url": "https://tigerbase.hullcity.com/tigers-timeline.php?select_year=2010",
+    "observed_at": "2026-10-17",
+    "summary": "Club historical timeline records KC to KCOM naming change on 4 April 2016; this is a naming event, not a ground move.",
+    "inspection_scope": "Primary publisher text reviewed through web research; bounded paraphrase only, no full article retained.",
+    "reuse_status": "Research citation only; underlying publisher reuse and external AI/public product rights not cleared.",
+    "effective_interval": null,
+    "known_then": false,
+    "applicable_seasons": [],
+    "applicability_basis": "Reviewed content described in summary supports these selected season contexts; publication date alone is not an applicability rule. Empty list means candidate/reference only, not approved for season linkage."
+  },
+  {
+    "note_id": "primary-ground-4",
+    "club_id": "ipswich",
+    "ground_id": "portman-road",
+    "source_url": "https://www.itfc.co.uk/news/2026/june/19/2026-27-fixtures-announced/",
+    "observed_at": "2026-10-17",
+    "summary": "2026/27 fixture announcement names Portman Road home fixtures; planned fixtures can change.",
+    "inspection_scope": "Primary publisher text reviewed through web research; bounded paraphrase only, no full article retained.",
+    "reuse_status": "Research citation only; underlying publisher reuse and external AI/public product rights not cleared.",
+    "effective_interval": null,
+    "known_then": false,
+    "applicable_seasons": [
+      "2026/27"
+    ],
+    "applicability_basis": "Reviewed content described in summary supports these selected season contexts; publication date alone is not an applicability rule. Empty list means candidate/reference only, not approved for season linkage."
+  },
+  {
+    "note_id": "primary-ground-5",
+    "club_id": "manchester-city",
+    "ground_id": "etihad-stadium",
+    "source_url": "https://www.mancity.com/club/manchester-city-history",
+    "observed_at": "2026-10-17",
+    "summary": "Club history records move to new stadium in 2003.",
+    "inspection_scope": "Primary publisher text reviewed through web research; bounded paraphrase only, no full article retained.",
+    "reuse_status": "Research citation only; underlying publisher reuse and external AI/public product rights not cleared.",
+    "effective_interval": null,
+    "known_then": false,
+    "applicable_seasons": [],
+    "applicability_basis": "Reviewed content described in summary supports these selected season contexts; publication date alone is not an applicability rule. Empty list means candidate/reference only, not approved for season linkage."
+  },
+  {
+    "note_id": "primary-ground-6",
+    "club_id": "manchester-united",
+    "ground_id": "old-trafford",
+    "source_url": "https://ir.manutd.com/company-information/history.aspx",
+    "observed_at": "2026-10-17",
+    "summary": "Club history records Old Trafford move in 1910; wartime temporary use elsewhere prevents an unbroken all-history assertion.",
+    "inspection_scope": "Primary publisher text reviewed through web research; bounded paraphrase only, no full article retained.",
+    "reuse_status": "Research citation only; underlying publisher reuse and external AI/public product rights not cleared.",
+    "effective_interval": null,
+    "known_then": false,
+    "applicable_seasons": [],
+    "applicability_basis": "Reviewed content described in summary supports these selected season contexts; publication date alone is not an applicability rule. Empty list means candidate/reference only, not approved for season linkage."
+  },
+  {
+    "note_id": "primary-ground-7",
+    "club_id": "middlesbrough",
+    "ground_id": "riverside-stadium",
+    "source_url": "https://www.mfc.co.uk/news/2026/may/05/riverside-memories--liverpool--1998----with-mikkel-beck-and-craig-hignett/",
+    "observed_at": "2026-10-17",
+    "summary": "Club retrospective records Riverside opening and home football in 1995; not a specific 2016/17 venue audit.",
+    "inspection_scope": "Primary publisher text reviewed through web research; bounded paraphrase only, no full article retained.",
+    "reuse_status": "Research citation only; underlying publisher reuse and external AI/public product rights not cleared.",
+    "effective_interval": null,
+    "known_then": false,
+    "applicable_seasons": [],
+    "applicability_basis": "Reviewed content described in summary supports these selected season contexts; publication date alone is not an applicability rule. Empty list means candidate/reference only, not approved for season linkage."
+  },
+  {
+    "note_id": "primary-ground-8",
+    "club_id": "norwich",
+    "ground_id": "carrow-road",
+    "source_url": "https://www.canaries.co.uk/club/history",
+    "observed_at": "2026-10-17",
+    "summary": "Club history records first League match at Carrow Road on 31 August 1935.",
+    "inspection_scope": "Primary publisher text reviewed through web research; bounded paraphrase only, no full article retained.",
+    "reuse_status": "Research citation only; underlying publisher reuse and external AI/public product rights not cleared.",
+    "effective_interval": null,
+    "known_then": false,
+    "applicable_seasons": [],
+    "applicability_basis": "Reviewed content described in summary supports these selected season contexts; publication date alone is not an applicability rule. Empty list means candidate/reference only, not approved for season linkage."
+  },
+  {
+    "note_id": "primary-ground-9",
+    "club_id": "nottingham-forest",
+    "ground_id": "city-ground",
+    "source_url": "https://www.nottinghamforest.co.uk/club-information/history/club-information-history-of-nottingham-forest",
+    "observed_at": "2026-10-17",
+    "summary": "Club history records City Ground move in 1898.",
+    "inspection_scope": "Primary publisher text reviewed through web research; bounded paraphrase only, no full article retained.",
+    "reuse_status": "Research citation only; underlying publisher reuse and external AI/public product rights not cleared.",
+    "effective_interval": null,
+    "known_then": false,
+    "applicable_seasons": [],
+    "applicability_basis": "Reviewed content described in summary supports these selected season contexts; publication date alone is not an applicability rule. Empty list means candidate/reference only, not approved for season linkage."
+  },
+  {
+    "note_id": "primary-ground-10",
+    "club_id": "southampton",
+    "ground_id": "st-mary-s-stadium",
+    "source_url": "https://www.southamptonfc.com/en/history",
+    "observed_at": "2026-10-17",
+    "summary": "Club history records a home Premier League match at St Marys on 25 August 2012; not a selected-season venue audit.",
+    "inspection_scope": "Primary publisher text reviewed through web research; bounded paraphrase only, no full article retained.",
+    "reuse_status": "Research citation only; underlying publisher reuse and external AI/public product rights not cleared.",
+    "effective_interval": null,
+    "known_then": false,
+    "applicable_seasons": [],
+    "applicability_basis": "Reviewed content described in summary supports these selected season contexts; publication date alone is not an applicability rule. Empty list means candidate/reference only, not approved for season linkage."
+  },
+  {
+    "note_id": "primary-ground-11",
+    "club_id": "stoke",
+    "ground_id": "britannia-stadium",
+    "source_url": "https://historicengland.org.uk/images-books/photos/item/FGE01/01/087/012",
+    "observed_at": "2026-10-17",
+    "summary": "Historic England identifies new home in 1997 and stadium rename to bet365 in 2016; exact rename date not established here.",
+    "inspection_scope": "Primary publisher text reviewed through web research; bounded paraphrase only, no full article retained.",
+    "reuse_status": "Research citation only; underlying publisher reuse and external AI/public product rights not cleared.",
+    "effective_interval": null,
+    "known_then": false,
+    "applicable_seasons": [
+      "2015/16",
+      "2016/17"
+    ],
+    "applicability_basis": "Reviewed content described in summary supports these selected season contexts; publication date alone is not an applicability rule. Empty list means candidate/reference only, not approved for season linkage."
+  },
+  {
+    "note_id": "primary-ground-12",
+    "club_id": "sunderland",
+    "ground_id": "stadium-of-light",
+    "source_url": "https://images.gc.safcservices.com/51146560-87bb-11ef-be35-a91a2fedf24c.pdf",
+    "observed_at": "2026-10-17",
+    "summary": "Official visitor guide identifies Stadium of Light as home since 1997.",
+    "inspection_scope": "Primary publisher text reviewed through web research; bounded paraphrase only, no full article retained.",
+    "reuse_status": "Research citation only; underlying publisher reuse and external AI/public product rights not cleared.",
+    "effective_interval": null,
+    "known_then": false,
+    "applicable_seasons": [
+      "2015/16",
+      "2016/17",
+      "2026/27"
+    ],
+    "applicability_basis": "Reviewed content described in summary supports these selected season contexts; publication date alone is not an applicability rule. Empty list means candidate/reference only, not approved for season linkage."
+  },
+  {
+    "note_id": "primary-ground-13",
+    "club_id": "swansea",
+    "ground_id": "liberty-stadium",
+    "source_url": "https://www.swanseacity.com/news/ten-years-liberty-seventh-heaven",
+    "observed_at": "2026-10-17",
+    "summary": "23 February 2016 retrospective identifies tenth season at Liberty Stadium. Current Swansea.com name is not a 2015 name.",
+    "inspection_scope": "Primary publisher text reviewed through web research; bounded paraphrase only, no full article retained.",
+    "reuse_status": "Research citation only; underlying publisher reuse and external AI/public product rights not cleared.",
+    "effective_interval": null,
+    "known_then": false,
+    "applicable_seasons": [
+      "2015/16"
+    ],
+    "applicability_basis": "Reviewed content described in summary supports these selected season contexts; publication date alone is not an applicability rule. Empty list means candidate/reference only, not approved for season linkage."
+  },
+  {
+    "note_id": "primary-ground-14",
+    "club_id": "watford",
+    "ground_id": "vicarage-road",
+    "source_url": "https://cdn.wba.co.uk/sites/default/files/2023-09/Vicarage%20Road%20Guide.pdf.pdf",
+    "observed_at": "2026-10-17",
+    "summary": "Visiting clubs guide identifies Vicarage Road as Watford home since 1922; publication is by West Bromwich Albion.",
+    "inspection_scope": "Primary publisher text reviewed through web research; bounded paraphrase only, no full article retained.",
+    "reuse_status": "Research citation only; underlying publisher reuse and external AI/public product rights not cleared.",
+    "effective_interval": null,
+    "known_then": false,
+    "applicable_seasons": [
+      "2015/16",
+      "2016/17"
+    ],
+    "applicability_basis": "Reviewed content described in summary supports these selected season contexts; publication date alone is not an applicability rule. Empty list means candidate/reference only, not approved for season linkage."
+  },
+  {
+    "note_id": "primary-ground-15",
+    "club_id": "west-brom",
+    "ground_id": "the-hawthorns",
+    "source_url": "https://www.wba.co.uk/news/celebrating-120-years-hawthorns",
+    "observed_at": "2026-10-17",
+    "summary": "3 September 2020 club retrospective identifies 120 years at The Hawthorns.",
+    "inspection_scope": "Primary publisher text reviewed through web research; bounded paraphrase only, no full article retained.",
+    "reuse_status": "Research citation only; underlying publisher reuse and external AI/public product rights not cleared.",
+    "effective_interval": null,
+    "known_then": false,
+    "applicable_seasons": [
+      "2015/16",
+      "2016/17"
+    ],
+    "applicability_basis": "Reviewed content described in summary supports these selected season contexts; publication date alone is not an applicability rule. Empty list means candidate/reference only, not approved for season linkage."
+  },
+  {
+    "note_id": "primary-ground-16",
+    "club_id": "brentford",
+    "ground_id": "brentford-community-stadium",
+    "source_url": "https://www.brentfordfc.com/en/history-welcome-page",
+    "observed_at": "2026-10-17",
+    "summary": "Club history records move to new Community Stadium in September 2020; undated Griffin Park P115 is stale for 2026 context.",
+    "inspection_scope": "Primary publisher text reviewed through web research; bounded paraphrase only, no full article retained.",
+    "reuse_status": "Research citation only; underlying publisher reuse and external AI/public product rights not cleared.",
+    "effective_interval": null,
+    "known_then": false,
+    "applicable_seasons": [
+      "2026/27"
+    ],
+    "applicability_basis": "Reviewed content described in summary supports these selected season contexts; publication date alone is not an applicability rule. Empty list means candidate/reference only, not approved for season linkage."
+  },
+  {
+    "note_id": "primary-ground-17",
+    "club_id": "brighton",
+    "ground_id": "brighton-community-stadium",
+    "source_url": "https://www.brightonandhovealbion.com/media-article/message-from-tony-bloom-ahead-of-our-125-anniversary-game",
+    "observed_at": "2026-10-17",
+    "summary": "2026 anniversary message identifies permanent Amex home opened in 2011.",
+    "inspection_scope": "Primary publisher text reviewed through web research; bounded paraphrase only, no full article retained.",
+    "reuse_status": "Research citation only; underlying publisher reuse and external AI/public product rights not cleared.",
+    "effective_interval": null,
+    "known_then": false,
+    "applicable_seasons": [
+      "2026/27"
+    ],
+    "applicability_basis": "Reviewed content described in summary supports these selected season contexts; publication date alone is not an applicability rule. Empty list means candidate/reference only, not approved for season linkage."
+  },
+  {
+    "note_id": "primary-ground-18",
+    "club_id": "coventry",
+    "ground_id": "coventry-building-society-arena",
+    "source_url": "https://www.premierleague.com/en/clubs/9/coventry-city/directory",
+    "observed_at": "2026-10-17",
+    "summary": "2026 club directory identifies Coventry Building Society Arena; this is observed current context, not full-season certainty.",
+    "inspection_scope": "Primary publisher text reviewed through web research; bounded paraphrase only, no full article retained.",
+    "reuse_status": "Research citation only; underlying publisher reuse and external AI/public product rights not cleared.",
+    "effective_interval": null,
+    "known_then": false,
+    "applicable_seasons": [
+      "2026/27"
+    ],
+    "applicability_basis": "Reviewed content described in summary supports these selected season contexts; publication date alone is not an applicability rule. Empty list means candidate/reference only, not approved for season linkage."
+  },
+  {
+    "note_id": "primary-ground-19",
+    "club_id": "bournemouth",
+    "ground_id": "dean-court",
+    "source_url": "https://www.afcb.co.uk/news/2026/october/12/information---points-drop--brighton-h/",
+    "observed_at": "2026-10-17",
+    "summary": "12 October 2026 club notice identifies planned 2 December 2026 home fixture at Vitality Stadium; historical context remains to corroborate.",
+    "inspection_scope": "Primary publisher text reviewed through web research; bounded paraphrase only, no full article retained.",
+    "reuse_status": "Research citation only; underlying publisher reuse and external AI/public product rights not cleared.",
+    "effective_interval": null,
+    "known_then": false,
+    "applicable_seasons": [
+      "2026/27"
+    ],
+    "applicability_basis": "Reviewed content described in summary supports these selected season contexts; publication date alone is not an applicability rule. Empty list means candidate/reference only, not approved for season linkage."
+  },
+  {
+    "note_id": "primary-ground-20",
+    "club_id": "burnley",
+    "ground_id": "turf-moor",
+    "source_url": "https://historicengland.org.uk/images-books/photos/volume/FGE01/01/019",
+    "observed_at": "2026-10-17",
+    "summary": "Historic England identifies Turf Moor as club home since 1883.",
+    "inspection_scope": "Primary publisher text reviewed through web research; bounded paraphrase only, no full article retained.",
+    "reuse_status": "Research citation only; underlying publisher reuse and external AI/public product rights not cleared.",
+    "effective_interval": null,
+    "known_then": false,
+    "applicable_seasons": [
+      "2016/17"
+    ],
+    "applicability_basis": "Reviewed content described in summary supports these selected season contexts; publication date alone is not an applicability rule. Empty list means candidate/reference only, not approved for season linkage."
+  },
+  {
+    "note_id": "primary-ground-21",
+    "club_id": "west-ham",
+    "ground_id": "boleyn-ground",
+    "source_url": "https://www.whufc.com/en/the-club/history/greatest-matches/2016-west-ham-united-3-2-manchester-united",
+    "observed_at": "2026-10-17",
+    "summary": "Club retrospective identifies final Boleyn Ground game on 10 May 2016.",
+    "inspection_scope": "Primary publisher text reviewed through web research; bounded paraphrase only, no full article retained.",
+    "reuse_status": "Research citation only; underlying publisher reuse and external AI/public product rights not cleared.",
+    "effective_interval": null,
+    "known_then": false,
+    "applicable_seasons": [
+      "2015/16"
+    ],
+    "applicability_basis": "Reviewed content described in summary supports these selected season contexts; publication date alone is not an applicability rule. Empty list means candidate/reference only, not approved for season linkage."
+  },
+  {
+    "note_id": "primary-ground-22",
+    "club_id": "west-ham",
+    "ground_id": "london-stadium",
+    "source_url": "https://www.premierleague.com/en/news/75114",
+    "observed_at": "2026-10-17",
+    "summary": "21 August 2016 first home league match at London Stadium; this establishes season context, not all fixture venues.",
+    "inspection_scope": "Primary publisher text reviewed through web research; bounded paraphrase only, no full article retained.",
+    "reuse_status": "Research citation only; underlying publisher reuse and external AI/public product rights not cleared.",
+    "effective_interval": null,
+    "known_then": false,
+    "applicable_seasons": [
+      "2016/17"
+    ],
+    "applicability_basis": "Reviewed content described in summary supports these selected season contexts; publication date alone is not an applicability rule. Empty list means candidate/reference only, not approved for season linkage."
+  },
+  {
+    "note_id": "primary-ground-23",
+    "club_id": "manchester-city",
+    "ground_id": "etihad-stadium",
+    "source_url": "https://www.mancity.com/meta/media/eltniv3k/2016-mancity-annual-and-financial-report.pdf",
+    "observed_at": "2026-10-17",
+    "summary": "2015/16 annual report identifies expanded Etihad Stadium at August 2015 first home game.",
+    "inspection_scope": "Primary publisher excerpt surfaced in web research; no full document retained.",
+    "reuse_status": "Research citation only; publisher reuse/public product/external AI rights not cleared.",
+    "effective_interval": null,
+    "known_then": false,
+    "applicable_seasons": [
+      "2015/16"
+    ],
+    "applicability_basis": "Reviewed content described in summary supports these selected season contexts; publication date alone is not an applicability rule. Empty list means candidate/reference only, not approved for season linkage."
+  },
+  {
+    "note_id": "primary-ground-24",
+    "club_id": "manchester-city",
+    "ground_id": "etihad-stadium",
+    "source_url": "https://live.mancity.com/news/first-team/first-team-news/2017/may/man-city-season-in-numbers",
+    "observed_at": "2026-10-17",
+    "summary": "2016/17 review discusses home appearances at Etihad Stadium.",
+    "inspection_scope": "Primary publisher excerpt surfaced in web research; no full document retained.",
+    "reuse_status": "Research citation only; publisher reuse/public product/external AI rights not cleared.",
+    "effective_interval": null,
+    "known_then": false,
+    "applicable_seasons": [
+      "2016/17"
+    ],
+    "applicability_basis": "Reviewed content described in summary supports these selected season contexts; publication date alone is not an applicability rule. Empty list means candidate/reference only, not approved for season linkage."
+  },
+  {
+    "note_id": "primary-ground-25",
+    "club_id": "nottingham-forest",
+    "ground_id": "city-ground",
+    "source_url": "https://www.nottinghamforest.co.uk/news/2026/october/11/crystal-palace-report/",
+    "observed_at": "2026-10-17",
+    "summary": "11 October 2026 report identifies next home match with Arsenal at City Ground; planned future fixture context only.",
+    "inspection_scope": "Primary publisher excerpt surfaced in web research; no full document retained.",
+    "reuse_status": "Research citation only; publisher reuse/public product/external AI rights not cleared.",
+    "effective_interval": null,
+    "known_then": false,
+    "applicable_seasons": [
+      "2026/27"
+    ],
+    "applicability_basis": "Reviewed content described in summary supports these selected season contexts; publication date alone is not an applicability rule. Empty list means candidate/reference only, not approved for season linkage."
+  },
+  {
+    "note_id": "primary-ground-26",
+    "club_id": "bournemouth",
+    "ground_id": "dean-court",
+    "source_url": "https://www.mancity.com/features/city-v-bournemouth-match-prog-july-20/",
+    "observed_at": "2026-10-17",
+    "summary": "Official opponent retrospective explicitly discusses 2015/16 meetings at Vitality and Etihad; venue context only.",
+    "inspection_scope": "Primary publisher text reviewed in bounded research (City retrospective additionally reviewed by orchestrator); own paraphrase only.",
+    "reuse_status": "Citation only; publisher reuse/public-product/external-AI rights not cleared.",
+    "effective_interval": null,
+    "known_then": false,
+    "applicable_seasons": [
+      "2015/16"
+    ],
+    "applicability_basis": "Reviewed content described in summary supports these selected season contexts; publication date alone is not an applicability rule. Empty list means candidate/reference only, not approved for season linkage."
+  },
+  {
+    "note_id": "primary-ground-27",
+    "club_id": "bournemouth",
+    "ground_id": "dean-court",
+    "source_url": "https://www.mancity.com/features/city-v-bournemouth-match-prog-july-20/",
+    "observed_at": "2026-10-17",
+    "summary": "Official opponent retrospective explicitly discusses 2016/17 meetings at Vitality and Etihad; venue context only.",
+    "inspection_scope": "Primary publisher text reviewed in bounded research (City retrospective additionally reviewed by orchestrator); own paraphrase only.",
+    "reuse_status": "Citation only; publisher reuse/public-product/external-AI rights not cleared.",
+    "effective_interval": null,
+    "known_then": false,
+    "applicable_seasons": [
+      "2016/17"
+    ],
+    "applicability_basis": "Reviewed content described in summary supports these selected season contexts; publication date alone is not an applicability rule. Empty list means candidate/reference only, not approved for season linkage."
+  },
+  {
+    "note_id": "primary-ground-28",
+    "club_id": "manchester-city",
+    "ground_id": "etihad-stadium",
+    "source_url": "https://www.premierleague.com/en/news/4675508/premier-league-fixture-schedulereleased-for-season-202627",
+    "observed_at": "2026-10-17",
+    "summary": "19 June 2026 opening schedule identifies City home opener at Etihad Stadium; planned context only.",
+    "inspection_scope": "Primary publisher text reviewed in bounded research (City retrospective additionally reviewed by orchestrator); own paraphrase only.",
+    "reuse_status": "Citation only; publisher reuse/public-product/external-AI rights not cleared.",
+    "effective_interval": null,
+    "known_then": false,
+    "applicable_seasons": [
+      "2026/27"
+    ],
+    "applicability_basis": "Reviewed content described in summary supports these selected season contexts; publication date alone is not an applicability rule. Empty list means candidate/reference only, not approved for season linkage."
+  },
+  {
+    "note_id": "primary-ground-29",
+    "club_id": "hull",
+    "ground_id": "mkm-stadium",
+    "source_url": "https://www.itfc.co.uk/matches/fixtures--results/",
+    "observed_at": "2026-10-17",
+    "summary": "Official opponent 2026/27 fixtures identify planned 31 October away match at Hull MKM Stadium; fixture can change.",
+    "inspection_scope": "Primary publisher text reviewed in bounded research (City retrospective additionally reviewed by orchestrator); own paraphrase only.",
+    "reuse_status": "Citation only; publisher reuse/public-product/external-AI rights not cleared.",
+    "effective_interval": null,
+    "known_then": false,
+    "applicable_seasons": [
+      "2026/27"
+    ],
+    "applicability_basis": "Reviewed content described in summary supports these selected season contexts; publication date alone is not an applicability rule. Empty list means candidate/reference only, not approved for season linkage."
+  },
+  {
+    "note_id": "primary-ground-30",
+    "club_id": "norwich",
+    "ground_id": "carrow-road",
+    "source_url": "https://www.mancity.com/news/first-team/match-report/2016/march/norwich-v-city-match-report-pl-12-march",
+    "observed_at": "2026-10-17",
+    "summary": "12 March 2016 opponent match report identifies Carrow Road; full body independently reviewed by orchestrator.",
+    "inspection_scope": "Primary publisher text as specified in summary; own bounded paraphrase only.",
+    "reuse_status": "Citation only; publisher reuse/public product/external-AI rights not cleared.",
+    "effective_interval": null,
+    "known_then": false,
+    "applicable_seasons": [
+      "2015/16"
+    ],
+    "applicability_basis": "Reviewed content described in summary supports these selected season contexts; publication date alone is not an applicability rule. Empty list means candidate/reference only, not approved for season linkage."
+  },
+  {
+    "note_id": "primary-ground-31",
+    "club_id": "southampton",
+    "ground_id": "st-mary-s-stadium",
+    "source_url": "https://www.mancity.com/news/first-team/match-report/2016/may/southampton-v-city-may-1",
+    "observed_at": "2026-10-17",
+    "summary": "1 May 2016 opponent match report identifies St Marys; full body independently reviewed by orchestrator.",
+    "inspection_scope": "Primary publisher text as specified in summary; own bounded paraphrase only.",
+    "reuse_status": "Citation only; publisher reuse/public product/external-AI rights not cleared.",
+    "effective_interval": null,
+    "known_then": false,
+    "applicable_seasons": [
+      "2015/16"
+    ],
+    "applicability_basis": "Reviewed content described in summary supports these selected season contexts; publication date alone is not an applicability rule. Empty list means candidate/reference only, not approved for season linkage."
+  },
+  {
+    "note_id": "primary-ground-32",
+    "club_id": "manchester-united",
+    "ground_id": "old-trafford",
+    "source_url": "https://www.mancity.com/news/mens/fixtures-202627-announced-premier-league-63917455",
+    "observed_at": "2026-10-17",
+    "summary": "Opponent schedule identifies planned 12 September 2026 trip to Old Trafford; source reviewed by orchestrator, not a result guarantee.",
+    "inspection_scope": "Primary publisher text as specified in summary; own bounded paraphrase only.",
+    "reuse_status": "Citation only; publisher reuse/public product/external-AI rights not cleared.",
+    "effective_interval": null,
+    "known_then": false,
+    "applicable_seasons": [
+      "2026/27"
+    ],
+    "applicability_basis": "Reviewed content described in summary supports these selected season contexts; publication date alone is not an applicability rule. Empty list means candidate/reference only, not approved for season linkage."
+  },
+  {
+    "note_id": "primary-ground-33",
+    "club_id": "manchester-united",
+    "ground_id": "old-trafford",
+    "source_url": "https://www.mancity.com/news/first-team/match-report/2016/september/manchester-united-v-city-10-sept-pl",
+    "observed_at": "2026-10-17",
+    "summary": "10 September 2016 opponent match report identifies Old Trafford; full body opened.",
+    "inspection_scope": "Primary publisher text as specified in summary; own bounded paraphrase only.",
+    "reuse_status": "Citation only; publisher reuse/public product/external-AI rights not cleared.",
+    "effective_interval": null,
+    "known_then": false,
+    "applicable_seasons": [
+      "2016/17"
+    ],
+    "applicability_basis": "Reviewed content described in summary supports these selected season contexts; publication date alone is not an applicability rule. Empty list means candidate/reference only, not approved for season linkage."
+  },
+  {
+    "note_id": "primary-ground-34",
+    "club_id": "middlesbrough",
+    "ground_id": "riverside-stadium",
+    "source_url": "https://www.premierleague.com/en/news/387967/match-summary",
+    "observed_at": "2026-10-17",
+    "summary": "13 May 2017 league report identifies Riverside Stadium; primary article excerpt reviewed.",
+    "inspection_scope": "Primary publisher text as specified in summary; own bounded paraphrase only.",
+    "reuse_status": "Citation only; publisher reuse/public product/external-AI rights not cleared.",
+    "effective_interval": null,
+    "known_then": false,
+    "applicable_seasons": [
+      "2016/17"
+    ],
+    "applicability_basis": "Reviewed content described in summary supports these selected season contexts; publication date alone is not an applicability rule. Empty list means candidate/reference only, not approved for season linkage."
+  },
+  {
+    "note_id": "primary-ground-35",
+    "club_id": "southampton",
+    "ground_id": "st-mary-s-stadium",
+    "source_url": "https://www.mancity.com/news/first-team/match-report/2017/april/southampton-v-man-city-premier-league-match-report-15-april",
+    "observed_at": "2026-10-17",
+    "summary": "15 April 2017 opponent report identifies St Marys; full body reviewed by orchestrator.",
+    "inspection_scope": "Primary publisher text as explicitly specified in summary; own bounded paraphrase only.",
+    "reuse_status": "Citation only; publisher reuse/public product/external-AI rights not cleared.",
+    "effective_interval": null,
+    "known_then": false,
+    "applicable_seasons": [
+      "2016/17"
+    ],
+    "applicability_basis": "Reviewed content described in summary supports these selected season contexts; publication date alone is not an applicability rule. Empty list means candidate/reference only, not approved for season linkage."
+  },
+  {
+    "note_id": "primary-ground-36",
+    "club_id": "hull",
+    "ground_id": "mkm-stadium",
+    "source_url": "https://www.mancity.com/news/first-team/first-team-news/2016/december/hull-v-man-city-tv-info",
+    "observed_at": "2026-10-17",
+    "summary": "December 2016 opponent preview identifies Hull home results at KCOM this season; full body reviewed by orchestrator. Current ground entity label MKM is not its historical name.",
+    "inspection_scope": "Primary publisher text as explicitly specified in summary; own bounded paraphrase only.",
+    "reuse_status": "Citation only; publisher reuse/public product/external-AI rights not cleared.",
+    "effective_interval": null,
+    "known_then": false,
+    "applicable_seasons": [
+      "2016/17"
+    ],
+    "applicability_basis": "Reviewed content described in summary supports these selected season contexts; publication date alone is not an applicability rule. Empty list means candidate/reference only, not approved for season linkage."
+  },
+  {
+    "note_id": "primary-ground-37",
+    "club_id": "manchester-united",
+    "ground_id": "old-trafford",
+    "source_url": "https://www.mancity.com/news/first-team/match-report/2015/october/man-united-v-city-premier-league-25-oct",
+    "observed_at": "2026-10-17",
+    "summary": "25 October 2015 opponent report identifies Old Trafford; full report text surfaced in search, direct opens timed out twice. Excerpt-level source inspection, not retained page capture.",
+    "inspection_scope": "Primary publisher text as explicitly specified in summary; own bounded paraphrase only.",
+    "reuse_status": "Citation only; publisher reuse/public product/external-AI rights not cleared.",
+    "effective_interval": null,
+    "known_then": false,
+    "applicable_seasons": [
+      "2015/16"
+    ],
+    "applicability_basis": "Reviewed content described in summary supports these selected season contexts; publication date alone is not an applicability rule. Empty list means candidate/reference only, not approved for season linkage."
+  },
+  {
+    "note_id": "primary-ground-38",
+    "club_id": "fulham",
+    "ground_id": "craven-cottage",
+    "source_url": "https://www.chelseafc.com/en/news/article/match-report-fulham-chelsea-aug-26",
+    "observed_at": "2026-10-17",
+    "summary": "August 2026 opponent report identifies Fulham home opening league match at Craven Cottage; full body reviewed by orchestrator.",
+    "inspection_scope": "Primary publisher text as explicitly specified in summary; own bounded paraphrase only.",
+    "reuse_status": "Citation only; publisher reuse/public product/external-AI rights not cleared.",
+    "effective_interval": null,
+    "known_then": false,
+    "applicable_seasons": [
+      "2026/27"
+    ],
+    "applicability_basis": "Reviewed content described in summary supports these selected season contexts; publication date alone is not an applicability rule. Empty list means candidate/reference only, not approved for season linkage."
+  },
+  {
+    "note_id": "primary-ground-39",
+    "club_id": "swansea",
+    "ground_id": "liberty-stadium",
+    "source_url": "https://www.swanseacity.com/news/05042017-1845-v-tottenham-hotspur",
+    "observed_at": "2026-10-17",
+    "publication_date_displayed": "2017-06-16",
+    "subject_match_date": "2017-04-05",
+    "summary": "Club match report heading identifies 5 April 2017 Swansea versus Tottenham; body explicitly identifies Liberty Stadium. This is 2016/17 match venue context, not all fixture venues.",
+    "inspection_scope": "Full primary page opened; heading line12, displayed publication date line14 and ground identification line16 reviewed. Page publication timestamp differs from subject match date; neither establishes known-then availability.",
+    "reuse_status": "Citation and own bounded paraphrase only; publisher reuse/public-product/external-AI rights not cleared.",
+    "effective_interval": null,
+    "known_then": false,
+    "applicable_seasons": [
+      "2016/17"
+    ],
+    "applicability_basis": "Explicit 5 April 2017 match subject and Liberty Stadium in report body, not inferred from publication date."
+  }
+]

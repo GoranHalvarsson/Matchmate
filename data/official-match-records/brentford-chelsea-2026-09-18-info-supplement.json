@@ -1,0 +1,19 @@
+{
+  "version": 1,
+  "officialMatchId": "2645236",
+  "observedOn": "2026-10-18",
+  "source": "pl-info",
+  "url": "https://www.premierleague.com/en/match/2645236/brentford-vs-chelsea/info",
+  "method": "Rendered official Info tab inspected in the actual browser by the coordinator; bounded observation receipt output/official-match-import/info-browser-evidence.txt. The receipt is review evidence, not a build dependency.",
+  "attendance": 17193,
+  "venue": "Gtech Community Stadium",
+  "officials": [
+    {"role": "Referee", "name": "Andy Madley"},
+    {"role": "Assistant referee 1", "name": "Craig Taylor"},
+    {"role": "Assistant referee 2", "name": "Nicholas Hopton"},
+    {"role": "Fourth official", "name": "Lewis Smith"},
+    {"role": "VAR", "name": "Jarred Gillett"},
+    {"role": "VAR assistant", "name": "Edward Smart"}
+  ],
+  "kickoff": {"browserDisplayed": "21:00", "actualUtc": null, "semantics": "Browser-local display; not a new universal or UTC kickoff claim."}
+}

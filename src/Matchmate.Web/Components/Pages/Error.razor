@@ -1,0 +1,37 @@
+﻿@page "/Error"
+@using System.Diagnostics
+@attribute [AllowAnonymous]
+@using Matchmate.Web.Localization
+@inject MatchLanguageState LanguageState
+
+<PageTitle>@T("ErrorTitle")</PageTitle>
+
+<main class="experience error-page">
+    <div class="error-content">
+        <h1>@T("ErrorHeading")</h1>
+        <p>@T("ErrorBeforeLink") <a href="/account/sign-in" data-enhance-nav="false">@T("SignInLink")</a> @T("ErrorAfterLink")</p>
+
+        @if (ShowRequestId)
+        {
+            <p class="request-id">
+                <strong>@T("RequestId")</strong> <code>@RequestId</code>
+            </p>
+        }
+    </div>
+</main>
+
+@code{
+    private string T(string key) => ShellText.Get(LanguageState.Language, key);
+    [CascadingParameter]
+    private HttpContext? HttpContext { get; set; }
+
+    [PersistentState]
+    public string? RequestId { get; set; }
+
+    private bool ShowRequestId => !string.IsNullOrEmpty(RequestId);
+
+    protected override void OnInitialized()
+    {
+        RequestId ??= Activity.Current?.Id ?? HttpContext?.TraceIdentifier;
+    }
+}

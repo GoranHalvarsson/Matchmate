@@ -1,0 +1,117 @@
+{
+  "entities": {
+    "Q139963362": {
+      "pageid": 133411851,
+      "ns": 0,
+      "title": "Q139963362",
+      "lastrevid": 2538802316,
+      "modified": "2026-08-31T23:38:24Z",
+      "type": "item",
+      "id": "Q139963362",
+      "labels": {
+        "en": {
+          "language": "en",
+          "value": "2026–27 Newcastle United F.C. season"
+        }
+      },
+      "claims": {
+        "P5138": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P5138",
+              "hash": "898f8b5c893f3e189460105b3d9bd185a5d5182e",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 18716,
+                  "id": "Q18716"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q139963362$9ECF01BB-EBCB-4453-8258-1A8145506E32",
+            "rank": "normal"
+          }
+        ],
+        "P31": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P31",
+              "hash": "9ddb403180b684facfb50183c3b3a99ce0b171d1",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 26887310,
+                  "id": "Q26887310"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q139963362$6584A4F8-2B25-41FB-B9C4-6B789C3031F4",
+            "rank": "normal"
+          }
+        ],
+        "P641": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P641",
+              "hash": "1624e15e061523279bc14bb6497168e45caacb32",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 2736,
+                  "id": "Q2736"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q139963362$83798C5A-87F6-47BC-810C-B0B5F610138B",
+            "rank": "normal"
+          }
+        ],
+        "P2348": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P2348",
+              "hash": "33dc124fb8ec0bedb17f94adfe80c432678d5a4d",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 53389812,
+                  "id": "Q53389812"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q139963362$308e85a2-4347-8b87-f0ce-ecc24104be38",
+            "rank": "normal"
+          }
+        ]
+      },
+      "sitelinks": {
+        "enwiki": {
+          "site": "enwiki",
+          "title": "2026–27 Newcastle United F.C. season",
+          "badges": []
+        },
+        "itwiki": {
+          "site": "itwiki",
+          "title": "Newcastle United Football Club 2026-2027",
+          "badges": []
+        }
+      }
+    }
+  }
+}

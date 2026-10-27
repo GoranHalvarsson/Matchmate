@@ -1,0 +1,285 @@
+{
+  "entities": {
+    "Q23809767": {
+      "pageid": 25808546,
+      "ns": 0,
+      "title": "Q23809767",
+      "lastrevid": 2529904062,
+      "modified": "2026-08-11T05:54:35Z",
+      "type": "item",
+      "id": "Q23809767",
+      "labels": {
+        "en": {
+          "language": "en",
+          "value": "2016–17 Chelsea F.C. season"
+        }
+      },
+      "claims": {
+        "P31": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P31",
+              "hash": "9ddb403180b684facfb50183c3b3a99ce0b171d1",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 26887310,
+                  "id": "Q26887310"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q23809767$B8596361-3EC6-49A0-AF46-5C811D76C8CB",
+            "rank": "normal"
+          }
+        ],
+        "P18": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P18",
+              "hash": "6fcbc6a84ee741e5eb9ac460ff536a1f5db96305",
+              "datavalue": {
+                "value": "2016-17 Premier League - Chelsea v Swansea City.jpg",
+                "type": "string"
+              },
+              "datatype": "commonsMedia"
+            },
+            "type": "statement",
+            "id": "Q23809767$6e146ce5-41e1-46f6-358f-e6be7226f036",
+            "rank": "normal"
+          }
+        ],
+        "P2348": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P2348",
+              "hash": "b7af4df92bbae693e13f478b16af9ae9aa3d0328",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 30201458,
+                  "id": "Q30201458"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q23809767$A6D3D33A-5EC8-47B6-A80C-DCCDABB2FF96",
+            "rank": "normal"
+          }
+        ],
+        "P641": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P641",
+              "hash": "1624e15e061523279bc14bb6497168e45caacb32",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 2736,
+                  "id": "Q2736"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q23809767$6B69C18A-FAAB-468E-B242-65D109FA9708",
+            "rank": "normal"
+          }
+        ],
+        "P5138": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P5138",
+              "hash": "410fb6a14536e591ac0ef18f69534637c292c5d0",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 9616,
+                  "id": "Q9616"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q23809767$9DA7BCF4-EA90-410C-BBF3-EBE88523B157",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "fa278ebfc458360e5aed63d5058cca83c46134f1",
+                "snaks": {
+                  "P143": [
+                    {
+                      "snaktype": "value",
+                      "property": "P143",
+                      "hash": "e4f6d9441d0600513c4533c672b5ab472dc73694",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 328,
+                          "id": "Q328"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P143"
+                ]
+              }
+            ]
+          }
+        ],
+        "P17": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P17",
+              "hash": "a44880420787fb348836dc51d3babc5227c4ef7e",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 145,
+                  "id": "Q145"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q23809767$2CBC5C1A-1FFC-4CCD-8499-013ADCDBC717",
+            "rank": "normal"
+          }
+        ],
+        "P156": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P156",
+              "hash": "f36c3164f304212ad929cb34279c1b2b4f3ba023",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 29914676,
+                  "id": "Q29914676"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q23809767$36f131f1-4249-7173-ef14-f911ae8bbcdd",
+            "rank": "normal"
+          }
+        ],
+        "P155": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P155",
+              "hash": "38bf4452bbfa603c977a3daed40d864e30a26bde",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 19840671,
+                  "id": "Q19840671"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q23809767$B0F8A8E5-8652-49FC-BA30-F9BE952A9FC9",
+            "rank": "normal"
+          }
+        ],
+        "P2671": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P2671",
+              "hash": "52a01224ee545a9435d071017df855a19bc22166",
+              "datavalue": {
+                "value": "/g/11g6q6yz1k",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q23809767$5CC4ECF0-7A6D-4161-A0C0-B6914E21F980",
+            "rank": "normal"
+          }
+        ]
+      },
+      "sitelinks": {
+        "arwiki": {
+          "site": "arwiki",
+          "title": "تشيلسي موسم 2016–17",
+          "badges": []
+        },
+        "enwiki": {
+          "site": "enwiki",
+          "title": "2016–17 Chelsea F.C. season",
+          "badges": []
+        },
+        "frwiki": {
+          "site": "frwiki",
+          "title": "Saison 2016-2017 du Chelsea FC",
+          "badges": []
+        },
+        "huwiki": {
+          "site": "huwiki",
+          "title": "A Chelsea FC 2016–2017-es szezonja",
+          "badges": []
+        },
+        "idwiki": {
+          "site": "idwiki",
+          "title": "Chelsea F.C. musim 2016–2017",
+          "badges": []
+        },
+        "itwiki": {
+          "site": "itwiki",
+          "title": "Chelsea Football Club 2016-2017",
+          "badges": []
+        },
+        "nlwiki": {
+          "site": "nlwiki",
+          "title": "Chelsea FC in het seizoen 2016/17",
+          "badges": []
+        },
+        "ruwiki": {
+          "site": "ruwiki",
+          "title": "ФК «Челси» в сезоне 2016/2017",
+          "badges": []
+        },
+        "thwiki": {
+          "site": "thwiki",
+          "title": "สโมสรฟุตบอลเชลซีในฤดูกาล 2016–17",
+          "badges": []
+        },
+        "trwiki": {
+          "site": "trwiki",
+          "title": "Chelsea FC 2016-17 sezonu",
+          "badges": []
+        },
+        "viwiki": {
+          "site": "viwiki",
+          "title": "Chelsea F.C. mùa giải 2016–17",
+          "badges": []
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,223 @@
+{
+  "entities": {
+    "Q24910256": {
+      "pageid": 26870824,
+      "ns": 0,
+      "title": "Q24910256",
+      "lastrevid": 2400206133,
+      "modified": "2025-09-04T07:22:12Z",
+      "type": "item",
+      "id": "Q24910256",
+      "labels": {
+        "en": {
+          "language": "en",
+          "value": "2016–17 Hull City A.F.C. season"
+        }
+      },
+      "claims": {
+        "P31": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P31",
+              "hash": "9ddb403180b684facfb50183c3b3a99ce0b171d1",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 26887310,
+                  "id": "Q26887310"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q24910256$CA933295-65F3-4E48-91FF-1B6119CDEAD0",
+            "rank": "normal"
+          }
+        ],
+        "P641": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P641",
+              "hash": "1624e15e061523279bc14bb6497168e45caacb32",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 2736,
+                  "id": "Q2736"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q24910256$A3617FDB-DDC8-4B3A-B31B-9AB9A7FEDB3C",
+            "rank": "normal"
+          }
+        ],
+        "P5138": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P5138",
+              "hash": "4d169eaebd85c4cbf1b457f19feea2797b2630b3",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 19477,
+                  "id": "Q19477"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q24910256$F97CC6FC-482B-4A51-8A21-C24AB1E1979E",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "fa278ebfc458360e5aed63d5058cca83c46134f1",
+                "snaks": {
+                  "P143": [
+                    {
+                      "snaktype": "value",
+                      "property": "P143",
+                      "hash": "e4f6d9441d0600513c4533c672b5ab472dc73694",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 328,
+                          "id": "Q328"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P143"
+                ]
+              }
+            ]
+          }
+        ],
+        "P2348": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P2348",
+              "hash": "b7af4df92bbae693e13f478b16af9ae9aa3d0328",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 30201458,
+                  "id": "Q30201458"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q24910256$ABAA983F-EAC0-4371-8FA9-039162B83CCC",
+            "rank": "normal"
+          }
+        ],
+        "P17": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P17",
+              "hash": "a44880420787fb348836dc51d3babc5227c4ef7e",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 145,
+                  "id": "Q145"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q24910256$ECD69D41-C93F-4C8D-AF1B-C50335BD3688",
+            "rank": "normal"
+          }
+        ],
+        "P155": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P155",
+              "hash": "a3912634dd1f7edc8bc27acd5a9281c28f5d77f2",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 20647432,
+                  "id": "Q20647432"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q24910256$F73DDDCD-E833-4A93-A448-602E4C32C0CF",
+            "rank": "normal"
+          }
+        ],
+        "P156": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P156",
+              "hash": "beda41053cde764569512979b4cf312ec358090e",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 30641559,
+                  "id": "Q30641559"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q24910256$66ADA443-7FEF-46FA-8A8B-06EA2DF6D688",
+            "rank": "normal"
+          }
+        ],
+        "P18": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P18",
+              "hash": "1c98b56f0b219bcf410a9913414df73ee094781a",
+              "datavalue": {
+                "value": "Hull City group hug.jpg",
+                "type": "string"
+              },
+              "datatype": "commonsMedia"
+            },
+            "type": "statement",
+            "id": "Q24910256$ABC489B3-4278-4B2C-9F62-F9E9DC54F2DC",
+            "rank": "normal"
+          }
+        ]
+      },
+      "sitelinks": {
+        "enwiki": {
+          "site": "enwiki",
+          "title": "2016–17 Hull City A.F.C. season",
+          "badges": []
+        },
+        "itwiki": {
+          "site": "itwiki",
+          "title": "Hull City Association Football Club 2016-2017",
+          "badges": []
+        }
+      }
+    }
+  }
+}

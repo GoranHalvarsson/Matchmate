@@ -1,0 +1,18 @@
+.highlight-placeholder{display:grid;gap:1rem;align-content:start;min-height:203px;padding:18px;border:1px solid #d7dec7;border-radius:12px;background:#f8f9f2}
+.highlight-placeholder span{display:block;height:.7rem;max-width:75%;border-radius:4px;background:#e1e7d6}
+.highlight-placeholder span:nth-child(2){height:1.4rem;max-width:60%;margin-top:1rem}
+.highlight-disclosure{display:none}
+@media(max-width:760px){
+    .highlight-panel{margin-bottom:16px!important}
+    .highlight-heading{display:none!important}
+    .highlight-disclosure{display:flex;align-items:center;justify-content:space-between;gap:14px;width:100%;min-height:64px;padding:10px 12px;text-align:left;background:#eeefe5;border:1px solid var(--line);border-radius:9px}
+    .highlight-disclosure strong{display:block;font:21px/1.2 Georgia,serif}
+    .highlight-disclosure small{display:block;margin-top:4px;font-size:11px;line-height:1.4}
+    .highlight-disclosure svg{flex:0 0 16px;width:16px;height:16px;transition:transform .15s ease}
+    .highlight-disclosure[aria-expanded=true] svg{transform:rotate(180deg)}
+    .highlight-disclosure:focus-visible{outline:3px solid var(--olive);outline-offset:3px}
+    .highlight-content:not(.is-open){display:none}
+    .highlight-content.is-open{padding-top:3px}
+    .highlight-filters button,.watch-highlight,.pin-button{min-width:44px;min-height:44px}
+}
+@media(prefers-reduced-motion:reduce){.highlight-disclosure svg{transition:none}}

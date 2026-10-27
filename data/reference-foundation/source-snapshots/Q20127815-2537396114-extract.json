@@ -1,0 +1,223 @@
+{
+  "entities": {
+    "Q20127815": {
+      "pageid": 21801406,
+      "ns": 0,
+      "title": "Q20127815",
+      "lastrevid": 2537396114,
+      "modified": "2026-08-28T12:50:05Z",
+      "type": "item",
+      "id": "Q20127815",
+      "labels": {
+        "en": {
+          "language": "en",
+          "value": "2015–16 Everton F.C. season"
+        }
+      },
+      "claims": {
+        "P31": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P31",
+              "hash": "9ddb403180b684facfb50183c3b3a99ce0b171d1",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 26887310,
+                  "id": "Q26887310"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q20127815$e05f7f36-4aae-a943-3bd0-c1f14c026a37",
+            "rank": "normal"
+          }
+        ],
+        "P641": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P641",
+              "hash": "1624e15e061523279bc14bb6497168e45caacb32",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 2736,
+                  "id": "Q2736"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q20127815$0fa92d69-43d6-3f54-3efe-9690233481c4",
+            "rank": "normal"
+          }
+        ],
+        "P5138": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P5138",
+              "hash": "f7df2cb396e635e494bce5dd2eaeeb72a41f2968",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 5794,
+                  "id": "Q5794"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q20127815$7F16167D-4EF6-4C55-A166-DF4ED06FC26F",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "fa278ebfc458360e5aed63d5058cca83c46134f1",
+                "snaks": {
+                  "P143": [
+                    {
+                      "snaktype": "value",
+                      "property": "P143",
+                      "hash": "e4f6d9441d0600513c4533c672b5ab472dc73694",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 328,
+                          "id": "Q328"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P143"
+                ]
+              }
+            ]
+          }
+        ],
+        "P2348": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P2348",
+              "hash": "aa2170c45da73f28c5e261a9d37f3a75ef9799c5",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 53386085,
+                  "id": "Q53386085"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q20127815$757DD44E-B0D9-4C03-9B4F-CD27046B55FC",
+            "rank": "normal"
+          }
+        ],
+        "P17": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P17",
+              "hash": "a44880420787fb348836dc51d3babc5227c4ef7e",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 145,
+                  "id": "Q145"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q20127815$1F175CDD-AD87-4D0F-B40E-3584A4553448",
+            "rank": "normal"
+          }
+        ],
+        "P155": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P155",
+              "hash": "81db9d93a71625531871f1648849849e21bcb2ae",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 16891776,
+                  "id": "Q16891776"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q20127815$62DFC01D-40F4-449A-8DEF-B527F7DDE10B",
+            "rank": "normal"
+          }
+        ],
+        "P156": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P156",
+              "hash": "6fbca19f67e5d8148e83a1333aeeedac0dfa82ef",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 24060313,
+                  "id": "Q24060313"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q20127815$F59B91A5-B41B-47AC-9449-6E130111848C",
+            "rank": "normal"
+          }
+        ],
+        "P2671": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P2671",
+              "hash": "2e4b3d59bd9a884cdcb00f18a9a4f7e072379541",
+              "datavalue": {
+                "value": "/g/11b7_m80_4",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q20127815$806DB54C-CFE9-422B-81A6-BA49ADA6CF29",
+            "rank": "normal"
+          }
+        ]
+      },
+      "sitelinks": {
+        "enwiki": {
+          "site": "enwiki",
+          "title": "2015–16 Everton F.C. season",
+          "badges": []
+        },
+        "itwiki": {
+          "site": "itwiki",
+          "title": "Everton Football Club 2015-2016",
+          "badges": []
+        }
+      }
+    }
+  }
+}

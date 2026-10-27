@@ -1,0 +1,117 @@
+{
+  "entities": {
+    "Q139855932": {
+      "pageid": 133307232,
+      "ns": 0,
+      "title": "Q139855932",
+      "lastrevid": 2554381055,
+      "modified": "2026-10-07T06:14:09Z",
+      "type": "item",
+      "id": "Q139855932",
+      "labels": {
+        "en": {
+          "language": "en",
+          "value": "2026–27 Ipswich Town F.C. season"
+        }
+      },
+      "claims": {
+        "P641": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P641",
+              "hash": "1624e15e061523279bc14bb6497168e45caacb32",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 2736,
+                  "id": "Q2736"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q139855932$49ecaf68-83b6-481d-92c9-100cb9c9d511",
+            "rank": "normal"
+          }
+        ],
+        "P31": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P31",
+              "hash": "9ddb403180b684facfb50183c3b3a99ce0b171d1",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 26887310,
+                  "id": "Q26887310"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q139855932$b6255573-b304-4b24-8d1d-6bab80c05489",
+            "rank": "normal"
+          }
+        ],
+        "P2348": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P2348",
+              "hash": "33dc124fb8ec0bedb17f94adfe80c432678d5a4d",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 53389812,
+                  "id": "Q53389812"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q139855932$F314B674-94AC-4BE3-B505-538DF87F6804",
+            "rank": "normal"
+          }
+        ],
+        "P5138": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P5138",
+              "hash": "bdc77cdaacab98909a4fcf335e41526c64fe020c",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 9653,
+                  "id": "Q9653"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q139855932$2251AA1A-219E-46A2-88B4-D3EB983566E1",
+            "rank": "normal"
+          }
+        ]
+      },
+      "sitelinks": {
+        "enwiki": {
+          "site": "enwiki",
+          "title": "2026–27 Ipswich Town F.C. season",
+          "badges": []
+        },
+        "itwiki": {
+          "site": "itwiki",
+          "title": "Ipswich Town Football Club 2026-2027",
+          "badges": []
+        }
+      }
+    }
+  }
+}

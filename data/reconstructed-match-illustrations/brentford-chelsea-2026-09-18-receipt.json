@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "artifact": {
+    "file": "brentford-chelsea-2026-09-18.json",
+    "sha256": "db698f69556ef7a3eeed4cfeadddffa63bebc395f117575c4fc3ff0f15af521c",
+    "bytes": 4499
+  },
+  "source": {
+    "official": {
+      "sha256": "c6dd8928c34d30b1d0a8f9f236e3e79cb01d846db190176250e503d689229691",
+      "bytes": 40420
+    },
+    "url": "https://www.premierleague.com/en/match/2645236/brentford-vs-chelsea/"
+  },
+  "generatedMovement": true,
+  "sourceMediaBundled": false
+}

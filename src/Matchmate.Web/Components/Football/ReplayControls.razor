@@ -1,0 +1,29 @@
+@using Matchmate.Web.Localization
+@using Matchmate.Contracts
+@using Matchmate.Web.Experience
+<div class="replay-controls"><div class="replay-range"><label for="recording-replay-range">@T("ReplayClock") <strong>@ExperiencePresentation.Clock(Cursor)</strong></label><input id="recording-replay-range" aria-label="@T("SharedCursor")" type="range" min="@ExperiencePresentation.Number(Start)" max="@ExperiencePresentation.Number(End)" step="100" value="@ExperiencePresentation.Number(Cursor)" @oninput="ScrubAsync"/><span>@ExperiencePresentation.Clock(End)</span></div>
+@if (Highlights.Any(h => h.Kind == "goal")) { <div class="goal-pins"><svg width="100%" height="64" role="group" aria-label="@T("GoalTimeline")"><line x1="0" x2="100%" y1="18" y2="18"/>
+@foreach (var goal in Highlights.Where(h => h.Kind == "goal")) { <svg @key="goal.RecordId" class="goal-pin" x="@ExperiencePresentation.ReleasePercent(goal.CursorMs, Schedule)" width="44" height="62" overflow="visible" role="button" tabindex="0" aria-label="@T("WatchLabel", ExperiencePresentation.HighlightLabel(goal, Language), goal.ReportedClock)" @onclick="() => NavigateHighlight.InvokeAsync(goal)" @onkeydown="e => GoalKeyAsync(e, goal)"><title>@T("GoalPinTitle", ExperiencePresentation.HighlightLabel(goal, Language), goal.ReportedClock, ExperiencePresentation.Clock(goal.CursorMs))</title><g transform="translate(-22 0)"><rect class="goal-pin-hit" width="44" height="44"/><circle cx="22" cy="18" r="11"/><text x="22" y="22" text-anchor="middle">@goal.GoalNumber</text><text class="goal-pin-minute" x="22" y="54" text-anchor="middle">@goal.ReportedClock</text></g></svg> }
+</svg></div> }
+<div class="replay-half-labels">@foreach (var segment in Schedule.Segments) { <span>@(Dataset is null ? T("MatchPeriod") : ExperiencePresentation.SegmentLabel(Dataset, segment, Language))</span> }</div>
+<div class="replay-buttons"><button class="replay-play" aria-pressed="@ExperiencePresentation.Pressed(Playing)" @onclick="Toggle">@(Playing ? T("Pause") : T("Play"))</button><button @onclick="() => Seek.InvokeAsync(Start)">@T("Start")</button><button @onclick="() => Seek.InvokeAsync(Math.Max(Start, Cursor - 15000))">−15 s</button><button @onclick="() => Seek.InvokeAsync(Math.Min(End, Cursor + 15000))">+15 s</button>@if (NextPlaySegment is not null) { <button @onclick="() => Seek.InvokeAsync(NextPlaySegment.CursorStartMs)">@(Dataset is null ? T("NextPeriod") : ExperiencePresentation.SegmentLabel(Dataset, NextPlaySegment, Language) + " →")</button> }<button @onclick="() => Seek.InvokeAsync(End)">@T("End")</button><label>@T("Speed") <select value="@Speed" @onchange="ChangeSpeedAsync"><option value="1">1×</option><option value="4">4×</option><option value="12">12×</option></select></label></div></div>
+@code {
+    [CascadingParameter] public MatchLanguage Language { get; set; }
+    private string T(string key, params object?[] args) => ReplayText.Get(Language, key, args);
+    [Parameter, EditorRequired] public SchedulePayload Schedule { get; set; } = default!;
+    [Parameter] public FootballDataset? Dataset { get; set; }
+    [Parameter] public IReadOnlyList<ReplayHighlight> Highlights { get; set; } = [];
+    [Parameter] public EventCallback<ReplayHighlight> NavigateHighlight { get; set; }
+    [Parameter] public long Cursor { get; set; }
+    [Parameter] public bool Playing { get; set; }
+    [Parameter] public int Speed { get; set; } = 1;
+    [Parameter] public EventCallback<long> Seek { get; set; }
+    [Parameter] public EventCallback Toggle { get; set; }
+    [Parameter] public EventCallback<int> SpeedChanged { get; set; }
+    private PresentationSegment? NextPlaySegment => Schedule.Segments.Where(FootballPresentationPolicy.IsPlay).Skip(1).FirstOrDefault();
+    private long Start => Schedule.Segments[0].CursorStartMs;
+    private long End => Schedule.Segments[^1].CursorEndMs;
+    private Task ScrubAsync(ChangeEventArgs e) => long.TryParse(e.Value?.ToString(), out var value) ? Seek.InvokeAsync(value) : Task.CompletedTask;
+    private Task ChangeSpeedAsync(ChangeEventArgs e) => int.TryParse(e.Value?.ToString(), out var value) ? SpeedChanged.InvokeAsync(value) : Task.CompletedTask;
+    private Task GoalKeyAsync(KeyboardEventArgs e, ReplayHighlight goal) => e.Key is "Enter" or " " ? NavigateHighlight.InvokeAsync(goal) : Task.CompletedTask;
+}

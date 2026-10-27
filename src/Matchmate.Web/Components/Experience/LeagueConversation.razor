@@ -1,0 +1,44 @@
+@using Matchmate.Web.Chat
+@using Matchmate.Web.LeagueChat
+@using Matchmate.Web.Components.League
+@using Matchmate.Web.Experience
+@using Matchmate.Web.Localization
+@implements IDisposable
+@implements IAsyncDisposable
+<section class="source-conversation league-conversation @(_expanded ? "is-expanded" : "is-compact")" aria-label="@T("LeagueConversation")" lang="@MatchLanguages.Code(Language)">
+    <div class="sr-only" role="status" aria-live="polite" aria-atomic="true">@(_pending ? T("ResponsePending") : Notice)</div>
+    <header>
+        <div class="league-conversation-title"><div><p class="eyebrow">@T("LeagueWelcomeEyebrow")</p><h2>@T(Session.Turns.Count == 0 ? "LeagueWelcomeHeading" : "LeagueHeading")</h2></div></div>
+        <div class="league-conversation-actions"><button type="button" hidden="@(!_expanded)" @onclick="Reset">@T("NewChat")</button><button type="button" class="league-conversation-toggle" aria-expanded="@(_expanded ? "true" : "false")" aria-controls="@_panelId" @onclick="ToggleConversation">@T(_expanded ? "HideLeagueConversation" : "ShowLeagueConversation")</button></div>
+    </header>
+    <div id="@_panelId" class="league-conversation-panel" hidden="@(!_expanded)">
+        <div class="league-conversation-context">@if (Club is not null) { <CrestBadge Club="Club" Class="conversation-crest"/> }<p>@T("ConversationWith", Club?.Name ?? T("TheLeague"))<br/>@SeasonLabel · @(Context is null ? T("ContextUnavailable") : ExperiencePresentation.Date(Context.Date, Language))@if (Ongoing) { <span> · @T("OngoingSnapshot")</span> }</p></div>
+        @if (Ongoing && ResultsThrough is not null) { <small>@T("SourceThrough", ExperiencePresentation.Date(ResultsThrough, Language))</small> }
+        <small class="league-disclosure">@T("LeagueDisclosure")</small>
+        <div @ref="_thread" class="league-thread" role="log" aria-live="polite" aria-busy="@_pending" aria-label="@T("LeagueThread")" tabindex="0">
+        @if (Context is null || Updating) { <p class="league-chat-notice">@T("ContextUpdating")</p> }
+        @foreach (var turn in Session.Turns) {
+            <article class="league-turn" @key="turn.Id" data-turn-id="@turn.Id.ToString("N")" lang="@MatchLanguages.Code(turn.Language)"><p class="league-question"><strong>@ConversationText.Get(turn.Language, "You")</strong> @turn.Question</p><small>@ConversationText.Get(turn.Language, "LeagueAskedAt", turn.Context.SeasonKey.Replace('-', '/'), ExperiencePresentation.Date(turn.Context.Date, turn.Language), turn.SubjectName ?? turn.Context.SelectedClubName ?? ConversationText.Get(turn.Language, "TheLeague"), MatchLanguages.Name(turn.Language))</small>
+                @if (turn.SourceOnly && turn.Outcome == MatchChatOutcome.Answered && turn.Evidence.Length > 0)
+                {
+                    <div class="league-answer league-source-answer"><strong>@Label(turn)</strong>
+                        @if (turn.Language == MatchLanguage.English) {
+                            @foreach (var fact in LeagueSourcePresentation.MainEvidence(turn.Evidence)) { <section class="league-source-section"><strong>@FactLabel(fact.Id, turn.Language)</strong><LeagueSourceFacts Evidence="fact" Fallback="@turn.Answer" Language="turn.Language"/></section> }
+                        } else {
+                            <p>@turn.Answer</p>
+                            @foreach (var fact in LeagueSourcePresentation.MainEvidence(turn.Evidence).Where(fact => fact.Id is "date_change" or "club_results")) { <section class="league-source-section"><strong>@FactLabel(fact.Id, turn.Language)</strong><LeagueSourceFacts Evidence="fact" Language="turn.Language" StructuredOnly="true"/></section> }
+                        }
+                    </div>
+                }
+                else { <p class="league-answer"><strong>@Label(turn)</strong> @turn.Answer</p> }
+                @if (turn.Evidence.Length > 0) { <details class="league-supporting-facts"><summary>@ConversationText.Get(turn.Language, "SupportingFactsCount", turn.Evidence.Length)</summary>@foreach (var fact in turn.Evidence) { <section class="league-supporting-fact"><strong>@FactLabel(fact.Id, turn.Language)</strong><LeagueSourceFacts Evidence="fact" Language="turn.Language"/></section> }</details> }
+            </article>
+        }
+        @if (_pending) { <div class="league-turn league-pending-turn"><ChatResponsePending Language="Language"/></div> }
+        </div>
+    </div>
+    @if (_pending) { <div class="league-pending"><ChatResponsePending Language="Language" Compact="true"/><button type="button" @onclick="Cancel">@T("CancelReply")</button></div> }
+    <form @onsubmit="SubmitAsync" @onsubmit:preventDefault><label class="sr-only" for="@_inputId">@T("AskLeague")</label><input @ref="_input" id="@_inputId" maxlength="1000" @bind="_question" @bind:event="oninput" disabled="@Blocked" placeholder="@T("LeaguePlaceholder")"/><button type="submit" disabled="@(Blocked || string.IsNullOrWhiteSpace(_question))">@T(_pending ? "Responding" : "AskMatchmate")</button></form>
+    <div class="question-chips">@foreach (var source in LeagueWorkflowRegistry.Suggestions(Club is not null)) { <button type="button" @key="source.Id" hidden="@(!_expanded && source.Id != "changes")" disabled="@Blocked" @onclick="() => SendAsync(source.Id)">@LeagueChatPresentation.DisplayQuestion(source, Language)</button> }</div>
+    @if (Notice.Length > 0) { <p class="league-chat-notice">@Notice</p> }
+</section>

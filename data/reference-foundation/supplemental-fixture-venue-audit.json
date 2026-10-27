@@ -1,0 +1,206 @@
+{
+  "observed_at": "2026-10-17",
+  "scope": "Premier League match venue evidence audit, not new fixture dataset or unrestricted reuse clearance.",
+  "catalogue_audit": {
+    "season": "2015/16",
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/b0bc9f22dd77c206ddedc1d742893b3bbe64baec/data/matches/2/27.json",
+    "commit": "b0bc9f22dd77c206ddedc1d742893b3bbe64baec",
+    "sha256": "e07d6d360b30e0cd17f9aeea0db1502d2a5666d298f1b44b83a2d2f21ba3d21b",
+    "reviewed_records": 380,
+    "records_with_stadium": 380,
+    "home_clubs": 20,
+    "home_matches_per_club": 19,
+    "venue_identity_count_per_home_club": 1,
+    "exact_date_home_away_matches_existing_source": 380,
+    "unmatched": 0,
+    "team_alias_mapping": {
+      "Arsenal": "Arsenal FC",
+      "Chelsea": "Chelsea FC",
+      "Everton": "Everton FC",
+      "Liverpool": "Liverpool FC",
+      "Sunderland": "Sunderland AFC",
+      "Watford": "Watford FC",
+      "Southampton": "Southampton FC"
+    },
+    "other_team_alias_policy": "identity",
+    "result": "No alternate home venue identity detected within this catalogue. Not universal no-exception proof; no historical-name proof.",
+    "name_caveat": "Catalogue uses current/backfilled Swansea.com and bet365 names for 2015/16; venue identity only, not historical labels.",
+    "rights_status": "Research analysis only; underlying redistribution/commercial/public-product/external-AI rights unresolved/restricted. No raw catalogue or380-row derived export retained.",
+    "retained_content": "Aggregate audit metadata/hash/alias map only; read-only inspection performed by orchestrator.",
+    "other_season_coverage": "Inspected competition catalogue has EPL2015/16 and 2003/04; no 2016/17 or 2026/27 venue catalogue verified."
+  },
+  "season_coverage": [
+    {
+      "season": "2015/16",
+      "denominator": 380,
+      "denominator_source_id": "openfootball-2015-16",
+      "catalogue_venue_records_checked": 380,
+      "individual_actual_pl_cases": 1,
+      "individual_planned_pl_cases": 0,
+      "unchecked_actual_fixture_venue_records": 0,
+      "limitation": "All 380 source catalogue venues checked for identity; independent primary venue audit is not complete. Individualcase overlaps catalogue, not extra coverage.",
+      "primary_verified_actual_fixture_venues": 0,
+      "unchecked_primary_actual_fixture_venue_records": 380
+    },
+    {
+      "season": "2016/17",
+      "denominator": 380,
+      "denominator_source_id": "openfootball-2016-17",
+      "catalogue_venue_records_checked": 380,
+      "individual_actual_pl_cases": 3,
+      "individual_planned_pl_cases": 0,
+      "unchecked_actual_fixture_venue_records": 0,
+      "limitation": "All 380 BDFutbol actual-result venue labels checked against played-date/team/score keys. Three actual primary cases explicitly reconciled in this fixture-level audit; the other 377 are outside that primary-case scope. Other primary-ground context notes were not reconciled into this count. No universal no-exception or historical-name proof.",
+      "primary_verified_actual_fixture_venues": 3,
+      "unchecked_primary_actual_fixture_venue_records": 377
+    },
+    {
+      "season": "2026/27",
+      "denominator": 380,
+      "denominator_source_id": "openfootball-2026-27",
+      "catalogue_venue_records_checked": 0,
+      "individual_actual_pl_cases": 1,
+      "individual_planned_pl_cases": 1,
+      "unchecked_actual_fixture_venue_records": 379,
+      "limitation": "One actual primary case and one schedule-only planned case. Planned is not actual evidence and does not reduce unchecked actual count; future fixture venues not guaranteed.",
+      "primary_verified_actual_fixture_venues": 1,
+      "unchecked_primary_actual_fixture_venue_records": 379
+    }
+  ],
+  "cases": [
+    {
+      "case_id": "2015-16-united-bournemouth",
+      "season": "2015/16",
+      "competition": "Premier League",
+      "home_club_id": "manchester-united",
+      "away_club_id": "bournemouth",
+      "subject_date": "2016-05-17",
+      "ground_id": "old-trafford",
+      "ground_name_as_source": null,
+      "event_status": "actual",
+      "classification": "postponed_not_relocated",
+      "source_ids": [
+        "supplement-34"
+      ],
+      "observed_at": "2026-10-17",
+      "counted_in_premier_league_denominator": true,
+      "claim_scope": "Selected fixture/announcement only; not proof every club fixture used this ground or no other exceptions occurred.",
+      "original_scheduled_date": "2016-05-15",
+      "additional_primary_planned_source_id": "supplement-33",
+      "catalogue_match_id": 3754159
+    },
+    {
+      "case_id": "2016-17-westham-bournemouth",
+      "season": "2016/17",
+      "competition": "Premier League",
+      "home_club_id": "west-ham",
+      "away_club_id": "bournemouth",
+      "subject_date": "2016-08-21",
+      "ground_id": "london-stadium",
+      "ground_name_as_source": null,
+      "event_status": "actual",
+      "classification": "new_home_first_league_match",
+      "source_ids": [
+        "supplement-35"
+      ],
+      "observed_at": "2026-10-17",
+      "counted_in_premier_league_denominator": true,
+      "claim_scope": "Selected fixture/announcement only; not proof every club fixture used this ground or no other exceptions occurred."
+    },
+    {
+      "case_id": "2016-17-spurs-united",
+      "season": "2016/17",
+      "competition": "Premier League",
+      "home_club_id": "tottenham",
+      "away_club_id": "manchester-united",
+      "subject_date": "2017-05-14",
+      "ground_id": "white-hart-lane",
+      "ground_name_as_source": null,
+      "event_status": "actual",
+      "classification": "last_home_match_before_move",
+      "source_ids": [
+        "supplement-36"
+      ],
+      "observed_at": "2026-10-17",
+      "counted_in_premier_league_denominator": true,
+      "claim_scope": "Selected fixture/announcement only; not proof every club fixture used this ground or no other exceptions occurred."
+    },
+    {
+      "case_id": "2016-17-spurs-monaco",
+      "season": "2016/17",
+      "competition": "UEFA Champions League",
+      "home_club_id": "tottenham",
+      "away_club_id": null,
+      "subject_date": "2016-09-14",
+      "ground_id": null,
+      "ground_name_as_source": "Wembley Stadium",
+      "event_status": "actual",
+      "classification": "european_temporary_venue_outside_pl",
+      "source_ids": [
+        "supplement-38"
+      ],
+      "observed_at": "2026-10-17",
+      "counted_in_premier_league_denominator": false,
+      "claim_scope": "Selected fixture/announcement only; not proof every club fixture used this ground or no other exceptions occurred.",
+      "away_club_source_name": "AS Monaco",
+      "additional_primary_source_id": "supplement-37"
+    },
+    {
+      "case_id": "2026-27-everton-palace",
+      "season": "2026/27",
+      "competition": "Premier League",
+      "home_club_id": "everton",
+      "away_club_id": "crystal-palace",
+      "subject_date": "2026-08-22",
+      "ground_id": "hill-dickinson-stadium",
+      "ground_name_as_source": null,
+      "event_status": "actual",
+      "classification": "new_home_match_after_move",
+      "source_ids": [
+        "supplement-39"
+      ],
+      "observed_at": "2026-10-17",
+      "counted_in_premier_league_denominator": true,
+      "claim_scope": "Selected fixture/announcement only; not proof every club fixture used this ground or no other exceptions occurred."
+    },
+    {
+      "case_id": "2026-27-spurs-coventry",
+      "season": "2026/27",
+      "competition": "Premier League",
+      "home_club_id": "tottenham",
+      "away_club_id": "coventry",
+      "subject_date": "2026-10-17",
+      "ground_id": "tottenham-hotspur-stadium",
+      "ground_name_as_source": null,
+      "event_status": "planned",
+      "classification": "announced_fixture_not_actual_confirmation",
+      "source_ids": [
+        "supplement-40"
+      ],
+      "observed_at": "2026-10-17",
+      "counted_in_premier_league_denominator": true,
+      "claim_scope": "Selected fixture/announcement only; not proof every club fixture used this ground or no other exceptions occurred."
+    },
+    {
+      "case_id": "2016-17-burnley-liverpool",
+      "season": "2016/17",
+      "competition": "Premier League",
+      "home_club_id": "burnley",
+      "away_club_id": "liverpool",
+      "subject_date": "2016-08-20",
+      "ground_id": "turf-moor",
+      "ground_name_as_source": "Turf Moor",
+      "event_status": "actual",
+      "classification": "home_away_fixture_reversal_not_neutral_relocation",
+      "source_ids": [
+        "supplement-44"
+      ],
+      "announcement_source_id": "supplement-45",
+      "observed_at": "2026-10-17",
+      "counted_in_premier_league_denominator": true,
+      "claim_scope": "Actual Burnley home match. Separate secondary announcement describes planned home/away reversal; no inference of neutral relocation."
+    }
+  ],
+  "total_source_fixture_denominator": 1140,
+  "catalogue_audit_2016_17_reference": "venue-audit-2016-17.json"
+}

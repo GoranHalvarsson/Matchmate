@@ -1,0 +1,218 @@
+{
+  "entities": {
+    "Q24083712": {
+      "pageid": 26074642,
+      "ns": 0,
+      "title": "Q24083712",
+      "lastrevid": 2400203268,
+      "modified": "2025-09-04T07:14:00Z",
+      "type": "item",
+      "id": "Q24083712",
+      "labels": {
+        "en": {
+          "language": "en",
+          "value": "2016–17 Burnley F.C. season"
+        }
+      },
+      "claims": {
+        "P31": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P31",
+              "hash": "9ddb403180b684facfb50183c3b3a99ce0b171d1",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 26887310,
+                  "id": "Q26887310"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q24083712$F6165299-AF04-40E0-9F5C-A8A9A68A5779",
+            "rank": "normal"
+          }
+        ],
+        "P641": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P641",
+              "hash": "1624e15e061523279bc14bb6497168e45caacb32",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 2736,
+                  "id": "Q2736"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q24083712$772F4B55-153E-4E8A-934E-295B7169E913",
+            "rank": "normal"
+          }
+        ],
+        "P5138": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P5138",
+              "hash": "f265401dc8f0d04193ce4b366b5d1d763cdee8c2",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 19458,
+                  "id": "Q19458"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q24083712$ADD7D9D8-929F-48D1-BA61-FB54FBB3751B",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "fa278ebfc458360e5aed63d5058cca83c46134f1",
+                "snaks": {
+                  "P143": [
+                    {
+                      "snaktype": "value",
+                      "property": "P143",
+                      "hash": "e4f6d9441d0600513c4533c672b5ab472dc73694",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 328,
+                          "id": "Q328"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P143"
+                ]
+              }
+            ]
+          }
+        ],
+        "P2348": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P2348",
+              "hash": "b7af4df92bbae693e13f478b16af9ae9aa3d0328",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 30201458,
+                  "id": "Q30201458"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q24083712$A7DB0A14-FD7F-456E-A329-0DEACF9D779D",
+            "rank": "normal"
+          }
+        ],
+        "P17": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P17",
+              "hash": "a44880420787fb348836dc51d3babc5227c4ef7e",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 145,
+                  "id": "Q145"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q24083712$5440FF48-9441-4FEA-8310-13F3C8838028",
+            "rank": "normal"
+          }
+        ],
+        "P155": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P155",
+              "hash": "e9e36513f0a0a40d64a92265dcbef1a9389c9002",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 19946080,
+                  "id": "Q19946080"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q24083712$A6AC1E0F-4F7B-47DB-B58F-581528BF614A",
+            "rank": "normal"
+          }
+        ],
+        "P156": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P156",
+              "hash": "f130278f95dcc4b66e85344b3d10f7d29aeafeb4",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 30640585,
+                  "id": "Q30640585"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q24083712$663EB9D8-9936-4AFA-B65C-4056DD34274D",
+            "rank": "normal"
+          }
+        ],
+        "P2671": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P2671",
+              "hash": "6df505c63098d7b58381e33ae5cbab73b2b5de3d",
+              "datavalue": {
+                "value": "/g/11cn9fxv97",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q24083712$F96F44D4-7EBA-4214-AEB4-41340F5D0347",
+            "rank": "normal"
+          }
+        ]
+      },
+      "sitelinks": {
+        "enwiki": {
+          "site": "enwiki",
+          "title": "2016–17 Burnley F.C. season",
+          "badges": []
+        }
+      }
+    }
+  }
+}

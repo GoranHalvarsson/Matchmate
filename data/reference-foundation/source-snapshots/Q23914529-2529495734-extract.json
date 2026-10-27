@@ -1,0 +1,352 @@
+{
+  "entities": {
+    "Q23914529": {
+      "pageid": 25911200,
+      "ns": 0,
+      "title": "Q23914529",
+      "lastrevid": 2529495734,
+      "modified": "2026-08-10T06:07:56Z",
+      "type": "item",
+      "id": "Q23914529",
+      "labels": {
+        "en": {
+          "language": "en",
+          "value": "2016–17 Manchester United F.C. season"
+        }
+      },
+      "claims": {
+        "P18": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P18",
+              "hash": "a235d10963d45646d67e076f8a2c2e492ea9a9c3",
+              "datavalue": {
+                "value": "Manchester United v Zorya Luhansk, September 2016 (10).JPG",
+                "type": "string"
+              },
+              "datatype": "commonsMedia"
+            },
+            "type": "statement",
+            "id": "Q23914529$01bb01f3-411c-9f64-b756-a2b8c3d81db4",
+            "rank": "normal"
+          }
+        ],
+        "P641": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P641",
+              "hash": "1624e15e061523279bc14bb6497168e45caacb32",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 2736,
+                  "id": "Q2736"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q23914529$E4B39B68-FB67-48C0-8889-E45CC04F6606",
+            "rank": "normal"
+          }
+        ],
+        "P155": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P155",
+              "hash": "a6b1adcccd47e84e89be1aa2bbe85af60ac3e9b0",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 19849295,
+                  "id": "Q19849295"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q23914529$b584b765-4ebb-4f27-e37f-4268b12055c1",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "288ab581e7d2d02995a26dfa8b091d96e78457fc",
+                "snaks": {
+                  "P143": [
+                    {
+                      "snaktype": "value",
+                      "property": "P143",
+                      "hash": "6a164248fc96bfa583bbb495cb63ae6401ec203c",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 206855,
+                          "id": "Q206855"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P143"
+                ]
+              }
+            ]
+          }
+        ],
+        "P156": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P156",
+              "hash": "2784bcc9d01e4afa45869f9cf290c802d298448e",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 29002115,
+                  "id": "Q29002115"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q23914529$345d9c51-4099-bab5-4898-42658bf62b30",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "288ab581e7d2d02995a26dfa8b091d96e78457fc",
+                "snaks": {
+                  "P143": [
+                    {
+                      "snaktype": "value",
+                      "property": "P143",
+                      "hash": "6a164248fc96bfa583bbb495cb63ae6401ec203c",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 206855,
+                          "id": "Q206855"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P143"
+                ]
+              }
+            ]
+          }
+        ],
+        "P31": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P31",
+              "hash": "9ddb403180b684facfb50183c3b3a99ce0b171d1",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 26887310,
+                  "id": "Q26887310"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q23914529$6D098231-01F4-4511-8949-4D3C0437E200",
+            "rank": "normal"
+          }
+        ],
+        "P5138": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P5138",
+              "hash": "2940a2da89df84caa829430a5ca0b91fd645e57d",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 18656,
+                  "id": "Q18656"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q23914529$99FCB19C-2248-4220-BF88-64A1E0E0D90A",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "fa278ebfc458360e5aed63d5058cca83c46134f1",
+                "snaks": {
+                  "P143": [
+                    {
+                      "snaktype": "value",
+                      "property": "P143",
+                      "hash": "e4f6d9441d0600513c4533c672b5ab472dc73694",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 328,
+                          "id": "Q328"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P143"
+                ]
+              }
+            ]
+          }
+        ],
+        "P2348": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P2348",
+              "hash": "b7af4df92bbae693e13f478b16af9ae9aa3d0328",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 30201458,
+                  "id": "Q30201458"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q23914529$38F4EB50-0B39-4878-BF94-05CE28CD4673",
+            "rank": "normal"
+          }
+        ],
+        "P17": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P17",
+              "hash": "a44880420787fb348836dc51d3babc5227c4ef7e",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 145,
+                  "id": "Q145"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q23914529$A5CFDC53-7F87-4909-B74E-FC0E3FB6A06E",
+            "rank": "normal"
+          }
+        ]
+      },
+      "sitelinks": {
+        "arwiki": {
+          "site": "arwiki",
+          "title": "مانشستر يونايتد موسم 2016–17",
+          "badges": []
+        },
+        "bgwiki": {
+          "site": "bgwiki",
+          "title": "ФК „Манчестър Юнайтед“ през сезон 2016/17",
+          "badges": []
+        },
+        "enwiki": {
+          "site": "enwiki",
+          "title": "2016–17 Manchester United F.C. season",
+          "badges": []
+        },
+        "eswiki": {
+          "site": "eswiki",
+          "title": "Anexo:Temporada 2016-17 del Manchester United Football Club",
+          "badges": []
+        },
+        "fiwiki": {
+          "site": "fiwiki",
+          "title": "Manchester Unitedin kausi 2016–2017",
+          "badges": []
+        },
+        "frwiki": {
+          "site": "frwiki",
+          "title": "Saison 2016-2017 de Manchester United",
+          "badges": []
+        },
+        "huwiki": {
+          "site": "huwiki",
+          "title": "A Manchester United FC 2016–2017-es szezonja",
+          "badges": []
+        },
+        "itwiki": {
+          "site": "itwiki",
+          "title": "Manchester United Football Club 2016-2017",
+          "badges": []
+        },
+        "nlwiki": {
+          "site": "nlwiki",
+          "title": "Manchester United FC in het seizoen 2016/17",
+          "badges": []
+        },
+        "nowiki": {
+          "site": "nowiki",
+          "title": "Manchester United FC i 2016–17",
+          "badges": []
+        },
+        "plwiki": {
+          "site": "plwiki",
+          "title": "Manchester United F.C. w sezonie 2016/2017",
+          "badges": []
+        },
+        "ruwiki": {
+          "site": "ruwiki",
+          "title": "ФК «Манчестер Юнайтед» в сезоне 2016/2017",
+          "badges": [
+            "Q17437796"
+          ]
+        },
+        "simplewiki": {
+          "site": "simplewiki",
+          "title": "2016–17 Manchester United F.C. season",
+          "badges": []
+        },
+        "thwiki": {
+          "site": "thwiki",
+          "title": "สโมสรฟุตบอลแมนเชสเตอร์ยูไนเต็ดในฤดูกาล 2016–17",
+          "badges": []
+        },
+        "trwiki": {
+          "site": "trwiki",
+          "title": "Manchester United FC 2016-17 sezonu",
+          "badges": []
+        },
+        "viwiki": {
+          "site": "viwiki",
+          "title": "Manchester United F.C. mùa giải 2016–17",
+          "badges": []
+        },
+        "zhwiki": {
+          "site": "zhwiki",
+          "title": "2016年至2017年曼聯足球俱樂部賽季",
+          "badges": []
+        }
+      }
+    }
+  }
+}

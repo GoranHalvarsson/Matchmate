@@ -1,0 +1,5 @@
+{
+  "algorithm": "sha256 canonical JSON sorted keys compact UTF-8",
+  "sha256": "987bcaa612d7ae4be68fbc5d766e4e1995262771a9a4aef46b8f0ee524e27960",
+  "scope": "Entire preceding match JSON; remove identity_resolution from players and remove second_report_crosscheck to reproduce."
+}

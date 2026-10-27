@@ -1,0 +1,251 @@
+{
+  "entities": {
+    "Q24039373": {
+      "pageid": 26031853,
+      "ns": 0,
+      "title": "Q24039373",
+      "lastrevid": 2529912686,
+      "modified": "2026-08-11T06:29:57Z",
+      "type": "item",
+      "id": "Q24039373",
+      "labels": {
+        "en": {
+          "language": "en",
+          "value": "2016–17 Arsenal F.C. season"
+        }
+      },
+      "claims": {
+        "P31": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P31",
+              "hash": "9ddb403180b684facfb50183c3b3a99ce0b171d1",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 26887310,
+                  "id": "Q26887310"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q24039373$B3012B06-3543-4A8F-A454-876AE60E4F00",
+            "rank": "normal"
+          }
+        ],
+        "P641": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P641",
+              "hash": "1624e15e061523279bc14bb6497168e45caacb32",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 2736,
+                  "id": "Q2736"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q24039373$5290a9fc-4ab6-c121-c37c-93de00679fd0",
+            "rank": "normal"
+          }
+        ],
+        "P2348": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P2348",
+              "hash": "b7af4df92bbae693e13f478b16af9ae9aa3d0328",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 30201458,
+                  "id": "Q30201458"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q24039373$805BA508-5A0C-4CB1-B75F-B3E422A26732",
+            "rank": "normal"
+          }
+        ],
+        "P5138": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P5138",
+              "hash": "df026d90517176810608da7500a1bc8b386bec20",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 9617,
+                  "id": "Q9617"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q24039373$6618C347-0293-414C-8D65-574068578EB9",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "fa278ebfc458360e5aed63d5058cca83c46134f1",
+                "snaks": {
+                  "P143": [
+                    {
+                      "snaktype": "value",
+                      "property": "P143",
+                      "hash": "e4f6d9441d0600513c4533c672b5ab472dc73694",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 328,
+                          "id": "Q328"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P143"
+                ]
+              }
+            ]
+          }
+        ],
+        "P17": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P17",
+              "hash": "a44880420787fb348836dc51d3babc5227c4ef7e",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 145,
+                  "id": "Q145"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q24039373$376EEC4E-ADE4-4D2A-9549-B2519DACB60C",
+            "rank": "normal"
+          }
+        ],
+        "P155": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P155",
+              "hash": "1654bb4c15531c7d0fff59b091326718a2eaf461",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 19870288,
+                  "id": "Q19870288"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q24039373$C4EE913B-D87F-46D1-84FD-67A72132C5BC",
+            "rank": "normal"
+          }
+        ],
+        "P156": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P156",
+              "hash": "b182f0fb7153628b139f3bb630e6200925d235a8",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 30105751,
+                  "id": "Q30105751"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q24039373$09D675A5-AD76-4F4E-A1B5-CEF8B04171DF",
+            "rank": "normal"
+          }
+        ]
+      },
+      "sitelinks": {
+        "arwiki": {
+          "site": "arwiki",
+          "title": "أرسنال موسم 2016–17",
+          "badges": []
+        },
+        "bgwiki": {
+          "site": "bgwiki",
+          "title": "ФК Арсенал през сезон 2016/17",
+          "badges": []
+        },
+        "bswiki": {
+          "site": "bswiki",
+          "title": "Arsenal FC – sezona 2016/2017.",
+          "badges": []
+        },
+        "enwiki": {
+          "site": "enwiki",
+          "title": "2016–17 Arsenal F.C. season",
+          "badges": []
+        },
+        "frwiki": {
+          "site": "frwiki",
+          "title": "Saison 2016-2017 de l'Arsenal FC",
+          "badges": []
+        },
+        "itwiki": {
+          "site": "itwiki",
+          "title": "Arsenal Football Club 2016-2017",
+          "badges": []
+        },
+        "nlwiki": {
+          "site": "nlwiki",
+          "title": "Arsenal FC in het seizoen 2016/17",
+          "badges": []
+        },
+        "ruwiki": {
+          "site": "ruwiki",
+          "title": "ФК «Арсенал» (Лондон) в сезоне 2016/2017",
+          "badges": []
+        },
+        "thwiki": {
+          "site": "thwiki",
+          "title": "สโมสรฟุตบอลอาร์เซนอลในฤดูกาล 2016–17",
+          "badges": []
+        },
+        "viwiki": {
+          "site": "viwiki",
+          "title": "Arsenal F.C. mùa giải 2016–17",
+          "badges": []
+        },
+        "zhwiki": {
+          "site": "zhwiki",
+          "title": "阿仙奴足球會2016–17球季",
+          "badges": []
+        }
+      }
+    }
+  }
+}

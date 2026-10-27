@@ -1,0 +1,36 @@
+﻿<script type="module" src="@Assets["Components/Layout/ReconnectModal.razor.js"]"></script>
+
+<dialog id="components-reconnect-modal" lang="@MatchLanguages.Code(Language)" data-nosnippet>
+    <div class="components-reconnect-container">
+        <div class="components-rejoining-animation" aria-hidden="true">
+            <div></div>
+            <div></div>
+        </div>
+        <p class="components-reconnect-first-attempt-visible">
+            <span data-shell-text="ReconnectFirst">@T("ReconnectFirst")</span>
+        </p>
+        <p class="components-reconnect-repeated-attempt-visible">
+            <span data-shell-text="ReconnectRepeatedBefore">@T("ReconnectRepeatedBefore")</span><span id="components-seconds-to-next-attempt"></span><span data-shell-text="ReconnectRepeatedAfter">@T("ReconnectRepeatedAfter")</span>
+        </p>
+        <p class="components-reconnect-failed-visible">
+            <span data-shell-text="ReconnectFailed">@T("ReconnectFailed")</span>
+        </p>
+        <button id="components-reconnect-button" class="components-reconnect-failed-visible">
+            <span data-shell-text="Retry">@T("Retry")</span>
+        </button>
+        <p class="components-pause-visible">
+            <span data-shell-text="SessionPaused">@T("SessionPaused")</span>
+        </p>
+        <p class="components-resume-failed-visible">
+            <span data-shell-text="ResumeFailed">@T("ResumeFailed")</span>
+        </p>
+        <button id="components-resume-button" class="components-pause-visible components-resume-failed-visible">
+            <span data-shell-text="Resume">@T("Resume")</span>
+        </button>
+    </div>
+</dialog>
+@using Matchmate.Web.Localization
+@code {
+    private MatchLanguage Language => MatchLanguages.FromCulture(System.Globalization.CultureInfo.CurrentUICulture);
+    private string T(string key) => ShellText.Get(Language, key);
+}

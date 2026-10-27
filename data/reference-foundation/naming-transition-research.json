@@ -1,0 +1,265 @@
+{
+  "observed_at": "2026-10-17",
+  "scope": "Twelve concrete known transition chains investigated fresh. Lower-priority customary origins are not treated as hypothetical missing legal dates. No complete all-time history claimed.",
+  "counts": {
+    "chains_checked": 12,
+    "precision_improved": 5,
+    "resolved": 0,
+    "unresolved": 7
+  },
+  "transitions": [
+    {
+      "ground_id": "britannia-stadium",
+      "transition": "Britannia → bet365",
+      "status": "unresolved",
+      "checked_at": "2026-10-17",
+      "source_checks": [
+        "Fresh official bet365/Stoke searches returned no exact-day primary statement. Existing club guide supplies start of 2016/17; prior announcement route is a news fallback."
+      ],
+      "primary_evidence_ids": [
+        "naming-45"
+      ],
+      "remaining_boundary": "Exact effective day; primary basis remains season context.",
+      "selected_season_impact": "2015/16 Britannia and 2016/17 bet365 usage already established; no selected-season name change required.",
+      "secondary_lead": {
+        "url": "https://en.wikipedia.org/wiki/Bet365_Stadium",
+        "claim": "1 June 2016",
+        "status": "secondary_only_not_promoted"
+      },
+      "evidence_level": "existing_primary_precision_retained_secondary_leads_not_promoted",
+      "next_evidence_needed": "Original club or bet365 naming notice explicitly stating effective day; secondary 1 June lead alone insufficient.",
+      "exact_effective_day_newly_resolved": false
+    },
+    {
+      "ground_id": "leicester-city-stadium",
+      "transition": "Walkers → King Power",
+      "status": "unresolved",
+      "checked_at": "2026-10-17",
+      "source_checks": [
+        "Fresh official club/King Power searches did not recover exact-day statement; previously inspected club retrospective supplies 2011 and indexed shop supplies usage by 30 July."
+      ],
+      "primary_evidence_ids": [
+        "naming-43",
+        "naming-102"
+      ],
+      "remaining_boundary": "Exact announcement/effective day; 30 July is first-match usage, not rename date.",
+      "selected_season_impact": "Both selected historical seasons already have King Power printed usage.",
+      "secondary_lead": {
+        "url": "https://www.skysports.com/football/news/11712/7021439/leicester-change-stadium-name",
+        "claim": "5 July 2011 announcement",
+        "status": "secondary_lead_not_primary_confirmation"
+      },
+      "evidence_level": "existing_primary_precision_retained_secondary_leads_not_promoted",
+      "next_evidence_needed": "Original club or King Power notice separating 5 July announcement from effective naming.",
+      "exact_effective_day_newly_resolved": false
+    },
+    {
+      "ground_id": "dean-court",
+      "transition": "Prior commercial name → Vitality",
+      "status": "unresolved",
+      "checked_at": "2026-10-17",
+      "source_checks": [
+        "Fresh club/sponsor exact-date searches retained sponsor year-level 2015 evidence; no original primary day-level notice recovered."
+      ],
+      "primary_evidence_ids": [
+        "naming-42",
+        "naming-101"
+      ],
+      "remaining_boundary": "Exact 2015 announcement/effective day; announced summer 2026 commitment not actual end.",
+      "selected_season_impact": "Both historical seasons already explicitly use Vitality; no full-season period inferred.",
+      "secondary_lead": {
+        "url": "https://www.skysports.com/amp/football/news/11743/9907677/bournemouth-rename-stadium-for-premier-league-debut",
+        "claim": "9 July 2015 announcement",
+        "status": "secondary_lead_not_primary_confirmation"
+      },
+      "evidence_level": "existing_primary_precision_retained_secondary_leads_not_promoted",
+      "next_evidence_needed": "Original club/Vitality 2015 announcement with explicit day and effective wording.",
+      "exact_effective_day_newly_resolved": false
+    },
+    {
+      "ground_id": "st-james-park",
+      "transition": "sportsdirect.com @ St James’ Park → Sports Direct Arena → restored St James’ Park",
+      "status": "unresolved",
+      "checked_at": "2026-10-17",
+      "source_checks": [
+        "Fresh official club/council searches did not recover primary transition statements. Observed archived club SportsDirectArena URL could not be accessed by web tool; stopped without alternate-endpoint retries."
+      ],
+      "primary_evidence_ids": [],
+      "remaining_boundary": "2009 adoption,2011 adoption and 2012 restoration effective days; announcement/signage installation differ.",
+      "selected_season_impact": "These transitions precede selected 2015/16; contemporary selected-season StJames usage remains supported.",
+      "secondary_lead": {
+        "url": "https://www.bbc.co.uk/sport/football/19887267",
+        "claim": "9 October 2012 restoration announcement",
+        "status": "secondary_only_not_promoted"
+      },
+      "evidence_level": "existing_primary_precision_retained_secondary_leads_not_promoted",
+      "next_evidence_needed": "Accessible original club/sponsor statements for 2009,2011,2012 and distinction from signage dates.",
+      "exact_effective_day_newly_resolved": false
+    },
+    {
+      "ground_id": "london-stadium",
+      "transition": "Olympic Stadium / The Stadium → London Stadium",
+      "status": "precision_improved",
+      "checked_at": "2026-10-17",
+      "source_checks": [
+        "Opened club retrospective; operator search distinguishes company rename from venue rename."
+      ],
+      "primary_evidence_ids": [
+        "naming-113"
+      ],
+      "remaining_boundary": "Exact naming adoption day remains unknown; 4 August 2016 is explicit name usage, not start.",
+      "selected_season_impact": "London name usage now supported before firstPLmatch; Olympic 2012 and later label coexist as source descriptions.",
+      "secondary_lead": null,
+      "evidence_level": "primary_dated_usage_or_continuity_improvement",
+      "next_evidence_needed": "Operator/LLDC or tenant naming decision explicitly stating adoption day, rather than first fixture.",
+      "exact_effective_day_newly_resolved": false
+    },
+    {
+      "ground_id": "coventry-building-society-arena",
+      "transition": "Ricoh → CBS; Olympic City of Coventry label",
+      "status": "precision_improved",
+      "checked_at": "2026-10-17",
+      "source_checks": [
+        "Opened operator anniversary and first-change announcement; opened government Olympic map dated 26 Oct 2010."
+      ],
+      "primary_evidence_ids": [
+        "naming-108",
+        "naming-109",
+        "naming-110",
+        "naming-87"
+      ],
+      "remaining_boundary": "Ricoh naming contract start before/byopening unknown. CBS exact 1 July 2021 retained. Olympic naming interval not established by zone dates.",
+      "selected_season_impact": "CBS 2026/27 supported; Ricoh continuity concerns commercial scope, Olympic label is separate event usage.",
+      "secondary_lead": null,
+      "evidence_level": "primary_dated_usage_or_continuity_improvement",
+      "next_evidence_needed": "Original Ricoh 2005 agreement/announcement for pre-opening start; organizer record explicitly defining clean-name use period if needed.",
+      "exact_effective_day_newly_resolved": false
+    },
+    {
+      "ground_id": "riverside-stadium",
+      "transition": "Cellnet / BT Cellnet → Riverside",
+      "status": "precision_improved",
+      "checked_at": "2026-10-17",
+      "source_checks": [
+        "Fresh club/municipal search did not supply endpoints; opened government charge register and read specific 1998/1999 particulars."
+      ],
+      "primary_evidence_ids": [
+        "naming-111",
+        "naming-112"
+      ],
+      "remaining_boundary": "Commercial adoption, Cellnet→BTCellnet and sponsor cessation days unknown. Charge release/satisfaction dates are not naming endpoints.",
+      "selected_season_impact": "2016/17 Riverside already supported; old legal aliases must not be projected into that season.",
+      "secondary_lead": null,
+      "evidence_level": "primary_dated_usage_or_continuity_improvement",
+      "next_evidence_needed": "Club/Cellnet sponsorship notices stating adoption/rebrand/cessation; legal charge dates do not supply these endpoints.",
+      "exact_effective_day_newly_resolved": false
+    },
+    {
+      "ground_id": "emirates-stadium",
+      "transition": "New Arsenal ground → Emirates",
+      "status": "unresolved",
+      "checked_at": "2026-10-17",
+      "source_checks": [
+        "Fresh official club/sponsor exact-day searches retained indexed official October 2004 evidence, not a day-level primary statement."
+      ],
+      "primary_evidence_ids": [
+        "naming-103"
+      ],
+      "remaining_boundary": "Exact 2004 announcement/effective day; no need to invent a separate legal naming date.",
+      "selected_season_impact": "Selected historical and current Emirates usage unaffected.",
+      "secondary_lead": {
+        "url": "https://www.breakingtravelnews.com/news/article/btn20041005123301968/",
+        "claim": "5 October 2004 sponsorship report",
+        "status": "secondary_lead_not_primary_confirmation"
+      },
+      "evidence_level": "existing_primary_precision_retained_secondary_leads_not_promoted",
+      "next_evidence_needed": "Original club/Emirates day-dated 2004 announcement and explicit effective wording.",
+      "exact_effective_day_newly_resolved": false
+    },
+    {
+      "ground_id": "brighton-community-stadium",
+      "transition": "American Express Community Stadium → American Express Stadium",
+      "status": "precision_improved",
+      "checked_at": "2026-10-17",
+      "source_checks": [
+        "Fresh club/sponsor/municipal search; opened club 2011-match retrospective. Prior 1 Aug 2023 announced effective date retained."
+      ],
+      "primary_evidence_ids": [
+        "naming-114",
+        "naming-99"
+      ],
+      "remaining_boundary": "2010 initial announcement/effective day not primary-confirmed;2011 usage does not bridge all intervening dates.",
+      "selected_season_impact": "Former Community name supported for 2011 usage; selected 2026 name already supported. Brighton not in either selected historicalPLseason.",
+      "secondary_lead": {
+        "url": "https://en.wikipedia.org/wiki/Falmer_Stadium",
+        "claim": "22 June 2010 announcement",
+        "status": "secondary_only_not_promoted"
+      },
+      "evidence_level": "primary_dated_usage_or_continuity_improvement",
+      "next_evidence_needed": "Original club/Amex 2010 notice;2011 match retrospective proves use, not announcement day.",
+      "exact_effective_day_newly_resolved": false
+    },
+    {
+      "ground_id": "mkm-stadium",
+      "transition": "Kingston Communications / KC → KCOM → MKM",
+      "status": "precision_improved",
+      "checked_at": "2026-10-17",
+      "source_checks": [
+        "Opened former naming sponsor retrospective explicitly initial name and 18 Dec 2002 opening."
+      ],
+      "primary_evidence_ids": [
+        "naming-107",
+        "naming-40",
+        "naming-39"
+      ],
+      "remaining_boundary": "Exact initial naming agreement/effective day unknown; opening-name usage now dated. KC abbreviation not a separate inferred rename.",
+      "selected_season_impact": "2016/17 KCOM and 2026 MKMsupported; no current label backfill.",
+      "secondary_lead": null,
+      "evidence_level": "primary_dated_usage_or_continuity_improvement",
+      "next_evidence_needed": "Original Kingston Communications naming agreement/notice before opening; abbreviation adoption need not be a separate rename.",
+      "exact_effective_day_newly_resolved": false
+    },
+    {
+      "ground_id": "hill-dickinson-stadium",
+      "transition": "Bramley-Moore project → Hill Dickinson",
+      "status": "unresolved",
+      "checked_at": "2026-10-17",
+      "source_checks": [
+        "Opened venue/club 16 May 2025 announcement, supplementing previously inspected sponsor announcement."
+      ],
+      "primary_evidence_ids": [
+        "naming-115",
+        "naming-86"
+      ],
+      "remaining_boundary": "Exact effective implementation day not stated;16 May remains announcement, not automatically immediate effect.",
+      "selected_season_impact": "2026 actual name usage already established; no projected sponsor expiry.",
+      "secondary_lead": null,
+      "evidence_level": "existing_primary_precision_retained_secondary_leads_not_promoted",
+      "next_evidence_needed": "Venue/club implementation statement giving effective day, if different from 16 May announcement.",
+      "exact_effective_day_newly_resolved": false
+    },
+    {
+      "ground_id": "liberty-stadium",
+      "transition": "New Stadium / White Rock → Liberty",
+      "status": "unresolved",
+      "checked_at": "2026-10-17",
+      "source_checks": [
+        "Fresh council/club/co-tenant searches; opened Ospreys shared 2021 announcement. Exact 2005 primary notice not recovered."
+      ],
+      "primary_evidence_ids": [
+        "naming-116",
+        "naming-100"
+      ],
+      "remaining_boundary": "Exact 2005 naming day; opening is not name start. Co-tenant shared text is corroboration, not independent 2005 capture.",
+      "selected_season_impact": "Both selected historical seasons Liberty already supported.",
+      "secondary_lead": {
+        "url": "https://en.wikipedia.org/wiki/Swansea.com_Stadium",
+        "claim": "18 October 2005 naming rights",
+        "status": "secondary_only_not_promoted"
+      },
+      "evidence_level": "existing_primary_precision_retained_secondary_leads_not_promoted",
+      "next_evidence_needed": "Original 2005 Liberty Properties/club/co-tenant naming notice;18 October remains a secondary lead.",
+      "exact_effective_day_newly_resolved": false
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+name: Release Matchmate development
+
+on:
+  push:
+    branches: [main]
+
+permissions:
+  contents: read
+
+# Different from the reusable deployment lock: a caller must not lock itself out.
+concurrency:
+  group: matchmate-development-release
+  cancel-in-progress: false
+  queue: max
+
+jobs:
+  validate:
+    permissions:
+      contents: read
+    uses: ./.github/workflows/validate.yml
+  tag:
+    needs: validate
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    outputs:
+      release_tag: ${{ steps.release.outputs.release_tag }}
+      expected_commit: ${{ steps.release.outputs.expected_commit }}
+    steps:
+      - uses: actions/checkout@v6
+        with:
+          ref: ${{ github.sha }}
+          fetch-depth: 0
+      - uses: actions/setup-node@v6
+        with:
+          node-version: 24
+      - name: Create or reuse immutable semantic release tag
+        id: release
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          EXPECTED_COMMIT: ${{ github.sha }}
+        run: node .github/scripts/release-version.mjs create
+  deploy:
+    needs: tag
+    permissions:
+      contents: read
+      id-token: write
+    uses: ./.github/workflows/deploy-development.yml
+    with:
+      action: deploy
+      release_tag: ${{ needs.tag.outputs.release_tag }}
+      expected_commit: ${{ needs.tag.outputs.expected_commit }}
+      pipeline_enabled: true

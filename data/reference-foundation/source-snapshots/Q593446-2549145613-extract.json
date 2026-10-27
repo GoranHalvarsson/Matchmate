@@ -1,0 +1,1247 @@
+{
+  "entities": {
+    "Q593446": {
+      "pageid": 558462,
+      "ns": 0,
+      "title": "Q593446",
+      "lastrevid": 2549145613,
+      "modified": "2026-09-25T02:44:49Z",
+      "type": "item",
+      "id": "Q593446",
+      "labels": {
+        "en": {
+          "language": "en",
+          "value": "City Ground"
+        }
+      },
+      "descriptions": {
+        "en": {
+          "language": "en",
+          "value": "association football stadium in West Bridgford, England"
+        }
+      },
+      "claims": {
+        "P373": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P373",
+              "hash": "85711e639e126194d7dccb71363400fd14fcde3c",
+              "datavalue": {
+                "value": "City Ground, Nottingham",
+                "type": "string"
+              },
+              "datatype": "string"
+            },
+            "type": "statement",
+            "id": "q593446$02D5B3AA-DD61-4712-A2D9-ACC9678A3402",
+            "rank": "normal"
+          }
+        ],
+        "P625": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P625",
+              "hash": "14db1b8623f98eb3eb882296c5ea0b38de2c0c90",
+              "datavalue": {
+                "value": {
+                  "latitude": 52.94,
+                  "longitude": -1.132778,
+                  "altitude": null,
+                  "precision": 1e-05,
+                  "globe": "http://www.wikidata.org/entity/Q2"
+                },
+                "type": "globecoordinate"
+              },
+              "datatype": "globe-coordinate"
+            },
+            "type": "statement",
+            "id": "q593446$640B919E-AE04-457E-8415-57FDB2E72AD4",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "732ec1c90a6f0694c7db9a71bf09fe7f2b674172",
+                "snaks": {
+                  "P143": [
+                    {
+                      "snaktype": "value",
+                      "property": "P143",
+                      "hash": "9123b0de1cc9c3954366ba797d598e4e1ea4146f",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 10000,
+                          "id": "Q10000"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P143"
+                ]
+              }
+            ]
+          }
+        ],
+        "P17": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P17",
+              "hash": "a44880420787fb348836dc51d3babc5227c4ef7e",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 145,
+                  "id": "Q145"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q593446$CD072703-0557-4EA1-B6F2-CA132C7BAC98",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "fa278ebfc458360e5aed63d5058cca83c46134f1",
+                "snaks": {
+                  "P143": [
+                    {
+                      "snaktype": "value",
+                      "property": "P143",
+                      "hash": "e4f6d9441d0600513c4533c672b5ab472dc73694",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 328,
+                          "id": "Q328"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P143"
+                ]
+              }
+            ]
+          }
+        ],
+        "P646": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P646",
+              "hash": "d983b39d3c751802f0125a94f1b4cc0da9888fa3",
+              "datavalue": {
+                "value": "/m/067xm9",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q593446$2E87BE05-1B91-4F74-A157-0822B7C85078",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "2b00cb481cddcac7623114367489b5c194901c4a",
+                "snaks": {
+                  "P248": [
+                    {
+                      "snaktype": "value",
+                      "property": "P248",
+                      "hash": "a94b740202b097dd33355e0e6c00e54b9395e5e0",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 15241312,
+                          "id": "Q15241312"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ],
+                  "P577": [
+                    {
+                      "snaktype": "value",
+                      "property": "P577",
+                      "hash": "fde79ecb015112d2f29229ccc1ec514ed3e71fa2",
+                      "datavalue": {
+                        "value": {
+                          "time": "+2013-10-28T00:00:00Z",
+                          "timezone": 0,
+                          "before": 0,
+                          "after": 0,
+                          "precision": 11,
+                          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                        },
+                        "type": "time"
+                      },
+                      "datatype": "time"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P248",
+                  "P577"
+                ]
+              }
+            ]
+          }
+        ],
+        "P31": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P31",
+              "hash": "7b466b8c482c2e26817ab6e8d6ab48ca623ba2e7",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 1154710,
+                  "id": "Q1154710"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q593446$D5290492-6554-458A-85FD-157202CCC1B9",
+            "rank": "normal"
+          }
+        ],
+        "P466": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P466",
+              "hash": "fa3679dda02bf04fdbff1b39e31f14621a4c5ad9",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 19490,
+                  "id": "Q19490"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q593446$F3A490D9-5F2E-4DD8-89BF-49B5FC29D253",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "fa278ebfc458360e5aed63d5058cca83c46134f1",
+                "snaks": {
+                  "P143": [
+                    {
+                      "snaktype": "value",
+                      "property": "P143",
+                      "hash": "e4f6d9441d0600513c4533c672b5ab472dc73694",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 328,
+                          "id": "Q328"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P143"
+                ]
+              }
+            ]
+          },
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P466",
+              "hash": "71fe1c070c14f90caf80e36db325918206a3b661",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 7063643,
+                  "id": "Q7063643"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q593446$d980078f-485e-6745-c980-bdc9f80574b8",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "fa278ebfc458360e5aed63d5058cca83c46134f1",
+                "snaks": {
+                  "P143": [
+                    {
+                      "snaktype": "value",
+                      "property": "P143",
+                      "hash": "e4f6d9441d0600513c4533c672b5ab472dc73694",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 328,
+                          "id": "Q328"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P143"
+                ]
+              }
+            ]
+          }
+        ],
+        "P18": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P18",
+              "hash": "60e52c547ec66943908abd1597b3d05b80ed59ec",
+              "datavalue": {
+                "value": "Nottingham the city ground stadium forest.jpg",
+                "type": "string"
+              },
+              "datatype": "commonsMedia"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P2096": [
+                {
+                  "snaktype": "value",
+                  "property": "P2096",
+                  "hash": "a463e7d03885420e1734fe9eedcc3a170fd200d0",
+                  "datavalue": {
+                    "value": {
+                      "text": "Vista aerea dell'impianto",
+                      "language": "it"
+                    },
+                    "type": "monolingualtext"
+                  },
+                  "datatype": "monolingualtext"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P2096"
+            ],
+            "id": "Q593446$90401F07-1ECD-430E-AFEE-F60AE0131146",
+            "rank": "normal"
+          }
+        ],
+        "P1083": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P1083",
+              "hash": "23613913d19f3df6996ec7910c8029da40fc7d4d",
+              "datavalue": {
+                "value": {
+                  "amount": "+30404",
+                  "unit": "1"
+                },
+                "type": "quantity"
+              },
+              "datatype": "quantity"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P585": [
+                {
+                  "snaktype": "value",
+                  "property": "P585",
+                  "hash": "1a3e5e8f69f70a8a6b056a6cb8cf5fce7fffa373",
+                  "datavalue": {
+                    "value": {
+                      "time": "+2023-00-00T00:00:00Z",
+                      "timezone": 0,
+                      "before": 0,
+                      "after": 0,
+                      "precision": 9,
+                      "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                    },
+                    "type": "time"
+                  },
+                  "datatype": "time"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P585"
+            ],
+            "id": "Q593446$56FBCA49-6BA6-47E5-8F94-5ED354F35F18",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "505d3ab63d4dbdcacb342f49de5b73511f5e18f2",
+                "snaks": {
+                  "P854": [
+                    {
+                      "snaktype": "value",
+                      "property": "P854",
+                      "hash": "b38ad8f2c93dd4b069e6db9889d212ef691c2a1f",
+                      "datavalue": {
+                        "value": "https://resources.premierleague.com/premierleague/document/2023/08/10/eb775c99-351a-46c1-9050-53dcae175a81/PL_Handbook_2023-24_DIGITAL_03.08.23.pdf",
+                        "type": "string"
+                      },
+                      "datatype": "url"
+                    }
+                  ],
+                  "P304": [
+                    {
+                      "snaktype": "value",
+                      "property": "P304",
+                      "hash": "f56c74554248f216118f0283ade939e79850cd06",
+                      "datavalue": {
+                        "value": "33",
+                        "type": "string"
+                      },
+                      "datatype": "string"
+                    }
+                  ],
+                  "P1065": [
+                    {
+                      "snaktype": "value",
+                      "property": "P1065",
+                      "hash": "f0ee8f27a02d44c07e93eb52ae27ff518edf84e6",
+                      "datavalue": {
+                        "value": "https://web.archive.org/web/20230815171445/https://resources.premierleague.com/premierleague/document/2023/08/10/eb775c99-351a-46c1-9050-53dcae175a81/PL_Handbook_2023-24_DIGITAL_03.08.23.pdf",
+                        "type": "string"
+                      },
+                      "datatype": "url"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P854",
+                  "P304",
+                  "P1065"
+                ]
+              }
+            ]
+          }
+        ],
+        "P131": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P131",
+              "hash": "6d7ce178c8df62a7c0c56dc1ceca334dcdbdc67e",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 1854225,
+                  "id": "Q1854225"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q593446$184B4904-8EAF-483B-A271-F617045CF9AD",
+            "rank": "normal"
+          }
+        ],
+        "P127": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P127",
+              "hash": "1cd7520366dbf7b0a8ffc5387ec78c0c4a65d8f5",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 19490,
+                  "id": "Q19490"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q593446$771BF67A-DDB3-445B-9E58-F2C59A2B829E",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "fa278ebfc458360e5aed63d5058cca83c46134f1",
+                "snaks": {
+                  "P143": [
+                    {
+                      "snaktype": "value",
+                      "property": "P143",
+                      "hash": "e4f6d9441d0600513c4533c672b5ab472dc73694",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 328,
+                          "id": "Q328"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P143"
+                ]
+              }
+            ]
+          }
+        ],
+        "P641": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P641",
+              "hash": "1624e15e061523279bc14bb6497168e45caacb32",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 2736,
+                  "id": "Q2736"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q593446$5284A660-2896-46E4-BD27-A260448474D2",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "732ec1c90a6f0694c7db9a71bf09fe7f2b674172",
+                "snaks": {
+                  "P143": [
+                    {
+                      "snaktype": "value",
+                      "property": "P143",
+                      "hash": "9123b0de1cc9c3954366ba797d598e4e1ea4146f",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 10000,
+                          "id": "Q10000"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P143"
+                ]
+              }
+            ]
+          }
+        ],
+        "P1566": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P1566",
+              "hash": "930b69758be484c065b0fa465d0bb82037c7358f",
+              "datavalue": {
+                "value": "7646065",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q593446$716F57C1-DE05-42C7-BA50-C93F8CF95BAE",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "88694a0f4d1486770c269f7db16a1982f74da69d",
+                "snaks": {
+                  "P248": [
+                    {
+                      "snaktype": "value",
+                      "property": "P248",
+                      "hash": "1b3ef912a2bd61e18dd43abd184337eb010b2e96",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 830106,
+                          "id": "Q830106"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P248"
+                ]
+              }
+            ]
+          }
+        ],
+        "P454": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P454",
+              "hash": "5d549d3298819d9cd9c7aa4a4590ade0da8283bc",
+              "datavalue": {
+                "value": "20060291",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q593446$E27E22C4-DAA3-4283-9408-B74F9A4FD40D",
+            "rank": "normal"
+          }
+        ],
+        "P5288": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P5288",
+              "hash": "fe96c7fa08fce903e8b127f2a2025643af6bc2e2",
+              "datavalue": {
+                "value": "eng/city_ground",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q593446$4da9b163-45f3-c28a-5f08-e27f2034256f",
+            "rank": "normal"
+          }
+        ],
+        "P1619": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P1619",
+              "hash": "1c32ac29b5bb3729dc167e26bf57eff11613996c",
+              "datavalue": {
+                "value": {
+                  "time": "+1898-09-03T00:00:00Z",
+                  "timezone": 0,
+                  "before": 0,
+                  "after": 0,
+                  "precision": 11,
+                  "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                },
+                "type": "time"
+              },
+              "datatype": "time"
+            },
+            "type": "statement",
+            "id": "Q593446$95B4C3BA-4CF5-4E80-8D2B-8B5C5E779796",
+            "rank": "normal"
+          }
+        ],
+        "P137": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P137",
+              "hash": "8285666219897db5737dbfc740d66fed1a380463",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 19490,
+                  "id": "Q19490"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q593446$E31FB7CA-AD23-49F7-91B8-D869F3B9CC6C",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "817a61d590eb0607cce6d30ed4d14373dd0bdfb4",
+                "snaks": {
+                  "P143": [
+                    {
+                      "snaktype": "value",
+                      "property": "P143",
+                      "hash": "e4f6d9441d0600513c4533c672b5ab472dc73694",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 328,
+                          "id": "Q328"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ],
+                  "P4656": [
+                    {
+                      "snaktype": "value",
+                      "property": "P4656",
+                      "hash": "aae7c415888255fe5c399224b7255a7c5ae31876",
+                      "datavalue": {
+                        "value": "https://en.wikipedia.org/w/index.php?title=City_Ground&oldid=934061641",
+                        "type": "string"
+                      },
+                      "datatype": "url"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P143",
+                  "P4656"
+                ]
+              }
+            ]
+          }
+        ],
+        "P7959": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P7959",
+              "hash": "6b8181954975d75e7dfe4caa972b5dc0a97eff16",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 67535681,
+                  "id": "Q67535681"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q593446$54cf7e2a-a69e-4397-90f7-c2b2eac8d21c",
+            "rank": "normal"
+          }
+        ],
+        "P1004": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P1004",
+              "hash": "4f0c804db25e03379b9f3e770fd22b64b506905f",
+              "datavalue": {
+                "value": "e3a7e502-1512-4189-9af3-78edb5722a1c",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P1810": [
+                {
+                  "snaktype": "value",
+                  "property": "P1810",
+                  "hash": "7bbd26cb24403db682f7a456887915c38ada8bee",
+                  "datavalue": {
+                    "value": "City Ground",
+                    "type": "string"
+                  },
+                  "datatype": "string"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P1810"
+            ],
+            "id": "Q593446$762d02fc-0d4d-46aa-8ff7-982247e4c4a9",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "e729a2bb6bafc38c8ab9bac4fb2d2945d6be0e23",
+                "snaks": {
+                  "P248": [
+                    {
+                      "snaktype": "value",
+                      "property": "P248",
+                      "hash": "623cc8f0e2f65afe4d66b91962d354a2f3aa9a27",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 14005,
+                          "id": "Q14005"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ],
+                  "P813": [
+                    {
+                      "snaktype": "value",
+                      "property": "P813",
+                      "hash": "e04b9556d8d1beaf32bad097a733d65c2859afc6",
+                      "datavalue": {
+                        "value": {
+                          "time": "+2023-12-01T00:00:00Z",
+                          "timezone": 0,
+                          "before": 0,
+                          "after": 0,
+                          "precision": 11,
+                          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                        },
+                        "type": "time"
+                      },
+                      "datatype": "time"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P248",
+                  "P813"
+                ]
+              }
+            ]
+          }
+        ],
+        "P7938": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P7938",
+              "hash": "0d9d69c63cd4a3a94bdb97c967406cecace15c18",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 1031895,
+                  "id": "Q1031895"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P3831": [
+                {
+                  "snaktype": "value",
+                  "property": "P3831",
+                  "hash": "92b2a9bac12fb8e82c56dfef41567be36eeb563f",
+                  "datavalue": {
+                    "value": {
+                      "entity-type": "item",
+                      "numeric-id": 27971968,
+                      "id": "Q27971968"
+                    },
+                    "type": "wikibase-entityid"
+                  },
+                  "datatype": "wikibase-item"
+                }
+              ],
+              "P585": [
+                {
+                  "snaktype": "value",
+                  "property": "P585",
+                  "hash": "a6be46f7ad0a963928c79e954c6bebb458ccd2d8",
+                  "datavalue": {
+                    "value": {
+                      "time": "+2024-07-01T00:00:00Z",
+                      "timezone": 0,
+                      "before": 0,
+                      "after": 0,
+                      "precision": 10,
+                      "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                    },
+                    "type": "time"
+                  },
+                  "datatype": "time"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P3831",
+              "P585"
+            ],
+            "id": "Q593446$A270DDC8-8F1B-40B7-A71A-9D22BB4E200D",
+            "rank": "normal"
+          }
+        ],
+        "P276": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P276",
+              "hash": "010a5f131198fea5440c06ca906f19a9987dfd58",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 41262,
+                  "id": "Q41262"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q593446$69bab396-4591-c4d5-5cdb-e314c8aefdc2",
+            "rank": "normal"
+          }
+        ],
+        "P6375": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P6375",
+              "hash": "8a6cd6105002f1ddb2a3276b321aa13ec2ed9904",
+              "datavalue": {
+                "value": {
+                  "text": "Trentside North, West Bridgford, Nottingham NG2 5FJ",
+                  "language": "en"
+                },
+                "type": "monolingualtext"
+              },
+              "datatype": "monolingualtext"
+            },
+            "type": "statement",
+            "id": "Q593446$c6a6108f-451e-75e5-e246-01d90ab14e79",
+            "rank": "normal"
+          }
+        ],
+        "P765": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P765",
+              "hash": "ab3a0226f7ed3463d5ca5477b5d8b6daf5f38cd7",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 207766,
+                  "id": "Q207766"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q593446$58c0501a-45a2-620a-8ad5-35906f64382a",
+            "rank": "normal"
+          }
+        ],
+        "P856": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P856",
+              "hash": "f212dc49515f8afb0f657bbdb7dc22be4719565c",
+              "datavalue": {
+                "value": "https://www.nottinghamforest.co.uk/club-information/history/history-of-the-city-ground/",
+                "type": "string"
+              },
+              "datatype": "url"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P407": [
+                {
+                  "snaktype": "value",
+                  "property": "P407",
+                  "hash": "daf1c4fcb58181b02dff9cc89deb084004ddae4b",
+                  "datavalue": {
+                    "value": {
+                      "entity-type": "item",
+                      "numeric-id": 1860,
+                      "id": "Q1860"
+                    },
+                    "type": "wikibase-entityid"
+                  },
+                  "datatype": "wikibase-item"
+                }
+              ],
+              "P1065": [
+                {
+                  "snaktype": "value",
+                  "property": "P1065",
+                  "hash": "47fab1f646648b94f85387e61479f8d8516da185",
+                  "datavalue": {
+                    "value": "https://web.archive.org/web/20250502000300/https://www.nottinghamforest.co.uk/club-information/history/history-of-the-city-ground/",
+                    "type": "string"
+                  },
+                  "datatype": "url"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P407",
+              "P1065"
+            ],
+            "id": "Q593446$5a38ab30-455f-fe11-7e9d-f53a087a3afb",
+            "rank": "normal"
+          }
+        ],
+        "P1617": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P1617",
+              "hash": "94f8e018dbf6a23bdd1171b288380f26ea02132b",
+              "datavalue": {
+                "value": "f2843398-7b1a-451a-a2a4-24d9294509fa",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q593446$116c8ceb-4c65-0373-6bdc-9355a99da494",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "8582d8416671f1f2567247201bac753552435ca5",
+                "snaks": {
+                  "P248": [
+                    {
+                      "snaktype": "value",
+                      "property": "P248",
+                      "hash": "ea55dc6ac5c3ab77c77d4ae7979e3276d0d4cd20",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 18336371,
+                          "id": "Q18336371"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P248"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "sitelinks": {
+        "arwiki": {
+          "site": "arwiki",
+          "title": "سيتي غراوند",
+          "badges": []
+        },
+        "azbwiki": {
+          "site": "azbwiki",
+          "title": "سیتی قراند ایستادیومو",
+          "badges": []
+        },
+        "azwiki": {
+          "site": "azwiki",
+          "title": "Siti Qraund",
+          "badges": []
+        },
+        "bgwiki": {
+          "site": "bgwiki",
+          "title": "Сити Граунд",
+          "badges": []
+        },
+        "bswiki": {
+          "site": "bswiki",
+          "title": "City Ground",
+          "badges": []
+        },
+        "commonswiki": {
+          "site": "commonswiki",
+          "title": "Category:City Ground, Nottingham",
+          "badges": []
+        },
+        "cswiki": {
+          "site": "cswiki",
+          "title": "City Ground",
+          "badges": []
+        },
+        "cywiki": {
+          "site": "cywiki",
+          "title": "City Ground",
+          "badges": []
+        },
+        "dawiki": {
+          "site": "dawiki",
+          "title": "City Ground",
+          "badges": []
+        },
+        "dewiki": {
+          "site": "dewiki",
+          "title": "City Ground",
+          "badges": []
+        },
+        "enwiki": {
+          "site": "enwiki",
+          "title": "City Ground",
+          "badges": []
+        },
+        "eswiki": {
+          "site": "eswiki",
+          "title": "City Ground",
+          "badges": []
+        },
+        "euwiki": {
+          "site": "euwiki",
+          "title": "City Ground",
+          "badges": []
+        },
+        "fawiki": {
+          "site": "fawiki",
+          "title": "ورزشگاه سیتی گراند",
+          "badges": []
+        },
+        "fiwiki": {
+          "site": "fiwiki",
+          "title": "City Ground",
+          "badges": []
+        },
+        "frwiki": {
+          "site": "frwiki",
+          "title": "City Ground",
+          "badges": []
+        },
+        "guwiki": {
+          "site": "guwiki",
+          "title": "સિટી ગ્રાઉન્ડ",
+          "badges": []
+        },
+        "hewiki": {
+          "site": "hewiki",
+          "title": "סיטי גראונד",
+          "badges": []
+        },
+        "huwiki": {
+          "site": "huwiki",
+          "title": "Városi Stadion (Nottingham)",
+          "badges": []
+        },
+        "idwiki": {
+          "site": "idwiki",
+          "title": "City Ground",
+          "badges": []
+        },
+        "iswiki": {
+          "site": "iswiki",
+          "title": "City Ground",
+          "badges": []
+        },
+        "itwiki": {
+          "site": "itwiki",
+          "title": "City Ground",
+          "badges": []
+        },
+        "jawiki": {
+          "site": "jawiki",
+          "title": "シティ・グラウンド",
+          "badges": []
+        },
+        "kowiki": {
+          "site": "kowiki",
+          "title": "시티 그라운드",
+          "badges": []
+        },
+        "ltwiki": {
+          "site": "ltwiki",
+          "title": "City Ground",
+          "badges": []
+        },
+        "nlwiki": {
+          "site": "nlwiki",
+          "title": "City Ground",
+          "badges": []
+        },
+        "nowiki": {
+          "site": "nowiki",
+          "title": "City Ground",
+          "badges": []
+        },
+        "pawiki": {
+          "site": "pawiki",
+          "title": "ਸਿਟੀ ਗਰਾਂਊਂਡ",
+          "badges": []
+        },
+        "plwiki": {
+          "site": "plwiki",
+          "title": "City Ground",
+          "badges": []
+        },
+        "ptwiki": {
+          "site": "ptwiki",
+          "title": "City Ground",
+          "badges": []
+        },
+        "rowiki": {
+          "site": "rowiki",
+          "title": "City Ground",
+          "badges": []
+        },
+        "ruwiki": {
+          "site": "ruwiki",
+          "title": "Сити Граунд",
+          "badges": []
+        },
+        "scowiki": {
+          "site": "scowiki",
+          "title": "City Ground",
+          "badges": []
+        },
+        "simplewiki": {
+          "site": "simplewiki",
+          "title": "City Ground",
+          "badges": []
+        },
+        "skwiki": {
+          "site": "skwiki",
+          "title": "City Ground",
+          "badges": []
+        },
+        "srwiki": {
+          "site": "srwiki",
+          "title": "Сити Граунд",
+          "badges": []
+        },
+        "svwiki": {
+          "site": "svwiki",
+          "title": "City Ground",
+          "badges": []
+        },
+        "thwiki": {
+          "site": "thwiki",
+          "title": "ซิตีกราวด์",
+          "badges": []
+        },
+        "trwiki": {
+          "site": "trwiki",
+          "title": "City Ground",
+          "badges": []
+        },
+        "ukwiki": {
+          "site": "ukwiki",
+          "title": "Сіті Граунд",
+          "badges": []
+        },
+        "zhwiki": {
+          "site": "zhwiki",
+          "title": "城市足球場",
+          "badges": []
+        }
+      }
+    }
+  }
+}

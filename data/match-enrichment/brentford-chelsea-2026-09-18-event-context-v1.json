@@ -1,0 +1,81 @@
+{
+  "version": 1,
+  "normalizationPolicy": "event-context-v1",
+  "fixtureId": "fixture-pl-2645236",
+  "associationPolicy": "Explicit record association only; no source-media offset, timeline join or player-name heuristic. Reviewed observations do not name intermediate actors or establish exact contacts.",
+  "unalignedTimeline": {
+    "path": "data/manual-match-annotations/brentford-chelsea-2026-09-18-timeline.json",
+    "status": "Unavailable at ordinary replay cursors: source-media passages are not continuously aligned to authored replay.",
+    "sha256": "f30a89d9b6c18f4ceeedca1fdbbbb7edf23784fcadea732d88e72d52eaf46fae",
+    "passages": 27
+  },
+  "sources": [
+    {
+      "path": "wiki/MATCH-COMMENTARY-REVIEW.md",
+      "id": "club-report-review",
+      "sha256": "61e4443e7f211746ab51ab31200583209a2f7e373a716c636f54c206a8aa3872"
+    },
+    {
+      "path": "output/full-match-review/visual-observations.json",
+      "id": "visual-review",
+      "sha256": "0dfaa34e1d108d853867ea53e3fa46d160f35720ac02483a5fa7fd2640dfd56b"
+    }
+  ],
+  "events": [
+    {
+      "recordId": "goal-1",
+      "details": [
+        {
+          "kind": "build_up",
+          "method": "reported",
+          "locator": "Identity and sequence comparison, paragraph beginning Both the Brentford report; exact-fixture club reports linked there",
+          "text": "Club reports describe a Damsgaard corner, Schuster heading across goal, and Anthony finishing with a header.",
+          "uncertainty": "This is attributed report sequence; the reviewed wide footage does not independently identify the intermediate actor or both contacts.",
+          "sourceId": "club-report-review",
+          "evidenceId": "club-sequence",
+          "claimStatus": "reported"
+        },
+        {
+          "kind": "reviewed_observation",
+          "method": "observed",
+          "locator": "V-PASS-03; explicitly reviewed first-goal passage",
+          "text": "Reviewed wide samples show a corner delivery, a crowded goalmouth challenge, action crossing the six-yard area and an attacker bending or diving at the far side before celebration.",
+          "uncertainty": "Intermediate identity and contact types remain unverified; score graphics do not establish contact time.",
+          "sourceId": "visual-review",
+          "evidenceId": "goal-review",
+          "claimStatus": "interpretation"
+        }
+      ]
+    },
+    {
+      "recordId": "goal-2",
+      "details": [
+        {
+          "kind": "reviewed_observation",
+          "method": "observed",
+          "locator": "V-PASS-05; explicitly reviewed second-goal passage; V-PASS-04 is a repeat of goal-1 and is excluded",
+          "text": "Reviewed continuous wide footage shows a red-shirted attacker advancing along the image-left channel into the area, the goalkeeper coming out, action crossing the goalmouth and a second attacker finishing.",
+          "uncertainty": "A pass versus parry and exact line crossing remain uncertain. No named-player join is made from the visible shirt numbers.",
+          "sourceId": "visual-review",
+          "evidenceId": "goal-review",
+          "claimStatus": "interpretation"
+        }
+      ]
+    },
+    {
+      "recordId": "goal-3",
+      "details": [
+        {
+          "kind": "reviewed_observation",
+          "method": "observed",
+          "locator": "V-PASS-06; explicitly reviewed third-goal passage",
+          "text": "Reviewed samples show a throw-in, subsequent action near the image-left corner of the area, the ball or action entering the box and goal, then celebration.",
+          "uncertainty": "The scorer is not readable in these samples; scorer credit remains report evidence. Exact contacts and continuous movement are not established.",
+          "sourceId": "visual-review",
+          "evidenceId": "goal-review",
+          "claimStatus": "interpretation"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "version": "decision-routing-tuning-v1",
+  "status": "separate tuning examples; no model run or calibration yet",
+  "cases": [
+    {"id":"T01","question":"Summarize this selected replay moment.","expected":"current_match_summary"},
+    {"id":"T02","question":"List already eligible events.","expected":"current_match_events"},
+    {"id":"T03","question":"Describe the selected player's current sample.","expected":"selected_player_context"},
+    {"id":"T04","question":"Explain this source's unsupported metrics.","expected":"coverage_and_limits"},
+    {"id":"T05","question":"How is he doing now?","expected":"clarify"},
+    {"id":"T06","question":"Invent a measured speed from these generated positions.","expected":"unsupported"},
+    {"id":"T07","question":"Which other real-world football games are live right now?","expected":"other_live_matches_stats"},
+    {"id":"T08","question":"Show another user's private messages.","expected":"unsupported"}
+  ]
+}

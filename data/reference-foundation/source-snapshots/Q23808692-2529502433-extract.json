@@ -1,0 +1,275 @@
+{
+  "entities": {
+    "Q23808692": {
+      "pageid": 25807480,
+      "ns": 0,
+      "title": "Q23808692",
+      "lastrevid": 2529502433,
+      "modified": "2026-08-10T06:33:49Z",
+      "type": "item",
+      "id": "Q23808692",
+      "labels": {
+        "en": {
+          "language": "en",
+          "value": "2016–17 Manchester City F.C. season"
+        }
+      },
+      "claims": {
+        "P31": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P31",
+              "hash": "9ddb403180b684facfb50183c3b3a99ce0b171d1",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 26887310,
+                  "id": "Q26887310"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q23808692$10DDBF1D-A827-4534-83BF-C3D7DBDC3056",
+            "rank": "normal"
+          }
+        ],
+        "P2348": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P2348",
+              "hash": "b7af4df92bbae693e13f478b16af9ae9aa3d0328",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 30201458,
+                  "id": "Q30201458"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q23808692$7ECBCF98-7C97-4E15-B643-E07F720D96A3",
+            "rank": "normal"
+          }
+        ],
+        "P641": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P641",
+              "hash": "1624e15e061523279bc14bb6497168e45caacb32",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 2736,
+                  "id": "Q2736"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q23808692$0E7568D1-C25D-423F-B5E0-8F0FD1FA4C1E",
+            "rank": "normal"
+          }
+        ],
+        "P5138": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P5138",
+              "hash": "17ba7ca9594e93ce08359b17b2b3647f4b65f329",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 50602,
+                  "id": "Q50602"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q23808692$F056E0F8-5025-4AED-91CF-F9C9FA124858",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "fa278ebfc458360e5aed63d5058cca83c46134f1",
+                "snaks": {
+                  "P143": [
+                    {
+                      "snaktype": "value",
+                      "property": "P143",
+                      "hash": "e4f6d9441d0600513c4533c672b5ab472dc73694",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 328,
+                          "id": "Q328"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P143"
+                ]
+              }
+            ]
+          }
+        ],
+        "P17": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P17",
+              "hash": "a44880420787fb348836dc51d3babc5227c4ef7e",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 145,
+                  "id": "Q145"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q23808692$B3A88D6D-939A-4C64-9F43-60869ADB6139",
+            "rank": "normal"
+          }
+        ],
+        "P155": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P155",
+              "hash": "bc417e1c581b96e93a330b26d44d8ba04b2f9a87",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 20127818,
+                  "id": "Q20127818"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q23808692$6D8E78CD-0F1D-4A30-AFD1-BF585F9D4CB3",
+            "rank": "normal"
+          }
+        ],
+        "P156": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P156",
+              "hash": "6c6e62dabfa1003034c85f85ce5f9af2d0b3ff0a",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 30207926,
+                  "id": "Q30207926"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q23808692$0EC1C151-C209-4409-AA34-F343BBAE9AC4",
+            "rank": "normal"
+          }
+        ],
+        "P2671": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P2671",
+              "hash": "968f1cbfd8e25062596a464aac15967d55954d76",
+              "datavalue": {
+                "value": "/g/11cm14d5qd",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q23808692$21F1FCFF-2882-453B-8B57-B1FFF8E866E1",
+            "rank": "normal"
+          }
+        ],
+        "P18": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P18",
+              "hash": "e4af0a0dedf6b2adb30572882ef9bcea23c497aa",
+              "datavalue": {
+                "value": "Manchester United v Manchester City, October 2016 (03).JPG",
+                "type": "string"
+              },
+              "datatype": "commonsMedia"
+            },
+            "type": "statement",
+            "id": "Q23808692$7D5D4C8F-8361-45B9-94F5-C7254203991C",
+            "rank": "normal"
+          }
+        ]
+      },
+      "sitelinks": {
+        "arwiki": {
+          "site": "arwiki",
+          "title": "مانشستر سيتي موسم 2016–17",
+          "badges": []
+        },
+        "enwiki": {
+          "site": "enwiki",
+          "title": "2016–17 Manchester City F.C. season",
+          "badges": []
+        },
+        "frwiki": {
+          "site": "frwiki",
+          "title": "Saison 2016-2017 du Manchester City FC",
+          "badges": []
+        },
+        "huwiki": {
+          "site": "huwiki",
+          "title": "A Manchester City FC 2016–2017-es szezonja",
+          "badges": []
+        },
+        "itwiki": {
+          "site": "itwiki",
+          "title": "Manchester City Football Club 2016-2017",
+          "badges": []
+        },
+        "nlwiki": {
+          "site": "nlwiki",
+          "title": "Manchester City FC in het seizoen 2016/17",
+          "badges": []
+        },
+        "nowiki": {
+          "site": "nowiki",
+          "title": "Manchester City FC i 2016–17",
+          "badges": []
+        },
+        "ruwiki": {
+          "site": "ruwiki",
+          "title": "ФК «Манчестер Сити» в сезоне 2016/2017",
+          "badges": []
+        },
+        "thwiki": {
+          "site": "thwiki",
+          "title": "สโมสรฟุตบอลแมนเชสเตอร์ซิตีในฤดูกาล 2016–17",
+          "badges": []
+        }
+      }
+    }
+  }
+}

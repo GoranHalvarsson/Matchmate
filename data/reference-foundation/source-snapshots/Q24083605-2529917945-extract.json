@@ -1,0 +1,245 @@
+{
+  "entities": {
+    "Q24083605": {
+      "pageid": 26074542,
+      "ns": 0,
+      "title": "Q24083605",
+      "lastrevid": 2529917945,
+      "modified": "2026-08-11T06:53:24Z",
+      "type": "item",
+      "id": "Q24083605",
+      "labels": {
+        "en": {
+          "language": "en",
+          "value": "2016–17 Middlesbrough F.C. season"
+        }
+      },
+      "claims": {
+        "P31": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P31",
+              "hash": "9ddb403180b684facfb50183c3b3a99ce0b171d1",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 26887310,
+                  "id": "Q26887310"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q24083605$DDDF2517-DED0-4A67-B534-0055D90F410E",
+            "rank": "normal"
+          }
+        ],
+        "P2348": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P2348",
+              "hash": "b7af4df92bbae693e13f478b16af9ae9aa3d0328",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 30201458,
+                  "id": "Q30201458"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q24083605$27207941-C463-4D73-AA99-A588C89DB13F",
+            "rank": "normal"
+          }
+        ],
+        "P641": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P641",
+              "hash": "1624e15e061523279bc14bb6497168e45caacb32",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 2736,
+                  "id": "Q2736"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q24083605$20F4533C-B999-4F80-BC27-C4747413BD64",
+            "rank": "normal"
+          }
+        ],
+        "P5138": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P5138",
+              "hash": "f91cdf077f5139c90d6d9b68d34c828d301145ae",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 18661,
+                  "id": "Q18661"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q24083605$07B0958D-BD3B-4C91-A5EA-FC0B39BBC9D2",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "fa278ebfc458360e5aed63d5058cca83c46134f1",
+                "snaks": {
+                  "P143": [
+                    {
+                      "snaktype": "value",
+                      "property": "P143",
+                      "hash": "e4f6d9441d0600513c4533c672b5ab472dc73694",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 328,
+                          "id": "Q328"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P143"
+                ]
+              }
+            ]
+          }
+        ],
+        "P17": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P17",
+              "hash": "a44880420787fb348836dc51d3babc5227c4ef7e",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 145,
+                  "id": "Q145"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q24083605$5C2538C4-946C-4F23-9710-D891E6EE51CB",
+            "rank": "normal"
+          }
+        ],
+        "P155": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P155",
+              "hash": "aa47dc89d8921e03ebc0bcef75ab0e28ec87e2e2",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 20648972,
+                  "id": "Q20648972"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q24083605$29EDB504-C375-4D10-A6E8-4031E333C0F2",
+            "rank": "normal"
+          }
+        ],
+        "P156": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P156",
+              "hash": "c92444c3f62093581231be29be172c292cb8691c",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 30640605,
+                  "id": "Q30640605"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q24083605$C4BE6CDF-9C4C-4618-B956-978DD10DD685",
+            "rank": "normal"
+          }
+        ],
+        "P2671": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P2671",
+              "hash": "d8ea35f8c538009eaeb1ef256981fdc155266072",
+              "datavalue": {
+                "value": "/g/11bzq3tcpk",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q24083605$AC324DEE-F1E5-42B6-9D7C-D2625C169861",
+            "rank": "normal"
+          }
+        ],
+        "P18": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P18",
+              "hash": "8e85746f5b68c2aeced536f471baa63c33c9beda",
+              "datavalue": {
+                "value": "Manchester United v Middlesbrough, December 2016 (19).JPG",
+                "type": "string"
+              },
+              "datatype": "commonsMedia"
+            },
+            "type": "statement",
+            "id": "Q24083605$39D3D8B0-B4F0-43E6-B0D7-F205104B24E6",
+            "rank": "normal"
+          }
+        ]
+      },
+      "sitelinks": {
+        "enwiki": {
+          "site": "enwiki",
+          "title": "2016–17 Middlesbrough F.C. season",
+          "badges": []
+        },
+        "itwiki": {
+          "site": "itwiki",
+          "title": "Middlesbrough Football Club 2016-2017",
+          "badges": []
+        },
+        "thwiki": {
+          "site": "thwiki",
+          "title": "สโมสรฟุตบอลมิดเดิลส์เบรอในฤดูกาล 2016–17",
+          "badges": []
+        }
+      }
+    }
+  }
+}

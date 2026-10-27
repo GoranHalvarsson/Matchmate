@@ -1,0 +1,51 @@
+@using Matchmate.Web.Localization
+@using Matchmate.Web.Components.Experience
+@inject MatchLanguageState State
+@implements IDisposable
+
+<header class="experience-header" lang="@MatchLanguages.Code(State.Language)">
+    <a href="/" class="experience-brand">matchmate<span>●</span></a>
+    <span class="brand-tagline">@T("Tagline")</span>
+    <a class="explore-link" href="/">@T("ExploreLeague")</a>
+    <ReplayLanguageSelector Standalone="@Standalone" />
+    <AuthorizeView Policy="@ExternalIdAuthentication.SignedInPolicy">
+        <Authorized>
+            <div class="session-bar">
+                <span>@T("TesterPreview")</span>
+                <form action="/auth/logout" method="post" data-enhance="false">
+                    <AntiforgeryToken />
+                    <button type="submit">@T("SignOut")</button>
+                </form>
+            </div>
+        </Authorized>
+    </AuthorizeView>
+    <details class="mobile-navigation">
+        <summary><span class="sr-only">@T("NavigationMenu")</span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true" focusable="false"><path d="M4 6h16M4 12h16M4 18h16" /></svg></summary>
+        <nav class="mobile-navigation-panel" aria-label="@T("NavigationMenu")">
+            <a href="/">@T("ExploreLeague")</a>
+            <AuthorizeView Policy="@ExternalIdAuthentication.SignedInPolicy">
+                <Authorized>
+                    <div class="mobile-account">
+                        <span>@T("TesterPreview")</span>
+                        <form action="/auth/logout" method="post" data-enhance="false">
+                            <AntiforgeryToken />
+                            <button type="submit">@T("SignOut")</button>
+                        </form>
+                    </div>
+                </Authorized>
+            </AuthorizeView>
+        </nav>
+    </details>
+</header>
+
+@code {
+    [Parameter] public bool Standalone { get; set; }
+    private string T(string key) => ShellText.Get(State.Language, key);
+    protected override void OnInitialized() => State.Changed += LanguageChanged;
+    private async void LanguageChanged()
+    {
+        try { await InvokeAsync(StateHasChanged); }
+        catch (Exception exception) { await DispatchExceptionAsync(exception); }
+    }
+    public void Dispose() => State.Changed -= LanguageChanged;
+}

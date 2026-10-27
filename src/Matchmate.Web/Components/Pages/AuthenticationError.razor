@@ -1,0 +1,8 @@
+@page "/account/error"
+@attribute [AllowAnonymous]
+@using Matchmate.Web.Localization
+@inject MatchLanguageState LanguageState
+
+<PageTitle>@T("AuthenticationErrorTitle")</PageTitle>
+<main class="account-page"><section class="account-card"><p class="eyebrow">@T("Preview")</p><h1>@T("AuthenticationErrorHeading")</h1><p>@T("AuthenticationErrorDescription")</p><a href="/account/sign-in" data-enhance-nav="false">@T("ReturnSignIn")</a></section></main>
+@code { private string T(string key) => ShellText.Get(LanguageState.Language, key); }

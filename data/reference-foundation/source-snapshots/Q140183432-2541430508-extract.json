@@ -1,0 +1,117 @@
+{
+  "entities": {
+    "Q140183432": {
+      "pageid": 133621214,
+      "ns": 0,
+      "title": "Q140183432",
+      "lastrevid": 2541430508,
+      "modified": "2026-09-07T01:52:45Z",
+      "type": "item",
+      "id": "Q140183432",
+      "labels": {
+        "en": {
+          "language": "en",
+          "value": "2026–27 AFC Bournemouth season"
+        }
+      },
+      "claims": {
+        "P641": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P641",
+              "hash": "1624e15e061523279bc14bb6497168e45caacb32",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 2736,
+                  "id": "Q2736"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q140183432$7923a5ef-65bd-409a-b04c-119e00e79d25",
+            "rank": "normal"
+          }
+        ],
+        "P31": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P31",
+              "hash": "9ddb403180b684facfb50183c3b3a99ce0b171d1",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 26887310,
+                  "id": "Q26887310"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q140183432$7815d09c-ca6a-4055-885f-ecdb6c512aee",
+            "rank": "normal"
+          }
+        ],
+        "P5138": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P5138",
+              "hash": "1794985ad456bd3abbd44789efa582df365d17d0",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 19568,
+                  "id": "Q19568"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q140183432$91A858C5-C9B7-4A24-BB16-0608809F98B1",
+            "rank": "normal"
+          }
+        ],
+        "P2348": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P2348",
+              "hash": "33dc124fb8ec0bedb17f94adfe80c432678d5a4d",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 53389812,
+                  "id": "Q53389812"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q140183432$604c0b5e-4146-2592-87ab-944bba27e9b3",
+            "rank": "normal"
+          }
+        ]
+      },
+      "sitelinks": {
+        "enwiki": {
+          "site": "enwiki",
+          "title": "2026–27 AFC Bournemouth season",
+          "badges": []
+        },
+        "itwiki": {
+          "site": "itwiki",
+          "title": "Athletic Football Club Bournemouth 2026-2027",
+          "badges": []
+        }
+      }
+    }
+  }
+}

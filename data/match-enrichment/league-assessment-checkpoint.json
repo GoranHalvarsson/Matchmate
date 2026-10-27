@@ -1,0 +1,5 @@
+{
+  "sha256": "8e3ea8bf487c2949b8c75152f8cea8be2cd8b205eb6004ddffe0f777ce2e9cf3",
+  "scope": "Entire pre-timeline match JSON; remove timeline_audit only.",
+  "algorithm": "sha256 canonical JSON sorted keys compact UTF-8"
+}

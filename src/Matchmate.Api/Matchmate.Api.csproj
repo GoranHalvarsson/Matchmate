@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net11.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="11.0.0-rc.2.26504.105" />
+    <ProjectReference Include="../Matchmate.Infrastructure/Matchmate.Infrastructure.csproj" />
+    <ProjectReference Include="../Matchmate.ServiceDefaults/Matchmate.ServiceDefaults.csproj" />
+  </ItemGroup>
+</Project>

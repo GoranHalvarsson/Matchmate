@@ -1,0 +1,433 @@
+{
+  "seasonKey": "2026-27",
+  "positionMeaning": "Illustration units only, not surveyed coordinates or verified fixture venues. Shared clubs retain existing map placement; new clubs use town-level illustration placement and the existing London inset.",
+  "crestPolicy": "All 20 current club paths use original PNG competition badges downloaded from the official Premier League badge service and visually checked by worker and coordinator. This is current competition identity context, not exact kit/corporate-mark parity; artwork copyright/trademark and reuse limits remain separate from CC0 results.",
+  "groundPolicy": "Reviewed current club ground context, not proof of all fixture venues or an entire season interval. Neutral open-data ground names retained where naming-period evidence is limited.",
+  "evidencePaths": [
+    "data/reference-foundation/memberships.json",
+    "data/reference-foundation/membership-ground-review.json",
+    "data/reference-foundation/grounds.json"
+  ],
+  "clubs": [
+    {
+      "sourceTeamName": "AFC Bournemouth",
+      "club": {
+        "id": "bournemouth",
+        "name": "AFC Bournemouth",
+        "initials": "BOU",
+        "town": "Bournemouth",
+        "ground": "Dean Court",
+        "x": 411,
+        "y": 683,
+        "inset": false,
+        "crestPath": "assets/crests/bournemouth-2026.png"
+      },
+      "groundId": "dean-court",
+      "groundEvidence": {
+        "status": "primary_reference_season_context_not_interval",
+        "sourceId": null,
+        "primaryNoteId": "primary-ground-19",
+        "note": "12 October 2026 club notice identifies planned 2 December 2026 home fixture at Vitality Stadium; historical context remains to corroborate. Review reference only; no source-derived season interval."
+      }
+    },
+    {
+      "sourceTeamName": "Arsenal FC",
+      "club": {
+        "id": "arsenal",
+        "name": "Arsenal",
+        "initials": "ARS",
+        "town": "London",
+        "ground": "Emirates Stadium",
+        "x": 630,
+        "y": 398,
+        "inset": true,
+        "crestPath": "assets/crests/arsenal-2026.png"
+      },
+      "groundId": "emirates-stadium",
+      "groundEvidence": {
+        "status": "dated_open_claim_observed_not_future_guarantee",
+        "sourceId": "wikidata-Q9617",
+        "primaryNoteId": null,
+        "note": "Dated claim supports season context only; not all dates/fixtures or a future guarantee."
+      }
+    },
+    {
+      "sourceTeamName": "Aston Villa FC",
+      "club": {
+        "id": "aston-villa",
+        "name": "Aston Villa",
+        "initials": "AVL",
+        "town": "Birmingham",
+        "ground": "Villa Park",
+        "x": 400,
+        "y": 557,
+        "inset": false,
+        "crestPath": "assets/crests/aston-villa-2026.png"
+      },
+      "groundId": "villa-park",
+      "groundEvidence": {
+        "status": "dated_claim_for_season_context_not_all_fixtures",
+        "sourceId": "wikidata-Q175339",
+        "primaryNoteId": null,
+        "note": "Dated source context only; source precision preserved, no whole-season/future guarantee."
+      }
+    },
+    {
+      "sourceTeamName": "Brentford FC",
+      "club": {
+        "id": "brentford",
+        "name": "Brentford",
+        "initials": "BRE",
+        "town": "London",
+        "x": 565,
+        "y": 423,
+        "inset": true,
+        "ground": "Brentford Community Stadium",
+        "crestPath": "assets/crests/brentford-2026.png"
+      },
+      "groundId": "brentford-community-stadium",
+      "groundEvidence": {
+        "status": "primary_reference_season_context_not_interval",
+        "sourceId": null,
+        "primaryNoteId": "primary-ground-16",
+        "note": "Club history records move to new Community Stadium in September 2020; undated Griffin Park P115 is stale for 2026 context. Review reference only; no source-derived season interval."
+      }
+    },
+    {
+      "sourceTeamName": "Brighton & Hove Albion FC",
+      "club": {
+        "id": "brighton",
+        "name": "Brighton & Hove Albion",
+        "initials": "BHA",
+        "town": "Brighton",
+        "x": 495,
+        "y": 687,
+        "inset": false,
+        "ground": "Brighton Community Stadium",
+        "crestPath": "assets/crests/brighton-2026.png"
+      },
+      "groundId": "brighton-community-stadium",
+      "groundEvidence": {
+        "status": "primary_reference_season_context_not_interval",
+        "sourceId": null,
+        "primaryNoteId": "primary-ground-17",
+        "note": "2026 anniversary message identifies permanent Amex home opened in 2011. Review reference only; no source-derived season interval."
+      }
+    },
+    {
+      "sourceTeamName": "Chelsea FC",
+      "club": {
+        "id": "chelsea",
+        "name": "Chelsea",
+        "initials": "CHE",
+        "town": "London",
+        "ground": "Stamford Bridge",
+        "x": 600,
+        "y": 480,
+        "inset": true,
+        "crestPath": "assets/crests/chelsea-2026.png"
+      },
+      "groundId": "stamford-bridge",
+      "groundEvidence": {
+        "status": "primary_reference_season_context_not_interval",
+        "sourceId": null,
+        "primaryNoteId": "primary-ground-1",
+        "note": "Club history identifies Stamford Bridge as home since formation in 1905. Review reference only; no source-derived season interval."
+      }
+    },
+    {
+      "sourceTeamName": "Coventry City FC",
+      "club": {
+        "id": "coventry",
+        "name": "Coventry City",
+        "initials": "COV",
+        "town": "Coventry",
+        "x": 440,
+        "y": 588,
+        "inset": false,
+        "ground": "Coventry Building Society Arena",
+        "crestPath": "assets/crests/coventry-2026.png"
+      },
+      "groundId": "coventry-building-society-arena",
+      "groundEvidence": {
+        "status": "primary_reference_season_context_not_interval",
+        "sourceId": null,
+        "primaryNoteId": "primary-ground-18",
+        "note": "2026 club directory identifies Coventry Building Society Arena; this is observed current context, not full-season certainty. Review reference only; no source-derived season interval."
+      }
+    },
+    {
+      "sourceTeamName": "Crystal Palace FC",
+      "club": {
+        "id": "crystal-palace",
+        "name": "Crystal Palace",
+        "initials": "CRY",
+        "town": "London",
+        "ground": "Selhurst Park",
+        "x": 649,
+        "y": 535,
+        "inset": true,
+        "crestPath": "assets/crests/crystal-palace-2026.png"
+      },
+      "groundId": "selhurst-park",
+      "groundEvidence": {
+        "status": "dated_open_claim_observed_not_future_guarantee",
+        "sourceId": "wikidata-Q19467",
+        "primaryNoteId": null,
+        "note": "Dated claim supports season context only; not all dates/fixtures or a future guarantee."
+      }
+    },
+    {
+      "sourceTeamName": "Everton FC",
+      "club": {
+        "id": "everton",
+        "name": "Everton",
+        "initials": "EVE",
+        "town": "Liverpool",
+        "ground": "Hill Dickinson Stadium",
+        "x": 308,
+        "y": 458,
+        "inset": false,
+        "crestPath": "assets/crests/everton-2026.png"
+      },
+      "groundId": "hill-dickinson-stadium",
+      "groundEvidence": {
+        "status": "dated_claim_for_season_context_not_all_fixtures",
+        "sourceId": "wikidata-Q29347805",
+        "primaryNoteId": null,
+        "note": "Dated source context only; source precision preserved, no whole-season/future guarantee."
+      }
+    },
+    {
+      "sourceTeamName": "Fulham FC",
+      "club": {
+        "id": "fulham",
+        "name": "Fulham",
+        "initials": "FUL",
+        "town": "London",
+        "x": 561,
+        "y": 494,
+        "inset": true,
+        "ground": "Craven Cottage",
+        "crestPath": "assets/crests/fulham-2026.png"
+      },
+      "groundId": "craven-cottage",
+      "groundEvidence": {
+        "status": "primary_reference_season_context_not_interval",
+        "sourceId": null,
+        "primaryNoteId": "primary-ground-38",
+        "note": "August 2026 opponent report identifies Fulham home opening league match at Craven Cottage; full body reviewed by orchestrator. Venue context only; no full-season/all-fixture guarantee."
+      }
+    },
+    {
+      "sourceTeamName": "Hull City AFC",
+      "club": {
+        "id": "hull",
+        "name": "Hull City",
+        "initials": "HUL",
+        "town": "Hull",
+        "ground": "MKM Stadium",
+        "x": 485,
+        "y": 451,
+        "inset": false,
+        "crestPath": "assets/crests/hull-2026.png"
+      },
+      "groundId": "mkm-stadium",
+      "groundEvidence": {
+        "status": "primary_reference_season_context_not_interval",
+        "sourceId": null,
+        "primaryNoteId": "primary-ground-29",
+        "note": "Official opponent 2026/27 fixtures identify planned 31 October away match at Hull MKM Stadium; fixture can change. Not every fixture or whole-season interval."
+      }
+    },
+    {
+      "sourceTeamName": "Ipswich Town FC",
+      "club": {
+        "id": "ipswich",
+        "name": "Ipswich Town",
+        "initials": "IPS",
+        "town": "Ipswich",
+        "x": 543,
+        "y": 603,
+        "inset": false,
+        "ground": "Portman Road",
+        "crestPath": "assets/crests/ipswich-2026.png"
+      },
+      "groundId": "portman-road",
+      "groundEvidence": {
+        "status": "primary_reference_season_context_not_interval",
+        "sourceId": null,
+        "primaryNoteId": "primary-ground-4",
+        "note": "2026/27 fixture announcement names Portman Road home fixtures; planned fixtures can change. Review reference only; no source-derived season interval."
+      }
+    },
+    {
+      "sourceTeamName": "Leeds United FC",
+      "club": {
+        "id": "leeds",
+        "name": "Leeds United",
+        "initials": "LEE",
+        "town": "Leeds",
+        "x": 431,
+        "y": 425,
+        "inset": false,
+        "ground": "Elland Road",
+        "crestPath": "assets/crests/leeds-2026.png"
+      },
+      "groundId": "elland-road",
+      "groundEvidence": {
+        "status": "dated_claim_for_season_context_not_all_fixtures",
+        "sourceId": "wikidata-Q619505",
+        "primaryNoteId": null,
+        "note": "Dated source context only; source precision preserved, no whole-season/future guarantee."
+      }
+    },
+    {
+      "sourceTeamName": "Liverpool FC",
+      "club": {
+        "id": "liverpool",
+        "name": "Liverpool",
+        "initials": "LIV",
+        "town": "Liverpool",
+        "ground": "Anfield",
+        "x": 327,
+        "y": 497,
+        "inset": false,
+        "crestPath": "assets/crests/liverpool-2026.png"
+      },
+      "groundId": "anfield",
+      "groundEvidence": {
+        "status": "dated_claim_for_season_context_not_all_fixtures",
+        "sourceId": "wikidata-Q45671",
+        "primaryNoteId": null,
+        "note": "Dated source context only; source precision preserved, no whole-season/future guarantee."
+      }
+    },
+    {
+      "sourceTeamName": "Manchester City FC",
+      "club": {
+        "id": "manchester-city",
+        "name": "Manchester City",
+        "initials": "MCI",
+        "town": "Manchester",
+        "ground": "Etihad Stadium",
+        "x": 410,
+        "y": 476,
+        "inset": false,
+        "crestPath": "assets/crests/manchester-city-2026.png"
+      },
+      "groundId": "etihad-stadium",
+      "groundEvidence": {
+        "status": "primary_reference_season_context_not_interval",
+        "sourceId": null,
+        "primaryNoteId": "primary-ground-28",
+        "note": "19 June 2026 opening schedule identifies City home opener at Etihad Stadium; planned context only. Not every fixture or whole-season interval."
+      }
+    },
+    {
+      "sourceTeamName": "Manchester United FC",
+      "club": {
+        "id": "manchester-united",
+        "name": "Manchester United",
+        "initials": "MUN",
+        "town": "Manchester",
+        "ground": "Old Trafford",
+        "x": 366,
+        "y": 479,
+        "inset": false,
+        "crestPath": "assets/crests/manchester-united-2026.png"
+      },
+      "groundId": "old-trafford",
+      "groundEvidence": {
+        "status": "primary_reference_season_context_not_interval",
+        "sourceId": null,
+        "primaryNoteId": "primary-ground-32",
+        "note": "Opponent schedule identifies planned 12 September 2026 trip to Old Trafford; source reviewed by orchestrator, not a result guarantee. Venue context only, not all fixtures/whole-season interval."
+      }
+    },
+    {
+      "sourceTeamName": "Newcastle United FC",
+      "club": {
+        "id": "newcastle",
+        "name": "Newcastle United",
+        "initials": "NEW",
+        "town": "Newcastle upon Tyne",
+        "ground": "St James’ Park",
+        "x": 447,
+        "y": 316,
+        "inset": false,
+        "crestPath": "assets/crests/newcastle-2026.png"
+      },
+      "groundId": "st-james-park",
+      "groundEvidence": {
+        "status": "dated_claim_for_season_context_not_all_fixtures",
+        "sourceId": "wikidata-Q191774",
+        "primaryNoteId": null,
+        "note": "Dated source context only; source precision preserved, no whole-season/future guarantee."
+      }
+    },
+    {
+      "sourceTeamName": "Nottingham Forest FC",
+      "club": {
+        "id": "nottingham-forest",
+        "name": "Nottingham Forest",
+        "initials": "NFO",
+        "town": "Nottingham",
+        "x": 464,
+        "y": 518,
+        "inset": false,
+        "ground": "City Ground",
+        "crestPath": "assets/crests/nottingham-forest-2026.png"
+      },
+      "groundId": "city-ground",
+      "groundEvidence": {
+        "status": "primary_reference_season_context_not_interval",
+        "sourceId": null,
+        "primaryNoteId": "primary-ground-25",
+        "note": "11 October 2026 report identifies next home match with Arsenal at City Ground; planned future fixture context only. Not every fixture venue or a season interval."
+      }
+    },
+    {
+      "sourceTeamName": "Sunderland AFC",
+      "club": {
+        "id": "sunderland",
+        "name": "Sunderland",
+        "initials": "SUN",
+        "town": "Sunderland",
+        "ground": "Stadium of Light",
+        "x": 475,
+        "y": 350,
+        "inset": false,
+        "crestPath": "assets/crests/sunderland-2026.png"
+      },
+      "groundId": "stadium-of-light",
+      "groundEvidence": {
+        "status": "primary_reference_season_context_not_interval",
+        "sourceId": null,
+        "primaryNoteId": "primary-ground-12",
+        "note": "Official visitor guide identifies Stadium of Light as home since 1997. Review reference only; no source-derived season interval."
+      }
+    },
+    {
+      "sourceTeamName": "Tottenham Hotspur FC",
+      "club": {
+        "id": "tottenham",
+        "name": "Tottenham Hotspur",
+        "initials": "TOT",
+        "town": "London",
+        "ground": "Tottenham Hotspur Stadium",
+        "x": 682,
+        "y": 382,
+        "inset": true,
+        "crestPath": "assets/crests/tottenham-2026.png"
+      },
+      "groundId": "tottenham-hotspur-stadium",
+      "groundEvidence": {
+        "status": "dated_open_claim_observed_not_future_guarantee",
+        "sourceId": "wikidata-Q18741",
+        "primaryNoteId": null,
+        "note": "Dated claim supports season context only; not all dates/fixtures or a future guarantee."
+      }
+    }
+  ]
+}

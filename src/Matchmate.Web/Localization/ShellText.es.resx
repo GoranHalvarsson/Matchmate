@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms</value></resheader>
+  <data name="LanguageLabel" xml:space="preserve"><value>Idioma</value></data>
+  <data name="LanguageSaveFailed" xml:space="preserve"><value>No se pudo guardar el idioma. Permite las cookies e inténtalo de nuevo.</value></data>
+  <data name="Tagline" xml:space="preserve"><value>El partido, un poco más cerca.</value></data>
+  <data name="ExploreLeague" xml:space="preserve"><value>Explora la Premier League</value></data>
+  <data name="TesterPreview" xml:space="preserve"><value>Vista previa de Matchmate</value></data>
+  <data name="SignOut" xml:space="preserve"><value>Cerrar sesión</value></data>
+  <data name="Footer" xml:space="preserve"><value>Conversaciones con partidos, equipos y estadios, con los datos como base.</value></data>
+  <data name="ConnectionInterrupted" xml:space="preserve"><value>Se ha interrumpido la conexión.</value></data>
+  <data name="Reload" xml:space="preserve"><value>Recargar</value></data>
+  <data name="Dismiss" xml:space="preserve"><value>Cerrar</value></data>
+  <data name="SignInTitle" xml:space="preserve"><value>Iniciar sesión · Matchmate</value></data>
+  <data name="FootballTagline" xml:space="preserve"><value>El fútbol, en conversación.</value></data>
+  <data name="SignInHeading" xml:space="preserve"><value>Una mirada más cercana al juego.</value></data>
+  <data name="SignInDescription" xml:space="preserve"><value>Inicia sesión con el correo electrónico con el que recibiste la invitación. Microsoft te enviará un código de un solo uso; no necesitas una contraseña de Matchmate.</value></data>
+  <data name="SignInEmail" xml:space="preserve"><value>Iniciar sesión con correo</value></data>
+  <data name="SelectedTesters" xml:space="preserve"><value>Esta vista previa es para personas invitadas. El registro público está cerrado.</value></data>
+  <data name="AccessTitle" xml:space="preserve"><value>Acceso · Matchmate</value></data>
+  <data name="Preview" xml:space="preserve"><value>Vista previa de Matchmate</value></data>
+  <data name="AccessHeading" xml:space="preserve"><value>Esta cuenta no tiene acceso a la vista previa.</value></data>
+  <data name="AccessDescription" xml:space="preserve"><value>Usa la cuenta invitada para abrir esta vista previa. Si esperabas tener acceso, contacta con la persona que te invitó.</value></data>
+  <data name="ReturnSignIn" xml:space="preserve"><value>Volver al inicio de sesión</value></data>
+  <data name="AuthenticationErrorTitle" xml:space="preserve"><value>Inicio de sesión interrumpido · Matchmate</value></data>
+  <data name="AuthenticationErrorHeading" xml:space="preserve"><value>No se ha podido completar el inicio de sesión.</value></data>
+  <data name="AuthenticationErrorDescription" xml:space="preserve"><value>Es posible que tu inicio de sesión haya caducado o se haya interrumpido. Vuelve a la página de inicio de sesión e inténtalo de nuevo.</value></data>
+  <data name="ErrorTitle" xml:space="preserve"><value>Error · Matchmate</value></data>
+  <data name="ErrorHeading" xml:space="preserve"><value>No se ha podido abrir la página.</value></data>
+  <data name="ErrorBeforeLink" xml:space="preserve"><value>Vuelve a</value></data>
+  <data name="SignInLink" xml:space="preserve"><value>iniciar sesión</value></data>
+  <data name="ErrorAfterLink" xml:space="preserve"><value>e inténtalo de nuevo.</value></data>
+  <data name="RequestId" xml:space="preserve"><value>ID de solicitud:</value></data>
+  <data name="NotFoundTitle" xml:space="preserve"><value>Página no encontrada · Matchmate</value></data>
+  <data name="NotFoundHeading" xml:space="preserve"><value>Página no encontrada.</value></data>
+  <data name="NotFoundDescription" xml:space="preserve"><value>El contenido que buscas no existe.</value></data>
+  <data name="SignInContinue" xml:space="preserve"><value>Inicia sesión para continuar.</value></data>
+  <data name="SelectedPreview" xml:space="preserve"><value>Esta vista previa de Matchmate está disponible para personas invitadas.</value></data>
+  <data name="GoSignIn" xml:space="preserve"><value>Ir al inicio de sesión</value></data>
+  <data name="ReconnectFirst" xml:space="preserve"><value>Reconectando con el servidor…</value></data>
+  <data name="ReconnectRepeatedBefore" xml:space="preserve"><value>No se ha podido reconectar. Nuevo intento en </value></data>
+  <data name="ReconnectRepeatedAfter" xml:space="preserve"><value> segundos.</value></data>
+  <data name="ReconnectFailed" xml:space="preserve"><value>No se ha podido reconectar. Inténtalo de nuevo o recarga la página.</value></data>
+  <data name="Retry" xml:space="preserve"><value>Reintentar</value></data>
+  <data name="SessionPaused" xml:space="preserve"><value>El servidor ha pausado la sesión.</value></data>
+  <data name="ResumeFailed" xml:space="preserve"><value>No se ha podido reanudar la sesión. Inténtalo de nuevo o recarga la página.</value></data>
+  <data name="Resume" xml:space="preserve"><value>Reanudar</value></data>
+  <data name="LinkExternal" xml:space="preserve"><value>Enlace externo</value></data>
+  <data name="LinkExternalNewTab" xml:space="preserve"><value>Enlace externo, se abre en una pestaña nueva</value></data>
+  <data name="LinkOpensEmail" xml:space="preserve"><value>Abre tu aplicación de correo</value></data>
+  <data name="LinkOpensTelephone" xml:space="preserve"><value>Abre tu aplicación de llamadas</value></data>
+  <data name="NavigationMenu" xml:space="preserve"><value>Menú</value></data>
+</root>

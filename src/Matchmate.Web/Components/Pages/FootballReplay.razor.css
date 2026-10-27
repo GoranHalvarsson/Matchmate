@@ -1,0 +1,15 @@
+.audience-mode-location { flex-shrink: 0; margin: 12px 0; }
+.recording-experience ::deep .replay-match-audience { min-width: 0; max-width: 100%; margin-inline-start: auto; }
+@media (max-width: 760px) { .audience-mode-location { margin-top: 18px; } }
+@media (max-width: 760px) {
+    .recording-experience { padding-top: 10px; }
+    .recording-toolbar { gap: 6px 10px; }
+    .recording-toolbar .back-link { display: flex; align-items: center; min-height: 44px; margin-bottom: 0; }
+    .recording-selector { flex-wrap: nowrap; }
+    .recording-selector select, .recording-selector button { min-height: 44px; }
+    .experience-status:empty { display: none; }
+    .recording-experience ::deep .replay-match-header.match-heading { padding: 10px 0 14px; }
+    .recording-experience ::deep .replay-match-header .replay-match-audience { margin-top: 8px; }
+    .recording-experience ::deep .replay-match-header .replay-match-source { margin-bottom: 8px; }
+    .recording-experience ::deep .replay-match-header .audience-picker { gap: 4px; }
+}

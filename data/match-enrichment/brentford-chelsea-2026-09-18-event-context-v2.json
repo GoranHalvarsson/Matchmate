@@ -1,0 +1,124 @@
+{
+  "version": 2,
+  "normalizationPolicy": "event-context-v2",
+  "fixtureId": "fixture-pl-2645236",
+  "associationPolicy": "Explicit record association only; no source-media offset, timeline join or player-name heuristic. Reviewed observations do not name intermediate actors or establish exact contacts.",
+  "unalignedTimeline": {
+    "path": "data/manual-match-annotations/brentford-chelsea-2026-09-18-timeline.json",
+    "status": "Unavailable at ordinary replay cursors: source-media passages are not continuously aligned to authored replay.",
+    "sha256": "f30a89d9b6c18f4ceeedca1fdbbbb7edf23784fcadea732d88e72d52eaf46fae",
+    "passages": 27
+  },
+  "sources": [
+    {
+      "path": "wiki/MATCH-COMMENTARY-REVIEW.md",
+      "id": "club-report-review",
+      "sha256": "61e4443e7f211746ab51ab31200583209a2f7e373a716c636f54c206a8aa3872"
+    },
+    {
+      "path": "output/full-match-review/visual-observations.json",
+      "id": "visual-review",
+      "sha256": "0dfaa34e1d108d853867ea53e3fa46d160f35720ac02483a5fa7fd2640dfd56b"
+    },
+    {
+      "path": "data/match-enrichment/brentford-chelsea-2026-09-18-goal-participants-v1.json",
+      "id": "goal-participants",
+      "sha256": "1b927d5bc0e0b4d601ef6d5ad4e49d641e2f16161c2edf4a53316c2d90165199"
+    }
+  ],
+  "events": [
+    {
+      "recordId": "goal-1",
+      "details": [
+        {
+          "kind": "build_up",
+          "method": "reported",
+          "locator": "Identity and sequence comparison, paragraph beginning Both the Brentford report; exact-fixture club reports linked there",
+          "text": "Club reports describe a Damsgaard corner, Schuster heading across goal, and Anthony finishing with a header.",
+          "uncertainty": "This is attributed report sequence; the reviewed wide footage does not independently identify the intermediate actor or both contacts.",
+          "sourceId": "club-report-review",
+          "evidenceId": "club-sequence",
+          "claimStatus": "reported"
+        },
+        {
+          "kind": "reviewed_observation",
+          "method": "observed",
+          "locator": "V-PASS-03; explicitly reviewed first-goal passage",
+          "text": "Reviewed wide samples show a corner delivery, a crowded goalmouth challenge, action crossing the six-yard area and an attacker bending or diving at the far side before celebration.",
+          "uncertainty": "Intermediate identity and contact types remain unverified; score graphics do not establish contact time.",
+          "sourceId": "visual-review",
+          "evidenceId": "goal-review",
+          "claimStatus": "interpretation"
+        }
+      ]
+    },
+    {
+      "recordId": "goal-2",
+      "details": [
+        {
+          "kind": "build_up",
+          "text": "Brentford reports Damsgaard releasing Schade. Both club reports describe Schade shooting, Martinez saving and Thiago scoring the rebound.",
+          "uncertainty": "Reported sequence; sampled wide footage does not independently verify the contacts. No formal assist credit is added.",
+          "evidenceId": "participant-brentford",
+          "sourceId": "goal-participants",
+          "method": "reported",
+          "locator": "https://www.brentfordfc.com/en/news/match-reports-brentford-3-chelsea-0-premier-league-jaidon-anthony-igor-thiago-fabio-carvalho; Paragraph beginning Brentford doubled their advantage on 80 minutes (current rendered line 99); inspected 2026-10-22T14:55:24.6313004Z; body sha256 182cb349bff9d6f2a12aeb06f92b819823ac257ce276b1b250da4546a3e08c9f",
+          "claimStatus": "reported"
+        },
+        {
+          "kind": "reviewed_observation",
+          "text": "Native #7 points and the exact-fixture roster identify Schade during the advance.",
+          "uncertainty": "Identity is limited to the pinned native points; no continuous named path, later contact or celebration-cut identity bridge is established.",
+          "evidenceId": "participant-point",
+          "sourceId": "goal-participants",
+          "method": "observed",
+          "locator": "accepted goal-participants receipt; goal2 native #7 points5012.52/5014 plus exact-fixture roster; not later contacts or celebration cut",
+          "claimStatus": "interpretation"
+        }
+      ],
+      "evidence": [
+        {
+          "evidenceId": "participant-chelsea",
+          "sourceId": "goal-participants",
+          "method": "reported",
+          "locator": "https://www.chelseafc.com/en/news/article/match-report-brentford-3-0-chelsea; Bees make sure; paragraph beginning But it was Brentford (current rendered line 38); inspected 2026-10-22T14:55:25.1932973Z; body sha256 8f8ef5451e89d57dd4b54ca7c5ac7ca2f139a9142c4dde236011e8f6586ff693",
+          "claimStatus": "reported"
+        }
+      ]
+    },
+    {
+      "recordId": "goal-3",
+      "details": [
+        {
+          "kind": "build_up",
+          "text": "Both club reports name Schade crossing and Carvalho finishing at the far post; Brentford alone names a slight Acheampong deflection.",
+          "uncertainty": "Reported mechanism; the slight-deflection actor has one report source, not independent native-frame contact verification.",
+          "evidenceId": "participant-brentford",
+          "sourceId": "goal-participants",
+          "method": "reported",
+          "locator": "https://www.brentfordfc.com/en/news/match-reports-brentford-3-chelsea-0-premier-league-jaidon-anthony-igor-thiago-fabio-carvalho; Paragraph beginning Carvalho put the gloss (current rendered line 102); inspected 2026-10-22T14:55:24.6313004Z; body sha256 182cb349bff9d6f2a12aeb06f92b819823ac257ce276b1b250da4546a3e08c9f",
+          "claimStatus": "reported"
+        },
+        {
+          "kind": "reviewed_observation",
+          "text": "Native #7 points and the exact-fixture roster identify Schade at throw-in setup and a separate later ball-carrier point.",
+          "uncertainty": "Intermediate throw recipient/return passer remains unresolved; the observations do not establish continuous named movement or exact contacts.",
+          "evidenceId": "participant-point",
+          "sourceId": "goal-participants",
+          "method": "observed",
+          "locator": "accepted goal-participants receipt; goal3 native #7 throw-in setup5718 and separate ball-carrier5727 plus exact-fixture roster; not intermediate recipients/contacts",
+          "claimStatus": "interpretation"
+        }
+      ],
+      "evidence": [
+        {
+          "evidenceId": "participant-chelsea",
+          "sourceId": "goal-participants",
+          "method": "reported",
+          "locator": "https://www.chelseafc.com/en/news/article/match-report-brentford-3-0-chelsea; Paragraph beginning Alonso brought Nicoll-Jazuli (current rendered line 40); inspected 2026-10-22T14:55:25.1932973Z; body sha256 8f8ef5451e89d57dd4b54ca7c5ac7ca2f139a9142c4dde236011e8f6586ff693",
+          "claimStatus": "reported"
+        }
+      ]
+    }
+  ]
+}

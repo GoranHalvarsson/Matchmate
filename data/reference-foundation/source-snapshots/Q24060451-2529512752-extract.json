@@ -1,0 +1,248 @@
+{
+  "entities": {
+    "Q24060451": {
+      "pageid": 26052051,
+      "ns": 0,
+      "title": "Q24060451",
+      "lastrevid": 2529512752,
+      "modified": "2026-08-10T07:05:22Z",
+      "type": "item",
+      "id": "Q24060451",
+      "labels": {
+        "en": {
+          "language": "en",
+          "value": "2016–17 Leicester City F.C. season"
+        }
+      },
+      "claims": {
+        "P31": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P31",
+              "hash": "9ddb403180b684facfb50183c3b3a99ce0b171d1",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 26887310,
+                  "id": "Q26887310"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q24060451$F2651F5D-DA41-4322-8BD0-C74628A49D92",
+            "rank": "normal"
+          }
+        ],
+        "P641": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P641",
+              "hash": "1624e15e061523279bc14bb6497168e45caacb32",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 2736,
+                  "id": "Q2736"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q24060451$B90DB9E4-07EB-4B60-8192-8F0AC0FE536A",
+            "rank": "normal"
+          }
+        ],
+        "P5138": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P5138",
+              "hash": "64b7fff9522f0404c7c80e05aaaf7e9e27847d3f",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 19481,
+                  "id": "Q19481"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q24060451$4ACA149E-6709-445F-B4B1-87AE79C093B3",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "d4bd87b862b12d99d26e86472d44f26858dee639",
+                "snaks": {
+                  "P143": [
+                    {
+                      "snaktype": "value",
+                      "property": "P143",
+                      "hash": "f30cbd35620c4ea6d0633aaf0210a8916130469b",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 8447,
+                          "id": "Q8447"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P143"
+                ]
+              }
+            ]
+          }
+        ],
+        "P2348": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P2348",
+              "hash": "b7af4df92bbae693e13f478b16af9ae9aa3d0328",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 30201458,
+                  "id": "Q30201458"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q24060451$818043A4-2974-4C94-BECE-C8BA12A4E646",
+            "rank": "normal"
+          }
+        ],
+        "P17": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P17",
+              "hash": "a44880420787fb348836dc51d3babc5227c4ef7e",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 145,
+                  "id": "Q145"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q24060451$1DA6AF79-2A1E-4B34-B49F-2CB6B2DE418D",
+            "rank": "normal"
+          }
+        ],
+        "P155": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P155",
+              "hash": "04b3a060e4b413172c6b0bafcb13b2e4d997876f",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 20647604,
+                  "id": "Q20647604"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q24060451$6478323F-617D-4D69-AB6E-AA1BAD4C674E",
+            "rank": "normal"
+          }
+        ],
+        "P156": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P156",
+              "hash": "5d2d4a3b4c850c23f6cc86308ae3f66ff37a23fc",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 30638329,
+                  "id": "Q30638329"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q24060451$92A1F8A0-92BF-4E6D-9782-75ADBCE32313",
+            "rank": "normal"
+          }
+        ],
+        "P18": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P18",
+              "hash": "58a206e812347280c554b5e0883a8f65b9a13f2d",
+              "datavalue": {
+                "value": "Leicester wall (30383776075).jpg",
+                "type": "string"
+              },
+              "datatype": "commonsMedia"
+            },
+            "type": "statement",
+            "id": "Q24060451$97B155B7-F0DF-4F9B-B2FD-E349A85E484F",
+            "rank": "normal"
+          }
+        ]
+      },
+      "sitelinks": {
+        "arwiki": {
+          "site": "arwiki",
+          "title": "ليستر سيتي موسم 2016–17",
+          "badges": []
+        },
+        "enwiki": {
+          "site": "enwiki",
+          "title": "2016–17 Leicester City F.C. season",
+          "badges": []
+        },
+        "frwiki": {
+          "site": "frwiki",
+          "title": "Saison 2016-2017 du Leicester City FC",
+          "badges": []
+        },
+        "huwiki": {
+          "site": "huwiki",
+          "title": "A Leicester City FC 2016–2017-es szezonja",
+          "badges": []
+        },
+        "itwiki": {
+          "site": "itwiki",
+          "title": "Leicester City Football Club 2016-2017",
+          "badges": []
+        },
+        "thwiki": {
+          "site": "thwiki",
+          "title": "สโมสรฟุตบอลเลสเตอร์ซิตีในฤดูกาล 2016–17",
+          "badges": []
+        },
+        "zhwiki": {
+          "site": "zhwiki",
+          "title": "李斯特城2016年至2017年球季",
+          "badges": []
+        }
+      }
+    }
+  }
+}

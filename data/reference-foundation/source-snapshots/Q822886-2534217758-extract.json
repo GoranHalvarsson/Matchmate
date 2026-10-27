@@ -1,0 +1,1191 @@
+{
+  "entities": {
+    "Q822886": {
+      "pageid": 775706,
+      "ns": 0,
+      "title": "Q822886",
+      "lastrevid": 2534217758,
+      "modified": "2026-08-21T12:45:34Z",
+      "type": "item",
+      "id": "Q822886",
+      "labels": {
+        "en": {
+          "language": "en",
+          "value": "Riverside Stadium"
+        }
+      },
+      "descriptions": {
+        "en": {
+          "language": "en",
+          "value": "association football stadium in Middlesbrough"
+        }
+      },
+      "claims": {
+        "P373": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P373",
+              "hash": "eaf17685dafda970ad7f916a758c44a690473ecb",
+              "datavalue": {
+                "value": "Riverside Stadium",
+                "type": "string"
+              },
+              "datatype": "string"
+            },
+            "type": "statement",
+            "id": "q822886$EDB1325A-8E05-43DF-B7D3-6CF09650CCED",
+            "rank": "normal"
+          }
+        ],
+        "P625": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P625",
+              "hash": "6cc7a73a5db3de1a8f8e5ee842794f5d51d8b6c0",
+              "datavalue": {
+                "value": {
+                  "latitude": 54.578333333333,
+                  "longitude": -1.2169444444444,
+                  "altitude": null,
+                  "precision": null,
+                  "globe": "http://www.wikidata.org/entity/Q2"
+                },
+                "type": "globecoordinate"
+              },
+              "datatype": "globe-coordinate"
+            },
+            "type": "statement",
+            "id": "q822886$0A549D0F-1BDF-4798-93D3-B5D9420B67EA",
+            "rank": "normal"
+          }
+        ],
+        "P17": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P17",
+              "hash": "a44880420787fb348836dc51d3babc5227c4ef7e",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 145,
+                  "id": "Q145"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q822886$AA6D524F-B18E-4F36-A5A8-8DB5457A440C",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "fa278ebfc458360e5aed63d5058cca83c46134f1",
+                "snaks": {
+                  "P143": [
+                    {
+                      "snaktype": "value",
+                      "property": "P143",
+                      "hash": "e4f6d9441d0600513c4533c672b5ab472dc73694",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 328,
+                          "id": "Q328"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P143"
+                ]
+              }
+            ]
+          }
+        ],
+        "P646": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P646",
+              "hash": "55a24136245a0eeb7ee52fc1bd1eb1a45b20865d",
+              "datavalue": {
+                "value": "/m/04mcnq",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q822886$3C446675-34E4-4029-BEEA-9F3983BE675F",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "2b00cb481cddcac7623114367489b5c194901c4a",
+                "snaks": {
+                  "P248": [
+                    {
+                      "snaktype": "value",
+                      "property": "P248",
+                      "hash": "a94b740202b097dd33355e0e6c00e54b9395e5e0",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 15241312,
+                          "id": "Q15241312"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ],
+                  "P577": [
+                    {
+                      "snaktype": "value",
+                      "property": "P577",
+                      "hash": "fde79ecb015112d2f29229ccc1ec514ed3e71fa2",
+                      "datavalue": {
+                        "value": {
+                          "time": "+2013-10-28T00:00:00Z",
+                          "timezone": 0,
+                          "before": 0,
+                          "after": 0,
+                          "precision": 11,
+                          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                        },
+                        "type": "time"
+                      },
+                      "datatype": "time"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P248",
+                  "P577"
+                ]
+              }
+            ]
+          }
+        ],
+        "P18": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P18",
+              "hash": "64ce158370a189c28f8922f9d55a948e6b18bbd1",
+              "datavalue": {
+                "value": "Middlesbrough riverside stadium.jpg",
+                "type": "string"
+              },
+              "datatype": "commonsMedia"
+            },
+            "type": "statement",
+            "id": "Q822886$72A2CC4D-2C8E-450B-B676-B59313CC3279",
+            "rank": "normal"
+          }
+        ],
+        "P131": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P131",
+              "hash": "8b272f2b2c4d363cafda84284985e320c0a6a260",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 171866,
+                  "id": "Q171866"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q822886$4137CB4A-E2BF-4AA6-8CDC-E427C5A8EBB2",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "fa278ebfc458360e5aed63d5058cca83c46134f1",
+                "snaks": {
+                  "P143": [
+                    {
+                      "snaktype": "value",
+                      "property": "P143",
+                      "hash": "e4f6d9441d0600513c4533c672b5ab472dc73694",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 328,
+                          "id": "Q328"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P143"
+                ]
+              }
+            ]
+          }
+        ],
+        "P1083": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P1083",
+              "hash": "c7549fc3c127bafc8f74d2571a0b342fee36ca2b",
+              "datavalue": {
+                "value": {
+                  "amount": "+34742",
+                  "unit": "1"
+                },
+                "type": "quantity"
+              },
+              "datatype": "quantity"
+            },
+            "type": "statement",
+            "id": "Q822886$5B71A355-ED83-421B-BABB-1C93865821AF",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "fa278ebfc458360e5aed63d5058cca83c46134f1",
+                "snaks": {
+                  "P143": [
+                    {
+                      "snaktype": "value",
+                      "property": "P143",
+                      "hash": "e4f6d9441d0600513c4533c672b5ab472dc73694",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 328,
+                          "id": "Q328"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P143"
+                ]
+              }
+            ]
+          }
+        ],
+        "P466": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P466",
+              "hash": "dd6ac2e7fbb497543b208fd7144aa0184d94559c",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 18661,
+                  "id": "Q18661"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q822886$6FA36783-A5AB-4106-9F18-C401026197CE",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "fa278ebfc458360e5aed63d5058cca83c46134f1",
+                "snaks": {
+                  "P143": [
+                    {
+                      "snaktype": "value",
+                      "property": "P143",
+                      "hash": "e4f6d9441d0600513c4533c672b5ab472dc73694",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 328,
+                          "id": "Q328"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P143"
+                ]
+              }
+            ]
+          }
+        ],
+        "P137": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P137",
+              "hash": "3fc0d4e07229caf6920708f6eb4395176e363ec6",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 18661,
+                  "id": "Q18661"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q822886$F0F471A0-A522-4A9B-93AD-F797481B129C",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "d4bd87b862b12d99d26e86472d44f26858dee639",
+                "snaks": {
+                  "P143": [
+                    {
+                      "snaktype": "value",
+                      "property": "P143",
+                      "hash": "f30cbd35620c4ea6d0633aaf0210a8916130469b",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 8447,
+                          "id": "Q8447"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P143"
+                ]
+              }
+            ]
+          }
+        ],
+        "P127": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P127",
+              "hash": "303f6028b802ef2b0b7939495350411ccdac7be0",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 18661,
+                  "id": "Q18661"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q822886$55F06653-932E-42FC-A971-7B142187C6DB",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "9a24f7c0208b05d6be97077d855671d1dfdbc0dd",
+                "snaks": {
+                  "P143": [
+                    {
+                      "snaktype": "value",
+                      "property": "P143",
+                      "hash": "d38375ffe6fe142663ff55cd783aa4df4301d83d",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 48183,
+                          "id": "Q48183"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P143"
+                ]
+              }
+            ]
+          }
+        ],
+        "P31": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P31",
+              "hash": "7b466b8c482c2e26817ab6e8d6ab48ca623ba2e7",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 1154710,
+                  "id": "Q1154710"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q822886$71A34309-652F-49C7-A40A-2620C507CBA1",
+            "rank": "normal"
+          }
+        ],
+        "P1566": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P1566",
+              "hash": "ae2c77c76d1576a5e690aeeec2ef58f19d3ad67f",
+              "datavalue": {
+                "value": "6288586",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q822886$3CE3BEFB-0FC8-4EE6-938E-E0A5C22ABDCD",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "88694a0f4d1486770c269f7db16a1982f74da69d",
+                "snaks": {
+                  "P248": [
+                    {
+                      "snaktype": "value",
+                      "property": "P248",
+                      "hash": "1b3ef912a2bd61e18dd43abd184337eb010b2e96",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 830106,
+                          "id": "Q830106"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P248"
+                ]
+              }
+            ]
+          }
+        ],
+        "P641": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P641",
+              "hash": "1624e15e061523279bc14bb6497168e45caacb32",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 2736,
+                  "id": "Q2736"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q822886$2A21DCA3-B30D-42FB-B109-6D46BBA3962E",
+            "rank": "normal"
+          }
+        ],
+        "P1619": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P1619",
+              "hash": "7f15038e92d726a267eea8892bd25f87c0dd51ab",
+              "datavalue": {
+                "value": {
+                  "time": "+1995-00-00T00:00:00Z",
+                  "timezone": 0,
+                  "before": 0,
+                  "after": 0,
+                  "precision": 9,
+                  "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                },
+                "type": "time"
+              },
+              "datatype": "time"
+            },
+            "type": "statement",
+            "id": "Q822886$8178351B-CE05-4AF3-A2CC-31EB2CF72AC9",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "b9b5976df123faea1859c20d25a9c76f7f8fe347",
+                "snaks": {
+                  "P143": [
+                    {
+                      "snaktype": "value",
+                      "property": "P143",
+                      "hash": "07596fc82d3ed4d248b85e5543852cc31e37dc8c",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 199913,
+                          "id": "Q199913"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ],
+                  "P4656": [
+                    {
+                      "snaktype": "value",
+                      "property": "P4656",
+                      "hash": "324b1044c7bb171be75bb094f091faecfa0868a4",
+                      "datavalue": {
+                        "value": "https://he.wikipedia.org/w/index.php?title=אצטדיון_ריברסייד&oldid=21920427",
+                        "type": "string"
+                      },
+                      "datatype": "url"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P143",
+                  "P4656"
+                ]
+              }
+            ]
+          }
+        ],
+        "P5288": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P5288",
+              "hash": "17afac4926d7e43066c5db422b28e28ccd7e7462",
+              "datavalue": {
+                "value": "eng/riverside_stadium",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q822886$00fa15d0-45b2-ed47-b416-746dabc8a2ee",
+            "rank": "normal"
+          }
+        ],
+        "P454": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P454",
+              "hash": "9f23b5e4cd2f652397042e0d5e2ce289e5254212",
+              "datavalue": {
+                "value": "20039528",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q822886$DBEBB3A7-30B1-4AEE-AD6F-E2A1272E671A",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "af2ba8c2c7827a07cefc433825c6d4aed851364f",
+                "snaks": {
+                  "P143": [
+                    {
+                      "snaktype": "value",
+                      "property": "P143",
+                      "hash": "e4f6d9441d0600513c4533c672b5ab472dc73694",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 328,
+                          "id": "Q328"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ],
+                  "P4656": [
+                    {
+                      "snaktype": "value",
+                      "property": "P4656",
+                      "hash": "386e234008e46be0e702bb0f91a934449fe7e8a4",
+                      "datavalue": {
+                        "value": "https://en.wikipedia.org/w/index.php?title=Riverside_Stadium&oldid=881000178",
+                        "type": "string"
+                      },
+                      "datatype": "url"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P143",
+                  "P4656"
+                ]
+              }
+            ]
+          }
+        ],
+        "P276": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P276",
+              "hash": "625771ebd9d5cae491beaeb05ed7f5f9773ccd2b",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 171866,
+                  "id": "Q171866"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q822886$DBBFFE6B-5B6E-4BD6-B3DF-171E327250F8",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "67653c4e48bd34d7d542ce113e9cf6ddd6868b15",
+                "snaks": {
+                  "P143": [
+                    {
+                      "snaktype": "value",
+                      "property": "P143",
+                      "hash": "e4f6d9441d0600513c4533c672b5ab472dc73694",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 328,
+                          "id": "Q328"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ],
+                  "P4656": [
+                    {
+                      "snaktype": "value",
+                      "property": "P4656",
+                      "hash": "52c946af672db7b7217eb2f95ed14082f95a9f2b",
+                      "datavalue": {
+                        "value": "https://en.wikipedia.org/w/index.php?title=Riverside_Stadium&oldid=941835823",
+                        "type": "string"
+                      },
+                      "datatype": "url"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P143",
+                  "P4656"
+                ]
+              }
+            ]
+          }
+        ],
+        "P7959": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P7959",
+              "hash": "ff298d922c919c23d1dbb1461559219ba55789b8",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 163,
+                  "id": "Q163"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P276": [
+                {
+                  "snaktype": "value",
+                  "property": "P276",
+                  "hash": "6127febebdfe26fe2e1a575671b2b58090476135",
+                  "datavalue": {
+                    "value": {
+                      "entity-type": "item",
+                      "numeric-id": 372090,
+                      "id": "Q372090"
+                    },
+                    "type": "wikibase-entityid"
+                  },
+                  "datatype": "wikibase-item"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P276"
+            ],
+            "id": "Q822886$4b8fcd75-253f-483e-960f-4f755dfaca1f",
+            "rank": "normal"
+          }
+        ],
+        "P765": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P765",
+              "hash": "ab3a0226f7ed3463d5ca5477b5d8b6daf5f38cd7",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 207766,
+                  "id": "Q207766"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q822886$EEA782D3-9749-47C1-B680-3E08D383CC7B",
+            "rank": "normal"
+          }
+        ],
+        "P571": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P571",
+              "hash": "a666e61efd49d89cd016c1e4027595a95d250142",
+              "datavalue": {
+                "value": {
+                  "time": "+1995-08-26T00:00:00Z",
+                  "timezone": 0,
+                  "before": 0,
+                  "after": 0,
+                  "precision": 11,
+                  "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                },
+                "type": "time"
+              },
+              "datatype": "time"
+            },
+            "type": "statement",
+            "id": "Q822886$9AAF31C1-BCCF-47FF-B660-3B2EEC247008",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "359e68c0755bf2718bc76d7378f18dbc9c090ef6",
+                "snaks": {
+                  "P143": [
+                    {
+                      "snaktype": "value",
+                      "property": "P143",
+                      "hash": "e4f6d9441d0600513c4533c672b5ab472dc73694",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 328,
+                          "id": "Q328"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ],
+                  "P4656": [
+                    {
+                      "snaktype": "value",
+                      "property": "P4656",
+                      "hash": "18ff40eb44fd84e807f980c1e53e2e2900d2e7d1",
+                      "datavalue": {
+                        "value": "https://en.wikipedia.org/w/index.php?title=Riverside_Stadium&oldid=1156439730",
+                        "type": "string"
+                      },
+                      "datatype": "url"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P143",
+                  "P4656"
+                ]
+              }
+            ]
+          }
+        ],
+        "P1617": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P1617",
+              "hash": "87ae4d7f72b3dcb52ae3dbf156ab82e0ffb50c77",
+              "datavalue": {
+                "value": "9ae892dd-8390-4d4f-b03c-7a25f10897b1",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q822886$094ba5bf-02f5-4373-9f4f-e586328f72a8",
+            "rank": "normal"
+          }
+        ],
+        "P1004": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P1004",
+              "hash": "a07f10f260773a282cbe986e7d678c25cf935f95",
+              "datavalue": {
+                "value": "4d622f74-12c9-4ce5-9bb5-f85408841738",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P1810": [
+                {
+                  "snaktype": "value",
+                  "property": "P1810",
+                  "hash": "14ee9f612b1e3a7e80f3805f6a2761c62c62ba78",
+                  "datavalue": {
+                    "value": "Riverside Stadium",
+                    "type": "string"
+                  },
+                  "datatype": "string"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P1810"
+            ],
+            "id": "Q822886$7543a715-a577-4f13-afb0-0e10e81fdac0",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "e729a2bb6bafc38c8ab9bac4fb2d2945d6be0e23",
+                "snaks": {
+                  "P248": [
+                    {
+                      "snaktype": "value",
+                      "property": "P248",
+                      "hash": "623cc8f0e2f65afe4d66b91962d354a2f3aa9a27",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 14005,
+                          "id": "Q14005"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ],
+                  "P813": [
+                    {
+                      "snaktype": "value",
+                      "property": "P813",
+                      "hash": "e04b9556d8d1beaf32bad097a733d65c2859afc6",
+                      "datavalue": {
+                        "value": {
+                          "time": "+2023-12-01T00:00:00Z",
+                          "timezone": 0,
+                          "before": 0,
+                          "after": 0,
+                          "precision": 11,
+                          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                        },
+                        "type": "time"
+                      },
+                      "datatype": "time"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P248",
+                  "P813"
+                ]
+              }
+            ]
+          }
+        ],
+        "P7938": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P7938",
+              "hash": "50bb2a34e4dfbc193fc219cf2a370c758e539cbc",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 124060764,
+                  "id": "Q124060764"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P3831": [
+                {
+                  "snaktype": "value",
+                  "property": "P3831",
+                  "hash": "92b2a9bac12fb8e82c56dfef41567be36eeb563f",
+                  "datavalue": {
+                    "value": {
+                      "entity-type": "item",
+                      "numeric-id": 27971968,
+                      "id": "Q27971968"
+                    },
+                    "type": "wikibase-entityid"
+                  },
+                  "datatype": "wikibase-item"
+                }
+              ],
+              "P585": [
+                {
+                  "snaktype": "value",
+                  "property": "P585",
+                  "hash": "a6be46f7ad0a963928c79e954c6bebb458ccd2d8",
+                  "datavalue": {
+                    "value": {
+                      "time": "+2024-07-01T00:00:00Z",
+                      "timezone": 0,
+                      "before": 0,
+                      "after": 0,
+                      "precision": 10,
+                      "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                    },
+                    "type": "time"
+                  },
+                  "datatype": "time"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P3831",
+              "P585"
+            ],
+            "id": "Q822886$1A550D31-0895-441D-8046-C73BB94C892C",
+            "rank": "normal"
+          }
+        ]
+      },
+      "sitelinks": {
+        "arwiki": {
+          "site": "arwiki",
+          "title": "ملعب ريفرسايد",
+          "badges": []
+        },
+        "arzwiki": {
+          "site": "arzwiki",
+          "title": "ستاد ريڤرسايد",
+          "badges": []
+        },
+        "bswiki": {
+          "site": "bswiki",
+          "title": "Stadion Riverside",
+          "badges": []
+        },
+        "cawiki": {
+          "site": "cawiki",
+          "title": "Riverside Stadium",
+          "badges": []
+        },
+        "commonswiki": {
+          "site": "commonswiki",
+          "title": "Category:Riverside Stadium",
+          "badges": []
+        },
+        "cswiki": {
+          "site": "cswiki",
+          "title": "Riverside Stadium",
+          "badges": []
+        },
+        "cywiki": {
+          "site": "cywiki",
+          "title": "Stadiwm Riverside",
+          "badges": []
+        },
+        "dawiki": {
+          "site": "dawiki",
+          "title": "Riverside Stadium",
+          "badges": []
+        },
+        "dewiki": {
+          "site": "dewiki",
+          "title": "Riverside Stadium",
+          "badges": []
+        },
+        "enwiki": {
+          "site": "enwiki",
+          "title": "Riverside Stadium",
+          "badges": []
+        },
+        "eswiki": {
+          "site": "eswiki",
+          "title": "Estadio de Riverside",
+          "badges": []
+        },
+        "etwiki": {
+          "site": "etwiki",
+          "title": "Riverside Stadium",
+          "badges": []
+        },
+        "euwiki": {
+          "site": "euwiki",
+          "title": "Riverside estadioa",
+          "badges": []
+        },
+        "fawiki": {
+          "site": "fawiki",
+          "title": "ورزشگاه ریورساید",
+          "badges": []
+        },
+        "fiwiki": {
+          "site": "fiwiki",
+          "title": "Riverside Stadium",
+          "badges": []
+        },
+        "frwiki": {
+          "site": "frwiki",
+          "title": "Riverside Stadium",
+          "badges": []
+        },
+        "gawiki": {
+          "site": "gawiki",
+          "title": "Riverside Stadium",
+          "badges": []
+        },
+        "hewiki": {
+          "site": "hewiki",
+          "title": "אצטדיון ריברסייד",
+          "badges": []
+        },
+        "hrwiki": {
+          "site": "hrwiki",
+          "title": "Riverside Stadium",
+          "badges": []
+        },
+        "huwiki": {
+          "site": "huwiki",
+          "title": "Riverside Stadion",
+          "badges": []
+        },
+        "idwiki": {
+          "site": "idwiki",
+          "title": "Stadion Riverside",
+          "badges": []
+        },
+        "itwiki": {
+          "site": "itwiki",
+          "title": "Riverside Stadium",
+          "badges": []
+        },
+        "jawiki": {
+          "site": "jawiki",
+          "title": "リヴァーサイド・スタジアム",
+          "badges": []
+        },
+        "kowiki": {
+          "site": "kowiki",
+          "title": "리버사이드 스타디움",
+          "badges": []
+        },
+        "ltwiki": {
+          "site": "ltwiki",
+          "title": "Riversaido stadionas",
+          "badges": []
+        },
+        "nlwiki": {
+          "site": "nlwiki",
+          "title": "Riverside Stadium",
+          "badges": []
+        },
+        "nowiki": {
+          "site": "nowiki",
+          "title": "Riverside Stadium",
+          "badges": []
+        },
+        "pawiki": {
+          "site": "pawiki",
+          "title": "ਰਿਵਰਸਾਈਡ ਸਟੇਡੀਅਮ",
+          "badges": []
+        },
+        "plwiki": {
+          "site": "plwiki",
+          "title": "Riverside Stadium",
+          "badges": []
+        },
+        "ptwiki": {
+          "site": "ptwiki",
+          "title": "Riverside Stadium",
+          "badges": []
+        },
+        "ruwiki": {
+          "site": "ruwiki",
+          "title": "Риверсайд (стадион)",
+          "badges": []
+        },
+        "simplewiki": {
+          "site": "simplewiki",
+          "title": "Riverside Stadium",
+          "badges": []
+        },
+        "skwiki": {
+          "site": "skwiki",
+          "title": "Riverside Stadium",
+          "badges": []
+        },
+        "svwiki": {
+          "site": "svwiki",
+          "title": "Riverside Stadium",
+          "badges": []
+        },
+        "thwiki": {
+          "site": "thwiki",
+          "title": "สนามกีฬาริเวอร์ไซด์",
+          "badges": []
+        },
+        "trwiki": {
+          "site": "trwiki",
+          "title": "Riverside Stadyumu",
+          "badges": []
+        },
+        "ukwiki": {
+          "site": "ukwiki",
+          "title": "Ріверсайд (стадіон)",
+          "badges": []
+        },
+        "uzwiki": {
+          "site": "uzwiki",
+          "title": "Riverside Stadium",
+          "badges": []
+        },
+        "zhwiki": {
+          "site": "zhwiki",
+          "title": "河畔球場",
+          "badges": []
+        }
+      }
+    }
+  }
+}

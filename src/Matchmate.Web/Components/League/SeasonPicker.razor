@@ -1,0 +1,20 @@
+@using Matchmate.Web.Localization
+@using Matchmate.Contracts
+<div class="season-picker"><span class="eyebrow">@T("Season")</span><button class="season-trigger" aria-expanded="@_open" @onclick="() => _open = !_open">@Seasons.FirstOrDefault(s => s.SeasonKey == Selected)?.Label <span>⌄</span></button>
+@if (_open) {
+<div class="season-popup"><label for="season-search">@T("SearchSeasons")</label><input id="season-search" type="search" @bind="_search" @bind:event="oninput" @onkeydown="KeyAsync" placeholder="@T("SearchSeasonsPlaceholder")"/>
+@foreach (var season in Matches) { <button @key="season.SeasonKey" class="@(Selected == season.SeasonKey ? "selected" : "")" @onclick="() => ChooseAsync(season.SeasonKey)">@season.Label <small>Premier League · @(T(season.Status == "ongoing" ? "OngoingSnapshot" : "Complete"))</small></button> }
+@if (!Matches.Any()) { <p>@T("NoMatchingSeasons")</p> }
+</div> }
+</div>
+@code {
+    [CascadingParameter] public MatchLanguage Language { get; set; }
+    private string T(string key, params object?[] args) => LeagueText.Get(Language, key, args);
+    [Parameter] public IReadOnlyList<LeagueSeasonInfo> Seasons { get; set; } = [];
+    [Parameter] public string Selected { get; set; } = "";
+    [Parameter] public EventCallback<string> SelectedChanged { get; set; }
+    private bool _open; private string _search = "";
+    private IEnumerable<LeagueSeasonInfo> Matches => Seasons.OrderByDescending(s => s.SeasonKey, StringComparer.Ordinal).Where(s => s.Label.Contains(_search, StringComparison.OrdinalIgnoreCase) || s.SeasonKey.Contains(_search, StringComparison.OrdinalIgnoreCase));
+    private async Task ChooseAsync(string key) { _open = false; _search = ""; await SelectedChanged.InvokeAsync(key); }
+    private Task KeyAsync(KeyboardEventArgs e) { if (e.Key == "Escape") _open = false; return e.Key == "Enter" && Matches.FirstOrDefault() is { } first ? ChooseAsync(first.SeasonKey) : Task.CompletedTask; }
+}

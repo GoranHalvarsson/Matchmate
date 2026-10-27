@@ -1,0 +1,385 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Matchmate people contracts v0.3.0",
+  "$defs": {
+    "person": {
+      "type": "object",
+      "properties": {
+        "record_id": {
+          "$ref": "common.schema.json#/$defs/record_id"
+        },
+        "revision_id": {
+          "$ref": "common.schema.json#/$defs/record_id"
+        },
+        "supersedes_revision_id": {
+          "$ref": "common.schema.json#/$defs/supersedes_revision_id"
+        },
+        "kind": {
+          "const": "person"
+        },
+        "source_id": {
+          "$ref": "common.schema.json#/$defs/source_id"
+        },
+        "provenance": {
+          "$ref": "common.schema.json#/$defs/provenance"
+        },
+        "claim_status": {
+          "$ref": "common.schema.json#/$defs/claim_status"
+        },
+        "valid_from": {
+          "$ref": "common.schema.json#/$defs/valid_from"
+        },
+        "valid_to": {
+          "$ref": "common.schema.json#/$defs/valid_to"
+        },
+        "recorded_at": {
+          "$ref": "common.schema.json#/$defs/valid_from"
+        },
+        "published_at": {
+          "$ref": "common.schema.json#/$defs/valid_to"
+        },
+        "synthetic_released_at": {
+          "$ref": "common.schema.json#/$defs/valid_to"
+        },
+        "payload": {
+          "type": "object",
+          "properties": {
+            "name": {
+              "type": "string",
+              "minLength": 1
+            },
+            "aliases": {
+              "type": "array",
+              "items": {
+                "type": "string",
+                "minLength": 1
+              }
+            },
+            "birth_date": {
+              "anyOf": [
+                {
+                  "type": "string",
+                  "format": "date"
+                },
+                {
+                  "type": "null"
+                }
+              ]
+            }
+          },
+          "required": [
+            "name",
+            "aliases",
+            "birth_date"
+          ],
+          "additionalProperties": false
+        }
+      },
+      "required": [
+        "record_id",
+        "revision_id",
+        "supersedes_revision_id",
+        "kind",
+        "source_id",
+        "provenance",
+        "claim_status",
+        "valid_from",
+        "valid_to",
+        "recorded_at",
+        "published_at",
+        "synthetic_released_at",
+        "payload"
+      ],
+      "additionalProperties": false,
+      "allOf": [
+        {
+          "if": {
+            "properties": {
+              "provenance": {
+                "const": "synthetic"
+              }
+            }
+          },
+          "then": {
+            "properties": {
+              "synthetic_released_at": {
+                "$ref": "common.schema.json#/$defs/valid_from"
+              },
+              "claim_status": {
+                "const": "authored"
+              }
+            }
+          },
+          "else": {
+            "properties": {
+              "synthetic_released_at": {
+                "type": "null"
+              }
+            }
+          }
+        }
+      ]
+    },
+    "affiliation": {
+      "type": "object",
+      "properties": {
+        "record_id": {
+          "$ref": "common.schema.json#/$defs/record_id"
+        },
+        "revision_id": {
+          "$ref": "common.schema.json#/$defs/record_id"
+        },
+        "supersedes_revision_id": {
+          "$ref": "common.schema.json#/$defs/supersedes_revision_id"
+        },
+        "kind": {
+          "const": "affiliation"
+        },
+        "source_id": {
+          "$ref": "common.schema.json#/$defs/source_id"
+        },
+        "provenance": {
+          "$ref": "common.schema.json#/$defs/provenance"
+        },
+        "claim_status": {
+          "$ref": "common.schema.json#/$defs/claim_status"
+        },
+        "valid_from": {
+          "$ref": "common.schema.json#/$defs/valid_from"
+        },
+        "valid_to": {
+          "$ref": "common.schema.json#/$defs/valid_to"
+        },
+        "recorded_at": {
+          "$ref": "common.schema.json#/$defs/valid_from"
+        },
+        "published_at": {
+          "$ref": "common.schema.json#/$defs/valid_to"
+        },
+        "synthetic_released_at": {
+          "$ref": "common.schema.json#/$defs/valid_to"
+        },
+        "payload": {
+          "type": "object",
+          "properties": {
+            "person_id": {
+              "type": "string",
+              "pattern": "^[a-z][a-z0-9-]*$",
+              "x-reference": "person"
+            },
+            "club_id": {
+              "type": "string",
+              "pattern": "^[a-z][a-z0-9-]*$",
+              "x-reference": "club"
+            },
+            "role": {
+              "type": "string",
+              "enum": [
+                "player",
+                "head_coach",
+                "assistant_coach",
+                "staff"
+              ]
+            },
+            "appointment_type": {
+              "anyOf": [
+                {
+                  "type": "string",
+                  "enum": [
+                    "permanent",
+                    "caretaker",
+                    "loan"
+                  ]
+                },
+                {
+                  "type": "null"
+                }
+              ]
+            },
+            "shirt_number": {
+              "anyOf": [
+                {
+                  "type": "integer",
+                  "minimum": 1,
+                  "maximum": 99
+                },
+                {
+                  "type": "null"
+                }
+              ]
+            }
+          },
+          "required": [
+            "person_id",
+            "club_id",
+            "role",
+            "appointment_type",
+            "shirt_number"
+          ],
+          "additionalProperties": false
+        }
+      },
+      "required": [
+        "record_id",
+        "revision_id",
+        "supersedes_revision_id",
+        "kind",
+        "source_id",
+        "provenance",
+        "claim_status",
+        "valid_from",
+        "valid_to",
+        "recorded_at",
+        "published_at",
+        "synthetic_released_at",
+        "payload"
+      ],
+      "additionalProperties": false,
+      "allOf": [
+        {
+          "if": {
+            "properties": {
+              "provenance": {
+                "const": "synthetic"
+              }
+            }
+          },
+          "then": {
+            "properties": {
+              "synthetic_released_at": {
+                "$ref": "common.schema.json#/$defs/valid_from"
+              },
+              "claim_status": {
+                "const": "authored"
+              }
+            }
+          },
+          "else": {
+            "properties": {
+              "synthetic_released_at": {
+                "type": "null"
+              }
+            }
+          }
+        }
+      ]
+    },
+    "player_profile": {
+      "type": "object",
+      "properties": {
+        "record_id": {
+          "$ref": "common.schema.json#/$defs/record_id"
+        },
+        "revision_id": {
+          "$ref": "common.schema.json#/$defs/record_id"
+        },
+        "supersedes_revision_id": {
+          "$ref": "common.schema.json#/$defs/supersedes_revision_id"
+        },
+        "kind": {
+          "const": "player_profile"
+        },
+        "source_id": {
+          "$ref": "common.schema.json#/$defs/source_id"
+        },
+        "provenance": {
+          "$ref": "common.schema.json#/$defs/provenance"
+        },
+        "claim_status": {
+          "$ref": "common.schema.json#/$defs/claim_status"
+        },
+        "valid_from": {
+          "$ref": "common.schema.json#/$defs/valid_from"
+        },
+        "valid_to": {
+          "$ref": "common.schema.json#/$defs/valid_to"
+        },
+        "recorded_at": {
+          "$ref": "common.schema.json#/$defs/valid_from"
+        },
+        "published_at": {
+          "$ref": "common.schema.json#/$defs/valid_to"
+        },
+        "synthetic_released_at": {
+          "$ref": "common.schema.json#/$defs/valid_to"
+        },
+        "payload": {
+          "type": "object",
+          "properties": {
+            "person_id": {
+              "type": "string",
+              "pattern": "^[a-z][a-z0-9-]*$",
+              "x-reference": "person"
+            },
+            "preferred_foot": {
+              "type": "string",
+              "enum": [
+                "left",
+                "right",
+                "both",
+                "unknown"
+              ]
+            },
+            "positions": {
+              "type": "array",
+              "items": {
+                "type": "string",
+                "minLength": 1
+              }
+            }
+          },
+          "required": [
+            "person_id",
+            "preferred_foot",
+            "positions"
+          ],
+          "additionalProperties": false
+        }
+      },
+      "required": [
+        "record_id",
+        "revision_id",
+        "supersedes_revision_id",
+        "kind",
+        "source_id",
+        "provenance",
+        "claim_status",
+        "valid_from",
+        "valid_to",
+        "recorded_at",
+        "published_at",
+        "synthetic_released_at",
+        "payload"
+      ],
+      "additionalProperties": false,
+      "allOf": [
+        {
+          "if": {
+            "properties": {
+              "provenance": {
+                "const": "synthetic"
+              }
+            }
+          },
+          "then": {
+            "properties": {
+              "synthetic_released_at": {
+                "$ref": "common.schema.json#/$defs/valid_from"
+              },
+              "claim_status": {
+                "const": "authored"
+              }
+            }
+          },
+          "else": {
+            "properties": {
+              "synthetic_released_at": {
+                "type": "null"
+              }
+            }
+          }
+        }
+      ]
+    }
+  }
+}

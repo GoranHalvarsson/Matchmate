@@ -1,0 +1,255 @@
+{
+  "entities": {
+    "Q20648753": {
+      "pageid": 22395945,
+      "ns": 0,
+      "title": "Q20648753",
+      "lastrevid": 2529504820,
+      "modified": "2026-08-10T06:41:14Z",
+      "type": "item",
+      "id": "Q20648753",
+      "labels": {
+        "en": {
+          "language": "en",
+          "value": "2015–16 West Ham United F.C. season"
+        }
+      },
+      "claims": {
+        "P31": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P31",
+              "hash": "9ddb403180b684facfb50183c3b3a99ce0b171d1",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 26887310,
+                  "id": "Q26887310"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q20648753$3BC9C14F-E40B-48B1-9F77-5169B3D24606",
+            "rank": "normal"
+          }
+        ],
+        "P641": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P641",
+              "hash": "1624e15e061523279bc14bb6497168e45caacb32",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 2736,
+                  "id": "Q2736"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q20648753$AA166FBA-3BEC-4199-B6D3-5C38FD165AF0",
+            "rank": "normal"
+          }
+        ],
+        "P5138": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P5138",
+              "hash": "3a357ada1882ae151d52d7d4f8152f79b7fd9df8",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 18747,
+                  "id": "Q18747"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q20648753$E5743773-38D9-4BA6-8124-97664BF71A52",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "fa278ebfc458360e5aed63d5058cca83c46134f1",
+                "snaks": {
+                  "P143": [
+                    {
+                      "snaktype": "value",
+                      "property": "P143",
+                      "hash": "e4f6d9441d0600513c4533c672b5ab472dc73694",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 328,
+                          "id": "Q328"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P143"
+                ]
+              }
+            ]
+          }
+        ],
+        "P2348": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P2348",
+              "hash": "aa2170c45da73f28c5e261a9d37f3a75ef9799c5",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 53386085,
+                  "id": "Q53386085"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q20648753$E09D9754-F636-4AC8-A06C-7008E0F41884",
+            "rank": "normal"
+          }
+        ],
+        "P17": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P17",
+              "hash": "a44880420787fb348836dc51d3babc5227c4ef7e",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 145,
+                  "id": "Q145"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q20648753$E6A4BC0A-323E-48F9-8261-FC8B87FB4884",
+            "rank": "normal"
+          }
+        ],
+        "P155": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P155",
+              "hash": "53a27ac0fbc5bbfd81b11ae23c50cd7dbcd7b463",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 16958825,
+                  "id": "Q16958825"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q20648753$BB6645B2-7548-4880-9873-571602ED2B75",
+            "rank": "normal"
+          }
+        ],
+        "P156": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P156",
+              "hash": "28875b196d7eed814139840836808f7702a5f307",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 24083736,
+                  "id": "Q24083736"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q20648753$D9BBCE11-4B1A-4812-BFB5-F64E06812DBB",
+            "rank": "normal"
+          }
+        ],
+        "P2671": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P2671",
+              "hash": "227349904a4ba3f58293684811420815ece09410",
+              "datavalue": {
+                "value": "/g/11btzxk79d",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q20648753$CA54E69E-C38F-4226-A38B-BD8302E128A7",
+            "rank": "normal"
+          }
+        ],
+        "P18": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P18",
+              "hash": "0bc0e7cb30807a327079f97f2bd7d207a50188ed",
+              "datavalue": {
+                "value": "Mark Noble celebrates goal with fans.jpeg",
+                "type": "string"
+              },
+              "datatype": "commonsMedia"
+            },
+            "type": "statement",
+            "id": "Q20648753$B0345E3A-2085-4EE1-8598-6AC5371AB70B",
+            "rank": "normal"
+          }
+        ]
+      },
+      "sitelinks": {
+        "enwiki": {
+          "site": "enwiki",
+          "title": "2015–16 West Ham United F.C. season",
+          "badges": []
+        },
+        "itwiki": {
+          "site": "itwiki",
+          "title": "West Ham United Football Club 2015-2016",
+          "badges": []
+        },
+        "nlwiki": {
+          "site": "nlwiki",
+          "title": "West Ham United FC in het seizoen 2015/16",
+          "badges": []
+        },
+        "thwiki": {
+          "site": "thwiki",
+          "title": "สโมสรฟุตบอลเวสต์แฮมยูไนเต็ดในฤดูกาล 2015–16",
+          "badges": []
+        },
+        "zhwiki": {
+          "site": "zhwiki",
+          "title": "韋斯咸2015年至2016年球季",
+          "badges": []
+        }
+      }
+    }
+  }
+}

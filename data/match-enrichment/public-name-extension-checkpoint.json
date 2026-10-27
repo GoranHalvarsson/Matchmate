@@ -1,0 +1,5 @@
+{
+  "sha256": "75d83e4b074d938b018c262875aaac16f2123b023e5005320dfb51c982d53887",
+  "scope": "Pre-league-assessment entire match JSON; strip league_record_assessment only.",
+  "algorithm": "sha256 canonical JSON sorted keys compact UTF-8"
+}

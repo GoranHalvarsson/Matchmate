@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <data name="Question.standing" xml:space="preserve"><value>¿Cómo vamos en la clasificación?</value></data>
+  <data name="Question.changes" xml:space="preserve"><value>¿Qué cambió en esta fecha?</value></data>
+  <data name="Question.ground" xml:space="preserve"><value>Háblame de nuestro estadio.</value></data>
+  <data name="Question.table" xml:space="preserve"><value>¿Quién lidera esta clasificación?</value></data>
+  <data name="Question.coverage" xml:space="preserve"><value>¿Qué incluye esta clasificación?</value></data>
+  <data name="Source.Table" xml:space="preserve"><value>{0} lidera con {1} puntos en {2} partidos. Se han completado {3} partidos de liga.</value></data>
+  <data name="Source.SharedTable" xml:space="preserve"><value>{0} comparte el liderato con {1} puntos en {2} partidos. Se han completado {3} partidos de liga.</value></data>
+  <data name="Source.EmptyTable" xml:space="preserve"><value>Aún no hay resultados. Todos los clubes tienen cero puntos y no hay posiciones.</value></data>
+  <data name="Source.Standing" xml:space="preserve"><value>{0}: {1}; {2} puntos en {3} partidos, {4} victorias, {5} empates y {6} derrotas.</value></data>
+  <data name="Source.Rank" xml:space="preserve"><value>posición {0}</value></data>
+  <data name="Source.SharedRank" xml:space="preserve"><value>posición {0} compartida</value></data>
+  <data name="Source.Unranked" xml:space="preserve"><value>sin posición</value></data>
+  <data name="Source.Ground" xml:space="preserve"><value>{0}: estadio de referencia de la temporada {1}, en {2}. No confirma la sede de un partido ni aporta historia del estadio.</value></data>
+  <data name="Source.Coverage" xml:space="preserve"><value>{0} resultados cargados de {1} partidos previstos hasta este punto. Los resultados de una fecha cuentan juntos. Sin datos en directo ni actualizaciones automáticas.</value></data>
+  <data name="Source.Scope" xml:space="preserve"><value>Temporada seleccionada {0}, hasta el final de {1}.</value></data>
+  <data name="Source.BeforeResults" xml:space="preserve"><value>Antes de los primeros resultados cargados de la temporada {0}.</value></data>
+  <data name="Source.Change" xml:space="preserve"><value>{0}: {1}; puntos {2} → {3}; {4} → {5}.</value></data>
+  <data name="Source.Played" xml:space="preserve"><value>jugó en esta fecha</value></data>
+  <data name="Source.DidNotPlay" xml:space="preserve"><value>no jugó en esta fecha</value></data>
+  <data name="Source.DayRule" xml:space="preserve"><value>Todos los resultados de la fecha cuentan juntos. Los cambios de posición no pueden atribuirse solo a un partido.</value></data>
+  <data name="Source.DayResults" xml:space="preserve"><value>Resultados de esta fecha: {0}</value></data>
+  <data name="Source.NoDayResults" xml:space="preserve"><value>No se incorporaron resultados en esta fecha.</value></data>
+  <data name="Source.Recent" xml:space="preserve"><value>Últimos resultados cargados de {0}: {1}</value></data>
+  <data name="Source.NoRecent" xml:space="preserve"><value>No se proporciona ningún resultado final de {0} hasta este punto.</value></data>
+  <data name="Source.Compact" xml:space="preserve"><value>Consulta los datos de apoyo para ver todas las filas y resultados preparados.</value></data>
+  <data name="Feedback.Source" xml:space="preserve"><value>Elige una pregunta de datos disponible.</value></data>
+  <data name="Feedback.Input" xml:space="preserve"><value>Escribe una pregunta válida de hasta 1.000 caracteres y selecciona una vista de liga disponible.</value></data>
+  <data name="Feedback.SignIn" xml:space="preserve"><value>Inicia sesión con tu cuenta de prueba para conversar.</value></data>
+  <data name="Feedback.Clarify" xml:space="preserve"><value>Aclara a qué club, pregunta de clasificación o fecha seleccionada te refieres.</value></data>
+  <data name="Feedback.Routing" xml:space="preserve"><value>No se pudo dirigir la pregunta al contexto adecuado. Inténtalo de nuevo o elige una pregunta de datos.</value></data>
+  <data name="Feedback.Unsupported" xml:space="preserve"><value>Estos registros cubren la clasificación, resultados y estadios de referencia. No incluyen detalles de jugadores, métricas tácticas ni datos inventados.</value></data>
+  <data name="Feedback.Unavailable" xml:space="preserve"><value>No pude verificar una respuesta. Inténtalo de nuevo o elige una pregunta de datos.</value></data>
+  <data name="Feedback.Cancelled" xml:space="preserve"><value>La respuesta se canceló o cambió el contexto. No se añadió ninguna respuesta.</value></data>
+  <data name="Feedback.Stale" xml:space="preserve"><value>Cambió el contexto de la liga o la sesión iniciada; se descartó la respuesta.</value></data>
+  <data name="Feedback.SelectScope" xml:space="preserve"><value>Selecciona la temporada y la fecha jugada y vuelve a preguntar.</value></data>
+  <data name="Feedback.Live" xml:space="preserve"><value>No hay datos de fútbol en directo. Esta es una instantánea fija de la temporada.</value></data>
+</root>

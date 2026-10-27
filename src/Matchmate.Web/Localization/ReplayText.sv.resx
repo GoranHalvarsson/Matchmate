@@ -1,0 +1,451 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms</value></resheader>
+  <data name="LanguageLabel" xml:space="preserve"><value>Språk för reprisen</value></data>
+  <data name="LanguageScope" xml:space="preserve"><value>Liga- och historiksidorna är på engelska än så länge.</value></data>
+  <data name="AudienceStyle" xml:space="preserve"><value>Förklaringsstil</value></data>
+  <data name="AudienceFan" xml:space="preserve"><value>Supporter</value></data>
+  <data name="AudienceAnalyst" xml:space="preserve"><value>Analytiker</value></data>
+  <data name="AudienceSame" xml:space="preserve"><value>Samma underlag.</value></data>
+  <data name="AudienceFanNote" xml:space="preserve"><value>Fotbollen, enkelt förklarad.</value></data>
+  <data name="AudienceAnalystNote" xml:space="preserve"><value>Siffror och metod.</value></data>
+  <data name="PageTitle" xml:space="preserve"><value>Matchmate · Lite närmare matchen</value></data>
+  <data name="ExploreLeague" xml:space="preserve"><value>← Utforska Premier League</value></data>
+  <data name="TechnicalSample" xml:space="preserve"><value>Tekniskt exempel</value></data>
+  <data name="BackRecordings" xml:space="preserve"><value>Tillbaka till matchinspelningar</value></data>
+  <data name="ChooseRecording" xml:space="preserve"><value>Välj en matchinspelning</value></data>
+  <data name="LoadingMatchRecordings" xml:space="preserve"><value>Laddar matchinspelningar…</value></data>
+  <data name="NoRecordings" xml:space="preserve"><value>Inga matchinspelningar tillgängliga</value></data>
+  <data name="RefreshRecordings" xml:space="preserve"><value>Uppdatera inspelningar</value></data>
+  <data name="Refreshing" xml:space="preserve"><value>Uppdaterar…</value></data>
+  <data name="Refresh" xml:space="preserve"><value>Uppdatera</value></data>
+  <data name="TechnicalSamples" xml:space="preserve"><value>Tekniska exempel</value></data>
+  <data name="TechnicalSamplesNote" xml:space="preserve"><value>Referensinspelningar för att testa uppspelning och datakvalitet.</value></data>
+  <data name="Versus" xml:space="preserve"><value>{0} mot {1}</value></data>
+  <data name="RetrospectiveReplay" xml:space="preserve"><value>Retrospektiv repris</value></data>
+  <data name="GeneratedSource" xml:space="preserve"><value>Genererad illustration från den befintliga modellen. Positionerna visar inte observerade rörelser.</value></data>
+  <data name="RecordedSource" xml:space="preserve"><value>Inspelade observationer och uppskattningar från källan. Saknade positioner förblir saknade.</value></data>
+  <data name="PreparingRecording" xml:space="preserve"><value>Förbereder inspelningen…</value></data>
+  <data name="PitchLabel" xml:space="preserve"><value>Plan för matchrepris</value></data>
+  <data name="LoadingMoment" xml:space="preserve"><value>Laddar ögonblicket</value></data>
+  <data name="ReportedGoalsShort" xml:space="preserve"><value>Rapporterade mål · {0}–{1}</value></data>
+  <data name="NoScore" xml:space="preserve"><value>Inget matchresultat angivet</value></data>
+  <data name="LoadingReplayMoment" xml:space="preserve"><value>Laddar reprisögonblicket…</value></data>
+  <data name="PreparingPositions" xml:space="preserve"><value>Förbereder reprisögonblicket… Spelarpositionerna laddas fortfarande.</value></data>
+  <data name="GapPaused" xml:space="preserve"><value>Uppspelningen har pausats vid en lucka i källan eller ett saknat prov.</value></data>
+  <data name="ContinueGap" xml:space="preserve"><value>Fortsätt klockan genom luckan</value></data>
+  <data name="NextMilestone" xml:space="preserve"><value>Nästa milstolpe i källan</value></data>
+  <data name="PreviousMilestone" xml:space="preserve"><value>Föregående milstolpe i källan</value></data>
+  <data name="LoadingMomentHeading" xml:space="preserve"><value>Laddar det här ögonblicket…</value></data>
+  <data name="LoadingVerifiedMoment" xml:space="preserve"><value>Ett verifierat reprisögonblick laddas.</value></data>
+  <data name="EligibleFacts" xml:space="preserve"><value>Bara fakta som är tillgängliga vid den här tiden</value></data>
+  <data name="MatchSoFar" xml:space="preserve"><value>Matchen så här långt.</value></data>
+  <data name="AcceptedMoment" xml:space="preserve"><value>Visar godkänt reprisögonblick {0}. Det begärda ögonblicket är inte klart.</value></data>
+  <data name="ReportedGoals" xml:space="preserve"><value>Rapporterade mål: {0} – {1}</value></data>
+  <data name="ReportedGoalsNote" xml:space="preserve"><value>Uttryckligen bortdömda mål är uteslutna; övriga rapporterade beslut förblir rapporter. Detta är händelser i det här flödet, inte en separat verifierad resultattavla. Enbart bekräftade bidrag används inte som matchresultat.</value></data>
+  <data name="PositionsNotScore" xml:space="preserve"><value>Inspelningen innehåller positioner och bollinnehavsnoteringar, inte ett målflöde eller matchresultat.</value></data>
+  <data name="EventReport" xml:space="preserve"><value>{0} · beslut {1} · {2} · rapporterat {3}</value></data>
+  <data name="NotSupplied" xml:space="preserve"><value>inte angivet</value></data>
+  <data name="EligiblePossessions" xml:space="preserve"><value>{0} tillgängliga rapporterade bollinnehavsintervall. Faktiska passningsantal, hastigheter, löpta distanser och taktiska fakta i matchen härleds inte från genererade positioner.</value></data>
+  <data name="SourcesTiming" xml:space="preserve"><value>Källor, koordinater och tid</value></data>
+  <data name="SourceTimingNote" xml:space="preserve"><value>{0} personer i truppen. Kanoniska identiteter, fasta meter från övre vänstra hörnet och millisekunder inom perioden. Källans tillgänglighet är okänd; vad som var känt då stöds inte. Rapporterade minutintervall är inte exakta observerade händelsetider. Höjdpunkterna styr reprisen. Ett valt mål kan också diskuteras i efterhand i chatten medan etiketten Valt mål visas; svar om ställningen och matchen hittills följer fortfarande reprisklockan.</value></data>
+  <data name="RecordingMetadata" xml:space="preserve"><value>Inspelningsversion {0} · schema {1} · ström {2} · huvud {3} · {4} väntande beroenden.</value></data>
+  <data name="Closed" xml:space="preserve"><value>stängd</value></data>
+  <data name="Open" xml:space="preserve"><value>öppen</value></data>
+  <data name="MatchSpendTime" xml:space="preserve"><value>En match att dröja kvar vid.</value></data>
+  <data name="LoadingRecordings" xml:space="preserve"><value>Laddar inspelningar…</value></data>
+  <data name="NoMainRecordingsNote" xml:space="preserve"><value>Inga matchinspelningar är tillgängliga just nu. Öppna Tekniska exempel ovan för en referensinspelning.</value></data>
+  <data name="RecordingsUnavailable" xml:space="preserve"><value>Inspelningarna är inte tillgängliga just nu. Försök igen för att ladda katalogen.</value></data>
+  <data name="TryAgain" xml:space="preserve"><value>Försök igen</value></data>
+  <data name="ThisMatch" xml:space="preserve"><value>den här matchen</value></data>
+  <data name="ChooseReadyMoment" xml:space="preserve"><value>Välj ett klart reprisögonblick.</value></data>
+  <data name="ConversationClock" xml:space="preserve"><value>{0} · {1} · repris {2}</value></data>
+  <data name="UnspecifiedPlayer" xml:space="preserve"><value>Ospecificerad spelare</value></data>
+  <data name="PeriodUnavailable" xml:space="preserve"><value>Perioden är inte tillgänglig</value></data>
+  <data name="MatchPeriod" xml:space="preserve"><value>Matchperiod</value></data>
+  <data name="FirstHalf" xml:space="preserve"><value>Första halvlek</value></data>
+  <data name="SecondHalf" xml:space="preserve"><value>Andra halvlek</value></data>
+  <data name="ReplayClock" xml:space="preserve"><value>Reprisklocka</value></data>
+  <data name="SharedCursor" xml:space="preserve"><value>Gemensam reprisklocka</value></data>
+  <data name="GoalTimeline" xml:space="preserve"><value>Mål på den skapade repristidslinjen</value></data>
+  <data name="WatchLabel" xml:space="preserve"><value>Se {0}, rapporterat {1}</value></data>
+  <data name="GoalPinTitle" xml:space="preserve"><value>{0} · rapporterat {1} · skapat {2}</value></data>
+  <data name="Pause" xml:space="preserve"><value>Ⅱ Pausa</value></data>
+  <data name="Play" xml:space="preserve"><value>▶ Spela</value></data>
+  <data name="Start" xml:space="preserve"><value>← Början</value></data>
+  <data name="NextPeriod" xml:space="preserve"><value>Nästa period →</value></data>
+  <data name="End" xml:space="preserve"><value>Slutet →</value></data>
+  <data name="Speed" xml:space="preserve"><value>Hastighet</value></data>
+  <data name="MatchInMoments" xml:space="preserve"><value>Matchens ögonblick</value></data>
+  <data name="MatchHighlights" xml:space="preserve"><value>Matchens höjdpunkter</value></data>
+  <data name="RetrospectiveSpoilers" xml:space="preserve"><value>Hela inspelningens index · avslöjar senare händelser</value></data>
+  <data name="FilterHighlights" xml:space="preserve"><value>Filtrera höjdpunkter</value></data>
+  <data name="FilterGoals" xml:space="preserve"><value>Mål</value></data>
+  <data name="FilterSubstitutions" xml:space="preserve"><value>Byten</value></data>
+  <data name="FilterCards" xml:space="preserve"><value>Kort</value></data>
+  <data name="FilterPossessions" xml:space="preserve"><value>Avslutade bollinnehav</value></data>
+  <data name="FilterAll" xml:space="preserve"><value>Alla ögonblick</value></data>
+  <data name="FilterPinned" xml:space="preserve"><value>Fästa</value></data>
+  <data name="LoadingHighlights" xml:space="preserve"><value>Laddar matchens höjdpunkter…</value></data>
+  <data name="RefreshingHighlights" xml:space="preserve"><value>Uppdaterar höjdpunkter…</value></data>
+  <data name="GoalNumber" xml:space="preserve"><value>Mål {0}</value></data>
+  <data name="ReportedAfterRelease" xml:space="preserve"><value>rapporterat efter publicering</value></data>
+  <data name="Assist" xml:space="preserve"><value>Assist · {0}</value></data>
+  <data name="ForPlayer" xml:space="preserve"><value>För {0}</value></data>
+  <data name="SourceReportedEvent" xml:space="preserve"><value>Händelse rapporterad av källan</value></data>
+  <data name="Decision" xml:space="preserve"><value>Beslut: {0}</value></data>
+  <data name="WatchGoal" xml:space="preserve"><value>▶ Se målet</value></data>
+  <data name="ExploreMoment" xml:space="preserve"><value>Utforska ögonblicket →</value></data>
+  <data name="HighlightClock" xml:space="preserve"><value>Repris {0} · {1}</value></data>
+  <data name="EligibleCompletion" xml:space="preserve"><value>tillgängligt avslut</value></data>
+  <data name="AuthoredRelease" xml:space="preserve"><value>skapad publicering</value></data>
+  <data name="PinLabel" xml:space="preserve"><value>Fäst {0}</value></data>
+  <data name="HighlightsBoundary" xml:space="preserve"><value>Rapporterade minuter och skapade repristider är skilda. Rapporter med samma publicering kommer in tillsammans; aktuella fakta nedan följer fortfarande din klocka.</value></data>
+  <data name="PlayersLabel" xml:space="preserve"><value>Spelare i valt reprisögonblick</value></data>
+  <data name="OnPitch" xml:space="preserve"><value>På planen</value></data>
+  <data name="ActiveSlots" xml:space="preserve"><value>{0} / 22 aktiva platser</value></data>
+  <data name="GeneratedRosterNote" xml:space="preserve"><value>Namn och tröjor från källan · Positionstilldelningarna är genererade</value></data>
+  <data name="RecordedRosterNote" xml:space="preserve"><value>Namn och tröjor från källan · Observationer, uppskattningar och luckor bevaras</value></data>
+  <data name="PositionsStillLoading" xml:space="preserve"><value>Spelarpositionerna laddas fortfarande.</value></data>
+  <data name="PositionUnavailable" xml:space="preserve"><value>position saknas</value></data>
+  <data name="IllustratedSlot" xml:space="preserve"><value>Illustrerad plats</value></data>
+  <data name="SourceSample" xml:space="preserve"><value>Källprov</value></data>
+  <data name="AllRoster" xml:space="preserve"><value>Alla {0} personer i truppen</value></data>
+  <data name="RosterNote" xml:space="preserve"><value>Trupptillhörighet är skild från aktiva positioner. Ingen taktisk roll härleds från tröjnumret.</value></data>
+  <data name="SelectedPlayer" xml:space="preserve"><value>Vald spelare</value></data>
+  <data name="PositionsLoadingNotCarried" xml:space="preserve"><value>Spelarpositionerna laddas fortfarande. Ingen tidigare position förs vidare.</value></data>
+  <data name="NotActiveSample" xml:space="preserve"><value>Saknas i det aktiva provet. Ingen tidigare position förs vidare.</value></data>
+  <data name="Coordinates" xml:space="preserve"><value>x {0} m · y {1} m · höjd {2}</value></data>
+  <data name="Unknown" xml:space="preserve"><value>okänd</value></data>
+  <data name="Observed" xml:space="preserve"><value>observerad</value></data>
+  <data name="Estimated" xml:space="preserve"><value>uppskattad</value></data>
+  <data name="Generated" xml:space="preserve"><value>genererad</value></data>
+  <data name="ReportedValue" xml:space="preserve"><value>rapporterad</value></data>
+  <data name="Present" xml:space="preserve"><value>finns</value></data>
+  <data name="Missing" xml:space="preserve"><value>saknas</value></data>
+  <data name="NotObserved" xml:space="preserve"><value>inte observerad</value></data>
+  <data name="Confirmed" xml:space="preserve"><value>bekräftat</value></data>
+  <data name="Unconfirmed" xml:space="preserve"><value>obekräftat</value></data>
+  <data name="Disallowed" xml:space="preserve"><value>bortdömt</value></data>
+  <data name="High" xml:space="preserve"><value>hög</value></data>
+  <data name="Medium" xml:space="preserve"><value>medel</value></data>
+  <data name="Low" xml:space="preserve"><value>låg</value></data>
+  <data name="CoverageNoSample" xml:space="preserve"><value>Inget bekräftat positionsprov vid den här tiden; positioner förs inte vidare över luckor.</value></data>
+  <data name="CoverageEmptyFrame" xml:space="preserve"><value>Uttryckligen tom spelarbild; oberoende bollunderlag bevaras.</value></data>
+  <data name="CoverageSourceSample" xml:space="preserve"><value>Källprov; ingen interpolering eller uppmätt rörelsestatistik.</value></data>
+  <data name="CoverageUnknown" xml:space="preserve"><value>Information om täckningen saknas för det här källtillståndet.</value></data>
+  <data name="GeneratedStats" xml:space="preserve"><value>Statistik för den genererade illustrationen</value></data>
+  <data name="AtAcceptedReplay" xml:space="preserve"><value>Vid godkänt reprisögonblick {0}</value></data>
+  <data name="StatsDescription" xml:space="preserve"><value>Beräknat från reprisens genererade händelser. Siffrorna beskriver illustrationen, inte den verkliga matchen.</value></data>
+  <data name="Team" xml:space="preserve"><value>Lag</value></data>
+  <data name="Passes" xml:space="preserve"><value>Passningar</value></data>
+  <data name="Completed" xml:space="preserve"><value>Lyckade</value></data>
+  <data name="Shots" xml:space="preserve"><value>Avslut</value></data>
+  <data name="IllustratedControl" xml:space="preserve"><value>Illustrerat bollinnehav</value></data>
+  <data name="ControlShare" xml:space="preserve"><value>Andel bollinnehav</value></data>
+  <data name="StatsNote" xml:space="preserve"><value>Bara avslutade händelser och bollinnehav räknas. Andelen använder {0} klassificerat bollinnehav hittills; oavslutade intervall, stopp, omstarter och okänd tid är uteslutna. — betyder att uppgift saknas.</value></data>
+  <data name="GeneratedInsight" xml:space="preserve"><value>Insikt från genererad repris</value></data>
+  <data name="InsightScope" xml:space="preserve"><value>Genererad repris · {0} · {1}</value></data>
+  <data name="AskAboutThis" xml:space="preserve"><value>Fråga om detta</value></data>
+  <data name="KindGoal" xml:space="preserve"><value>Mål</value></data>
+  <data name="KindSubstitution" xml:space="preserve"><value>Byte</value></data>
+  <data name="KindBooking" xml:space="preserve"><value>Varning</value></data>
+  <data name="KindCompletedPossession" xml:space="preserve"><value>Avslutat bollinnehav</value></data>
+  <data name="KindReportedEvent" xml:space="preserve"><value>Rapporterad händelse</value></data>
+  <data name="StepCorner" xml:space="preserve"><value>Hörna</value></data>
+  <data name="StepHeadedAssist" xml:space="preserve"><value>Nick tvärs över mål</value></data>
+  <data name="StepHeaderFinish" xml:space="preserve"><value>Nick från nära håll</value></data>
+  <data name="StepAdvance" xml:space="preserve"><value>Framryckning</value></data>
+  <data name="StepKeeperOut" xml:space="preserve"><value>Målvakten går ut</value></data>
+  <data name="StepUncertainGoalmouth" xml:space="preserve"><value>Oklart om passning eller räddning</value></data>
+  <data name="StepReportedFinish" xml:space="preserve"><value>Rapporterat avslut</value></data>
+  <data name="StepThrowIn" xml:space="preserve"><value>Inkast</value></data>
+  <data name="StepIntoArea" xml:space="preserve"><value>Aktion in i straffområdet</value></data>
+  <data name="StepReleasePass" xml:space="preserve"><value>Framspelning</value></data>
+  <data name="StepShot" xml:space="preserve"><value>Avslut</value></data>
+  <data name="StepSave" xml:space="preserve"><value>Räddning</value></data>
+  <data name="StepReboundFinish" xml:space="preserve"><value>Avslut på retur</value></data>
+  <data name="StepCross" xml:space="preserve"><value>Inlägg</value></data>
+  <data name="StepDeflection" xml:space="preserve"><value>Lätt styrning</value></data>
+  <data name="PitchGeneratedLabel" xml:space="preserve"><value>Illustrerade spelarpositioner. Händelsernas geometri är genererad; välj en spelare i truppen.</value></data>
+  <data name="PitchObservedLabel" xml:space="preserve"><value>Spelarpositioner. Hemmalag rött, bortalag blått. Välj en namngiven spelare eller använd truppen.</value></data>
+  <data name="PlayerPositionLabel" xml:space="preserve"><value>{0}, {1} position, {2}</value></data>
+  <data name="BallDetails" xml:space="preserve"><value>Boll · {0} · {1}</value></data>
+  <data name="PreparingMoment" xml:space="preserve"><value>Förbereder reprisögonblicket…</value></data>
+  <data name="TrackingGap" xml:space="preserve"><value>Lucka i positionsdata</value></data>
+  <data name="SelectedGoal" xml:space="preserve"><value>Valt mål</value></data>
+  <data name="SelectedSubstitution" xml:space="preserve"><value>Valt byte</value></data>
+  <data name="SelectedBooking" xml:space="preserve"><value>Vald varning</value></data>
+  <data name="SelectedPossession" xml:space="preserve"><value>Valt avslutat bollinnehav</value></data>
+  <data name="SequenceEvidenceLimits" xml:space="preserve"><value>Sekvensens underlag och begränsningar</value></data>
+  <data name="SequenceLimits" xml:space="preserve"><value>Positioner och tid är illustrativa. Okända identiteter och bollkontakter förblir okända.</value></data>
+  <data name="CompletedInterval" xml:space="preserve"><value>Avslutat bollinnehav · {0}–{1} · inte bollinnehav just nu.</value></data>
+  <data name="IllustrativeLegend" xml:space="preserve"><value>Illustrerade positioner · inga uppmätta rörelsebanor</value></data>
+  <data name="GeneratedMotionLegend" xml:space="preserve"><value>Genererade positioner · mjuka övergångar mellan godkända bildrutor vid uppspelning · inte uppmätta rörelser</value></data>
+  <data name="GeneratedMotionCoverage" xml:space="preserve"><value>Genererade reprisrörelser. Mjuka övergångar ändrar inte den godkända repristiden eller matchunderlaget.</value></data>
+  <data name="ObservationLegend" xml:space="preserve"><value>Heldragen = observerad · streckad = uppskattad/genererad · fyrkant = okänd metod</value></data>
+  <data name="BallLegend" xml:space="preserve"><value>Boll: {0} / {1}</value></data>
+  <data name="NoSample" xml:space="preserve"><value>inget prov</value></data>
+  <data name="NoCurrentPosition" xml:space="preserve"><value>Inget aktuellt positionsprov är tillgängligt.</value></data>
+  <data name="EventEvidenceLoading" xml:space="preserve"><value>Händelseunderlaget laddas; neutrala illustrerade positioner. Använd Uppdatera för att försöka igen.</value></data>
+  <data name="NeutralPlay" xml:space="preserve"><value>Neutralt illustrerat spel. Välj ett mål för att utforska sekvensens underlag.</value></data>
+  <data name="SubstitutionsCaption" xml:space="preserve"><value>Byten · {0} rapporterade byten under den här minuten; ordningen är okänd.</value></data>
+  <data name="Goalkeeper" xml:space="preserve"><value>{0}s målvakt</value></data>
+  <data name="DiagramCaption" xml:space="preserve"><value>{0} {1} · frågat vid repris {2}</value></data>
+  <data name="Interval" xml:space="preserve"><value>Intervall</value></data>
+  <data name="Reported" xml:space="preserve"><value>Rapporterat</value></data>
+  <data name="ShowOnPitch" xml:space="preserve"><value>Visa på planen</value></data>
+  <data name="GoalDiagramLabel" xml:space="preserve"><value>Numrerad illustration av den rapporterade målsekvensen; stegen följer nedan.</value></data>
+  <data name="ReportedSequence" xml:space="preserve"><value>Illustration av den rapporterade sekvensen</value></data>
+  <data name="Off" xml:space="preserve"><value>Ut</value></data>
+  <data name="On" xml:space="preserve"><value>In</value></data>
+  <data name="PlayerUnconfirmed" xml:space="preserve"><value>Spelaren är obekräftad</value></data>
+  <data name="SubstitutionDiagramNote" xml:space="preserve"><value>Rapporterat spelarbyte. Byten under samma minut har ingen känd inbördes ordning eller rörelsebana.</value></data>
+  <data name="ReportedBooking" xml:space="preserve"><value>Rapporterad varning</value></data>
+  <data name="BookingDiagramNote" xml:space="preserve"><value>Den rapporterade orsaken återskapar inte en tackling eller dess plats.</value></data>
+  <data name="PointAnnotation" xml:space="preserve"><value>Punktnotering · inte bollinnehav just nu</value></data>
+  <data name="CompletedSourceInterval" xml:space="preserve"><value>Avslutat källintervall · inte bollinnehav just nu</value></data>
+  <data name="PossessionDiagramNote" xml:space="preserve"><value>Intervallets ändpunkter följer källnoteringen; detta är ett tidsdiagram, inte en rörelsebana.</value></data>
+  <data name="ActorUnconfirmed" xml:space="preserve"><value> · aktören är obekräftad</value></data>
+  <data name="RelatedParticipant" xml:space="preserve"><value>Relaterad deltagare: {0}</value></data>
+  <data name="SequenceSources" xml:space="preserve"><value>Sekvensens källor</value></data>
+  <data name="SchematicLabel" xml:space="preserve"><value>Illustrativ händelsebana och bollkontakt; spelaridentiteter följer källan.</value></data>
+  <data name="Loading" xml:space="preserve"><value>Laddar…</value></data>
+  <data name="ChatLabel" xml:space="preserve"><value>Matchkonversation</value></data>
+  <data name="ChatEyebrow" xml:space="preserve"><value>Ett samtal med matchen</value></data>
+  <data name="ChatHeading" xml:space="preserve"><value>Prata om det här ögonblicket.</value></data>
+  <data name="NewChat" xml:space="preserve"><value>Ny chatt</value></data>
+  <data name="SelectionClock" xml:space="preserve"><value>{0} {1} · repris {2}</value></data>
+  <data name="GoalSelectionNote" xml:space="preserve"><value>Målfrågor använder det här retrospektiva valet. Svar om matchen hittills och ställningen följer reprisögonblicket.</value></data>
+  <data name="EventSelectionNote" xml:space="preserve"><value>Händelsen måste vara tillgänglig vid reprisögonblicket. Svar om ställning och spelare behåller sin aktuella omfattning.</value></data>
+  <data name="BackReplayMoment" xml:space="preserve"><value>Tillbaka till reprisögonblicket</value></data>
+  <data name="ChatThread" xml:space="preserve"><value>Matchens chattråd</value></data>
+  <data name="ChatWaiting" xml:space="preserve"><value>Väntar på ett verifierat reprisögonblick. Tidigare svar visas när sammanhanget är klart.</value></data>
+  <data name="ChatEmpty" xml:space="preserve"><value>En fråga om det här ögonblicket? Börja nedan eller skriv en egen.</value></data>
+  <data name="You" xml:space="preserve"><value>Du</value></data>
+  <data name="AskedAt" xml:space="preserve"><value>Frågat vid repris {0} · {1} · {2} · {3}</value></data>
+  <data name="SourceAnswer" xml:space="preserve"><value>Svar från källan</value></data>
+  <data name="MatchmateAi" xml:space="preserve"><value>Matchmate · AI</value></data>
+  <data name="SelectionWhenAsked" xml:space="preserve"><value>Val vid frågan · rapporterat {0} · repris {1}</value></data>
+  <data name="AnswerSelectionScope" xml:space="preserve"><value>{0} · {1} · repris {2} · {3}</value></data>
+  <data name="Retrospective" xml:space="preserve"><value>retrospektivt</value></data>
+  <data name="EligibleEvent" xml:space="preserve"><value>tillgänglig händelse</value></data>
+  <data name="ReplayMomentScope" xml:space="preserve"><value>Reprisögonblick · {0}</value></data>
+  <data name="SupportingEvidence" xml:space="preserve"><value>Stödjande underlag {0}</value></data>
+  <data name="EvidenceTool" xml:space="preserve"><value>Underlag · {0}</value></data>
+  <data name="CheckingEvidence" xml:space="preserve"><value>Kontrollerar aktuellt källunderlag…</value></data>
+  <data name="Cancel" xml:space="preserve"><value>Avbryt</value></data>
+  <data name="SourceQuestions" xml:space="preserve"><value>Källfrågor</value></data>
+  <data name="EventQuestions" xml:space="preserve"><value>Händelsefrågor</value></data>
+  <data name="AskMatch" xml:space="preserve"><value>Fråga matchen</value></data>
+  <data name="ClarifyPlaceholder" xml:space="preserve"><value>Förtydliga spelaren eller om du menar repris/direkt…</value></data>
+  <data name="AskPlaceholder" xml:space="preserve"><value>Fråga om ögonblicket eller följ upp…</value></data>
+  <data name="AskMatchmate" xml:space="preserve"><value>Fråga Matchmate</value></data>
+  <data name="ChatDisclosure" xml:space="preserve"><value>Källsvar använder tillgängligt underlag; AI-svar kan vara felaktiga. Tillfällig historik finns kvar under den här inloggningen. Ny chatt rensar den.</value></data>
+  <data name="ChatUpdating" xml:space="preserve"><value>Reprissammanhanget uppdateras eller är otillgängligt. Tidigare svar behåller sina tidsetiketter.</value></data>
+  <data name="ChatDisconnected" xml:space="preserve"><value>AI-följdfrågor är inte anslutna. Källfrågorna finns här.</value></data>
+  <data name="ChatReady" xml:space="preserve"><value>Ändringar i reprisen avbryter väntande svar; tidigare svar behåller sina tidsetiketter.</value></data>
+  <data name="FeedbackClarify" xml:space="preserve"><value>Förtydligande</value></data>
+  <data name="FeedbackUnsupported" xml:space="preserve"><value>Stöds inte</value></data>
+  <data name="FeedbackUnavailable" xml:space="preserve"><value>Otillgängligt</value></data>
+  <data name="AudienceChanged" xml:space="preserve"><value>Nu används förklaringar för {0}. {1}</value></data>
+  <data name="LanguageChanged" xml:space="preserve"><value>Språket är nu {0}. {1}</value></data>
+  <data name="PendingCancelledDraft" xml:space="preserve"><value>Väntande svar avbrutet; utkastet finns kvar.</value></data>
+  <data name="EarlierStyleKept" xml:space="preserve"><value>Tidigare svar behåller sin ursprungliga stil.</value></data>
+  <data name="EarlierLanguageKept" xml:space="preserve"><value>Tidigare svar behåller sitt ursprungliga språk.</value></data>
+  <data name="DraftKept" xml:space="preserve"><value>Din nuvarande fråga finns kvar. Skicka eller rensa den innan du förbereder en ny.</value></data>
+  <data name="QuestionReady" xml:space="preserve"><value>Frågan är klar. Skicka den när du vill.</value></data>
+  <data name="VisualGoalQuestion" xml:space="preserve"><value>Visa hur det här målet kom till</value></data>
+  <data name="VisualSubstitutionQuestion" xml:space="preserve"><value>Visa det här bytet i ett diagram</value></data>
+  <data name="VisualBookingQuestion" xml:space="preserve"><value>Visa den här varningen i ett diagram</value></data>
+  <data name="VisualPossessionQuestion" xml:space="preserve"><value>Visa det här avslutade bollinnehavet i ett diagram</value></data>
+  <data name="ReplyCancelled" xml:space="preserve"><value>Svaret avbröts.</value></data>
+  <data name="NewChatNotice" xml:space="preserve"><value>Ny chatt. Tidigare frågor och svar har rensats.</value></data>
+  <data name="ShotQuestion" xml:space="preserve"><value>Visa avslut för båda lagen i den här genererade reprisen</value></data>
+  <data name="PassQuestion" xml:space="preserve"><value>Visa passningsträffsäkerhet för båda lagen i reprisen</value></data>
+  <data name="ControlQuestion" xml:space="preserve"><value>Visa bollinnehavsstatistik för båda lagen i reprisen</value></data>
+  <data name="InsightControlNote" xml:space="preserve"><value>Bollinnehavet använder {0} avslutade intervall; pauser, omstarter, okänd tid och oavslutade intervall är uteslutna.</value></data>
+  <data name="DurationMinutes" xml:space="preserve"><value>{0} min</value></data>
+  <data name="DurationMinutesSeconds" xml:space="preserve"><value>{0} min {1} sek</value></data>
+  <data name="InsightShotHeadline" xml:space="preserve"><value>Jämnt bollinnehav. Ojämnt med avslut.</value></data>
+  <data name="InsightShotAnalyst" xml:space="preserve"><value>{0} har {1}; {2} har inga avslut. Det illustrerade bollinnehavet är jämnt ({3} / {4}), men bollinnehav och avslut mäter olika saker.</value></data>
+  <data name="InsightShotFan" xml:space="preserve"><value>Det illustrerade bollinnehavet är nästan jämnt, men {0} står för {1}; {2} har inga avslut. Bollinnehav och avslut mäter olika saker.</value></data>
+  <data name="AShot" xml:space="preserve"><value>ett avslut</value></data>
+  <data name="ShotsCount" xml:space="preserve"><value>{0} avslut</value></data>
+  <data name="OnlyShot" xml:space="preserve"><value>det enda avslutet</value></data>
+  <data name="AllShots" xml:space="preserve"><value>alla {0} avslut</value></data>
+  <data name="InsightPassHeadline" xml:space="preserve"><value>Säkrare passningar hittills</value></data>
+  <data name="InsightPassAnalyst" xml:space="preserve"><value>{0} har lyckats med {1} av {2} passningar ({3}); {4}, {5} av {6} ({7}). Den högre andelen betyder att fler passningsförsök lyckas i illustrationen; den mäter inte svårighetsgraden.</value></data>
+  <data name="InsightPassFan" xml:space="preserve"><value>{0} lyckas med en större andel av sina passningsförsök i illustrationen. Jämförelsen gäller träffsäkerhet, inte totalt antal passningar, och mäter inte svårighetsgraden.</value></data>
+  <data name="InsightBalancedHeadline" xml:space="preserve"><value>Inte mycket skiljer dem åt</value></data>
+  <data name="InsightBalancedAnalyst" xml:space="preserve"><value>{0} har {1} av det illustrerade bollinnehavet; {2}, {3}. Inget lag har något större övertag enligt det här måttet.</value></data>
+  <data name="InsightBalancedFan" xml:space="preserve"><value>Det illustrerade bollinnehavet är nästan jämnt mellan {0} och {1}. Inget lag har något större övertag enligt det här måttet.</value></data>
+  <data name="StatusWaiting" xml:space="preserve"><value>Väntar på gemensamma fotbollsdatapaket…</value></data>
+  <data name="StatusLoadingIndex" xml:space="preserve"><value>Laddar det retrospektiva indexet…</value></data>
+  <data name="StatusReplayReady" xml:space="preserve"><value>Reprisen är klar.</value></data>
+  <data name="StatusLoadingRecording" xml:space="preserve"><value>Laddar inspelningen…</value></data>
+  <data name="StatusNoRecordings" xml:space="preserve"><value>Inga matchinspelningar är tillgängliga. Tekniska exempel visas nedan.</value></data>
+  <data name="StatusNotInCatalog" xml:space="preserve"><value>Inspelningen finns inte i den aktuella katalogen. Välj en tillgänglig inspelning.</value></data>
+  <data name="StatusNoBatch" xml:space="preserve"><value>Inget gemensamt datapaket går att läsa ännu. Den första fullständiga lokala importen kan ta cirka tre minuter; uppdatera när Worker är klar.</value></data>
+  <data name="StatusApiUnavailable" xml:space="preserve"><value>Det gemensamma API:et är otillgängligt. Uppdatera när Worker är klar.</value></data>
+  <data name="StatusLoadingStream" xml:space="preserve"><value>Laddar den gemensamma strömmen…</value></data>
+  <data name="StatusAdvancedIndex" xml:space="preserve"><value>Inspelningen uppdaterades medan indexet laddades. Försöker automatiskt igen; reprisen är fortfarande tillgänglig.</value></data>
+  <data name="StatusIndexUnavailable" xml:space="preserve"><value>Det retrospektiva indexet är otillgängligt. Försöker automatiskt igen; använd Uppdatera för att försöka manuellt.</value></data>
+  <data name="StatusImporting" xml:space="preserve"><value>Inspelningen importeras. Det retrospektiva indexet visar bekräftade datapaket och uppdateras automatiskt.</value></data>
+  <data name="StatusNoEvents" xml:space="preserve"><value>Inga rapporterade händelser finns i inspelningen.</value></data>
+  <data name="StatusWaitingIndex" xml:space="preserve"><value>Väntar på den valda inspelningens bekräftade index. Försöker automatiskt igen.</value></data>
+  <data name="StatusChangedIndex" xml:space="preserve"><value>Reprisen ändrades medan indexet uppdaterades. Försöker igen vid ditt aktuella ögonblick.</value></data>
+  <data name="StatusStillPreparing" xml:space="preserve"><value>Inspelningen förbereds fortfarande. Höjdpunkterna försöker automatiskt igen.</value></data>
+  <data name="StatusRefreshUnavailable" xml:space="preserve"><value>Indexuppdateringen är otillgänglig. Försöker automatiskt igen; använd Uppdatera för att försöka manuellt.</value></data>
+  <data name="StatusRetryLimit" xml:space="preserve"><value>Den automatiska indexuppdateringen pausades efter max antal försök. Importen kan fortfarande pågå; använd Uppdatera för att försöka igen.</value></data>
+  <data name="StatusUpdatingAccepted" xml:space="preserve"><value>Uppdaterar… Visar godkänt reprisögonblick {0} tills det nya är klart.</value></data>
+  <data name="StatusLoadingContext" xml:space="preserve"><value>Laddar reprissammanhanget…</value></data>
+  <data name="StatusContextFailed" xml:space="preserve"><value>Sammanhanget går inte att ladda. Uppspelningen är pausad; uppdatera om versionen har ändrats.</value></data>
+  <data name="StatusPeriodBoundary" xml:space="preserve"><value>Halvtid / periodgräns. Fortsätt när du vill.</value></data>
+  <data name="StatusStaleDiagram" xml:space="preserve"><value>Händelsediagrammet är inte längre aktuellt. Fråga igen från ett klart reprisögonblick.</value></data>
+  <data name="StatusRecordingChanged" xml:space="preserve"><value>Inspelningen ändrades. Indexet uppdateras; använd Uppdatera för att försöka manuellt.</value></data>
+  <data name="StatusUnavailable" xml:space="preserve"><value>Statusinformation saknas. Försök med Uppdatera.</value></data>
+  <data name="DiagramGoalTitle" xml:space="preserve"><value>Så gick målet till</value></data>
+  <data name="DiagramSubstitutionTitle" xml:space="preserve"><value>Spelarbytet</value></data>
+  <data name="DiagramBookingTitle" xml:space="preserve"><value>Den rapporterade varningen</value></data>
+  <data name="DiagramPossessionTitle" xml:space="preserve"><value>Avslutat bollinnehavsintervall</value></data>
+  <data name="CompletedPossessionCaption" xml:space="preserve"><value>Avslutat bollinnehav · {0} · {1}–{2} · inte bollinnehav just nu.</value></data>
+  <data name="FilterCard" xml:space="preserve"><value>Kort</value></data>
+  <data name="SourceAnnotationEnglish" xml:space="preserve"><value>Källanteckning (engelska)</value></data>
+  <data name="GeneratedDistanceLabel" xml:space="preserve"><value>Genererad distans i reprisen</value></data>
+  <data name="GeneratedDistanceExplanation" xml:space="preserve"><value>Rörelse i den genererade reprisen, inte faktiskt löpt distans. Luckor och hopp räknas bort; summan omfattar bara godkända rörelseprover.</value></data>
+  <data name="GeneratedDistanceCompact" xml:space="preserve"><value>Genererat · {0}</value></data>
+  <data name="GeneratedDistanceMetres" xml:space="preserve"><value>{0} m</value></data>
+  <data name="GeneratedDistanceUnavailable" xml:space="preserve"><value>Ingen genererad rörelse ännu</value></data>
+  <data name="RosterPlayers" xml:space="preserve"><value>Spelare</value></data>
+  <data name="CurrentOnPitch" xml:space="preserve"><value>{0} / 22 på planen</value></data>
+  <data name="RosterPlayerColumn" xml:space="preserve"><value>Spelare / rollkälla</value></data>
+  <data name="RosterOffPitch" xml:space="preserve"><value>Utanför planen i reprisen</value></data>
+  <data name="GeneratedDistanceColumn" xml:space="preserve"><value>Genererade m</value></data>
+  <data name="SortDistanceAscending" xml:space="preserve"><value>{0}: sortera genererad repristräcka från kortast till längst</value></data>
+  <data name="SortDistanceDescending" xml:space="preserve"><value>{0}: sortera genererad repristräcka från längst till kortast</value></data>
+  <data name="RoleUnverified" xml:space="preserve"><value>Rollen ej verifierad</value></data>
+  <data name="RoleWithScope" xml:space="preserve"><value>{0} · {1}</value></data>
+  <data name="RoleGoalkeeper" xml:space="preserve"><value>Målvakt</value></data>
+  <data name="RoleDefender" xml:space="preserve"><value>Försvarare</value></data>
+  <data name="RoleMidfielder" xml:space="preserve"><value>Mittfältare</value></data>
+  <data name="RoleMidfield" xml:space="preserve"><value>Mittfält</value></data>
+  <data name="RoleWinger" xml:space="preserve"><value>Ytter</value></data>
+  <data name="RoleForward" xml:space="preserve"><value>Anfallare</value></data>
+  <data name="RoleStriker" xml:space="preserve"><value>Central anfallare</value></data>
+  <data name="RoleRightBack" xml:space="preserve"><value>Högerback</value></data>
+  <data name="RoleStartingPosition" xml:space="preserve"><value>Startposition</value></data>
+  <data name="RoleStartingLine" xml:space="preserve"><value>Lagdel vid start</value></data>
+  <data name="RoleListedCategory" xml:space="preserve"><value>Listad kategori</value></data>
+  <data name="RoleReportDescription" xml:space="preserve"><value>Beskrivning i matchreferat</value></data>
+  <data name="RoleSourcePremierLeague" xml:space="preserve"><value>Premier Leagues laguppställning</value></data>
+  <data name="RoleSourceBrentford" xml:space="preserve"><value>Brentfords matchreferat</value></data>
+  <data name="RoleEvidenceBoundary" xml:space="preserve"><value>Källans beskrivning för den här matchen, inte en tidsatt historik över spelarens roll. Reprisens rörelser genereras separat.</value></data>
+  <data name="GeneratedDistanceShortExplanation" xml:space="preserve"><value>Genererad rörelse, inte verklig löpsträcka.</value></data>
+  <data name="SelectedPlayerDetails" xml:space="preserve"><value>Källa och reprisdetaljer</value></data>
+  <data name="WorkspaceEyebrow" xml:space="preserve"><value>Din Matchmate</value></data>
+  <data name="WorkspaceConversation" xml:space="preserve"><value>Samtal</value></data>
+  <data name="WorkspacePaneLabel" xml:space="preserve"><value>Vid planen</value></data>
+  <data name="WorkspaceExplainMoment" xml:space="preserve"><value>Vad har hänt?</value></data>
+  <data name="WorkspaceAskPlayer" xml:space="preserve"><value>Fråga om {0}</value></data>
+  <data name="WorkspaceEmpty" xml:space="preserve"><value>Skriv en fråga ovanför planen eller välj ett förslag.</value></data>
+  <data name="WorkspaceIntro" xml:space="preserve"><value>Hej, jag är Matchmate. Vad blev du nyfiken på i matchen?</value></data>
+  <data name="WorkspaceWelcomeHeading" xml:space="preserve"><value>Ska vi prata fotboll?</value></data>
+  <data name="WorkspaceWelcomeEvent" xml:space="preserve"><value>Vi kan titta närmare på det valda ögonblicket tillsammans.</value></data>
+  <data name="WorkspaceWelcomePlayer" xml:space="preserve"><value>Vi kan utforska vad matchunderlaget visar om {0}.</value></data>
+  <data name="WorkspaceWelcomeMatch" xml:space="preserve"><value>Vi kan utforska {0} tillsammans, en fråga i taget.</value></data>
+  <data name="RecapHalfTime" xml:space="preserve"><value>Halvtidssummering</value></data>
+  <data name="RecapFullTime" xml:space="preserve"><value>Matchsummering</value></data>
+  <data name="RecapScope" xml:space="preserve"><value>Matchklocka {0} · {1} · automatisk summering</value></data>
+  <data name="RecapScore" xml:space="preserve"><value>{0} {1}–{2} {3}.</value></data>
+  <data name="RecapReported" xml:space="preserve"><value>Rapporterad ställning: {0} {1}</value></data>
+  <data name="RecapGoals" xml:space="preserve"><value>Rapporterade mål: {0}.</value></data>
+  <data name="RecapScorer" xml:space="preserve"><value>{0} ({1})</value></data>
+  <data name="RecapNoGoals" xml:space="preserve"><value>Inga rapporterade mål hittills.</value></data>
+  <data name="RecapEvents" xml:space="preserve"><value>Tillgängliga rapporter omfattar även {0} varningar och {1} byten.</value></data>
+  <data name="RecapGeneratedAnalyst" xml:space="preserve"><value>Enbart genererad repris: {0} slog {1}/{2} passningar rätt ({3}), med {4} skott och {5} av klassificerad bollkontroll; {6} slog {7}/{8} passningar rätt ({9}), med {10} skott och {11} av klassificerad bollkontroll.</value></data>
+  <data name="RecapGeneratedFan" xml:space="preserve"><value>I den genererade reprisen hade {0} {1}</value></data>
+  <data name="RecapShotsLevel" xml:space="preserve"><value>lagen lika många skott.</value></data>
+  <data name="RecapShotsLead" xml:space="preserve"><value>{0} fler skott.</value></data>
+  <data name="RecapControlLevel" xml:space="preserve"><value>Den klassificerade bollkontrollen var ungefär jämnt fördelad.</value></data>
+  <data name="RecapControlLead" xml:space="preserve"><value>{0} hade mer klassificerad bollkontroll.</value></data>
+  <data name="RecapControlUnavailable" xml:space="preserve"><value>Klassificerad bollkontroll saknas.</value></data>
+  <data name="RecapUnavailable" xml:space="preserve"><value>saknas</value></data>
+  <data name="RecapControlNote" xml:space="preserve"><value>Den genererade statistiken mäter inte den verkliga matchen. Bollkontrollen omfattar {0} avslutade klassificerade sekvenser; oavslutade sekvenser, uppehåll, omstarter och okänd tid ingår inte. Underlag till reprisklocka {1}.</value></data>
+  <data name="RecapAsk" xml:space="preserve"><value>Fråga om summeringen</value></data>
+  <data name="RecapHalfTimeQuestion" xml:space="preserve"><value>Förklara halvtidssummeringen utifrån den rapporterade ställningen och den genererade reprisstatistiken.</value></data>
+  <data name="RecapFullTimeQuestion" xml:space="preserve"><value>Förklara matchsummeringen utifrån den rapporterade ställningen och den genererade reprisstatistiken.</value></data>
+  <data name="IncomingSyntheticDemo" xml:space="preserve"><value>Demo med inkommande syntetiska data</value></data>
+  <data name="HalftimeTransition" xml:space="preserve"><value>Halvtid · genererad övergång · klockan pausad</value></data>
+  <data name="KindRedCard" xml:space="preserve"><value>Rött kort</value></data>
+  <data name="KindVarDecision" xml:space="preserve"><value>VAR-beslut</value></data>
+  <data name="StraightRed" xml:space="preserve"><value>direkt rött kort</value></data>
+  <data name="SecondYellow" xml:space="preserve"><value>andra gula kortet</value></data>
+  <data name="NoPenalty" xml:space="preserve"><value>ingen straff</value></data>
+  <data name="CardUpgraded" xml:space="preserve"><value>kortet uppgraderat</value></data>
+  <data name="GeneratedMovementSource" xml:space="preserve"><value>Genererad illustration med källrapporterade händelser. Rörelser, exakt iscensättning och halvtidens längd är skapade, inte observerade.</value></data>
+  <data name="StepReportedAssist" xml:space="preserve"><value>Rapporterad assist</value></data>
+  <data name="VisualRedCardQuestion" xml:space="preserve"><value>Visa det röda kortet i ett diagram</value></data>
+  <data name="SelectedDismissal" xml:space="preserve"><value>Vald utvisning</value></data>
+  <data name="DiagramDismissalTitle" xml:space="preserve"><value>Den rapporterade utvisningen</value></data>
+  <data name="DismissalDiagramNote" xml:space="preserve"><value>Den rapporterade utvisningen och orsaken återskapar inte en tackling eller domarens position.</value></data>
+  <data name="DismissalAnnotationNote" xml:space="preserve"><value>Händelsemarkering · ingen spelarposition</value></data>
+  <data name="SourceNotes" xml:space="preserve"><value>Källanteckningar</value></data>
+  <data name="SourceNoteOriginalEnglish" xml:space="preserve"><value>Engelskt original · översättning saknas</value></data>
+  <data name="ShowOriginalSourceNotes" xml:space="preserve"><value>Visa original</value></data>
+  <data name="SourceNoteSteps" xml:space="preserve"><value>Steg {0}</value></data>
+  <data name="FullMatchSpoilerWarning" xml:space="preserve"><value>Hela matchen i efterhand · avslöjar senare händelser</value></data>
+  <data name="ReportedStats" xml:space="preserve"><value>Rapporterade matchhändelser</value></data>
+  <data name="ReportedStatsDescription" xml:space="preserve"><value>Mål, kort och byten räknade från källrapporter som blivit tillgängliga i uppspelningen. Passningar, skott och bollinnehav saknas.</value></data>
+  <data name="ReportedYellows" xml:space="preserve"><value>Gula kort</value></data>
+  <data name="ReportedReds" xml:space="preserve"><value>Röda kort</value></data>
+  <data name="ReportedPanelNote" xml:space="preserve"><value>Siffrorna gäller rapporter som finns vid den här punkten i uppspelningen, inte alla händelser eller uppmätt matchstatistik. En utvisning efter andra gula räknas som en rapport om rött kort; ytterligare ett gult räknas bara om det rapporterats separat. VAR-granskningar ger inga extra kort.</value></data>
+  <data name="ReportedInsight" xml:space="preserve"><value>Insikt från matchrapporter</value></data>
+  <data name="ReportedInsightScope" xml:space="preserve"><value>Matchrapporter · uppspelning {0} · {1}</value></data>
+  <data name="ReportedInsightLead" xml:space="preserve"><value>{0} leder enligt målrapporterna</value></data>
+  <data name="ReportedInsightLevel" xml:space="preserve"><value>Lika enligt målrapporterna</value></data>
+  <data name="ReportedDismissals" xml:space="preserve"><value>{0}: rapporterade utvisningar {1}.</value></data>
+  <data name="ReportedInsightCounts" xml:space="preserve"><value>Tillgängliga rapporter: {0}; gula kort: {1}; byten: {2}.</value></data>
+  <data name="ReportedInsightQuestion" xml:space="preserve"><value>Förklara ställningen och korten utifrån rapporterna vid den här punkten i uppspelningen.</value></data>
+  <data name="ReportedRecapScope" xml:space="preserve"><value>Matchrapporter · matchklocka {0} · {1} · automatisk sammanfattning</value></data>
+  <data name="ReportedRecapTeamFan" xml:space="preserve"><value>{0}: gula kort {1}, röda kort {2} och byten {3}.</value></data>
+  <data name="ReportedRecapTeamAnalyst" xml:space="preserve"><value>{0} — rapporterade gula: {1}; röda: {2}; byten: {3}.</value></data>
+  <data name="ReportedHalfTimeNote" xml:space="preserve"><value>Underlag till och med uppspelning {0}, inklusive rapporterade byten i halvtid. Tiderna följer den skapade uppspelningen; exakta sekunder för avblåsning och händelser är inte verifierade.</value></data>
+  <data name="ReportedFullTimeNote" xml:space="preserve"><value>Underlag till slutet av den skapade uppspelningen vid {0}. Exakta sekunder för avblåsning och händelser saknas.</value></data>
+  <data name="ReportedHalfTimeQuestion" xml:space="preserve"><value>Förklara halvtidssammanfattningen utifrån rapporterade mål, kort och byten, inklusive byten i halvtid.</value></data>
+  <data name="ReportedFullTimeQuestion" xml:space="preserve"><value>Förklara sammanfattningen efter slutsignal utifrån rapporterade mål, kort och byten.</value></data>
+  <data name="ReportedPanelCoverage" xml:space="preserve"><value>Utifrån rapporterna vid den här punkten i uppspelningen. Underlaget kan vara ofullständigt; siffrorna mäter varken bollinnehav eller lagens prestation.</value></data>
+  <data name="StoryHeading" xml:space="preserve"><value>Matchens förlopp</value></data>
+  <data name="StoryGenerated" xml:space="preserve"><value>Genererad repris</value></data>
+  <data name="StoryEmpty" xml:space="preserve"><value>Inga avslutade sekvenser vid den här repristiden ännu.</value></data>
+  <data name="StoryEarlier" xml:space="preserve"><value>Tidigare sekvenser ({0})</value></data>
+  <data name="StorySummary" xml:space="preserve"><value>{0} lyckade passningar → {1}</value></data>
+  <data name="StoryTurnover" xml:space="preserve"><value>bolltapp</value></data>
+  <data name="StoryShot" xml:space="preserve"><value>skott</value></data>
+  <data name="StoryPeriodEnd" xml:space="preserve"><value>periodslut</value></data>
+  <data name="StoryControlEnd" xml:space="preserve"><value>bollinnehavet avslutas</value></data>
+  <data name="StoryInterval" xml:space="preserve"><value>{0}–{1}</value></data>
+  <data name="StoryAsk" xml:space="preserve"><value>Fråga om det här</value></data>
+  <data name="StoryAskLabel" xml:space="preserve"><value>Fråga om {0}, {1}</value></data>
+  <data name="StoryQuestion" xml:space="preserve"><value>Vad hände i {0}s genererade sekvens vid {1}?</value></data>
+  <data name="StoryPreparedQuestion" xml:space="preserve"><value>Vad hände i den här valda genererade sekvensen?</value></data>
+  <data name="StoryAnswer" xml:space="preserve"><value>I den här genererade reprisen varade {0}s sekvens vid {1} i {5:0.#} sekunder: {2} av {3} passningar lyckades och {4} skott registrerades. Den slutade med {6}.</value></data>
+  <data name="StoryAnswerLimit" xml:space="preserve"><value>Beräknat från genererade reprisaktioner för just den här sekvensen, inte uppmätt matchprestation.</value></data>
+  <data name="StoryUnavailable" xml:space="preserve"><value>Den genererade sekvensen är inte tillgänglig eller har ändrats. Välj den igen i den inlästa reprisen.</value></data>
+  <data name="StoryReplyReady" xml:space="preserve"><value>Svaret bygger på den valda genererade sekvensen.</value></data>
+  <data name="StorySelected" xml:space="preserve"><value>Vald sekvens</value></data>
+  <data name="StorySelectedScope" xml:space="preserve"><value>Frågorna gäller bara den här genererade sekvensen. Gå tillbaka till matchen för andra frågor.</value></data>
+  <data name="StoryReplayInterval" xml:space="preserve"><value>Reprisintervall {0}–{1}</value></data>
+  <data name="StoryBackMatch" xml:space="preserve"><value>Tillbaka till matchen</value></data>
+  <data name="StoryWelcome" xml:space="preserve"><value>Fråga om den valda sekvensens passningar, skott, längd eller avslut.</value></data>
+  <data name="StoryReady" xml:space="preserve"><value>Redo att svara om den valda sekvensen.</value></data>
+  <data name="StorySummaryOne" xml:space="preserve"><value>{0} lyckad passning → {1}</value></data>
+  <data name="StoryUnsupportedTactics" xml:space="preserve"><value>Den här genererade sekvensen visar inte varför det hände eller verklig matchtaktik.</value></data>
+  <data name="StoryUnsupportedMovement" xml:space="preserve"><value>Hastighet och sträcka är inte tillgängliga för den här genererade sekvensen.</value></data>
+  <data name="StoryUnsupportedRating" xml:space="preserve"><value>Den här genererade sekvensen kan inte ligga till grund för ett spelarbetyg eller en verklig matchprestation.</value></data>
+  <data name="StoryUnsupportedActual" xml:space="preserve"><value>Verklig matchstatistik är inte tillgänglig för den här sekvensen. Aktionerna är genererade.</value></data>
+  <data name="ReportedStatsWithGeneratedDescription" xml:space="preserve"><value>Den här tabellen räknar rapporterade mål, kort och byten. Den separata genererade tabellen beskriver illustrationen; den mäter inte matchen.</value></data>
+</root>

@@ -1,0 +1,11 @@
+.illustration-statistics { margin-top: 1.5rem; padding: 1.25rem; border: 1px solid #e0e3d8; border-radius: 1rem; background: #fff; }
+.statistics-heading { display: flex; align-items: baseline; justify-content: space-between; gap: .75rem; flex-wrap: wrap; }
+.statistics-heading h2 { margin: 0; font-size: 1.2rem; }
+.statistics-heading span, .statistics-note, td span { color: #6b7669; font-size: .85rem; }
+.illustration-statistics p { line-height: 1.5; }
+.statistics-table { overflow-x: auto; }
+table { width: 100%; border-collapse: collapse; text-align: left; font-variant-numeric: tabular-nums; }
+th, td { padding: .7rem .6rem; border-bottom: 1px solid #e0e3d8; white-space: nowrap; }
+thead th { font-size: .8rem; font-weight: 500; }
+th:first-child { padding-left: 0; }
+.statistics-note { margin-bottom: 0; }

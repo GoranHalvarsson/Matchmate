@@ -1,0 +1,228 @@
+{
+  "entities": {
+    "Q20648705": {
+      "pageid": 22395898,
+      "ns": 0,
+      "title": "Q20648705",
+      "lastrevid": 2400193501,
+      "modified": "2025-09-04T06:40:23Z",
+      "type": "item",
+      "id": "Q20648705",
+      "labels": {
+        "en": {
+          "language": "en",
+          "value": "2015–16 Southampton F.C. season"
+        }
+      },
+      "claims": {
+        "P31": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P31",
+              "hash": "9ddb403180b684facfb50183c3b3a99ce0b171d1",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 26887310,
+                  "id": "Q26887310"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q20648705$2b3fed4b-4841-809a-8285-9687bbeae3f5",
+            "rank": "normal"
+          }
+        ],
+        "P641": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P641",
+              "hash": "1624e15e061523279bc14bb6497168e45caacb32",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 2736,
+                  "id": "Q2736"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q20648705$a962ab06-44f2-8263-2e52-771b9c585e94",
+            "rank": "normal"
+          }
+        ],
+        "P5138": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P5138",
+              "hash": "d11492868941113c9d0c3113a04094ea7a878745",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 18732,
+                  "id": "Q18732"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q20648705$602DDAEB-0F3D-4111-B1B4-5768391771FA",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "fa278ebfc458360e5aed63d5058cca83c46134f1",
+                "snaks": {
+                  "P143": [
+                    {
+                      "snaktype": "value",
+                      "property": "P143",
+                      "hash": "e4f6d9441d0600513c4533c672b5ab472dc73694",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 328,
+                          "id": "Q328"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P143"
+                ]
+              }
+            ]
+          }
+        ],
+        "P2348": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P2348",
+              "hash": "aa2170c45da73f28c5e261a9d37f3a75ef9799c5",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 53386085,
+                  "id": "Q53386085"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q20648705$A9FF3EF3-D838-4BE9-89E2-72ECD26C3AB3",
+            "rank": "normal"
+          }
+        ],
+        "P17": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P17",
+              "hash": "a44880420787fb348836dc51d3babc5227c4ef7e",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 145,
+                  "id": "Q145"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q20648705$43B6A49D-1033-48DC-B6BA-35C7E89AA79A",
+            "rank": "normal"
+          }
+        ],
+        "P155": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P155",
+              "hash": "93f4788c2543a06edc6951cf7a4fb5405036da12",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 17015898,
+                  "id": "Q17015898"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q20648705$93AF3C77-C4BA-4CD4-9E2B-B79982A200C8",
+            "rank": "normal"
+          }
+        ],
+        "P156": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P156",
+              "hash": "75680474ac4b06dd8ee3ab0ed4e2769bb6d924bd",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 24083715,
+                  "id": "Q24083715"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q20648705$4E5ED15F-F7D6-495B-A739-A9E044BB408D",
+            "rank": "normal"
+          }
+        ],
+        "P2671": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P2671",
+              "hash": "96b17ac7afb4b8d62dbcc12b93677365d0c1767a",
+              "datavalue": {
+                "value": "/g/11btzyl3hb",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q20648705$6EF20B96-C819-442A-A8D1-A55A83546735",
+            "rank": "normal"
+          }
+        ]
+      },
+      "sitelinks": {
+        "enwiki": {
+          "site": "enwiki",
+          "title": "2015–16 Southampton F.C. season",
+          "badges": []
+        },
+        "itwiki": {
+          "site": "itwiki",
+          "title": "Southampton Football Club 2015-2016",
+          "badges": []
+        },
+        "zhwiki": {
+          "site": "zhwiki",
+          "title": "修咸頓2015年至2016年球季",
+          "badges": []
+        }
+      }
+    }
+  }
+}

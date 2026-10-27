@@ -1,0 +1,88 @@
+@using System.Globalization
+@using Matchmate.Contracts
+@using Matchmate.Web.Experience
+@using Matchmate.Web.Localization
+
+@if (Dataset.Fixture is { } fixture)
+{
+    <section class="match-heading replay-match-header">
+        <div class="replay-match-identity">
+            <p class="eyebrow">@fixture.Competition · @T("RetrospectiveReplay")</p>
+            <h1 class="replay-match-title" aria-label="@T("Versus", fixture.Home.Name, fixture.Away.Name)">
+                <span class="replay-match-team">
+                    <span class="replay-match-crest" aria-hidden="true">
+                        @if (!_homeCrestFailed && CrestPath(fixture.Home) is { } homeCrest)
+                        {
+                            <img src="@homeCrest" width="44" height="44" alt="" @onerror="() => _homeCrestFailed = true"/>
+                        }
+                        else
+                        {
+                            <span class="replay-match-initials">@Initials(fixture.Home.Name)</span>
+                        }
+                    </span>
+                    <span class="replay-match-name">@fixture.Home.Name</span>
+                </span>
+                <span class="replay-match-versus" aria-hidden="true">×</span>
+                <span class="replay-match-team">
+                    <span class="replay-match-crest" aria-hidden="true">
+                        @if (!_awayCrestFailed && CrestPath(fixture.Away) is { } awayCrest)
+                        {
+                            <img src="@awayCrest" width="44" height="44" alt="" @onerror="() => _awayCrestFailed = true"/>
+                        }
+                        else
+                        {
+                            <span class="replay-match-initials">@Initials(fixture.Away.Name)</span>
+                        }
+                    </span>
+                    <span class="replay-match-name">@fixture.Away.Name</span>
+                </span>
+            </h1>
+            @if (ExplicitLabelDate(fixture) is { } date)
+            {
+                <p class="replay-match-date"><time datetime="@date.ToString("yyyy-MM-dd", CultureInfo.InvariantCulture)">@date.ToString("d MMMM yyyy", MatchLanguages.Culture(Language))</time></p>
+            }
+            <p class="replay-match-source">@ExperiencePresentation.SourceLabel(Dataset, Language)</p>
+        </div>
+        <div class="replay-match-audience">@ChildContent</div>
+    </section>
+}
+
+@code {
+    [Parameter, EditorRequired] public FootballDataset Dataset { get; set; } = default!;
+    [Parameter] public MatchLanguage Language { get; set; }
+    [Parameter] public RenderFragment? ChildContent { get; set; }
+    private bool _homeCrestFailed, _awayCrestFailed;
+    private string? _crestIdentity;
+    private string T(string key, params object?[] args) => ReplayText.Get(Language, key, args);
+
+    protected override void OnParametersSet()
+    {
+        var identity = $"{Dataset.Manifest.FixtureId}|{Dataset.Fixture?.Home.Id}|{Dataset.Fixture?.Away.Id}";
+        if (_crestIdentity == identity) return;
+        _crestIdentity = identity;
+        _homeCrestFailed = _awayCrestFailed = false;
+    }
+
+    // Reuse the homepage's local 2026 club assets only for its two known fixtures.
+    private string? CrestPath(FootballTeam team) => Dataset.Manifest.FixtureId is "fixture-pl-2645256" or "fixture-pl-2645236"
+        && Dataset.Fixture?.Competition == "Premier League" ? team.Id switch
+        {
+            "team-pl-reference-brentford" => "/assets/crests/brentford-2026.png",
+            "team-pl-reference-liverpool" => "/assets/crests/liverpool-2026.png",
+            "team-pl-reference-chelsea" => "/assets/crests/chelsea-2026.png",
+            _ => null
+        } : null;
+
+    private static string Initials(string name) => string.Concat(name.Split(' ', StringSplitOptions.RemoveEmptyEntries).Take(2).Select(word => word[0])).ToUpperInvariant();
+
+    // Temporary adapter for the producer's explicit calendar suffix. Never infer a date
+    // from team names, dataset identity, replay clocks, or an unspecified timestamp.
+    private static DateOnly? ExplicitLabelDate(FixturePayload fixture)
+    {
+        var prefix = $"{fixture.Home.Name} – {fixture.Away.Name} · ";
+        if (!fixture.Label.StartsWith(prefix, StringComparison.Ordinal)) return null;
+        var suffix = fixture.Label[prefix.Length..];
+        return DateOnly.TryParseExact(suffix, "d MMMM yyyy", CultureInfo.InvariantCulture, DateTimeStyles.None, out var date)
+            && date.ToString("d MMMM yyyy", CultureInfo.InvariantCulture) == suffix ? date : null;
+    }
+}

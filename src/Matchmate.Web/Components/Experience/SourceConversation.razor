@@ -1,0 +1,32 @@
+@using Matchmate.Web.Experience
+@using Matchmate.Web.Localization
+<section class="source-conversation @(ReplayLayout ? "replay-conversation" : "")" lang="@MatchLanguages.Code(Language)">
+    @if (ReplayLayout) { <div class="conversation-context-bar"><span class="conversation-avatar" aria-hidden="true">↗</span><div><strong>@T("AtMoment", DisplayTitle)</strong><small>@Context</small></div></div> }
+    else {
+    <p class="eyebrow">@T("ConversationWith", DisplayTitle)</p><h2>@T("LeagueHeading")</h2>
+    <p>@Context</p> }
+    <div class="question-chips">
+    @foreach (var prompt in Prompts) { <button lang="en" @key="prompt.Question" @onclick="() => Answer(prompt)">@prompt.Question</button> }
+    </div>
+    <form @onsubmit="Ask" @onsubmit:preventDefault><label class="sr-only" for="@_inputId">@T("AskContext")</label><input id="@_inputId" @bind="_question" placeholder="@T("SourcePlaceholder")"/><button type="submit">@T("Ask")</button></form>
+    @if (_answer is not null) { <div class="source-answer" role="status" lang="@(_fallback ? MatchLanguages.Code(Language) : "en")">@(_fallback ? T("SourceFallback") : _answer)</div> }
+    <small>@T("SourceDisclosure")</small>
+</section>
+@code {
+    [CascadingParameter] public MatchLanguage Language { get; set; }
+    private string T(string key, params object?[] args) => ConversationText.Get(Language, key, args);
+    private string DisplayTitle => Title == "this moment" ? T("ThisMoment") : Title;
+    [Parameter] public string ContextKey { get; set; } = "";
+    [Parameter] public string Title { get; set; } = "this moment";
+    [Parameter] public string Context { get; set; } = "";
+    [Parameter] public IReadOnlyList<SourcePrompt> Prompts { get; set; } = [];
+    [Parameter] public bool ReplayLayout { get; set; }
+    private string _lastKey = "", _question = "";
+    private readonly string _inputId = "source-question-" + Guid.NewGuid().ToString("N");
+    private string? _answer;
+    private bool _fallback;
+    protected override void OnParametersSet() { if (_lastKey != ContextKey) { _lastKey = ContextKey; _answer = null; _question = ""; _fallback = false; } }
+    private void Answer(SourcePrompt prompt) { _question = prompt.Question; _answer = prompt.Answer; _fallback = false; }
+    private void Ask() { var answer = Prompts.FirstOrDefault(p => p.Question.TrimEnd('?').Equals(_question.Trim().TrimEnd('?'), StringComparison.OrdinalIgnoreCase))?.Answer;
+        _fallback = answer is null; _answer = answer ?? T("SourceFallback"); }
+}

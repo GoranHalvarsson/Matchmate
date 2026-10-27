@@ -1,0 +1,44 @@
+# Local secrets and configuration
+.env
+.env.*
+!.env.example
+**/appsettings.Local.json
+**/secrets.json
+
+# Build and IDE output
+**/bin/
+**/obj/
+.vs/
+.idea/
+*.user
+*.suo
+node_modules/
+
+# Local tooling and generated verification artifacts
+.azure/
+.codex-temp/
+output/
+TestResults/
+.local/
+
+# Private project brain and operator notes retained locally
+/wiki/
+/AGENTS.md
+/docs/PROJECT-HANDOVER.md
+/docs/support-email-draft.md
+/docs/AZURE-DEPLOYMENT.md
+/infra/azure-foundation/README.md
+
+# Local browser artifacts and generated design previews
+/.playwright-mcp/
+/prototypes/first-experience/preview.html
+/prototypes/first-experience/desktop-v2.jpg
+/prototypes/first-experience/desktop.png
+/prototypes/first-experience/dictation-preview.jpg
+/prototypes/first-experience/gamma-critique.jpg
+/prototypes/first-experience/guest-save-preview.jpg
+/prototypes/first-experience/mobile-v2.jpg
+/prototypes/first-experience/mobile.png
+/prototypes/first-experience/pitch-preview.jpg
+/prototypes/first-experience/player-stats-preview.jpg
+/prototypes/first-experience/side-by-side-preview.jpg

@@ -1,0 +1,68 @@
+@using Matchmate.Web.Chat
+@using Matchmate.Web.Localization
+<div class="statistics-chart" lang="@MatchLanguages.Code(Language)">
+    <button class="chart-toggle" type="button" aria-expanded="@(_expanded ? "true" : "false")" aria-controls="@PanelId" @onclick="Toggle">
+        @T(_expanded ? "Hide" : "Show") <span aria-hidden="true">@(_expanded ? "−" : "+")</span>
+    </button>
+    <div id="@PanelId" hidden="@(!_expanded)">
+    @if (_expanded)
+    {
+        <figure class="chart-figure" aria-labelledby="@TitleId" data-fixture="@Chart.Context.Query.FixtureId" data-replay-clock="@Chart.ReplayClock">
+            <figcaption>
+                <div><span class="chart-generated">@T(Reported ? "Reported" : "Generated")</span><h3 id="@TitleId">@MetricLabel(_metric)</h3></div>
+                <p>@T("Match", Chart.Teams[0].Name, Chart.Teams[1].Name)<span>@T("Clock", Chart.ReplayClock)</span></p>
+            </figcaption>
+            @if (Chart.CanChooseMetric)
+            {
+                <div class="chart-metrics" role="group" aria-label="@T("ChooseMetric")">
+                    @foreach (var metric in Chart.AvailableMetrics)
+                    {
+                        <button type="button" aria-pressed="@(_metric == metric ? "true" : "false")" @onclick="() => Choose(metric)">@MetricLabel(metric)</button>
+                    }
+                </div>
+            }
+            <dl class="chart-rows">
+                @foreach (var team in Chart.Teams)
+                {
+                    <div class="chart-row" @key="team.TeamId">
+                        <dt>@team.Name</dt>
+                        <dd>
+                            <span class="chart-value">@ValueLabel(team)</span>
+                            @if (_metric == MatchStatisticsChartMetric.PassAccuracy)
+                            {
+                                <small>@T("Completed", team.PassCompleted, team.PassAttempts)</small>
+                            }
+                            <div class="chart-track" aria-hidden="true"><div class="chart-bar" style="width:@Chart.BarWidth(team, _metric)"></div></div>
+                        </dd>
+                    </div>
+                }
+            </dl>
+            <div class="chart-axis" aria-hidden="true"><span>0@(_metric == MatchStatisticsChartMetric.PassAccuracy ? "%" : "")</span><span>@MaximumLabel</span></div>
+            <p class="chart-note">@T(Reported ? "ReportedNote" : "Note")</p>
+        </figure>
+    }
+    </div>
+</div>
+@code {
+    [Parameter, EditorRequired] public MatchStatisticsChartSnapshot Chart { get; set; } = default!;
+    [Parameter] public MatchLanguage Language { get; set; }
+    [Parameter] public Guid TurnId { get; set; }
+    private MatchStatisticsChartSnapshot? _last;
+    private bool _expanded;
+    private MatchStatisticsChartMetric _metric;
+    private bool Reported => Chart.EvidenceKind == MatchStatisticsChartEvidenceKind.ReportedEvents;
+    private string PanelId => "statistics-chart-" + TurnId.ToString("N");
+    private string TitleId => PanelId + "-title";
+    private string T(string key, params object?[] args) => ChatText.Get(Language, "Chart." + key, args);
+    private string MetricLabel(MatchStatisticsChartMetric metric) => T(metric.ToString());
+    private string MaximumLabel => Chart.Maximum(_metric).ToString("0.#", MatchLanguages.Culture(Language)) + (_metric == MatchStatisticsChartMetric.PassAccuracy ? "%" : "");
+    private string ValueLabel(MatchStatisticsChartTeam team) => Chart.Value(team, _metric) is { } value
+        ? value.ToString("0.#", MatchLanguages.Culture(Language)) + (_metric == MatchStatisticsChartMetric.PassAccuracy ? "%" : "") : T("NoAttempts");
+    protected override void OnParametersSet()
+    {
+        if (ReferenceEquals(_last, Chart)) return;
+        _last = Chart; _expanded = Chart.InitiallyExpanded; _metric = Chart.InitialMetric;
+    }
+    private void Toggle() => _expanded = !_expanded;
+    private void Choose(MatchStatisticsChartMetric metric) { if (Chart.CanChooseMetric && Chart.AvailableMetrics.Contains(metric)) _metric = metric; }
+}

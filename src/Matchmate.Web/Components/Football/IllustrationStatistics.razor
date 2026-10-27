@@ -1,0 +1,42 @@
+@using Matchmate.Web.Localization
+@using System.Globalization
+@using Matchmate.Contracts
+@using Matchmate.Web.Experience
+@if (View.IllustrationStatistics is { } statistics && View.Dataset.Fixture is { } fixture)
+{
+    <section class="illustration-statistics">
+        <div class="statistics-heading"><h2>@T("GeneratedStats")</h2><span>@T("AtAcceptedReplay", ExperiencePresentation.Clock(View.Context.CursorMs))</span></div>
+        <p>@T("StatsDescription")</p>
+        <div class="statistics-table"><table>
+            <thead><tr><th scope="col">@T("Team")</th><th scope="col">@T("Passes")</th><th scope="col">@T("Completed")</th><th scope="col">@T("Shots")</th><th scope="col">@T("IllustratedControl")</th><th scope="col">@T("ControlShare")</th></tr></thead>
+            <tbody>@foreach (var team in statistics.Teams)
+            {
+                <tr @key="team.TeamId"><th scope="row">@(team.TeamId == fixture.Home.Id ? fixture.Home.Name : fixture.Away.Name)</th><td>@team.PassAttempts</td><td>@team.PassCompleted <span>(@Percent(team.PassCompletionPercent))</span></td><td>@team.Shots</td><td>@Duration(team.ControlledMs)</td><td>@Percent(team.ControlSharePercent)</td></tr>
+            }</tbody>
+        </table></div>
+        <p class="statistics-note">@T("StatsNote", Duration(statistics.TotalClassifiedControlMs))</p>
+    </section>
+}
+@if (ReportedReplayProjection.ProjectTable(View) is { } reports && View.Dataset.Fixture is { } reportedFixture)
+{
+    <section class="illustration-statistics" aria-label="@T("ReportedStats")" data-statistics="reported">
+        <div class="statistics-heading"><h2>@T("ReportedStats")</h2><span>@T("AtAcceptedReplay", ExperiencePresentation.Clock(View.Context.CursorMs))</span></div>
+        <p>@T(View.IllustrationStatistics is null ? "ReportedStatsDescription" : "ReportedStatsWithGeneratedDescription")</p>
+        <div class="statistics-table"><table>
+            <thead><tr><th scope="col">@T("Team")</th><th scope="col">@T("FilterGoals")</th><th scope="col">@T("ReportedYellows")</th><th scope="col">@T("ReportedReds")</th><th scope="col">@T("FilterSubstitutions")</th></tr></thead>
+            <tbody>@foreach (var team in new[] { reports.Home, reports.Away })
+            {
+                <tr @key="team.TeamId"><th scope="row">@(team.TeamId == reportedFixture.Home.Id ? reportedFixture.Home.Name : reportedFixture.Away.Name)</th><td>@team.Goals</td><td>@team.YellowCards</td><td>@team.RedCards</td><td>@team.Substitutions</td></tr>
+            }</tbody>
+        </table></div>
+        <p class="statistics-note">@T("ReportedPanelNote")</p>
+    </section>
+}
+
+@code {
+    [CascadingParameter] public MatchLanguage Language { get; set; }
+    private string T(string key, params object?[] args) => ReplayText.Get(Language, key, args);
+    [Parameter, EditorRequired] public FootballView View { get; set; } = default!;
+    private string Percent(decimal? value) => value is null ? "—" : value.Value.ToString("0.#", MatchLanguages.Culture(Language)) + "%";
+    private static string Duration(long milliseconds) => $"{milliseconds / 60000}:{milliseconds / 1000 % 60:00}";
+}

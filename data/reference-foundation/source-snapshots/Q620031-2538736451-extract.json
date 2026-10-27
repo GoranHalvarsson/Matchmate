@@ -1,0 +1,2165 @@
+{
+  "entities": {
+    "Q620031": {
+      "pageid": 583727,
+      "ns": 0,
+      "title": "Q620031",
+      "lastrevid": 2538736451,
+      "modified": "2026-08-31T20:47:54Z",
+      "type": "item",
+      "id": "Q620031",
+      "labels": {
+        "en": {
+          "language": "en",
+          "value": "Leicester City Stadium"
+        }
+      },
+      "descriptions": {
+        "en": {
+          "language": "en",
+          "value": "association football venue in Leicester, England"
+        }
+      },
+      "claims": {
+        "P373": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P373",
+              "hash": "e1fdabd5ace1910199b32f1cf11e912ca390eeed",
+              "datavalue": {
+                "value": "Leicester City Stadium",
+                "type": "string"
+              },
+              "datatype": "string"
+            },
+            "type": "statement",
+            "id": "Q620031$4a2f49b4-40ff-aa8a-ea2f-86a438ebf20f",
+            "rank": "normal"
+          }
+        ],
+        "P625": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P625",
+              "hash": "4c274fbbd32ec8c0444d8fc3fe0c32ff1cc1c8cf",
+              "datavalue": {
+                "value": {
+                  "latitude": 52.620277777778,
+                  "longitude": -1.1422222222222,
+                  "altitude": null,
+                  "precision": null,
+                  "globe": "http://www.wikidata.org/entity/Q2"
+                },
+                "type": "globecoordinate"
+              },
+              "datatype": "globe-coordinate"
+            },
+            "type": "statement",
+            "id": "q620031$C9165FFC-FC79-4EBD-A465-609C05FF6D79",
+            "rank": "normal"
+          }
+        ],
+        "P17": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P17",
+              "hash": "a44880420787fb348836dc51d3babc5227c4ef7e",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 145,
+                  "id": "Q145"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q620031$830386B2-27FC-45A9-969E-803190A445CC",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "fa278ebfc458360e5aed63d5058cca83c46134f1",
+                "snaks": {
+                  "P143": [
+                    {
+                      "snaktype": "value",
+                      "property": "P143",
+                      "hash": "e4f6d9441d0600513c4533c672b5ab472dc73694",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 328,
+                          "id": "Q328"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P143"
+                ]
+              }
+            ]
+          }
+        ],
+        "P646": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P646",
+              "hash": "56e23e0c63e2945e3a5875ff6b06e1a6be25e64d",
+              "datavalue": {
+                "value": "/m/051p56",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q620031$AD57380E-E80A-4300-B1B3-D7DDD99881F5",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "2b00cb481cddcac7623114367489b5c194901c4a",
+                "snaks": {
+                  "P248": [
+                    {
+                      "snaktype": "value",
+                      "property": "P248",
+                      "hash": "a94b740202b097dd33355e0e6c00e54b9395e5e0",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 15241312,
+                          "id": "Q15241312"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ],
+                  "P577": [
+                    {
+                      "snaktype": "value",
+                      "property": "P577",
+                      "hash": "fde79ecb015112d2f29229ccc1ec514ed3e71fa2",
+                      "datavalue": {
+                        "value": {
+                          "time": "+2013-10-28T00:00:00Z",
+                          "timezone": 0,
+                          "before": 0,
+                          "after": 0,
+                          "precision": 11,
+                          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                        },
+                        "type": "time"
+                      },
+                      "datatype": "time"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P248",
+                  "P577"
+                ]
+              }
+            ]
+          }
+        ],
+        "P18": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P18",
+              "hash": "405b1d727e2d51276f449e6857be291ec4333089",
+              "datavalue": {
+                "value": "King Power Stadium wide view.jpg",
+                "type": "string"
+              },
+              "datatype": "commonsMedia"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P2096": [
+                {
+                  "snaktype": "value",
+                  "property": "P2096",
+                  "hash": "e968912add5e0ef263d2abd039d262767d73bbc2",
+                  "datavalue": {
+                    "value": {
+                      "text": "Vista interna dello stadio nel 2016",
+                      "language": "it"
+                    },
+                    "type": "monolingualtext"
+                  },
+                  "datatype": "monolingualtext"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P2096"
+            ],
+            "id": "Q620031$A90ACB98-DA1C-4F5B-A530-99BF5F34F764",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "e71a7903858496c67eea189a7084d5559f788edb",
+                "snaks": {
+                  "P143": [
+                    {
+                      "snaktype": "value",
+                      "property": "P143",
+                      "hash": "5d3b16d350189b0a81818758208505444c86c127",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 565,
+                          "id": "Q565"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P143"
+                ]
+              }
+            ]
+          }
+        ],
+        "P1083": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P1083",
+              "hash": "89649ea10467a288e18e0daef002190335ec5f93",
+              "datavalue": {
+                "value": {
+                  "amount": "+32261",
+                  "unit": "1"
+                },
+                "type": "quantity"
+              },
+              "datatype": "quantity"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P585": [
+                {
+                  "snaktype": "value",
+                  "property": "P585",
+                  "hash": "4a6fe7f861358928efef462e361b21704446d129",
+                  "datavalue": {
+                    "value": {
+                      "time": "+2021-00-00T00:00:00Z",
+                      "timezone": 0,
+                      "before": 0,
+                      "after": 0,
+                      "precision": 9,
+                      "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                    },
+                    "type": "time"
+                  },
+                  "datatype": "time"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P585"
+            ],
+            "id": "Q620031$3C145261-7A86-4654-9471-166A1371CBD7",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "5f794435f8c3f2529439fc01d335a544e7be139a",
+                "snaks": {
+                  "P854": [
+                    {
+                      "snaktype": "value",
+                      "property": "P854",
+                      "hash": "84fe711a94841fe56ee4cee8697744443247144b",
+                      "datavalue": {
+                        "value": "https://resources.premierleague.com/premierleague/document/2021/04/07/6ebff069-a7ee-415d-afbd-15878b6d33b2/2020-21-PL-Handbook-240321.pdf",
+                        "type": "string"
+                      },
+                      "datatype": "url"
+                    }
+                  ],
+                  "P1065": [
+                    {
+                      "snaktype": "value",
+                      "property": "P1065",
+                      "hash": "ca4b1571196af092c00b5bb25545bc7aaa1e4766",
+                      "datavalue": {
+                        "value": "https://web.archive.org/web/20210412002820/https://resources.premierleague.com/premierleague/document/2021/04/07/6ebff069-a7ee-415d-afbd-15878b6d33b2/2020-21-PL-Handbook-240321.pdf",
+                        "type": "string"
+                      },
+                      "datatype": "url"
+                    }
+                  ],
+                  "P304": [
+                    {
+                      "snaktype": "value",
+                      "property": "P304",
+                      "hash": "fc5f674fc59ad833d1b4bc1193f57022fa5bc815",
+                      "datavalue": {
+                        "value": "20",
+                        "type": "string"
+                      },
+                      "datatype": "string"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P854",
+                  "P1065",
+                  "P304"
+                ]
+              }
+            ]
+          }
+        ],
+        "P466": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P466",
+              "hash": "bea406b8e260862d496c7360ec07e4798522e48d",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 19481,
+                  "id": "Q19481"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P580": [
+                {
+                  "snaktype": "value",
+                  "property": "P580",
+                  "hash": "124f5a2b4b1fb9eb815c49b26b42d09909fd537d",
+                  "datavalue": {
+                    "value": {
+                      "time": "+2002-00-00T00:00:00Z",
+                      "timezone": 0,
+                      "before": 0,
+                      "after": 0,
+                      "precision": 9,
+                      "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                    },
+                    "type": "time"
+                  },
+                  "datatype": "time"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P580"
+            ],
+            "id": "Q620031$2C7289CD-85DD-49BE-A0AF-A613CFDF2832",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "fa278ebfc458360e5aed63d5058cca83c46134f1",
+                "snaks": {
+                  "P143": [
+                    {
+                      "snaktype": "value",
+                      "property": "P143",
+                      "hash": "e4f6d9441d0600513c4533c672b5ab472dc73694",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 328,
+                          "id": "Q328"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P143"
+                ]
+              }
+            ]
+          },
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P466",
+              "hash": "08c3f545cdabf6718579080c5ba6806a08f69459",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 1071691,
+                  "id": "Q1071691"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P580": [
+                {
+                  "snaktype": "value",
+                  "property": "P580",
+                  "hash": "9ef7f99b41c28cf258cbce173bea2317c62abaf2",
+                  "datavalue": {
+                    "value": {
+                      "time": "+2005-00-00T00:00:00Z",
+                      "timezone": 0,
+                      "before": 0,
+                      "after": 0,
+                      "precision": 9,
+                      "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                    },
+                    "type": "time"
+                  },
+                  "datatype": "time"
+                }
+              ],
+              "P582": [
+                {
+                  "snaktype": "value",
+                  "property": "P582",
+                  "hash": "f52cccf49da12dade7f191d0b8339eb57ccae88a",
+                  "datavalue": {
+                    "value": {
+                      "time": "+2009-00-00T00:00:00Z",
+                      "timezone": 0,
+                      "before": 0,
+                      "after": 0,
+                      "precision": 9,
+                      "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                    },
+                    "type": "time"
+                  },
+                  "datatype": "time"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P580",
+              "P582"
+            ],
+            "id": "Q620031$16f2126a-4296-f22c-09da-eb85d70d22bd",
+            "rank": "normal"
+          },
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P466",
+              "hash": "236d7b8537d53514b0c07e8a51a6433201b4f681",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 6519167,
+                  "id": "Q6519167"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q620031$f53a31c5-4212-bbd3-aa84-e0bab966a19f",
+            "rank": "normal"
+          }
+        ],
+        "P131": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P131",
+              "hash": "706a9d3721f22aac53f8d5a16c6351082062716f",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 21683242,
+                  "id": "Q21683242"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q620031$0EFEB5C7-835A-41D7-B7FD-6D537A17A895",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "fa278ebfc458360e5aed63d5058cca83c46134f1",
+                "snaks": {
+                  "P143": [
+                    {
+                      "snaktype": "value",
+                      "property": "P143",
+                      "hash": "e4f6d9441d0600513c4533c672b5ab472dc73694",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 328,
+                          "id": "Q328"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P143"
+                ]
+              }
+            ]
+          }
+        ],
+        "P31": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P31",
+              "hash": "7b466b8c482c2e26817ab6e8d6ab48ca623ba2e7",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 1154710,
+                  "id": "Q1154710"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q620031$F59F1F72-C3D9-48A4-9550-5AA2F2B7B49E",
+            "rank": "normal"
+          }
+        ],
+        "P1566": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P1566",
+              "hash": "037e055badf8c551f03c64857096c890ed9445fb",
+              "datavalue": {
+                "value": "7646051",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q620031$AC28E6AB-5B77-42C8-A77C-563BB2E7C9CF",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "88694a0f4d1486770c269f7db16a1982f74da69d",
+                "snaks": {
+                  "P248": [
+                    {
+                      "snaktype": "value",
+                      "property": "P248",
+                      "hash": "1b3ef912a2bd61e18dd43abd184337eb010b2e96",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 830106,
+                          "id": "Q830106"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P248"
+                ]
+              }
+            ]
+          }
+        ],
+        "P641": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P641",
+              "hash": "adb877228d79e68544dbe13ac61ae941a075f3a4",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 5849,
+                  "id": "Q5849"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q620031$E76B1705-934A-4C1C-B148-9EB332A4B3E4",
+            "rank": "normal"
+          },
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P641",
+              "hash": "1624e15e061523279bc14bb6497168e45caacb32",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 2736,
+                  "id": "Q2736"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q620031$9157ccea-4110-384e-e0d6-6ec505e38bc4",
+            "rank": "normal"
+          }
+        ],
+        "P571": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P571",
+              "hash": "fbb759b9d1cc9b4b718a884bdf32b4cf53c3af84",
+              "datavalue": {
+                "value": {
+                  "time": "+2001-07-00T00:00:00Z",
+                  "timezone": 0,
+                  "before": 0,
+                  "after": 0,
+                  "precision": 10,
+                  "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                },
+                "type": "time"
+              },
+              "datatype": "time"
+            },
+            "type": "statement",
+            "id": "Q620031$ED52396C-379D-403E-A2D7-6BF87296DA5B",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "d872356fe1c7879ebf575447f18caa81f46e7094",
+                "snaks": {
+                  "P854": [
+                    {
+                      "snaktype": "value",
+                      "property": "P854",
+                      "hash": "e96dca03d13743e17e1aec57c9202c5e4171549d",
+                      "datavalue": {
+                        "value": "http://news.bbc.co.uk/sport2/hi/football/teams/l/leicester_city/1382704.stm",
+                        "type": "string"
+                      },
+                      "datatype": "url"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P854"
+                ]
+              }
+            ]
+          }
+        ],
+        "P856": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P856",
+              "hash": "5a08f0afa2645463b64c4827529d677321b8d018",
+              "datavalue": {
+                "value": "https://www.lcfc.com/king-power-stadium",
+                "type": "string"
+              },
+              "datatype": "url"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P407": [
+                {
+                  "snaktype": "value",
+                  "property": "P407",
+                  "hash": "daf1c4fcb58181b02dff9cc89deb084004ddae4b",
+                  "datavalue": {
+                    "value": {
+                      "entity-type": "item",
+                      "numeric-id": 1860,
+                      "id": "Q1860"
+                    },
+                    "type": "wikibase-entityid"
+                  },
+                  "datatype": "wikibase-item"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P407"
+            ],
+            "id": "Q620031$ce4ff906-43af-6fe0-928f-313856050c69",
+            "rank": "normal"
+          }
+        ],
+        "P1619": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P1619",
+              "hash": "ec4e6548a26b1145fdf6a3809b0d1f31c641ade1",
+              "datavalue": {
+                "value": {
+                  "time": "+2002-07-23T00:00:00Z",
+                  "timezone": 0,
+                  "before": 0,
+                  "after": 0,
+                  "precision": 11,
+                  "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                },
+                "type": "time"
+              },
+              "datatype": "time"
+            },
+            "type": "statement",
+            "id": "Q620031$8D294289-D82C-4862-8E89-778C1C5EB836",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "0455ea80894c8c38a5449816e3399c56e51be491",
+                "snaks": {
+                  "P854": [
+                    {
+                      "snaktype": "value",
+                      "property": "P854",
+                      "hash": "4ac6324d73a8e80452711abd4d838fb5a8256d4a",
+                      "datavalue": {
+                        "value": "http://news.bbc.co.uk/2/hi/uk_news/england/2146756.stm",
+                        "type": "string"
+                      },
+                      "datatype": "url"
+                    }
+                  ],
+                  "P1476": [
+                    {
+                      "snaktype": "value",
+                      "property": "P1476",
+                      "hash": "7a9e6b9929b51a51bd31b935282f75326ea0a143",
+                      "datavalue": {
+                        "value": {
+                          "text": "Lineker opens Leicester stadium",
+                          "language": "en"
+                        },
+                        "type": "monolingualtext"
+                      },
+                      "datatype": "monolingualtext"
+                    }
+                  ],
+                  "P577": [
+                    {
+                      "snaktype": "value",
+                      "property": "P577",
+                      "hash": "c9b13460970d0ab15f7bb000f306d5f89781ccd4",
+                      "datavalue": {
+                        "value": {
+                          "time": "+2002-07-23T00:00:00Z",
+                          "timezone": 0,
+                          "before": 0,
+                          "after": 0,
+                          "precision": 11,
+                          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                        },
+                        "type": "time"
+                      },
+                      "datatype": "time"
+                    }
+                  ],
+                  "P813": [
+                    {
+                      "snaktype": "value",
+                      "property": "P813",
+                      "hash": "9b941af95e2fb85bed2884c82fc36aca463e6840",
+                      "datavalue": {
+                        "value": {
+                          "time": "+2021-05-12T00:00:00Z",
+                          "timezone": 0,
+                          "before": 0,
+                          "after": 0,
+                          "precision": 11,
+                          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                        },
+                        "type": "time"
+                      },
+                      "datatype": "time"
+                    }
+                  ],
+                  "P248": [
+                    {
+                      "snaktype": "value",
+                      "property": "P248",
+                      "hash": "9bdf9e03154098e65c12f0518780c5a47e342fd5",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 9531,
+                          "id": "Q9531"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P854",
+                  "P1476",
+                  "P577",
+                  "P813",
+                  "P248"
+                ]
+              }
+            ]
+          }
+        ],
+        "P5288": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P5288",
+              "hash": "206cc2eb9baa9fbbf4d8e0847fbd4f8b6806abaf",
+              "datavalue": {
+                "value": "eng/walkers_stadium",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q620031$f797823b-4ccb-c91d-c191-07941d7d9e34",
+            "rank": "normal"
+          }
+        ],
+        "P1004": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P1004",
+              "hash": "17a2262ebbc7b45cf93dcad65fcff922627ccf35",
+              "datavalue": {
+                "value": "486c8309-abe8-429d-8901-4fd9c622a90c",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q620031$B9FDC1B4-4C47-4EE1-9E6F-CD5F8E56B35C",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "5910b488f96064ef7da253c52cc03fab3f1e0eec",
+                "snaks": {
+                  "P248": [
+                    {
+                      "snaktype": "value",
+                      "property": "P248",
+                      "hash": "623cc8f0e2f65afe4d66b91962d354a2f3aa9a27",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 14005,
+                          "id": "Q14005"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ],
+                  "P813": [
+                    {
+                      "snaktype": "value",
+                      "property": "P813",
+                      "hash": "8b9424a7f0148fca7780daef8d6f7a3eac84a324",
+                      "datavalue": {
+                        "value": {
+                          "time": "+2018-12-27T00:00:00Z",
+                          "timezone": 0,
+                          "before": 0,
+                          "after": 0,
+                          "precision": 11,
+                          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                        },
+                        "type": "time"
+                      },
+                      "datatype": "time"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P248",
+                  "P813"
+                ]
+              }
+            ]
+          }
+        ],
+        "P6375": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P6375",
+              "hash": "8e49b1d970f162cb6221276100b1da291fe7625c",
+              "datavalue": {
+                "value": {
+                  "text": "Filbert Way, Leicester LE2 7FL",
+                  "language": "en"
+                },
+                "type": "monolingualtext"
+              },
+              "datatype": "monolingualtext"
+            },
+            "type": "statement",
+            "id": "Q620031$8cc9c8fd-4a06-bd9e-c4c4-1015229551b2",
+            "rank": "normal"
+          }
+        ],
+        "P765": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P765",
+              "hash": "3f4f44da322706bbe8728081d86e0ade2efb84c1",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 2306698,
+                  "id": "Q2306698"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P2043": [
+                {
+                  "snaktype": "value",
+                  "property": "P2043",
+                  "hash": "de73746743a6806f6d3c0898fd26cc47e3b18b1c",
+                  "datavalue": {
+                    "value": {
+                      "amount": "+105",
+                      "unit": "http://www.wikidata.org/entity/Q11573"
+                    },
+                    "type": "quantity"
+                  },
+                  "datatype": "quantity"
+                }
+              ],
+              "P2049": [
+                {
+                  "snaktype": "value",
+                  "property": "P2049",
+                  "hash": "454c315cc3675a6dc2df9427a6de544e5d09dc23",
+                  "datavalue": {
+                    "value": {
+                      "amount": "+68",
+                      "unit": "http://www.wikidata.org/entity/Q11573"
+                    },
+                    "type": "quantity"
+                  },
+                  "datatype": "quantity"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P2043",
+              "P2049"
+            ],
+            "id": "Q620031$ac539352-4c69-6b29-cb1a-4e38dbe4eb85",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "0e758ac3e68546398713b845b914380ebcf8a4a8",
+                "snaks": {
+                  "P854": [
+                    {
+                      "snaktype": "value",
+                      "property": "P854",
+                      "hash": "84fe711a94841fe56ee4cee8697744443247144b",
+                      "datavalue": {
+                        "value": "https://resources.premierleague.com/premierleague/document/2021/04/07/6ebff069-a7ee-415d-afbd-15878b6d33b2/2020-21-PL-Handbook-240321.pdf",
+                        "type": "string"
+                      },
+                      "datatype": "url"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P854"
+                ]
+              },
+              {
+                "hash": "a141ba594dad4149021d920c061056de1e2e640f",
+                "snaks": {
+                  "P854": [
+                    {
+                      "snaktype": "value",
+                      "property": "P854",
+                      "hash": "8160dd523b86fc77902204774c0ed2ed5aa4e4c3",
+                      "datavalue": {
+                        "value": "https://www.lcfc.com/news/1653167/pitch-renovations-take-place-at-king-power-stadium",
+                        "type": "string"
+                      },
+                      "datatype": "url"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P854"
+                ]
+              }
+            ]
+          }
+        ],
+        "P1449": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P1449",
+              "hash": "eaa683e1f24ad54be0fa2c0caa71e05b6260dfb6",
+              "datavalue": {
+                "value": {
+                  "text": "The Walkers Stadium",
+                  "language": "en"
+                },
+                "type": "monolingualtext"
+              },
+              "datatype": "monolingualtext"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P580": [
+                {
+                  "snaktype": "value",
+                  "property": "P580",
+                  "hash": "9dfece8a7125d2ccff7348e0d91f4c3291778a64",
+                  "datavalue": {
+                    "value": {
+                      "time": "+2002-04-10T00:00:00Z",
+                      "timezone": 0,
+                      "before": 0,
+                      "after": 0,
+                      "precision": 11,
+                      "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                    },
+                    "type": "time"
+                  },
+                  "datatype": "time"
+                }
+              ],
+              "P582": [
+                {
+                  "snaktype": "value",
+                  "property": "P582",
+                  "hash": "39f848dcb21b9b771dfc59e4dd17387c6186c6c3",
+                  "datavalue": {
+                    "value": {
+                      "time": "+2011-07-06T00:00:00Z",
+                      "timezone": 0,
+                      "before": 0,
+                      "after": 0,
+                      "precision": 11,
+                      "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                    },
+                    "type": "time"
+                  },
+                  "datatype": "time"
+                }
+              ],
+              "P138": [
+                {
+                  "snaktype": "value",
+                  "property": "P138",
+                  "hash": "b4caec4abca70a8aa61628b27838680ffd5901c5",
+                  "datavalue": {
+                    "value": {
+                      "entity-type": "item",
+                      "numeric-id": 1296097,
+                      "id": "Q1296097"
+                    },
+                    "type": "wikibase-entityid"
+                  },
+                  "datatype": "wikibase-item"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P580",
+              "P582",
+              "P138"
+            ],
+            "id": "Q620031$7c4a64a3-4fec-a08c-a64f-6a865f366cc4",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "535196a089880212b2d176a36adc6e54b12d27b7",
+                "snaks": {
+                  "P854": [
+                    {
+                      "snaktype": "value",
+                      "property": "P854",
+                      "hash": "e2ed40d0df7e47cb38b1d1ad2389a737d9161abe",
+                      "datavalue": {
+                        "value": "http://news.bbc.co.uk/sport2/hi/football/teams/l/leicester_city/1920984.stm",
+                        "type": "string"
+                      },
+                      "datatype": "url"
+                    }
+                  ],
+                  "P248": [
+                    {
+                      "snaktype": "value",
+                      "property": "P248",
+                      "hash": "9bdf9e03154098e65c12f0518780c5a47e342fd5",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 9531,
+                          "id": "Q9531"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ],
+                  "P813": [
+                    {
+                      "snaktype": "value",
+                      "property": "P813",
+                      "hash": "05b9f81f4016a108c36c0888968e4356baaa37a4",
+                      "datavalue": {
+                        "value": {
+                          "time": "+2021-05-15T00:00:00Z",
+                          "timezone": 0,
+                          "before": 0,
+                          "after": 0,
+                          "precision": 11,
+                          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                        },
+                        "type": "time"
+                      },
+                      "datatype": "time"
+                    }
+                  ],
+                  "P1476": [
+                    {
+                      "snaktype": "value",
+                      "property": "P1476",
+                      "hash": "a4ad63283c4ff600cf56b9f5a3943a117529623d",
+                      "datavalue": {
+                        "value": {
+                          "text": "Foxes rename stadium",
+                          "language": "en"
+                        },
+                        "type": "monolingualtext"
+                      },
+                      "datatype": "monolingualtext"
+                    }
+                  ],
+                  "P577": [
+                    {
+                      "snaktype": "value",
+                      "property": "P577",
+                      "hash": "42905535a3ce3587a7787d3a438c084a379e894b",
+                      "datavalue": {
+                        "value": {
+                          "time": "+2002-04-10T00:00:00Z",
+                          "timezone": 0,
+                          "before": 0,
+                          "after": 0,
+                          "precision": 11,
+                          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                        },
+                        "type": "time"
+                      },
+                      "datatype": "time"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P854",
+                  "P248",
+                  "P813",
+                  "P1476",
+                  "P577"
+                ]
+              }
+            ]
+          },
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P1449",
+              "hash": "53954cf1c9425d48ce343615fabe60ad305ad29f",
+              "datavalue": {
+                "value": {
+                  "text": "King Power Stadium",
+                  "language": "en"
+                },
+                "type": "monolingualtext"
+              },
+              "datatype": "monolingualtext"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P580": [
+                {
+                  "snaktype": "value",
+                  "property": "P580",
+                  "hash": "f0fc089595846cf11de4fa7ba10f61880ad93374",
+                  "datavalue": {
+                    "value": {
+                      "time": "+2011-07-07T00:00:00Z",
+                      "timezone": 0,
+                      "before": 0,
+                      "after": 0,
+                      "precision": 11,
+                      "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                    },
+                    "type": "time"
+                  },
+                  "datatype": "time"
+                }
+              ],
+              "P138": [
+                {
+                  "snaktype": "value",
+                  "property": "P138",
+                  "hash": "66ec5e6fab97aca35d82b2646623815050629a63",
+                  "datavalue": {
+                    "value": {
+                      "entity-type": "item",
+                      "numeric-id": 6411959,
+                      "id": "Q6411959"
+                    },
+                    "type": "wikibase-entityid"
+                  },
+                  "datatype": "wikibase-item"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P580",
+              "P138"
+            ],
+            "id": "Q620031$f4a1daf0-4035-8309-3374-47d1dca5dd14",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "306f24a7df2ea2a35fccdd1ca56610e9f82b2877",
+                "snaks": {
+                  "P248": [
+                    {
+                      "snaktype": "value",
+                      "property": "P248",
+                      "hash": "55cd451788dc202d7d68c151bede7c9f1816fe10",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 3962638,
+                          "id": "Q3962638"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ],
+                  "P854": [
+                    {
+                      "snaktype": "value",
+                      "property": "P854",
+                      "hash": "164ade526df331adaa529453cc16f54a4d352083",
+                      "datavalue": {
+                        "value": "https://www.skysports.com/football/news/11712/7021439/leicester-change-stadium-name",
+                        "type": "string"
+                      },
+                      "datatype": "url"
+                    }
+                  ],
+                  "P813": [
+                    {
+                      "snaktype": "value",
+                      "property": "P813",
+                      "hash": "05b9f81f4016a108c36c0888968e4356baaa37a4",
+                      "datavalue": {
+                        "value": {
+                          "time": "+2021-05-15T00:00:00Z",
+                          "timezone": 0,
+                          "before": 0,
+                          "after": 0,
+                          "precision": 11,
+                          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                        },
+                        "type": "time"
+                      },
+                      "datatype": "time"
+                    }
+                  ],
+                  "P1065": [
+                    {
+                      "snaktype": "value",
+                      "property": "P1065",
+                      "hash": "b27d8ead7d104999013ceb48e0b815459014e6cb",
+                      "datavalue": {
+                        "value": "https://web.archive.org/web/20201204171952/https://www.skysports.com/football/news/11712/7021439/leicester-change-stadium-name",
+                        "type": "string"
+                      },
+                      "datatype": "url"
+                    }
+                  ],
+                  "P577": [
+                    {
+                      "snaktype": "value",
+                      "property": "P577",
+                      "hash": "5674011ceb4dbea94ac1a55216c517873e4c233c",
+                      "datavalue": {
+                        "value": {
+                          "time": "+2011-07-05T00:00:00Z",
+                          "timezone": 0,
+                          "before": 0,
+                          "after": 0,
+                          "precision": 11,
+                          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                        },
+                        "type": "time"
+                      },
+                      "datatype": "time"
+                    }
+                  ],
+                  "P1476": [
+                    {
+                      "snaktype": "value",
+                      "property": "P1476",
+                      "hash": "952bda5bd2395a9027159e8e13f5b6e1f4506781",
+                      "datavalue": {
+                        "value": {
+                          "text": "Leicester change stadium name",
+                          "language": "en"
+                        },
+                        "type": "monolingualtext"
+                      },
+                      "datatype": "monolingualtext"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P248",
+                  "P854",
+                  "P813",
+                  "P1065",
+                  "P577",
+                  "P1476"
+                ]
+              }
+            ]
+          },
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P1449",
+              "hash": "619ca370ca9aa92c05af5838855a5e01c22d2991",
+              "datavalue": {
+                "value": {
+                  "text": "Filbert Way",
+                  "language": "en"
+                },
+                "type": "monolingualtext"
+              },
+              "datatype": "monolingualtext"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P580": [
+                {
+                  "snaktype": "value",
+                  "property": "P580",
+                  "hash": "8752b82cdffad4bcee274913d130a05ca27d08b0",
+                  "datavalue": {
+                    "value": {
+                      "time": "+2001-00-00T00:00:00Z",
+                      "timezone": 0,
+                      "before": 0,
+                      "after": 0,
+                      "precision": 9,
+                      "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                    },
+                    "type": "time"
+                  },
+                  "datatype": "time"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P580"
+            ],
+            "id": "Q620031$1dd24459-4f54-75f3-6811-1c5431ce0153",
+            "rank": "normal"
+          },
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P1449",
+              "hash": "3cf3ec67bf40690232c7cbdf1287da2e20cf6bc3",
+              "datavalue": {
+                "value": {
+                  "text": "Freeman's Wharf",
+                  "language": "en"
+                },
+                "type": "monolingualtext"
+              },
+              "datatype": "monolingualtext"
+            },
+            "type": "statement",
+            "id": "Q620031$3d9ebe9a-46c1-6349-82f8-c3b0f9117d6a",
+            "rank": "normal"
+          }
+        ],
+        "P1448": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P1448",
+              "hash": "c2a66b0cb929979b73a14da4bc012926e427db68",
+              "datavalue": {
+                "value": {
+                  "text": "Leicester City Stadium",
+                  "language": "en"
+                },
+                "type": "monolingualtext"
+              },
+              "datatype": "monolingualtext"
+            },
+            "type": "statement",
+            "id": "Q620031$337115ea-472c-d433-006d-eca13871a621",
+            "rank": "normal"
+          }
+        ],
+        "P1656": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P1656",
+              "hash": "4f89f2eb54280877e2964cd9551cc6dd7cd6ea3e",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 47778,
+                  "id": "Q47778"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P585": [
+                {
+                  "snaktype": "value",
+                  "property": "P585",
+                  "hash": "9c37b1f55ba3f517af22a0cb1841d7689c1bfa1e",
+                  "datavalue": {
+                    "value": {
+                      "time": "+2002-07-23T00:00:00Z",
+                      "timezone": 0,
+                      "before": 0,
+                      "after": 0,
+                      "precision": 11,
+                      "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                    },
+                    "type": "time"
+                  },
+                  "datatype": "time"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P585"
+            ],
+            "id": "Q620031$10be5344-46f5-41b8-8a47-d06ed4807b69",
+            "rank": "normal"
+          }
+        ],
+        "P793": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P793",
+              "hash": "f7ccf2b17bb239d28cd993fceb4e7bf5a4654682",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 393491,
+                  "id": "Q393491"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P585": [
+                {
+                  "snaktype": "value",
+                  "property": "P585",
+                  "hash": "b6849eb7f635c6ee36b75d8adf7e3f89c6624101",
+                  "datavalue": {
+                    "value": {
+                      "time": "+2015-00-00T00:00:00Z",
+                      "timezone": 0,
+                      "before": 0,
+                      "after": 0,
+                      "precision": 9,
+                      "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                    },
+                    "type": "time"
+                  },
+                  "datatype": "time"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P585"
+            ],
+            "id": "Q620031$e64f95ca-4e36-b481-5b14-3a05f5d171c2",
+            "rank": "normal"
+          }
+        ],
+        "P176": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P176",
+              "hash": "72110f7ab90f9667b7365543dbddd786629df9a8",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 4916972,
+                  "id": "Q4916972"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q620031$2e887d10-4bcf-7fe1-318e-1b853ab5dbc4",
+            "rank": "normal"
+          }
+        ],
+        "P127": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P127",
+              "hash": "bc6fd9d879d746394b560dcb3c2a2af03f6e224b",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 740999,
+                  "id": "Q740999"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P580": [
+                {
+                  "snaktype": "value",
+                  "property": "P580",
+                  "hash": "124f5a2b4b1fb9eb815c49b26b42d09909fd537d",
+                  "datavalue": {
+                    "value": {
+                      "time": "+2002-00-00T00:00:00Z",
+                      "timezone": 0,
+                      "before": 0,
+                      "after": 0,
+                      "precision": 9,
+                      "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                    },
+                    "type": "time"
+                  },
+                  "datatype": "time"
+                }
+              ],
+              "P582": [
+                {
+                  "snaktype": "value",
+                  "property": "P582",
+                  "hash": "311c10eef56e5711c83efbf73c76a023ec849538",
+                  "datavalue": {
+                    "value": {
+                      "time": "+2013-03-01T00:00:00Z",
+                      "timezone": 0,
+                      "before": 0,
+                      "after": 0,
+                      "precision": 11,
+                      "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                    },
+                    "type": "time"
+                  },
+                  "datatype": "time"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P580",
+              "P582"
+            ],
+            "id": "Q620031$a0a8dd4b-49b9-9024-d8f0-242d032dec6e",
+            "rank": "normal"
+          },
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P127",
+              "hash": "fade6c7fd2ad281bdfa717df2b1236ee06b7c318",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 6411959,
+                  "id": "Q6411959"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P580": [
+                {
+                  "snaktype": "value",
+                  "property": "P580",
+                  "hash": "a919bb896faea5469482d24e926c19587c22ea2e",
+                  "datavalue": {
+                    "value": {
+                      "time": "+2013-03-01T00:00:00Z",
+                      "timezone": 0,
+                      "before": 0,
+                      "after": 0,
+                      "precision": 11,
+                      "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                    },
+                    "type": "time"
+                  },
+                  "datatype": "time"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P580"
+            ],
+            "id": "Q620031$2b74369a-41cc-3cb6-6cc1-507c6e5cfa8d",
+            "rank": "preferred",
+            "references": [
+              {
+                "hash": "befe7c08ad082b745e7ea1a462248a630aee2cc5",
+                "snaks": {
+                  "P248": [
+                    {
+                      "snaktype": "value",
+                      "property": "P248",
+                      "hash": "9bdf9e03154098e65c12f0518780c5a47e342fd5",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 9531,
+                          "id": "Q9531"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ],
+                  "P854": [
+                    {
+                      "snaktype": "value",
+                      "property": "P854",
+                      "hash": "8a61c98c6354c866616db5c3a82ca590ad54d325",
+                      "datavalue": {
+                        "value": "https://www.bbc.com/sport/football/21628873.amp",
+                        "type": "string"
+                      },
+                      "datatype": "url"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P248",
+                  "P854"
+                ]
+              }
+            ]
+          }
+        ],
+        "P126": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P126",
+              "hash": "e5e814358220d7c8e94a7ba2238a3d7d03db92b1",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 19481,
+                  "id": "Q19481"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q620031$52592912-4cc1-3e68-84cf-19d59e15fa0d",
+            "rank": "normal"
+          }
+        ],
+        "P7959": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P7959",
+              "hash": "2806ff8c9b211a22faa5804555d6c67b52fd8881",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 67533246,
+                  "id": "Q67533246"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q620031$d133e690-2205-4cf3-ab35-a08287836d8a",
+            "rank": "normal"
+          }
+        ],
+        "P7938": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P7938",
+              "hash": "0d0e2744821f9b30dc1e46e35bec84de70977e0d",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 1077534,
+                  "id": "Q1077534"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P3831": [
+                {
+                  "snaktype": "value",
+                  "property": "P3831",
+                  "hash": "92b2a9bac12fb8e82c56dfef41567be36eeb563f",
+                  "datavalue": {
+                    "value": {
+                      "entity-type": "item",
+                      "numeric-id": 27971968,
+                      "id": "Q27971968"
+                    },
+                    "type": "wikibase-entityid"
+                  },
+                  "datatype": "wikibase-item"
+                }
+              ],
+              "P585": [
+                {
+                  "snaktype": "value",
+                  "property": "P585",
+                  "hash": "a6be46f7ad0a963928c79e954c6bebb458ccd2d8",
+                  "datavalue": {
+                    "value": {
+                      "time": "+2024-07-01T00:00:00Z",
+                      "timezone": 0,
+                      "before": 0,
+                      "after": 0,
+                      "precision": 10,
+                      "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                    },
+                    "type": "time"
+                  },
+                  "datatype": "time"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P3831",
+              "P585"
+            ],
+            "id": "Q620031$337553DA-0418-48C7-8045-05767350C972",
+            "rank": "normal"
+          }
+        ],
+        "P1617": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P1617",
+              "hash": "753210719b8d39ccc025d091aaeb6837eae9f224",
+              "datavalue": {
+                "value": "165b9a62-aa60-4755-94d0-9767b90a1dd0",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q620031$2e299826-4d9c-27db-dbd5-eb745166ef4c",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "8582d8416671f1f2567247201bac753552435ca5",
+                "snaks": {
+                  "P248": [
+                    {
+                      "snaktype": "value",
+                      "property": "P248",
+                      "hash": "ea55dc6ac5c3ab77c77d4ae7979e3276d0d4cd20",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 18336371,
+                          "id": "Q18336371"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P248"
+                ]
+              }
+            ]
+          }
+        ],
+        "P13772": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P13772",
+              "hash": "3f2c385738e2a55cd8319c43a185a903be6835f2",
+              "datavalue": {
+                "value": "king-power-stadium-leicester-england",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q620031$73F67413-6895-45DF-A945-05EE75DDBF90",
+            "rank": "normal"
+          }
+        ]
+      },
+      "sitelinks": {
+        "afwiki": {
+          "site": "afwiki",
+          "title": "King Power-stadion",
+          "badges": []
+        },
+        "arwiki": {
+          "site": "arwiki",
+          "title": "ملعب كينغ باور",
+          "badges": []
+        },
+        "azwiki": {
+          "site": "azwiki",
+          "title": "Kinq Pauer stadionu",
+          "badges": []
+        },
+        "banwiki": {
+          "site": "banwiki",
+          "title": "Stadion King Power",
+          "badges": []
+        },
+        "bgwiki": {
+          "site": "bgwiki",
+          "title": "Кинг Пауър Стейдиъм",
+          "badges": []
+        },
+        "bhwiki": {
+          "site": "bhwiki",
+          "title": "किंग पावर स्टेडियम",
+          "badges": []
+        },
+        "bswiki": {
+          "site": "bswiki",
+          "title": "Stadion King Power",
+          "badges": []
+        },
+        "cawiki": {
+          "site": "cawiki",
+          "title": "Leicester City Stadium",
+          "badges": []
+        },
+        "ckbwiki": {
+          "site": "ckbwiki",
+          "title": "یاریگای کینگ پاوەر",
+          "badges": []
+        },
+        "commonswiki": {
+          "site": "commonswiki",
+          "title": "Category:Leicester City Stadium",
+          "badges": []
+        },
+        "cswiki": {
+          "site": "cswiki",
+          "title": "King Power Stadium",
+          "badges": []
+        },
+        "cywiki": {
+          "site": "cywiki",
+          "title": "Stadiwm King Power",
+          "badges": []
+        },
+        "dawiki": {
+          "site": "dawiki",
+          "title": "King Power Stadium",
+          "badges": []
+        },
+        "dewiki": {
+          "site": "dewiki",
+          "title": "King Power Stadium",
+          "badges": []
+        },
+        "enwiki": {
+          "site": "enwiki",
+          "title": "King Power Stadium",
+          "badges": []
+        },
+        "eswiki": {
+          "site": "eswiki",
+          "title": "King Power Stadium",
+          "badges": []
+        },
+        "euwiki": {
+          "site": "euwiki",
+          "title": "King Power Stadium",
+          "badges": []
+        },
+        "fawiki": {
+          "site": "fawiki",
+          "title": "ورزشگاه کینگ‌پاور",
+          "badges": []
+        },
+        "fiwiki": {
+          "site": "fiwiki",
+          "title": "King Power Stadium",
+          "badges": []
+        },
+        "frwiki": {
+          "site": "frwiki",
+          "title": "King Power Stadium",
+          "badges": []
+        },
+        "glwiki": {
+          "site": "glwiki",
+          "title": "King Power Stadium",
+          "badges": []
+        },
+        "guwiki": {
+          "site": "guwiki",
+          "title": "કિંગ પાવર સ્ટેડિયમ",
+          "badges": []
+        },
+        "hawiki": {
+          "site": "hawiki",
+          "title": "Filin wasa na King Power",
+          "badges": []
+        },
+        "hewiki": {
+          "site": "hewiki",
+          "title": "אצטדיון קינג פאוור",
+          "badges": []
+        },
+        "hifwiki": {
+          "site": "hifwiki",
+          "title": "King Power Stadium",
+          "badges": []
+        },
+        "huwiki": {
+          "site": "huwiki",
+          "title": "King Power Stadion",
+          "badges": []
+        },
+        "idwiki": {
+          "site": "idwiki",
+          "title": "Stadion King Power",
+          "badges": []
+        },
+        "iswiki": {
+          "site": "iswiki",
+          "title": "King Power Stadium",
+          "badges": []
+        },
+        "itwiki": {
+          "site": "itwiki",
+          "title": "Leicester City Stadium",
+          "badges": []
+        },
+        "jawiki": {
+          "site": "jawiki",
+          "title": "キング・パワー・スタジアム",
+          "badges": []
+        },
+        "kawiki": {
+          "site": "kawiki",
+          "title": "კინგ პაუერი (სტადიონი)",
+          "badges": []
+        },
+        "kowiki": {
+          "site": "kowiki",
+          "title": "킹 파워 스타디움",
+          "badges": []
+        },
+        "ltwiki": {
+          "site": "ltwiki",
+          "title": "King Power stadionas",
+          "badges": []
+        },
+        "lvwiki": {
+          "site": "lvwiki",
+          "title": "King Power Stadium",
+          "badges": []
+        },
+        "maiwiki": {
+          "site": "maiwiki",
+          "title": "किंग पावर स्टेडियम",
+          "badges": []
+        },
+        "mswiki": {
+          "site": "mswiki",
+          "title": "Stadium King Power",
+          "badges": []
+        },
+        "nlwiki": {
+          "site": "nlwiki",
+          "title": "King Power Stadium",
+          "badges": []
+        },
+        "nowiki": {
+          "site": "nowiki",
+          "title": "King Power Stadium",
+          "badges": []
+        },
+        "nywiki": {
+          "site": "nywiki",
+          "title": "King Power Stadium",
+          "badges": []
+        },
+        "pawiki": {
+          "site": "pawiki",
+          "title": "ਕਿੰਗ ਪਾਵਰ ਸਟੇਡੀਅਮ",
+          "badges": []
+        },
+        "plwiki": {
+          "site": "plwiki",
+          "title": "King Power Stadium",
+          "badges": []
+        },
+        "ptwiki": {
+          "site": "ptwiki",
+          "title": "King Power Stadium",
+          "badges": []
+        },
+        "rowiki": {
+          "site": "rowiki",
+          "title": "King Power Stadium",
+          "badges": []
+        },
+        "ruwiki": {
+          "site": "ruwiki",
+          "title": "Кинг Пауэр (стадион)",
+          "badges": []
+        },
+        "simplewiki": {
+          "site": "simplewiki",
+          "title": "King Power Stadium",
+          "badges": []
+        },
+        "skwiki": {
+          "site": "skwiki",
+          "title": "King Power Stadium",
+          "badges": []
+        },
+        "srwiki": {
+          "site": "srwiki",
+          "title": "Кинг Пауер стадион",
+          "badges": []
+        },
+        "svwiki": {
+          "site": "svwiki",
+          "title": "King Power Stadium",
+          "badges": []
+        },
+        "swwiki": {
+          "site": "swwiki",
+          "title": "Uwanja wa King Power",
+          "badges": []
+        },
+        "thwiki": {
+          "site": "thwiki",
+          "title": "สนามกีฬาคิง เพาเวอร์",
+          "badges": []
+        },
+        "trwiki": {
+          "site": "trwiki",
+          "title": "King Power Stadyumu",
+          "badges": []
+        },
+        "ukwiki": {
+          "site": "ukwiki",
+          "title": "Кінг Павер",
+          "badges": []
+        },
+        "uzwiki": {
+          "site": "uzwiki",
+          "title": "King Power Stadium",
+          "badges": []
+        },
+        "viwiki": {
+          "site": "viwiki",
+          "title": "Sân vận động King Power",
+          "badges": []
+        },
+        "zh_yuewiki": {
+          "site": "zh_yuewiki",
+          "title": "皇權球場",
+          "badges": []
+        },
+        "zhwiki": {
+          "site": "zhwiki",
+          "title": "王權球場",
+          "badges": []
+        }
+      }
+    }
+  }
+}

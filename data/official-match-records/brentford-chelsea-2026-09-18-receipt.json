@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "method": "Allowlist of independently reviewed public official match facts; separate completed reference, never a cursor snapshot or tracking feed.",
+  "artifact": {
+    "file": "brentford-chelsea-2026-09-18.json",
+    "sha256": "c6dd8928c34d30b1d0a8f9f236e3e79cb01d846db190176250e503d689229691",
+    "bytes": 40420
+  },
+  "inputs": [
+    {
+      "file": "data/match-enrichment/brentford-chelsea-2026-09-18.json",
+      "sha256": "bed64858ef991a06e57e306342414928a2a483aa25f7f3de03adcd89d6de0327",
+      "bytes": 99760
+    },
+    {
+      "file": "data/match-enrichment/sources.json",
+      "sha256": "2ca5d653f5ecdfbdecdd9df2a7945347d140bc590a805b97566115039af6bc54",
+      "bytes": 6281
+    },
+    {
+      "file": "data/official-match-records/brentford-chelsea-2026-09-18-info-supplement.json",
+      "sha256": "b5ab083f99f1b1de53cdb3067cb1d83c41e7a275faf5c740dec9b5101c614c68",
+      "bytes": 980
+    }
+  ],
+  "corrections": [
+    "Martinez name-evidence locator refers to a Chelsea debutant against Brentford; corrected locator in this projection only."
+  ],
+  "excluded": [
+    "Raw research notes and media",
+    "Unaccepted inside/outside-box statistics",
+    "Inferred roles, biography and current affiliation",
+    "Minute-to-media conversion",
+    "Named pitch identity joins",
+    "Complete event-feed certification"
+  ]
+}

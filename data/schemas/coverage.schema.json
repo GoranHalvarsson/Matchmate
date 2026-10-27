@@ -1,0 +1,305 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Matchmate coverage contracts v0.3.0",
+  "$defs": {
+    "coverage": {
+      "type": "object",
+      "properties": {
+        "record_id": {
+          "$ref": "common.schema.json#/$defs/record_id"
+        },
+        "revision_id": {
+          "$ref": "common.schema.json#/$defs/record_id"
+        },
+        "supersedes_revision_id": {
+          "$ref": "common.schema.json#/$defs/supersedes_revision_id"
+        },
+        "kind": {
+          "const": "coverage"
+        },
+        "source_id": {
+          "$ref": "common.schema.json#/$defs/source_id"
+        },
+        "provenance": {
+          "$ref": "common.schema.json#/$defs/provenance"
+        },
+        "claim_status": {
+          "$ref": "common.schema.json#/$defs/claim_status"
+        },
+        "valid_from": {
+          "$ref": "common.schema.json#/$defs/valid_from"
+        },
+        "valid_to": {
+          "$ref": "common.schema.json#/$defs/valid_to"
+        },
+        "recorded_at": {
+          "$ref": "common.schema.json#/$defs/valid_from"
+        },
+        "published_at": {
+          "$ref": "common.schema.json#/$defs/valid_to"
+        },
+        "synthetic_released_at": {
+          "$ref": "common.schema.json#/$defs/valid_to"
+        },
+        "payload": {
+          "type": "object",
+          "properties": {
+            "fixture_id": {
+              "type": "string",
+              "pattern": "^[a-z][a-z0-9-]*$",
+              "x-reference": "fixture"
+            },
+            "domain": {
+              "type": "string",
+              "enum": [
+                "participants",
+                "events",
+                "tracking",
+                "referee_tracking",
+                "coach_actions",
+                "physical_balls",
+                "weather",
+                "travel",
+                "tactics",
+                "career"
+              ]
+            },
+            "subject_ids": {
+              "type": "array",
+              "items": {
+                "type": "string",
+                "pattern": "^[a-z][a-z0-9-]*$",
+                "x-reference": "*"
+              }
+            },
+            "status": {
+              "type": "string",
+              "enum": [
+                "available",
+                "partial",
+                "not_collected",
+                "unavailable",
+                "unknown"
+              ]
+            },
+            "start": {
+              "anyOf": [
+                {
+                  "$ref": "common.schema.json#/$defs/clock"
+                },
+                {
+                  "type": "null"
+                }
+              ]
+            },
+            "end": {
+              "anyOf": [
+                {
+                  "$ref": "common.schema.json#/$defs/clock"
+                },
+                {
+                  "type": "null"
+                }
+              ]
+            },
+            "sampling_interval_ms": {
+              "anyOf": [
+                {
+                  "type": "integer",
+                  "minimum": 1
+                },
+                {
+                  "type": "null"
+                }
+              ]
+            },
+            "description": {
+              "type": "string",
+              "minLength": 1
+            }
+          },
+          "required": [
+            "fixture_id",
+            "domain",
+            "subject_ids",
+            "status",
+            "start",
+            "end",
+            "sampling_interval_ms",
+            "description"
+          ],
+          "additionalProperties": false
+        }
+      },
+      "required": [
+        "record_id",
+        "revision_id",
+        "supersedes_revision_id",
+        "kind",
+        "source_id",
+        "provenance",
+        "claim_status",
+        "valid_from",
+        "valid_to",
+        "recorded_at",
+        "published_at",
+        "synthetic_released_at",
+        "payload"
+      ],
+      "additionalProperties": false,
+      "allOf": [
+        {
+          "if": {
+            "properties": {
+              "provenance": {
+                "const": "synthetic"
+              }
+            }
+          },
+          "then": {
+            "properties": {
+              "synthetic_released_at": {
+                "$ref": "common.schema.json#/$defs/valid_from"
+              },
+              "claim_status": {
+                "const": "authored"
+              }
+            }
+          },
+          "else": {
+            "properties": {
+              "synthetic_released_at": {
+                "type": "null"
+              }
+            }
+          }
+        }
+      ]
+    },
+    "stat_baseline": {
+      "type": "object",
+      "properties": {
+        "record_id": {
+          "$ref": "common.schema.json#/$defs/record_id"
+        },
+        "revision_id": {
+          "$ref": "common.schema.json#/$defs/record_id"
+        },
+        "supersedes_revision_id": {
+          "$ref": "common.schema.json#/$defs/supersedes_revision_id"
+        },
+        "kind": {
+          "const": "stat_baseline"
+        },
+        "source_id": {
+          "$ref": "common.schema.json#/$defs/source_id"
+        },
+        "provenance": {
+          "$ref": "common.schema.json#/$defs/provenance"
+        },
+        "claim_status": {
+          "$ref": "common.schema.json#/$defs/claim_status"
+        },
+        "valid_from": {
+          "$ref": "common.schema.json#/$defs/valid_from"
+        },
+        "valid_to": {
+          "$ref": "common.schema.json#/$defs/valid_to"
+        },
+        "recorded_at": {
+          "$ref": "common.schema.json#/$defs/valid_from"
+        },
+        "published_at": {
+          "$ref": "common.schema.json#/$defs/valid_to"
+        },
+        "synthetic_released_at": {
+          "$ref": "common.schema.json#/$defs/valid_to"
+        },
+        "payload": {
+          "type": "object",
+          "properties": {
+            "fixture_id": {
+              "type": "string",
+              "pattern": "^[a-z][a-z0-9-]*$",
+              "x-reference": "fixture"
+            },
+            "clock": {
+              "$ref": "common.schema.json#/$defs/clock"
+            },
+            "metric": {
+              "type": "string",
+              "enum": [
+                "score"
+              ]
+            },
+            "home_value": {
+              "type": "integer",
+              "minimum": 0
+            },
+            "away_value": {
+              "type": "integer",
+              "minimum": 0
+            },
+            "coverage_note": {
+              "type": "string",
+              "minLength": 1
+            }
+          },
+          "required": [
+            "fixture_id",
+            "clock",
+            "metric",
+            "home_value",
+            "away_value",
+            "coverage_note"
+          ],
+          "additionalProperties": false
+        }
+      },
+      "required": [
+        "record_id",
+        "revision_id",
+        "supersedes_revision_id",
+        "kind",
+        "source_id",
+        "provenance",
+        "claim_status",
+        "valid_from",
+        "valid_to",
+        "recorded_at",
+        "published_at",
+        "synthetic_released_at",
+        "payload"
+      ],
+      "additionalProperties": false,
+      "allOf": [
+        {
+          "if": {
+            "properties": {
+              "provenance": {
+                "const": "synthetic"
+              }
+            }
+          },
+          "then": {
+            "properties": {
+              "synthetic_released_at": {
+                "$ref": "common.schema.json#/$defs/valid_from"
+              },
+              "claim_status": {
+                "const": "authored"
+              }
+            }
+          },
+          "else": {
+            "properties": {
+              "synthetic_released_at": {
+                "type": "null"
+              }
+            }
+          }
+        }
+      ]
+    }
+  }
+}

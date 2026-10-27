@@ -1,0 +1,77 @@
+@page "/league/{SeasonKey}/matches/{MatchKey}"
+@rendermode @(new InteractiveServerRenderMode(prerender: false))
+@attribute [Authorize(Policy = ExternalIdAuthentication.TesterPolicy)]
+@using Matchmate.Web.Localization
+@using Matchmate.Web.Components.League
+@using Matchmate.Web.Components.Experience
+@using Matchmate.Web.Experience
+@using Matchmate.Web.HistoricalChat
+@implements IAsyncDisposable
+<PageTitle>@T("PageTitle")</PageTitle>
+<CascadingValue Value="Language">
+<main class="experience historical-experience" lang="@MatchLanguages.Code(Language)">
+    <a class="back-link historical-back-link" href="@ExperiencePresentation.LeagueUrl(SeasonKey, DateIndex, Club)">@T("BackSeason")</a>
+    @if (_match is { } context) {
+        <section class="historical-fixture-header" aria-label="@T("SelectedMatch")">
+            <div class="historical-fixture-meta">
+                <p class="eyebrow">Premier League · @context.Season.Label · @(T(context.Season.Status == "ongoing" ? "OngoingResult" : "HistoricalResult"))</p>
+                <p>@ExperiencePresentation.Date(context.Match.Date, Language) <span>·</span> @T("FullTime")</p>
+            </div>
+            <div class="historical-fixture-teams">
+                <div class="historical-fixture-club">
+                    <CrestBadge Club="context.Home" Class="historical-fixture-crest"/>
+                    <strong>@context.Home.Name</strong><span class="historical-fixture-side">@T("Home")</span>
+                </div>
+                <h1 class="historical-fixture-score" aria-label="@T("ScoreLabel", context.Home.Name, context.Match.HomeGoals, context.Match.AwayGoals, context.Away.Name)">@context.Match.HomeGoals <span class="historical-score-divider">–</span> @context.Match.AwayGoals</h1>
+                <div class="historical-fixture-club">
+                    <CrestBadge Club="context.Away" Class="historical-fixture-crest"/>
+                    <strong>@context.Away.Name</strong><span class="historical-fixture-side">@T("Away")</span>
+                </div>
+            </div>
+            @if (context.Season.Status == "ongoing") { <p class="historical-freshness">@T("Freshness", ExperiencePresentation.Date(context.Season.ResultsThrough, Language), ExperiencePresentation.Date(context.Season.RetrievedAt?[..10], Language))</p> }
+        </section>
+        <HistoricalConversation @key="HistoricalChatContext.From(context)" Context="HistoricalChatContext.From(context)"/>
+        <details class="historical-facts">
+            <summary><span class="historical-facts-title">@T("ExploreFacts")</span><span class="historical-facts-hint">@T("FactsHint")</span></summary>
+            <div class="historical-facts-body">
+                <div class="historical-grid historical-facts-grid">
+                    <section class="paper-card historical-fact-card">
+                        <p class="eyebrow">@T("BeforeMatch")</p><h2>@T("HowArrived")</h2>
+                        <h3>@context.Home.Name</h3>
+                        <ResultList Matches="context.HomePreMatchForm" Clubs="_clubs" Season="@SeasonKey" DateIndex="DateIndex" SelectedClub="@Club"/>
+                        <h3>@context.Away.Name</h3>
+                        <ResultList Matches="context.AwayPreMatchForm" Clubs="_clubs" Season="@SeasonKey" DateIndex="DateIndex" SelectedClub="@Club"/>
+                        <p class="historical-card-note">@T("PreMatchNote")</p>
+                    </section>
+                    <section class="paper-card historical-fact-card">
+                        <p class="eyebrow">@T("EndPlayedDate")</p><h2>@T("TableAround")</h2>
+                        @foreach (var facts in new[] { context.HomeTable, context.AwayTable }) {
+                            <div class="historical-standing" @key="facts.Club.Id">
+                                <h3>@facts.Club.Name</h3>
+                                <div class="historical-table-stats">
+                                    <div><strong>@ExperiencePresentation.Rank(facts.Row)</strong><span>@T("Position")</span></div>
+                                    <div><strong>@facts.Row.Points</strong><span>@T("Points")</span></div>
+                                    <div><strong>+@facts.PointsChange</strong><span>@T("OnDate")</span></div>
+                                </div>
+                                <p class="historical-card-note">@(facts.PositionChange is null ? T("NoPreviousRank") : T("PositionChange", facts.PositionChange))</p>
+                            </div>
+                        }
+                        <p class="historical-card-note">@T("MovementNote")</p>
+                    </section>
+                    <section class="paper-card historical-fact-card">
+                        <p class="eyebrow">@T("EarlierMeetings")</p><h2>@T("BeforeDay")</h2>
+                        @if (context.PriorMeetings.Length == 0) { <p>@T("NoEarlierMeeting")</p> }
+                        @foreach (var prior in context.PriorMeetings) {
+                            <div class="historical-meeting" @key="@($"{prior.SeasonKey}/{prior.Match.MatchKey}")"><small>@ExperiencePresentation.Date(prior.Match.Date, Language)</small><p>@prior.HomeName <strong>@prior.Match.HomeGoals–@prior.Match.AwayGoals</strong> @prior.AwayName</p></div>
+                        }
+                        <div class="historical-ground"><h3>@T("PlaceInTime")</h3><p class="historical-ground-name">@context.Home.Ground</p><p>@context.Home.Name · @context.Home.Town</p><p class="historical-card-note">@T("GroundNote")</p></div>
+                    </section>
+                </div>
+                <details class="historical-sources"><summary>@T("SourcesCoverage")</summary><div class="historical-source-copy"><p>@T("ResultsLabel") <AppLink Href="https://github.com/openfootball/football.json" Target="_blank" Rel="noopener noreferrer">OpenFootball</AppLink>@T("CommunityLicense")</p><p>@T("SourceNote")</p><small>@T("CrestLicense")</small></div></details>
+            </div>
+        </details>
+    } else {
+        <section class="loading-card" role="status"><h1>@(_loading ? T("FindingMatch") : T("MatchUnavailable"))</h1><p>@DisplayStatus</p>@if (!_loading) { <button @onclick="LoadAsync">@T("TryAgain")</button> }</section>
+    }
+</main>
+</CascadingValue>

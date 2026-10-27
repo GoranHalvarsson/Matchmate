@@ -1,0 +1,75 @@
+@rendermode @(new InteractiveServerRenderMode(prerender: false))
+@attribute [Authorize(Policy = ExternalIdAuthentication.TesterPolicy)]
+@using Matchmate.Contracts
+@using Matchmate.Web.Localization
+
+<PageTitle>@T("LegacyPageTitle")</PageTitle>
+<header class="masthead" lang="@MatchLanguages.Code(Language)"><a href="/" class="brand">matchmate<span>●</span></a><span class="eyebrow">@T("LegacyTagline")</span><span class="local-label">@T("RecordedReplay")</span></header>
+<main lang="@MatchLanguages.Code(Language)">
+@if (_catalog.Length > 0)
+{
+    <section class="notice"><label for="dataset-select">@T("ChooseRecording")</label> <select id="dataset-select" value="@_activeDatasetId" @onchange="SelectDatasetAsync">
+        @foreach (var dataset in _catalog) { <option value="@dataset.DatasetId">@T("RecordingOption", dataset.Metadata.Home.Name, dataset.Metadata.Away.Name, dataset.Metadata.Competition)</option> }
+    </select></section>
+}
+@if (_metadata is null || _cursor is null)
+{
+    <section class="notice"><p class="eyebrow">@T("RecordedExperience")</p><h1>@T("CloserGame")</h1><p role="status">@DisplayStatus</p><button @onclick="LoadAsync" disabled="@_loading">@T("TryAgain")</button></section>
+}
+else
+{
+    <section class="match-heading"><div><p class="eyebrow">@_metadata.Competition · @T("RecordedOrigin", _metadata.Origin)</p><h1>@_metadata.Home.Name <span>@T("Versus")</span> @_metadata.Away.Name</h1><p>@T("SourceInterval", LocalDate(_metadata.DateTime), Clock(_metadata.Start), Clock(_metadata.End))</p></div><div class="time-card"><span>@T("Period", _metadata.Period)</span><strong>@Clock(_cursor.Time)</strong><span>@T("PassageEnd", Clock(_metadata.End))</span></div></section>
+    <div class="workspace">
+      <section class="replay-card" aria-label="@T("RecordedTracking")">
+        <div class="pitch-heading"><span class="eyebrow">@T("MomentShape")</span><span>@(_frame is null ? T("LoadingFrame") : T("AvailablePositions", _frame.AvailablePlayers, _metadata.Players.Length))</span></div>
+        <div class="pitch-wrap">
+          <svg class="pitch" viewBox="@ViewBox" role="img" aria-label="@T("RecordedPositionsLabel")">
+            <defs><pattern id="stripes" width="15" height="68" patternUnits="userSpaceOnUse"><rect width="7.5" height="68" fill="#ffffff" opacity=".035" /></pattern></defs>
+            <rect x="6" y="6" width="@InvariantNumber(PitchLength)" height="@InvariantNumber(PitchWidth)" class="field"/><rect x="6" y="6" width="@InvariantNumber(PitchLength)" height="@InvariantNumber(PitchWidth)" fill="url(#stripes)"/>
+            <g class="markings"><rect x="6" y="6" width="@InvariantNumber(PitchLength)" height="@InvariantNumber(PitchWidth)"/><path d="@($"M{InvariantNumber(PitchLength / 2 + 6)} 6V{InvariantNumber(PitchWidth + 6)}")"/><circle cx="@InvariantNumber(PitchLength / 2 + 6)" cy="@InvariantNumber(PitchWidth / 2 + 6)" r="@InvariantNumber(Math.Min(9.15, PitchWidth / 4))"/><circle cx="@InvariantNumber(PitchLength / 2 + 6)" cy="@InvariantNumber(PitchWidth / 2 + 6)" r=".3"/></g>
+            @if (PitchLength >= 50 && PitchWidth >= 45) { <g class="markings"><path d="@PenaltyMarkings"/></g> }
+            @if (_frame is not null)
+            {
+              @foreach (var player in _frame.Players.Where(p => p.Position.Available))
+              {
+                <g class="@MarkerClass(player)" @onclick="() => Select(player.Player.Id)" role="button" tabindex="0" aria-label="@player.Player.Name" @onkeydown="e => SelectKey(e, player.Player.Id)">
+                  <title>@player.Player.Name · @Quality(player.Position.Quality)</title>
+                  @if (player.Position.Quality == "unknown") { <rect x="@InvariantNumber(X(player.Position) - 1.7)" y="@InvariantNumber(Y(player.Position) - 1.7)" width="3.4" height="3.4" rx=".2"/> }
+                  else { <circle cx="@InvariantNumber(X(player.Position))" cy="@InvariantNumber(Y(player.Position))" r="1.7"/> }
+                  <text x="@InvariantNumber(X(player.Position))" y="@InvariantNumber(Y(player.Position) + .65)">@player.Player.Number</text>
+                </g>
+              }
+              @if (_frame.Ball.Available) { <circle class="@("ball " + _frame.Ball.Quality)" cx="@InvariantNumber(X(_frame.Ball))" cy="@InvariantNumber(Y(_frame.Ball))" r=".75"><title>@T("BallQuality", Quality(_frame.Ball.Quality))</title></circle> }
+            }
+          </svg>
+          @if (_frame?.FullGap == true) { <div class="pitch-message"><strong>@T("RecordingGap")</strong><span>@T("PositionsUnavailable")</span></div> }
+          @if (_frame is null) { <div class="pitch-message"><span>@T("LoadingMoment")</span></div> }
+        </div>
+        <div class="legend"><span><i class="home-dot"></i>@_metadata.Home.Name</span><span><i class="away-dot"></i>@_metadata.Away.Name</span><span>@T("BallLegend", Quality(_frame?.Ball.Quality))</span><span>@T("PositionLegend")</span></div>
+        <div class="playback"><button class="transport" @onclick="TogglePlayAsync" disabled="@(_cursor.Gap is not null && !_cursor.Playing)">@(T(_cursor.Playing ? "Pause" : "Play"))</button><span>@Clock(_cursor.Time)</span><input type="range" aria-label="@T("ReplayTime")" min="@InvariantNumber(_metadata.Start)" max="@InvariantNumber(_metadata.End)" step="@InvariantNumber(_metadata.Cadence)" value="@InvariantNumber(_cursor.Time)" @oninput="ScrubAsync"/><span>@Clock(_metadata.End)</span></div>
+        @if (_cursor.Gap is { } gap)
+        {
+          <div class="gap-notice"><strong>@T("SourceGap", Clock(gap.Start), Clock(gap.End))</strong><p>@T("GapNote")</p><div><button @onclick="ContinueAsync">@T("ContinueGap")</button><button @onclick="() => AdjacentAsync(true)" disabled="@(_cursor.Adjacent(true) is null)">@T("SkipNext")</button><button @onclick="() => AdjacentAsync(false)" disabled="@(_cursor.Adjacent(false) is null)">@T("ReturnBeforeGap")</button></div></div>
+        }
+        @if (_error is not null) { <div class="error" role="alert">@DisplayError <button @onclick="FetchFrameAsync">@T("RetryMoment")</button></div> }
+      </section>
+      <aside class="players-card"><p class="eyebrow">@T("ChoosePlayer")</p><h2>@T("FollowSomeone")</h2><p class="muted">@T("SelectPlayerNote")</p>
+        @foreach (var team in new[] { _metadata.Home, _metadata.Away })
+        {
+          <h3>@team.Name</h3><div class="roster">
+          @foreach (var player in _metadata.Players.Where(p => p.TeamId == team.Id).OrderBy(p => p.Number))
+          {
+            var position = _frame?.Players.FirstOrDefault(p => p.Player.Id == player.Id)?.Position;
+            <button class="@(_selected == player.Id ? "selected" : "")" @onclick="() => Select(player.Id)"><span class="jersey">@player.Number</span><span>@player.Name</span><small>@Quality(position?.Quality)</small></button>
+          }
+          </div>
+        }
+      </aside>
+    </div>
+    @if (Selected is { } selected)
+    {
+      <section class="player-detail"><div><p class="eyebrow">@T("CloserLook")</p><h2>@selected.Player.Name</h2><p>@T("ShirtTeam", selected.Player.Number, _metadata.Home.Id == selected.Player.TeamId ? _metadata.Home.Name : _metadata.Away.Name)</p></div><div><strong>@T("QualityPosition", Quality(selected.Position.Quality))</strong><p>@(selected.Position.Available ? T("Coordinates", selected.Position.X?.ToString("0.00", MatchLanguages.Culture(Language)), selected.Position.Y?.ToString("0.00", MatchLanguages.Culture(Language))) : T("NoPositionFrame"))</p><small>@(selected.Position.OutOfBounds ? T("OutsidePitch") : "")</small></div><div><strong>@T("GroundedMoment")</strong><p>@T("SourceFrame", _frame?.SourceFrameId, Clock(_frame?.SourceClock ?? _cursor.Time))</p></div></section>
+    }
+    <details class="source-note"><summary>@T("RecordingLimits")</summary><p lang="en">@_metadata.Limits</p><p lang="en">@_metadata.ImportMode</p><p>@T("RecordingMetadata", _metadata.FrameCount, _metadata.EmptyFrames, _metadata.Origin, _metadata.Source)</p><p><span lang="en">@_metadata.License</span> · <CascadingValue Value="Language"><AppLink Href="@_metadata.SourceUrl" Target="_blank" Rel="noopener noreferrer">@T("PinnedSource")</AppLink></CascadingValue></p><p class="hash">SHA-256 @_metadata.SourceHash</p><p>@T("TrackingOnly")</p></details>
+}
+</main><footer lang="@MatchLanguages.Code(Language)">@T("Footer")</footer>

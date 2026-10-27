@@ -1,0 +1,63 @@
+@page "/recordings"
+@page "/recordings/{DatasetId}"
+@rendermode @(new InteractiveServerRenderMode(prerender: false))
+@attribute [Authorize(Policy = ExternalIdAuthentication.TesterPolicy)]
+@using Matchmate.Web.Localization
+@using Matchmate.Contracts
+@using Matchmate.Web.Experience
+@using Matchmate.Web.Components.Football
+@using Matchmate.Web.Components.Experience
+@implements IAsyncDisposable
+<PageTitle>@T("PageTitle")</PageTitle>
+<CascadingValue Value="Language">
+<main class="experience recording-experience" lang="@MatchLanguages.Code(Language)">
+<div class="recording-toolbar"><a class="back-link" href="/">@T("ExploreLeague")</a><section class="recording-selector">
+@if (ViewingTechnicalSample) {
+    <div class="technical-sample-context"><strong>@T("TechnicalSample")</strong><a href="/recordings">@T("BackRecordings")</a></div>
+} else if (MainRecordings.Length > 0) {
+    <label class="sr-only" for="football-dataset">@T("ChooseRecording")</label><select id="football-dataset" value="@_selectedStream" @onchange="ChangeAsync">@foreach (var choice in MainRecordings) { <option @key="choice.Manifest.DatasetId" value="@choice.Stream.StreamId">@(choice.Fixture is { } optionFixture ? T("Versus", optionFixture.Home.Name, optionFixture.Away.Name) : choice.Manifest.DatasetId)</option> }</select>
+} else {
+    <span class="recording-selector-empty">@(_catalogBusy ? T("LoadingMatchRecordings") : T("NoRecordings"))</span>
+}
+<button @onclick="RefreshAsync" aria-label="@T("RefreshRecordings")" aria-busy="@ExperiencePresentation.Pressed(_catalogBusy)">@if (_catalogBusy) { <LoadingStatus Text="@T("Refreshing")"/> } else { <span>@T("Refresh")</span> }</button></section><span class="experience-status" role="status">@ReplayText.Status(Language, _status)</span></div>
+@if (TechnicalSamples.Length > 0) {
+    <details class="technical-samples" open="@ViewingTechnicalSample"><summary>@T("TechnicalSamples")</summary><p>@T("TechnicalSamplesNote")</p><ul>@foreach (var sample in TechnicalSamples) { <li @key="sample.Manifest.DatasetId"><a href="@("/recordings/" + Uri.EscapeDataString(sample.Manifest.DatasetId))">@(sample.Manifest.DatasetId == "paced-generated-demo" ? T("IncomingSyntheticDemo") : T("Versus", sample.Fixture!.Home.Name, sample.Fixture.Away.Name))</a></li> }</ul></details>
+}
+@if (CurrentDataset is { Fixture: { } fixture, Schedule: { } schedule } dataset) {
+<ReplayMatchHeader Dataset="dataset" Language="Language"><AudienceModePicker Mode="_audienceMode" Changed="ChangeAudience"/></ReplayMatchHeader>
+@if (!dataset.Closed) { <p><LoadingStatus Text="@T("PreparingRecording")"/></p> }
+<MatchHighlights CountsKnown="HighlightCountsKnown" IsLoading="@(_indexBusy && !HighlightCountsKnown)" IsRefreshing="@(_indexBusy && HighlightCountsKnown)" ContextKey="@dataset.Stream.StreamId" Highlights="_highlights" Status="@ReplayText.Status(Language, _highlightStatus)" Navigate="HighlightAsync"/>
+
+}
+<MatchConversation PitchSide="true" FixtureLabel="@(CurrentDataset?.Fixture is { } workspaceFixture ? T("Versus", workspaceFixture.Home.Name, workspaceFixture.Away.Name) : T("ThisMatch"))" Context="ConversationContext" ContextLabel="@ConversationLabel" Title="@(_view is { } chatView && _personId is not null ? ExperiencePresentation.Person(chatView.Dataset, _personId, Language) : T("ThisMatch"))" Language="Language" Updating="InteractionBlocked" AudienceMode="_audienceMode" SnapshotReady="SequenceIndexAvailable" PreparedInsight="_preparedInsight" PreparedRecap="_preparedRecap" PreparedPassage="_preparedPassage" OnClearSelectedPassage="ClearSelectedPassage" EventSelectionVersion="_eventSelectionVersion" OnAsking="Pause" OnClearSelectedEvent="ClearSelectedEvent" OnShowOnPitch="ShowEventOnPitchAsync">
+<PitchContent>
+@if (CurrentDataset is { Fixture: { } fixture, Schedule: { } schedule } dataset) {
+<section class="replay-card" @ref="_pitchElement" tabindex="-1" aria-label="@T("PitchLabel")"><div class="pitch-heading"><strong>@(_view is { } clockView ? ExperiencePresentation.PeriodLabel(clockView, Language) : T("LoadingMoment"))</strong><span>@(_view is null ? "—" : ExperiencePresentation.Clock(ExperiencePresentation.MatchClock(_view)))</span>@if (_view is { } scoreView && ExperiencePresentation.SupportsEventReports(dataset)) { <strong>@T("ReportedGoalsShort", ExperiencePresentation.ReportedGoals(scoreView, fixture.Home.Id), ExperiencePresentation.ReportedGoals(scoreView, fixture.Away.Id))</strong> } else { <small>@T("NoScore")</small> }</div>
+@if (_updating && _view is null) { <p><LoadingStatus Text="@T("LoadingReplayMoment")"/></p> }
+@if (_view is { } view) { <FootballPitch View="view" SelectedPerson="@_personId" Select="SelectPerson" Sequences="PitchSequences" MaskGoalWindow="MaskGoalWindow" SequenceIndexAvailable="SequenceIndexAvailable" InteractionDisabled="InteractionBlocked" Playing="_playing" MotionEpoch="_motionEpoch" PlaybackStepMs="@(100 * _speed)"/> } else { <div class="pitch-loading" role="status">@ReplayText.Status(Language, _status)</div> }
+<ReplayControls Schedule="schedule" Dataset="dataset" Highlights="_highlights" NavigateHighlight="HighlightAsync" Cursor="_cursorMs" Playing="_playing" Speed="_speed" Toggle="ToggleAsync" Seek="SeekAsync" SpeedChanged="SetSpeed"/>
+@if (PositionsLoading) { <p><LoadingStatus Text="@T("PreparingPositions")"/></p> }
+else if (_view is { TrackingGap: true } gap) { <div class="gap-notice"><strong>@T("GapPaused")</strong><p>@ReplayText.Coverage(Language, gap)</p><button @onclick="ContinueAsync">@T("ContinueGap")</button><button @onclick="NextAsync">@T("NextMilestone")</button><button @onclick="PreviousAsync">@T("PreviousMilestone")</button></div> }
+@if (!PositionsLoading && _view is { } coverage) { <p class="coverage-copy">@(ExperiencePresentation.Generated(coverage.Dataset) && !coverage.TrackingGap ? T("GeneratedMotionCoverage") : ReplayText.Coverage(Language, coverage))</p> }
+<ReplayStoryTimeline Notice="@_storyNotice" Items="CurrentStory" Selected="_selectedPassage" Disabled="InteractionBlocked" OnSelect="SelectStoryPassageAsync" OnAsk="PrepareStoryQuestionAsync"/>
+<ReplayInsightCard Insight="CurrentInsight" AudienceMode="_audienceMode" Disabled="InteractionBlocked" OnAsk="PrepareInsightQuestionAsync"/>
+<ReplayRecapCard Recap="CurrentRecap" AudienceMode="_audienceMode" Disabled="InteractionBlocked" OnAsk="PrepareRecapQuestionAsync"/>
+</section>
+}
+</PitchContent>
+<RosterContent>
+@if (_view is { } rosterView) { <PlayerRoster View="rosterView" SelectedPerson="@_personId" Select="SelectPerson" Disabled="InteractionBlocked" PositionsLoading="PositionsLoading"/> } else { <aside class="players-card"><h2>@T("LoadingMomentHeading")</h2><p>@T("LoadingVerifiedMoment")</p></aside> }
+</RosterContent>
+</MatchConversation>
+@if (CurrentDataset is { Fixture: { } detailsFixture, Schedule: { } detailsSchedule } detailsDataset) {
+@if (_view is { } current) {
+<IllustrationStatistics View="current"/>
+<section class="eligible-events"><p class="eyebrow">@T("EligibleFacts")</p><h2>@T("MatchSoFar")</h2>@if (InteractionBlocked) { <p role="status">@T("AcceptedMoment", ExperiencePresentation.Clock(current.Context.CursorMs))</p> }@if (ExperiencePresentation.SupportsEventReports(detailsDataset)) { <p><strong>@T("ReportedGoals", ExperiencePresentation.ReportedGoals(current, detailsFixture.Home.Id), ExperiencePresentation.ReportedGoals(current, detailsFixture.Away.Id))</strong> · @detailsFixture.Home.Name / @detailsFixture.Away.Name. @T("ReportedGoalsNote")</p> } else { <p>@T("PositionsNotScore")</p> }
+@foreach (var record in current.Events) { var e = (MatchEventPayload)record.Payload; <p @key="record.RecordId">@T("EventReport", ReplayText.Kind(Language, e.EventKind), e.Decision is null ? T("NotSupplied") : ReplayText.Value(Language, e.Decision), ExperiencePresentation.Person(current.Dataset, e.PersonId ?? e.IncomingPersonId, Language), record.FootballTime?.ReportedClock) · <span lang="en">@record.FootballTime?.Precision · @record.Evidence[0].Origin/@record.Evidence[0].Method</span></p> }
+<p>@T("EligiblePossessions", current.Possessions.Length)</p></section>
+}
+<details class="source-note"><summary>@T("SourcesTiming")</summary><p lang="en">@detailsDataset.Manifest.Normalization</p><p><span lang="en">@detailsDataset.Schedule.TimingMethod</span> · @T("SourceTimingNote", detailsDataset.People.Length)</p><p>@T("RecordingMetadata", detailsDataset.Manifest.DatasetVersion, detailsDataset.Manifest.SchemaVersion, T(detailsDataset.Closed ? "Closed" : "Open"), detailsDataset.HeadSequence, detailsDataset.PendingRecords)</p></details>
+} else { <section class="loading-card"><h1>@T("MatchSpendTime")</h1>@if (_catalogBusy) { <p><LoadingStatus Text="@T("LoadingRecordings")"/></p> } else if (DatasetId is null && TechnicalSamples.Length > 0 && MainRecordings.Length == 0) { <p>@T("NoMainRecordingsNote")</p> } else { <p>@T("RecordingsUnavailable")</p><button @onclick="RefreshAsync">@T("TryAgain")</button> }</section> }
+
+</main>
+</CascadingValue>

@@ -1,0 +1,117 @@
+{
+  "entities": {
+    "Q140196769": {
+      "pageid": 133634336,
+      "ns": 0,
+      "title": "Q140196769",
+      "lastrevid": 2538830879,
+      "modified": "2026-09-01T00:53:27Z",
+      "type": "item",
+      "id": "Q140196769",
+      "labels": {
+        "en": {
+          "language": "en",
+          "value": "2026–27 Brighton & Hove Albion F.C. season"
+        }
+      },
+      "claims": {
+        "P641": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P641",
+              "hash": "1624e15e061523279bc14bb6497168e45caacb32",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 2736,
+                  "id": "Q2736"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q140196769$5781f143-b86e-4c46-826b-a0a56f679dc7",
+            "rank": "normal"
+          }
+        ],
+        "P31": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P31",
+              "hash": "9ddb403180b684facfb50183c3b3a99ce0b171d1",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 26887310,
+                  "id": "Q26887310"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q140196769$e59c5254-f21a-4d8c-8ad1-088fbceebb7f",
+            "rank": "normal"
+          }
+        ],
+        "P5138": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P5138",
+              "hash": "528f811c95eb3204f49c80cb4397d6d5e469ddcd",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 19453,
+                  "id": "Q19453"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q140196769$2DBE7123-C7B1-499E-9440-3B7C479959A1",
+            "rank": "normal"
+          }
+        ],
+        "P2348": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P2348",
+              "hash": "33dc124fb8ec0bedb17f94adfe80c432678d5a4d",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 53389812,
+                  "id": "Q53389812"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q140196769$29303e5a-42c0-0759-abd5-a57abfb2b4bc",
+            "rank": "normal"
+          }
+        ]
+      },
+      "sitelinks": {
+        "enwiki": {
+          "site": "enwiki",
+          "title": "2026–27 Brighton & Hove Albion F.C. season",
+          "badges": []
+        },
+        "itwiki": {
+          "site": "itwiki",
+          "title": "Brighton & Hove Albion Football Club 2026-2027",
+          "badges": []
+        }
+      }
+    }
+  }
+}

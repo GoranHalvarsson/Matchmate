@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms</value></resheader>
+  <data name="PageTitle" xml:space="preserve"><value>Matchmate · En match i sin säsong</value></data>
+  <data name="BackSeason" xml:space="preserve"><value>← Tillbaka till säsongen</value></data>
+  <data name="SelectedMatch" xml:space="preserve"><value>Vald match</value></data>
+  <data name="OngoingResult" xml:space="preserve"><value>Resultat från pågående säsong</value></data>
+  <data name="HistoricalResult" xml:space="preserve"><value>Historiskt resultat</value></data>
+  <data name="FullTime" xml:space="preserve"><value>Slutresultat</value></data>
+  <data name="Home" xml:space="preserve"><value>Hemma</value></data>
+  <data name="Away" xml:space="preserve"><value>Borta</value></data>
+  <data name="ScoreLabel" xml:space="preserve"><value>{0} {1} – {2} {3}, slutresultat</value></data>
+  <data name="Freshness" xml:space="preserve"><value>Resultat till och med {0} · Hämtat {1} UTC · Inga automatiska uppdateringar.</value></data>
+  <data name="ExploreFacts" xml:space="preserve"><value>Utforska matchens fakta</value></data>
+  <data name="FactsHint" xml:space="preserve"><value>Form, tabell, tidigare möten och arena</value></data>
+  <data name="BeforeMatch" xml:space="preserve"><value>Före matchen</value></data>
+  <data name="HowArrived" xml:space="preserve"><value>Så kom de till matchen.</value></data>
+  <data name="PreMatchNote" xml:space="preserve"><value>Upp till fem resultat strikt före den här dagen, äldst först. Matcher samma dag räknas inte in i formen före matchen.</value></data>
+  <data name="EndPlayedDate" xml:space="preserve"><value>Speldagens slut</value></data>
+  <data name="TableAround" xml:space="preserve"><value>Tabelläget runt dem.</value></data>
+  <data name="Position" xml:space="preserve"><value>Placering</value></data>
+  <data name="Points" xml:space="preserve"><value>Poäng</value></data>
+  <data name="OnDate" xml:space="preserve"><value>Den här dagen</value></data>
+  <data name="NoPreviousRank" xml:space="preserve"><value>Ingen placering för föregående speldag.</value></data>
+  <data name="PositionChange" xml:space="preserve"><value>Placeringsförändring: {0} jämfört med föregående speldag.</value></data>
+  <data name="MovementNote" xml:space="preserve"><value>Alla resultat den här dagen bidrar. Förändringen tillskrivs inte bara den här matchen.</value></data>
+  <data name="EarlierMeetings" xml:space="preserve"><value>Tidigare möten</value></data>
+  <data name="BeforeDay" xml:space="preserve"><value>Före den här dagen.</value></data>
+  <data name="NoEarlierMeeting" xml:space="preserve"><value>Inget tidigare möte i de inlästa säsongerna.</value></data>
+  <data name="PlaceInTime" xml:space="preserve"><value>En plats i sin tid.</value></data>
+  <data name="GroundNote" xml:space="preserve"><value>Klubbens arenareferens för säsongen, inte en bekräftelse på matchens spelplats.</value></data>
+  <data name="SourcesCoverage" xml:space="preserve"><value>Källor och täckning</value></data>
+  <data name="ResultsLabel" xml:space="preserve"><value>Resultat:</value></data>
+  <data name="CommunityLicense" xml:space="preserve"><value> (underhålls av communityn, CC0).</value></data>
+  <data name="SourceNote" xml:space="preserve"><value>Referensen innehåller resultat, form före matchen, tabellplaceringar och tidigare möten från de inlästa säsongerna. Målskyttar, laguppställningar och matchhändelser ingår inte. Klubbarnas arenor är säsongsreferenser.</value></data>
+  <data name="CrestLicense" xml:space="preserve"><value>Resultatlicensen omfattar inte klubbmärken.</value></data>
+  <data name="FindingMatch" xml:space="preserve"><value>Hämtar matchen…</value></data>
+  <data name="MatchUnavailable" xml:space="preserve"><value>Matchen är inte tillgänglig</value></data>
+  <data name="TryAgain" xml:space="preserve"><value>Försök igen</value></data>
+  <data name="StatusLoading" xml:space="preserve"><value>Laddar källunderbyggt resultatsammanhang…</value></data>
+  <data name="StatusUnavailable" xml:space="preserve"><value>Resultatet är inte tillgängligt. Kontrollera vald säsong eller försök igen när API:et har startat.</value></data>
+  <data name="LegacyPageTitle" xml:space="preserve"><value>Matchmate · Inspelad match</value></data>
+  <data name="LegacyTagline" xml:space="preserve"><value>Lite närmare matchen.</value></data>
+  <data name="RecordedReplay" xml:space="preserve"><value>Inspelad repris</value></data>
+  <data name="ChooseRecording" xml:space="preserve"><value>Välj en inspelning</value></data>
+  <data name="RecordingOption" xml:space="preserve"><value>{0} mot {1} · {2}</value></data>
+  <data name="RecordedExperience" xml:space="preserve"><value>Upplevelse av en inspelad match</value></data>
+  <data name="CloserGame" xml:space="preserve"><value>En närmare titt på spelet.</value></data>
+  <data name="RecordedOrigin" xml:space="preserve"><value>Inspelat exempel från {0} · retrospektivt</value></data>
+  <data name="Versus" xml:space="preserve"><value>mot</value></data>
+  <data name="SourceInterval" xml:space="preserve"><value>{0} · källintervall {1}–{2}. Inget direktflöde eller härlett resultat.</value></data>
+  <data name="Period" xml:space="preserve"><value>Period {0}</value></data>
+  <data name="PassageEnd" xml:space="preserve"><value>av {0}, sekvensens slut</value></data>
+  <data name="RecordedTracking" xml:space="preserve"><value>Inspelad positionsrepris</value></data>
+  <data name="MomentShape" xml:space="preserve"><value>Ögonblickets form</value></data>
+  <data name="LoadingFrame" xml:space="preserve"><value>Laddar bild</value></data>
+  <data name="AvailablePositions" xml:space="preserve"><value>{0} / {1} positioner tillgängliga</value></data>
+  <data name="RecordedPositionsLabel" xml:space="preserve"><value>Inspelade spelar- och bollpositioner; saknade positioner ritas inte</value></data>
+  <data name="BallQuality" xml:space="preserve"><value>Boll · {0}</value></data>
+  <data name="RecordingGap" xml:space="preserve"><value>En lucka i inspelningen</value></data>
+  <data name="PositionsUnavailable" xml:space="preserve"><value>Spelarpositioner saknas här.</value></data>
+  <data name="LoadingMoment" xml:space="preserve"><value>Laddar ögonblicket…</value></data>
+  <data name="BallLegend" xml:space="preserve"><value>Boll: {0}</value></data>
+  <data name="LoadingValue" xml:space="preserve"><value>laddar</value></data>
+  <data name="PositionLegend" xml:space="preserve"><value>Heldragen = upptäckt · ihålig streckad = uppskattad · fyrkant = okänd spelarkvalitet · saknade positioner ritas inte</value></data>
+  <data name="Pause" xml:space="preserve"><value>Pausa</value></data>
+  <data name="Play" xml:space="preserve"><value>Spela</value></data>
+  <data name="ReplayTime" xml:space="preserve"><value>Tid i matchreprisen</value></data>
+  <data name="SourceGap" xml:space="preserve"><value>Lucka i källan · {0}–{1}</value></data>
+  <data name="GapNote" xml:space="preserve"><value>Uppspelningen pausas när den når en lucka. Fortsätt genom luckan eller gå till ett tillgängligt ögonblick.</value></data>
+  <data name="ContinueGap" xml:space="preserve"><value>Fortsätt genom luckan</value></data>
+  <data name="SkipNext" xml:space="preserve"><value>Hoppa till nästa</value></data>
+  <data name="ReturnBeforeGap" xml:space="preserve"><value>Tillbaka före luckan</value></data>
+  <data name="RetryMoment" xml:space="preserve"><value>Försök ladda ögonblicket igen</value></data>
+  <data name="ChoosePlayer" xml:space="preserve"><value>Välj en spelare</value></data>
+  <data name="FollowSomeone" xml:space="preserve"><value>Följ en spelare.</value></data>
+  <data name="SelectPlayerNote" xml:space="preserve"><value>Välj ett namn eller en markör. Varje position behåller sin källkvalitet.</value></data>
+  <data name="CloserLook" xml:space="preserve"><value>Din närmare titt</value></data>
+  <data name="ShirtTeam" xml:space="preserve"><value>Tröja {0} · {1}</value></data>
+  <data name="QualityPosition" xml:space="preserve"><value>{0} position</value></data>
+  <data name="Coordinates" xml:space="preserve"><value>x {0} m · y {1} m</value></data>
+  <data name="NoPositionFrame" xml:space="preserve"><value>Ingen position i den här källbilden.</value></data>
+  <data name="OutsidePitch" xml:space="preserve"><value>Källkoordinaten ligger utanför den markerade planen.</value></data>
+  <data name="GroundedMoment" xml:space="preserve"><value>Förankrat i ögonblicket</value></data>
+  <data name="SourceFrame" xml:space="preserve"><value>Källbild {0} vid {1}. Ingen hastighet, sträcka eller taktik härleds.</value></data>
+  <data name="RecordingLimits" xml:space="preserve"><value>Om inspelningen och dess begränsningar</value></data>
+  <data name="RecordingMetadata" xml:space="preserve"><value>{0} bilder · {1} tomma spelarbilder · ursprung: {2} · källa: {3}</value></data>
+  <data name="PinnedSource" xml:space="preserve"><value>Sparad källa</value></data>
+  <data name="TrackingOnly" xml:space="preserve"><value>Händelsenoteringar och källunderbyggda samtal kommer senare. Vyn visar bara positionsobservationer.</value></data>
+  <data name="Footer" xml:space="preserve"><value>Samtal med matcher, lag och arenor — ett underbyggt steg i taget.</value></data>
+  <data name="LegacyStatusWaiting" xml:space="preserve"><value>Väntar på en komplett inspelad datamängd…</value></data>
+  <data name="LegacyStatusNoRecording" xml:space="preserve"><value>Ingen fullständig inspelning är publicerad än. Försök igen efter publicering.</value></data>
+  <data name="LegacyStatusWorkerWaiting" xml:space="preserve"><value>Väntar på att Worker publicerar färdigt. Försöker igen…</value></data>
+  <data name="LegacyStatusCatalogUnavailable" xml:space="preserve"><value>Datakatalogen är inte tillgänglig. Försök snart igen.</value></data>
+  <data name="LegacyStatusLoadingRecording" xml:space="preserve"><value>Laddar inspelningen…</value></data>
+  <data name="LegacyStatusNotReady" xml:space="preserve"><value>Inspelningen är inte klar. Försök ladda den igen.</value></data>
+  <data name="LegacyErrorVersion" xml:space="preserve"><value>Inspelningsversionen ändrades. Ladda om inspelningen.</value></data>
+  <data name="LegacyErrorMoment" xml:space="preserve"><value>Ögonblicket kunde inte laddas. Uppspelningen är pausad.</value></data>
+  <data name="Detected" xml:space="preserve"><value>upptäckt</value></data>
+  <data name="Unavailable" xml:space="preserve"><value>saknas</value></data>
+</root>

@@ -1,0 +1,21 @@
+{
+  "version": 1,
+  "artifact": {
+    "file": "brentford-chelsea-2026-09-18-consecutive-passage.json",
+    "sha256": "27d9da0fa866b39d94a922085c07aac86aba2b9725842172446fead6dbaeb10c",
+    "bytes": 550466
+  },
+  "input": {
+    "sha256": "aeba0df2f458b1f607cf21f1d68af74b8851cff3fe8b05bb0629ca32b3d257ed",
+    "bytes": 2931341
+  },
+  "sourceVideoSha256": "87b511b61f3d48e410294e06bf71bbc3a88c7b7ca6a50b89e572808c3e82711f",
+  "method": "Fixed PnLCalib and YOLO11m/BoT-SORT, ground-plane person-box foot proxies. No ball or named joins. Portable projection only; models/media are not bundled.",
+  "review": "169 stills at 0.4-second spacing plus 57 native diagnostics. Not continuous human review. Coordinator accepted qualified subsets on a full time axis containing gaps; whole-interval gate failed on a reviewed 0.88-second native camera gap.",
+  "joins": "Only reviewed-b and reviewed-c from source 5010 through 5017.2. Other associations remain proposed. No missing position is filled.",
+  "licenses": {
+    "PnLCalib": "https://github.com/mguti97/PnLCalib/blob/main/LICENSE",
+    "Ultralytics": "https://github.com/ultralytics/ultralytics/blob/main/LICENSE"
+  },
+  "publicationClearance": false
+}

@@ -1,0 +1,279 @@
+{
+  "entities": {
+    "Q20647604": {
+      "pageid": 22394797,
+      "ns": 0,
+      "title": "Q20647604",
+      "lastrevid": 2529512836,
+      "modified": "2026-08-10T07:05:36Z",
+      "type": "item",
+      "id": "Q20647604",
+      "labels": {
+        "en": {
+          "language": "en",
+          "value": "2015–16 Leicester City F.C. season"
+        }
+      },
+      "claims": {
+        "P31": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P31",
+              "hash": "9ddb403180b684facfb50183c3b3a99ce0b171d1",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 26887310,
+                  "id": "Q26887310"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q20647604$49502646-A52D-4A35-BD8D-755BE364D2FF",
+            "rank": "normal"
+          }
+        ],
+        "P641": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P641",
+              "hash": "1624e15e061523279bc14bb6497168e45caacb32",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 2736,
+                  "id": "Q2736"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q20647604$6324599B-DBB5-4CBA-8C66-DF363A0FD462",
+            "rank": "normal"
+          }
+        ],
+        "P5138": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P5138",
+              "hash": "64b7fff9522f0404c7c80e05aaaf7e9e27847d3f",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 19481,
+                  "id": "Q19481"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q20647604$2B4B7D39-76FF-4836-9D36-972CF1CECCD0",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "d4bd87b862b12d99d26e86472d44f26858dee639",
+                "snaks": {
+                  "P143": [
+                    {
+                      "snaktype": "value",
+                      "property": "P143",
+                      "hash": "f30cbd35620c4ea6d0633aaf0210a8916130469b",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 8447,
+                          "id": "Q8447"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P143"
+                ]
+              }
+            ]
+          }
+        ],
+        "P2348": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P2348",
+              "hash": "aa2170c45da73f28c5e261a9d37f3a75ef9799c5",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 53386085,
+                  "id": "Q53386085"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q20647604$13B9D0B5-1DDE-45EE-98B0-5A935508DC48",
+            "rank": "normal"
+          }
+        ],
+        "P17": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P17",
+              "hash": "a44880420787fb348836dc51d3babc5227c4ef7e",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 145,
+                  "id": "Q145"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q20647604$0623B02F-FD78-4384-9501-7AAA216998A7",
+            "rank": "normal"
+          }
+        ],
+        "P155": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P155",
+              "hash": "19ab77716e33542abdcd308f66c7569b2b66542d",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 16843188,
+                  "id": "Q16843188"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q20647604$462CBC2D-5D7E-4E70-A9B7-38BB064706F7",
+            "rank": "normal"
+          }
+        ],
+        "P156": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P156",
+              "hash": "4a59c495c832e6895066ae23d3db97affeae2d66",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 24060451,
+                  "id": "Q24060451"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q20647604$D60FFBCB-6602-4A05-8B2F-A6B108FA3759",
+            "rank": "normal"
+          }
+        ],
+        "P1424": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P1424",
+              "hash": "58a7cec4b08b45755d1f5778cae08c8450503952",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 26078112,
+                  "id": "Q26078112"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q20647604$4ff6e198-4a9a-2290-df6d-103d7d589d04",
+            "rank": "normal"
+          }
+        ],
+        "P18": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P18",
+              "hash": "ec03e460ec2825b1731fa596014bcca566dcec17",
+              "datavalue": {
+                "value": "LCFC lift the Premier League Trophy (26943755296) (cropped).jpg",
+                "type": "string"
+              },
+              "datatype": "commonsMedia"
+            },
+            "type": "statement",
+            "id": "Q20647604$7A9E88AD-FD96-4A6A-B254-32C14D16EDE9",
+            "rank": "normal"
+          }
+        ]
+      },
+      "sitelinks": {
+        "arwiki": {
+          "site": "arwiki",
+          "title": "ليستر سيتي موسم 2015–16",
+          "badges": []
+        },
+        "enwiki": {
+          "site": "enwiki",
+          "title": "2015–16 Leicester City F.C. season",
+          "badges": []
+        },
+        "eswiki": {
+          "site": "eswiki",
+          "title": "Anexo:Temporada 2015-16 del Leicester City Football Club",
+          "badges": []
+        },
+        "frwiki": {
+          "site": "frwiki",
+          "title": "Saison 2015-2016 du Leicester City FC",
+          "badges": []
+        },
+        "itwiki": {
+          "site": "itwiki",
+          "title": "Leicester City Football Club 2015-2016",
+          "badges": []
+        },
+        "jawiki": {
+          "site": "jawiki",
+          "title": "レスター・シティFC 2015-16シーズン",
+          "badges": []
+        },
+        "ruwiki": {
+          "site": "ruwiki",
+          "title": "ФК «Лестер Сити» в сезоне 2015/2016",
+          "badges": []
+        },
+        "thwiki": {
+          "site": "thwiki",
+          "title": "สโมสรฟุตบอลเลสเตอร์ซิตีในฤดูกาล 2015–16",
+          "badges": []
+        },
+        "zhwiki": {
+          "site": "zhwiki",
+          "title": "李斯特城2015年至2016年球季",
+          "badges": []
+        }
+      }
+    }
+  }
+}

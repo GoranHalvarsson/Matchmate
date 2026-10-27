@@ -1,0 +1,2119 @@
+{
+  "version": 1,
+  "id": "prepared-player-briefs-v2",
+  "binding": {
+    "datasetId": "brentford-existing-illustration",
+    "datasetVersion": "brent-full-v4-3ea6527ce01ffabe043fc6ba642fe9966e1768ba6421cd3c911e0987478a0bfb",
+    "streamId": "run-brent-full-v4-3ea6527ce01f",
+    "fixtureId": "fixture-pl-2645236",
+    "headSequence": 966,
+    "manifestRevision": 5,
+    "rosterSha256": "4822baadc4e7a1f740325100abc1cf8f759c0e980b17279d39621eaa9dbd34ae",
+    "sourcePins": [
+      {
+        "sourceId": "official-record",
+        "locator": "data/official-match-records/brentford-chelsea-2026-09-18.json",
+        "artifactHash": "c6dd8928c34d30b1d0a8f9f236e3e79cb01d846db190176250e503d689229691"
+      },
+      {
+        "sourceId": "existing-model",
+        "locator": "prototypes/first-experience/pl-reconstructed-model.js",
+        "artifactHash": "36ac29d803e381fb88d74a41627072844a23b0858d545d725430b8893219e277"
+      },
+      {
+        "sourceId": "authored-config",
+        "locator": "data/reconstructed-match-illustrations/brentford-chelsea-2026-09-18.json",
+        "artifactHash": "db698f69556ef7a3eeed4cfeadddffa63bebc395f117575c4fc3ff0f15af521c"
+      },
+      {
+        "sourceId": "event-enrichment",
+        "locator": "data/match-enrichment/brentford-chelsea-2026-09-18-event-context-v2.json",
+        "artifactHash": "c030821a66653600053f539cffc81b3fdf7d7020e944275e24e469aa014e36fd"
+      },
+      {
+        "sourceId": "club-report-review",
+        "locator": "wiki/MATCH-COMMENTARY-REVIEW.md",
+        "artifactHash": "61e4443e7f211746ab51ab31200583209a2f7e373a716c636f54c206a8aa3872"
+      },
+      {
+        "sourceId": "visual-review",
+        "locator": "output/full-match-review/visual-observations.json",
+        "artifactHash": "0dfaa34e1d108d853867ea53e3fa46d160f35720ac02483a5fa7fd2640dfd56b"
+      },
+      {
+        "sourceId": "goal-participants",
+        "locator": "data/match-enrichment/brentford-chelsea-2026-09-18-goal-participants-v1.json",
+        "artifactHash": "1b927d5bc0e0b4d601ef6d5ad4e49d641e2f16161c2edf4a53316c2d90165199"
+      },
+      {
+        "sourceId": "event-sequences",
+        "locator": "data/match-enrichment/brentford-chelsea-2026-09-18-sequences-v2.json",
+        "artifactHash": "4565d97026a115a33194b5a16766d116d0382aba6528e8373c41d193e16e5413"
+      }
+    ],
+    "contextSourceIds": [
+      "official-record",
+      "existing-model",
+      "authored-config"
+    ],
+    "periodIds": [
+      "period-pl-2645236-first",
+      "period-pl-2645236-second"
+    ]
+  },
+  "roster": [
+    {
+      "personId": "person-pl-reference-brentford-kelleher",
+      "teamId": "team-pl-reference-brentford",
+      "name": "Caoimhín Kelleher",
+      "shirt": 1,
+      "selection": "starter"
+    },
+    {
+      "personId": "person-pl-reference-brentford-kayode",
+      "teamId": "team-pl-reference-brentford",
+      "name": "Michael Kayode",
+      "shirt": 33,
+      "selection": "starter"
+    },
+    {
+      "personId": "person-pl-reference-brentford-schuster",
+      "teamId": "team-pl-reference-brentford",
+      "name": "Jannik Schuster",
+      "shirt": 44,
+      "selection": "starter"
+    },
+    {
+      "personId": "person-pl-reference-brentford-ajer",
+      "teamId": "team-pl-reference-brentford",
+      "name": "Kristoffer Ajer",
+      "shirt": 20,
+      "selection": "starter"
+    },
+    {
+      "personId": "person-pl-reference-brentford-lewis-potter",
+      "teamId": "team-pl-reference-brentford",
+      "name": "Keane Lewis-Potter",
+      "shirt": 23,
+      "selection": "starter"
+    },
+    {
+      "personId": "person-pl-reference-brentford-yarmoliuk",
+      "teamId": "team-pl-reference-brentford",
+      "name": "Yehor Yarmoliuk",
+      "shirt": 6,
+      "selection": "starter"
+    },
+    {
+      "personId": "person-pl-reference-brentford-janelt",
+      "teamId": "team-pl-reference-brentford",
+      "name": "Vitaly Janelt",
+      "shirt": 27,
+      "selection": "starter"
+    },
+    {
+      "personId": "person-pl-reference-brentford-anthony",
+      "teamId": "team-pl-reference-brentford",
+      "name": "Jaidon Anthony",
+      "shirt": 19,
+      "selection": "starter"
+    },
+    {
+      "personId": "person-pl-reference-brentford-damsgaard",
+      "teamId": "team-pl-reference-brentford",
+      "name": "Mikkel Damsgaard",
+      "shirt": 24,
+      "selection": "starter"
+    },
+    {
+      "personId": "person-pl-reference-brentford-schade",
+      "teamId": "team-pl-reference-brentford",
+      "name": "Kevin Schade",
+      "shirt": 7,
+      "selection": "starter"
+    },
+    {
+      "personId": "person-pl-reference-brentford-thiago",
+      "teamId": "team-pl-reference-brentford",
+      "name": "Igor Thiago",
+      "shirt": 9,
+      "selection": "starter"
+    },
+    {
+      "personId": "person-pl-reference-brentford-hickey",
+      "teamId": "team-pl-reference-brentford",
+      "name": "Aaron Hickey",
+      "shirt": 2,
+      "selection": "bench"
+    },
+    {
+      "personId": "person-pl-reference-brentford-henry",
+      "teamId": "team-pl-reference-brentford",
+      "name": "Rico Henry",
+      "shirt": 3,
+      "selection": "bench"
+    },
+    {
+      "personId": "person-pl-reference-brentford-ouattara",
+      "teamId": "team-pl-reference-brentford",
+      "name": "Dango Ouattara",
+      "shirt": 11,
+      "selection": "bench"
+    },
+    {
+      "personId": "person-pl-reference-brentford-wilson",
+      "teamId": "team-pl-reference-brentford",
+      "name": "Callum Wilson",
+      "shirt": 13,
+      "selection": "bench"
+    },
+    {
+      "personId": "person-pl-reference-brentford-carvalho",
+      "teamId": "team-pl-reference-brentford",
+      "name": "Fábio Carvalho",
+      "shirt": 14,
+      "selection": "bench"
+    },
+    {
+      "personId": "person-pl-reference-brentford-sangare",
+      "teamId": "team-pl-reference-brentford",
+      "name": "Mamadou Sangaré",
+      "shirt": 18,
+      "selection": "bench"
+    },
+    {
+      "personId": "person-pl-reference-brentford-diouf",
+      "teamId": "team-pl-reference-brentford",
+      "name": "El Hadji Malick Diouf",
+      "shirt": 25,
+      "selection": "bench"
+    },
+    {
+      "personId": "person-pl-reference-brentford-balcombe",
+      "teamId": "team-pl-reference-brentford",
+      "name": "Ellery Balcombe",
+      "shirt": 31,
+      "selection": "bench"
+    },
+    {
+      "personId": "person-pl-reference-brentford-fredrick",
+      "teamId": "team-pl-reference-brentford",
+      "name": "Benjamin Fredrick",
+      "shirt": 48,
+      "selection": "bench"
+    },
+    {
+      "personId": "person-pl-reference-chelsea-martinez",
+      "teamId": "team-pl-reference-chelsea",
+      "name": "Emiliano Martinez",
+      "shirt": 1,
+      "selection": "starter"
+    },
+    {
+      "personId": "person-pl-reference-chelsea-fofana",
+      "teamId": "team-pl-reference-chelsea",
+      "name": "Wesley Fofana",
+      "shirt": 3,
+      "selection": "starter"
+    },
+    {
+      "personId": "person-pl-reference-chelsea-lacroix",
+      "teamId": "team-pl-reference-chelsea",
+      "name": "Maxence Lacroix",
+      "shirt": 5,
+      "selection": "starter"
+    },
+    {
+      "personId": "person-pl-reference-chelsea-colwill",
+      "teamId": "team-pl-reference-chelsea",
+      "name": "Levi Colwill",
+      "shirt": 6,
+      "selection": "starter"
+    },
+    {
+      "personId": "person-pl-reference-chelsea-neto",
+      "teamId": "team-pl-reference-chelsea",
+      "name": "Pedro Neto",
+      "shirt": 7,
+      "selection": "starter"
+    },
+    {
+      "personId": "person-pl-reference-chelsea-henderson",
+      "teamId": "team-pl-reference-chelsea",
+      "name": "Jordan Henderson",
+      "shirt": 14,
+      "selection": "starter"
+    },
+    {
+      "personId": "person-pl-reference-chelsea-barco",
+      "teamId": "team-pl-reference-chelsea",
+      "name": "Valentin Barco",
+      "shirt": 4,
+      "selection": "starter"
+    },
+    {
+      "personId": "person-pl-reference-chelsea-chavarria",
+      "teamId": "team-pl-reference-chelsea",
+      "name": "Pep Chavarria",
+      "shirt": 29,
+      "selection": "starter"
+    },
+    {
+      "personId": "person-pl-reference-chelsea-palmer",
+      "teamId": "team-pl-reference-chelsea",
+      "name": "Cole Palmer",
+      "shirt": 10,
+      "selection": "starter"
+    },
+    {
+      "personId": "person-pl-reference-chelsea-rogers",
+      "teamId": "team-pl-reference-chelsea",
+      "name": "Morgan Rogers",
+      "shirt": 17,
+      "selection": "starter"
+    },
+    {
+      "personId": "person-pl-reference-chelsea-welbeck",
+      "teamId": "team-pl-reference-chelsea",
+      "name": "Danny Welbeck",
+      "shirt": 18,
+      "selection": "starter"
+    },
+    {
+      "personId": "person-pl-reference-chelsea-gittens",
+      "teamId": "team-pl-reference-chelsea",
+      "name": "Jamie Gittens",
+      "shirt": 11,
+      "selection": "bench"
+    },
+    {
+      "personId": "person-pl-reference-chelsea-hato",
+      "teamId": "team-pl-reference-chelsea",
+      "name": "Jorrel Hato",
+      "shirt": 21,
+      "selection": "bench"
+    },
+    {
+      "personId": "person-pl-reference-chelsea-quenda",
+      "teamId": "team-pl-reference-chelsea",
+      "name": "Geovany Quenda",
+      "shirt": 23,
+      "selection": "bench"
+    },
+    {
+      "personId": "person-pl-reference-chelsea-gusto",
+      "teamId": "team-pl-reference-chelsea",
+      "name": "Malo Gusto",
+      "shirt": 27,
+      "selection": "bench"
+    },
+    {
+      "personId": "person-pl-reference-chelsea-nicoll-jazuli",
+      "teamId": "team-pl-reference-chelsea",
+      "name": "Mahdi Nicoll-Jazuli",
+      "shirt": 32,
+      "selection": "bench"
+    },
+    {
+      "personId": "person-pl-reference-chelsea-acheampong",
+      "teamId": "team-pl-reference-chelsea",
+      "name": "Josh Acheampong",
+      "shirt": 34,
+      "selection": "bench"
+    },
+    {
+      "personId": "person-pl-reference-chelsea-penders",
+      "teamId": "team-pl-reference-chelsea",
+      "name": "Mike Penders",
+      "shirt": 39,
+      "selection": "bench"
+    },
+    {
+      "personId": "person-pl-reference-chelsea-estevao",
+      "teamId": "team-pl-reference-chelsea",
+      "name": "Estevao Willian",
+      "shirt": 41,
+      "selection": "bench"
+    },
+    {
+      "personId": "person-pl-reference-chelsea-lavia",
+      "teamId": "team-pl-reference-chelsea",
+      "name": "Romeo Lavia",
+      "shirt": 45,
+      "selection": "bench"
+    }
+  ],
+  "sources": [
+    {
+      "sourceId": "player-brief-review",
+      "locator": "output/player-performance-review/danny-v1/review.json",
+      "artifactHash": "f679871aa71147b15941d548cdc401dfb812c6afbb58f9605490553a899b7d58"
+    },
+    {
+      "sourceId": "player-brief-chelsea-report",
+      "locator": "https://www.chelseafc.com/en/news/article/match-report-brentford-3-0-chelsea",
+      "artifactHash": null
+    },
+    {
+      "sourceId": "player-brief-brentford-report",
+      "locator": "https://www.brentfordfc.com/en/news/match-reports-brentford-3-chelsea-0-premier-league-jaidon-anthony-igor-thiago-fabio-carvalho",
+      "artifactHash": null
+    },
+    {
+      "sourceId": "player-brief-replay",
+      "locator": "https://www.brentfordfc.com/en/video/0_2hoy7vw7?provider=stream",
+      "artifactHash": "87b511b61f3d48e410294e06bf71bbc3a88c7b7ca6a50b89e572808c3e82711f"
+    },
+    {
+      "sourceId": "player-brief-review-v2",
+      "locator": "data/match-enrichment/brentford-chelsea-2026-09-18-player-review-v2.json",
+      "artifactHash": "e7a39e8e87698440c41e781cdd1235ccdf9d7129a0616a900cdba97812870983"
+    }
+  ],
+  "observations": [
+    {
+      "id": "dw-chance-01",
+      "personId": "person-pl-reference-chelsea-welbeck",
+      "footballTime": {
+        "periodId": "period-pl-2645236-first",
+        "startMs": 540000,
+        "endMs": 600000,
+        "precision": "reported_minute",
+        "endInclusive": false,
+        "reportedClock": "9 (Brentford) / 10 (Chelsea)"
+      },
+      "eligibleAfterMs": 600000,
+      "text": "Both club reports attribute an early layoff to Welbeck that set up Neto's shot, saved by Kelleher, after a Chavarria delivery.",
+      "qualification": "Nine versus tenth-minute wording retained. One reported chance contribution, not a formal goal assist, exact contact time, chance total or complete performance rating. Still samples do not prove every contact.",
+      "evidence": [
+        {
+          "evidenceId": "dw-chance-01-chelsea-report",
+          "sourceId": "player-brief-chelsea-report",
+          "locator": "Bright beginning, paragraph beginning Cole Palmer; web inspection 2026-10-23, extracted line18; reported minute 10",
+          "origin": "real",
+          "method": "reported",
+          "claimStatus": "reported",
+          "availableAtUtc": null,
+          "originalFlags": "Identity review frame media-00630.png SHA256 8eb9dc2963460462665359692516770696416f069d36704b52e956a880246f14"
+        },
+        {
+          "evidenceId": "dw-chance-01-brentford-report",
+          "sourceId": "player-brief-brentford-report",
+          "locator": "First chance paragraph; web inspection 2026-10-23, extracted line61; reported minute 9",
+          "origin": "real",
+          "method": "reported",
+          "claimStatus": "reported",
+          "availableAtUtc": null,
+          "originalFlags": "Identity review frame media-00630.png SHA256 8eb9dc2963460462665359692516770696416f069d36704b52e956a880246f14"
+        }
+      ],
+      "relatedPersonIds": [
+        "person-pl-reference-chelsea-neto",
+        "person-pl-reference-brentford-kelleher",
+        "person-pl-reference-chelsea-chavarria"
+      ]
+    },
+    {
+      "id": "dw-run-point-01",
+      "personId": "person-pl-reference-chelsea-welbeck",
+      "footballTime": {
+        "periodId": "period-pl-2645236-second",
+        "startMs": 239000,
+        "endMs": 239000,
+        "precision": "source_sample",
+        "endInclusive": true,
+        "reportedClock": "48:59"
+      },
+      "eligibleAfterMs": 300000,
+      "text": "A readable Chelsea18 is inside the penalty area alongside a defender, with the ball at or immediately in front of him.",
+      "qualification": "Point identity/ball proximity only. The run/offside commentary remains unverified; no confirmed offside, successful carry, shot, speed or run distance is established. Repeated footage is not an extra action.",
+      "evidence": [
+        {
+          "evidenceId": "dw-run-point-01-frame",
+          "sourceId": "player-brief-replay",
+          "locator": "media-03032.png; SHA256 294d261d31f1aa40e3b5485a4a79a4fdf521ea364264149f285ae354c3604b3e; displayed clock 48:59",
+          "origin": "real",
+          "method": "observed",
+          "claimStatus": "confirmed",
+          "availableAtUtc": null,
+          "originalFlags": "Reviewed point only; retained video SHA256 87b511b61f3d48e410294e06bf71bbc3a88c7b7ca6a50b89e572808c3e82711f"
+        }
+      ],
+      "relatedPersonIds": []
+    },
+    {
+      "id": "dw-attacking-presence-01",
+      "personId": "person-pl-reference-chelsea-welbeck",
+      "footballTime": {
+        "periodId": "period-pl-2645236-second",
+        "startMs": 835000,
+        "endMs": 835000,
+        "precision": "source_sample",
+        "endInclusive": true,
+        "reportedClock": "58:55"
+      },
+      "eligibleAfterMs": 840000,
+      "text": "Readable Chelsea18 is centrally positioned in attack while a teammate has the ball farther left.",
+      "qualification": "Position/presence at one reviewed instant. No proven intended recipient, missed pass, shot, movement duration, tactical assignment or lost opportunity. A repeated view is not another action.",
+      "evidence": [
+        {
+          "evidenceId": "dw-attacking-presence-01-frame",
+          "sourceId": "player-brief-replay",
+          "locator": "media-03628.png; SHA256 9b635bb4dfebdf6abc257211b7dc69dc58ffad8e6dcf8ddafbc93b8b5f68e34a; displayed clock 58:55",
+          "origin": "real",
+          "method": "observed",
+          "claimStatus": "confirmed",
+          "availableAtUtc": null,
+          "originalFlags": "Reviewed point only; retained video SHA256 87b511b61f3d48e410294e06bf71bbc3a88c7b7ca6a50b89e572808c3e82711f"
+        }
+      ],
+      "relatedPersonIds": []
+    },
+    {
+      "id": "rp-01-brentford-kelleher",
+      "personId": "person-pl-reference-brentford-kelleher",
+      "footballTime": {
+        "periodId": "period-pl-2645236-first",
+        "startMs": 540000,
+        "endMs": 600000,
+        "precision": "reported_minute",
+        "endInclusive": false,
+        "reportedClock": "9 (Brentford) / 10 (Chelsea)"
+      },
+      "eligibleAfterMs": 600000,
+      "text": "Chavarria delivered; Welbeck set up Neto's saved shot; Kelleher saved.",
+      "qualification": "One reported chance, not multiple incidents, a formal goal assist or a complete action total. Danny's existing exact observation remains unchanged.",
+      "evidence": [
+        {
+          "evidenceId": "rp-01-brentford-kelleher-review",
+          "sourceId": "player-brief-review-v2",
+          "locator": "rp-01; Chelsea Bright beginning first paragraph, line18; Brentford first chance paragraph, line61; primary reports: https://www.chelseafc.com/en/news/article/match-report-brentford-3-0-chelsea ; https://www.brentfordfc.com/en/news/match-reports-brentford-3-chelsea-0-premier-league-jaidon-anthony-igor-thiago-fabio-carvalho",
+          "origin": "real",
+          "method": "reported",
+          "claimStatus": "reported",
+          "availableAtUtc": null,
+          "originalFlags": "Attributed report in pinned normalized review, not an independent primary source; original source availability unknown."
+        }
+      ],
+      "relatedPersonIds": [
+        "person-pl-reference-chelsea-chavarria",
+        "person-pl-reference-chelsea-welbeck",
+        "person-pl-reference-chelsea-neto"
+      ]
+    },
+    {
+      "id": "rp-04-brentford-kelleher",
+      "personId": "person-pl-reference-brentford-kelleher",
+      "footballTime": {
+        "periodId": "period-pl-2645236-first",
+        "startMs": null,
+        "endMs": null,
+        "precision": "unknown",
+        "endInclusive": null,
+        "reportedClock": "First half; exact minute unknown"
+      },
+      "eligibleAfterMs": 2820000,
+      "text": "Kelleher held Rogers's free-kick after Damsgaard conceded it.",
+      "qualification": "No inferred foul intent, card, formal defensive error or shot total.",
+      "evidence": [
+        {
+          "evidenceId": "rp-04-brentford-kelleher-review",
+          "sourceId": "player-brief-review-v2",
+          "locator": "rp-04; Free-kick paragraph before Thiago hold-up, line66; primary reports: https://www.brentfordfc.com/en/news/match-reports-brentford-3-chelsea-0-premier-league-jaidon-anthony-igor-thiago-fabio-carvalho",
+          "origin": "real",
+          "method": "reported",
+          "claimStatus": "reported",
+          "availableAtUtc": null,
+          "originalFlags": "Attributed report in pinned normalized review, not an independent primary source; original source availability unknown."
+        }
+      ],
+      "relatedPersonIds": [
+        "person-pl-reference-chelsea-rogers",
+        "person-pl-reference-brentford-damsgaard"
+      ]
+    },
+    {
+      "id": "rp-15-brentford-kelleher",
+      "personId": "person-pl-reference-brentford-kelleher",
+      "footballTime": {
+        "periodId": "period-pl-2645236-second",
+        "startMs": null,
+        "endMs": null,
+        "precision": "unknown",
+        "endInclusive": null,
+        "reportedClock": "Second half; exact minute unknown"
+      },
+      "eligibleAfterMs": 3060000,
+      "text": "Henderson's corner passed Kelleher; Chelsea did not convert.",
+      "qualification": "Chelsea says the keeper missed the delivery; this alone does not establish culpability, a goal or an exact minute.",
+      "evidence": [
+        {
+          "evidenceId": "rp-15-brentford-kelleher-review",
+          "sourceId": "player-brief-review-v2",
+          "locator": "rp-15; Chelsea corner shortly after the opening goal, line32; primary reports: https://www.chelseafc.com/en/news/article/match-report-brentford-3-0-chelsea",
+          "origin": "real",
+          "method": "reported",
+          "claimStatus": "reported",
+          "availableAtUtc": null,
+          "originalFlags": "Attributed report in pinned normalized review, not an independent primary source; original source availability unknown."
+        }
+      ],
+      "relatedPersonIds": [
+        "person-pl-reference-chelsea-henderson"
+      ]
+    },
+    {
+      "id": "rp-03-brentford-kayode",
+      "personId": "person-pl-reference-brentford-kayode",
+      "footballTime": {
+        "periodId": "period-pl-2645236-first",
+        "startMs": null,
+        "endMs": null,
+        "precision": "unknown",
+        "endInclusive": null,
+        "reportedClock": "First half; exact minute unknown"
+      },
+      "eligibleAfterMs": 2820000,
+      "text": "Kayode's throw reached Lewis-Potter, whose volley Palmer blocked.",
+      "qualification": "Named roles are attributed to the report; exact minute/contact times remain unknown.",
+      "evidence": [
+        {
+          "evidenceId": "rp-03-brentford-kayode-review",
+          "sourceId": "player-brief-review-v2",
+          "locator": "rp-03; Midway first-half long-throw paragraph, line64; primary reports: https://www.brentfordfc.com/en/news/match-reports-brentford-3-chelsea-0-premier-league-jaidon-anthony-igor-thiago-fabio-carvalho",
+          "origin": "real",
+          "method": "reported",
+          "claimStatus": "reported",
+          "availableAtUtc": null,
+          "originalFlags": "Attributed report in pinned normalized review, not an independent primary source; original source availability unknown."
+        }
+      ],
+      "relatedPersonIds": [
+        "person-pl-reference-brentford-lewis-potter",
+        "person-pl-reference-chelsea-palmer"
+      ]
+    },
+    {
+      "id": "rp-07-brentford-schuster",
+      "personId": "person-pl-reference-brentford-schuster",
+      "footballTime": {
+        "periodId": "period-pl-2645236-first",
+        "startMs": null,
+        "endMs": null,
+        "precision": "unknown",
+        "endInclusive": null,
+        "reportedClock": "First half; exact minute unknown"
+      },
+      "eligibleAfterMs": 2820000,
+      "text": "Chavarria supplied Rogers; Schuster blocked his shot.",
+      "qualification": "Delivery, attempt and block are reported; no exact minute or complete statistics.",
+      "evidence": [
+        {
+          "evidenceId": "rp-07-brentford-schuster-review",
+          "sourceId": "player-brief-review-v2",
+          "locator": "rp-07; Chelsea Bright beginning central Rogers attempt, line21; Brentford cutback paragraph, line71; primary reports: https://www.chelseafc.com/en/news/article/match-report-brentford-3-0-chelsea ; https://www.brentfordfc.com/en/news/match-reports-brentford-3-chelsea-0-premier-league-jaidon-anthony-igor-thiago-fabio-carvalho",
+          "origin": "real",
+          "method": "reported",
+          "claimStatus": "reported",
+          "availableAtUtc": null,
+          "originalFlags": "Attributed report in pinned normalized review, not an independent primary source; original source availability unknown."
+        }
+      ],
+      "relatedPersonIds": [
+        "person-pl-reference-chelsea-chavarria",
+        "person-pl-reference-chelsea-rogers"
+      ]
+    },
+    {
+      "id": "rp-16-brentford-schuster",
+      "personId": "person-pl-reference-brentford-schuster",
+      "footballTime": {
+        "periodId": "period-pl-2645236-second",
+        "startMs": 1320000,
+        "endMs": 1380000,
+        "precision": "reported_minute",
+        "endInclusive": false,
+        "reportedClock": "68 (Brentford)"
+      },
+      "eligibleAfterMs": 1380000,
+      "text": "Schuster contacted a corner; Colwill could not turn the loose ball goalward.",
+      "qualification": "Do not silently equate this contact with the differently described untimed Chelsea corner or infer a measured reaction speed.",
+      "evidence": [
+        {
+          "evidenceId": "rp-16-brentford-schuster-review",
+          "sourceId": "player-brief-review-v2",
+          "locator": "rp-16; Corner chance reported at68, line96; primary reports: https://www.brentfordfc.com/en/news/match-reports-brentford-3-chelsea-0-premier-league-jaidon-anthony-igor-thiago-fabio-carvalho",
+          "origin": "real",
+          "method": "reported",
+          "claimStatus": "reported",
+          "availableAtUtc": null,
+          "originalFlags": "Attributed report in pinned normalized review, not an independent primary source; original source availability unknown."
+        }
+      ],
+      "relatedPersonIds": [
+        "person-pl-reference-chelsea-colwill"
+      ]
+    },
+    {
+      "id": "rp-03-brentford-lewis-potter",
+      "personId": "person-pl-reference-brentford-lewis-potter",
+      "footballTime": {
+        "periodId": "period-pl-2645236-first",
+        "startMs": null,
+        "endMs": null,
+        "precision": "unknown",
+        "endInclusive": null,
+        "reportedClock": "First half; exact minute unknown"
+      },
+      "eligibleAfterMs": 2820000,
+      "text": "Kayode's throw reached Lewis-Potter, whose volley Palmer blocked.",
+      "qualification": "Named roles are attributed to the report; exact minute/contact times remain unknown.",
+      "evidence": [
+        {
+          "evidenceId": "rp-03-brentford-lewis-potter-review",
+          "sourceId": "player-brief-review-v2",
+          "locator": "rp-03; Midway first-half long-throw paragraph, line64; primary reports: https://www.brentfordfc.com/en/news/match-reports-brentford-3-chelsea-0-premier-league-jaidon-anthony-igor-thiago-fabio-carvalho",
+          "origin": "real",
+          "method": "reported",
+          "claimStatus": "reported",
+          "availableAtUtc": null,
+          "originalFlags": "Attributed report in pinned normalized review, not an independent primary source; original source availability unknown."
+        }
+      ],
+      "relatedPersonIds": [
+        "person-pl-reference-brentford-kayode",
+        "person-pl-reference-chelsea-palmer"
+      ]
+    },
+    {
+      "id": "rp-06-brentford-lewis-potter",
+      "personId": "person-pl-reference-brentford-lewis-potter",
+      "footballTime": {
+        "periodId": "period-pl-2645236-first",
+        "startMs": null,
+        "endMs": null,
+        "precision": "unknown",
+        "endInclusive": null,
+        "reportedClock": "First half; exact minute unknown"
+      },
+      "eligibleAfterMs": 2820000,
+      "text": "Lewis-Potter fed Damsgaard, who shot over.",
+      "qualification": "A selected reported example; no total or formal assist.",
+      "evidence": [
+        {
+          "evidenceId": "rp-06-brentford-lewis-potter-review",
+          "sourceId": "player-brief-review-v2",
+          "locator": "rp-06; Lewis-Potter short-pass paragraph, line69; primary reports: https://www.brentfordfc.com/en/news/match-reports-brentford-3-chelsea-0-premier-league-jaidon-anthony-igor-thiago-fabio-carvalho",
+          "origin": "real",
+          "method": "reported",
+          "claimStatus": "reported",
+          "availableAtUtc": null,
+          "originalFlags": "Attributed report in pinned normalized review, not an independent primary source; original source availability unknown."
+        }
+      ],
+      "relatedPersonIds": [
+        "person-pl-reference-brentford-damsgaard"
+      ]
+    },
+    {
+      "id": "rp-08-brentford-lewis-potter",
+      "personId": "person-pl-reference-brentford-lewis-potter",
+      "footballTime": {
+        "periodId": "period-pl-2645236-first",
+        "startMs": null,
+        "endMs": null,
+        "precision": "unknown",
+        "endInclusive": null,
+        "reportedClock": "First half; exact minute unknown"
+      },
+      "eligibleAfterMs": 2820000,
+      "text": "Janelt's shot was blocked; Thiago supplied Lewis-Potter, whose shot Martinez saved.",
+      "qualification": "The blocker is not named; do not assign that block to a roster player.",
+      "evidence": [
+        {
+          "evidenceId": "rp-08-brentford-lewis-potter-review",
+          "sourceId": "player-brief-review-v2",
+          "locator": "rp-08; Last first-half action paragraph, line72; primary reports: https://www.brentfordfc.com/en/news/match-reports-brentford-3-chelsea-0-premier-league-jaidon-anthony-igor-thiago-fabio-carvalho",
+          "origin": "real",
+          "method": "reported",
+          "claimStatus": "reported",
+          "availableAtUtc": null,
+          "originalFlags": "Attributed report in pinned normalized review, not an independent primary source; original source availability unknown."
+        }
+      ],
+      "relatedPersonIds": [
+        "person-pl-reference-brentford-janelt",
+        "person-pl-reference-brentford-thiago",
+        "person-pl-reference-chelsea-martinez"
+      ]
+    },
+    {
+      "id": "rp-05-brentford-yarmoliuk",
+      "personId": "person-pl-reference-brentford-yarmoliuk",
+      "footballTime": {
+        "periodId": "period-pl-2645236-first",
+        "startMs": null,
+        "endMs": null,
+        "precision": "unknown",
+        "endInclusive": null,
+        "reportedClock": "First half; exact minute unknown"
+      },
+      "eligibleAfterMs": 2820000,
+      "text": "Thiago held up Damsgaard's pass under Colwill's pressure; Martinez saved Yarmoliuk's shot.",
+      "qualification": "Pressure and the reported attacking sequence do not establish an assignment, measured duel or individual blame.",
+      "evidence": [
+        {
+          "evidenceId": "rp-05-brentford-yarmoliuk-review",
+          "sourceId": "player-brief-review-v2",
+          "locator": "rp-05; Thiago hold-up and Yarmoliuk effort paragraph, line67; primary reports: https://www.brentfordfc.com/en/news/match-reports-brentford-3-chelsea-0-premier-league-jaidon-anthony-igor-thiago-fabio-carvalho",
+          "origin": "real",
+          "method": "reported",
+          "claimStatus": "reported",
+          "availableAtUtc": null,
+          "originalFlags": "Attributed report in pinned normalized review, not an independent primary source; original source availability unknown."
+        }
+      ],
+      "relatedPersonIds": [
+        "person-pl-reference-brentford-damsgaard",
+        "person-pl-reference-brentford-thiago",
+        "person-pl-reference-chelsea-colwill",
+        "person-pl-reference-chelsea-martinez"
+      ]
+    },
+    {
+      "id": "rp-09-brentford-yarmoliuk",
+      "personId": "person-pl-reference-brentford-yarmoliuk",
+      "footballTime": {
+        "periodId": "period-pl-2645236-second",
+        "startMs": null,
+        "endMs": null,
+        "precision": "unknown",
+        "endInclusive": null,
+        "reportedClock": "Second half; exact minute unknown"
+      },
+      "eligibleAfterMs": 3060000,
+      "text": "Schade and Thiago linked to Yarmoliuk's cross; Anthony headed against the bar, offside.",
+      "qualification": "An attributed offside passage, not a goal or exact contact time. Chelsea separately reports a goalkeeper touch; preserve that source distinction.",
+      "evidence": [
+        {
+          "evidenceId": "rp-09-brentford-yarmoliuk-review",
+          "sourceId": "player-brief-review-v2",
+          "locator": "rp-09; First action after the break, line88; primary reports: https://www.brentfordfc.com/en/news/match-reports-brentford-3-chelsea-0-premier-league-jaidon-anthony-igor-thiago-fabio-carvalho",
+          "origin": "real",
+          "method": "reported",
+          "claimStatus": "reported",
+          "availableAtUtc": null,
+          "originalFlags": "Attributed report in pinned normalized review, not an independent primary source; original source availability unknown."
+        }
+      ],
+      "relatedPersonIds": [
+        "person-pl-reference-brentford-schade",
+        "person-pl-reference-brentford-thiago",
+        "person-pl-reference-brentford-anthony"
+      ]
+    },
+    {
+      "id": "rp-08-brentford-janelt",
+      "personId": "person-pl-reference-brentford-janelt",
+      "footballTime": {
+        "periodId": "period-pl-2645236-first",
+        "startMs": null,
+        "endMs": null,
+        "precision": "unknown",
+        "endInclusive": null,
+        "reportedClock": "First half; exact minute unknown"
+      },
+      "eligibleAfterMs": 2820000,
+      "text": "Janelt's shot was blocked; Thiago supplied Lewis-Potter, whose shot Martinez saved.",
+      "qualification": "The blocker is not named; do not assign that block to a roster player.",
+      "evidence": [
+        {
+          "evidenceId": "rp-08-brentford-janelt-review",
+          "sourceId": "player-brief-review-v2",
+          "locator": "rp-08; Last first-half action paragraph, line72; primary reports: https://www.brentfordfc.com/en/news/match-reports-brentford-3-chelsea-0-premier-league-jaidon-anthony-igor-thiago-fabio-carvalho",
+          "origin": "real",
+          "method": "reported",
+          "claimStatus": "reported",
+          "availableAtUtc": null,
+          "originalFlags": "Attributed report in pinned normalized review, not an independent primary source; original source availability unknown."
+        }
+      ],
+      "relatedPersonIds": [
+        "person-pl-reference-brentford-thiago",
+        "person-pl-reference-brentford-lewis-potter",
+        "person-pl-reference-chelsea-martinez"
+      ]
+    },
+    {
+      "id": "rp-10-brentford-janelt",
+      "personId": "person-pl-reference-brentford-janelt",
+      "footballTime": {
+        "periodId": "period-pl-2645236-second",
+        "startMs": null,
+        "endMs": null,
+        "precision": "unknown",
+        "endInclusive": null,
+        "reportedClock": "Second half; exact minute unknown"
+      },
+      "eligibleAfterMs": 3060000,
+      "text": "Janelt combined with Damsgaard, whose cross narrowly evaded Anthony.",
+      "qualification": "No completed assist, missed assignment, player movement metric or invented timestamp.",
+      "evidence": [
+        {
+          "evidenceId": "rp-10-brentford-janelt-review",
+          "sourceId": "player-brief-review-v2",
+          "locator": "rp-10; Combination and low-cross paragraph, line90; primary reports: https://www.brentfordfc.com/en/news/match-reports-brentford-3-chelsea-0-premier-league-jaidon-anthony-igor-thiago-fabio-carvalho",
+          "origin": "real",
+          "method": "reported",
+          "claimStatus": "reported",
+          "availableAtUtc": null,
+          "originalFlags": "Attributed report in pinned normalized review, not an independent primary source; original source availability unknown."
+        }
+      ],
+      "relatedPersonIds": [
+        "person-pl-reference-brentford-damsgaard",
+        "person-pl-reference-brentford-anthony"
+      ]
+    },
+    {
+      "id": "rp-09-brentford-anthony",
+      "personId": "person-pl-reference-brentford-anthony",
+      "footballTime": {
+        "periodId": "period-pl-2645236-second",
+        "startMs": null,
+        "endMs": null,
+        "precision": "unknown",
+        "endInclusive": null,
+        "reportedClock": "Second half; exact minute unknown"
+      },
+      "eligibleAfterMs": 3060000,
+      "text": "Schade and Thiago linked to Yarmoliuk's cross; Anthony headed against the bar, offside.",
+      "qualification": "An attributed offside passage, not a goal or exact contact time. Chelsea separately reports a goalkeeper touch; preserve that source distinction.",
+      "evidence": [
+        {
+          "evidenceId": "rp-09-brentford-anthony-review",
+          "sourceId": "player-brief-review-v2",
+          "locator": "rp-09; First action after the break, line88; primary reports: https://www.brentfordfc.com/en/news/match-reports-brentford-3-chelsea-0-premier-league-jaidon-anthony-igor-thiago-fabio-carvalho",
+          "origin": "real",
+          "method": "reported",
+          "claimStatus": "reported",
+          "availableAtUtc": null,
+          "originalFlags": "Attributed report in pinned normalized review, not an independent primary source; original source availability unknown."
+        }
+      ],
+      "relatedPersonIds": [
+        "person-pl-reference-brentford-schade",
+        "person-pl-reference-brentford-thiago",
+        "person-pl-reference-brentford-yarmoliuk"
+      ]
+    },
+    {
+      "id": "rp-10-brentford-anthony",
+      "personId": "person-pl-reference-brentford-anthony",
+      "footballTime": {
+        "periodId": "period-pl-2645236-second",
+        "startMs": null,
+        "endMs": null,
+        "precision": "unknown",
+        "endInclusive": null,
+        "reportedClock": "Second half; exact minute unknown"
+      },
+      "eligibleAfterMs": 3060000,
+      "text": "Janelt combined with Damsgaard, whose cross narrowly evaded Anthony.",
+      "qualification": "No completed assist, missed assignment, player movement metric or invented timestamp.",
+      "evidence": [
+        {
+          "evidenceId": "rp-10-brentford-anthony-review",
+          "sourceId": "player-brief-review-v2",
+          "locator": "rp-10; Combination and low-cross paragraph, line90; primary reports: https://www.brentfordfc.com/en/news/match-reports-brentford-3-chelsea-0-premier-league-jaidon-anthony-igor-thiago-fabio-carvalho",
+          "origin": "real",
+          "method": "reported",
+          "claimStatus": "reported",
+          "availableAtUtc": null,
+          "originalFlags": "Attributed report in pinned normalized review, not an independent primary source; original source availability unknown."
+        }
+      ],
+      "relatedPersonIds": [
+        "person-pl-reference-brentford-janelt",
+        "person-pl-reference-brentford-damsgaard"
+      ]
+    },
+    {
+      "id": "rp-22-brentford-anthony",
+      "personId": "person-pl-reference-brentford-anthony",
+      "footballTime": {
+        "periodId": "period-pl-2645236-second",
+        "startMs": null,
+        "endMs": null,
+        "precision": "unknown",
+        "endInclusive": null,
+        "reportedClock": "Second half; exact minute unknown"
+      },
+      "eligibleAfterMs": 3060000,
+      "text": "Martinez touched Anthony's header onto the bar, with offside flagged.",
+      "qualification": "Chelsea's goalkeeper-touch account remains reported; not independently established by Brentford's crossbar description or a generated replay.",
+      "evidence": [
+        {
+          "evidenceId": "rp-22-brentford-anthony-review",
+          "sourceId": "player-brief-review-v2",
+          "locator": "rp-22; Early second-half offside header paragraph, line27; primary reports: https://www.chelseafc.com/en/news/article/match-report-brentford-3-0-chelsea",
+          "origin": "real",
+          "method": "reported",
+          "claimStatus": "reported",
+          "availableAtUtc": null,
+          "originalFlags": "Attributed report in pinned normalized review, not an independent primary source; original source availability unknown."
+        }
+      ],
+      "relatedPersonIds": [
+        "person-pl-reference-chelsea-martinez"
+      ]
+    },
+    {
+      "id": "rp-04-brentford-damsgaard",
+      "personId": "person-pl-reference-brentford-damsgaard",
+      "footballTime": {
+        "periodId": "period-pl-2645236-first",
+        "startMs": null,
+        "endMs": null,
+        "precision": "unknown",
+        "endInclusive": null,
+        "reportedClock": "First half; exact minute unknown"
+      },
+      "eligibleAfterMs": 2820000,
+      "text": "Kelleher held Rogers's free-kick after Damsgaard conceded it.",
+      "qualification": "No inferred foul intent, card, formal defensive error or shot total.",
+      "evidence": [
+        {
+          "evidenceId": "rp-04-brentford-damsgaard-review",
+          "sourceId": "player-brief-review-v2",
+          "locator": "rp-04; Free-kick paragraph before Thiago hold-up, line66; primary reports: https://www.brentfordfc.com/en/news/match-reports-brentford-3-chelsea-0-premier-league-jaidon-anthony-igor-thiago-fabio-carvalho",
+          "origin": "real",
+          "method": "reported",
+          "claimStatus": "reported",
+          "availableAtUtc": null,
+          "originalFlags": "Attributed report in pinned normalized review, not an independent primary source; original source availability unknown."
+        }
+      ],
+      "relatedPersonIds": [
+        "person-pl-reference-brentford-kelleher",
+        "person-pl-reference-chelsea-rogers"
+      ]
+    },
+    {
+      "id": "rp-05-brentford-damsgaard",
+      "personId": "person-pl-reference-brentford-damsgaard",
+      "footballTime": {
+        "periodId": "period-pl-2645236-first",
+        "startMs": null,
+        "endMs": null,
+        "precision": "unknown",
+        "endInclusive": null,
+        "reportedClock": "First half; exact minute unknown"
+      },
+      "eligibleAfterMs": 2820000,
+      "text": "Thiago held up Damsgaard's pass under Colwill's pressure; Martinez saved Yarmoliuk's shot.",
+      "qualification": "Pressure and the reported attacking sequence do not establish an assignment, measured duel or individual blame.",
+      "evidence": [
+        {
+          "evidenceId": "rp-05-brentford-damsgaard-review",
+          "sourceId": "player-brief-review-v2",
+          "locator": "rp-05; Thiago hold-up and Yarmoliuk effort paragraph, line67; primary reports: https://www.brentfordfc.com/en/news/match-reports-brentford-3-chelsea-0-premier-league-jaidon-anthony-igor-thiago-fabio-carvalho",
+          "origin": "real",
+          "method": "reported",
+          "claimStatus": "reported",
+          "availableAtUtc": null,
+          "originalFlags": "Attributed report in pinned normalized review, not an independent primary source; original source availability unknown."
+        }
+      ],
+      "relatedPersonIds": [
+        "person-pl-reference-brentford-thiago",
+        "person-pl-reference-chelsea-colwill",
+        "person-pl-reference-brentford-yarmoliuk",
+        "person-pl-reference-chelsea-martinez"
+      ]
+    },
+    {
+      "id": "rp-06-brentford-damsgaard",
+      "personId": "person-pl-reference-brentford-damsgaard",
+      "footballTime": {
+        "periodId": "period-pl-2645236-first",
+        "startMs": null,
+        "endMs": null,
+        "precision": "unknown",
+        "endInclusive": null,
+        "reportedClock": "First half; exact minute unknown"
+      },
+      "eligibleAfterMs": 2820000,
+      "text": "Lewis-Potter fed Damsgaard, who shot over.",
+      "qualification": "A selected reported example; no total or formal assist.",
+      "evidence": [
+        {
+          "evidenceId": "rp-06-brentford-damsgaard-review",
+          "sourceId": "player-brief-review-v2",
+          "locator": "rp-06; Lewis-Potter short-pass paragraph, line69; primary reports: https://www.brentfordfc.com/en/news/match-reports-brentford-3-chelsea-0-premier-league-jaidon-anthony-igor-thiago-fabio-carvalho",
+          "origin": "real",
+          "method": "reported",
+          "claimStatus": "reported",
+          "availableAtUtc": null,
+          "originalFlags": "Attributed report in pinned normalized review, not an independent primary source; original source availability unknown."
+        }
+      ],
+      "relatedPersonIds": [
+        "person-pl-reference-brentford-lewis-potter"
+      ]
+    },
+    {
+      "id": "rp-10-brentford-damsgaard",
+      "personId": "person-pl-reference-brentford-damsgaard",
+      "footballTime": {
+        "periodId": "period-pl-2645236-second",
+        "startMs": null,
+        "endMs": null,
+        "precision": "unknown",
+        "endInclusive": null,
+        "reportedClock": "Second half; exact minute unknown"
+      },
+      "eligibleAfterMs": 3060000,
+      "text": "Janelt combined with Damsgaard, whose cross narrowly evaded Anthony.",
+      "qualification": "No completed assist, missed assignment, player movement metric or invented timestamp.",
+      "evidence": [
+        {
+          "evidenceId": "rp-10-brentford-damsgaard-review",
+          "sourceId": "player-brief-review-v2",
+          "locator": "rp-10; Combination and low-cross paragraph, line90; primary reports: https://www.brentfordfc.com/en/news/match-reports-brentford-3-chelsea-0-premier-league-jaidon-anthony-igor-thiago-fabio-carvalho",
+          "origin": "real",
+          "method": "reported",
+          "claimStatus": "reported",
+          "availableAtUtc": null,
+          "originalFlags": "Attributed report in pinned normalized review, not an independent primary source; original source availability unknown."
+        }
+      ],
+      "relatedPersonIds": [
+        "person-pl-reference-brentford-janelt",
+        "person-pl-reference-brentford-anthony"
+      ]
+    },
+    {
+      "id": "rp-09-brentford-schade",
+      "personId": "person-pl-reference-brentford-schade",
+      "footballTime": {
+        "periodId": "period-pl-2645236-second",
+        "startMs": null,
+        "endMs": null,
+        "precision": "unknown",
+        "endInclusive": null,
+        "reportedClock": "Second half; exact minute unknown"
+      },
+      "eligibleAfterMs": 3060000,
+      "text": "Schade and Thiago linked to Yarmoliuk's cross; Anthony headed against the bar, offside.",
+      "qualification": "An attributed offside passage, not a goal or exact contact time. Chelsea separately reports a goalkeeper touch; preserve that source distinction.",
+      "evidence": [
+        {
+          "evidenceId": "rp-09-brentford-schade-review",
+          "sourceId": "player-brief-review-v2",
+          "locator": "rp-09; First action after the break, line88; primary reports: https://www.brentfordfc.com/en/news/match-reports-brentford-3-chelsea-0-premier-league-jaidon-anthony-igor-thiago-fabio-carvalho",
+          "origin": "real",
+          "method": "reported",
+          "claimStatus": "reported",
+          "availableAtUtc": null,
+          "originalFlags": "Attributed report in pinned normalized review, not an independent primary source; original source availability unknown."
+        }
+      ],
+      "relatedPersonIds": [
+        "person-pl-reference-brentford-thiago",
+        "person-pl-reference-brentford-yarmoliuk",
+        "person-pl-reference-brentford-anthony"
+      ]
+    },
+    {
+      "id": "rp-05-brentford-thiago",
+      "personId": "person-pl-reference-brentford-thiago",
+      "footballTime": {
+        "periodId": "period-pl-2645236-first",
+        "startMs": null,
+        "endMs": null,
+        "precision": "unknown",
+        "endInclusive": null,
+        "reportedClock": "First half; exact minute unknown"
+      },
+      "eligibleAfterMs": 2820000,
+      "text": "Thiago held up Damsgaard's pass under Colwill's pressure; Martinez saved Yarmoliuk's shot.",
+      "qualification": "Pressure and the reported attacking sequence do not establish an assignment, measured duel or individual blame.",
+      "evidence": [
+        {
+          "evidenceId": "rp-05-brentford-thiago-review",
+          "sourceId": "player-brief-review-v2",
+          "locator": "rp-05; Thiago hold-up and Yarmoliuk effort paragraph, line67; primary reports: https://www.brentfordfc.com/en/news/match-reports-brentford-3-chelsea-0-premier-league-jaidon-anthony-igor-thiago-fabio-carvalho",
+          "origin": "real",
+          "method": "reported",
+          "claimStatus": "reported",
+          "availableAtUtc": null,
+          "originalFlags": "Attributed report in pinned normalized review, not an independent primary source; original source availability unknown."
+        }
+      ],
+      "relatedPersonIds": [
+        "person-pl-reference-brentford-damsgaard",
+        "person-pl-reference-chelsea-colwill",
+        "person-pl-reference-brentford-yarmoliuk",
+        "person-pl-reference-chelsea-martinez"
+      ]
+    },
+    {
+      "id": "rp-08-brentford-thiago",
+      "personId": "person-pl-reference-brentford-thiago",
+      "footballTime": {
+        "periodId": "period-pl-2645236-first",
+        "startMs": null,
+        "endMs": null,
+        "precision": "unknown",
+        "endInclusive": null,
+        "reportedClock": "First half; exact minute unknown"
+      },
+      "eligibleAfterMs": 2820000,
+      "text": "Janelt's shot was blocked; Thiago supplied Lewis-Potter, whose shot Martinez saved.",
+      "qualification": "The blocker is not named; do not assign that block to a roster player.",
+      "evidence": [
+        {
+          "evidenceId": "rp-08-brentford-thiago-review",
+          "sourceId": "player-brief-review-v2",
+          "locator": "rp-08; Last first-half action paragraph, line72; primary reports: https://www.brentfordfc.com/en/news/match-reports-brentford-3-chelsea-0-premier-league-jaidon-anthony-igor-thiago-fabio-carvalho",
+          "origin": "real",
+          "method": "reported",
+          "claimStatus": "reported",
+          "availableAtUtc": null,
+          "originalFlags": "Attributed report in pinned normalized review, not an independent primary source; original source availability unknown."
+        }
+      ],
+      "relatedPersonIds": [
+        "person-pl-reference-brentford-janelt",
+        "person-pl-reference-brentford-lewis-potter",
+        "person-pl-reference-chelsea-martinez"
+      ]
+    },
+    {
+      "id": "rp-09-brentford-thiago",
+      "personId": "person-pl-reference-brentford-thiago",
+      "footballTime": {
+        "periodId": "period-pl-2645236-second",
+        "startMs": null,
+        "endMs": null,
+        "precision": "unknown",
+        "endInclusive": null,
+        "reportedClock": "Second half; exact minute unknown"
+      },
+      "eligibleAfterMs": 3060000,
+      "text": "Schade and Thiago linked to Yarmoliuk's cross; Anthony headed against the bar, offside.",
+      "qualification": "An attributed offside passage, not a goal or exact contact time. Chelsea separately reports a goalkeeper touch; preserve that source distinction.",
+      "evidence": [
+        {
+          "evidenceId": "rp-09-brentford-thiago-review",
+          "sourceId": "player-brief-review-v2",
+          "locator": "rp-09; First action after the break, line88; primary reports: https://www.brentfordfc.com/en/news/match-reports-brentford-3-chelsea-0-premier-league-jaidon-anthony-igor-thiago-fabio-carvalho",
+          "origin": "real",
+          "method": "reported",
+          "claimStatus": "reported",
+          "availableAtUtc": null,
+          "originalFlags": "Attributed report in pinned normalized review, not an independent primary source; original source availability unknown."
+        }
+      ],
+      "relatedPersonIds": [
+        "person-pl-reference-brentford-schade",
+        "person-pl-reference-brentford-yarmoliuk",
+        "person-pl-reference-brentford-anthony"
+      ]
+    },
+    {
+      "id": "rp-11-brentford-thiago",
+      "personId": "person-pl-reference-brentford-thiago",
+      "footballTime": {
+        "periodId": "period-pl-2645236-second",
+        "startMs": null,
+        "endMs": null,
+        "precision": "unknown",
+        "endInclusive": null,
+        "reportedClock": "Second half; exact minute unknown"
+      },
+      "eligibleAfterMs": 3060000,
+      "text": "Fofana headed clear before Thiago's volley went over.",
+      "qualification": "Selected reported defensive/attacking contributions; no aerial-duel total or blame.",
+      "evidence": [
+        {
+          "evidenceId": "rp-11-brentford-thiago-review",
+          "sourceId": "player-brief-review-v2",
+          "locator": "rp-11; Damsgaard turn and Fofana aerial clearance paragraph, line91; primary reports: https://www.brentfordfc.com/en/news/match-reports-brentford-3-chelsea-0-premier-league-jaidon-anthony-igor-thiago-fabio-carvalho",
+          "origin": "real",
+          "method": "reported",
+          "claimStatus": "reported",
+          "availableAtUtc": null,
+          "originalFlags": "Attributed report in pinned normalized review, not an independent primary source; original source availability unknown."
+        }
+      ],
+      "relatedPersonIds": [
+        "person-pl-reference-chelsea-fofana"
+      ]
+    },
+    {
+      "id": "rp-17-brentford-sangare",
+      "personId": "person-pl-reference-brentford-sangare",
+      "footballTime": {
+        "periodId": "period-pl-2645236-second",
+        "startMs": null,
+        "endMs": null,
+        "precision": "unknown",
+        "endInclusive": null,
+        "reportedClock": "Second half; exact minute unknown"
+      },
+      "eligibleAfterMs": 3060000,
+      "text": "Palmer turned Sangare; his deflected shot went behind.",
+      "qualification": "The report names Sangare as the nearby opponent, not the player who deflected the shot.",
+      "evidence": [
+        {
+          "evidenceId": "rp-17-brentford-sangare-review",
+          "sourceId": "player-brief-review-v2",
+          "locator": "rp-17; Palmer turn inside the area after the corner paragraph, line97; primary reports: https://www.brentfordfc.com/en/news/match-reports-brentford-3-chelsea-0-premier-league-jaidon-anthony-igor-thiago-fabio-carvalho",
+          "origin": "real",
+          "method": "reported",
+          "claimStatus": "reported",
+          "availableAtUtc": null,
+          "originalFlags": "Attributed report in pinned normalized review, not an independent primary source; original source availability unknown."
+        }
+      ],
+      "relatedPersonIds": [
+        "person-pl-reference-chelsea-palmer"
+      ]
+    },
+    {
+      "id": "rp-05-chelsea-martinez",
+      "personId": "person-pl-reference-chelsea-martinez",
+      "footballTime": {
+        "periodId": "period-pl-2645236-first",
+        "startMs": null,
+        "endMs": null,
+        "precision": "unknown",
+        "endInclusive": null,
+        "reportedClock": "First half; exact minute unknown"
+      },
+      "eligibleAfterMs": 2820000,
+      "text": "Thiago held up Damsgaard's pass under Colwill's pressure; Martinez saved Yarmoliuk's shot.",
+      "qualification": "Pressure and the reported attacking sequence do not establish an assignment, measured duel or individual blame.",
+      "evidence": [
+        {
+          "evidenceId": "rp-05-chelsea-martinez-review",
+          "sourceId": "player-brief-review-v2",
+          "locator": "rp-05; Thiago hold-up and Yarmoliuk effort paragraph, line67; primary reports: https://www.brentfordfc.com/en/news/match-reports-brentford-3-chelsea-0-premier-league-jaidon-anthony-igor-thiago-fabio-carvalho",
+          "origin": "real",
+          "method": "reported",
+          "claimStatus": "reported",
+          "availableAtUtc": null,
+          "originalFlags": "Attributed report in pinned normalized review, not an independent primary source; original source availability unknown."
+        }
+      ],
+      "relatedPersonIds": [
+        "person-pl-reference-brentford-damsgaard",
+        "person-pl-reference-brentford-thiago",
+        "person-pl-reference-chelsea-colwill",
+        "person-pl-reference-brentford-yarmoliuk"
+      ]
+    },
+    {
+      "id": "rp-08-chelsea-martinez",
+      "personId": "person-pl-reference-chelsea-martinez",
+      "footballTime": {
+        "periodId": "period-pl-2645236-first",
+        "startMs": null,
+        "endMs": null,
+        "precision": "unknown",
+        "endInclusive": null,
+        "reportedClock": "First half; exact minute unknown"
+      },
+      "eligibleAfterMs": 2820000,
+      "text": "Janelt's shot was blocked; Thiago supplied Lewis-Potter, whose shot Martinez saved.",
+      "qualification": "The blocker is not named; do not assign that block to a roster player.",
+      "evidence": [
+        {
+          "evidenceId": "rp-08-chelsea-martinez-review",
+          "sourceId": "player-brief-review-v2",
+          "locator": "rp-08; Last first-half action paragraph, line72; primary reports: https://www.brentfordfc.com/en/news/match-reports-brentford-3-chelsea-0-premier-league-jaidon-anthony-igor-thiago-fabio-carvalho",
+          "origin": "real",
+          "method": "reported",
+          "claimStatus": "reported",
+          "availableAtUtc": null,
+          "originalFlags": "Attributed report in pinned normalized review, not an independent primary source; original source availability unknown."
+        }
+      ],
+      "relatedPersonIds": [
+        "person-pl-reference-brentford-janelt",
+        "person-pl-reference-brentford-thiago",
+        "person-pl-reference-brentford-lewis-potter"
+      ]
+    },
+    {
+      "id": "rp-13-chelsea-martinez",
+      "personId": "person-pl-reference-chelsea-martinez",
+      "footballTime": {
+        "periodId": "period-pl-2645236-second",
+        "startMs": null,
+        "endMs": null,
+        "precision": "unknown",
+        "endInclusive": null,
+        "reportedClock": "Second half; exact minute unknown"
+      },
+      "eligibleAfterMs": 3060000,
+      "text": "Chelsea attributes a counter-attack pass and wide effort to Martinez and Chavarria.",
+      "qualification": "Chelsea names Chavarria; Brentford names Neto in a similarly placed pre-goal effort. Whether these are the same attack is unresolved. Do not add them as two attempts or infer a measured pass length, intended role or verified actor mapping. ASR commentary remains a locator, not independent confirmation.",
+      "evidence": [
+        {
+          "evidenceId": "rp-13-chelsea-martinez-review",
+          "sourceId": "player-brief-review-v2",
+          "locator": "rp-13; Counter-attack after Anthony offside header, line29; primary reports: https://www.chelseafc.com/en/news/article/match-report-brentford-3-0-chelsea",
+          "origin": "real",
+          "method": "reported",
+          "claimStatus": "reported",
+          "availableAtUtc": null,
+          "originalFlags": "Attributed report in pinned normalized review, not an independent primary source; original source availability unknown."
+        }
+      ],
+      "relatedPersonIds": [
+        "person-pl-reference-chelsea-chavarria"
+      ]
+    },
+    {
+      "id": "rp-22-chelsea-martinez",
+      "personId": "person-pl-reference-chelsea-martinez",
+      "footballTime": {
+        "periodId": "period-pl-2645236-second",
+        "startMs": null,
+        "endMs": null,
+        "precision": "unknown",
+        "endInclusive": null,
+        "reportedClock": "Second half; exact minute unknown"
+      },
+      "eligibleAfterMs": 3060000,
+      "text": "Martinez touched Anthony's header onto the bar, with offside flagged.",
+      "qualification": "Chelsea's goalkeeper-touch account remains reported; not independently established by Brentford's crossbar description or a generated replay.",
+      "evidence": [
+        {
+          "evidenceId": "rp-22-chelsea-martinez-review",
+          "sourceId": "player-brief-review-v2",
+          "locator": "rp-22; Early second-half offside header paragraph, line27; primary reports: https://www.chelseafc.com/en/news/article/match-report-brentford-3-0-chelsea",
+          "origin": "real",
+          "method": "reported",
+          "claimStatus": "reported",
+          "availableAtUtc": null,
+          "originalFlags": "Attributed report in pinned normalized review, not an independent primary source; original source availability unknown."
+        }
+      ],
+      "relatedPersonIds": [
+        "person-pl-reference-brentford-anthony"
+      ]
+    },
+    {
+      "id": "rp-11-chelsea-fofana",
+      "personId": "person-pl-reference-chelsea-fofana",
+      "footballTime": {
+        "periodId": "period-pl-2645236-second",
+        "startMs": null,
+        "endMs": null,
+        "precision": "unknown",
+        "endInclusive": null,
+        "reportedClock": "Second half; exact minute unknown"
+      },
+      "eligibleAfterMs": 3060000,
+      "text": "Fofana headed clear before Thiago's volley went over.",
+      "qualification": "Selected reported defensive/attacking contributions; no aerial-duel total or blame.",
+      "evidence": [
+        {
+          "evidenceId": "rp-11-chelsea-fofana-review",
+          "sourceId": "player-brief-review-v2",
+          "locator": "rp-11; Damsgaard turn and Fofana aerial clearance paragraph, line91; primary reports: https://www.brentfordfc.com/en/news/match-reports-brentford-3-chelsea-0-premier-league-jaidon-anthony-igor-thiago-fabio-carvalho",
+          "origin": "real",
+          "method": "reported",
+          "claimStatus": "reported",
+          "availableAtUtc": null,
+          "originalFlags": "Attributed report in pinned normalized review, not an independent primary source; original source availability unknown."
+        }
+      ],
+      "relatedPersonIds": [
+        "person-pl-reference-brentford-thiago"
+      ]
+    },
+    {
+      "id": "rp-05-chelsea-colwill",
+      "personId": "person-pl-reference-chelsea-colwill",
+      "footballTime": {
+        "periodId": "period-pl-2645236-first",
+        "startMs": null,
+        "endMs": null,
+        "precision": "unknown",
+        "endInclusive": null,
+        "reportedClock": "First half; exact minute unknown"
+      },
+      "eligibleAfterMs": 2820000,
+      "text": "Thiago held up Damsgaard's pass under Colwill's pressure; Martinez saved Yarmoliuk's shot.",
+      "qualification": "Pressure and the reported attacking sequence do not establish an assignment, measured duel or individual blame.",
+      "evidence": [
+        {
+          "evidenceId": "rp-05-chelsea-colwill-review",
+          "sourceId": "player-brief-review-v2",
+          "locator": "rp-05; Thiago hold-up and Yarmoliuk effort paragraph, line67; primary reports: https://www.brentfordfc.com/en/news/match-reports-brentford-3-chelsea-0-premier-league-jaidon-anthony-igor-thiago-fabio-carvalho",
+          "origin": "real",
+          "method": "reported",
+          "claimStatus": "reported",
+          "availableAtUtc": null,
+          "originalFlags": "Attributed report in pinned normalized review, not an independent primary source; original source availability unknown."
+        }
+      ],
+      "relatedPersonIds": [
+        "person-pl-reference-brentford-damsgaard",
+        "person-pl-reference-brentford-thiago",
+        "person-pl-reference-brentford-yarmoliuk",
+        "person-pl-reference-chelsea-martinez"
+      ]
+    },
+    {
+      "id": "rp-16-chelsea-colwill",
+      "personId": "person-pl-reference-chelsea-colwill",
+      "footballTime": {
+        "periodId": "period-pl-2645236-second",
+        "startMs": 1320000,
+        "endMs": 1380000,
+        "precision": "reported_minute",
+        "endInclusive": false,
+        "reportedClock": "68 (Brentford)"
+      },
+      "eligibleAfterMs": 1380000,
+      "text": "Schuster contacted a corner; Colwill could not turn the loose ball goalward.",
+      "qualification": "Do not silently equate this contact with the differently described untimed Chelsea corner or infer a measured reaction speed.",
+      "evidence": [
+        {
+          "evidenceId": "rp-16-chelsea-colwill-review",
+          "sourceId": "player-brief-review-v2",
+          "locator": "rp-16; Corner chance reported at68, line96; primary reports: https://www.brentfordfc.com/en/news/match-reports-brentford-3-chelsea-0-premier-league-jaidon-anthony-igor-thiago-fabio-carvalho",
+          "origin": "real",
+          "method": "reported",
+          "claimStatus": "reported",
+          "availableAtUtc": null,
+          "originalFlags": "Attributed report in pinned normalized review, not an independent primary source; original source availability unknown."
+        }
+      ],
+      "relatedPersonIds": [
+        "person-pl-reference-brentford-schuster"
+      ]
+    },
+    {
+      "id": "rp-01-chelsea-neto",
+      "personId": "person-pl-reference-chelsea-neto",
+      "footballTime": {
+        "periodId": "period-pl-2645236-first",
+        "startMs": 540000,
+        "endMs": 600000,
+        "precision": "reported_minute",
+        "endInclusive": false,
+        "reportedClock": "9 (Brentford) / 10 (Chelsea)"
+      },
+      "eligibleAfterMs": 600000,
+      "text": "Chavarria delivered; Welbeck set up Neto's saved shot; Kelleher saved.",
+      "qualification": "One reported chance, not multiple incidents, a formal goal assist or a complete action total. Danny's existing exact observation remains unchanged.",
+      "evidence": [
+        {
+          "evidenceId": "rp-01-chelsea-neto-review",
+          "sourceId": "player-brief-review-v2",
+          "locator": "rp-01; Chelsea Bright beginning first paragraph, line18; Brentford first chance paragraph, line61; primary reports: https://www.chelseafc.com/en/news/article/match-report-brentford-3-0-chelsea ; https://www.brentfordfc.com/en/news/match-reports-brentford-3-chelsea-0-premier-league-jaidon-anthony-igor-thiago-fabio-carvalho",
+          "origin": "real",
+          "method": "reported",
+          "claimStatus": "reported",
+          "availableAtUtc": null,
+          "originalFlags": "Attributed report in pinned normalized review, not an independent primary source; original source availability unknown."
+        }
+      ],
+      "relatedPersonIds": [
+        "person-pl-reference-chelsea-chavarria",
+        "person-pl-reference-chelsea-welbeck",
+        "person-pl-reference-brentford-kelleher"
+      ]
+    },
+    {
+      "id": "rp-12-chelsea-neto",
+      "personId": "person-pl-reference-chelsea-neto",
+      "footballTime": {
+        "periodId": "period-pl-2645236-second",
+        "startMs": null,
+        "endMs": null,
+        "precision": "unknown",
+        "endInclusive": null,
+        "reportedClock": "Second half; exact minute unknown"
+      },
+      "eligibleAfterMs": 3060000,
+      "text": "Brentford attributes an untimed second-half effort to Neto.",
+      "qualification": "Brentford names Neto; Chelsea describes a similarly placed pre-goal counter through Chavarria. Whether these accounts concern the same attack is unresolved. Preserve attributed identity disagreement; do not count two attempts or treat either intermediate actor as independently verified.",
+      "evidence": [
+        {
+          "evidenceId": "rp-12-chelsea-neto-review",
+          "sourceId": "player-brief-review-v2",
+          "locator": "rp-12; Neto effort before the opening goal, line93; primary reports: https://www.brentfordfc.com/en/news/match-reports-brentford-3-chelsea-0-premier-league-jaidon-anthony-igor-thiago-fabio-carvalho",
+          "origin": "real",
+          "method": "reported",
+          "claimStatus": "reported",
+          "availableAtUtc": null,
+          "originalFlags": "Attributed report in pinned normalized review, not an independent primary source; original source availability unknown."
+        }
+      ],
+      "relatedPersonIds": []
+    },
+    {
+      "id": "rp-15-chelsea-henderson",
+      "personId": "person-pl-reference-chelsea-henderson",
+      "footballTime": {
+        "periodId": "period-pl-2645236-second",
+        "startMs": null,
+        "endMs": null,
+        "precision": "unknown",
+        "endInclusive": null,
+        "reportedClock": "Second half; exact minute unknown"
+      },
+      "eligibleAfterMs": 3060000,
+      "text": "Henderson's corner passed Kelleher; Chelsea did not convert.",
+      "qualification": "Chelsea says the keeper missed the delivery; this alone does not establish culpability, a goal or an exact minute.",
+      "evidence": [
+        {
+          "evidenceId": "rp-15-chelsea-henderson-review",
+          "sourceId": "player-brief-review-v2",
+          "locator": "rp-15; Chelsea corner shortly after the opening goal, line32; primary reports: https://www.chelseafc.com/en/news/article/match-report-brentford-3-0-chelsea",
+          "origin": "real",
+          "method": "reported",
+          "claimStatus": "reported",
+          "availableAtUtc": null,
+          "originalFlags": "Attributed report in pinned normalized review, not an independent primary source; original source availability unknown."
+        }
+      ],
+      "relatedPersonIds": [
+        "person-pl-reference-brentford-kelleher"
+      ]
+    },
+    {
+      "id": "rp-18-chelsea-barco",
+      "personId": "person-pl-reference-chelsea-barco",
+      "footballTime": {
+        "periodId": "period-pl-2645236-second",
+        "startMs": null,
+        "endMs": null,
+        "precision": "unknown",
+        "endInclusive": null,
+        "reportedClock": "Second half; exact minute unknown"
+      },
+      "eligibleAfterMs": 3060000,
+      "text": "Barco had a penalty appeal rejected amid blocked attempts.",
+      "qualification": "Reported appeal/outcome, not proof of a foul, referee error, VAR intervention or Barco's individual shot total.",
+      "evidence": [
+        {
+          "evidenceId": "rp-18-chelsea-barco-review",
+          "sourceId": "player-brief-review-v2",
+          "locator": "rp-18; Corner-pressure paragraph, line35; primary reports: https://www.chelseafc.com/en/news/article/match-report-brentford-3-0-chelsea",
+          "origin": "real",
+          "method": "reported",
+          "claimStatus": "reported",
+          "availableAtUtc": null,
+          "originalFlags": "Attributed report in pinned normalized review, not an independent primary source; original source availability unknown."
+        }
+      ],
+      "relatedPersonIds": []
+    },
+    {
+      "id": "rp-01-chelsea-chavarria",
+      "personId": "person-pl-reference-chelsea-chavarria",
+      "footballTime": {
+        "periodId": "period-pl-2645236-first",
+        "startMs": 540000,
+        "endMs": 600000,
+        "precision": "reported_minute",
+        "endInclusive": false,
+        "reportedClock": "9 (Brentford) / 10 (Chelsea)"
+      },
+      "eligibleAfterMs": 600000,
+      "text": "Chavarria delivered; Welbeck set up Neto's saved shot; Kelleher saved.",
+      "qualification": "One reported chance, not multiple incidents, a formal goal assist or a complete action total. Danny's existing exact observation remains unchanged.",
+      "evidence": [
+        {
+          "evidenceId": "rp-01-chelsea-chavarria-review",
+          "sourceId": "player-brief-review-v2",
+          "locator": "rp-01; Chelsea Bright beginning first paragraph, line18; Brentford first chance paragraph, line61; primary reports: https://www.chelseafc.com/en/news/article/match-report-brentford-3-0-chelsea ; https://www.brentfordfc.com/en/news/match-reports-brentford-3-chelsea-0-premier-league-jaidon-anthony-igor-thiago-fabio-carvalho",
+          "origin": "real",
+          "method": "reported",
+          "claimStatus": "reported",
+          "availableAtUtc": null,
+          "originalFlags": "Attributed report in pinned normalized review, not an independent primary source; original source availability unknown."
+        }
+      ],
+      "relatedPersonIds": [
+        "person-pl-reference-chelsea-welbeck",
+        "person-pl-reference-chelsea-neto",
+        "person-pl-reference-brentford-kelleher"
+      ]
+    },
+    {
+      "id": "rp-07-chelsea-chavarria",
+      "personId": "person-pl-reference-chelsea-chavarria",
+      "footballTime": {
+        "periodId": "period-pl-2645236-first",
+        "startMs": null,
+        "endMs": null,
+        "precision": "unknown",
+        "endInclusive": null,
+        "reportedClock": "First half; exact minute unknown"
+      },
+      "eligibleAfterMs": 2820000,
+      "text": "Chavarria supplied Rogers; Schuster blocked his shot.",
+      "qualification": "Delivery, attempt and block are reported; no exact minute or complete statistics.",
+      "evidence": [
+        {
+          "evidenceId": "rp-07-chelsea-chavarria-review",
+          "sourceId": "player-brief-review-v2",
+          "locator": "rp-07; Chelsea Bright beginning central Rogers attempt, line21; Brentford cutback paragraph, line71; primary reports: https://www.chelseafc.com/en/news/article/match-report-brentford-3-0-chelsea ; https://www.brentfordfc.com/en/news/match-reports-brentford-3-chelsea-0-premier-league-jaidon-anthony-igor-thiago-fabio-carvalho",
+          "origin": "real",
+          "method": "reported",
+          "claimStatus": "reported",
+          "availableAtUtc": null,
+          "originalFlags": "Attributed report in pinned normalized review, not an independent primary source; original source availability unknown."
+        }
+      ],
+      "relatedPersonIds": [
+        "person-pl-reference-chelsea-rogers",
+        "person-pl-reference-brentford-schuster"
+      ]
+    },
+    {
+      "id": "rp-13-chelsea-chavarria",
+      "personId": "person-pl-reference-chelsea-chavarria",
+      "footballTime": {
+        "periodId": "period-pl-2645236-second",
+        "startMs": null,
+        "endMs": null,
+        "precision": "unknown",
+        "endInclusive": null,
+        "reportedClock": "Second half; exact minute unknown"
+      },
+      "eligibleAfterMs": 3060000,
+      "text": "Chelsea attributes a counter-attack pass and wide effort to Martinez and Chavarria.",
+      "qualification": "Chelsea names Chavarria; Brentford names Neto in a similarly placed pre-goal effort. Whether these are the same attack is unresolved. Do not add them as two attempts or infer a measured pass length, intended role or verified actor mapping. ASR commentary remains a locator, not independent confirmation.",
+      "evidence": [
+        {
+          "evidenceId": "rp-13-chelsea-chavarria-review",
+          "sourceId": "player-brief-review-v2",
+          "locator": "rp-13; Counter-attack after Anthony offside header, line29; primary reports: https://www.chelseafc.com/en/news/article/match-report-brentford-3-0-chelsea",
+          "origin": "real",
+          "method": "reported",
+          "claimStatus": "reported",
+          "availableAtUtc": null,
+          "originalFlags": "Attributed report in pinned normalized review, not an independent primary source; original source availability unknown."
+        }
+      ],
+      "relatedPersonIds": [
+        "person-pl-reference-chelsea-martinez"
+      ]
+    },
+    {
+      "id": "rp-03-chelsea-palmer",
+      "personId": "person-pl-reference-chelsea-palmer",
+      "footballTime": {
+        "periodId": "period-pl-2645236-first",
+        "startMs": null,
+        "endMs": null,
+        "precision": "unknown",
+        "endInclusive": null,
+        "reportedClock": "First half; exact minute unknown"
+      },
+      "eligibleAfterMs": 2820000,
+      "text": "Kayode's throw reached Lewis-Potter, whose volley Palmer blocked.",
+      "qualification": "Named roles are attributed to the report; exact minute/contact times remain unknown.",
+      "evidence": [
+        {
+          "evidenceId": "rp-03-chelsea-palmer-review",
+          "sourceId": "player-brief-review-v2",
+          "locator": "rp-03; Midway first-half long-throw paragraph, line64; primary reports: https://www.brentfordfc.com/en/news/match-reports-brentford-3-chelsea-0-premier-league-jaidon-anthony-igor-thiago-fabio-carvalho",
+          "origin": "real",
+          "method": "reported",
+          "claimStatus": "reported",
+          "availableAtUtc": null,
+          "originalFlags": "Attributed report in pinned normalized review, not an independent primary source; original source availability unknown."
+        }
+      ],
+      "relatedPersonIds": [
+        "person-pl-reference-brentford-kayode",
+        "person-pl-reference-brentford-lewis-potter"
+      ]
+    },
+    {
+      "id": "rp-17-chelsea-palmer",
+      "personId": "person-pl-reference-chelsea-palmer",
+      "footballTime": {
+        "periodId": "period-pl-2645236-second",
+        "startMs": null,
+        "endMs": null,
+        "precision": "unknown",
+        "endInclusive": null,
+        "reportedClock": "Second half; exact minute unknown"
+      },
+      "eligibleAfterMs": 3060000,
+      "text": "Palmer turned Sangare; his deflected shot went behind.",
+      "qualification": "The report names Sangare as the nearby opponent, not the player who deflected the shot.",
+      "evidence": [
+        {
+          "evidenceId": "rp-17-chelsea-palmer-review",
+          "sourceId": "player-brief-review-v2",
+          "locator": "rp-17; Palmer turn inside the area after the corner paragraph, line97; primary reports: https://www.brentfordfc.com/en/news/match-reports-brentford-3-chelsea-0-premier-league-jaidon-anthony-igor-thiago-fabio-carvalho",
+          "origin": "real",
+          "method": "reported",
+          "claimStatus": "reported",
+          "availableAtUtc": null,
+          "originalFlags": "Attributed report in pinned normalized review, not an independent primary source; original source availability unknown."
+        }
+      ],
+      "relatedPersonIds": [
+        "person-pl-reference-brentford-sangare"
+      ]
+    },
+    {
+      "id": "rp-02-chelsea-rogers",
+      "personId": "person-pl-reference-chelsea-rogers",
+      "footballTime": {
+        "periodId": "period-pl-2645236-first",
+        "startMs": null,
+        "endMs": null,
+        "precision": "unknown",
+        "endInclusive": null,
+        "reportedClock": "First half; exact minute unknown"
+      },
+      "eligibleAfterMs": 2820000,
+      "text": "Rogers shot from the rebound.",
+      "qualification": "Source describes an unsuccessful effort; no player total or exact minute supplied.",
+      "evidence": [
+        {
+          "evidenceId": "rp-02-chelsea-rogers-review",
+          "sourceId": "player-brief-review-v2",
+          "locator": "rp-02; Paragraph immediately after first chance, line62; primary reports: https://www.brentfordfc.com/en/news/match-reports-brentford-3-chelsea-0-premier-league-jaidon-anthony-igor-thiago-fabio-carvalho",
+          "origin": "real",
+          "method": "reported",
+          "claimStatus": "reported",
+          "availableAtUtc": null,
+          "originalFlags": "Attributed report in pinned normalized review, not an independent primary source; original source availability unknown."
+        }
+      ],
+      "relatedPersonIds": []
+    },
+    {
+      "id": "rp-04-chelsea-rogers",
+      "personId": "person-pl-reference-chelsea-rogers",
+      "footballTime": {
+        "periodId": "period-pl-2645236-first",
+        "startMs": null,
+        "endMs": null,
+        "precision": "unknown",
+        "endInclusive": null,
+        "reportedClock": "First half; exact minute unknown"
+      },
+      "eligibleAfterMs": 2820000,
+      "text": "Kelleher held Rogers's free-kick after Damsgaard conceded it.",
+      "qualification": "No inferred foul intent, card, formal defensive error or shot total.",
+      "evidence": [
+        {
+          "evidenceId": "rp-04-chelsea-rogers-review",
+          "sourceId": "player-brief-review-v2",
+          "locator": "rp-04; Free-kick paragraph before Thiago hold-up, line66; primary reports: https://www.brentfordfc.com/en/news/match-reports-brentford-3-chelsea-0-premier-league-jaidon-anthony-igor-thiago-fabio-carvalho",
+          "origin": "real",
+          "method": "reported",
+          "claimStatus": "reported",
+          "availableAtUtc": null,
+          "originalFlags": "Attributed report in pinned normalized review, not an independent primary source; original source availability unknown."
+        }
+      ],
+      "relatedPersonIds": [
+        "person-pl-reference-brentford-kelleher",
+        "person-pl-reference-brentford-damsgaard"
+      ]
+    },
+    {
+      "id": "rp-07-chelsea-rogers",
+      "personId": "person-pl-reference-chelsea-rogers",
+      "footballTime": {
+        "periodId": "period-pl-2645236-first",
+        "startMs": null,
+        "endMs": null,
+        "precision": "unknown",
+        "endInclusive": null,
+        "reportedClock": "First half; exact minute unknown"
+      },
+      "eligibleAfterMs": 2820000,
+      "text": "Chavarria supplied Rogers; Schuster blocked his shot.",
+      "qualification": "Delivery, attempt and block are reported; no exact minute or complete statistics.",
+      "evidence": [
+        {
+          "evidenceId": "rp-07-chelsea-rogers-review",
+          "sourceId": "player-brief-review-v2",
+          "locator": "rp-07; Chelsea Bright beginning central Rogers attempt, line21; Brentford cutback paragraph, line71; primary reports: https://www.chelseafc.com/en/news/article/match-report-brentford-3-0-chelsea ; https://www.brentfordfc.com/en/news/match-reports-brentford-3-chelsea-0-premier-league-jaidon-anthony-igor-thiago-fabio-carvalho",
+          "origin": "real",
+          "method": "reported",
+          "claimStatus": "reported",
+          "availableAtUtc": null,
+          "originalFlags": "Attributed report in pinned normalized review, not an independent primary source; original source availability unknown."
+        }
+      ],
+      "relatedPersonIds": [
+        "person-pl-reference-chelsea-chavarria",
+        "person-pl-reference-brentford-schuster"
+      ]
+    },
+    {
+      "id": "rp-21-chelsea-nicoll-jazuli",
+      "personId": "person-pl-reference-chelsea-nicoll-jazuli",
+      "footballTime": {
+        "periodId": "period-pl-2645236-second",
+        "startMs": 2460000,
+        "endMs": 2520000,
+        "precision": "reported_minute",
+        "endInclusive": false,
+        "reportedClock": "87 (official substitution)"
+      },
+      "eligibleAfterMs": 2520000,
+      "text": "Nicoll-Jazuli made his senior debut as a late substitute.",
+      "qualification": "Participation/context, not a performance rating, exact playing-time total or verified on-ball contribution.",
+      "evidence": [
+        {
+          "evidenceId": "rp-21-chelsea-nicoll-jazuli-review",
+          "sourceId": "player-brief-review-v2",
+          "locator": "rp-21; Late debut paragraph, line40; official outgoingBarco/incomingNicoll-Jazuli substitution; primary reports: https://www.chelseafc.com/en/news/article/match-report-brentford-3-0-chelsea",
+          "origin": "real",
+          "method": "reported",
+          "claimStatus": "reported",
+          "availableAtUtc": null,
+          "originalFlags": "Attributed report in pinned normalized review, not an independent primary source; original source availability unknown."
+        }
+      ],
+      "relatedPersonIds": []
+    },
+    {
+      "id": "vp-ouattara-01",
+      "personId": "person-pl-reference-brentford-ouattara",
+      "footballTime": {
+        "periodId": "period-pl-2645236-second",
+        "startMs": 2688000,
+        "endMs": 2688000,
+        "precision": "source_sample",
+        "endInclusive": true,
+        "reportedClock": "89:48"
+      },
+      "eligibleAfterMs": 2700000,
+      "text": "Brentford11 faces a Chelsea player with the ball near the touchline.",
+      "qualification": "Readable shirt11 at this point only; no completed tackle, interception, recovery or outcome is established.",
+      "evidence": [
+        {
+          "evidenceId": "vp-ouattara-01-review",
+          "sourceId": "player-brief-review-v2",
+          "locator": "vp-ouattara-01; media-05481.png; SHA256 53aaf1cc169fb37496c3fbe16cd65b6b87faa1890a4ff99e406b09116de0115a; source media seconds 5481; displayed clock 89:48",
+          "origin": "real",
+          "method": "observed",
+          "claimStatus": "confirmed",
+          "availableAtUtc": null,
+          "originalFlags": "Single native frame only;fixture roster/shirt lookup; frame receipt SHA256 49ceeeec4e8e12e6900cc0aa0f7b43f3237e262f9e437a42356d554321fb37b1; video SHA256 87b511b61f3d48e410294e06bf71bbc3a88c7b7ca6a50b89e572808c3e82711f; pinned normalized review, not an independent primary source."
+        }
+      ],
+      "relatedPersonIds": []
+    },
+    {
+      "id": "vp-diouf-01",
+      "personId": "person-pl-reference-brentford-diouf",
+      "footballTime": {
+        "periodId": "period-pl-2645236-second",
+        "startMs": 2515000,
+        "endMs": 2515000,
+        "precision": "source_sample",
+        "endInclusive": true,
+        "reportedClock": "86:55"
+      },
+      "eligibleAfterMs": 2520000,
+      "text": "Brentford25 is outside Chelsea penalty area alongside Chelsea41 during the attack.",
+      "qualification": "Readable shirt25 at this point only; no previous delivery, pass, run duration or defensive assignment is identified.",
+      "evidence": [
+        {
+          "evidenceId": "vp-diouf-01-review",
+          "sourceId": "player-brief-review-v2",
+          "locator": "vp-diouf-01; media-05308.png; SHA256 99608c3f7baa71a238168a6f1ea997fd0729043c438a6a1e2adb7d4e0bc060ef; source media seconds 5308; displayed clock 86:55",
+          "origin": "real",
+          "method": "observed",
+          "claimStatus": "confirmed",
+          "availableAtUtc": null,
+          "originalFlags": "Single native frame only;fixture roster/shirt lookup; frame receipt SHA256 934eab7e56528d1bae393088f6ef42ee802e24f1dd40361e941b387bab048242; video SHA256 87b511b61f3d48e410294e06bf71bbc3a88c7b7ca6a50b89e572808c3e82711f; pinned normalized review, not an independent primary source."
+        }
+      ],
+      "relatedPersonIds": []
+    },
+    {
+      "id": "vp-nicoll-jazuli-01",
+      "personId": "person-pl-reference-chelsea-nicoll-jazuli",
+      "footballTime": {
+        "periodId": "period-pl-2645236-second",
+        "startMs": 2515000,
+        "endMs": 2515000,
+        "precision": "source_sample",
+        "endInclusive": true,
+        "reportedClock": "86:55"
+      },
+      "eligibleAfterMs": 2520000,
+      "text": "Chelsea32 is inside his own penalty area during a Brentford attack.",
+      "qualification": "Readable shirt32 at this point only; no preceding contact, marking assignment or defensive outcome is established.",
+      "evidence": [
+        {
+          "evidenceId": "vp-nicoll-jazuli-01-review",
+          "sourceId": "player-brief-review-v2",
+          "locator": "vp-nicoll-jazuli-01; media-05308.png; SHA256 99608c3f7baa71a238168a6f1ea997fd0729043c438a6a1e2adb7d4e0bc060ef; source media seconds 5308; displayed clock 86:55",
+          "origin": "real",
+          "method": "observed",
+          "claimStatus": "confirmed",
+          "availableAtUtc": null,
+          "originalFlags": "Single native frame only;fixture roster/shirt lookup; frame receipt SHA256 934eab7e56528d1bae393088f6ef42ee802e24f1dd40361e941b387bab048242; video SHA256 87b511b61f3d48e410294e06bf71bbc3a88c7b7ca6a50b89e572808c3e82711f; pinned normalized review, not an independent primary source."
+        }
+      ],
+      "relatedPersonIds": []
+    },
+    {
+      "id": "vp-estevao-01",
+      "personId": "person-pl-reference-chelsea-estevao",
+      "footballTime": {
+        "periodId": "period-pl-2645236-second",
+        "startMs": 2515000,
+        "endMs": 2515000,
+        "precision": "source_sample",
+        "endInclusive": true,
+        "reportedClock": "86:55"
+      },
+      "eligibleAfterMs": 2520000,
+      "text": "Chelsea41 is outside his own penalty area alongside Brentford25.",
+      "qualification": "Readable shirt41 at this point only; this does not identify a late corner taker or any previous contact.",
+      "evidence": [
+        {
+          "evidenceId": "vp-estevao-01-review",
+          "sourceId": "player-brief-review-v2",
+          "locator": "vp-estevao-01; media-05308.png; SHA256 99608c3f7baa71a238168a6f1ea997fd0729043c438a6a1e2adb7d4e0bc060ef; source media seconds 5308; displayed clock 86:55",
+          "origin": "real",
+          "method": "observed",
+          "claimStatus": "confirmed",
+          "availableAtUtc": null,
+          "originalFlags": "Single native frame only;fixture roster/shirt lookup; frame receipt SHA256 934eab7e56528d1bae393088f6ef42ee802e24f1dd40361e941b387bab048242; video SHA256 87b511b61f3d48e410294e06bf71bbc3a88c7b7ca6a50b89e572808c3e82711f; pinned normalized review, not an independent primary source."
+        }
+      ],
+      "relatedPersonIds": []
+    },
+    {
+      "id": "vp-quenda-01",
+      "personId": "person-pl-reference-chelsea-quenda",
+      "footballTime": {
+        "periodId": "period-pl-2645236-second",
+        "startMs": 2057000,
+        "endMs": 2057000,
+        "precision": "source_sample",
+        "endInclusive": true,
+        "reportedClock": "79:17"
+      },
+      "eligibleAfterMs": 2100000,
+      "text": "The broadcast close-up reads G.QUENDA23.",
+      "qualification": "Identity and presence only. The camera cut does not identify Quenda as the player making the preceding wide delivery.",
+      "evidence": [
+        {
+          "evidenceId": "vp-quenda-01-review",
+          "sourceId": "player-brief-review-v2",
+          "locator": "vp-quenda-01; media-04850.png; SHA256 0979540ba26031cda8178a0096e938ec4c9c339df912c2f4b976f3a3911ed08b; source media seconds 4850; displayed clock 79:17",
+          "origin": "real",
+          "method": "observed",
+          "claimStatus": "confirmed",
+          "availableAtUtc": null,
+          "originalFlags": "Single native frame only;fixture roster/shirt lookup; frame receipt SHA256 f9c3fb2b64a0685325bca7145ae693fb58032f026692a5866c36cd6dd7ffa753; video SHA256 87b511b61f3d48e410294e06bf71bbc3a88c7b7ca6a50b89e572808c3e82711f; pinned normalized review, not an independent primary source."
+        }
+      ],
+      "relatedPersonIds": []
+    },
+    {
+      "id": "vp-barco-01",
+      "personId": "person-pl-reference-chelsea-barco",
+      "footballTime": {
+        "periodId": "period-pl-2645236-second",
+        "startMs": 1847000,
+        "endMs": 1847000,
+        "precision": "source_sample",
+        "endInclusive": true,
+        "reportedClock": "75:47"
+      },
+      "eligibleAfterMs": 1860000,
+      "text": "Readable BARCO4 is lying on the pitch.",
+      "qualification": "No injury, cause, foul, penalty, intent or bridge to the preceding contact is established.",
+      "evidence": [
+        {
+          "evidenceId": "vp-barco-01-review",
+          "sourceId": "player-brief-review-v2",
+          "locator": "vp-barco-01; media-04640.png; SHA256 46a8419baef8102bc8d6da375d394dc56824ef688a20cfd9599b521fa3d56ee5; source media seconds 4640; displayed clock 75:47",
+          "origin": "real",
+          "method": "observed",
+          "claimStatus": "confirmed",
+          "availableAtUtc": null,
+          "originalFlags": "Single native frame only;fixture roster/shirt lookup; frame receipt SHA256 fffce8a0ec21b8686c987e5fa39a462ba9fdc1da733b8189d2c26a26c9618f4c; video SHA256 87b511b61f3d48e410294e06bf71bbc3a88c7b7ca6a50b89e572808c3e82711f; pinned normalized review, not an independent primary source."
+        }
+      ],
+      "relatedPersonIds": []
+    },
+    {
+      "id": "vp-lacroix-01",
+      "personId": "person-pl-reference-chelsea-lacroix",
+      "footballTime": {
+        "periodId": "period-pl-2645236-second",
+        "startMs": 2831000,
+        "endMs": 2831000,
+        "precision": "source_sample",
+        "endInclusive": true,
+        "reportedClock": "92:11"
+      },
+      "eligibleAfterMs": 2880000,
+      "text": "Readable LACROIX5 appears in close-up beside a Brentford player.",
+      "qualification": "A point identity only. The preceding header, contact and its outcome are not established; the broadcast shows added time +5.",
+      "evidence": [
+        {
+          "evidenceId": "vp-lacroix-01-review",
+          "sourceId": "player-brief-review-v2",
+          "locator": "vp-lacroix-01; media-05624.png; SHA256 548f97bc8c8d72ee4b0067cb2f35e087f5d08b47b0451f506c9fef3364d67cc6; source media seconds 5624; displayed clock 92:11",
+          "origin": "real",
+          "method": "observed",
+          "claimStatus": "confirmed",
+          "availableAtUtc": null,
+          "originalFlags": "Single native frame only;fixture roster/shirt lookup; frame receipt SHA256 21fa28040647ad08fdd0a839aa8b032fe8710cc2902ccc64b5b4c90c8a517598; video SHA256 87b511b61f3d48e410294e06bf71bbc3a88c7b7ca6a50b89e572808c3e82711f; pinned normalized review, not an independent primary source."
+        }
+      ],
+      "relatedPersonIds": []
+    },
+    {
+      "id": "vp-henderson-01",
+      "personId": "person-pl-reference-chelsea-henderson",
+      "footballTime": {
+        "periodId": "period-pl-2645236-second",
+        "startMs": 2047000,
+        "endMs": 2047000,
+        "precision": "source_sample",
+        "endInclusive": true,
+        "reportedClock": "79:07"
+      },
+      "eligibleAfterMs": 2100000,
+      "text": "Chelsea14 is outside the image-left side of Brentford penalty area while the ball is farther left.",
+      "qualification": "Readable shirt14 at this point only; no pass receipt, delivery or intended-recipient role is established.",
+      "evidence": [
+        {
+          "evidenceId": "vp-henderson-01-review",
+          "sourceId": "player-brief-review-v2",
+          "locator": "vp-henderson-01; media-04840.png; SHA256 8c1a935fc8f22da5cac8d8f4e9485c50cdd2fe7f4e4b4cd4dcb262f72fec2cfd; source media seconds 4840; displayed clock 79:07",
+          "origin": "real",
+          "method": "observed",
+          "claimStatus": "confirmed",
+          "availableAtUtc": null,
+          "originalFlags": "Single native frame only;fixture roster/shirt lookup; frame receipt SHA256 f2bfaaceb16d4eeb469030593f0e44ab484d888ffa289ecbc9d1203592039538; video SHA256 87b511b61f3d48e410294e06bf71bbc3a88c7b7ca6a50b89e572808c3e82711f; pinned normalized review, not an independent primary source."
+        }
+      ],
+      "relatedPersonIds": []
+    }
+  ],
+  "coverage": "Selected reviewed passages only, not an exhaustive action or player-statistics feed. Missing observations and missing metrics are not zeros. No full-match rating, inferred formal assists, offside, tactical assignment or individual blame."
+}

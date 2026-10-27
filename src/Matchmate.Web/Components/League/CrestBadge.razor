@@ -1,0 +1,10 @@
+@using Matchmate.Contracts
+<span class="crest-badge @Class" aria-hidden="true"><span class="crest-fallback @(_loaded ? "is-hidden" : "")">@Club.Initials</span>
+@if (!_failed && Club.CrestPath is not null) { <img src="@("/" + Club.CrestPath.TrimStart('/'))" alt="" @onload="() => _loaded = true" @onerror="() => _failed = true"/> }
+</span>
+@code {
+    [Parameter, EditorRequired] public LeagueClub Club { get; set; } = default!;
+    [Parameter] public string Class { get; set; } = "";
+    private bool _failed, _loaded; private string? _path;
+    protected override void OnParametersSet() { if (_path != Club.CrestPath) { _path = Club.CrestPath; _failed = false; _loaded = false; } }
+}

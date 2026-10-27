@@ -1,0 +1,2935 @@
+{
+  "id": "premier-league:2026-27:2026-09-18:brentford:chelsea",
+  "status": "local_research_only_not_application_input",
+  "temporal_semantics": {
+    "observed_on": "2026-10-17",
+    "view": "retrospective_source_claims",
+    "known_then_reconstructed": false
+  },
+  "fixture": {
+    "season": {
+      "value": "2026/27",
+      "evidence": {
+        "source": "brentford-hub",
+        "locator": "line 34; 26–27 fixture image description"
+      }
+    },
+    "competition": {
+      "value": "Premier League",
+      "evidence": {
+        "source": "brentford-hub",
+        "locator": "line 42; competition label"
+      }
+    },
+    "played_date": {
+      "value": "2026-09-18",
+      "evidence": {
+        "source": "brentford-hub",
+        "locator": "line 40; Fri 18 Sep 26"
+      }
+    },
+    "home": {
+      "value": "brentford",
+      "evidence": {
+        "source": "chelsea-report",
+        "locator": "title; home-away report order"
+      }
+    },
+    "away": {
+      "value": "chelsea",
+      "evidence": {
+        "source": "chelsea-report",
+        "locator": "title; home-away report order"
+      }
+    },
+    "result": {
+      "value": [
+        3,
+        0
+      ],
+      "status": "completed",
+      "evidence": {
+        "source": "chelsea-report",
+        "locator": "title and final report; line 7"
+      },
+      "corroboration": {
+        "source": "brentford-hub",
+        "locator": "lines 65–75; full match replay title"
+      }
+    },
+    "venue": {
+      "ground_id": "brentford-community-stadium",
+      "printed_name": "Gtech Community Stadium",
+      "evidence": {
+        "source": "chelsea-report",
+        "locator": "line 2; venue"
+      }
+    },
+    "kickoff": {
+      "actual": null,
+      "scheduled_local": "20:00",
+      "scheduled_timezone": "Europe/London",
+      "printed_timezone": "BST",
+      "evidence": {
+        "source": "brentford-preview",
+        "locator": "lines 48 and 54; 8pm BST preview"
+      }
+    },
+    "referee": {
+      "printed_name": "Andrew Madley",
+      "evidence": {
+        "source": "chelsea-report",
+        "locator": "line 56; referee"
+      }
+    },
+    "crowd": {
+      "value": 17193,
+      "definition": "crowd_as_reported",
+      "home_away_split": null,
+      "evidence": {
+        "source": "chelsea-report",
+        "locator": "line 57; crowd"
+      }
+    }
+  },
+  "players": [
+    {
+      "id": "chelsea:martinez",
+      "source_printed_name": "Martinez",
+      "club_id": "chelsea",
+      "global_identity_resolved": false,
+      "evidence": {
+        "source": "chelsea-report",
+        "locator": "lines 49–50; team list"
+      },
+      "identity_resolution": {
+        "status": "source_linked_public_name",
+        "public_name": "Emiliano Martinez",
+        "observed_on": "2026-10-17",
+        "scope": "public football name, not asserted full legal name or affiliation interval",
+        "evidence": {
+          "source": "chelsea-match-retrospective",
+          "locator": "line 42; explicitly identifies Brentford debutant Emiliano Martinez"
+        },
+        "match_participation_evidence": {
+          "source": "chelsea-report",
+          "locator": "lines 49–50; team list"
+        }
+      }
+    },
+    {
+      "id": "chelsea:fofana",
+      "source_printed_name": "Fofana",
+      "club_id": "chelsea",
+      "global_identity_resolved": false,
+      "evidence": {
+        "source": "chelsea-report",
+        "locator": "lines 49–50; team list"
+      },
+      "identity_resolution": {
+        "status": "source_linked_public_name",
+        "public_name": "Wesley Fofana",
+        "observed_on": "2026-10-17",
+        "scope": "public football name, not asserted full legal name or affiliation interval",
+        "evidence": {
+          "source": "chelsea-season-names",
+          "locator": "2026/27 squad numbers in full; unique entry Wesley Fofana"
+        },
+        "match_participation_evidence": {
+          "source": "chelsea-report",
+          "locator": "lines 49–50; team list"
+        }
+      }
+    },
+    {
+      "id": "chelsea:lacroix",
+      "source_printed_name": "Lacroix",
+      "club_id": "chelsea",
+      "global_identity_resolved": false,
+      "evidence": {
+        "source": "chelsea-report",
+        "locator": "lines 49–50; team list"
+      },
+      "identity_resolution": {
+        "status": "source_linked_public_name",
+        "public_name": "Maxence Lacroix",
+        "observed_on": "2026-10-17",
+        "scope": "public football name, not asserted full legal name or affiliation interval",
+        "evidence": {
+          "source": "chelsea-season-names",
+          "locator": "2026/27 squad numbers in full; unique entry Maxence Lacroix"
+        },
+        "match_participation_evidence": {
+          "source": "chelsea-report",
+          "locator": "lines 49–50; team list"
+        }
+      }
+    },
+    {
+      "id": "chelsea:colwill",
+      "source_printed_name": "Colwill",
+      "club_id": "chelsea",
+      "global_identity_resolved": false,
+      "evidence": {
+        "source": "chelsea-report",
+        "locator": "lines 49–50; team list"
+      },
+      "identity_resolution": {
+        "status": "source_linked_public_name",
+        "public_name": "Levi Colwill",
+        "observed_on": "2026-10-17",
+        "scope": "public football name, not asserted full legal name or affiliation interval",
+        "evidence": {
+          "source": "chelsea-season-names",
+          "locator": "2026/27 squad numbers in full; unique entry Levi Colwill"
+        },
+        "match_participation_evidence": {
+          "source": "chelsea-report",
+          "locator": "lines 49–50; team list"
+        }
+      }
+    },
+    {
+      "id": "chelsea:chavarria",
+      "source_printed_name": "Chavarria",
+      "club_id": "chelsea",
+      "global_identity_resolved": false,
+      "evidence": {
+        "source": "chelsea-report",
+        "locator": "lines 49–50; team list"
+      },
+      "identity_resolution": {
+        "status": "source_linked_public_name",
+        "public_name": "Pep Chavarria",
+        "observed_on": "2026-10-17",
+        "scope": "public football name, not asserted full legal name or affiliation interval",
+        "evidence": {
+          "source": "chelsea-season-names",
+          "locator": "2026/27 squad numbers in full; unique entry Pep Chavarria"
+        },
+        "match_participation_evidence": {
+          "source": "chelsea-report",
+          "locator": "lines 49–50; team list"
+        }
+      }
+    },
+    {
+      "id": "chelsea:henderson",
+      "source_printed_name": "Henderson",
+      "club_id": "chelsea",
+      "global_identity_resolved": false,
+      "evidence": {
+        "source": "chelsea-report",
+        "locator": "lines 49–50; team list"
+      },
+      "identity_resolution": {
+        "status": "source_linked_public_name",
+        "public_name": "Jordan Henderson",
+        "observed_on": "2026-10-17",
+        "scope": "public football name, not asserted full legal name or affiliation interval",
+        "evidence": {
+          "source": "chelsea-season-names",
+          "locator": "2026/27 squad numbers in full; unique entry Jordan Henderson"
+        },
+        "match_participation_evidence": {
+          "source": "chelsea-report",
+          "locator": "lines 49–50; team list"
+        }
+      }
+    },
+    {
+      "id": "chelsea:barco",
+      "source_printed_name": "Barco",
+      "club_id": "chelsea",
+      "global_identity_resolved": false,
+      "evidence": {
+        "source": "chelsea-report",
+        "locator": "lines 49–50; team list"
+      },
+      "identity_resolution": {
+        "status": "source_linked_public_name",
+        "public_name": "Valentin Barco",
+        "observed_on": "2026-10-17",
+        "scope": "public football name, not asserted full legal name or affiliation interval",
+        "evidence": {
+          "source": "chelsea-season-names",
+          "locator": "2026/27 squad numbers in full; unique entry Valentin Barco"
+        },
+        "match_participation_evidence": {
+          "source": "chelsea-report",
+          "locator": "lines 49–50; team list"
+        }
+      }
+    },
+    {
+      "id": "chelsea:neto",
+      "source_printed_name": "Neto",
+      "club_id": "chelsea",
+      "global_identity_resolved": false,
+      "evidence": {
+        "source": "chelsea-report",
+        "locator": "lines 49–50; team list"
+      },
+      "identity_resolution": {
+        "status": "source_linked_public_name",
+        "public_name": "Pedro Neto",
+        "observed_on": "2026-10-17",
+        "scope": "public football name, not asserted full legal name or affiliation interval",
+        "evidence": {
+          "source": "chelsea-season-names",
+          "locator": "2026/27 squad numbers in full; unique entry Pedro Neto"
+        },
+        "match_participation_evidence": {
+          "source": "chelsea-report",
+          "locator": "lines 49–50; team list"
+        }
+      }
+    },
+    {
+      "id": "chelsea:palmer",
+      "source_printed_name": "Palmer",
+      "club_id": "chelsea",
+      "global_identity_resolved": false,
+      "evidence": {
+        "source": "chelsea-report",
+        "locator": "lines 49–50; team list"
+      },
+      "identity_resolution": {
+        "status": "source_linked_public_name",
+        "public_name": "Cole Palmer",
+        "observed_on": "2026-10-17",
+        "scope": "public football name, not asserted full legal name or affiliation interval",
+        "evidence": {
+          "source": "chelsea-season-names",
+          "locator": "2026/27 squad numbers in full; unique entry Cole Palmer"
+        },
+        "match_participation_evidence": {
+          "source": "chelsea-report",
+          "locator": "lines 49–50; team list"
+        }
+      }
+    },
+    {
+      "id": "chelsea:rogers",
+      "source_printed_name": "Rogers",
+      "club_id": "chelsea",
+      "global_identity_resolved": false,
+      "evidence": {
+        "source": "chelsea-report",
+        "locator": "lines 49–50; team list"
+      },
+      "identity_resolution": {
+        "status": "source_linked_public_name",
+        "public_name": "Morgan Rogers",
+        "observed_on": "2026-10-17",
+        "scope": "public football name, not asserted full legal name or affiliation interval",
+        "evidence": {
+          "source": "chelsea-season-names",
+          "locator": "2026/27 squad numbers in full; unique entry Morgan Rogers"
+        },
+        "match_participation_evidence": {
+          "source": "chelsea-report",
+          "locator": "lines 49–50; team list"
+        }
+      }
+    },
+    {
+      "id": "chelsea:welbeck",
+      "source_printed_name": "Welbeck",
+      "club_id": "chelsea",
+      "global_identity_resolved": false,
+      "evidence": {
+        "source": "chelsea-report",
+        "locator": "lines 49–50; team list"
+      },
+      "identity_resolution": {
+        "status": "source_linked_public_name",
+        "public_name": "Danny Welbeck",
+        "observed_on": "2026-10-17",
+        "scope": "public football name, not asserted full legal name or affiliation interval",
+        "evidence": {
+          "source": "chelsea-season-names",
+          "locator": "2026/27 squad numbers in full; unique entry Danny Welbeck"
+        },
+        "match_participation_evidence": {
+          "source": "chelsea-report",
+          "locator": "lines 49–50; team list"
+        }
+      }
+    },
+    {
+      "id": "chelsea:acheampong",
+      "source_printed_name": "Acheampong",
+      "club_id": "chelsea",
+      "global_identity_resolved": false,
+      "evidence": {
+        "source": "chelsea-report",
+        "locator": "lines 49–50; team list"
+      },
+      "identity_resolution": {
+        "status": "source_linked_public_name",
+        "public_name": "Josh Acheampong",
+        "observed_on": "2026-10-17",
+        "scope": "public football name, not asserted full legal name or affiliation interval",
+        "evidence": {
+          "source": "chelsea-season-names",
+          "locator": "2026/27 squad numbers in full; unique entry Josh Acheampong"
+        },
+        "match_participation_evidence": {
+          "source": "chelsea-report",
+          "locator": "lines 49–50; team list"
+        }
+      }
+    },
+    {
+      "id": "chelsea:nicoll-jazuli",
+      "source_printed_name": "Nicoll-Jazuli",
+      "club_id": "chelsea",
+      "global_identity_resolved": false,
+      "evidence": {
+        "source": "chelsea-report",
+        "locator": "lines 49–50; team list"
+      },
+      "identity_resolution": {
+        "status": "source_linked_public_name",
+        "public_name": "Mahdi Nicoll-Jazuli",
+        "observed_on": "2026-10-17",
+        "scope": "public football name, not asserted full legal name or affiliation interval",
+        "evidence": {
+          "source": "chelsea-season-names",
+          "locator": "2026/27 squad numbers in full; unique entry Mahdi Nicoll-Jazuli"
+        },
+        "match_participation_evidence": {
+          "source": "chelsea-report",
+          "locator": "lines 49–50; team list"
+        }
+      }
+    },
+    {
+      "id": "chelsea:estevao",
+      "source_printed_name": "Estevao",
+      "club_id": "chelsea",
+      "global_identity_resolved": false,
+      "evidence": {
+        "source": "chelsea-report",
+        "locator": "lines 49–50; team list"
+      },
+      "identity_resolution": {
+        "status": "source_linked_public_name",
+        "public_name": "Estevao Willian",
+        "observed_on": "2026-10-17",
+        "scope": "public football name, not asserted full legal name or affiliation interval",
+        "evidence": {
+          "source": "chelsea-season-names",
+          "locator": "2026/27 squad numbers in full; unique entry Estevao Willian"
+        },
+        "match_participation_evidence": {
+          "source": "chelsea-report",
+          "locator": "lines 49–50; team list"
+        }
+      }
+    },
+    {
+      "id": "chelsea:quenda",
+      "source_printed_name": "Quenda",
+      "club_id": "chelsea",
+      "global_identity_resolved": false,
+      "evidence": {
+        "source": "chelsea-report",
+        "locator": "lines 49–50; team list"
+      },
+      "identity_resolution": {
+        "status": "source_linked_public_name",
+        "public_name": "Geovany Quenda",
+        "observed_on": "2026-10-17",
+        "scope": "public football name, not asserted full legal name or affiliation interval",
+        "evidence": {
+          "source": "chelsea-season-names",
+          "locator": "2026/27 squad numbers in full; unique entry Geovany Quenda"
+        },
+        "match_participation_evidence": {
+          "source": "chelsea-report",
+          "locator": "lines 49–50; team list"
+        }
+      }
+    },
+    {
+      "id": "chelsea:penders",
+      "source_printed_name": "Penders",
+      "club_id": "chelsea",
+      "global_identity_resolved": false,
+      "evidence": {
+        "source": "chelsea-report",
+        "locator": "lines 49–50; team list"
+      },
+      "identity_resolution": {
+        "status": "source_linked_public_name",
+        "public_name": "Mike Penders",
+        "observed_on": "2026-10-17",
+        "scope": "public football name, not asserted full legal name or affiliation interval",
+        "evidence": {
+          "source": "chelsea-season-names",
+          "locator": "2026/27 squad numbers in full; unique entry Mike Penders"
+        },
+        "match_participation_evidence": {
+          "source": "chelsea-report",
+          "locator": "lines 49–50; team list"
+        }
+      }
+    },
+    {
+      "id": "chelsea:gusto",
+      "source_printed_name": "Gusto",
+      "club_id": "chelsea",
+      "global_identity_resolved": false,
+      "evidence": {
+        "source": "chelsea-report",
+        "locator": "lines 49–50; team list"
+      },
+      "identity_resolution": {
+        "status": "source_linked_public_name",
+        "public_name": "Malo Gusto",
+        "observed_on": "2026-10-17",
+        "scope": "public football name, not asserted full legal name or affiliation interval",
+        "evidence": {
+          "source": "chelsea-season-names",
+          "locator": "2026/27 squad numbers in full; unique entry Malo Gusto"
+        },
+        "match_participation_evidence": {
+          "source": "chelsea-report",
+          "locator": "lines 49–50; team list"
+        }
+      }
+    },
+    {
+      "id": "chelsea:hato",
+      "source_printed_name": "Hato",
+      "club_id": "chelsea",
+      "global_identity_resolved": false,
+      "evidence": {
+        "source": "chelsea-report",
+        "locator": "lines 49–50; team list"
+      },
+      "identity_resolution": {
+        "status": "source_linked_public_name",
+        "public_name": "Jorrel Hato",
+        "observed_on": "2026-10-17",
+        "scope": "public football name, not asserted full legal name or affiliation interval",
+        "evidence": {
+          "source": "chelsea-season-names",
+          "locator": "2026/27 squad numbers in full; unique entry Jorrel Hato"
+        },
+        "match_participation_evidence": {
+          "source": "chelsea-report",
+          "locator": "lines 49–50; team list"
+        }
+      }
+    },
+    {
+      "id": "chelsea:lavia",
+      "source_printed_name": "Lavia",
+      "club_id": "chelsea",
+      "global_identity_resolved": false,
+      "evidence": {
+        "source": "chelsea-report",
+        "locator": "lines 49–50; team list"
+      },
+      "identity_resolution": {
+        "status": "source_linked_public_name",
+        "public_name": "Romeo Lavia",
+        "observed_on": "2026-10-17",
+        "scope": "public football name, not asserted full legal name or affiliation interval",
+        "evidence": {
+          "source": "chelsea-season-names",
+          "locator": "2026/27 squad numbers in full; unique entry Romeo Lavia"
+        },
+        "match_participation_evidence": {
+          "source": "chelsea-report",
+          "locator": "lines 49–50; team list"
+        }
+      }
+    },
+    {
+      "id": "chelsea:gittens",
+      "source_printed_name": "Gittens",
+      "club_id": "chelsea",
+      "global_identity_resolved": false,
+      "evidence": {
+        "source": "chelsea-report",
+        "locator": "lines 49–50; team list"
+      },
+      "identity_resolution": {
+        "status": "source_linked_public_name",
+        "public_name": "Jamie Gittens",
+        "observed_on": "2026-10-17",
+        "scope": "public football name, not asserted full legal name or affiliation interval",
+        "evidence": {
+          "source": "chelsea-season-names",
+          "locator": "2026/27 squad numbers in full; unique entry Jamie Gittens"
+        },
+        "match_participation_evidence": {
+          "source": "chelsea-report",
+          "locator": "lines 49–50; team list"
+        }
+      }
+    },
+    {
+      "id": "brentford:kelleher",
+      "source_printed_name": "Kelleher",
+      "club_id": "brentford",
+      "global_identity_resolved": false,
+      "evidence": {
+        "source": "chelsea-report",
+        "locator": "lines 51–52; team list"
+      },
+      "identity_resolution": {
+        "status": "source_linked_public_name",
+        "public_name": "Caoimhín Kelleher",
+        "observed_on": "2026-10-17",
+        "scope": "public football name, not asserted full legal name or affiliation interval",
+        "evidence": {
+          "source": "brentford-public-names",
+          "locator": "lines 57–118; unique player link/name Caoimhín Kelleher"
+        },
+        "match_participation_evidence": {
+          "source": "chelsea-report",
+          "locator": "lines 51–52; team list"
+        }
+      }
+    },
+    {
+      "id": "brentford:kayode",
+      "source_printed_name": "Kayode",
+      "club_id": "brentford",
+      "global_identity_resolved": false,
+      "evidence": {
+        "source": "chelsea-report",
+        "locator": "lines 51–52; team list"
+      },
+      "identity_resolution": {
+        "status": "source_linked_public_name",
+        "public_name": "Michael Kayode",
+        "observed_on": "2026-10-17",
+        "scope": "public football name, not asserted full legal name or affiliation interval",
+        "evidence": {
+          "source": "brentford-public-names",
+          "locator": "lines 57–118; unique player link/name Michael Kayode"
+        },
+        "match_participation_evidence": {
+          "source": "chelsea-report",
+          "locator": "lines 51–52; team list"
+        }
+      }
+    },
+    {
+      "id": "brentford:ajer",
+      "source_printed_name": "Ajer",
+      "club_id": "brentford",
+      "global_identity_resolved": false,
+      "evidence": {
+        "source": "chelsea-report",
+        "locator": "lines 51–52; team list"
+      },
+      "identity_resolution": {
+        "status": "source_linked_public_name",
+        "public_name": "Kristoffer Ajer",
+        "observed_on": "2026-10-17",
+        "scope": "public football name, not asserted full legal name or affiliation interval",
+        "evidence": {
+          "source": "brentford-public-names",
+          "locator": "lines 57–118; unique player link/name Kristoffer Ajer"
+        },
+        "match_participation_evidence": {
+          "source": "chelsea-report",
+          "locator": "lines 51–52; team list"
+        }
+      }
+    },
+    {
+      "id": "brentford:schuster",
+      "source_printed_name": "Schuster",
+      "club_id": "brentford",
+      "global_identity_resolved": false,
+      "evidence": {
+        "source": "chelsea-report",
+        "locator": "lines 51–52; team list"
+      },
+      "identity_resolution": {
+        "status": "source_linked_public_name",
+        "public_name": "Jannik Schuster",
+        "observed_on": "2026-10-17",
+        "scope": "public football name, not asserted full legal name or affiliation interval",
+        "evidence": {
+          "source": "brentford-public-names",
+          "locator": "lines 57–118; unique player link/name Jannik Schuster"
+        },
+        "match_participation_evidence": {
+          "source": "chelsea-report",
+          "locator": "lines 51–52; team list"
+        }
+      }
+    },
+    {
+      "id": "brentford:lewis-potter",
+      "source_printed_name": "Lewis-Potter",
+      "club_id": "brentford",
+      "global_identity_resolved": false,
+      "evidence": {
+        "source": "chelsea-report",
+        "locator": "lines 51–52; team list"
+      },
+      "identity_resolution": {
+        "status": "source_linked_public_name",
+        "public_name": "Keane Lewis-Potter",
+        "observed_on": "2026-10-17",
+        "scope": "public football name, not asserted full legal name or affiliation interval",
+        "evidence": {
+          "source": "brentford-public-names",
+          "locator": "lines 57–118; unique player link/name Keane Lewis-Potter"
+        },
+        "match_participation_evidence": {
+          "source": "chelsea-report",
+          "locator": "lines 51–52; team list"
+        }
+      }
+    },
+    {
+      "id": "brentford:yarmoliuk",
+      "source_printed_name": "Yarmoliuk",
+      "club_id": "brentford",
+      "global_identity_resolved": false,
+      "evidence": {
+        "source": "chelsea-report",
+        "locator": "lines 51–52; team list"
+      },
+      "identity_resolution": {
+        "status": "source_linked_public_name",
+        "public_name": "Yehor Yarmoliuk",
+        "observed_on": "2026-10-17",
+        "scope": "public football name, not asserted full legal name or affiliation interval",
+        "evidence": {
+          "source": "brentford-public-names",
+          "locator": "lines 57–118; unique player link/name Yehor Yarmoliuk"
+        },
+        "match_participation_evidence": {
+          "source": "chelsea-report",
+          "locator": "lines 51–52; team list"
+        }
+      }
+    },
+    {
+      "id": "brentford:janelt",
+      "source_printed_name": "Janelt",
+      "club_id": "brentford",
+      "global_identity_resolved": false,
+      "evidence": {
+        "source": "chelsea-report",
+        "locator": "lines 51–52; team list"
+      },
+      "identity_resolution": {
+        "status": "source_linked_public_name",
+        "public_name": "Vitaly Janelt",
+        "observed_on": "2026-10-17",
+        "scope": "public football name, not asserted full legal name or affiliation interval",
+        "evidence": {
+          "source": "brentford-public-names",
+          "locator": "lines 57–118; unique player link/name Vitaly Janelt"
+        },
+        "match_participation_evidence": {
+          "source": "chelsea-report",
+          "locator": "lines 51–52; team list"
+        }
+      }
+    },
+    {
+      "id": "brentford:damsgaard",
+      "source_printed_name": "Damsgaard",
+      "club_id": "brentford",
+      "global_identity_resolved": false,
+      "evidence": {
+        "source": "chelsea-report",
+        "locator": "lines 51–52; team list"
+      },
+      "identity_resolution": {
+        "status": "source_linked_public_name",
+        "public_name": "Mikkel Damsgaard",
+        "observed_on": "2026-10-17",
+        "scope": "public football name, not asserted full legal name or affiliation interval",
+        "evidence": {
+          "source": "brentford-public-names",
+          "locator": "lines 57–118; unique player link/name Mikkel Damsgaard"
+        },
+        "match_participation_evidence": {
+          "source": "chelsea-report",
+          "locator": "lines 51–52; team list"
+        }
+      }
+    },
+    {
+      "id": "brentford:anthony",
+      "source_printed_name": "Anthony",
+      "club_id": "brentford",
+      "global_identity_resolved": false,
+      "evidence": {
+        "source": "chelsea-report",
+        "locator": "lines 51–52; team list"
+      },
+      "identity_resolution": {
+        "status": "source_linked_public_name",
+        "public_name": "Jaidon Anthony",
+        "observed_on": "2026-10-17",
+        "scope": "public football name, not asserted full legal name or affiliation interval",
+        "evidence": {
+          "source": "brentford-public-names",
+          "locator": "lines 57–118; unique player link/name Jaidon Anthony"
+        },
+        "match_participation_evidence": {
+          "source": "chelsea-report",
+          "locator": "lines 51–52; team list"
+        }
+      }
+    },
+    {
+      "id": "brentford:thiago",
+      "source_printed_name": "Thiago",
+      "club_id": "brentford",
+      "global_identity_resolved": false,
+      "evidence": {
+        "source": "chelsea-report",
+        "locator": "lines 51–52; team list"
+      },
+      "identity_resolution": {
+        "status": "source_linked_public_name",
+        "public_name": "Igor Thiago",
+        "observed_on": "2026-10-17",
+        "scope": "public football name, not asserted full legal name or affiliation interval",
+        "evidence": {
+          "source": "brentford-public-names",
+          "locator": "lines 57–118; unique player link/name Igor Thiago"
+        },
+        "match_participation_evidence": {
+          "source": "chelsea-report",
+          "locator": "lines 51–52; team list"
+        }
+      }
+    },
+    {
+      "id": "brentford:schade",
+      "source_printed_name": "Schade",
+      "club_id": "brentford",
+      "global_identity_resolved": false,
+      "evidence": {
+        "source": "chelsea-report",
+        "locator": "lines 51–52; team list"
+      },
+      "identity_resolution": {
+        "status": "source_linked_public_name",
+        "public_name": "Kevin Schade",
+        "observed_on": "2026-10-17",
+        "scope": "public football name, not asserted full legal name or affiliation interval",
+        "evidence": {
+          "source": "brentford-public-names",
+          "locator": "lines 57–118; unique player link/name Kevin Schade"
+        },
+        "match_participation_evidence": {
+          "source": "chelsea-report",
+          "locator": "lines 51–52; team list"
+        }
+      }
+    },
+    {
+      "id": "brentford:hickey",
+      "source_printed_name": "Hickey",
+      "club_id": "brentford",
+      "global_identity_resolved": false,
+      "evidence": {
+        "source": "chelsea-report",
+        "locator": "lines 51–52; team list"
+      },
+      "identity_resolution": {
+        "status": "source_linked_public_name",
+        "public_name": "Aaron Hickey",
+        "observed_on": "2026-10-17",
+        "scope": "public football name, not asserted full legal name or affiliation interval",
+        "evidence": {
+          "source": "brentford-public-names",
+          "locator": "lines 57–118; unique player link/name Aaron Hickey"
+        },
+        "match_participation_evidence": {
+          "source": "chelsea-report",
+          "locator": "lines 51–52; team list"
+        }
+      }
+    },
+    {
+      "id": "brentford:diouf",
+      "source_printed_name": "Diouf",
+      "club_id": "brentford",
+      "global_identity_resolved": false,
+      "evidence": {
+        "source": "chelsea-report",
+        "locator": "lines 51–52; team list"
+      },
+      "identity_resolution": {
+        "status": "source_linked_public_name",
+        "public_name": "El Hadji Malick Diouf",
+        "observed_on": "2026-10-17",
+        "scope": "public football name, not asserted full legal name or affiliation interval",
+        "evidence": {
+          "source": "brentford-public-names",
+          "locator": "lines 57–118; unique player link/name El Hadji Malick Diouf"
+        },
+        "match_participation_evidence": {
+          "source": "chelsea-report",
+          "locator": "lines 51–52; team list"
+        }
+      }
+    },
+    {
+      "id": "brentford:sangare",
+      "source_printed_name": "Sangare",
+      "club_id": "brentford",
+      "global_identity_resolved": false,
+      "evidence": {
+        "source": "chelsea-report",
+        "locator": "lines 51–52; team list"
+      },
+      "identity_resolution": {
+        "status": "source_linked_public_name",
+        "public_name": "Mamadou Sangaré",
+        "observed_on": "2026-10-17",
+        "scope": "public football name, not asserted full legal name or affiliation interval",
+        "evidence": {
+          "source": "brentford-public-names",
+          "locator": "lines 57–118; unique player link/name Mamadou Sangaré"
+        },
+        "match_participation_evidence": {
+          "source": "chelsea-report",
+          "locator": "lines 51–52; team list"
+        }
+      }
+    },
+    {
+      "id": "brentford:carvalho",
+      "source_printed_name": "Carvalho",
+      "club_id": "brentford",
+      "global_identity_resolved": false,
+      "evidence": {
+        "source": "chelsea-report",
+        "locator": "lines 51–52; team list"
+      },
+      "identity_resolution": {
+        "status": "source_linked_public_name",
+        "public_name": "Fábio Carvalho",
+        "observed_on": "2026-10-17",
+        "scope": "public football name, not asserted full legal name or affiliation interval",
+        "evidence": {
+          "source": "brentford-public-names",
+          "locator": "lines 57–118; unique player link/name Fábio Carvalho"
+        },
+        "match_participation_evidence": {
+          "source": "chelsea-report",
+          "locator": "lines 51–52; team list"
+        }
+      }
+    },
+    {
+      "id": "brentford:ouattara",
+      "source_printed_name": "Ouattara",
+      "club_id": "brentford",
+      "global_identity_resolved": false,
+      "evidence": {
+        "source": "chelsea-report",
+        "locator": "lines 51–52; team list"
+      },
+      "identity_resolution": {
+        "status": "source_linked_public_name",
+        "public_name": "Dango Ouattara",
+        "observed_on": "2026-10-17",
+        "scope": "public football name, not asserted full legal name or affiliation interval",
+        "evidence": {
+          "source": "brentford-public-names",
+          "locator": "lines 57–118; unique player link/name Dango Ouattara"
+        },
+        "match_participation_evidence": {
+          "source": "chelsea-report",
+          "locator": "lines 51–52; team list"
+        }
+      }
+    },
+    {
+      "id": "brentford:balcombe",
+      "source_printed_name": "Balcombe",
+      "club_id": "brentford",
+      "global_identity_resolved": false,
+      "evidence": {
+        "source": "chelsea-report",
+        "locator": "lines 51–52; team list"
+      },
+      "identity_resolution": {
+        "status": "source_linked_public_name",
+        "public_name": "Ellery Balcombe",
+        "observed_on": "2026-10-17",
+        "scope": "public football name, not asserted full legal name or affiliation interval",
+        "evidence": {
+          "source": "brentford-public-names",
+          "locator": "lines 57–118; unique player link/name Ellery Balcombe"
+        },
+        "match_participation_evidence": {
+          "source": "chelsea-report",
+          "locator": "lines 51–52; team list"
+        }
+      }
+    },
+    {
+      "id": "brentford:henry",
+      "source_printed_name": "Henry",
+      "club_id": "brentford",
+      "global_identity_resolved": false,
+      "evidence": {
+        "source": "chelsea-report",
+        "locator": "lines 51–52; team list"
+      },
+      "identity_resolution": {
+        "status": "source_linked_public_name",
+        "public_name": "Rico Henry",
+        "observed_on": "2026-10-17",
+        "scope": "public football name, not asserted full legal name or affiliation interval",
+        "evidence": {
+          "source": "brentford-public-names",
+          "locator": "lines 57–118; unique player link/name Rico Henry"
+        },
+        "match_participation_evidence": {
+          "source": "chelsea-report",
+          "locator": "lines 51–52; team list"
+        }
+      }
+    },
+    {
+      "id": "brentford:wilson",
+      "source_printed_name": "Wilson",
+      "club_id": "brentford",
+      "global_identity_resolved": false,
+      "evidence": {
+        "source": "chelsea-report",
+        "locator": "lines 51–52; team list"
+      },
+      "identity_resolution": {
+        "status": "source_linked_public_name",
+        "public_name": "Callum Wilson",
+        "observed_on": "2026-10-17",
+        "scope": "public football name, not asserted full legal name or affiliation interval",
+        "evidence": {
+          "source": "brentford-public-names",
+          "locator": "lines 57–118; unique player link/name Callum Wilson"
+        },
+        "match_participation_evidence": {
+          "source": "chelsea-report",
+          "locator": "lines 51–52; team list"
+        }
+      }
+    },
+    {
+      "id": "brentford:fredrick",
+      "source_printed_name": "Fredrick",
+      "club_id": "brentford",
+      "global_identity_resolved": false,
+      "evidence": {
+        "source": "chelsea-report",
+        "locator": "lines 51–52; team list"
+      },
+      "identity_resolution": {
+        "status": "source_linked_public_name",
+        "public_name": "Benjamin Fredrick",
+        "observed_on": "2026-10-17",
+        "scope": "public football name, not asserted full legal name or affiliation interval",
+        "evidence": {
+          "source": "brentford-public-names",
+          "locator": "lines 57–118; unique player link/name Benjamin Fredrick"
+        },
+        "match_participation_evidence": {
+          "source": "chelsea-report",
+          "locator": "lines 51–52; team list"
+        }
+      }
+    }
+  ],
+  "teams": {
+    "chelsea": {
+      "formation": "4-2-3-1",
+      "starters": [
+        "chelsea:martinez",
+        "chelsea:fofana",
+        "chelsea:lacroix",
+        "chelsea:colwill",
+        "chelsea:chavarria",
+        "chelsea:henderson",
+        "chelsea:barco",
+        "chelsea:neto",
+        "chelsea:palmer",
+        "chelsea:rogers",
+        "chelsea:welbeck"
+      ],
+      "bench": [
+        "chelsea:acheampong",
+        "chelsea:nicoll-jazuli",
+        "chelsea:estevao",
+        "chelsea:quenda",
+        "chelsea:penders",
+        "chelsea:gusto",
+        "chelsea:hato",
+        "chelsea:lavia",
+        "chelsea:gittens"
+      ],
+      "evidence": {
+        "source": "chelsea-report",
+        "locator": "lines 49–50; team list"
+      }
+    },
+    "brentford": {
+      "formation": "4-3-3",
+      "starters": [
+        "brentford:kelleher",
+        "brentford:kayode",
+        "brentford:ajer",
+        "brentford:schuster",
+        "brentford:lewis-potter",
+        "brentford:yarmoliuk",
+        "brentford:janelt",
+        "brentford:damsgaard",
+        "brentford:anthony",
+        "brentford:thiago",
+        "brentford:schade"
+      ],
+      "bench": [
+        "brentford:hickey",
+        "brentford:diouf",
+        "brentford:sangare",
+        "brentford:carvalho",
+        "brentford:ouattara",
+        "brentford:balcombe",
+        "brentford:henry",
+        "brentford:wilson",
+        "brentford:fredrick"
+      ],
+      "evidence": {
+        "source": "chelsea-report",
+        "locator": "lines 51–52; team list"
+      }
+    }
+  },
+  "substitutions": [
+    {
+      "club_id": "chelsea",
+      "off": "chelsea:fofana",
+      "on": "chelsea:acheampong",
+      "time": {
+        "printed": "71",
+        "minute": 71,
+        "added_minute": null,
+        "seconds": null,
+        "precision": "reported_minute"
+      },
+      "evidence": {
+        "source": "chelsea-report",
+        "locator": "lines 49–50; team list"
+      }
+    },
+    {
+      "club_id": "chelsea",
+      "off": "chelsea:welbeck",
+      "on": "chelsea:quenda",
+      "time": {
+        "printed": "71",
+        "minute": 71,
+        "added_minute": null,
+        "seconds": null,
+        "precision": "reported_minute"
+      },
+      "evidence": {
+        "source": "chelsea-report",
+        "locator": "lines 49–50; team list"
+      }
+    },
+    {
+      "club_id": "chelsea",
+      "off": "chelsea:barco",
+      "on": "chelsea:nicoll-jazuli",
+      "time": {
+        "printed": "87",
+        "minute": 87,
+        "added_minute": null,
+        "seconds": null,
+        "precision": "reported_minute"
+      },
+      "evidence": {
+        "source": "chelsea-report",
+        "locator": "lines 49–50; team list"
+      }
+    },
+    {
+      "club_id": "chelsea",
+      "off": "chelsea:neto",
+      "on": "chelsea:estevao",
+      "time": {
+        "printed": "87",
+        "minute": 87,
+        "added_minute": null,
+        "seconds": null,
+        "precision": "reported_minute"
+      },
+      "evidence": {
+        "source": "chelsea-report",
+        "locator": "lines 49–50; team list"
+      }
+    },
+    {
+      "club_id": "brentford",
+      "off": "brentford:kayode",
+      "on": "brentford:hickey",
+      "time": {
+        "printed": "69",
+        "minute": 69,
+        "added_minute": null,
+        "seconds": null,
+        "precision": "reported_minute"
+      },
+      "evidence": {
+        "source": "chelsea-report",
+        "locator": "lines 51–52; team list"
+      }
+    },
+    {
+      "club_id": "brentford",
+      "off": "brentford:yarmoliuk",
+      "on": "brentford:sangare",
+      "time": {
+        "printed": "69",
+        "minute": 69,
+        "added_minute": null,
+        "seconds": null,
+        "precision": "reported_minute"
+      },
+      "evidence": {
+        "source": "chelsea-report",
+        "locator": "lines 51–52; team list"
+      }
+    },
+    {
+      "club_id": "brentford",
+      "off": "brentford:lewis-potter",
+      "on": "brentford:diouf",
+      "time": {
+        "printed": "81",
+        "minute": 81,
+        "added_minute": null,
+        "seconds": null,
+        "precision": "reported_minute"
+      },
+      "evidence": {
+        "source": "chelsea-report",
+        "locator": "lines 51–52; team list"
+      }
+    },
+    {
+      "club_id": "brentford",
+      "off": "brentford:anthony",
+      "on": "brentford:ouattara",
+      "time": {
+        "printed": "81",
+        "minute": 81,
+        "added_minute": null,
+        "seconds": null,
+        "precision": "reported_minute"
+      },
+      "evidence": {
+        "source": "chelsea-report",
+        "locator": "lines 51–52; team list"
+      }
+    },
+    {
+      "club_id": "brentford",
+      "off": "brentford:damsgaard",
+      "on": "brentford:carvalho",
+      "time": {
+        "printed": "87",
+        "minute": 87,
+        "added_minute": null,
+        "seconds": null,
+        "precision": "reported_minute"
+      },
+      "evidence": {
+        "source": "chelsea-report",
+        "locator": "lines 51–52; team list"
+      }
+    }
+  ],
+  "goals": [
+    {
+      "club_id": "brentford",
+      "player": "brentford:anthony",
+      "time": {
+        "printed": "61",
+        "minute": 61,
+        "added_minute": null,
+        "seconds": null,
+        "precision": "reported_minute"
+      },
+      "evidence": {
+        "source": "chelsea-report",
+        "locator": "line 53; scorers"
+      }
+    },
+    {
+      "club_id": "brentford",
+      "player": "brentford:thiago",
+      "time": {
+        "printed": "83",
+        "minute": 83,
+        "added_minute": null,
+        "seconds": null,
+        "precision": "reported_minute"
+      },
+      "evidence": {
+        "source": "chelsea-report",
+        "locator": "line 53; scorers"
+      }
+    },
+    {
+      "club_id": "brentford",
+      "player": "brentford:carvalho",
+      "time": {
+        "printed": "90+4",
+        "minute": 90,
+        "added_minute": 4,
+        "seconds": null,
+        "precision": "reported_minute"
+      },
+      "evidence": {
+        "source": "chelsea-report",
+        "locator": "line 53; scorers"
+      }
+    }
+  ],
+  "reported_bookings": [
+    {
+      "player": "brentford:thiago",
+      "classification": "booking_as_reported",
+      "time": {
+        "printed": "84",
+        "minute": 84,
+        "added_minute": null,
+        "seconds": null,
+        "precision": "reported_minute"
+      },
+      "evidence": {
+        "source": "chelsea-report",
+        "locator": "line 54; booked"
+      }
+    },
+    {
+      "player": "brentford:sangare",
+      "classification": "booking_as_reported",
+      "time": {
+        "printed": "85",
+        "minute": 85,
+        "added_minute": null,
+        "seconds": null,
+        "precision": "reported_minute"
+      },
+      "evidence": {
+        "source": "chelsea-report",
+        "locator": "line 54; booked"
+      }
+    }
+  ],
+  "coach_contexts": [
+    {
+      "club_id": "brentford",
+      "printed_name": "Keith Andrews",
+      "role": "head coach",
+      "role_evidence": {
+        "source": "brentford-role",
+        "locator": "lines 65 and 124; explicit head coach"
+      },
+      "match_context_evidence": {
+        "source": "brentford-hub",
+        "locator": "lines 44–54; post-match reaction title"
+      },
+      "matchday_physical_presence_verified": false
+    },
+    {
+      "club_id": "chelsea",
+      "printed_name": "Xabi Alonso",
+      "role": "manager",
+      "role_evidence": {
+        "source": "brentford-preview",
+        "locator": "line 101; appointed manager"
+      },
+      "match_context_evidence": {
+        "source": "chelsea-report",
+        "locator": "line 10; selected starting team"
+      },
+      "matchday_physical_presence_verified": false
+    }
+  ],
+  "coverage": {
+    "starters": "reported_22",
+    "bench": "reported_18",
+    "formations": "reported_not_tracking",
+    "substitutions": "reported_9",
+    "goals": "reported_reconcile_final_score",
+    "bookings": "two_reported_not_complete_card_feed",
+    "event_stream_complete": false,
+    "penalties_awarded": null,
+    "penalties_taken": null,
+    "penalties_scored": null,
+    "red_cards": null,
+    "assists": null,
+    "event_seconds": null,
+    "player_positions_or_tracking": null,
+    "other_actual_officials": null,
+    "attendance_definition": null
+  },
+  "coverage_evidence": {
+    "source": "chelsea-report",
+    "locator": "lines 35 and 49–57; penalty appeal rejected, lists and summary; absence is not zero"
+  },
+  "rights": {
+    "local_research_notes_only": true,
+    "product_display_or_replay_cleared": false,
+    "external_ai_reuse_cleared": false,
+    "evidence": {
+      "source": "brentford-terms",
+      "locator": "sections 8.1–8.2 and 8.6; not a legal determination"
+    }
+  },
+  "second_report_crosscheck": {
+    "scope": "Second official actual report; absence from report is not factual absence. Original Chelsea claims remain attributed and unchanged.",
+    "categories": [
+      {
+        "category": "completed_result_date_venue",
+        "status": "agreement",
+        "evidence": {
+          "source": "brentford-actual-report",
+          "locator": "lines 45–54; dated final result and venue"
+        }
+      },
+      {
+        "category": "starters_bench",
+        "status": "agreement",
+        "evidence": {
+          "source": "brentford-actual-report",
+          "locator": "lines 105–110; team and unused substitute lists"
+        }
+      },
+      {
+        "category": "nine_substitutions",
+        "status": "agreement",
+        "evidence": {
+          "source": "brentford-actual-report",
+          "locator": "lines 105 and 108; all nine on/off/minute pairs"
+        }
+      },
+      {
+        "category": "three_scorer_identities",
+        "status": "agreement",
+        "evidence": {
+          "source": "brentford-actual-report",
+          "locator": "lines 48 and 53; three named scorers"
+        }
+      },
+      {
+        "category": "anthony_goal_minute",
+        "status": "agreement",
+        "evidence": {
+          "source": "brentford-actual-report",
+          "locator": "line 94; 61 minutes"
+        }
+      },
+      {
+        "category": "thiago_goal_minute",
+        "status": "conflict",
+        "conflict_id": "thiago-minute",
+        "evidence": {
+          "source": "brentford-actual-report",
+          "locator": "lines 54 and 99; 80 minutes"
+        }
+      },
+      {
+        "category": "carvalho_goal_minute",
+        "status": "not_covered",
+        "evidence": {
+          "source": "brentford-actual-report",
+          "locator": "line 102; final seconds, no numeric minute"
+        }
+      },
+      {
+        "category": "chelsea_formation",
+        "status": "conflict",
+        "conflict_id": "chelsea-formation",
+        "evidence": {
+          "source": "brentford-actual-report",
+          "locator": "line 108; 3-4-2-1"
+        }
+      },
+      {
+        "category": "brentford_formation",
+        "status": "agreement",
+        "evidence": {
+          "source": "brentford-actual-report",
+          "locator": "line 105; 4-3-3"
+        }
+      },
+      {
+        "category": "attendance",
+        "status": "agreement",
+        "evidence": {
+          "source": "brentford-actual-report",
+          "locator": "line 112; 17,193"
+        }
+      },
+      {
+        "category": "referee",
+        "status": "not_covered",
+        "evidence": {
+          "source": "brentford-actual-report",
+          "locator": "complete report inspected; no actual referee field"
+        }
+      },
+      {
+        "category": "reported_bookings",
+        "status": "not_covered",
+        "evidence": {
+          "source": "brentford-actual-report",
+          "locator": "complete report inspected; no two-booking summary or numeric card times"
+        }
+      },
+      {
+        "category": "penalty_and_red_card_totals",
+        "status": "not_covered",
+        "evidence": {
+          "source": "brentford-actual-report",
+          "locator": "complete report inspected; no explicit complete totals"
+        }
+      },
+      {
+        "category": "brentford_head_coach",
+        "status": "agreement",
+        "evidence": {
+          "source": "brentford-actual-report",
+          "locator": "lines 48 and 118; explicit head coach Keith Andrews"
+        }
+      }
+    ],
+    "conflicts": [
+      {
+        "id": "thiago-minute",
+        "category": "thiago_goal_minute",
+        "status": "unresolved",
+        "canonical": null,
+        "claims": [
+          {
+            "value": "83",
+            "evidence": {
+              "source": "chelsea-report",
+              "locator": "line 53; Thiago 83"
+            }
+          },
+          {
+            "value": "80",
+            "evidence": {
+              "source": "brentford-actual-report",
+              "locator": "lines 54 and 99; 80 minutes"
+            }
+          }
+        ]
+      },
+      {
+        "id": "chelsea-formation",
+        "category": "chelsea_formation",
+        "status": "unresolved",
+        "canonical": null,
+        "claims": [
+          {
+            "value": "4-2-3-1",
+            "evidence": {
+              "source": "chelsea-report",
+              "locator": "line 49; Chelsea formation"
+            }
+          },
+          {
+            "value": "3-4-2-1",
+            "evidence": {
+              "source": "brentford-actual-report",
+              "locator": "line 108; Chelsea formation"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "league_record_assessment": {
+    "observed_on": "2026-10-17",
+    "fixture_id": "premier-league:2026-27:2026-09-18:brentford:chelsea",
+    "policy": "Select the competition organizer record for practical goal-minute use; formation is the league source classification, not measured movement. Retain all source disagreements, not majority voting. Prior crosscheck remains a dated checkpoint.",
+    "goal_minute": {
+      "player": "brentford:thiago",
+      "selected": "83",
+      "status": "selected_league_record",
+      "rationale": "Explicit PL scoreboard, report and commentary agree on 83; competition record takes precedence for practical use, without deleting Brentford report 80.",
+      "retained_disagreement": {
+        "value": "80",
+        "evidence": {
+          "source": "brentford-actual-report",
+          "locator": "lines 54 and 99; 80 minutes"
+        }
+      },
+      "evidence": [
+        {
+          "source": "pl-overview",
+          "locator": "Scoreboard Events Thiago 83; Match Report opening summary 83rd minute"
+        },
+        {
+          "source": "pl-commentary",
+          "locator": "83 minute Goal group: Igor Thiago; Brentford 2–0 Chelsea"
+        }
+      ]
+    },
+    "formation_classifications": [
+      {
+        "club_id": "chelsea",
+        "selected": "3-4-2-1",
+        "status": "selected_league_classification_source_disagreement_unresolved",
+        "measured_tactical_truth": false,
+        "evidence": {
+          "source": "pl-lineups",
+          "locator": "Chelsea Formation label 3-4-2-1"
+        },
+        "retained_disagreements": [
+          {
+            "value": "4-2-3-1",
+            "evidence": {
+              "source": "chelsea-report",
+              "locator": "line 49; formation"
+            }
+          }
+        ],
+        "supporting_claims": [
+          {
+            "value": "3-4-2-1",
+            "evidence": {
+              "source": "brentford-actual-report",
+              "locator": "line 108; Chelsea formation"
+            }
+          }
+        ]
+      },
+      {
+        "club_id": "brentford",
+        "selected": "4-2-3-1",
+        "status": "selected_league_classification_source_disagreement_unresolved",
+        "measured_tactical_truth": false,
+        "evidence": {
+          "source": "pl-lineups",
+          "locator": "Brentford Formation label 4-2-3-1"
+        },
+        "retained_disagreements": [
+          {
+            "value": "4-3-3",
+            "evidence": {
+              "source": "chelsea-report",
+              "locator": "line 51; Brentford formation"
+            }
+          },
+          {
+            "value": "4-3-3",
+            "evidence": {
+              "source": "brentford-actual-report",
+              "locator": "line 105; Brentford formation"
+            }
+          }
+        ],
+        "supporting_claims": []
+      }
+    ],
+    "discipline": {
+      "status": "two_listed_yellow_cards_corroborated_not_complete_feed",
+      "complete_card_audit": false,
+      "other_cards_total": null,
+      "cards": [
+        {
+          "player": "brentford:thiago",
+          "minute": 84,
+          "classification": "yellow_card",
+          "evidence": {
+            "source": "pl-commentary",
+            "locator": "84 minute Yellow Card group: Igor Thiago, excessive celebration"
+          }
+        },
+        {
+          "player": "brentford:sangare",
+          "minute": 85,
+          "classification": "yellow_card",
+          "evidence": {
+            "source": "pl-commentary",
+            "locator": "85 minute Yellow Card group: Mamadou Sangaré, bad foul"
+          }
+        }
+      ]
+    },
+    "referee": {
+      "league_printed_name": "Andy Madley",
+      "existing_report_name": "Andrew Madley",
+      "status": "apparent_name_variant_same_fixture_role",
+      "legal_identity_resolved": false,
+      "evidence": {
+        "source": "pl-info",
+        "locator": "Match Officials; Referee Andy Madley"
+      },
+      "report_evidence": {
+        "source": "chelsea-report",
+        "locator": "line 56; Referee Andrew Madley"
+      }
+    },
+    "limitations": "Minute precision only. No complete-event or zero-other-card inference; actual kickoff remains unestablished. No raw pages, video or app integration. Reuse remains uncleared."
+  },
+  "timeline_audit": {
+    "observed_on": "2026-10-17",
+    "fixture_id": "premier-league:2026-27:2026-09-18:brentford:chelsea",
+    "scope": "Entire commentary list reached through public rendered UI scrolling; not a complete official event-feed certification.",
+    "inspection_boundary": {
+      "method": "Initial list ended near 82 minutes; scrolling loaded earlier batches until opening boundary visible; all displayed groups inspected in memory, no raw list retained.",
+      "opening_observed": true,
+      "end_observed": true,
+      "evidence": [
+        {
+          "source": "pl-commentary",
+          "locator": "Lineups are announced and players are warming up; First Half begins"
+        },
+        {
+          "source": "pl-commentary",
+          "locator": "Match ends Brentford 3 Chelsea 0; 90+7 Second Half ends"
+        }
+      ]
+    },
+    "observed_displayed_counts": {
+      "goals": 3,
+      "substitutions": 9,
+      "yellow_card_groups": 2,
+      "red_card_groups": 0,
+      "penalty_mentions": 0,
+      "var_mentions": 0,
+      "semantics": "counts in inspected displayed commentary only; not actual totals or full-feed completeness",
+      "evidence": {
+        "source": "pl-commentary",
+        "locator": "Entire lazy-loaded displayed list; opening through match-end boundaries"
+      }
+    },
+    "complete_event_feed_verified": false,
+    "goals": [
+      {
+        "player": "brentford:anthony",
+        "time": {
+          "printed": "61",
+          "minute": 61,
+          "added_minute": null,
+          "seconds": null,
+          "precision": "reported_minute"
+        },
+        "finish_attributes": {
+          "body_part": "head",
+          "source_location_description": "very close range",
+          "source_sequence": "following a corner"
+        },
+        "attributes_semantics": "source-reported descriptions, not coordinates or tracking",
+        "formal_assist": {
+          "player": "brentford:schuster",
+          "status": "explicitly_credited",
+          "evidence": {
+            "source": "pl-commentary",
+            "locator": "61 Goal group; Assist Jannik Schuster / headed pass"
+          }
+        },
+        "evidence": {
+          "source": "pl-commentary",
+          "locator": "61 Goal group; scorer and finish description"
+        }
+      },
+      {
+        "player": "brentford:thiago",
+        "time": {
+          "printed": "83",
+          "minute": 83,
+          "added_minute": null,
+          "seconds": null,
+          "precision": "reported_minute"
+        },
+        "finish_attributes": {
+          "body_part": "right_foot",
+          "source_location_description": "centre of the box",
+          "source_sequence": "following a fast break"
+        },
+        "attributes_semantics": "source-reported descriptions, not coordinates or tracking",
+        "formal_assist": {
+          "player": null,
+          "status": "not_explicit_in_inspected_goal_entry",
+          "evidence": {
+            "source": "pl-commentary",
+            "locator": "83 Goal group; no explicit assist credit in goal entry"
+          }
+        },
+        "evidence": {
+          "source": "pl-commentary",
+          "locator": "83 Goal group; scorer and finish description"
+        }
+      },
+      {
+        "player": "brentford:carvalho",
+        "time": {
+          "printed": "90+4",
+          "minute": 90,
+          "added_minute": 4,
+          "seconds": null,
+          "precision": "reported_minute"
+        },
+        "finish_attributes": {
+          "body_part": "right_foot",
+          "source_location_description": "right side of the six yard box",
+          "source_sequence": null
+        },
+        "attributes_semantics": "source-reported descriptions, not coordinates or tracking",
+        "formal_assist": {
+          "player": null,
+          "status": "not_explicit_in_inspected_goal_entry",
+          "evidence": {
+            "source": "pl-commentary",
+            "locator": "90+4 Goal group; no explicit assist credit in goal entry"
+          }
+        },
+        "evidence": {
+          "source": "pl-commentary",
+          "locator": "90+4 Goal group; scorer and finish description"
+        }
+      }
+    ],
+    "substitutions": [
+      {
+        "club_id": "chelsea",
+        "off": "chelsea:fofana",
+        "on": "chelsea:acheampong",
+        "time": {
+          "printed": "71",
+          "minute": 71,
+          "added_minute": null,
+          "seconds": null,
+          "precision": "reported_minute"
+        },
+        "evidence": {
+          "source": "pl-commentary",
+          "locator": "71 Substitution group; chelsea:acheampong replaces chelsea:fofana"
+        },
+        "club_report_evidence": {
+          "source": "chelsea-report",
+          "locator": "lines 49–50; team list"
+        }
+      },
+      {
+        "club_id": "chelsea",
+        "off": "chelsea:welbeck",
+        "on": "chelsea:quenda",
+        "time": {
+          "printed": "71",
+          "minute": 71,
+          "added_minute": null,
+          "seconds": null,
+          "precision": "reported_minute"
+        },
+        "evidence": {
+          "source": "pl-commentary",
+          "locator": "71 Substitution group; chelsea:quenda replaces chelsea:welbeck"
+        },
+        "club_report_evidence": {
+          "source": "chelsea-report",
+          "locator": "lines 49–50; team list"
+        }
+      },
+      {
+        "club_id": "chelsea",
+        "off": "chelsea:barco",
+        "on": "chelsea:nicoll-jazuli",
+        "time": {
+          "printed": "87",
+          "minute": 87,
+          "added_minute": null,
+          "seconds": null,
+          "precision": "reported_minute"
+        },
+        "evidence": {
+          "source": "pl-commentary",
+          "locator": "87 Substitution group; chelsea:nicoll-jazuli replaces chelsea:barco"
+        },
+        "club_report_evidence": {
+          "source": "chelsea-report",
+          "locator": "lines 49–50; team list"
+        }
+      },
+      {
+        "club_id": "chelsea",
+        "off": "chelsea:neto",
+        "on": "chelsea:estevao",
+        "time": {
+          "printed": "87",
+          "minute": 87,
+          "added_minute": null,
+          "seconds": null,
+          "precision": "reported_minute"
+        },
+        "evidence": {
+          "source": "pl-commentary",
+          "locator": "87 Substitution group; chelsea:estevao replaces chelsea:neto"
+        },
+        "club_report_evidence": {
+          "source": "chelsea-report",
+          "locator": "lines 49–50; team list"
+        }
+      },
+      {
+        "club_id": "brentford",
+        "off": "brentford:kayode",
+        "on": "brentford:hickey",
+        "time": {
+          "printed": "69",
+          "minute": 69,
+          "added_minute": null,
+          "seconds": null,
+          "precision": "reported_minute"
+        },
+        "evidence": {
+          "source": "pl-commentary",
+          "locator": "69 Substitution group; brentford:hickey replaces brentford:kayode"
+        },
+        "club_report_evidence": {
+          "source": "chelsea-report",
+          "locator": "lines 51–52; team list"
+        }
+      },
+      {
+        "club_id": "brentford",
+        "off": "brentford:yarmoliuk",
+        "on": "brentford:sangare",
+        "time": {
+          "printed": "69",
+          "minute": 69,
+          "added_minute": null,
+          "seconds": null,
+          "precision": "reported_minute"
+        },
+        "evidence": {
+          "source": "pl-commentary",
+          "locator": "69 Substitution group; brentford:sangare replaces brentford:yarmoliuk"
+        },
+        "club_report_evidence": {
+          "source": "chelsea-report",
+          "locator": "lines 51–52; team list"
+        }
+      },
+      {
+        "club_id": "brentford",
+        "off": "brentford:lewis-potter",
+        "on": "brentford:diouf",
+        "time": {
+          "printed": "81",
+          "minute": 81,
+          "added_minute": null,
+          "seconds": null,
+          "precision": "reported_minute"
+        },
+        "evidence": {
+          "source": "pl-commentary",
+          "locator": "81 Substitution group; brentford:diouf replaces brentford:lewis-potter"
+        },
+        "club_report_evidence": {
+          "source": "chelsea-report",
+          "locator": "lines 51–52; team list"
+        }
+      },
+      {
+        "club_id": "brentford",
+        "off": "brentford:anthony",
+        "on": "brentford:ouattara",
+        "time": {
+          "printed": "81",
+          "minute": 81,
+          "added_minute": null,
+          "seconds": null,
+          "precision": "reported_minute"
+        },
+        "evidence": {
+          "source": "pl-commentary",
+          "locator": "81 Substitution group; brentford:ouattara replaces brentford:anthony"
+        },
+        "club_report_evidence": {
+          "source": "chelsea-report",
+          "locator": "lines 51–52; team list"
+        }
+      },
+      {
+        "club_id": "brentford",
+        "off": "brentford:damsgaard",
+        "on": "brentford:carvalho",
+        "time": {
+          "printed": "87",
+          "minute": 87,
+          "added_minute": null,
+          "seconds": null,
+          "precision": "reported_minute"
+        },
+        "evidence": {
+          "source": "pl-commentary",
+          "locator": "87 Substitution group; brentford:carvalho replaces brentford:damsgaard"
+        },
+        "club_report_evidence": {
+          "source": "chelsea-report",
+          "locator": "lines 51–52; team list"
+        }
+      }
+    ],
+    "listed_cards": [
+      {
+        "player": "brentford:thiago",
+        "time": {
+          "printed": "84",
+          "minute": 84,
+          "added_minute": null,
+          "seconds": null,
+          "precision": "reported_minute"
+        },
+        "classification": "yellow_card",
+        "reason_as_reported": "excessive celebration",
+        "evidence": {
+          "source": "pl-commentary",
+          "locator": "84 Yellow Card group; Igor Thiago"
+        }
+      },
+      {
+        "player": "brentford:sangare",
+        "time": {
+          "printed": "85",
+          "minute": 85,
+          "added_minute": null,
+          "seconds": null,
+          "precision": "reported_minute"
+        },
+        "classification": "yellow_card",
+        "reason_as_reported": "bad foul",
+        "evidence": {
+          "source": "pl-commentary",
+          "locator": "85 Yellow Card group; Mamadou Sangaré"
+        }
+      }
+    ],
+    "stoppage_observations": [
+      {
+        "time": {
+          "printed": "45",
+          "minute": 45,
+          "added_minute": null,
+          "seconds": null,
+          "precision": "reported_minute"
+        },
+        "kind": "minimum_announced",
+        "period": "first_half",
+        "minimum_added_minutes": 1,
+        "exact_elapsed_seconds": null,
+        "evidence": {
+          "source": "pl-commentary",
+          "locator": "45 Fourth official announced added time"
+        }
+      },
+      {
+        "time": {
+          "printed": "45+2",
+          "minute": 45,
+          "added_minute": 2,
+          "seconds": null,
+          "precision": "reported_minute"
+        },
+        "kind": "period_end",
+        "period": "first_half",
+        "minimum_added_minutes": null,
+        "exact_elapsed_seconds": null,
+        "evidence": {
+          "source": "pl-commentary",
+          "locator": "45+2 First Half ends / Half Time"
+        }
+      },
+      {
+        "time": {
+          "printed": "90",
+          "minute": 90,
+          "added_minute": null,
+          "seconds": null,
+          "precision": "reported_minute"
+        },
+        "kind": "minimum_announced",
+        "period": "second_half",
+        "minimum_added_minutes": 5,
+        "exact_elapsed_seconds": null,
+        "evidence": {
+          "source": "pl-commentary",
+          "locator": "90 Fourth official announced added time"
+        }
+      },
+      {
+        "time": {
+          "printed": "90+7",
+          "minute": 90,
+          "added_minute": 7,
+          "seconds": null,
+          "precision": "reported_minute"
+        },
+        "kind": "period_end",
+        "period": "second_half",
+        "minimum_added_minutes": null,
+        "exact_elapsed_seconds": null,
+        "evidence": {
+          "source": "pl-commentary",
+          "locator": "90+7 Second Half ends / Full Time"
+        }
+      }
+    ],
+    "decisions": {
+      "rejected_penalty_appeal": {
+        "player": "chelsea:barco",
+        "time": null,
+        "decision": "appeal waved away as reported",
+        "evidence": {
+          "source": "chelsea-report",
+          "locator": "line 35; rejected Barco penalty appeal"
+        }
+      },
+      "penalty_award_entry_found_in_displayed_commentary": false,
+      "var_decision_entry_found_in_displayed_commentary": false,
+      "red_card_entry_found_in_displayed_commentary": false,
+      "actual_penalties_awarded": null,
+      "actual_var_decision_total": null,
+      "actual_red_card_total": null,
+      "evidence": {
+        "source": "pl-commentary",
+        "locator": "Entire inspected displayed list; absence limited to this view"
+      }
+    },
+    "limits": "No exact seconds, continuous positions, complete actual card/penalty/VAR totals, or inferred formal assists. Prior goal-minute and formation disagreements retained. Announcement minimums and period-end labels are not exact elapsed durations.",
+    "known_then_reconstructed": false,
+    "same_minute_substitution_sequence": "unknown; source display order is not on-field sequence"
+  },
+  "lineup_statistics_audit": {
+    "fixture_id": "premier-league:2026-27:2026-09-18:brentford:chelsea",
+    "observed_on": "2026-10-17",
+    "known_then_reconstructed": false,
+    "lineup_rows": [
+      {
+        "player": "brentford:kelleher",
+        "club_id": "brentford",
+        "shirt_number": 1,
+        "roster_status": "starter",
+        "broad_source_category": null,
+        "category_semantics": "not explicitly labelled for starter in inspected view",
+        "individual_match_role": null,
+        "role_semantics": "unknown; formation diagram is not measured position or individual-role evidence",
+        "evidence": {
+          "source": "pl-lineups",
+          "locator": "brentford starting diagram; kelleher shirt 1"
+        }
+      },
+      {
+        "player": "brentford:kayode",
+        "club_id": "brentford",
+        "shirt_number": 33,
+        "roster_status": "starter",
+        "broad_source_category": null,
+        "category_semantics": "not explicitly labelled for starter in inspected view",
+        "individual_match_role": null,
+        "role_semantics": "unknown; formation diagram is not measured position or individual-role evidence",
+        "evidence": {
+          "source": "pl-lineups",
+          "locator": "brentford starting diagram; kayode shirt 33"
+        }
+      },
+      {
+        "player": "brentford:schuster",
+        "club_id": "brentford",
+        "shirt_number": 44,
+        "roster_status": "starter",
+        "broad_source_category": null,
+        "category_semantics": "not explicitly labelled for starter in inspected view",
+        "individual_match_role": null,
+        "role_semantics": "unknown; formation diagram is not measured position or individual-role evidence",
+        "evidence": {
+          "source": "pl-lineups",
+          "locator": "brentford starting diagram; schuster shirt 44"
+        }
+      },
+      {
+        "player": "brentford:ajer",
+        "club_id": "brentford",
+        "shirt_number": 20,
+        "roster_status": "starter",
+        "broad_source_category": null,
+        "category_semantics": "not explicitly labelled for starter in inspected view",
+        "individual_match_role": null,
+        "role_semantics": "unknown; formation diagram is not measured position or individual-role evidence",
+        "evidence": {
+          "source": "pl-lineups",
+          "locator": "brentford starting diagram; ajer shirt 20"
+        }
+      },
+      {
+        "player": "brentford:lewis-potter",
+        "club_id": "brentford",
+        "shirt_number": 23,
+        "roster_status": "starter",
+        "broad_source_category": null,
+        "category_semantics": "not explicitly labelled for starter in inspected view",
+        "individual_match_role": null,
+        "role_semantics": "unknown; formation diagram is not measured position or individual-role evidence",
+        "evidence": {
+          "source": "pl-lineups",
+          "locator": "brentford starting diagram; lewis-potter shirt 23"
+        }
+      },
+      {
+        "player": "brentford:yarmoliuk",
+        "club_id": "brentford",
+        "shirt_number": 6,
+        "roster_status": "starter",
+        "broad_source_category": null,
+        "category_semantics": "not explicitly labelled for starter in inspected view",
+        "individual_match_role": null,
+        "role_semantics": "unknown; formation diagram is not measured position or individual-role evidence",
+        "evidence": {
+          "source": "pl-lineups",
+          "locator": "brentford starting diagram; yarmoliuk shirt 6"
+        }
+      },
+      {
+        "player": "brentford:janelt",
+        "club_id": "brentford",
+        "shirt_number": 27,
+        "roster_status": "starter",
+        "broad_source_category": null,
+        "category_semantics": "not explicitly labelled for starter in inspected view",
+        "individual_match_role": null,
+        "role_semantics": "unknown; formation diagram is not measured position or individual-role evidence",
+        "evidence": {
+          "source": "pl-lineups",
+          "locator": "brentford starting diagram; janelt shirt 27"
+        }
+      },
+      {
+        "player": "brentford:anthony",
+        "club_id": "brentford",
+        "shirt_number": 19,
+        "roster_status": "starter",
+        "broad_source_category": null,
+        "category_semantics": "not explicitly labelled for starter in inspected view",
+        "individual_match_role": null,
+        "role_semantics": "unknown; formation diagram is not measured position or individual-role evidence",
+        "evidence": {
+          "source": "pl-lineups",
+          "locator": "brentford starting diagram; anthony shirt 19"
+        }
+      },
+      {
+        "player": "brentford:damsgaard",
+        "club_id": "brentford",
+        "shirt_number": 24,
+        "roster_status": "starter",
+        "broad_source_category": null,
+        "category_semantics": "not explicitly labelled for starter in inspected view",
+        "individual_match_role": null,
+        "role_semantics": "unknown; formation diagram is not measured position or individual-role evidence",
+        "evidence": {
+          "source": "pl-lineups",
+          "locator": "brentford starting diagram; damsgaard shirt 24"
+        }
+      },
+      {
+        "player": "brentford:schade",
+        "club_id": "brentford",
+        "shirt_number": 7,
+        "roster_status": "starter",
+        "broad_source_category": null,
+        "category_semantics": "not explicitly labelled for starter in inspected view",
+        "individual_match_role": null,
+        "role_semantics": "unknown; formation diagram is not measured position or individual-role evidence",
+        "evidence": {
+          "source": "pl-lineups",
+          "locator": "brentford starting diagram; schade shirt 7"
+        }
+      },
+      {
+        "player": "brentford:thiago",
+        "club_id": "brentford",
+        "shirt_number": 9,
+        "roster_status": "starter",
+        "broad_source_category": null,
+        "category_semantics": "not explicitly labelled for starter in inspected view",
+        "individual_match_role": null,
+        "role_semantics": "unknown; formation diagram is not measured position or individual-role evidence",
+        "evidence": {
+          "source": "pl-lineups",
+          "locator": "brentford starting diagram; thiago shirt 9"
+        }
+      },
+      {
+        "player": "brentford:hickey",
+        "club_id": "brentford",
+        "shirt_number": 2,
+        "roster_status": "bench",
+        "broad_source_category": "Defender",
+        "category_semantics": "broad label in match-page substitute list, not individual match tactical role",
+        "individual_match_role": null,
+        "role_semantics": "unknown; formation diagram is not measured position or individual-role evidence",
+        "evidence": {
+          "source": "pl-lineups",
+          "locator": "Substitutes; hickey shirt 2; Defender"
+        }
+      },
+      {
+        "player": "brentford:henry",
+        "club_id": "brentford",
+        "shirt_number": 3,
+        "roster_status": "bench",
+        "broad_source_category": "Defender",
+        "category_semantics": "broad label in match-page substitute list, not individual match tactical role",
+        "individual_match_role": null,
+        "role_semantics": "unknown; formation diagram is not measured position or individual-role evidence",
+        "evidence": {
+          "source": "pl-lineups",
+          "locator": "Substitutes; henry shirt 3; Defender"
+        }
+      },
+      {
+        "player": "brentford:ouattara",
+        "club_id": "brentford",
+        "shirt_number": 11,
+        "roster_status": "bench",
+        "broad_source_category": "Forward",
+        "category_semantics": "broad label in match-page substitute list, not individual match tactical role",
+        "individual_match_role": null,
+        "role_semantics": "unknown; formation diagram is not measured position or individual-role evidence",
+        "evidence": {
+          "source": "pl-lineups",
+          "locator": "Substitutes; ouattara shirt 11; Forward"
+        }
+      },
+      {
+        "player": "brentford:wilson",
+        "club_id": "brentford",
+        "shirt_number": 13,
+        "roster_status": "bench",
+        "broad_source_category": "Forward",
+        "category_semantics": "broad label in match-page substitute list, not individual match tactical role",
+        "individual_match_role": null,
+        "role_semantics": "unknown; formation diagram is not measured position or individual-role evidence",
+        "evidence": {
+          "source": "pl-lineups",
+          "locator": "Substitutes; wilson shirt 13; Forward"
+        }
+      },
+      {
+        "player": "brentford:carvalho",
+        "club_id": "brentford",
+        "shirt_number": 14,
+        "roster_status": "bench",
+        "broad_source_category": "Midfielder",
+        "category_semantics": "broad label in match-page substitute list, not individual match tactical role",
+        "individual_match_role": null,
+        "role_semantics": "unknown; formation diagram is not measured position or individual-role evidence",
+        "evidence": {
+          "source": "pl-lineups",
+          "locator": "Substitutes; carvalho shirt 14; Midfielder"
+        }
+      },
+      {
+        "player": "brentford:sangare",
+        "club_id": "brentford",
+        "shirt_number": 18,
+        "roster_status": "bench",
+        "broad_source_category": "Midfielder",
+        "category_semantics": "broad label in match-page substitute list, not individual match tactical role",
+        "individual_match_role": null,
+        "role_semantics": "unknown; formation diagram is not measured position or individual-role evidence",
+        "evidence": {
+          "source": "pl-lineups",
+          "locator": "Substitutes; sangare shirt 18; Midfielder"
+        }
+      },
+      {
+        "player": "brentford:diouf",
+        "club_id": "brentford",
+        "shirt_number": 25,
+        "roster_status": "bench",
+        "broad_source_category": "Defender",
+        "category_semantics": "broad label in match-page substitute list, not individual match tactical role",
+        "individual_match_role": null,
+        "role_semantics": "unknown; formation diagram is not measured position or individual-role evidence",
+        "evidence": {
+          "source": "pl-lineups",
+          "locator": "Substitutes; diouf shirt 25; Defender"
+        }
+      },
+      {
+        "player": "brentford:balcombe",
+        "club_id": "brentford",
+        "shirt_number": 31,
+        "roster_status": "bench",
+        "broad_source_category": "Goalkeeper",
+        "category_semantics": "broad label in match-page substitute list, not individual match tactical role",
+        "individual_match_role": null,
+        "role_semantics": "unknown; formation diagram is not measured position or individual-role evidence",
+        "evidence": {
+          "source": "pl-lineups",
+          "locator": "Substitutes; balcombe shirt 31; Goalkeeper"
+        }
+      },
+      {
+        "player": "brentford:fredrick",
+        "club_id": "brentford",
+        "shirt_number": 48,
+        "roster_status": "bench",
+        "broad_source_category": "Defender",
+        "category_semantics": "broad label in match-page substitute list, not individual match tactical role",
+        "individual_match_role": null,
+        "role_semantics": "unknown; formation diagram is not measured position or individual-role evidence",
+        "evidence": {
+          "source": "pl-lineups",
+          "locator": "Substitutes; fredrick shirt 48; Defender"
+        }
+      },
+      {
+        "player": "chelsea:martinez",
+        "club_id": "chelsea",
+        "shirt_number": 1,
+        "roster_status": "starter",
+        "broad_source_category": null,
+        "category_semantics": "not explicitly labelled for starter in inspected view",
+        "individual_match_role": null,
+        "role_semantics": "unknown; formation diagram is not measured position or individual-role evidence",
+        "evidence": {
+          "source": "pl-lineups",
+          "locator": "chelsea starting diagram; martinez shirt 1"
+        }
+      },
+      {
+        "player": "chelsea:fofana",
+        "club_id": "chelsea",
+        "shirt_number": 3,
+        "roster_status": "starter",
+        "broad_source_category": null,
+        "category_semantics": "not explicitly labelled for starter in inspected view",
+        "individual_match_role": null,
+        "role_semantics": "unknown; formation diagram is not measured position or individual-role evidence",
+        "evidence": {
+          "source": "pl-lineups",
+          "locator": "chelsea starting diagram; fofana shirt 3"
+        }
+      },
+      {
+        "player": "chelsea:lacroix",
+        "club_id": "chelsea",
+        "shirt_number": 5,
+        "roster_status": "starter",
+        "broad_source_category": null,
+        "category_semantics": "not explicitly labelled for starter in inspected view",
+        "individual_match_role": null,
+        "role_semantics": "unknown; formation diagram is not measured position or individual-role evidence",
+        "evidence": {
+          "source": "pl-lineups",
+          "locator": "chelsea starting diagram; lacroix shirt 5"
+        }
+      },
+      {
+        "player": "chelsea:colwill",
+        "club_id": "chelsea",
+        "shirt_number": 6,
+        "roster_status": "starter",
+        "broad_source_category": null,
+        "category_semantics": "not explicitly labelled for starter in inspected view",
+        "individual_match_role": null,
+        "role_semantics": "unknown; formation diagram is not measured position or individual-role evidence",
+        "evidence": {
+          "source": "pl-lineups",
+          "locator": "chelsea starting diagram; colwill shirt 6"
+        }
+      },
+      {
+        "player": "chelsea:neto",
+        "club_id": "chelsea",
+        "shirt_number": 7,
+        "roster_status": "starter",
+        "broad_source_category": null,
+        "category_semantics": "not explicitly labelled for starter in inspected view",
+        "individual_match_role": null,
+        "role_semantics": "unknown; formation diagram is not measured position or individual-role evidence",
+        "evidence": {
+          "source": "pl-lineups",
+          "locator": "chelsea starting diagram; neto shirt 7"
+        }
+      },
+      {
+        "player": "chelsea:henderson",
+        "club_id": "chelsea",
+        "shirt_number": 14,
+        "roster_status": "starter",
+        "broad_source_category": null,
+        "category_semantics": "not explicitly labelled for starter in inspected view",
+        "individual_match_role": null,
+        "role_semantics": "unknown; formation diagram is not measured position or individual-role evidence",
+        "evidence": {
+          "source": "pl-lineups",
+          "locator": "chelsea starting diagram; henderson shirt 14"
+        }
+      },
+      {
+        "player": "chelsea:barco",
+        "club_id": "chelsea",
+        "shirt_number": 4,
+        "roster_status": "starter",
+        "broad_source_category": null,
+        "category_semantics": "not explicitly labelled for starter in inspected view",
+        "individual_match_role": null,
+        "role_semantics": "unknown; formation diagram is not measured position or individual-role evidence",
+        "evidence": {
+          "source": "pl-lineups",
+          "locator": "chelsea starting diagram; barco shirt 4"
+        }
+      },
+      {
+        "player": "chelsea:chavarria",
+        "club_id": "chelsea",
+        "shirt_number": 29,
+        "roster_status": "starter",
+        "broad_source_category": null,
+        "category_semantics": "not explicitly labelled for starter in inspected view",
+        "individual_match_role": null,
+        "role_semantics": "unknown; formation diagram is not measured position or individual-role evidence",
+        "evidence": {
+          "source": "pl-lineups",
+          "locator": "chelsea starting diagram; chavarria shirt 29"
+        }
+      },
+      {
+        "player": "chelsea:palmer",
+        "club_id": "chelsea",
+        "shirt_number": 10,
+        "roster_status": "starter",
+        "broad_source_category": null,
+        "category_semantics": "not explicitly labelled for starter in inspected view",
+        "individual_match_role": null,
+        "role_semantics": "unknown; formation diagram is not measured position or individual-role evidence",
+        "evidence": {
+          "source": "pl-lineups",
+          "locator": "chelsea starting diagram; palmer shirt 10"
+        }
+      },
+      {
+        "player": "chelsea:rogers",
+        "club_id": "chelsea",
+        "shirt_number": 17,
+        "roster_status": "starter",
+        "broad_source_category": null,
+        "category_semantics": "not explicitly labelled for starter in inspected view",
+        "individual_match_role": null,
+        "role_semantics": "unknown; formation diagram is not measured position or individual-role evidence",
+        "evidence": {
+          "source": "pl-lineups",
+          "locator": "chelsea starting diagram; rogers shirt 17"
+        }
+      },
+      {
+        "player": "chelsea:welbeck",
+        "club_id": "chelsea",
+        "shirt_number": 18,
+        "roster_status": "starter",
+        "broad_source_category": null,
+        "category_semantics": "not explicitly labelled for starter in inspected view",
+        "individual_match_role": null,
+        "role_semantics": "unknown; formation diagram is not measured position or individual-role evidence",
+        "evidence": {
+          "source": "pl-lineups",
+          "locator": "chelsea starting diagram; welbeck shirt 18"
+        }
+      },
+      {
+        "player": "chelsea:gittens",
+        "club_id": "chelsea",
+        "shirt_number": 11,
+        "roster_status": "bench",
+        "broad_source_category": "Forward",
+        "category_semantics": "broad label in match-page substitute list, not individual match tactical role",
+        "individual_match_role": null,
+        "role_semantics": "unknown; formation diagram is not measured position or individual-role evidence",
+        "evidence": {
+          "source": "pl-lineups",
+          "locator": "Substitutes; gittens shirt 11; Forward"
+        }
+      },
+      {
+        "player": "chelsea:hato",
+        "club_id": "chelsea",
+        "shirt_number": 21,
+        "roster_status": "bench",
+        "broad_source_category": "Defender",
+        "category_semantics": "broad label in match-page substitute list, not individual match tactical role",
+        "individual_match_role": null,
+        "role_semantics": "unknown; formation diagram is not measured position or individual-role evidence",
+        "evidence": {
+          "source": "pl-lineups",
+          "locator": "Substitutes; hato shirt 21; Defender"
+        }
+      },
+      {
+        "player": "chelsea:quenda",
+        "club_id": "chelsea",
+        "shirt_number": 23,
+        "roster_status": "bench",
+        "broad_source_category": "Midfielder",
+        "category_semantics": "broad label in match-page substitute list, not individual match tactical role",
+        "individual_match_role": null,
+        "role_semantics": "unknown; formation diagram is not measured position or individual-role evidence",
+        "evidence": {
+          "source": "pl-lineups",
+          "locator": "Substitutes; quenda shirt 23; Midfielder"
+        }
+      },
+      {
+        "player": "chelsea:gusto",
+        "club_id": "chelsea",
+        "shirt_number": 27,
+        "roster_status": "bench",
+        "broad_source_category": "Defender",
+        "category_semantics": "broad label in match-page substitute list, not individual match tactical role",
+        "individual_match_role": null,
+        "role_semantics": "unknown; formation diagram is not measured position or individual-role evidence",
+        "evidence": {
+          "source": "pl-lineups",
+          "locator": "Substitutes; gusto shirt 27; Defender"
+        }
+      },
+      {
+        "player": "chelsea:nicoll-jazuli",
+        "club_id": "chelsea",
+        "shirt_number": 32,
+        "roster_status": "bench",
+        "broad_source_category": "Midfielder",
+        "category_semantics": "broad label in match-page substitute list, not individual match tactical role",
+        "individual_match_role": null,
+        "role_semantics": "unknown; formation diagram is not measured position or individual-role evidence",
+        "evidence": {
+          "source": "pl-lineups",
+          "locator": "Substitutes; nicoll-jazuli shirt 32; Midfielder"
+        }
+      },
+      {
+        "player": "chelsea:acheampong",
+        "club_id": "chelsea",
+        "shirt_number": 34,
+        "roster_status": "bench",
+        "broad_source_category": "Defender",
+        "category_semantics": "broad label in match-page substitute list, not individual match tactical role",
+        "individual_match_role": null,
+        "role_semantics": "unknown; formation diagram is not measured position or individual-role evidence",
+        "evidence": {
+          "source": "pl-lineups",
+          "locator": "Substitutes; acheampong shirt 34; Defender"
+        }
+      },
+      {
+        "player": "chelsea:penders",
+        "club_id": "chelsea",
+        "shirt_number": 39,
+        "roster_status": "bench",
+        "broad_source_category": "Goalkeeper",
+        "category_semantics": "broad label in match-page substitute list, not individual match tactical role",
+        "individual_match_role": null,
+        "role_semantics": "unknown; formation diagram is not measured position or individual-role evidence",
+        "evidence": {
+          "source": "pl-lineups",
+          "locator": "Substitutes; penders shirt 39; Goalkeeper"
+        }
+      },
+      {
+        "player": "chelsea:estevao",
+        "club_id": "chelsea",
+        "shirt_number": 41,
+        "roster_status": "bench",
+        "broad_source_category": "Forward",
+        "category_semantics": "broad label in match-page substitute list, not individual match tactical role",
+        "individual_match_role": null,
+        "role_semantics": "unknown; formation diagram is not measured position or individual-role evidence",
+        "evidence": {
+          "source": "pl-lineups",
+          "locator": "Substitutes; estevao shirt 41; Forward"
+        }
+      },
+      {
+        "player": "chelsea:lavia",
+        "club_id": "chelsea",
+        "shirt_number": 45,
+        "roster_status": "bench",
+        "broad_source_category": "Midfielder",
+        "category_semantics": "broad label in match-page substitute list, not individual match tactical role",
+        "individual_match_role": null,
+        "role_semantics": "unknown; formation diagram is not measured position or individual-role evidence",
+        "evidence": {
+          "source": "pl-lineups",
+          "locator": "Substitutes; lavia shirt 45; Midfielder"
+        }
+      }
+    ],
+    "captains": [
+      {
+        "player": "brentford:janelt",
+        "evidence": {
+          "source": "pl-lineups",
+          "locator": "Brentford starting diagram; C Vitaly Janelt 27"
+        }
+      },
+      {
+        "player": "chelsea:colwill",
+        "evidence": {
+          "source": "pl-lineups",
+          "locator": "Chelsea starting diagram; C Levi Colwill 6"
+        }
+      }
+    ],
+    "metrics": [
+      {
+        "id": "possession",
+        "source_label": "Possession",
+        "unit": "percent",
+        "values": {
+          "brentford": 40.2,
+          "chelsea": 59.8
+        },
+        "scope": "rendered completed-match team summary",
+        "period_breakdown": null,
+        "operational_definition": null,
+        "evidence": {
+          "source": "pl-stats",
+          "locator": "Top Stats; Possession; Brentford left / Chelsea right"
+        }
+      },
+      {
+        "id": "xg",
+        "source_label": "XG",
+        "unit": "source_xg_units",
+        "values": {
+          "brentford": 2.65,
+          "chelsea": 0.83
+        },
+        "scope": "rendered completed-match team summary",
+        "period_breakdown": null,
+        "operational_definition": null,
+        "evidence": {
+          "source": "pl-stats",
+          "locator": "Top Stats; XG; Brentford left / Chelsea right"
+        }
+      },
+      {
+        "id": "total_shots",
+        "source_label": "Total Shots",
+        "unit": "count",
+        "values": {
+          "brentford": 13,
+          "chelsea": 12
+        },
+        "scope": "rendered completed-match team summary",
+        "period_breakdown": null,
+        "operational_definition": null,
+        "evidence": {
+          "source": "pl-stats",
+          "locator": "Top Stats; Total Shots; Brentford left / Chelsea right"
+        }
+      },
+      {
+        "id": "shots_on_target",
+        "source_label": "Shots On Target",
+        "unit": "count",
+        "values": {
+          "brentford": 6,
+          "chelsea": 2
+        },
+        "scope": "rendered completed-match team summary",
+        "period_breakdown": null,
+        "operational_definition": null,
+        "evidence": {
+          "source": "pl-stats",
+          "locator": "Top Stats; Shots On Target; Brentford left / Chelsea right"
+        }
+      },
+      {
+        "id": "big_chances",
+        "source_label": "Big Chances",
+        "unit": "count",
+        "values": {
+          "brentford": 3,
+          "chelsea": 0
+        },
+        "scope": "rendered completed-match team summary",
+        "period_breakdown": null,
+        "operational_definition": null,
+        "evidence": {
+          "source": "pl-stats",
+          "locator": "Top Stats; Big Chances; Brentford left / Chelsea right"
+        }
+      },
+      {
+        "id": "corners",
+        "source_label": "Corners",
+        "unit": "count",
+        "values": {
+          "brentford": 4,
+          "chelsea": 12
+        },
+        "scope": "rendered completed-match team summary",
+        "period_breakdown": null,
+        "operational_definition": null,
+        "evidence": {
+          "source": "pl-stats",
+          "locator": "Top Stats; Corners; Brentford left / Chelsea right"
+        }
+      },
+      {
+        "id": "saves",
+        "source_label": "Saves",
+        "unit": "count",
+        "values": {
+          "brentford": 2,
+          "chelsea": 3
+        },
+        "scope": "rendered completed-match team summary",
+        "period_breakdown": null,
+        "operational_definition": null,
+        "evidence": {
+          "source": "pl-stats",
+          "locator": "Top Stats; Saves; Brentford left / Chelsea right"
+        }
+      },
+      {
+        "id": "red_cards",
+        "source_label": "Red Cards",
+        "unit": "count",
+        "values": {
+          "brentford": 0,
+          "chelsea": 0
+        },
+        "scope": "rendered completed-match team summary",
+        "period_breakdown": null,
+        "operational_definition": null,
+        "evidence": {
+          "source": "pl-stats",
+          "locator": "Discipline; Red Cards; Brentford left / Chelsea right"
+        }
+      },
+      {
+        "id": "yellow_cards",
+        "source_label": "Yellow Cards",
+        "unit": "count",
+        "values": {
+          "brentford": 2,
+          "chelsea": 0
+        },
+        "scope": "rendered completed-match team summary",
+        "period_breakdown": null,
+        "operational_definition": null,
+        "evidence": {
+          "source": "pl-stats",
+          "locator": "Discipline; Yellow Cards; Brentford left / Chelsea right"
+        }
+      },
+      {
+        "id": "fouls",
+        "source_label": "Fouls",
+        "unit": "count",
+        "values": {
+          "brentford": 10,
+          "chelsea": 7
+        },
+        "scope": "rendered completed-match team summary",
+        "period_breakdown": null,
+        "operational_definition": null,
+        "evidence": {
+          "source": "pl-stats",
+          "locator": "Discipline; Fouls; Brentford left / Chelsea right"
+        }
+      },
+      {
+        "id": "offsides",
+        "source_label": "Offsides",
+        "unit": "count",
+        "values": {
+          "brentford": 2,
+          "chelsea": 2
+        },
+        "scope": "rendered completed-match team summary",
+        "period_breakdown": null,
+        "operational_definition": null,
+        "evidence": {
+          "source": "pl-stats",
+          "locator": "Discipline; Offsides; Brentford left / Chelsea right"
+        }
+      }
+    ],
+    "statistics_semantics": {
+      "team_order": [
+        "brentford",
+        "chelsea"
+      ],
+      "scope": "rendered completed-match team summary",
+      "period_selector_observed": false,
+      "certified_period_definition": null,
+      "time_series_or_cursor_snapshot": false,
+      "detailed_definitions_available": false,
+      "xg_model_or_method": null,
+      "reported_zero_is_source_claim_not_nonmention": true,
+      "evidence": {
+        "source": "pl-stats",
+        "locator": "Stats page; Top Stats and Discipline labels, no period control or operational definitions exposed"
+      }
+    },
+    "excluded_anomalies": [
+      {
+        "source_label": "Shots Inside the Box",
+        "printed_values": {
+          "brentford": 2,
+          "chelsea": 1
+        },
+        "unit": "count",
+        "status": "excluded_unresolved_label_or_consistency",
+        "evidence": {
+          "source": "pl-stats",
+          "locator": "Attack; Shots Inside the Box row"
+        }
+      },
+      {
+        "source_label": "Shots Outside the Box",
+        "printed_values": {
+          "brentford": 4,
+          "chelsea": 4
+        },
+        "unit": "count",
+        "status": "excluded_unresolved_label_or_consistency",
+        "evidence": {
+          "source": "pl-stats",
+          "locator": "Attack; Shots Outside the Box row"
+        }
+      }
+    ],
+    "anomaly_explanation": "Printed inside/outside rows do not partition total shots 13/12; labels, definition or source consistency unresolved. No repair, inferred alternate meaning or incorporation into accepted core statistics.",
+    "limits": "Forty shirt numbers are match-page source claims, not inferred from current squad. Eighteen broad substitute categories are not tactical roles; all forty individual match roles remain unknown. Explicit reported red-card zeros are newer source evidence, not complete event-feed proof. Earlier null/absence checkpoints remain unchanged."
+  }
+}

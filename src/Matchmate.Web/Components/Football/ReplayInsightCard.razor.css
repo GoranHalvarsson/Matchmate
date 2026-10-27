@@ -1,0 +1,10 @@
+.replay-insight { margin-top: 18px; padding: 18px 20px; border-left: 3px solid #456447; background: #f0f1e5; border-radius: 0 9px 9px 0; color: #203e35; }
+.insight-scope { margin: 0 0 8px; color: #596650; font-size: 10px; letter-spacing: .04em; }
+h2 { margin: 0 0 8px; font-size: 21px; line-height: 1.2; font-weight: 500; letter-spacing: -.3px; }
+.insight-body { margin: 0; font-size: 12px; line-height: 1.55; }
+.insight-note { margin: 10px 0 0; color: #596650; font-size: 10px; line-height: 1.5; }
+button { display: inline-flex; align-items: center; gap: 12px; min-height: 44px; margin-top: 10px; padding: 5px 0; border: 0; background: transparent; color: #203e35; font-size: 12px; font-weight: 600; cursor: pointer; }
+button:hover { text-decoration: underline; }
+button:focus-visible { outline: 2px solid #456447; outline-offset: 4px; }
+button:disabled { opacity: .5; cursor: default; text-decoration: none; }
+@media (max-width: 760px) { .replay-insight { padding: 16px; } h2 { font-size: 20px; } }

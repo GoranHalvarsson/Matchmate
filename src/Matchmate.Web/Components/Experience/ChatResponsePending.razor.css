@@ -1,0 +1,8 @@
+.chat-response-pending{display:flex;align-items:center;gap:10px;min-width:0;width:fit-content;max-width:100%;box-sizing:border-box;padding:10px 12px;border:1px solid #d2dcc5;border-radius:9px;background:#eff3e7;color:#203e35;font:600 12px/1.5 'Segoe UI',sans-serif;overflow-wrap:anywhere}
+.chat-response-pending.is-compact{padding:0;border:0;border-radius:0;background:transparent;font-weight:500}
+.chat-response-dots{display:flex;align-items:center;gap:4px;flex:0 0 auto;height:16px}
+.chat-response-dots>span{width:5px;height:5px;border-radius:50%;background:#62764e;opacity:.45;animation:response-pulse 1.5s ease-in-out infinite}
+.chat-response-dots>span:nth-child(2){animation-delay:.18s}
+.chat-response-dots>span:nth-child(3){animation-delay:.36s}
+@keyframes response-pulse{0%,60%,100%{opacity:.45;transform:translateY(0)}30%{opacity:1;transform:translateY(-2px)}}
+@media(prefers-reduced-motion:reduce){.chat-response-dots>span{animation:none;opacity:.7}}

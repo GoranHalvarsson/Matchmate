@@ -1,0 +1,1853 @@
+{
+  "version": 1,
+  "kind": "manual_first_goal_pitch_passage",
+  "fixtureId": "premier-league:2026-27:2026-09-18:brentford:chelsea",
+  "source": {
+    "url": "https://www.brentfordfc.com/en/video/0_2hoy7vw7?provider=stream",
+    "reviewedOn": "2026-10-17",
+    "videoSha256": "87b511b61f3d48e410294e06bf71bbc3a88c7b7ca6a50b89e572808c3e82711f",
+    "frameReceipt": {
+      "sha256": "986095832ca3e575d2afbb21f2dae10e435136ff0dcd523e2b8088fdf0feeddf",
+      "bytes": 8398
+    }
+  },
+  "bounds": {
+    "start": 3708,
+    "end": 3719,
+    "initial": 3715.4,
+    "actionStart": 3715,
+    "actionEnd": 3718.6
+  },
+  "method": {
+    "layout": "manual_landmark_schematic_estimates",
+    "calibration": "none",
+    "continuousReview": false,
+    "review": "38 source-PTS stills, 0.2-second wide action samples and adjacent-frame cut checks; cropped ball inspection",
+    "axes": "goal_left_far_touchline_top_near_touchline_bottom",
+    "uncertaintyRadius": 8,
+    "units": "schematic_percent_not_metres",
+    "playerInterpolationMax": 0.200001,
+    "ballInterpolation": false,
+    "identity": "anonymous_shot_local_tracklets_not_unique_players",
+    "ball": "apparent_landmark_projection_height_unknown_not_ground_position"
+  },
+  "participants": [
+    {
+      "id": "corner-B1",
+      "label": "Corner taker \u00b7 shirt 24 observed",
+      "team": "brentford",
+      "shot": "corner",
+      "tag": "24",
+      "identity": null
+    },
+    {
+      "id": "wide-B1",
+      "label": "Brentford B1 \u00b7 shirt 27 observed",
+      "team": "brentford",
+      "shot": "wide",
+      "tag": "B1",
+      "identity": null
+    },
+    {
+      "id": "wide-B2",
+      "label": "Brentford B2",
+      "team": "brentford",
+      "shot": "wide",
+      "tag": "B2",
+      "identity": null
+    },
+    {
+      "id": "wide-B3",
+      "label": "Brentford B3",
+      "team": "brentford",
+      "shot": "wide",
+      "tag": "B3",
+      "identity": null
+    },
+    {
+      "id": "wide-B4",
+      "label": "Brentford B4",
+      "team": "brentford",
+      "shot": "wide",
+      "tag": "B4",
+      "identity": null
+    },
+    {
+      "id": "wide-B5",
+      "label": "Brentford B5",
+      "team": "brentford",
+      "shot": "wide",
+      "tag": "B5",
+      "identity": null
+    },
+    {
+      "id": "wide-B6",
+      "label": "Brentford B6",
+      "team": "brentford",
+      "shot": "wide",
+      "tag": "B6",
+      "identity": null
+    },
+    {
+      "id": "wide-C1",
+      "label": "Chelsea C1",
+      "team": "chelsea",
+      "shot": "wide",
+      "tag": "C1",
+      "identity": null
+    },
+    {
+      "id": "wide-C2",
+      "label": "Chelsea C2",
+      "team": "chelsea",
+      "shot": "wide",
+      "tag": "C2",
+      "identity": null
+    },
+    {
+      "id": "wide-C3",
+      "label": "Chelsea C3",
+      "team": "chelsea",
+      "shot": "wide",
+      "tag": "C3",
+      "identity": null
+    },
+    {
+      "id": "wide-C4",
+      "label": "Chelsea C4",
+      "team": "chelsea",
+      "shot": "wide",
+      "tag": "C4",
+      "identity": null
+    },
+    {
+      "id": "wide-C5",
+      "label": "Chelsea C5",
+      "team": "chelsea",
+      "shot": "wide",
+      "tag": "C5",
+      "identity": null
+    },
+    {
+      "id": "wide-C6",
+      "label": "Chelsea C6",
+      "team": "chelsea",
+      "shot": "wide",
+      "tag": "C6",
+      "identity": null
+    },
+    {
+      "id": "wide-C7",
+      "label": "Chelsea C7",
+      "team": "chelsea",
+      "shot": "wide",
+      "tag": "C7",
+      "identity": null
+    },
+    {
+      "id": "wide-C8",
+      "label": "Chelsea C8",
+      "team": "chelsea",
+      "shot": "wide",
+      "tag": "C8",
+      "identity": null
+    },
+    {
+      "id": "wide-GK",
+      "label": "Chelsea goalkeeper",
+      "team": "chelsea",
+      "shot": "wide",
+      "tag": "GK",
+      "identity": null
+    }
+  ],
+  "frames": [
+    {
+      "id": "G01",
+      "time": 3712,
+      "shot": "corner",
+      "clock": "60:19",
+      "score": [
+        0,
+        0
+      ],
+      "image": {
+        "sha256": "c5ed0dbb14506b2ef5a7c5328aabaacbba9a520c5a586a61b717ab0edbb3ccb0",
+        "bytes": 109783,
+        "sourcePts": 3712.0
+      },
+      "points": [
+        {
+          "id": "corner-B1",
+          "x": 1,
+          "y": 98
+        }
+      ],
+      "ball": null
+    },
+    {
+      "id": "G02",
+      "time": 3713,
+      "shot": "corner",
+      "clock": "60:20",
+      "score": [
+        0,
+        0
+      ],
+      "image": {
+        "sha256": "c2b9d5f576cbefa7a8a0f2eb8e89edb136c7da180dcf50fa7e3f06642ccdd71b",
+        "bytes": 100991,
+        "sourcePts": 3713.0
+      },
+      "points": [
+        {
+          "id": "corner-B1",
+          "x": 1,
+          "y": 98
+        }
+      ],
+      "ball": null
+    },
+    {
+      "id": "G03",
+      "time": 3714,
+      "shot": "corner",
+      "clock": "60:21",
+      "score": [
+        0,
+        0
+      ],
+      "image": {
+        "sha256": "43e2acabf31526722d21be10ce1b0a69856b528e46ffaf9e4cf5b08de206910b",
+        "bytes": 84049,
+        "sourcePts": 3714.0
+      },
+      "points": [
+        {
+          "id": "corner-B1",
+          "x": 1,
+          "y": 98
+        }
+      ],
+      "ball": {
+        "x": 1,
+        "y": 98,
+        "height": "unknown",
+        "screen": [
+          795,
+          450
+        ]
+      }
+    },
+    {
+      "id": "G04",
+      "time": 3714.2,
+      "shot": "corner",
+      "clock": "60:21",
+      "score": [
+        0,
+        0
+      ],
+      "image": {
+        "sha256": "8405f204427cc30beccc3a94a8ee474df44e96bc668b14694365ef6ee7719e5c",
+        "bytes": 81199,
+        "sourcePts": 3714.2
+      },
+      "points": [
+        {
+          "id": "corner-B1",
+          "x": 1,
+          "y": 98
+        }
+      ],
+      "ball": {
+        "x": 1,
+        "y": 98,
+        "height": "unknown",
+        "screen": null
+      }
+    },
+    {
+      "id": "G05",
+      "time": 3714.4,
+      "shot": "corner",
+      "clock": "60:21",
+      "score": [
+        0,
+        0
+      ],
+      "image": {
+        "sha256": "c876dd71d71a88372e94e7f2af2230804a6854a25028c432045cc2c5f993d22a",
+        "bytes": 80897,
+        "sourcePts": 3714.4
+      },
+      "points": [
+        {
+          "id": "corner-B1",
+          "x": 1,
+          "y": 98
+        }
+      ],
+      "ball": {
+        "x": 1,
+        "y": 98,
+        "height": "unknown",
+        "screen": null
+      }
+    },
+    {
+      "id": "G06",
+      "time": 3715.0,
+      "shot": "wide",
+      "clock": "60:22",
+      "score": [
+        0,
+        0
+      ],
+      "image": {
+        "sha256": "874f0bc3782d1ea8dde40fe9fa307586daf73e10f66e3b196edf53594fb1562c",
+        "bytes": 102133,
+        "sourcePts": 3715.0
+      },
+      "points": [
+        {
+          "id": "wide-B1",
+          "x": 20.0,
+          "y": 73.0
+        },
+        {
+          "id": "wide-B2",
+          "x": 24.0,
+          "y": 40.0
+        },
+        {
+          "id": "wide-B3",
+          "x": 3.0,
+          "y": 48.0
+        },
+        {
+          "id": "wide-B4",
+          "x": 7.0,
+          "y": 56.0
+        },
+        {
+          "id": "wide-B5",
+          "x": 10.0,
+          "y": 35.0
+        },
+        {
+          "id": "wide-B6",
+          "x": 11.0,
+          "y": 28.0
+        },
+        {
+          "id": "wide-C1",
+          "x": 18.0,
+          "y": 80.0
+        },
+        {
+          "id": "wide-C2",
+          "x": 10.0,
+          "y": 72.0
+        },
+        {
+          "id": "wide-C3",
+          "x": 3.0,
+          "y": 57.0
+        },
+        {
+          "id": "wide-C4",
+          "x": 6.0,
+          "y": 60.0
+        },
+        {
+          "id": "wide-C5",
+          "x": 6.0,
+          "y": 44.0
+        },
+        {
+          "id": "wide-C6",
+          "x": 9.0,
+          "y": 33.0
+        },
+        {
+          "id": "wide-C7",
+          "x": 11.0,
+          "y": 30.0
+        },
+        {
+          "id": "wide-C8",
+          "x": 14.0,
+          "y": 48.0
+        },
+        {
+          "id": "wide-GK",
+          "x": 3.0,
+          "y": 44.0
+        }
+      ],
+      "ball": null
+    },
+    {
+      "id": "G07",
+      "time": 3715.2,
+      "shot": "wide",
+      "clock": "60:22",
+      "score": [
+        0,
+        0
+      ],
+      "image": {
+        "sha256": "0b1cf113064ef34a4bdc53ba74e41f9f0398f16880dfe3860dba46e43be5f237",
+        "bytes": 101881,
+        "sourcePts": 3715.2
+      },
+      "points": [
+        {
+          "id": "wide-B1",
+          "x": 20.0,
+          "y": 72.0
+        },
+        {
+          "id": "wide-B2",
+          "x": 24.0,
+          "y": 40.0
+        },
+        {
+          "id": "wide-B3",
+          "x": 3.0,
+          "y": 48.0
+        },
+        {
+          "id": "wide-B4",
+          "x": 7.0,
+          "y": 55.0
+        },
+        {
+          "id": "wide-B5",
+          "x": 10.0,
+          "y": 35.0
+        },
+        {
+          "id": "wide-B6",
+          "x": 11.0,
+          "y": 28.0
+        },
+        {
+          "id": "wide-C1",
+          "x": 18.0,
+          "y": 79.0
+        },
+        {
+          "id": "wide-C2",
+          "x": 10.0,
+          "y": 72.0
+        },
+        {
+          "id": "wide-C3",
+          "x": 3.0,
+          "y": 56.0
+        },
+        {
+          "id": "wide-C4",
+          "x": 6.0,
+          "y": 59.0
+        },
+        {
+          "id": "wide-C5",
+          "x": 6.0,
+          "y": 44.0
+        },
+        {
+          "id": "wide-C6",
+          "x": 9.0,
+          "y": 33.0
+        },
+        {
+          "id": "wide-C7",
+          "x": 11.0,
+          "y": 30.0
+        },
+        {
+          "id": "wide-C8",
+          "x": 14.0,
+          "y": 48.0
+        },
+        {
+          "id": "wide-GK",
+          "x": 3.0,
+          "y": 43.0
+        }
+      ],
+      "ball": null
+    },
+    {
+      "id": "G08",
+      "time": 3715.4,
+      "shot": "wide",
+      "clock": "60:22",
+      "score": [
+        0,
+        0
+      ],
+      "image": {
+        "sha256": "0ec5b2f412533143d08fc1b26f60e15de3e0eb6a7ceec9ee497418b739e19428",
+        "bytes": 98060,
+        "sourcePts": 3715.4
+      },
+      "points": [
+        {
+          "id": "wide-B1",
+          "x": 20.0,
+          "y": 72.0
+        },
+        {
+          "id": "wide-B2",
+          "x": 24.0,
+          "y": 40.0
+        },
+        {
+          "id": "wide-B3",
+          "x": 3.0,
+          "y": 48.0
+        },
+        {
+          "id": "wide-B4",
+          "x": 7.0,
+          "y": 55.0
+        },
+        {
+          "id": "wide-B5",
+          "x": 10.0,
+          "y": 35.0
+        },
+        {
+          "id": "wide-B6",
+          "x": 11.0,
+          "y": 28.0
+        },
+        {
+          "id": "wide-C1",
+          "x": 18.0,
+          "y": 78.0
+        },
+        {
+          "id": "wide-C2",
+          "x": 10.0,
+          "y": 71.0
+        },
+        {
+          "id": "wide-C3",
+          "x": 3.0,
+          "y": 55.0
+        },
+        {
+          "id": "wide-C4",
+          "x": 6.0,
+          "y": 58.0
+        },
+        {
+          "id": "wide-C5",
+          "x": 6.0,
+          "y": 44.0
+        },
+        {
+          "id": "wide-C6",
+          "x": 9.0,
+          "y": 33.0
+        },
+        {
+          "id": "wide-C7",
+          "x": 11.0,
+          "y": 30.0
+        },
+        {
+          "id": "wide-C8",
+          "x": 14.0,
+          "y": 47.0
+        },
+        {
+          "id": "wide-GK",
+          "x": 3.0,
+          "y": 43.0
+        }
+      ],
+      "ball": {
+        "x": 3,
+        "y": 50,
+        "height": "unknown",
+        "screen": [
+          466,
+          174
+        ]
+      }
+    },
+    {
+      "id": "G09",
+      "time": 3715.6,
+      "shot": "wide",
+      "clock": "60:22",
+      "score": [
+        0,
+        0
+      ],
+      "image": {
+        "sha256": "5dedeb7ebb10bbbf68e8383c83db412f7b516062b55f53a282bb264675770a6f",
+        "bytes": 101199,
+        "sourcePts": 3715.6
+      },
+      "points": [
+        {
+          "id": "wide-B1",
+          "x": 19.0,
+          "y": 71.0
+        },
+        {
+          "id": "wide-B2",
+          "x": 24.0,
+          "y": 40.0
+        },
+        {
+          "id": "wide-B3",
+          "x": 3.0,
+          "y": 48.0
+        },
+        {
+          "id": "wide-B4",
+          "x": 7.0,
+          "y": 55.0
+        },
+        {
+          "id": "wide-B5",
+          "x": 10.0,
+          "y": 34.0
+        },
+        {
+          "id": "wide-B6",
+          "x": 11.0,
+          "y": 28.0
+        },
+        {
+          "id": "wide-C1",
+          "x": 18.0,
+          "y": 77.0
+        },
+        {
+          "id": "wide-C2",
+          "x": 10.0,
+          "y": 71.0
+        },
+        {
+          "id": "wide-C3",
+          "x": 3.0,
+          "y": 55.0
+        },
+        {
+          "id": "wide-C4",
+          "x": 6.0,
+          "y": 58.0
+        },
+        {
+          "id": "wide-C5",
+          "x": 6.0,
+          "y": 43.0
+        },
+        {
+          "id": "wide-C6",
+          "x": 9.0,
+          "y": 33.0
+        },
+        {
+          "id": "wide-C7",
+          "x": 11.0,
+          "y": 30.0
+        },
+        {
+          "id": "wide-C8",
+          "x": 14.0,
+          "y": 47.0
+        },
+        {
+          "id": "wide-GK",
+          "x": 3.0,
+          "y": 42.0
+        }
+      ],
+      "ball": null
+    },
+    {
+      "id": "G10",
+      "time": 3715.8,
+      "shot": "wide",
+      "clock": "60:22",
+      "score": [
+        0,
+        0
+      ],
+      "image": {
+        "sha256": "f1ecdf6b6c28c438a5ec643937bb6372aa4ea267fc287ff4e89082612d1847da",
+        "bytes": 100907,
+        "sourcePts": 3715.8
+      },
+      "points": [
+        {
+          "id": "wide-B1",
+          "x": 19.0,
+          "y": 70.0
+        },
+        {
+          "id": "wide-B2",
+          "x": 24.0,
+          "y": 40.0
+        },
+        {
+          "id": "wide-B3",
+          "x": 3.0,
+          "y": 48.0
+        },
+        {
+          "id": "wide-B4",
+          "x": 7.0,
+          "y": 55.0
+        },
+        {
+          "id": "wide-C1",
+          "x": 18.0,
+          "y": 76.0
+        },
+        {
+          "id": "wide-C2",
+          "x": 10.0,
+          "y": 70.0
+        },
+        {
+          "id": "wide-C3",
+          "x": 3.0,
+          "y": 54.0
+        },
+        {
+          "id": "wide-C4",
+          "x": 6.0,
+          "y": 58.0
+        },
+        {
+          "id": "wide-C5",
+          "x": 6.0,
+          "y": 43.0
+        },
+        {
+          "id": "wide-C8",
+          "x": 14.0,
+          "y": 46.0
+        },
+        {
+          "id": "wide-GK",
+          "x": 3.0,
+          "y": 42.0
+        }
+      ],
+      "ball": null
+    },
+    {
+      "id": "G11",
+      "time": 3716.0,
+      "shot": "wide",
+      "clock": "60:23",
+      "score": [
+        0,
+        0
+      ],
+      "image": {
+        "sha256": "4f3584946ba94d80717fcf75c3995a100732dcbe0ba49e09e2ea4b6ec7662ffe",
+        "bytes": 119014,
+        "sourcePts": 3716.0
+      },
+      "points": [
+        {
+          "id": "wide-B1",
+          "x": 19.0,
+          "y": 70.0
+        },
+        {
+          "id": "wide-B2",
+          "x": 24.0,
+          "y": 40.0
+        },
+        {
+          "id": "wide-B3",
+          "x": 3.0,
+          "y": 48.0
+        },
+        {
+          "id": "wide-B4",
+          "x": 7.0,
+          "y": 55.0
+        },
+        {
+          "id": "wide-C1",
+          "x": 18.0,
+          "y": 75.0
+        },
+        {
+          "id": "wide-C2",
+          "x": 10.0,
+          "y": 70.0
+        },
+        {
+          "id": "wide-C3",
+          "x": 3.0,
+          "y": 54.0
+        },
+        {
+          "id": "wide-C4",
+          "x": 6.0,
+          "y": 58.0
+        },
+        {
+          "id": "wide-C5",
+          "x": 6.0,
+          "y": 43.0
+        },
+        {
+          "id": "wide-C8",
+          "x": 14.0,
+          "y": 46.0
+        },
+        {
+          "id": "wide-GK",
+          "x": 3.0,
+          "y": 42.0
+        }
+      ],
+      "ball": {
+        "x": 7,
+        "y": 39,
+        "height": "unknown",
+        "screen": [
+          557,
+          160
+        ]
+      }
+    },
+    {
+      "id": "G12",
+      "time": 3716.2,
+      "shot": "wide",
+      "clock": "60:23",
+      "score": [
+        0,
+        0
+      ],
+      "image": {
+        "sha256": "c84c9840c7b64c994e00848f4cdda6ffc7c12e4f8006f5450dcd1654c45adb75",
+        "bytes": 110954,
+        "sourcePts": 3716.2
+      },
+      "points": [
+        {
+          "id": "wide-B1",
+          "x": 19.0,
+          "y": 69.0
+        },
+        {
+          "id": "wide-B2",
+          "x": 24.0,
+          "y": 40.0
+        },
+        {
+          "id": "wide-B3",
+          "x": 3.0,
+          "y": 48.0
+        },
+        {
+          "id": "wide-B4",
+          "x": 7.0,
+          "y": 56.0
+        },
+        {
+          "id": "wide-C1",
+          "x": 18.0,
+          "y": 74.0
+        },
+        {
+          "id": "wide-C2",
+          "x": 10.0,
+          "y": 69.0
+        },
+        {
+          "id": "wide-C3",
+          "x": 3.0,
+          "y": 54.0
+        },
+        {
+          "id": "wide-C4",
+          "x": 6.0,
+          "y": 58.0
+        },
+        {
+          "id": "wide-C5",
+          "x": 6.0,
+          "y": 43.0
+        },
+        {
+          "id": "wide-C8",
+          "x": 14.0,
+          "y": 46.0
+        },
+        {
+          "id": "wide-GK",
+          "x": 3.0,
+          "y": 42.0
+        }
+      ],
+      "ball": null
+    },
+    {
+      "id": "G13",
+      "time": 3716.4,
+      "shot": "wide",
+      "clock": "60:23",
+      "score": [
+        0,
+        0
+      ],
+      "image": {
+        "sha256": "e9c2dac7078706c7da20b80c3930095766f8839d3de35c2747972b039f9d357e",
+        "bytes": 113674,
+        "sourcePts": 3716.4
+      },
+      "points": [
+        {
+          "id": "wide-B1",
+          "x": 18.0,
+          "y": 69.0
+        },
+        {
+          "id": "wide-B2",
+          "x": 24.0,
+          "y": 40.0
+        },
+        {
+          "id": "wide-B3",
+          "x": 3.0,
+          "y": 49.0
+        },
+        {
+          "id": "wide-B4",
+          "x": 7.0,
+          "y": 57.0
+        },
+        {
+          "id": "wide-C1",
+          "x": 18.0,
+          "y": 73.0
+        },
+        {
+          "id": "wide-C2",
+          "x": 10.0,
+          "y": 68.0
+        },
+        {
+          "id": "wide-C3",
+          "x": 3.0,
+          "y": 54.0
+        },
+        {
+          "id": "wide-C4",
+          "x": 6.0,
+          "y": 59.0
+        },
+        {
+          "id": "wide-C5",
+          "x": 6.0,
+          "y": 43.0
+        },
+        {
+          "id": "wide-C8",
+          "x": 14.0,
+          "y": 46.0
+        },
+        {
+          "id": "wide-GK",
+          "x": 3.0,
+          "y": 42.0
+        }
+      ],
+      "ball": null
+    },
+    {
+      "id": "G14",
+      "time": 3716.6,
+      "shot": "wide",
+      "clock": "60:23",
+      "score": [
+        0,
+        0
+      ],
+      "image": {
+        "sha256": "a2b137c32f5ea35c28e9055bc972b395406e80e41f3d2fa285c9de8f99ebcd82",
+        "bytes": 112465,
+        "sourcePts": 3716.6
+      },
+      "points": [
+        {
+          "id": "wide-B1",
+          "x": 18.0,
+          "y": 68.0
+        },
+        {
+          "id": "wide-B2",
+          "x": 24.0,
+          "y": 40.0
+        },
+        {
+          "id": "wide-B3",
+          "x": 3.0,
+          "y": 49.0
+        },
+        {
+          "id": "wide-B4",
+          "x": 7.0,
+          "y": 57.0
+        },
+        {
+          "id": "wide-C1",
+          "x": 18.0,
+          "y": 72.0
+        },
+        {
+          "id": "wide-C2",
+          "x": 10.0,
+          "y": 68.0
+        },
+        {
+          "id": "wide-C3",
+          "x": 3.0,
+          "y": 54.0
+        },
+        {
+          "id": "wide-C4",
+          "x": 6.0,
+          "y": 59.0
+        },
+        {
+          "id": "wide-C5",
+          "x": 6.0,
+          "y": 43.0
+        },
+        {
+          "id": "wide-C8",
+          "x": 14.0,
+          "y": 46.0
+        },
+        {
+          "id": "wide-GK",
+          "x": 3.0,
+          "y": 43.0
+        }
+      ],
+      "ball": null
+    },
+    {
+      "id": "G15",
+      "time": 3716.8,
+      "shot": "wide",
+      "clock": "60:23",
+      "score": [
+        0,
+        0
+      ],
+      "image": {
+        "sha256": "212bb8491f77c1c32d38a607af313c3acdb5eba89d16bbeb71291894a312a2c1",
+        "bytes": 117757,
+        "sourcePts": 3716.8
+      },
+      "points": [
+        {
+          "id": "wide-B1",
+          "x": 18.0,
+          "y": 68.0
+        },
+        {
+          "id": "wide-B2",
+          "x": 24.0,
+          "y": 40.0
+        },
+        {
+          "id": "wide-B3",
+          "x": 3.0,
+          "y": 50.0
+        },
+        {
+          "id": "wide-B4",
+          "x": 7.0,
+          "y": 58.0
+        },
+        {
+          "id": "wide-C1",
+          "x": 18.0,
+          "y": 71.0
+        },
+        {
+          "id": "wide-C2",
+          "x": 10.0,
+          "y": 67.0
+        },
+        {
+          "id": "wide-C3",
+          "x": 3.0,
+          "y": 54.0
+        },
+        {
+          "id": "wide-C4",
+          "x": 6.0,
+          "y": 59.0
+        },
+        {
+          "id": "wide-C5",
+          "x": 6.0,
+          "y": 43.0
+        },
+        {
+          "id": "wide-C8",
+          "x": 14.0,
+          "y": 46.0
+        },
+        {
+          "id": "wide-GK",
+          "x": 3.0,
+          "y": 43.0
+        }
+      ],
+      "ball": null
+    },
+    {
+      "id": "G16",
+      "time": 3717.0,
+      "shot": "wide",
+      "clock": "60:24",
+      "score": [
+        0,
+        0
+      ],
+      "image": {
+        "sha256": "abc21843a115dcdf7c2a2bbff36cecd2d15f167b09ee9dc994bd5e349afaf956",
+        "bytes": 115319,
+        "sourcePts": 3717.0
+      },
+      "points": [
+        {
+          "id": "wide-B1",
+          "x": 18.0,
+          "y": 68.0
+        },
+        {
+          "id": "wide-B2",
+          "x": 24.0,
+          "y": 40.0
+        },
+        {
+          "id": "wide-B3",
+          "x": 3.0,
+          "y": 50.0
+        },
+        {
+          "id": "wide-B4",
+          "x": 7.0,
+          "y": 58.0
+        },
+        {
+          "id": "wide-C1",
+          "x": 18.0,
+          "y": 70.0
+        },
+        {
+          "id": "wide-C2",
+          "x": 10.0,
+          "y": 67.0
+        },
+        {
+          "id": "wide-C3",
+          "x": 3.0,
+          "y": 54.0
+        },
+        {
+          "id": "wide-C4",
+          "x": 6.0,
+          "y": 59.0
+        },
+        {
+          "id": "wide-C5",
+          "x": 6.0,
+          "y": 43.0
+        },
+        {
+          "id": "wide-C8",
+          "x": 14.0,
+          "y": 46.0
+        },
+        {
+          "id": "wide-GK",
+          "x": 3.0,
+          "y": 44.0
+        }
+      ],
+      "ball": null
+    },
+    {
+      "id": "G17",
+      "time": 3717.2,
+      "shot": "wide",
+      "clock": "60:24",
+      "score": [
+        0,
+        0
+      ],
+      "image": {
+        "sha256": "af472a7298297fec31ebe9e1af2a5d9c1d19b9d3df85fc5e2c9af6560d4e234c",
+        "bytes": 118322,
+        "sourcePts": 3717.2
+      },
+      "points": [
+        {
+          "id": "wide-B1",
+          "x": 18.0,
+          "y": 68.0
+        },
+        {
+          "id": "wide-B2",
+          "x": 24.0,
+          "y": 40.0
+        },
+        {
+          "id": "wide-B3",
+          "x": 3.0,
+          "y": 50.0
+        },
+        {
+          "id": "wide-B4",
+          "x": 7.0,
+          "y": 58.0
+        },
+        {
+          "id": "wide-C1",
+          "x": 18.0,
+          "y": 69.0
+        },
+        {
+          "id": "wide-C2",
+          "x": 10.0,
+          "y": 67.0
+        },
+        {
+          "id": "wide-C3",
+          "x": 3.0,
+          "y": 54.0
+        },
+        {
+          "id": "wide-C4",
+          "x": 6.0,
+          "y": 59.0
+        },
+        {
+          "id": "wide-C5",
+          "x": 6.0,
+          "y": 43.0
+        },
+        {
+          "id": "wide-C8",
+          "x": 14.0,
+          "y": 46.0
+        },
+        {
+          "id": "wide-GK",
+          "x": 3.0,
+          "y": 44.0
+        }
+      ],
+      "ball": null
+    },
+    {
+      "id": "G18",
+      "time": 3717.4,
+      "shot": "wide",
+      "clock": "60:24",
+      "score": [
+        0,
+        0
+      ],
+      "image": {
+        "sha256": "6377417bb76aae4a1b9aefab98837a4af551b51ff1665b830ddd27cecb07938a",
+        "bytes": 114651,
+        "sourcePts": 3717.4
+      },
+      "points": [
+        {
+          "id": "wide-B1",
+          "x": 18.0,
+          "y": 67.0
+        },
+        {
+          "id": "wide-B2",
+          "x": 24.0,
+          "y": 40.0
+        },
+        {
+          "id": "wide-B3",
+          "x": 2.0,
+          "y": 51.0
+        },
+        {
+          "id": "wide-B4",
+          "x": 7.0,
+          "y": 58.0
+        },
+        {
+          "id": "wide-C1",
+          "x": 18.0,
+          "y": 68.0
+        },
+        {
+          "id": "wide-C2",
+          "x": 10.0,
+          "y": 67.0
+        },
+        {
+          "id": "wide-C3",
+          "x": 3.0,
+          "y": 54.0
+        },
+        {
+          "id": "wide-C4",
+          "x": 6.0,
+          "y": 59.0
+        },
+        {
+          "id": "wide-C5",
+          "x": 6.0,
+          "y": 43.0
+        },
+        {
+          "id": "wide-C8",
+          "x": 14.0,
+          "y": 46.0
+        },
+        {
+          "id": "wide-GK",
+          "x": 3.0,
+          "y": 44.0
+        }
+      ],
+      "ball": null
+    },
+    {
+      "id": "G19",
+      "time": 3717.6,
+      "shot": "wide",
+      "clock": "60:24",
+      "score": [
+        0,
+        0
+      ],
+      "image": {
+        "sha256": "f4eba0fd01180b01bbc2de932d27340182777dee4e7b190fabd28e4d79392201",
+        "bytes": 121021,
+        "sourcePts": 3717.6
+      },
+      "points": [
+        {
+          "id": "wide-B1",
+          "x": 18.0,
+          "y": 67.0
+        },
+        {
+          "id": "wide-B2",
+          "x": 24.0,
+          "y": 40.0
+        },
+        {
+          "id": "wide-B3",
+          "x": 2.0,
+          "y": 52.0
+        },
+        {
+          "id": "wide-B4",
+          "x": 7.0,
+          "y": 58.0
+        },
+        {
+          "id": "wide-C1",
+          "x": 18.0,
+          "y": 67.0
+        },
+        {
+          "id": "wide-C2",
+          "x": 10.0,
+          "y": 66.0
+        },
+        {
+          "id": "wide-C3",
+          "x": 3.0,
+          "y": 54.0
+        },
+        {
+          "id": "wide-C4",
+          "x": 6.0,
+          "y": 59.0
+        },
+        {
+          "id": "wide-C5",
+          "x": 6.0,
+          "y": 43.0
+        },
+        {
+          "id": "wide-C8",
+          "x": 14.0,
+          "y": 46.0
+        },
+        {
+          "id": "wide-GK",
+          "x": 3.0,
+          "y": 45.0
+        }
+      ],
+      "ball": null
+    },
+    {
+      "id": "G20",
+      "time": 3717.8,
+      "shot": "wide",
+      "clock": "60:24",
+      "score": [
+        0,
+        0
+      ],
+      "image": {
+        "sha256": "a19d47e955b0d8376e836b9f4e03f0e81287ebda0baa2947c2ddaecbf2e3df2d",
+        "bytes": 116267,
+        "sourcePts": 3717.8
+      },
+      "points": [
+        {
+          "id": "wide-B1",
+          "x": 19.0,
+          "y": 66.0
+        },
+        {
+          "id": "wide-B2",
+          "x": 24.0,
+          "y": 40.0
+        },
+        {
+          "id": "wide-B3",
+          "x": 2.0,
+          "y": 53.0
+        },
+        {
+          "id": "wide-B4",
+          "x": 7.0,
+          "y": 58.0
+        },
+        {
+          "id": "wide-C1",
+          "x": 18.0,
+          "y": 66.0
+        },
+        {
+          "id": "wide-C2",
+          "x": 10.0,
+          "y": 66.0
+        },
+        {
+          "id": "wide-C3",
+          "x": 3.0,
+          "y": 54.0
+        },
+        {
+          "id": "wide-C4",
+          "x": 6.0,
+          "y": 59.0
+        },
+        {
+          "id": "wide-C5",
+          "x": 6.0,
+          "y": 43.0
+        },
+        {
+          "id": "wide-C8",
+          "x": 14.0,
+          "y": 46.0
+        },
+        {
+          "id": "wide-GK",
+          "x": 3.0,
+          "y": 45.0
+        }
+      ],
+      "ball": null
+    },
+    {
+      "id": "G21",
+      "time": 3718.0,
+      "shot": "wide",
+      "clock": "60:25",
+      "score": [
+        0,
+        0
+      ],
+      "image": {
+        "sha256": "af14c2f4b833e09b5a689480f9061602bae1689eb6dbf6aeeba5d5e3ae48bf15",
+        "bytes": 129290,
+        "sourcePts": 3718.0
+      },
+      "points": [
+        {
+          "id": "wide-B1",
+          "x": 19.0,
+          "y": 65.0
+        },
+        {
+          "id": "wide-B2",
+          "x": 24.0,
+          "y": 40.0
+        },
+        {
+          "id": "wide-B3",
+          "x": 2.0,
+          "y": 54.0
+        },
+        {
+          "id": "wide-B4",
+          "x": 7.0,
+          "y": 59.0
+        },
+        {
+          "id": "wide-C1",
+          "x": 18.0,
+          "y": 65.0
+        },
+        {
+          "id": "wide-C2",
+          "x": 10.0,
+          "y": 66.0
+        },
+        {
+          "id": "wide-C3",
+          "x": 3.0,
+          "y": 54.0
+        },
+        {
+          "id": "wide-C4",
+          "x": 6.0,
+          "y": 59.0
+        },
+        {
+          "id": "wide-C5",
+          "x": 6.0,
+          "y": 43.0
+        },
+        {
+          "id": "wide-C8",
+          "x": 14.0,
+          "y": 46.0
+        },
+        {
+          "id": "wide-GK",
+          "x": 3.0,
+          "y": 46.0
+        }
+      ],
+      "ball": null
+    },
+    {
+      "id": "G22",
+      "time": 3718.2,
+      "shot": "wide",
+      "clock": "60:25",
+      "score": [
+        0,
+        0
+      ],
+      "image": {
+        "sha256": "fa097b9d607679dc4db51872631efc1737227e75274d0d2c2c3175959c07b29a",
+        "bytes": 119104,
+        "sourcePts": 3718.2
+      },
+      "points": [
+        {
+          "id": "wide-B1",
+          "x": 19.0,
+          "y": 64.0
+        },
+        {
+          "id": "wide-B2",
+          "x": 24.0,
+          "y": 40.0
+        },
+        {
+          "id": "wide-B3",
+          "x": 2.0,
+          "y": 54.0
+        },
+        {
+          "id": "wide-B4",
+          "x": 8.0,
+          "y": 59.0
+        },
+        {
+          "id": "wide-C1",
+          "x": 18.0,
+          "y": 64.0
+        },
+        {
+          "id": "wide-C2",
+          "x": 10.0,
+          "y": 66.0
+        },
+        {
+          "id": "wide-C3",
+          "x": 3.0,
+          "y": 54.0
+        },
+        {
+          "id": "wide-C4",
+          "x": 6.0,
+          "y": 59.0
+        },
+        {
+          "id": "wide-C5",
+          "x": 6.0,
+          "y": 43.0
+        },
+        {
+          "id": "wide-C8",
+          "x": 14.0,
+          "y": 46.0
+        },
+        {
+          "id": "wide-GK",
+          "x": 3.0,
+          "y": 46.0
+        }
+      ],
+      "ball": null
+    },
+    {
+      "id": "G23",
+      "time": 3718.4,
+      "shot": "wide",
+      "clock": "60:25",
+      "score": [
+        0,
+        0
+      ],
+      "image": {
+        "sha256": "fec259ef198be81f300a65838a91ebdd091399060aca0430f111398fd0b57c66",
+        "bytes": 122093,
+        "sourcePts": 3718.4
+      },
+      "points": [
+        {
+          "id": "wide-B1",
+          "x": 19.0,
+          "y": 63.0
+        },
+        {
+          "id": "wide-B2",
+          "x": 24.0,
+          "y": 40.0
+        },
+        {
+          "id": "wide-B3",
+          "x": 2.0,
+          "y": 54.0
+        },
+        {
+          "id": "wide-B4",
+          "x": 9.0,
+          "y": 59.0
+        },
+        {
+          "id": "wide-C1",
+          "x": 18.0,
+          "y": 63.0
+        },
+        {
+          "id": "wide-C2",
+          "x": 10.0,
+          "y": 66.0
+        },
+        {
+          "id": "wide-C3",
+          "x": 3.0,
+          "y": 54.0
+        },
+        {
+          "id": "wide-C4",
+          "x": 6.0,
+          "y": 59.0
+        },
+        {
+          "id": "wide-C5",
+          "x": 6.0,
+          "y": 43.0
+        },
+        {
+          "id": "wide-C8",
+          "x": 14.0,
+          "y": 46.0
+        },
+        {
+          "id": "wide-GK",
+          "x": 3.0,
+          "y": 46.0
+        }
+      ],
+      "ball": null
+    },
+    {
+      "id": "G24",
+      "time": 3718.6,
+      "shot": "wide",
+      "clock": "60:25",
+      "score": [
+        0,
+        0
+      ],
+      "image": {
+        "sha256": "25a7cf15b7e485588690b90722be639adf099d399a6729da346c71ab509b543c",
+        "bytes": 114340,
+        "sourcePts": 3718.6
+      },
+      "points": [
+        {
+          "id": "wide-B1",
+          "x": 20.0,
+          "y": 62.0
+        },
+        {
+          "id": "wide-B2",
+          "x": 24.0,
+          "y": 40.0
+        },
+        {
+          "id": "wide-B3",
+          "x": 2.0,
+          "y": 54.0
+        },
+        {
+          "id": "wide-B4",
+          "x": 10.0,
+          "y": 59.0
+        },
+        {
+          "id": "wide-C1",
+          "x": 18.0,
+          "y": 62.0
+        },
+        {
+          "id": "wide-C2",
+          "x": 10.0,
+          "y": 66.0
+        },
+        {
+          "id": "wide-C3",
+          "x": 3.0,
+          "y": 54.0
+        },
+        {
+          "id": "wide-C4",
+          "x": 6.0,
+          "y": 59.0
+        },
+        {
+          "id": "wide-C5",
+          "x": 6.0,
+          "y": 43.0
+        },
+        {
+          "id": "wide-C8",
+          "x": 14.0,
+          "y": 46.0
+        },
+        {
+          "id": "wide-GK",
+          "x": 3.0,
+          "y": 46.0
+        }
+      ],
+      "ball": null
+    }
+  ],
+  "shots": [
+    {
+      "id": "corner",
+      "support": [
+        3712,
+        3714.4
+      ]
+    },
+    {
+      "id": "wide",
+      "support": [
+        3715,
+        3718.6
+      ]
+    }
+  ],
+  "cuts": [
+    {
+      "bounds": [
+        3714.92,
+        3714.96
+      ],
+      "from": "corner",
+      "to": "wide"
+    },
+    {
+      "bounds": [
+        3718.76,
+        3718.8
+      ],
+      "from": "wide",
+      "to": "celebration"
+    }
+  ],
+  "facts": [
+    {
+      "id": "setup",
+      "availableAt": 3714.4,
+      "evidenceIds": [
+        "G05"
+      ],
+      "text": "The corner-side shot shows a Brentford player beside the ball at the corner."
+    },
+    {
+      "id": "crowd",
+      "availableAt": 3715.4,
+      "evidenceIds": [
+        "G08"
+      ],
+      "text": "The wide shot shows both teams and the goalkeeper around the goalmouth."
+    },
+    {
+      "id": "reaction",
+      "availableAt": 3718.6,
+      "evidenceIds": [
+        "G24"
+      ],
+      "text": "An attacker is low near the left post while other players react. Exact contacts and goal time remain unverified."
+    }
+  ],
+  "limits": [
+    "Local retrospective manual reconstruction, not measured tracking or a live feed.",
+    "B/C labels are anonymous shot-local tracklets, not shirt numbers or a complete XI. No names propagate across cuts.",
+    "Player placements use visible feet/body bases and goal, six-yard box, penalty-area and touchline landmarks. Perspective and crowding leave broad, nonmetric uncertainty.",
+    "All samples are manually estimated layouts; interpolation only joins adjacent same-track, same-shot samples and uses a future endpoint. No observed running path or metric follows.",
+    "The airborne ball is only an apparent schematic projection; height and ground position are unknown. Ball observations are exact-frame only, with no held or interpolated flight.",
+    "Four crowded tracklets are withheld after 3715.6 because the sampled images do not support confident continuity. Other unrepresented/off-camera participants are unknown.",
+    "Setup is sparsely sampled; unreviewed setup intervals, camera cuts and the final close-up show no positions. This is not continuous or frame-complete source review.",
+    "Captured clock and score are exact-frame evidence only. Score changes, scorer/assist, contacts, tactics, speed and distance are not inferred.",
+    "Source use, hackathon submission and publication clearance remain separate; no source media enters the prototype."
+  ]
+}

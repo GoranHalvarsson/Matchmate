@@ -1,0 +1,198 @@
+{
+  "version": 1,
+  "binding": {
+    "datasetId": "brentford-existing-illustration",
+    "datasetVersion": "brent-full-v5-ff41c3cac15e52006a76eb134d34d45a64d45c0ad0b018f79fdd13639df10a13",
+    "streamId": "run-brent-full-v5-ff41c3cac15e",
+    "fixtureId": "fixture-pl-2645236",
+    "manifestRevision": 6,
+    "rosterSha256": "4822baadc4e7a1f740325100abc1cf8f759c0e980b17279d39621eaa9dbd34ae",
+    "sourceId": "official-record",
+    "sourceLocator": "data/official-match-records/brentford-chelsea-2026-09-18.json",
+    "sourceSha256": "c6dd8928c34d30b1d0a8f9f236e3e79cb01d846db190176250e503d689229691"
+  },
+  "sources": [
+    {
+      "id": "pl-lineups",
+      "url": "https://www.premierleague.com/en/match/2645236/brentford-vs-chelsea/lineups",
+      "reviewedOn": "2026-10-25",
+      "publishedOn": null
+    },
+    {
+      "id": "brentford-report",
+      "url": "https://www.brentfordfc.com/en/news/match-reports-brentford-3-chelsea-0-premier-league-jaidon-anthony-igor-thiago-fabio-carvalho",
+      "reviewedOn": "2026-10-25",
+      "publishedOn": "2026-09-18"
+    }
+  ],
+  "roles": [
+    {
+      "personId": "person-pl-reference-brentford-kayode",
+      "role": "right_back",
+      "scope": "starting_position",
+      "sourceId": "brentford-report",
+      "locator": "Selection paragraph; Kayode replaces Hickey at right back"
+    },
+    {
+      "personId": "person-pl-reference-brentford-yarmoliuk",
+      "role": "midfielder",
+      "scope": "match_report_description",
+      "sourceId": "brentford-report",
+      "locator": "Early chance passage identifying Yarmoliuk as a midfielder"
+    },
+    {
+      "personId": "person-pl-reference-brentford-damsgaard",
+      "role": "midfield",
+      "scope": "starting_line",
+      "sourceId": "brentford-report",
+      "locator": "Selection paragraph; Damsgaard joins the midfield"
+    },
+    {
+      "personId": "person-pl-reference-brentford-schade",
+      "role": "forward",
+      "scope": "match_report_description",
+      "sourceId": "brentford-report",
+      "locator": "Schade attempt preceding second goal; described as a forward"
+    },
+    {
+      "personId": "person-pl-reference-brentford-thiago",
+      "role": "striker",
+      "scope": "match_report_description",
+      "sourceId": "brentford-report",
+      "locator": "Thiago first-half hold-up passage; described as a striker"
+    },
+    {
+      "personId": "person-pl-reference-brentford-hickey",
+      "role": "defender",
+      "scope": "listed_category",
+      "sourceId": "pl-lineups",
+      "locator": "Substitute listing; Aaron Hickey; shirt 2"
+    },
+    {
+      "personId": "person-pl-reference-brentford-henry",
+      "role": "defender",
+      "scope": "listed_category",
+      "sourceId": "pl-lineups",
+      "locator": "Substitute listing; Rico Henry; shirt 3"
+    },
+    {
+      "personId": "person-pl-reference-brentford-ouattara",
+      "role": "forward",
+      "scope": "listed_category",
+      "sourceId": "pl-lineups",
+      "locator": "Substitute listing; Dango Ouattara; shirt 11"
+    },
+    {
+      "personId": "person-pl-reference-brentford-wilson",
+      "role": "forward",
+      "scope": "listed_category",
+      "sourceId": "pl-lineups",
+      "locator": "Substitute listing; Callum Wilson; shirt 13"
+    },
+    {
+      "personId": "person-pl-reference-brentford-carvalho",
+      "role": "midfielder",
+      "scope": "listed_category",
+      "sourceId": "pl-lineups",
+      "locator": "Substitute listing; Fábio Carvalho; shirt 14"
+    },
+    {
+      "personId": "person-pl-reference-brentford-sangare",
+      "role": "midfielder",
+      "scope": "listed_category",
+      "sourceId": "pl-lineups",
+      "locator": "Substitute listing; Mamadou Sangaré; shirt 18"
+    },
+    {
+      "personId": "person-pl-reference-brentford-diouf",
+      "role": "defender",
+      "scope": "listed_category",
+      "sourceId": "pl-lineups",
+      "locator": "Substitute listing; El Hadji Malick Diouf; shirt 25"
+    },
+    {
+      "personId": "person-pl-reference-brentford-balcombe",
+      "role": "goalkeeper",
+      "scope": "listed_category",
+      "sourceId": "pl-lineups",
+      "locator": "Substitute listing; Ellery Balcombe; shirt 31"
+    },
+    {
+      "personId": "person-pl-reference-brentford-fredrick",
+      "role": "defender",
+      "scope": "listed_category",
+      "sourceId": "pl-lineups",
+      "locator": "Substitute listing; Benjamin Fredrick; shirt 48"
+    },
+    {
+      "personId": "person-pl-reference-chelsea-neto",
+      "role": "winger",
+      "scope": "match_report_description",
+      "sourceId": "brentford-report",
+      "locator": "Neto chance passage identifying the Chelsea winger"
+    },
+    {
+      "personId": "person-pl-reference-chelsea-gittens",
+      "role": "forward",
+      "scope": "listed_category",
+      "sourceId": "pl-lineups",
+      "locator": "Substitute listing; Jamie Gittens; shirt 11"
+    },
+    {
+      "personId": "person-pl-reference-chelsea-hato",
+      "role": "defender",
+      "scope": "listed_category",
+      "sourceId": "pl-lineups",
+      "locator": "Substitute listing; Jorrel Hato; shirt 21"
+    },
+    {
+      "personId": "person-pl-reference-chelsea-quenda",
+      "role": "midfielder",
+      "scope": "listed_category",
+      "sourceId": "pl-lineups",
+      "locator": "Substitute listing; Geovany Quenda; shirt 23"
+    },
+    {
+      "personId": "person-pl-reference-chelsea-gusto",
+      "role": "defender",
+      "scope": "listed_category",
+      "sourceId": "pl-lineups",
+      "locator": "Substitute listing; Malo Gusto; shirt 27"
+    },
+    {
+      "personId": "person-pl-reference-chelsea-nicoll-jazuli",
+      "role": "midfielder",
+      "scope": "listed_category",
+      "sourceId": "pl-lineups",
+      "locator": "Substitute listing; Mahdi Nicoll-Jazuli; shirt 32"
+    },
+    {
+      "personId": "person-pl-reference-chelsea-acheampong",
+      "role": "defender",
+      "scope": "listed_category",
+      "sourceId": "pl-lineups",
+      "locator": "Substitute listing; Josh Acheampong; shirt 34"
+    },
+    {
+      "personId": "person-pl-reference-chelsea-penders",
+      "role": "goalkeeper",
+      "scope": "listed_category",
+      "sourceId": "pl-lineups",
+      "locator": "Substitute listing; Mike Penders; shirt 39"
+    },
+    {
+      "personId": "person-pl-reference-chelsea-estevao",
+      "role": "forward",
+      "scope": "listed_category",
+      "sourceId": "pl-lineups",
+      "locator": "Substitute listing; Estevao Willian; shirt 41"
+    },
+    {
+      "personId": "person-pl-reference-chelsea-lavia",
+      "role": "midfielder",
+      "scope": "listed_category",
+      "sourceId": "pl-lineups",
+      "locator": "Substitute listing; Romeo Lavia; shirt 45"
+    }
+  ]
+}

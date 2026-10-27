@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms</value></resheader>
+  <data name="LanguageLabel" xml:space="preserve"><value>Språk</value></data>
+  <data name="LanguageSaveFailed" xml:space="preserve"><value>Det gick inte att spara språket. Tillåt cookies och försök igen.</value></data>
+  <data name="Tagline" xml:space="preserve"><value>Lite närmare matchen.</value></data>
+  <data name="ExploreLeague" xml:space="preserve"><value>Utforska Premier League</value></data>
+  <data name="TesterPreview" xml:space="preserve"><value>Matchmate – testversion</value></data>
+  <data name="SignOut" xml:space="preserve"><value>Logga ut</value></data>
+  <data name="Footer" xml:space="preserve"><value>Samtal med matcher, lag och arenor – med fakta som grund.</value></data>
+  <data name="ConnectionInterrupted" xml:space="preserve"><value>Anslutningen avbröts.</value></data>
+  <data name="Reload" xml:space="preserve"><value>Ladda om</value></data>
+  <data name="Dismiss" xml:space="preserve"><value>Stäng</value></data>
+  <data name="SignInTitle" xml:space="preserve"><value>Logga in · Matchmate</value></data>
+  <data name="FootballTagline" xml:space="preserve"><value>Fotboll, i samtal.</value></data>
+  <data name="SignInHeading" xml:space="preserve"><value>Kom närmare spelet.</value></data>
+  <data name="SignInDescription" xml:space="preserve"><value>Logga in med den e-postadress som fick inbjudan. Microsoft skickar en engångskod. Du behöver inget lösenord till Matchmate.</value></data>
+  <data name="SignInEmail" xml:space="preserve"><value>Logga in med e-post</value></data>
+  <data name="SelectedTesters" xml:space="preserve"><value>Den här testversionen är för inbjudna testare. Registreringen är inte öppen för alla.</value></data>
+  <data name="AccessTitle" xml:space="preserve"><value>Åtkomst · Matchmate</value></data>
+  <data name="Preview" xml:space="preserve"><value>Matchmate – förhandsversion</value></data>
+  <data name="AccessHeading" xml:space="preserve"><value>Det här kontot saknar teståtkomst.</value></data>
+  <data name="AccessDescription" xml:space="preserve"><value>Använd kontot som fick inbjudan för att öppna testversionen. Kontakta personen som bjöd in dig om du trodde att du hade åtkomst.</value></data>
+  <data name="ReturnSignIn" xml:space="preserve"><value>Tillbaka till inloggningen</value></data>
+  <data name="AuthenticationErrorTitle" xml:space="preserve"><value>Inloggningen avbröts · Matchmate</value></data>
+  <data name="AuthenticationErrorHeading" xml:space="preserve"><value>Det gick inte att slutföra inloggningen.</value></data>
+  <data name="AuthenticationErrorDescription" xml:space="preserve"><value>Din inloggning kan ha gått ut eller avbrutits. Gå tillbaka till inloggningssidan och försök igen.</value></data>
+  <data name="ErrorTitle" xml:space="preserve"><value>Fel · Matchmate</value></data>
+  <data name="ErrorHeading" xml:space="preserve"><value>Det gick inte att öppna sidan.</value></data>
+  <data name="ErrorBeforeLink" xml:space="preserve"><value>Gå tillbaka till</value></data>
+  <data name="SignInLink" xml:space="preserve"><value>inloggningen</value></data>
+  <data name="ErrorAfterLink" xml:space="preserve"><value>och försök igen.</value></data>
+  <data name="RequestId" xml:space="preserve"><value>Förfrågans ID:</value></data>
+  <data name="NotFoundTitle" xml:space="preserve"><value>Sidan hittades inte · Matchmate</value></data>
+  <data name="NotFoundHeading" xml:space="preserve"><value>Sidan hittades inte.</value></data>
+  <data name="NotFoundDescription" xml:space="preserve"><value>Innehållet du söker finns inte.</value></data>
+  <data name="SignInContinue" xml:space="preserve"><value>Logga in för att fortsätta.</value></data>
+  <data name="SelectedPreview" xml:space="preserve"><value>Den här förhandsversionen av Matchmate är tillgänglig för inbjudna testare.</value></data>
+  <data name="GoSignIn" xml:space="preserve"><value>Till inloggningen</value></data>
+  <data name="ReconnectFirst" xml:space="preserve"><value>Återansluter till servern …</value></data>
+  <data name="ReconnectRepeatedBefore" xml:space="preserve"><value>Återanslutningen misslyckades. Försöker igen om </value></data>
+  <data name="ReconnectRepeatedAfter" xml:space="preserve"><value> sekunder.</value></data>
+  <data name="ReconnectFailed" xml:space="preserve"><value>Det gick inte att återansluta. Försök igen eller ladda om sidan.</value></data>
+  <data name="Retry" xml:space="preserve"><value>Försök igen</value></data>
+  <data name="SessionPaused" xml:space="preserve"><value>Servern har pausat sessionen.</value></data>
+  <data name="ResumeFailed" xml:space="preserve"><value>Det gick inte att återuppta sessionen. Försök igen eller ladda om sidan.</value></data>
+  <data name="Resume" xml:space="preserve"><value>Återuppta</value></data>
+  <data name="LinkExternal" xml:space="preserve"><value>Extern länk</value></data>
+  <data name="LinkExternalNewTab" xml:space="preserve"><value>Extern länk, öppnas i en ny flik</value></data>
+  <data name="LinkOpensEmail" xml:space="preserve"><value>Öppnar din e-postapp</value></data>
+  <data name="LinkOpensTelephone" xml:space="preserve"><value>Öppnar din telefonapp</value></data>
+  <data name="NavigationMenu" xml:space="preserve"><value>Meny</value></data>
+</root>

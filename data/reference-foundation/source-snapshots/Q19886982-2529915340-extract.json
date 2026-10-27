@@ -1,0 +1,246 @@
+{
+  "entities": {
+    "Q19886982": {
+      "pageid": 21530669,
+      "ns": 0,
+      "title": "Q19886982",
+      "lastrevid": 2529915340,
+      "modified": "2026-08-11T06:43:49Z",
+      "type": "item",
+      "id": "Q19886982",
+      "labels": {
+        "en": {
+          "language": "en",
+          "value": "2015–16 Liverpool F.C. season"
+        }
+      },
+      "claims": {
+        "P641": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P641",
+              "hash": "1624e15e061523279bc14bb6497168e45caacb32",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 2736,
+                  "id": "Q2736"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q19886982$BF60F394-2D8C-4CFD-898E-39A895BF8B64",
+            "rank": "normal"
+          }
+        ],
+        "P31": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P31",
+              "hash": "9ddb403180b684facfb50183c3b3a99ce0b171d1",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 26887310,
+                  "id": "Q26887310"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q19886982$77D44572-4ECE-4264-AC42-A2C9762ED0EB",
+            "rank": "normal"
+          }
+        ],
+        "P5138": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P5138",
+              "hash": "dbd8f17cda4fe4cd617e04b777c53c27d9ed43a0",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 1130849,
+                  "id": "Q1130849"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q19886982$4BE4712C-B61F-4518-99AE-11BDEE37CB4C",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "fa278ebfc458360e5aed63d5058cca83c46134f1",
+                "snaks": {
+                  "P143": [
+                    {
+                      "snaktype": "value",
+                      "property": "P143",
+                      "hash": "e4f6d9441d0600513c4533c672b5ab472dc73694",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 328,
+                          "id": "Q328"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P143"
+                ]
+              }
+            ]
+          }
+        ],
+        "P2348": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P2348",
+              "hash": "aa2170c45da73f28c5e261a9d37f3a75ef9799c5",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 53386085,
+                  "id": "Q53386085"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q19886982$3084F294-8D5B-4642-94EA-3FD96F4EEA84",
+            "rank": "normal"
+          }
+        ],
+        "P17": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P17",
+              "hash": "a44880420787fb348836dc51d3babc5227c4ef7e",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 145,
+                  "id": "Q145"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q19886982$E509B8A5-AD74-4589-ACA9-64BAED252A59",
+            "rank": "normal"
+          }
+        ],
+        "P155": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P155",
+              "hash": "524ae398eef07bba7bc5915bbe8f5ebbc40a61d6",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 16843947,
+                  "id": "Q16843947"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q19886982$ED0179FF-7353-4971-A4FD-02ABF6AC7BC7",
+            "rank": "normal"
+          }
+        ],
+        "P156": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P156",
+              "hash": "7e3c4fb2e7e556494479889c9f777e02a018ca57",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 24082345,
+                  "id": "Q24082345"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q19886982$FD206E58-DF57-4E92-9C3D-643B5CDB9AF3",
+            "rank": "normal"
+          }
+        ]
+      },
+      "sitelinks": {
+        "arwiki": {
+          "site": "arwiki",
+          "title": "ليفربول موسم 2015–16",
+          "badges": []
+        },
+        "bswiki": {
+          "site": "bswiki",
+          "title": "Liverpool FC – sezona 2015/2016.",
+          "badges": []
+        },
+        "enwiki": {
+          "site": "enwiki",
+          "title": "2015–16 Liverpool F.C. season",
+          "badges": []
+        },
+        "fawiki": {
+          "site": "fawiki",
+          "title": "باشگاه فوتبال لیورپول در فصل ۱۶–۲۰۱۵",
+          "badges": []
+        },
+        "frwiki": {
+          "site": "frwiki",
+          "title": "Saison 2015-2016 du Liverpool FC",
+          "badges": []
+        },
+        "huwiki": {
+          "site": "huwiki",
+          "title": "A Liverpool FC 2015–2016-os szezonja",
+          "badges": []
+        },
+        "itwiki": {
+          "site": "itwiki",
+          "title": "Liverpool Football Club 2015-2016",
+          "badges": []
+        },
+        "nlwiki": {
+          "site": "nlwiki",
+          "title": "Liverpool FC in het seizoen 2015/16",
+          "badges": []
+        },
+        "ruwiki": {
+          "site": "ruwiki",
+          "title": "ФК «Ливерпуль» в сезоне 2015/2016",
+          "badges": []
+        },
+        "thwiki": {
+          "site": "thwiki",
+          "title": "สโมสรฟุตบอลลิเวอร์พูลในฤดูกาล 2015–16",
+          "badges": []
+        }
+      }
+    }
+  }
+}

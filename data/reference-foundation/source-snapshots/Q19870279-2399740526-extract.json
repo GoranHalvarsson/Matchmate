@@ -1,0 +1,223 @@
+{
+  "entities": {
+    "Q19870279": {
+      "pageid": 21499225,
+      "ns": 0,
+      "title": "Q19870279",
+      "lastrevid": 2399740526,
+      "modified": "2025-09-02T20:56:57Z",
+      "type": "item",
+      "id": "Q19870279",
+      "labels": {
+        "en": {
+          "language": "en",
+          "value": "2015–16 A.F.C. Bournemouth season"
+        }
+      },
+      "claims": {
+        "P641": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P641",
+              "hash": "1624e15e061523279bc14bb6497168e45caacb32",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 2736,
+                  "id": "Q2736"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q19870279$F708E3F0-EE6E-46A8-B971-B85AC99CDE9D",
+            "rank": "normal"
+          }
+        ],
+        "P31": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P31",
+              "hash": "9ddb403180b684facfb50183c3b3a99ce0b171d1",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 26887310,
+                  "id": "Q26887310"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q19870279$6C209569-DBC8-4643-B324-6A1C58AE2CAA",
+            "rank": "normal"
+          }
+        ],
+        "P5138": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P5138",
+              "hash": "1794985ad456bd3abbd44789efa582df365d17d0",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 19568,
+                  "id": "Q19568"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q19870279$A9358056-BD7F-4CC6-94BB-B1F416DF04CC",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "fa278ebfc458360e5aed63d5058cca83c46134f1",
+                "snaks": {
+                  "P143": [
+                    {
+                      "snaktype": "value",
+                      "property": "P143",
+                      "hash": "e4f6d9441d0600513c4533c672b5ab472dc73694",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 328,
+                          "id": "Q328"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P143"
+                ]
+              }
+            ]
+          }
+        ],
+        "P2348": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P2348",
+              "hash": "aa2170c45da73f28c5e261a9d37f3a75ef9799c5",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 53386085,
+                  "id": "Q53386085"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q19870279$C399BFD5-7D73-4F34-B2ED-9C7B3A669CAB",
+            "rank": "normal"
+          }
+        ],
+        "P17": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P17",
+              "hash": "a44880420787fb348836dc51d3babc5227c4ef7e",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 145,
+                  "id": "Q145"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q19870279$0A7AE6F9-4829-4EC9-915F-DA6B0059C8B7",
+            "rank": "normal"
+          }
+        ],
+        "P155": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P155",
+              "hash": "7306bbbb13c0885c9e5e0f01639e9344a7f9b540",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 16987190,
+                  "id": "Q16987190"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q19870279$BB30232E-857A-498F-B004-FA944F57E4A6",
+            "rank": "normal"
+          }
+        ],
+        "P156": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P156",
+              "hash": "01e97247d9bd3367ccb3ebce66a2f21cce0bbf88",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 24083687,
+                  "id": "Q24083687"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q19870279$1A894AAE-FED6-4904-8300-F396254DE222",
+            "rank": "normal"
+          }
+        ],
+        "P2671": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P2671",
+              "hash": "f0bfa2e0b9331e3bcf407d242b82117167ab5987",
+              "datavalue": {
+                "value": "/g/11b865qyz3",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q19870279$FE950590-9025-4515-835B-BC9AE406D69C",
+            "rank": "normal"
+          }
+        ]
+      },
+      "sitelinks": {
+        "enwiki": {
+          "site": "enwiki",
+          "title": "2015–16 AFC Bournemouth season",
+          "badges": []
+        },
+        "zhwiki": {
+          "site": "zhwiki",
+          "title": "般尼茅夫2015年至2016年球季",
+          "badges": []
+        }
+      }
+    }
+  }
+}

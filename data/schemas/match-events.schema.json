@@ -1,0 +1,776 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Matchmate match-events contracts v0.3.0",
+  "$defs": {
+    "match_event": {
+      "type": "object",
+      "properties": {
+        "record_id": {
+          "$ref": "common.schema.json#/$defs/record_id"
+        },
+        "revision_id": {
+          "$ref": "common.schema.json#/$defs/record_id"
+        },
+        "supersedes_revision_id": {
+          "$ref": "common.schema.json#/$defs/supersedes_revision_id"
+        },
+        "kind": {
+          "const": "match_event"
+        },
+        "source_id": {
+          "$ref": "common.schema.json#/$defs/source_id"
+        },
+        "provenance": {
+          "$ref": "common.schema.json#/$defs/provenance"
+        },
+        "claim_status": {
+          "$ref": "common.schema.json#/$defs/claim_status"
+        },
+        "valid_from": {
+          "$ref": "common.schema.json#/$defs/valid_from"
+        },
+        "valid_to": {
+          "$ref": "common.schema.json#/$defs/valid_to"
+        },
+        "recorded_at": {
+          "$ref": "common.schema.json#/$defs/valid_from"
+        },
+        "published_at": {
+          "$ref": "common.schema.json#/$defs/valid_to"
+        },
+        "synthetic_released_at": {
+          "$ref": "common.schema.json#/$defs/valid_to"
+        },
+        "payload": {
+          "oneOf": [
+            {
+              "$ref": "#/$defs/pass_released"
+            },
+            {
+              "$ref": "#/$defs/pass_resolved"
+            },
+            {
+              "$ref": "#/$defs/interception"
+            },
+            {
+              "$ref": "#/$defs/foul"
+            },
+            {
+              "$ref": "#/$defs/card"
+            },
+            {
+              "$ref": "#/$defs/substitution"
+            },
+            {
+              "$ref": "#/$defs/goal"
+            },
+            {
+              "$ref": "#/$defs/interruption_started"
+            },
+            {
+              "$ref": "#/$defs/play_resumed"
+            },
+            {
+              "$ref": "#/$defs/penalty_decision"
+            },
+            {
+              "$ref": "#/$defs/penalty_attempt"
+            }
+          ]
+        }
+      },
+      "required": [
+        "record_id",
+        "revision_id",
+        "supersedes_revision_id",
+        "kind",
+        "source_id",
+        "provenance",
+        "claim_status",
+        "valid_from",
+        "valid_to",
+        "recorded_at",
+        "published_at",
+        "synthetic_released_at",
+        "payload"
+      ],
+      "additionalProperties": false,
+      "allOf": [
+        {
+          "if": {
+            "properties": {
+              "provenance": {
+                "const": "synthetic"
+              }
+            }
+          },
+          "then": {
+            "properties": {
+              "synthetic_released_at": {
+                "$ref": "common.schema.json#/$defs/valid_from"
+              },
+              "claim_status": {
+                "const": "authored"
+              }
+            }
+          },
+          "else": {
+            "properties": {
+              "synthetic_released_at": {
+                "type": "null"
+              }
+            }
+          }
+        }
+      ]
+    },
+    "pass_released": {
+      "type": "object",
+      "properties": {
+        "fixture_id": {
+          "type": "string",
+          "pattern": "^[a-z][a-z0-9-]*$",
+          "x-reference": "fixture"
+        },
+        "clock": {
+          "$ref": "common.schema.json#/$defs/clock"
+        },
+        "event_type": {
+          "const": "pass_released"
+        },
+        "details": {
+          "type": "object",
+          "properties": {
+            "player_id": {
+              "type": "string",
+              "pattern": "^[a-z][a-z0-9-]*$",
+              "x-reference": "person"
+            },
+            "team_id": {
+              "type": "string",
+              "pattern": "^[a-z][a-z0-9-]*$",
+              "x-reference": "club"
+            },
+            "recipient_id": {
+              "anyOf": [
+                {
+                  "type": "string",
+                  "pattern": "^[a-z][a-z0-9-]*$",
+                  "x-reference": "person"
+                },
+                {
+                  "type": "null"
+                }
+              ]
+            },
+            "start_position": {
+              "anyOf": [
+                {
+                  "$ref": "common.schema.json#/$defs/position"
+                },
+                {
+                  "type": "null"
+                }
+              ]
+            },
+            "intended_end_position": {
+              "anyOf": [
+                {
+                  "$ref": "common.schema.json#/$defs/position"
+                },
+                {
+                  "type": "null"
+                }
+              ]
+            }
+          },
+          "required": [
+            "player_id",
+            "team_id",
+            "recipient_id",
+            "start_position",
+            "intended_end_position"
+          ],
+          "additionalProperties": false
+        }
+      },
+      "required": [
+        "fixture_id",
+        "clock",
+        "event_type",
+        "details"
+      ],
+      "additionalProperties": false
+    },
+    "pass_resolved": {
+      "type": "object",
+      "properties": {
+        "fixture_id": {
+          "type": "string",
+          "pattern": "^[a-z][a-z0-9-]*$",
+          "x-reference": "fixture"
+        },
+        "clock": {
+          "$ref": "common.schema.json#/$defs/clock"
+        },
+        "event_type": {
+          "const": "pass_resolved"
+        },
+        "details": {
+          "type": "object",
+          "properties": {
+            "pass_event_id": {
+              "type": "string",
+              "pattern": "^[a-z][a-z0-9-]*$",
+              "x-reference": "match_event"
+            },
+            "outcome": {
+              "type": "string",
+              "enum": [
+                "completed",
+                "incomplete",
+                "out",
+                "offside",
+                "unknown"
+              ]
+            },
+            "recipient_id": {
+              "anyOf": [
+                {
+                  "type": "string",
+                  "pattern": "^[a-z][a-z0-9-]*$",
+                  "x-reference": "person"
+                },
+                {
+                  "type": "null"
+                }
+              ]
+            }
+          },
+          "required": [
+            "pass_event_id",
+            "outcome",
+            "recipient_id"
+          ],
+          "additionalProperties": false
+        }
+      },
+      "required": [
+        "fixture_id",
+        "clock",
+        "event_type",
+        "details"
+      ],
+      "additionalProperties": false
+    },
+    "interception": {
+      "type": "object",
+      "properties": {
+        "fixture_id": {
+          "type": "string",
+          "pattern": "^[a-z][a-z0-9-]*$",
+          "x-reference": "fixture"
+        },
+        "clock": {
+          "$ref": "common.schema.json#/$defs/clock"
+        },
+        "event_type": {
+          "const": "interception"
+        },
+        "details": {
+          "type": "object",
+          "properties": {
+            "player_id": {
+              "type": "string",
+              "pattern": "^[a-z][a-z0-9-]*$",
+              "x-reference": "person"
+            },
+            "team_id": {
+              "type": "string",
+              "pattern": "^[a-z][a-z0-9-]*$",
+              "x-reference": "club"
+            },
+            "pass_event_id": {
+              "type": "string",
+              "pattern": "^[a-z][a-z0-9-]*$",
+              "x-reference": "match_event"
+            }
+          },
+          "required": [
+            "player_id",
+            "team_id",
+            "pass_event_id"
+          ],
+          "additionalProperties": false
+        }
+      },
+      "required": [
+        "fixture_id",
+        "clock",
+        "event_type",
+        "details"
+      ],
+      "additionalProperties": false
+    },
+    "foul": {
+      "type": "object",
+      "properties": {
+        "fixture_id": {
+          "type": "string",
+          "pattern": "^[a-z][a-z0-9-]*$",
+          "x-reference": "fixture"
+        },
+        "clock": {
+          "$ref": "common.schema.json#/$defs/clock"
+        },
+        "event_type": {
+          "const": "foul"
+        },
+        "details": {
+          "type": "object",
+          "properties": {
+            "player_id": {
+              "type": "string",
+              "pattern": "^[a-z][a-z0-9-]*$",
+              "x-reference": "person"
+            },
+            "team_id": {
+              "type": "string",
+              "pattern": "^[a-z][a-z0-9-]*$",
+              "x-reference": "club"
+            },
+            "against_player_id": {
+              "anyOf": [
+                {
+                  "type": "string",
+                  "pattern": "^[a-z][a-z0-9-]*$",
+                  "x-reference": "person"
+                },
+                {
+                  "type": "null"
+                }
+              ]
+            },
+            "reason": {
+              "anyOf": [
+                {
+                  "type": "string",
+                  "minLength": 1
+                },
+                {
+                  "type": "null"
+                }
+              ]
+            }
+          },
+          "required": [
+            "player_id",
+            "team_id",
+            "against_player_id",
+            "reason"
+          ],
+          "additionalProperties": false
+        }
+      },
+      "required": [
+        "fixture_id",
+        "clock",
+        "event_type",
+        "details"
+      ],
+      "additionalProperties": false
+    },
+    "card": {
+      "type": "object",
+      "properties": {
+        "fixture_id": {
+          "type": "string",
+          "pattern": "^[a-z][a-z0-9-]*$",
+          "x-reference": "fixture"
+        },
+        "clock": {
+          "$ref": "common.schema.json#/$defs/clock"
+        },
+        "event_type": {
+          "const": "card"
+        },
+        "details": {
+          "type": "object",
+          "properties": {
+            "person_id": {
+              "type": "string",
+              "pattern": "^[a-z][a-z0-9-]*$",
+              "x-reference": "person"
+            },
+            "official_id": {
+              "type": "string",
+              "pattern": "^[a-z][a-z0-9-]*$",
+              "x-reference": "person"
+            },
+            "card": {
+              "type": "string",
+              "enum": [
+                "verbal_warning",
+                "yellow",
+                "second_yellow_dismissal",
+                "straight_red"
+              ]
+            },
+            "incident_event_id": {
+              "type": "string",
+              "pattern": "^[a-z][a-z0-9-]*$",
+              "x-reference": "match_event"
+            },
+            "reason": {
+              "anyOf": [
+                {
+                  "type": "string",
+                  "minLength": 1
+                },
+                {
+                  "type": "null"
+                }
+              ]
+            }
+          },
+          "required": [
+            "person_id",
+            "official_id",
+            "card",
+            "incident_event_id",
+            "reason"
+          ],
+          "additionalProperties": false
+        }
+      },
+      "required": [
+        "fixture_id",
+        "clock",
+        "event_type",
+        "details"
+      ],
+      "additionalProperties": false
+    },
+    "substitution": {
+      "type": "object",
+      "properties": {
+        "fixture_id": {
+          "type": "string",
+          "pattern": "^[a-z][a-z0-9-]*$",
+          "x-reference": "fixture"
+        },
+        "clock": {
+          "$ref": "common.schema.json#/$defs/clock"
+        },
+        "event_type": {
+          "const": "substitution"
+        },
+        "details": {
+          "type": "object",
+          "properties": {
+            "team_id": {
+              "type": "string",
+              "pattern": "^[a-z][a-z0-9-]*$",
+              "x-reference": "club"
+            },
+            "outgoing_id": {
+              "type": "string",
+              "pattern": "^[a-z][a-z0-9-]*$",
+              "x-reference": "person"
+            },
+            "incoming_id": {
+              "type": "string",
+              "pattern": "^[a-z][a-z0-9-]*$",
+              "x-reference": "person"
+            },
+            "group_id": {
+              "$ref": "common.schema.json#/$defs/record_id"
+            }
+          },
+          "required": [
+            "team_id",
+            "outgoing_id",
+            "incoming_id",
+            "group_id"
+          ],
+          "additionalProperties": false
+        }
+      },
+      "required": [
+        "fixture_id",
+        "clock",
+        "event_type",
+        "details"
+      ],
+      "additionalProperties": false
+    },
+    "goal": {
+      "type": "object",
+      "properties": {
+        "fixture_id": {
+          "type": "string",
+          "pattern": "^[a-z][a-z0-9-]*$",
+          "x-reference": "fixture"
+        },
+        "clock": {
+          "$ref": "common.schema.json#/$defs/clock"
+        },
+        "event_type": {
+          "const": "goal"
+        },
+        "details": {
+          "type": "object",
+          "properties": {
+            "team_id": {
+              "type": "string",
+              "pattern": "^[a-z][a-z0-9-]*$",
+              "x-reference": "club"
+            },
+            "scorer_id": {
+              "anyOf": [
+                {
+                  "type": "string",
+                  "pattern": "^[a-z][a-z0-9-]*$",
+                  "x-reference": "person"
+                },
+                {
+                  "type": "null"
+                }
+              ]
+            },
+            "decision": {
+              "type": "string",
+              "enum": [
+                "provisional",
+                "confirmed",
+                "disallowed"
+              ]
+            },
+            "own_goal": {
+              "type": "boolean"
+            }
+          },
+          "required": [
+            "team_id",
+            "scorer_id",
+            "decision",
+            "own_goal"
+          ],
+          "additionalProperties": false
+        }
+      },
+      "required": [
+        "fixture_id",
+        "clock",
+        "event_type",
+        "details"
+      ],
+      "additionalProperties": false
+    },
+    "interruption_started": {
+      "type": "object",
+      "properties": {
+        "fixture_id": {
+          "type": "string",
+          "pattern": "^[a-z][a-z0-9-]*$",
+          "x-reference": "fixture"
+        },
+        "clock": {
+          "$ref": "common.schema.json#/$defs/clock"
+        },
+        "event_type": {
+          "const": "interruption_started"
+        },
+        "details": {
+          "type": "object",
+          "properties": {
+            "cause": {
+              "type": "string",
+              "enum": [
+                "weather",
+                "injury",
+                "medical_emergency",
+                "crowd",
+                "pitch_incursion",
+                "equipment",
+                "var",
+                "other",
+                "unknown"
+              ]
+            },
+            "description": {
+              "type": "string",
+              "minLength": 1
+            }
+          },
+          "required": [
+            "cause",
+            "description"
+          ],
+          "additionalProperties": false
+        }
+      },
+      "required": [
+        "fixture_id",
+        "clock",
+        "event_type",
+        "details"
+      ],
+      "additionalProperties": false
+    },
+    "play_resumed": {
+      "type": "object",
+      "properties": {
+        "fixture_id": {
+          "type": "string",
+          "pattern": "^[a-z][a-z0-9-]*$",
+          "x-reference": "fixture"
+        },
+        "clock": {
+          "$ref": "common.schema.json#/$defs/clock"
+        },
+        "event_type": {
+          "const": "play_resumed"
+        },
+        "details": {
+          "type": "object",
+          "properties": {
+            "interruption_event_id": {
+              "type": "string",
+              "pattern": "^[a-z][a-z0-9-]*$",
+              "x-reference": "match_event"
+            }
+          },
+          "required": [
+            "interruption_event_id"
+          ],
+          "additionalProperties": false
+        }
+      },
+      "required": [
+        "fixture_id",
+        "clock",
+        "event_type",
+        "details"
+      ],
+      "additionalProperties": false
+    },
+    "penalty_decision": {
+      "type": "object",
+      "properties": {
+        "fixture_id": {
+          "type": "string",
+          "pattern": "^[a-z][a-z0-9-]*$",
+          "x-reference": "fixture"
+        },
+        "clock": {
+          "$ref": "common.schema.json#/$defs/clock"
+        },
+        "event_type": {
+          "const": "penalty_decision"
+        },
+        "details": {
+          "type": "object",
+          "properties": {
+            "team_id": {
+              "type": "string",
+              "pattern": "^[a-z][a-z0-9-]*$",
+              "x-reference": "club"
+            },
+            "decision": {
+              "type": "string",
+              "enum": [
+                "awarded",
+                "under_review",
+                "overturned",
+                "confirmed"
+              ]
+            },
+            "incident_event_id": {
+              "type": "string",
+              "pattern": "^[a-z][a-z0-9-]*$",
+              "x-reference": "match_event"
+            }
+          },
+          "required": [
+            "team_id",
+            "decision",
+            "incident_event_id"
+          ],
+          "additionalProperties": false
+        }
+      },
+      "required": [
+        "fixture_id",
+        "clock",
+        "event_type",
+        "details"
+      ],
+      "additionalProperties": false
+    },
+    "penalty_attempt": {
+      "type": "object",
+      "properties": {
+        "fixture_id": {
+          "type": "string",
+          "pattern": "^[a-z][a-z0-9-]*$",
+          "x-reference": "fixture"
+        },
+        "clock": {
+          "$ref": "common.schema.json#/$defs/clock"
+        },
+        "event_type": {
+          "const": "penalty_attempt"
+        },
+        "details": {
+          "type": "object",
+          "properties": {
+            "player_id": {
+              "type": "string",
+              "pattern": "^[a-z][a-z0-9-]*$",
+              "x-reference": "person"
+            },
+            "team_id": {
+              "type": "string",
+              "pattern": "^[a-z][a-z0-9-]*$",
+              "x-reference": "club"
+            },
+            "award_event_id": {
+              "type": "string",
+              "pattern": "^[a-z][a-z0-9-]*$",
+              "x-reference": "match_event"
+            },
+            "outcome": {
+              "type": "string",
+              "enum": [
+                "scored",
+                "saved",
+                "missed",
+                "retake",
+                "unknown"
+              ]
+            },
+            "shootout": {
+              "type": "boolean"
+            }
+          },
+          "required": [
+            "player_id",
+            "team_id",
+            "award_event_id",
+            "outcome",
+            "shootout"
+          ],
+          "additionalProperties": false
+        }
+      },
+      "required": [
+        "fixture_id",
+        "clock",
+        "event_type",
+        "details"
+      ],
+      "additionalProperties": false
+    }
+  }
+}

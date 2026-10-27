@@ -1,0 +1,19 @@
+@using Matchmate.Web.Localization
+@using Matchmate.Contracts
+@using Matchmate.Web.Experience
+<aside class="club-detail">
+@if (Snapshot.SelectedClub is { } facts) {
+<p class="eyebrow">@T("YourPlace")</p><CrestBadge Club="facts.Club" Class="detail-crest"/><h2>@facts.Club.Name</h2><p>@facts.Club.Town</p>
+<div class="club-stat-grid"><div><strong>@ExperiencePresentation.Rank(facts.Row)</strong><span>@T("Position")</span></div><div><strong>@facts.Row.Points</strong><span>@T("Points")</span></div><div><strong>@facts.Row.Played</strong><span>@T("Played")</span></div></div>
+<p class="snapshot-change">@T("ClubDateChange", ExperiencePresentation.Date(facts.Date, Language), facts.PointsChange, facts.PositionChange is null ? T("NoPreviousRank") : facts.PositionChange > 0 ? T("RankUp", facts.PositionChange) : facts.PositionChange < 0 ? T("RankDown", -facts.PositionChange) : T("RankUnchanged"))</p>
+@if (facts.Latest is { } match) { <a class="latest-match" href="@ExperiencePresentation.MatchUrl(Snapshot.Season.SeasonKey, match.MatchKey, Snapshot.DateIndex, facts.Club.Id)"><span class="eyebrow">@(T(match.Date == facts.Date ? "PlayedOnDate" : "LatestBeforeDate"))</span><small>@ExperiencePresentation.Date(match.Date, Language) · @T("FullTime")</small><span class="latest-match-teams"><CrestBadge Club="Club(match.Home)"/><strong>@match.HomeGoals – @match.AwayGoals</strong><CrestBadge Club="Club(match.Away)"/></span><span>@Club(match.Home).Name · @Club(match.Away).Name</span><b>@T("ExploreMatch")</b></a> } else { <p>@T("NoCompletedMatch")</p> }
+<section class="ground-card"><p class="eyebrow">@T("TalkGround")</p><h3>@facts.Club.Ground</h3><p>@T("GroundReference", facts.Club.Town, Snapshot.Season.Label)</p><p>@T("GroundMapNote")</p></section>
+@if (facts.Recent.Length > 0) { <h3>@T("RecentResults")</h3><div class="recent-results">@foreach (var result in facts.Recent) { <a @key="result.MatchKey" href="@ExperiencePresentation.MatchUrl(Snapshot.Season.SeasonKey, result.MatchKey, Snapshot.DateIndex, facts.Club.Id)"><small>@ExperiencePresentation.Date(result.Date, Language)</small><span>@Club(result.Home).Name @result.HomeGoals–@result.AwayGoals @Club(result.Away).Name</span></a> }</div> }
+} else { <p class="eyebrow">@T("ChooseClub")</p><h2>@T("TeamTown")</h2><p>@T("SelectClub")</p> }
+</aside>
+@code {
+    [CascadingParameter] public MatchLanguage Language { get; set; }
+    private string T(string key, params object?[] args) => LeagueText.Get(Language, key, args);
+    [Parameter, EditorRequired] public LeagueSeasonSnapshot Snapshot { get; set; } = default!;
+    private LeagueClub Club(string id) => Snapshot.Clubs.First(c => c.Id == id);
+}

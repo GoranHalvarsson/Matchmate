@@ -1,0 +1,53 @@
+@using Matchmate.Web.Localization
+@using Matchmate.Web.Experience
+<section class="highlight-panel">
+<button type="button" @ref="_disclosure" class="highlight-disclosure" aria-expanded="@ExperiencePresentation.Pressed(_mobileExpanded)" aria-controls="@_contentId" @onclick="ToggleHighlights"><span><strong>@T("MatchHighlights")</strong><small>@T("FullMatchSpoilerWarning")</small></span><svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true" focusable="false"><path d="m4 6 4 4 4-4" /></svg></button>
+<div class="highlight-heading"><div><p class="eyebrow">@T("MatchInMoments")</p><h2>@T("MatchHighlights")</h2></div><span>@T("RetrospectiveSpoilers")</span></div>
+<div id="@_contentId" class="highlight-content @(_mobileExpanded ? "is-open" : null)">
+<div class="highlight-filters" role="group" aria-label="@T("FilterHighlights")">@foreach (var filter in new[] { "goal", "substitution", "card", "completed_possession", "all", "pinned" }) { <button aria-pressed="@ExperiencePresentation.Pressed(_filter == filter)" @onclick="() => _filter = filter">@FilterLabel(filter)<span>@(CountsKnown ? Count(filter).ToString(MatchLanguages.Culture(Language)) : "—")</span></button> }</div>
+@if (IsLoading) { <p><LoadingStatus Text="@T("LoadingHighlights")"/></p> }
+else if (IsRefreshing) { <p><LoadingStatus Text="@T("RefreshingHighlights")"/></p> }
+@if (Status.Length > 0) { <p role="status">@Status</p> }
+<div class="highlight-list" aria-busy="@ExperiencePresentation.Pressed(IsLoading || IsRefreshing)">@if (IsLoading && Highlights.Count == 0) { @for (var i = 0; i < 3; i++) { <div class="highlight-placeholder" aria-hidden="true"><span></span><span></span><span></span></div> } }@foreach (var h in Visible) { <article @key="h.RecordId" class="highlight-item @(h.Kind == "goal" ? "is-goal" : "is-compact")"><div class="highlight-card-top"><span>@(h.GoalNumber is { } number ? T("GoalNumber", number) : FilterLabel(h.Kind)) · @h.ReportedClock</span>@if (h.ScoreAfter is not null) { <strong>@h.ScoreAfter<small>@T("ReportedAfterRelease")</small></strong> }</div><h3>@(h.Actor ?? ExperiencePresentation.HighlightLabel(h, Language))</h3><p>@(h.Assist is not null ? AssistLabel(h) : h.TeamName ?? T("SourceReportedEvent"))</p>@if (h.Decision is not null) { <small class="highlight-decision">@T("Decision", ReplayText.Value(Language, h.Decision))</small> }<button class="watch-highlight" aria-label="@T("WatchLabel", ExperiencePresentation.HighlightLabel(h, Language), h.ReportedClock)" @onclick="() => NavigateAsync(h)">@(h.Kind == "goal" ? T("WatchGoal") : T("ExploreMoment"))</button><div class="highlight-card-footer"><small>@T("HighlightClock", ExperiencePresentation.Clock(h.CursorMs), T(h.Kind == "completed_possession" ? "EligibleCompletion" : "AuthoredRelease"))</small><button class="pin-button" aria-label="@T("PinLabel", ExperiencePresentation.HighlightLabel(h, Language))" aria-pressed="@ExperiencePresentation.Pressed(_pins.Contains(h.RecordId))" @onclick="() => Pin(h.RecordId)">@(_pins.Contains(h.RecordId) ? "★" : "☆")</button></div></article> }</div><p class="highlight-boundary">@T("HighlightsBoundary")</p></div></section>
+@code {
+    [CascadingParameter] public MatchLanguage Language { get; set; }
+    private string T(string key, params object?[] args) => ReplayText.Get(Language, key, args);
+    [Parameter] public string ContextKey { get; set; } = "";
+    [Parameter] public IReadOnlyList<ReplayHighlight> Highlights { get; set; } = [];
+    [Parameter] public string Status { get; set; } = "";
+    [Parameter] public bool IsLoading { get; set; }
+    [Parameter] public bool IsRefreshing { get; set; }
+    [Parameter] public bool CountsKnown { get; set; } = true;
+    [Parameter] public EventCallback<ReplayHighlight> Navigate { get; set; }
+    private string _filter = "all", _lastKey = "";
+    private bool _initialFilter, _mobileExpanded, _restoreDisclosureFocus;
+    private ElementReference _disclosure;
+    private readonly string _contentId = $"match-highlights-{Guid.NewGuid():N}";
+    private readonly HashSet<string> _pins = [];
+    protected override void OnParametersSet()
+    {
+        if (_lastKey != ContextKey) { _lastKey = ContextKey; _pins.Clear(); _filter = "all"; _initialFilter = false; _mobileExpanded = false; _restoreDisclosureFocus = false; }
+        if (!_initialFilter && Highlights.Count > 0) { _filter = Highlights.Any(h => h.Kind == "goal") ? "goal" : "all"; _initialFilter = true; }
+    }
+    private IEnumerable<ReplayHighlight> Visible => Highlights.Where(h => _filter == "all" || (_filter == "pinned" ? _pins.Contains(h.RecordId) : _filter == "card" ? h.Kind.Contains("card", StringComparison.Ordinal) : h.Kind == _filter));
+    private int Count(string filter) => Highlights.Count(h => filter == "all" || (filter == "pinned" ? _pins.Contains(h.RecordId) : filter == "card" ? h.Kind.Contains("card", StringComparison.Ordinal) : h.Kind == filter));
+    private string FilterLabel(string filter) => filter is "red_card" or "var_decision" ? ReplayText.Kind(Language, filter)
+        : T(filter switch { "goal" => "FilterGoals", "substitution" => "FilterSubstitutions", "card" => "FilterCards", "completed_possession" => "FilterPossessions", "all" => "FilterAll", "pinned" => "FilterPinned", _ => filter.Contains("card", StringComparison.Ordinal) ? "FilterCard" : "KindReportedEvent" });
+    private string AssistLabel(ReplayHighlight highlight) => highlight.Kind == "goal" ? T("Assist", highlight.Assist)
+        : highlight.Kind == "completed_possession" ? T("CompletedSourceInterval")
+        : highlight.Kind == "substitution" && highlight.Assist?.StartsWith("For ", StringComparison.Ordinal) == true ? T("ForPlayer", highlight.Assist[4..]) : highlight.Assist ?? "";
+    private void Pin(string id) { if (!_pins.Add(id)) _pins.Remove(id); }
+    private void ToggleHighlights() => _mobileExpanded = !_mobileExpanded;
+    private Task NavigateAsync(ReplayHighlight highlight) { _restoreDisclosureFocus = _mobileExpanded; _mobileExpanded = false; return Navigate.InvokeAsync(highlight); }
+    protected override async Task OnAfterRenderAsync(bool firstRender)
+    {
+        if (!_restoreDisclosureFocus) return;
+        _restoreDisclosureFocus = false;
+        // F-MOB-001: restore focus after the selected card is hidden. The desktop disclosure stays display:none.
+        if (!_mobileExpanded)
+        {
+            try { await _disclosure.FocusAsync(preventScroll: false); }
+            catch (Microsoft.JSInterop.JSDisconnectedException) { }
+        }
+    }
+}

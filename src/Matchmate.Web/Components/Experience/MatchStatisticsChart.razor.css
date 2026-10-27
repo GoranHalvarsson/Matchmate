@@ -1,0 +1,13 @@
+.statistics-chart{margin:13px 0 10px;color:#203e35;min-width:0}
+.chart-toggle{display:flex;align-items:center;gap:14px;min-height:44px;padding:8px 12px;border:1px solid #cad3be;border-radius:7px;background:#f1f4e8;color:#335848;font:600 12px 'Segoe UI',sans-serif;cursor:pointer}
+.chart-toggle span{font-size:18px;font-weight:400}.chart-toggle:hover{background:#e8eedc}
+.chart-toggle:focus-visible,.chart-metrics button:focus-visible{outline:2px solid #849149;outline-offset:3px}
+.chart-figure{margin:12px 0 0;padding:18px;background:#f7f8ef;border:1px solid #d9ded3;border-radius:10px;min-width:0}
+figcaption{display:flex;justify-content:space-between;align-items:start;gap:16px;margin-bottom:18px}figcaption>div,figcaption p{min-width:0}
+.chart-generated{display:block;font:600 10px 'Segoe UI',sans-serif;letter-spacing:.08em;text-transform:uppercase;color:#536548}
+h3{font:600 18px/1.3 'Segoe UI',sans-serif;margin:5px 0 0}figcaption p{margin:0;text-align:right;font-size:11px;line-height:1.5;overflow-wrap:anywhere}figcaption p span{display:block;color:#586b60}
+.chart-metrics{display:flex;flex-wrap:wrap;gap:6px;margin:0 0 18px}.chart-metrics button{min-height:44px;padding:8px 11px;border:1px solid #cad3be;border-radius:6px;background:transparent;color:#335848;font:12px 'Segoe UI',sans-serif;cursor:pointer;white-space:normal}.chart-metrics button[aria-pressed=true]{background:#203e35;border-color:#203e35;color:#fffef9}
+.chart-rows{margin:0}.chart-row{margin-bottom:16px}.chart-row dt{font-weight:600;font-size:13px;overflow-wrap:anywhere}.chart-row dd{margin:5px 0 0;display:grid;grid-template-columns:minmax(0,1fr) auto;gap:5px 12px;align-items:baseline}.chart-value{font-size:17px;font-weight:600;font-variant-numeric:tabular-nums;overflow-wrap:anywhere}.chart-row small{font-size:11px;color:#586b60;text-align:right;overflow-wrap:anywhere}
+.chart-track{grid-column:1/-1;height:10px;background:#e2e7d9;border-radius:2px;overflow:hidden;border-left:1px solid #83937d}.chart-bar{height:100%;background:#42664e;border-radius:0 2px 2px 0}
+.chart-axis{display:flex;justify-content:space-between;margin-top:-9px;font-size:10px;font-variant-numeric:tabular-nums;color:#586b60}.chart-note{margin:14px 0 0;font-size:11px;line-height:1.5;color:#586b60}
+@media(max-width:600px){.chart-figure{padding:14px}figcaption{flex-direction:column;gap:8px}figcaption p{text-align:left}.chart-metrics{gap:5px}.chart-metrics button{flex:1 1 90px}.chart-row dd{grid-template-columns:minmax(0,1fr)}.chart-row small{text-align:left}.chart-track{grid-column:1}.chart-value{font-size:16px}}

@@ -1,0 +1,122 @@
+{
+  "entities": {
+    "Q140089076": {
+      "pageid": 133532014,
+      "ns": 0,
+      "title": "Q140089076",
+      "lastrevid": 2516898952,
+      "modified": "2026-07-13T04:05:06Z",
+      "type": "item",
+      "id": "Q140089076",
+      "labels": {
+        "en": {
+          "language": "en",
+          "value": "2026–27 Everton F.C. season"
+        }
+      },
+      "claims": {
+        "P641": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P641",
+              "hash": "1624e15e061523279bc14bb6497168e45caacb32",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 2736,
+                  "id": "Q2736"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q140089076$10f84300-4eca-49d0-bb90-2eb9a13ef3a4",
+            "rank": "normal"
+          }
+        ],
+        "P31": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P31",
+              "hash": "9ddb403180b684facfb50183c3b3a99ce0b171d1",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 26887310,
+                  "id": "Q26887310"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q140089076$d341ba12-8631-450c-a26c-c2ab1f1f5fe3",
+            "rank": "normal"
+          }
+        ],
+        "P5138": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P5138",
+              "hash": "f7df2cb396e635e494bce5dd2eaeeb72a41f2968",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 5794,
+                  "id": "Q5794"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q140089076$DE284B03-00AA-4482-BCE8-C2E8C5DECBB8",
+            "rank": "normal"
+          }
+        ],
+        "P2348": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P2348",
+              "hash": "33dc124fb8ec0bedb17f94adfe80c432678d5a4d",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 53389812,
+                  "id": "Q53389812"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q140089076$50682ec3-42f5-1661-cc52-2a7c5a1bce78",
+            "rank": "normal"
+          }
+        ]
+      },
+      "sitelinks": {
+        "enwiki": {
+          "site": "enwiki",
+          "title": "2026–27 Everton F.C. season",
+          "badges": []
+        },
+        "itwiki": {
+          "site": "itwiki",
+          "title": "Everton Football Club 2026-2027",
+          "badges": []
+        },
+        "ruwiki": {
+          "site": "ruwiki",
+          "title": "ФК «Эвертон» в сезоне 2026/2027",
+          "badges": []
+        }
+      }
+    }
+  }
+}

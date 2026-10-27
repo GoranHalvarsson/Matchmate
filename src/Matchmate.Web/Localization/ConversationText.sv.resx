@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms</value></resheader>
+  <data name="LeagueConversation" xml:space="preserve"><value>Samtal om Premier League</value></data>
+  <data name="ConversationWith" xml:space="preserve"><value>Ett samtal om {0}</value></data>
+  <data name="TheLeague" xml:space="preserve"><value>Premier League</value></data>
+  <data name="LeagueHeading" xml:space="preserve"><value>Vad vill du veta?</value></data>
+  <data name="LeagueWelcomeEyebrow" xml:space="preserve"><value>Din Matchmate</value></data>
+  <data name="LeagueWelcomeHeading" xml:space="preserve"><value>Var ska vi börja?</value></data>
+  <data name="ShowLeagueConversation" xml:space="preserve"><value>Öppna chatten</value></data>
+  <data name="HideLeagueConversation" xml:space="preserve"><value>Fäll ihop chatten</value></data>
+  <data name="NewChat" xml:space="preserve"><value>Ny chatt</value></data>
+  <data name="ContextUnavailable" xml:space="preserve"><value>Underlaget är inte tillgängligt</value></data>
+  <data name="OngoingSnapshot" xml:space="preserve"><value>Pågående säsong</value></data>
+  <data name="SourceThrough" xml:space="preserve"><value>Källan har resultat till och med {0}. Svaren gäller ditt valda datum.</value></data>
+  <data name="LeagueThread" xml:space="preserve"><value>Samtalstråd om Premier League</value></data>
+  <data name="ContextUpdating" xml:space="preserve"><value>Det valda underlaget uppdateras eller är inte tillgängligt. Tidigare svar behåller det datum som gällde när frågan ställdes.</value></data>
+  <data name="You" xml:space="preserve"><value>Du</value></data>
+  <data name="LeagueAskedAt" xml:space="preserve"><value>Frågad vid {0} · {1} · {2} · {3}</value></data>
+  <data name="SourceAnswer" xml:space="preserve"><value>Svar från underlaget</value></data>
+  <data name="MatchmateAi" xml:space="preserve"><value>Matchmate · AI</value></data>
+  <data name="Clarification" xml:space="preserve"><value>Förtydligande</value></data>
+  <data name="Unsupported" xml:space="preserve"><value>Saknar underlag</value></data>
+  <data name="Unavailable" xml:space="preserve"><value>Inte tillgängligt</value></data>
+  <data name="SupportingFactsCount" xml:space="preserve"><value>Underlag ({0})</value></data>
+  <data name="SupportingFacts" xml:space="preserve"><value>Underlag</value></data>
+  <data name="LeaguePending" xml:space="preserve"><value>Förbereder ett svar för det valda datumet…</value></data>
+  <data name="CancelReply" xml:space="preserve"><value>Avbryt svaret</value></data>
+  <data name="AskLeague" xml:space="preserve"><value>Fråga om Premier League eller den valda klubben</value></data>
+  <data name="LeaguePlaceholder" xml:space="preserve"><value>Fråga om laget, platsen eller säsongen…</value></data>
+  <data name="AskMatchmate" xml:space="preserve"><value>Fråga Matchmate</value></data>
+  <data name="LeagueDisclosure" xml:space="preserve"><value>AI-svar utgår från den valda vyn. Svaren på förslagen beräknas direkt från dess fakta.</value></data>
+  <data name="ReplyCancelled" xml:space="preserve"><value>Svaret avbröts.</value></data>
+  <data name="NewChatNotice" xml:space="preserve"><value>Ny chatt. Tidigare frågor och svar har rensats.</value></data>
+  <data name="LanguageChanged" xml:space="preserve"><value>Språket har ändrats till {0}. {1}</value></data>
+  <data name="EarlierLanguageKept" xml:space="preserve"><value>Tidigare svar behåller sitt ursprungliga språk.</value></data>
+  <data name="PendingCancelledDraft" xml:space="preserve"><value>Det pågående svaret avbröts. Ditt utkast och tidigare svar finns kvar.</value></data>
+  <data name="Table" xml:space="preserve"><value>Tabell</value></data>
+  <data name="ClubStanding" xml:space="preserve"><value>Klubbens tabelläge</value></data>
+  <data name="RecentResults" xml:space="preserve"><value>Senaste resultat</value></data>
+  <data name="DateChanges" xml:space="preserve"><value>Förändringar på speldagen</value></data>
+  <data name="GroundReference" xml:space="preserve"><value>Klubbens arena i underlaget</value></data>
+  <data name="Coverage" xml:space="preserve"><value>Underlagets omfattning</value></data>
+  <data name="MatchConversation" xml:space="preserve"><value>Samtal om matchen</value></data>
+  <data name="MatchEyebrow" xml:space="preserve"><value>Ett samtal om den här matchen</value></data>
+  <data name="MatchHeading" xml:space="preserve"><value>Vad berättar matchen?</value></data>
+  <data name="MatchWelcome" xml:space="preserve"><value>Utforska vad resultatet betydde och hur lagen kom till matchen.</value></data>
+  <data name="MatchmateSource" xml:space="preserve"><value>Matchmate · Svar från underlaget</value></data>
+  <data name="MatchmateClarification" xml:space="preserve"><value>Matchmate · Förtydligande</value></data>
+  <data name="MatchPending" xml:space="preserve"><value>Tittar närmare på matchen…</value></data>
+  <data name="AskMatch" xml:space="preserve"><value>Fråga om matchen</value></data>
+  <data name="MatchPlaceholder" xml:space="preserve"><value>Ställ en fråga eller följ upp…</value></data>
+  <data name="MatchDisconnected" xml:space="preserve"><value>AI-chatten är inte ansluten just nu. Matchfakta finns nedan.</value></data>
+  <data name="MatchFootnote" xml:space="preserve"><value>Öppna Underlag vid ett svar för att se vad det bygger på.</value></data>
+  <data name="Result" xml:space="preserve"><value>Resultat</value></data>
+  <data name="BeforeMatch" xml:space="preserve"><value>Före matchen</value></data>
+  <data name="EndDateStandings" xml:space="preserve"><value>Tabell vid dagens slut</value></data>
+  <data name="MeetingsGround" xml:space="preserve"><value>Tidigare möten / arenaunderlag</value></data>
+  <data name="BeforeFirstDate" xml:space="preserve"><value>Före den första speldagen</value></data>
+  <data name="ComparedWith" xml:space="preserve"><value>Jämfört med {0}</value></data>
+  <data name="ResultsOnDate" xml:space="preserve"><value>Resultat på detta datum</value></data>
+  <data name="NoResultsOnDate" xml:space="preserve"><value>Inga färdigspelade matcher finns för detta datum.</value></data>
+  <data name="UnchangedClubs" xml:space="preserve"><value>Klubbar utan förändring ({0})</value></data>
+  <data name="MovementLabel" xml:space="preserve"><value>Klubbarnas poäng och tabellförändringar</value></data>
+  <data name="MovementCaption" xml:space="preserve"><value>Klubbarnas poäng och tabellplatser</value></data>
+  <data name="Club" xml:space="preserve"><value>Klubb</value></data>
+  <data name="OnDate" xml:space="preserve"><value>På detta datum</value></data>
+  <data name="Played" xml:space="preserve"><value>Spelade</value></data>
+  <data name="Points" xml:space="preserve"><value>Poäng</value></data>
+  <data name="Position" xml:space="preserve"><value>Placering</value></data>
+  <data name="PlayedOnDate" xml:space="preserve"><value>Spelade</value></data>
+  <data name="DidNotPlay" xml:space="preserve"><value>Spelade inte</value></data>
+  <data name="Change" xml:space="preserve"><value>Förändring {0}</value></data>
+  <data name="AtMoment" xml:space="preserve"><value>I detta ögonblick · {0}</value></data>
+  <data name="ThisMoment" xml:space="preserve"><value>detta ögonblick</value></data>
+  <data name="AskContext" xml:space="preserve"><value>Fråga om detta underlag</value></data>
+  <data name="SourcePlaceholder" xml:space="preserve"><value>Fråga om laget, platsen eller ögonblicket…</value></data>
+  <data name="Ask" xml:space="preserve"><value>Fråga</value></data>
+  <data name="SourceDisclosure" xml:space="preserve"><value>Svaren beräknas i kod från tillgängliga data. Dessa frågor anropar ingen modell.</value></data>
+  <data name="SourceFallback" xml:space="preserve"><value>Jag kan svara på frågorna ovan utifrån det valda underlaget. Uppgifterna ger inte stöd för andra påståenden, laguppställningar eller taktiska förklaringar.</value></data>
+  <data name="SourceQuote" xml:space="preserve"><value>Ursprunglig källtext (engelska)</value></data>
+  <data name="ResponsePending" xml:space="preserve"><value>Matchmate svarar…</value></data>
+  <data name="Responding" xml:space="preserve"><value>Svarar…</value></data>
+</root>

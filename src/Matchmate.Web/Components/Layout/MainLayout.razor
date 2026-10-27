@@ -1,0 +1,11 @@
+@inherits LayoutComponentBase
+
+<AuthorizeView Policy="@ExternalIdAuthentication.TesterPolicy">
+    <Authorized><ShellHeader @rendermode="InteractiveServer" /></Authorized>
+    <NotAuthorized><ShellHeader Standalone="true" /></NotAuthorized>
+</AuthorizeView>
+@Body
+<AuthorizeView Policy="@ExternalIdAuthentication.TesterPolicy">
+    <Authorized><ShellFooter @rendermode="InteractiveServer" /></Authorized>
+    <NotAuthorized><ShellFooter /></NotAuthorized>
+</AuthorizeView>

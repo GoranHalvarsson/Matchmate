@@ -1,0 +1,2626 @@
+{
+  "version": 1,
+  "kind": "retrospective_candidate_passage_timeline",
+  "fixture": {
+    "id": "premier-league:2026-27:2026-09-18:brentford:chelsea",
+    "officialMatchId": 2645236,
+    "date": "2026-09-18",
+    "home": "Brentford",
+    "away": "Chelsea"
+  },
+  "source": {
+    "url": "https://www.brentfordfc.com/en/video/0_2hoy7vw7?provider=stream",
+    "ledger": {
+      "sha256": "ceeba5fb3da21483b48eb803c1dd3e8d06251d714df303e6e2720563213973db",
+      "bytes": 69569
+    },
+    "asr": {
+      "sha256": "6229d260ebaafbb528de8301fe53bcbf32a7d418b0a52c3b317f929d55c1e0c8",
+      "bytes": 1979834
+    },
+    "visual": {
+      "sha256": "0dfaa34e1d108d853867ea53e3fa46d160f35720ac02483a5fa7fd2640dfd56b",
+      "bytes": 27648
+    },
+    "reviewedBundle": {
+      "sha256": "c02321106f4e5b444ff7c0ba891fcca07ff40c7a945882c863861c281c6e0908",
+      "bytes": 8854
+    },
+    "audioSha256": "6ee38118ce9efe3695146e7c9ff8782c862f29c2cede5ebbbdd314524c15d244",
+    "videoSha256": "87b511b61f3d48e410294e06bf71bbc3a88c7b7ca6a50b89e572808c3e82711f"
+  },
+  "bounds": {
+    "start": 0,
+    "end": 5872.04644
+  },
+  "policy": {
+    "availability": "latest_support_end",
+    "reportsIncluded": false,
+    "liveKnownThen": false,
+    "completeIncidentFeed": false,
+    "movement": false
+  },
+  "passages": [
+    {
+      "id": "E-01",
+      "title": "Opening centre restart",
+      "text": "Centre positions give way to moving play around media 10–12 seconds.",
+      "uncertainty": "No visible clock at the restart; exact kickoff contact and 00:00 remain unverified.",
+      "reviewStatus": "coordinator_sampled_visual_observation",
+      "badges": [
+        "sampled_visual"
+      ],
+      "mediaInterval": [
+        8,
+        18
+      ],
+      "support": {
+        "asr": [
+          {
+            "id": "C00:S0001",
+            "start": 2.42,
+            "end": 10.88,
+            "role": "context"
+          },
+          {
+            "id": "C00:S0002",
+            "start": 10.88,
+            "end": 11.7,
+            "role": "context"
+          },
+          {
+            "id": "C00:S0003",
+            "start": 12.8,
+            "end": 15.96,
+            "role": "context"
+          },
+          {
+            "id": "C00:S0004",
+            "start": 16.62,
+            "end": 18.8,
+            "role": "context"
+          }
+        ],
+        "visual": [
+          {
+            "id": "V-PASS-01",
+            "start": 10,
+            "end": 13,
+            "scope": "reviewed_passages/V-PASS-01/observation: clearly in play by 13"
+          }
+        ]
+      },
+      "availableAt": 18.8,
+      "withheldReason": null
+    },
+    {
+      "id": "E-02",
+      "title": "Early goalkeeper-save candidate",
+      "text": "Recognition describes a strong goalkeeper save and a Neto-like shot attribution.",
+      "uncertainty": "Lavender keeper action/ball coming away is visible; exact save contact and Neto-like shooter attribution remain unverified. Later commentary/replay may revisit it.",
+      "reviewStatus": "worker_sampled_visual_scene_plus_provisional_asr_coordinator_accepted",
+      "badges": [
+        "sampled_visual",
+        "asr_candidate"
+      ],
+      "mediaInterval": [
+        550,
+        590
+      ],
+      "support": {
+        "asr": [
+          {
+            "id": "C01:S0050",
+            "start": 562.78,
+            "end": 566.88,
+            "role": "asr"
+          },
+          {
+            "id": "C01:S0052",
+            "start": 570.98,
+            "end": 574.3399999999999,
+            "role": "asr"
+          },
+          {
+            "id": "C01:S0055",
+            "start": 579.54,
+            "end": 583.46,
+            "role": "asr"
+          },
+          {
+            "id": "C01:S0047",
+            "start": 544.37,
+            "end": 552.48,
+            "role": "context"
+          },
+          {
+            "id": "C01:S0048",
+            "start": 552.48,
+            "end": 555.8399999999999,
+            "role": "context"
+          },
+          {
+            "id": "C01:S0049",
+            "start": 555.8399999999999,
+            "end": 561.26,
+            "role": "context"
+          },
+          {
+            "id": "C01:S0050",
+            "start": 562.78,
+            "end": 566.88,
+            "role": "context"
+          },
+          {
+            "id": "C01:S0051",
+            "start": 568.14,
+            "end": 570,
+            "role": "context"
+          },
+          {
+            "id": "C01:S0052",
+            "start": 570.98,
+            "end": 574.3399999999999,
+            "role": "context"
+          },
+          {
+            "id": "C01:S0053",
+            "start": 575,
+            "end": 577,
+            "role": "context"
+          },
+          {
+            "id": "C01:S0054",
+            "start": 577.76,
+            "end": 578.28,
+            "role": "context"
+          },
+          {
+            "id": "C01:S0055",
+            "start": 579.54,
+            "end": 583.46,
+            "role": "context"
+          },
+          {
+            "id": "C01:S0056",
+            "start": 583.46,
+            "end": 598.39,
+            "role": "context"
+          }
+        ],
+        "visual": [
+          {
+            "id": "W-PASS-01",
+            "start": 550,
+            "end": 590,
+            "scope": "reviewed_passages/W-PASS-01/media_interval"
+          }
+        ]
+      },
+      "availableAt": 598.39,
+      "withheldReason": null
+    },
+    {
+      "id": "E-03",
+      "title": "Set-piece and save discussion",
+      "text": "A stoppage/set-piece setup and a replay of earlier goalmouth/save action accompany commentary about a foul and a conditional possible goal.",
+      "uncertainty": "The PL transition at 624 and replay 626–638 show this is not an extra save event. KELLEHER 1 is a readable point identity at 622; exact earlier contact remains unverified.",
+      "reviewStatus": "worker_visual_replay_context_plus_provisional_asr_coordinator_accepted",
+      "badges": [
+        "sampled_visual",
+        "asr_candidate",
+        "replay"
+      ],
+      "mediaInterval": [
+        610,
+        650
+      ],
+      "support": {
+        "asr": [
+          {
+            "id": "C02:S0003",
+            "start": 615.79,
+            "end": 619.75,
+            "role": "asr"
+          },
+          {
+            "id": "C02:S0007",
+            "start": 635.65,
+            "end": 641.19,
+            "role": "asr"
+          },
+          {
+            "id": "C02:S0008",
+            "start": 641.61,
+            "end": 643.69,
+            "role": "asr"
+          },
+          {
+            "id": "C02:S0002",
+            "start": 607.14,
+            "end": 614.67,
+            "role": "context"
+          },
+          {
+            "id": "C02:S0003",
+            "start": 615.79,
+            "end": 619.75,
+            "role": "context"
+          },
+          {
+            "id": "C02:S0004",
+            "start": 620.77,
+            "end": 624.01,
+            "role": "context"
+          },
+          {
+            "id": "C02:S0005",
+            "start": 624.81,
+            "end": 629.39,
+            "role": "context"
+          },
+          {
+            "id": "C02:S0006",
+            "start": 629.39,
+            "end": 635.65,
+            "role": "context"
+          },
+          {
+            "id": "C02:S0007",
+            "start": 635.65,
+            "end": 641.19,
+            "role": "context"
+          },
+          {
+            "id": "C02:S0008",
+            "start": 641.61,
+            "end": 643.69,
+            "role": "context"
+          },
+          {
+            "id": "C02:S0009",
+            "start": 646.76,
+            "end": 651.86,
+            "role": "context"
+          }
+        ],
+        "visual": [
+          {
+            "id": "W-PASS-02",
+            "start": 610,
+            "end": 650,
+            "scope": "reviewed_passages/W-PASS-02/media_interval"
+          },
+          {
+            "id": "W-PER-01",
+            "start": 622,
+            "end": 622,
+            "scope": "visible_people/W-PER-01/media_pts"
+          }
+        ]
+      },
+      "availableAt": 651.86,
+      "withheldReason": null
+    },
+    {
+      "id": "E-04",
+      "title": "Previous-season goal discussion",
+      "text": "Recognition discusses a previous 2–2 fixture and an equalizer, rather than establishing a current-match goal.",
+      "uncertainty": "This is a transcript-context classification; the historical football claim itself is not freshly verified.",
+      "reviewStatus": "historical_discussion_excluded_from_current_event_count",
+      "badges": [
+        "asr_candidate",
+        "historical_discussion"
+      ],
+      "mediaInterval": [
+        890,
+        915
+      ],
+      "support": {
+        "asr": [
+          {
+            "id": "C02:S0050",
+            "start": 896.03,
+            "end": 899.79,
+            "role": "asr"
+          },
+          {
+            "id": "C03:S0002",
+            "start": 902.6,
+            "end": 908.68,
+            "role": "asr"
+          },
+          {
+            "id": "C02:S0050",
+            "start": 896.03,
+            "end": 899.79,
+            "role": "context"
+          },
+          {
+            "id": "C03:S0001",
+            "start": 899.84,
+            "end": 902.6,
+            "role": "context"
+          },
+          {
+            "id": "C03:S0002",
+            "start": 902.6,
+            "end": 908.68,
+            "role": "context"
+          },
+          {
+            "id": "C03:S0003",
+            "start": 908.68,
+            "end": 914,
+            "role": "context"
+          },
+          {
+            "id": "C03:S0004",
+            "start": 914,
+            "end": 926.96,
+            "role": "context"
+          }
+        ],
+        "visual": []
+      },
+      "availableAt": 926.96,
+      "withheldReason": null
+    },
+    {
+      "id": "E-C01",
+      "title": "Brentford repeated-corner pressure candidate",
+      "text": "Recognition describes a ball behind, corner delivery, further pressure and another corner, with near-post/unmarked-player analysis.",
+      "uncertainty": "No verified shot count, exact contact or actor identity. Analysis of previous corners is not an additional chance.",
+      "reviewStatus": "provisional_asr_candidate_not_visually_verified",
+      "badges": [
+        "asr_candidate"
+      ],
+      "mediaInterval": [
+        1248,
+        1335
+      ],
+      "support": {
+        "asr": [
+          {
+            "id": "C04:S0006",
+            "start": 1253.1,
+            "end": 1259.36,
+            "role": "asr"
+          },
+          {
+            "id": "C04:S0012",
+            "start": 1277.34,
+            "end": 1289.14,
+            "role": "asr"
+          },
+          {
+            "id": "C04:S0014",
+            "start": 1301.9,
+            "end": 1312.23,
+            "role": "asr"
+          },
+          {
+            "id": "C04:S0016",
+            "start": 1322.24,
+            "end": 1328.22,
+            "role": "asr"
+          },
+          {
+            "id": "C04:S0005",
+            "start": 1246.54,
+            "end": 1253.1,
+            "role": "context"
+          },
+          {
+            "id": "C04:S0006",
+            "start": 1253.1,
+            "end": 1259.36,
+            "role": "context"
+          },
+          {
+            "id": "C04:S0007",
+            "start": 1259.36,
+            "end": 1261.72,
+            "role": "context"
+          },
+          {
+            "id": "C04:S0008",
+            "start": 1262,
+            "end": 1266.36,
+            "role": "context"
+          },
+          {
+            "id": "C04:S0009",
+            "start": 1266.36,
+            "end": 1270.8,
+            "role": "context"
+          },
+          {
+            "id": "C04:S0010",
+            "start": 1270.8,
+            "end": 1271.32,
+            "role": "context"
+          },
+          {
+            "id": "C04:S0011",
+            "start": 1271.32,
+            "end": 1277.34,
+            "role": "context"
+          },
+          {
+            "id": "C04:S0012",
+            "start": 1277.34,
+            "end": 1289.14,
+            "role": "context"
+          },
+          {
+            "id": "C04:S0013",
+            "start": 1289.14,
+            "end": 1301.9,
+            "role": "context"
+          },
+          {
+            "id": "C04:S0014",
+            "start": 1301.9,
+            "end": 1312.23,
+            "role": "context"
+          },
+          {
+            "id": "C04:S0015",
+            "start": 1312.23,
+            "end": 1322.24,
+            "role": "context"
+          },
+          {
+            "id": "C04:S0016",
+            "start": 1322.24,
+            "end": 1328.22,
+            "role": "context"
+          },
+          {
+            "id": "C04:S0017",
+            "start": 1329.18,
+            "end": 1334.24,
+            "role": "context"
+          }
+        ],
+        "visual": []
+      },
+      "availableAt": 1335,
+      "withheldReason": null
+    },
+    {
+      "id": "E-C02",
+      "title": "Chelsea free-kick setup candidate",
+      "text": "Recognition describes a disputed Chelsea free kick near the area and subsequent goalkeeper/wall-position discussion.",
+      "uncertainty": "A penalty-area concern in speech does not establish a penalty. No kick contact, save, outcome or exact position verified.",
+      "reviewStatus": "provisional_asr_candidate_not_visually_verified",
+      "badges": [
+        "asr_candidate"
+      ],
+      "mediaInterval": [
+        1690,
+        1785
+      ],
+      "support": {
+        "asr": [
+          {
+            "id": "C05:S0028",
+            "start": 1694.57,
+            "end": 1700.17,
+            "role": "asr"
+          },
+          {
+            "id": "C05:S0035",
+            "start": 1749.96,
+            "end": 1763.54,
+            "role": "asr"
+          },
+          {
+            "id": "C05:S0037",
+            "start": 1769.46,
+            "end": 1775.6399999999999,
+            "role": "asr"
+          },
+          {
+            "id": "C05:S0038",
+            "start": 1775.6399999999999,
+            "end": 1778.8,
+            "role": "asr"
+          },
+          {
+            "id": "C05:S0027",
+            "start": 1688.19,
+            "end": 1694.57,
+            "role": "context"
+          },
+          {
+            "id": "C05:S0028",
+            "start": 1694.57,
+            "end": 1700.17,
+            "role": "context"
+          },
+          {
+            "id": "C05:S0029",
+            "start": 1700.17,
+            "end": 1708.24,
+            "role": "context"
+          },
+          {
+            "id": "C05:S0030",
+            "start": 1708.24,
+            "end": 1723.38,
+            "role": "context"
+          },
+          {
+            "id": "C05:S0031",
+            "start": 1723.56,
+            "end": 1729.38,
+            "role": "context"
+          },
+          {
+            "id": "C05:S0032",
+            "start": 1729.38,
+            "end": 1734.54,
+            "role": "context"
+          },
+          {
+            "id": "C05:S0033",
+            "start": 1734.54,
+            "end": 1740.26,
+            "role": "context"
+          },
+          {
+            "id": "C05:S0034",
+            "start": 1741.78,
+            "end": 1749.96,
+            "role": "context"
+          },
+          {
+            "id": "C05:S0035",
+            "start": 1749.96,
+            "end": 1763.54,
+            "role": "context"
+          },
+          {
+            "id": "C05:S0036",
+            "start": 1763.54,
+            "end": 1769.46,
+            "role": "context"
+          },
+          {
+            "id": "C05:S0037",
+            "start": 1769.46,
+            "end": 1775.6399999999999,
+            "role": "context"
+          },
+          {
+            "id": "C05:S0038",
+            "start": 1775.6399999999999,
+            "end": 1778.8,
+            "role": "context"
+          },
+          {
+            "id": "C05:S0039",
+            "start": 1781.01,
+            "end": 1795.4,
+            "role": "context"
+          }
+        ],
+        "visual": []
+      },
+      "availableAt": 1795.4,
+      "withheldReason": null
+    },
+    {
+      "id": "E-05",
+      "title": "Routine-save candidate",
+      "text": "A red/white attack reaches the image-right penalty area; the green keeper is holding the ball by 2187–2188, followed by replay.",
+      "uncertainty": "THIAGO 9 / COLWILL 6 are legible at 2175 only. Exact shot/save contact and the unnamed live green keeper are not identified by face.",
+      "reviewStatus": "worker_sampled_visual_sequence_plus_provisional_asr_coordinator_accepted",
+      "badges": [
+        "sampled_visual",
+        "asr_candidate",
+        "replay"
+      ],
+      "mediaInterval": [
+        2175,
+        2195
+      ],
+      "support": {
+        "asr": [
+          {
+            "id": "C07:S0020",
+            "start": 2181.04,
+            "end": 2188.26,
+            "role": "asr"
+          },
+          {
+            "id": "C07:S0020",
+            "start": 2181.04,
+            "end": 2188.26,
+            "role": "context"
+          },
+          {
+            "id": "C07:S0021",
+            "start": 2189.84,
+            "end": 2193.62,
+            "role": "context"
+          },
+          {
+            "id": "C07:S0022",
+            "start": 2194.58,
+            "end": 2197.22,
+            "role": "context"
+          }
+        ],
+        "visual": [
+          {
+            "id": "W-PASS-03",
+            "start": 2175,
+            "end": 2195,
+            "scope": "reviewed_passages/W-PASS-03/media_interval"
+          },
+          {
+            "id": "W-PER-02",
+            "start": 2175,
+            "end": 2175,
+            "scope": "visible_people/W-PER-02/media_pts"
+          },
+          {
+            "id": "W-PER-03",
+            "start": 2175,
+            "end": 2175,
+            "scope": "visible_people/W-PER-03/media_pts"
+          }
+        ]
+      },
+      "availableAt": 2197.22,
+      "withheldReason": null
+    },
+    {
+      "id": "E-C03",
+      "title": "Late first-half attempt-analysis candidate",
+      "text": "Keeper-position analysis refers to a Lewis-Potter-like player's shot, suggesting a recent first-half attempt worth checking.",
+      "uncertainty": "The speech is retrospective and noisy; the original action locator, shooter and outcome are unverified. This is not automatically a new live shot.",
+      "reviewStatus": "provisional_asr_candidate_not_visually_verified",
+      "badges": [
+        "asr_candidate"
+      ],
+      "mediaInterval": [
+        2540,
+        2605
+      ],
+      "support": {
+        "asr": [
+          {
+            "id": "C08:S0024",
+            "start": 2568.55,
+            "end": 2600.02,
+            "role": "asr"
+          },
+          {
+            "id": "C08:S0019",
+            "start": 2528.14,
+            "end": 2545.84,
+            "role": "context"
+          },
+          {
+            "id": "C08:S0020",
+            "start": 2545.84,
+            "end": 2554.27,
+            "role": "context"
+          },
+          {
+            "id": "C08:S0021",
+            "start": 2554.27,
+            "end": 2558.87,
+            "role": "context"
+          },
+          {
+            "id": "C08:S0022",
+            "start": 2558.87,
+            "end": 2564.23,
+            "role": "context"
+          },
+          {
+            "id": "C08:S0023",
+            "start": 2564.23,
+            "end": 2568.55,
+            "role": "context"
+          },
+          {
+            "id": "C08:S0024",
+            "start": 2568.55,
+            "end": 2600.02,
+            "role": "context"
+          },
+          {
+            "id": "C08:S0025",
+            "start": 2600.02,
+            "end": 2611.42,
+            "role": "context"
+          }
+        ],
+        "visual": []
+      },
+      "availableAt": 2611.42,
+      "withheldReason": null
+    },
+    {
+      "id": "E-06",
+      "title": "Edited halftime transition",
+      "text": "The first-half display at 2780 is followed by centre restart setup and a Second Half lower third; the edit lies after 2780 and by 2785.",
+      "uncertainty": "This locates an edited broadcast boundary, not the exact second-half kickoff/contact time.",
+      "reviewStatus": "coordinator_sampled_visual_observation",
+      "badges": [
+        "sampled_visual"
+      ],
+      "mediaInterval": [
+        2775,
+        2835
+      ],
+      "support": {
+        "asr": [
+          {
+            "id": "C09:S0014",
+            "start": 2776.43,
+            "end": 2781.47,
+            "role": "context"
+          },
+          {
+            "id": "C09:S0015",
+            "start": 2781.47,
+            "end": 2786.21,
+            "role": "context"
+          },
+          {
+            "id": "C09:S0016",
+            "start": 2786.21,
+            "end": 2797.76,
+            "role": "context"
+          },
+          {
+            "id": "C09:S0017",
+            "start": 2797.76,
+            "end": 2802.36,
+            "role": "context"
+          },
+          {
+            "id": "C09:S0018",
+            "start": 2802.36,
+            "end": 2809.32,
+            "role": "context"
+          },
+          {
+            "id": "C09:S0019",
+            "start": 2809.32,
+            "end": 2814.98,
+            "role": "context"
+          },
+          {
+            "id": "C09:S0020",
+            "start": 2814.98,
+            "end": 2820.95,
+            "role": "context"
+          },
+          {
+            "id": "C09:S0021",
+            "start": 2820.95,
+            "end": 2824.75,
+            "role": "context"
+          },
+          {
+            "id": "C09:S0022",
+            "start": 2824.75,
+            "end": 2833.56,
+            "role": "context"
+          },
+          {
+            "id": "C09:S0023",
+            "start": 2833.56,
+            "end": 2837.54,
+            "role": "context"
+          }
+        ],
+        "visual": [
+          {
+            "id": "V-PASS-02",
+            "start": 2780,
+            "end": 2805,
+            "scope": "reviewed_passages/V-PASS-02/observation: lower third at 2800 and 2805"
+          },
+          {
+            "id": "V-CLK-09",
+            "start": 2780,
+            "end": 2780,
+            "scope": "clock_anchors/V-CLK-09/media_pts"
+          },
+          {
+            "id": "V-CLK-10",
+            "start": 2820,
+            "end": 2820,
+            "scope": "clock_anchors/V-CLK-10/media_pts"
+          },
+          {
+            "id": "V-CLK-11",
+            "start": 2830,
+            "end": 2830,
+            "scope": "clock_anchors/V-CLK-11/media_pts"
+          }
+        ]
+      },
+      "availableAt": 2837.54,
+      "withheldReason": null
+    },
+    {
+      "id": "E-C04",
+      "title": "Early second-half deflected-effort candidate",
+      "text": "Recognition describes an effort deflecting behind and subsequent Chelsea corner/short-corner play.",
+      "uncertainty": "No exact shot/deflection contact or verified corner total. Generic intensity comments are context, not extra incidents.",
+      "reviewStatus": "provisional_asr_candidate_not_visually_verified",
+      "badges": [
+        "asr_candidate"
+      ],
+      "mediaInterval": [
+        3150,
+        3200
+      ],
+      "support": {
+        "asr": [
+          {
+            "id": "C10:S0037",
+            "start": 3157.84,
+            "end": 3162.48,
+            "role": "asr"
+          },
+          {
+            "id": "C10:S0038",
+            "start": 3163.44,
+            "end": 3167,
+            "role": "asr"
+          },
+          {
+            "id": "C10:S0043",
+            "start": 3189.88,
+            "end": 3192.44,
+            "role": "asr"
+          },
+          {
+            "id": "C10:S0035",
+            "start": 3149.08,
+            "end": 3154.76,
+            "role": "context"
+          },
+          {
+            "id": "C10:S0036",
+            "start": 3154.76,
+            "end": 3157.08,
+            "role": "context"
+          },
+          {
+            "id": "C10:S0037",
+            "start": 3157.84,
+            "end": 3162.48,
+            "role": "context"
+          },
+          {
+            "id": "C10:S0038",
+            "start": 3163.44,
+            "end": 3167,
+            "role": "context"
+          },
+          {
+            "id": "C10:S0039",
+            "start": 3167.86,
+            "end": 3171.72,
+            "role": "context"
+          },
+          {
+            "id": "C10:S0040",
+            "start": 3171.72,
+            "end": 3177.76,
+            "role": "context"
+          },
+          {
+            "id": "C10:S0041",
+            "start": 3177.76,
+            "end": 3184.08,
+            "role": "context"
+          },
+          {
+            "id": "C10:S0042",
+            "start": 3184.08,
+            "end": 3188.04,
+            "role": "context"
+          },
+          {
+            "id": "C10:S0043",
+            "start": 3189.88,
+            "end": 3192.44,
+            "role": "context"
+          },
+          {
+            "id": "C10:S0044",
+            "start": 3193.18,
+            "end": 3197.6,
+            "role": "context"
+          },
+          {
+            "id": "C10:S0045",
+            "start": 3198.26,
+            "end": 3201.16,
+            "role": "context"
+          }
+        ],
+        "visual": []
+      },
+      "availableAt": 3201.16,
+      "withheldReason": null
+    },
+    {
+      "id": "E-07",
+      "title": "Second-half Chelsea break candidate",
+      "text": "Recognition describes a Chelsea break, players waiting for a ball across and a Chavarria-like attacker choosing an attempt.",
+      "uncertainty": "No exact shot contact, player join or outcome established by speech; source passage remains available for review.",
+      "reviewStatus": "provisional_asr_candidate_not_visually_verified",
+      "badges": [
+        "asr_candidate"
+      ],
+      "mediaInterval": [
+        3618,
+        3635
+      ],
+      "support": {
+        "asr": [
+          {
+            "id": "C12:S0004",
+            "start": 3623.91,
+            "end": 3627.97,
+            "role": "asr"
+          },
+          {
+            "id": "C12:S0005",
+            "start": 3627.97,
+            "end": 3631.07,
+            "role": "asr"
+          },
+          {
+            "id": "C12:S0004",
+            "start": 3623.91,
+            "end": 3627.97,
+            "role": "context"
+          },
+          {
+            "id": "C12:S0005",
+            "start": 3627.97,
+            "end": 3631.07,
+            "role": "context"
+          },
+          {
+            "id": "C12:S0006",
+            "start": 3633.88,
+            "end": 3636.36,
+            "role": "context"
+          }
+        ],
+        "visual": []
+      },
+      "availableAt": 3636.36,
+      "withheldReason": null
+    },
+    {
+      "id": "E-09",
+      "title": "First-goal corner and reaction passage",
+      "text": "Visible corner delivery, crowded goalmouth action, an attacker bending/diving near the image-left post and celebration precede the first readable 1–0 display at 3728.",
+      "uncertainty": "Contact types and exact goal time remain unverified. Shirt-number observations apply only to their reviewed frames.",
+      "reviewStatus": "coordinator_sampled_visual_sequence_plus_separate_report_claim",
+      "badges": [
+        "sampled_visual",
+        "asr_candidate"
+      ],
+      "mediaInterval": [
+        3690,
+        3735
+      ],
+      "support": {
+        "asr": [
+          {
+            "id": "C12:S0013",
+            "start": 3693.5,
+            "end": 3697.44,
+            "role": "asr"
+          },
+          {
+            "id": "C12:S0016",
+            "start": 3714.28,
+            "end": 3721.56,
+            "role": "asr"
+          },
+          {
+            "id": "C12:S0017",
+            "start": 3727.6,
+            "end": 3729.42,
+            "role": "asr"
+          },
+          {
+            "id": "C12:S0019",
+            "start": 3734.96,
+            "end": 3741.77,
+            "role": "asr"
+          },
+          {
+            "id": "C12:S0013",
+            "start": 3693.5,
+            "end": 3697.44,
+            "role": "context"
+          },
+          {
+            "id": "C12:S0014",
+            "start": 3698.62,
+            "end": 3703.94,
+            "role": "context"
+          },
+          {
+            "id": "C12:S0015",
+            "start": 3704.1,
+            "end": 3707.88,
+            "role": "context"
+          },
+          {
+            "id": "C12:S0016",
+            "start": 3714.28,
+            "end": 3721.56,
+            "role": "context"
+          },
+          {
+            "id": "C12:S0017",
+            "start": 3727.6,
+            "end": 3729.42,
+            "role": "context"
+          },
+          {
+            "id": "C12:S0018",
+            "start": 3730.8,
+            "end": 3733.16,
+            "role": "context"
+          },
+          {
+            "id": "C12:S0019",
+            "start": 3734.96,
+            "end": 3741.77,
+            "role": "context"
+          }
+        ],
+        "visual": [
+          {
+            "id": "V-PASS-03",
+            "start": 3714,
+            "end": 3735,
+            "scope": "reviewed_passages/V-PASS-03/media_interval"
+          },
+          {
+            "id": "V-PER-04",
+            "start": 3712,
+            "end": 3712,
+            "scope": "visible_people/V-PER-04/media_pts"
+          },
+          {
+            "id": "V-PER-05",
+            "start": 3717,
+            "end": 3717,
+            "scope": "visible_people/V-PER-05/media_pts"
+          },
+          {
+            "id": "V-PER-06",
+            "start": 3717,
+            "end": 3717,
+            "scope": "visible_people/V-PER-06/media_pts"
+          },
+          {
+            "id": "V-PER-07",
+            "start": 3728,
+            "end": 3735,
+            "scope": "visible_people/V-PER-07/identity_scope: shirt 19 separately clear in 3733–3735"
+          }
+        ]
+      },
+      "availableAt": 3741.77,
+      "withheldReason": null
+    },
+    {
+      "id": "E-C05",
+      "title": "Keeper-stretch and attacking-ball candidate",
+      "text": "Recognition context describes a Martinez-like goalkeeper stretching to get a ball clean before attacking/defensive analysis.",
+      "uncertainty": "Unreviewed video; keeper identity, exact contact, attack type and outcome remain provisional. No metric run distance adopted.",
+      "reviewStatus": "provisional_asr_candidate_not_visually_verified",
+      "badges": [
+        "asr_candidate"
+      ],
+      "mediaInterval": [
+        3910,
+        3945
+      ],
+      "support": {
+        "asr": [
+          {
+            "id": "C13:S0005",
+            "start": 3920.22,
+            "end": 3927.6,
+            "role": "asr"
+          },
+          {
+            "id": "C13:S0006",
+            "start": 3927.6,
+            "end": 3934.82,
+            "role": "asr"
+          },
+          {
+            "id": "C13:S0003",
+            "start": 3909.24,
+            "end": 3915.12,
+            "role": "context"
+          },
+          {
+            "id": "C13:S0004",
+            "start": 3915.12,
+            "end": 3920.22,
+            "role": "context"
+          },
+          {
+            "id": "C13:S0005",
+            "start": 3920.22,
+            "end": 3927.6,
+            "role": "context"
+          },
+          {
+            "id": "C13:S0006",
+            "start": 3927.6,
+            "end": 3934.82,
+            "role": "context"
+          },
+          {
+            "id": "C13:S0007",
+            "start": 3934.82,
+            "end": 3940.52,
+            "role": "context"
+          },
+          {
+            "id": "C13:S0008",
+            "start": 3940.52,
+            "end": 3974.76,
+            "role": "context"
+          }
+        ],
+        "visual": []
+      },
+      "availableAt": 3974.76,
+      "withheldReason": null
+    },
+    {
+      "id": "E-C06",
+      "title": "Chelsea delivery and blocked-attempt candidates",
+      "text": "Recognition describes Chelsea delivery/corner pressure, another ball behind and adjacent blocked-attempt commentary.",
+      "uncertainty": "No verified shot/corner total, target or blocker identity. A spoken no-foul decision is not reclassified as a foul.",
+      "reviewStatus": "provisional_asr_candidate_not_visually_verified",
+      "badges": [
+        "asr_candidate"
+      ],
+      "mediaInterval": [
+        4075,
+        4170
+      ],
+      "support": {
+        "asr": [
+          {
+            "id": "C13:S0024",
+            "start": 4082.72,
+            "end": 4087.14,
+            "role": "asr"
+          },
+          {
+            "id": "C13:S0029",
+            "start": 4116.81,
+            "end": 4119.11,
+            "role": "asr"
+          },
+          {
+            "id": "C13:S0030",
+            "start": 4120.03,
+            "end": 4122.95,
+            "role": "asr"
+          },
+          {
+            "id": "C13:S0038",
+            "start": 4158.02,
+            "end": 4161.5,
+            "role": "asr"
+          },
+          {
+            "id": "C13:S0039",
+            "start": 4162.4,
+            "end": 4165.74,
+            "role": "asr"
+          },
+          {
+            "id": "C13:S0023",
+            "start": 4073.73,
+            "end": 4078.94,
+            "role": "context"
+          },
+          {
+            "id": "C13:S0024",
+            "start": 4082.72,
+            "end": 4087.14,
+            "role": "context"
+          },
+          {
+            "id": "C13:S0025",
+            "start": 4088.98,
+            "end": 4089.64,
+            "role": "context"
+          },
+          {
+            "id": "C13:S0026",
+            "start": 4091.24,
+            "end": 4094.38,
+            "role": "context"
+          },
+          {
+            "id": "C13:S0027",
+            "start": 4095.58,
+            "end": 4100.49,
+            "role": "context"
+          },
+          {
+            "id": "C13:S0028",
+            "start": 4114.19,
+            "end": 4115.21,
+            "role": "context"
+          },
+          {
+            "id": "C13:S0029",
+            "start": 4116.81,
+            "end": 4119.11,
+            "role": "context"
+          },
+          {
+            "id": "C13:S0030",
+            "start": 4120.03,
+            "end": 4122.95,
+            "role": "context"
+          },
+          {
+            "id": "C13:S0031",
+            "start": 4128.91,
+            "end": 4132.43,
+            "role": "context"
+          },
+          {
+            "id": "C13:S0032",
+            "start": 4133.37,
+            "end": 4136.31,
+            "role": "context"
+          },
+          {
+            "id": "C13:S0033",
+            "start": 4139.24,
+            "end": 4142.28,
+            "role": "context"
+          },
+          {
+            "id": "C13:S0034",
+            "start": 4143.5,
+            "end": 4145.04,
+            "role": "context"
+          },
+          {
+            "id": "C13:S0035",
+            "start": 4146.8,
+            "end": 4149.42,
+            "role": "context"
+          },
+          {
+            "id": "C13:S0036",
+            "start": 4149.76,
+            "end": 4151.72,
+            "role": "context"
+          },
+          {
+            "id": "C13:S0037",
+            "start": 4152.7,
+            "end": 4157.5,
+            "role": "context"
+          },
+          {
+            "id": "C13:S0038",
+            "start": 4158.02,
+            "end": 4161.5,
+            "role": "context"
+          },
+          {
+            "id": "C13:S0039",
+            "start": 4162.4,
+            "end": 4165.74,
+            "role": "context"
+          },
+          {
+            "id": "C13:S0040",
+            "start": 4166.26,
+            "end": 4169.54,
+            "role": "context"
+          }
+        ],
+        "visual": []
+      },
+      "availableAt": 4170,
+      "withheldReason": null
+    },
+    {
+      "id": "E-08",
+      "title": "Brentford double substitution",
+      "text": "Touchline change and broadcast lower thirds show Kayode 33 / Yarmoliuk 6 out, Hickey 2 / Sangaré 18 in; commentary describes the double change with garbled names.",
+      "uncertainty": "Graphics are broadcast claims; sampled touchline views do not prove an exact legal entry/contact second.",
+      "reviewStatus": "worker_visual_broadcast_text_plus_provisional_asr",
+      "badges": [
+        "sampled_visual",
+        "asr_candidate",
+        "broadcast_attribution"
+      ],
+      "mediaInterval": [
+        4208,
+        4235
+      ],
+      "support": {
+        "asr": [
+          {
+            "id": "C14:S0003",
+            "start": 4209.84,
+            "end": 4211.6,
+            "role": "asr"
+          },
+          {
+            "id": "C14:S0004",
+            "start": 4211.98,
+            "end": 4215.44,
+            "role": "asr"
+          },
+          {
+            "id": "C14:S0005",
+            "start": 4217.48,
+            "end": 4221.02,
+            "role": "asr"
+          },
+          {
+            "id": "C14:S0006",
+            "start": 4221.16,
+            "end": 4224.26,
+            "role": "asr"
+          },
+          {
+            "id": "C14:S0003",
+            "start": 4209.84,
+            "end": 4211.6,
+            "role": "context"
+          },
+          {
+            "id": "C14:S0004",
+            "start": 4211.98,
+            "end": 4215.44,
+            "role": "context"
+          },
+          {
+            "id": "C14:S0005",
+            "start": 4217.48,
+            "end": 4221.02,
+            "role": "context"
+          },
+          {
+            "id": "C14:S0006",
+            "start": 4221.16,
+            "end": 4224.26,
+            "role": "context"
+          },
+          {
+            "id": "C14:S0007",
+            "start": 4227.84,
+            "end": 4232.26,
+            "role": "context"
+          },
+          {
+            "id": "C14:S0008",
+            "start": 4232.26,
+            "end": 4236.26,
+            "role": "context"
+          }
+        ],
+        "visual": [
+          {
+            "id": "W-PASS-04",
+            "start": 4205,
+            "end": 4240,
+            "scope": "reviewed_passages/W-PASS-04/media_interval"
+          }
+        ]
+      },
+      "availableAt": 4240,
+      "withheldReason": null
+    },
+    {
+      "id": "E-10",
+      "title": "Chelsea double substitution",
+      "text": "Touchline sequence and graphics pair Welbeck 18 / Fofana 3 out with Quenda 23 / Acheampong 34 in.",
+      "uncertainty": "Approximate media interval and visible broadcast graphics do not establish an exact entry time.",
+      "reviewStatus": "worker_visual_broadcast_text_plus_provisional_asr",
+      "badges": [
+        "sampled_visual",
+        "asr_candidate",
+        "broadcast_attribution"
+      ],
+      "mediaInterval": [
+        4325,
+        4360
+      ],
+      "support": {
+        "asr": [
+          {
+            "id": "C14:S0022",
+            "start": 4328.8,
+            "end": 4331.68,
+            "role": "asr"
+          },
+          {
+            "id": "C14:S0023",
+            "start": 4332.78,
+            "end": 4335.7,
+            "role": "asr"
+          },
+          {
+            "id": "C14:S0024",
+            "start": 4340.77,
+            "end": 4344.51,
+            "role": "asr"
+          },
+          {
+            "id": "C14:S0022",
+            "start": 4328.8,
+            "end": 4331.68,
+            "role": "context"
+          },
+          {
+            "id": "C14:S0023",
+            "start": 4332.78,
+            "end": 4335.7,
+            "role": "context"
+          },
+          {
+            "id": "C14:S0024",
+            "start": 4340.77,
+            "end": 4344.51,
+            "role": "context"
+          },
+          {
+            "id": "C14:S0025",
+            "start": 4344.69,
+            "end": 4346.11,
+            "role": "context"
+          },
+          {
+            "id": "C14:S0026",
+            "start": 4347.97,
+            "end": 4351.69,
+            "role": "context"
+          },
+          {
+            "id": "C14:S0027",
+            "start": 4355.16,
+            "end": 4359.84,
+            "role": "context"
+          }
+        ],
+        "visual": [
+          {
+            "id": "W-PASS-05",
+            "start": 4320,
+            "end": 4360,
+            "scope": "reviewed_passages/W-PASS-05/media_interval"
+          }
+        ]
+      },
+      "availableAt": 4360,
+      "withheldReason": null
+    },
+    {
+      "id": "E-11",
+      "title": "Late-tackle discussion candidate",
+      "text": "Recognition describes a late tackle after a Barco-like player's shot.",
+      "uncertainty": "No injury, misconduct intent, foul/card decision or exact contact inferred from wording.",
+      "reviewStatus": "provisional_asr_candidate_not_visually_verified",
+      "badges": [
+        "asr_candidate"
+      ],
+      "mediaInterval": [
+        4640,
+        4660
+      ],
+      "support": {
+        "asr": [
+          {
+            "id": "C15:S0033",
+            "start": 4645.81,
+            "end": 4649.69,
+            "role": "asr"
+          },
+          {
+            "id": "C15:S0031",
+            "start": 4639.71,
+            "end": 4642.51,
+            "role": "context"
+          },
+          {
+            "id": "C15:S0032",
+            "start": 4643.21,
+            "end": 4644.77,
+            "role": "context"
+          },
+          {
+            "id": "C15:S0033",
+            "start": 4645.81,
+            "end": 4649.69,
+            "role": "context"
+          },
+          {
+            "id": "C15:S0034",
+            "start": 4650.65,
+            "end": 4652.95,
+            "role": "context"
+          },
+          {
+            "id": "C15:S0035",
+            "start": 4653.39,
+            "end": 4655.71,
+            "role": "context"
+          },
+          {
+            "id": "C15:S0036",
+            "start": 4656.47,
+            "end": 4658.83,
+            "role": "context"
+          }
+        ],
+        "visual": []
+      },
+      "availableAt": 4660,
+      "withheldReason": null
+    },
+    {
+      "id": "E-C07",
+      "title": "Palmer-like blocked attempt and continuing pressure",
+      "text": "Recognition describes a Palmer-like attempt, a block and continuing Chelsea corners/deliveries.",
+      "uncertainty": "Repeated analysis of the same attempt is not an extra shot. Player spellings, contact and exact restart counts remain unverified.",
+      "reviewStatus": "provisional_asr_candidate_not_visually_verified",
+      "badges": [
+        "asr_candidate"
+      ],
+      "mediaInterval": [
+        4745,
+        4855
+      ],
+      "support": {
+        "asr": [
+          {
+            "id": "C15:S0051",
+            "start": 4753.72,
+            "end": 4754.52,
+            "role": "asr"
+          },
+          {
+            "id": "C15:S0055",
+            "start": 4762.94,
+            "end": 4764.46,
+            "role": "asr"
+          },
+          {
+            "id": "C16:S0001",
+            "start": 4799.3,
+            "end": 4806.69,
+            "role": "asr"
+          },
+          {
+            "id": "C16:S0004",
+            "start": 4833.74,
+            "end": 4849.96,
+            "role": "asr"
+          },
+          {
+            "id": "C15:S0048",
+            "start": 4741.56,
+            "end": 4745.06,
+            "role": "context"
+          },
+          {
+            "id": "C15:S0049",
+            "start": 4745.06,
+            "end": 4749.68,
+            "role": "context"
+          },
+          {
+            "id": "C15:S0050",
+            "start": 4750.68,
+            "end": 4752.7,
+            "role": "context"
+          },
+          {
+            "id": "C15:S0051",
+            "start": 4753.72,
+            "end": 4754.52,
+            "role": "context"
+          },
+          {
+            "id": "C15:S0052",
+            "start": 4755.88,
+            "end": 4758.3,
+            "role": "context"
+          },
+          {
+            "id": "C15:S0053",
+            "start": 4759.02,
+            "end": 4759.9,
+            "role": "context"
+          },
+          {
+            "id": "C15:S0054",
+            "start": 4760.96,
+            "end": 4762.54,
+            "role": "context"
+          },
+          {
+            "id": "C15:S0055",
+            "start": 4762.94,
+            "end": 4764.46,
+            "role": "context"
+          },
+          {
+            "id": "C15:S0056",
+            "start": 4765.8,
+            "end": 4767.54,
+            "role": "context"
+          },
+          {
+            "id": "C15:S0057",
+            "start": 4768.36,
+            "end": 4769.66,
+            "role": "context"
+          },
+          {
+            "id": "C15:S0058",
+            "start": 4781.44,
+            "end": 4783.04,
+            "role": "context"
+          },
+          {
+            "id": "C15:S0059",
+            "start": 4783.26,
+            "end": 4784.5,
+            "role": "context"
+          },
+          {
+            "id": "C15:S0060",
+            "start": 4785.72,
+            "end": 4786.84,
+            "role": "context"
+          },
+          {
+            "id": "C15:S0061",
+            "start": 4787.52,
+            "end": 4789.22,
+            "role": "context"
+          },
+          {
+            "id": "C15:S0062",
+            "start": 4789.22,
+            "end": 4799.42,
+            "role": "context"
+          },
+          {
+            "id": "C16:S0001",
+            "start": 4799.3,
+            "end": 4806.69,
+            "role": "context"
+          },
+          {
+            "id": "C16:S0002",
+            "start": 4806.69,
+            "end": 4811.99,
+            "role": "context"
+          },
+          {
+            "id": "C16:S0003",
+            "start": 4811.99,
+            "end": 4827.02,
+            "role": "context"
+          },
+          {
+            "id": "C16:S0004",
+            "start": 4833.74,
+            "end": 4849.96,
+            "role": "context"
+          },
+          {
+            "id": "C16:S0005",
+            "start": 4849.96,
+            "end": 4856.99,
+            "role": "context"
+          }
+        ],
+        "visual": []
+      },
+      "availableAt": 4856.99,
+      "withheldReason": null
+    },
+    {
+      "id": "E-12b",
+      "title": "Brentford attacking changes",
+      "text": "Recognition describes an Anthony-like departure and Ouattara-like entrant, then Lewis-Potter-like departure and a garbled replacement name.",
+      "uncertainty": "Speech alone does not establish all four identities or exact entry times.",
+      "reviewStatus": "provisional_asr_plus_separate_report_rows",
+      "badges": [
+        "asr_candidate"
+      ],
+      "mediaInterval": [
+        4885,
+        4950
+      ],
+      "support": {
+        "asr": [
+          {
+            "id": "C16:S0010",
+            "start": 4889.42,
+            "end": 4892.32,
+            "role": "asr"
+          },
+          {
+            "id": "C16:S0019",
+            "start": 4931.88,
+            "end": 4937.22,
+            "role": "asr"
+          },
+          {
+            "id": "C16:S0009",
+            "start": 4882.82,
+            "end": 4888.28,
+            "role": "context"
+          },
+          {
+            "id": "C16:S0010",
+            "start": 4889.42,
+            "end": 4892.32,
+            "role": "context"
+          },
+          {
+            "id": "C16:S0011",
+            "start": 4895.56,
+            "end": 4898.72,
+            "role": "context"
+          },
+          {
+            "id": "C16:S0012",
+            "start": 4906.86,
+            "end": 4908.24,
+            "role": "context"
+          },
+          {
+            "id": "C16:S0013",
+            "start": 4909.16,
+            "end": 4911.92,
+            "role": "context"
+          },
+          {
+            "id": "C16:S0014",
+            "start": 4911.92,
+            "end": 4913.98,
+            "role": "context"
+          },
+          {
+            "id": "C16:S0015",
+            "start": 4914.36,
+            "end": 4916.68,
+            "role": "context"
+          },
+          {
+            "id": "C16:S0016",
+            "start": 4917.62,
+            "end": 4923.76,
+            "role": "context"
+          },
+          {
+            "id": "C16:S0017",
+            "start": 4925.38,
+            "end": 4929.9,
+            "role": "context"
+          },
+          {
+            "id": "C16:S0018",
+            "start": 4929.9,
+            "end": 4930.68,
+            "role": "context"
+          },
+          {
+            "id": "C16:S0019",
+            "start": 4931.88,
+            "end": 4937.22,
+            "role": "context"
+          },
+          {
+            "id": "C16:S0020",
+            "start": 4937.22,
+            "end": 4942.22,
+            "role": "context"
+          },
+          {
+            "id": "C16:S0021",
+            "start": 4942.22,
+            "end": 4943.54,
+            "role": "context"
+          }
+        ],
+        "visual": []
+      },
+      "availableAt": 4950,
+      "withheldReason": null
+    },
+    {
+      "id": "E-12",
+      "title": "Later broadcast repeat of first goal",
+      "text": "Behind-goal first-goal action and Brentford shirt 19 celebration are shown again, under a later broadcast clock.",
+      "uncertainty": "Do not count a second goal or infer VAR. Displayed 80th-minute clock does not timestamp the repeated first-goal action.",
+      "reviewStatus": "coordinator_visual_replay_identification_not_a_new_incident",
+      "badges": [
+        "sampled_visual",
+        "asr_candidate",
+        "replay"
+      ],
+      "mediaInterval": [
+        4910,
+        4925
+      ],
+      "support": {
+        "asr": [
+          {
+            "id": "C16:S0015",
+            "start": 4914.36,
+            "end": 4916.68,
+            "role": "asr"
+          },
+          {
+            "id": "C16:S0016",
+            "start": 4917.62,
+            "end": 4923.76,
+            "role": "asr"
+          },
+          {
+            "id": "C16:S0013",
+            "start": 4909.16,
+            "end": 4911.92,
+            "role": "context"
+          },
+          {
+            "id": "C16:S0014",
+            "start": 4911.92,
+            "end": 4913.98,
+            "role": "context"
+          },
+          {
+            "id": "C16:S0015",
+            "start": 4914.36,
+            "end": 4916.68,
+            "role": "context"
+          },
+          {
+            "id": "C16:S0016",
+            "start": 4917.62,
+            "end": 4923.76,
+            "role": "context"
+          }
+        ],
+        "visual": [
+          {
+            "id": "V-PASS-04",
+            "start": 4910,
+            "end": 4925,
+            "scope": "reviewed_passages/V-PASS-04/media_interval"
+          },
+          {
+            "id": "V-EVT-03",
+            "start": 4920,
+            "end": 4920,
+            "scope": "sampled_event_observations/V-EVT-03/media_pts"
+          }
+        ]
+      },
+      "availableAt": 4925,
+      "withheldReason": null
+    },
+    {
+      "id": "E-13",
+      "title": "Second-goal passage",
+      "text": "Red shirt 7 advances through the image-left channel, green keeper comes out and a second red attacker finishes; shorts 9 visible in celebration. Bounded finish locator 5015.52–5017.52 displays about 82:02–82:04.",
+      "uncertainty": "Pass versus parry/contact type and exact line crossing remain unclear.",
+      "reviewStatus": "coordinator_sampled_visual_sequence_plus_provisional_asr_and_report",
+      "badges": [
+        "sampled_visual",
+        "asr_candidate"
+      ],
+      "mediaInterval": [
+        5010,
+        5025
+      ],
+      "support": {
+        "asr": [
+          {
+            "id": "C16:S0033",
+            "start": 5013.34,
+            "end": 5014.12,
+            "role": "asr"
+          },
+          {
+            "id": "C16:S0034",
+            "start": 5015.48,
+            "end": 5016.16,
+            "role": "asr"
+          },
+          {
+            "id": "C16:S0035",
+            "start": 5020.8,
+            "end": 5022.18,
+            "role": "asr"
+          },
+          {
+            "id": "C16:S0036",
+            "start": 5025.51,
+            "end": 5028.41,
+            "role": "asr"
+          },
+          {
+            "id": "C16:S0031",
+            "start": 5009.82,
+            "end": 5011.38,
+            "role": "context"
+          },
+          {
+            "id": "C16:S0032",
+            "start": 5011.96,
+            "end": 5012.68,
+            "role": "context"
+          },
+          {
+            "id": "C16:S0033",
+            "start": 5013.34,
+            "end": 5014.12,
+            "role": "context"
+          },
+          {
+            "id": "C16:S0034",
+            "start": 5015.48,
+            "end": 5016.16,
+            "role": "context"
+          },
+          {
+            "id": "C16:S0035",
+            "start": 5020.8,
+            "end": 5022.18,
+            "role": "context"
+          }
+        ],
+        "visual": [
+          {
+            "id": "V-PASS-05",
+            "start": 5010,
+            "end": 5025,
+            "scope": "reviewed_passages/V-PASS-05/media_interval"
+          },
+          {
+            "id": "V-PER-08",
+            "start": 5021,
+            "end": 5021,
+            "scope": "visible_people/V-PER-08/media_pts"
+          }
+        ]
+      },
+      "availableAt": 5028.41,
+      "withheldReason": null
+    },
+    {
+      "id": "E-14",
+      "title": "Celebration and card discussion",
+      "text": "Shirt-removed celebration is followed by commentary about a celebration card and a second late-challenge card; a referee holding yellow is visible at 5145.",
+      "uncertainty": "Sampled card view does not positively establish recipient/issuance or cause.",
+      "reviewStatus": "worker_sampled_scene_plus_provisional_asr_and_report",
+      "badges": [
+        "sampled_visual",
+        "asr_candidate"
+      ],
+      "mediaInterval": [
+        5110,
+        5155
+      ],
+      "support": {
+        "asr": [
+          {
+            "id": "C17:S0002",
+            "start": 5111.25,
+            "end": 5116.27,
+            "role": "asr"
+          },
+          {
+            "id": "C17:S0003",
+            "start": 5116.47,
+            "end": 5120.21,
+            "role": "asr"
+          },
+          {
+            "id": "C17:S0005",
+            "start": 5127.95,
+            "end": 5140.05,
+            "role": "asr"
+          },
+          {
+            "id": "C17:S0006",
+            "start": 5140.05,
+            "end": 5141.51,
+            "role": "asr"
+          },
+          {
+            "id": "C17:S0001",
+            "start": 5105.57,
+            "end": 5110.51,
+            "role": "context"
+          },
+          {
+            "id": "C17:S0002",
+            "start": 5111.25,
+            "end": 5116.27,
+            "role": "context"
+          },
+          {
+            "id": "C17:S0003",
+            "start": 5116.47,
+            "end": 5120.21,
+            "role": "context"
+          },
+          {
+            "id": "C17:S0004",
+            "start": 5121.47,
+            "end": 5127.95,
+            "role": "context"
+          },
+          {
+            "id": "C17:S0005",
+            "start": 5127.95,
+            "end": 5140.05,
+            "role": "context"
+          },
+          {
+            "id": "C17:S0006",
+            "start": 5140.05,
+            "end": 5141.51,
+            "role": "context"
+          },
+          {
+            "id": "C17:S0007",
+            "start": 5151,
+            "end": 5151.48,
+            "role": "context"
+          },
+          {
+            "id": "C17:S0008",
+            "start": 5152.96,
+            "end": 5162.78,
+            "role": "context"
+          }
+        ],
+        "visual": [
+          {
+            "id": "W-PASS-06",
+            "start": 5110,
+            "end": 5150,
+            "scope": "reviewed_passages/W-PASS-06/media_interval"
+          }
+        ]
+      },
+      "availableAt": 5162.78,
+      "withheldReason": null
+    },
+    {
+      "id": "E-C08",
+      "title": "Late Chelsea free-kick passage candidate",
+      "text": "Recognition describes a Chelsea free kick and subsequent delivery/play ending in a garbled behind-goal phrase.",
+      "uncertainty": "Exact contact, receiving player and outcome unverified; the word goal in spatial wording does not mean a scored goal.",
+      "reviewStatus": "provisional_asr_candidate_not_visually_verified",
+      "badges": [
+        "asr_candidate"
+      ],
+      "mediaInterval": [
+        5205,
+        5247
+      ],
+      "support": {
+        "asr": [
+          {
+            "id": "C17:S0017",
+            "start": 5197.73,
+            "end": 5214.29,
+            "role": "asr"
+          },
+          {
+            "id": "C17:S0018",
+            "start": 5214.29,
+            "end": 5239.78,
+            "role": "asr"
+          },
+          {
+            "id": "C17:S0019",
+            "start": 5239.78,
+            "end": 5246.78,
+            "role": "asr"
+          },
+          {
+            "id": "C17:S0017",
+            "start": 5197.73,
+            "end": 5214.29,
+            "role": "context"
+          },
+          {
+            "id": "C17:S0018",
+            "start": 5214.29,
+            "end": 5239.78,
+            "role": "context"
+          },
+          {
+            "id": "C17:S0019",
+            "start": 5239.78,
+            "end": 5246.78,
+            "role": "context"
+          }
+        ],
+        "visual": []
+      },
+      "availableAt": 5247,
+      "withheldReason": null
+    },
+    {
+      "id": "E-14b",
+      "title": "Late changes, historical equalizer discussion and corner",
+      "text": "Chelsea graphics show Neto 7 / Barco 4 out, Estêvão 41 / Nicoll-Jazuli 32 in; commentary also describes a Damsgaard-like departure and Carvalho-like entrant, then recalls a previous equalizer. Ensuing commentary describes a Brentford corner, not another goal.",
+      "uncertainty": "Brentford entrant not identified by face in sampled images. Graphic airtime and formal substitution time differ.",
+      "reviewStatus": "worker_broadcast_text_plus_provisional_asr_and_report",
+      "badges": [
+        "sampled_visual",
+        "asr_candidate",
+        "historical_discussion",
+        "broadcast_attribution"
+      ],
+      "mediaInterval": [
+        5250,
+        5345
+      ],
+      "support": {
+        "asr": [
+          {
+            "id": "C17:S0020",
+            "start": 5254.02,
+            "end": 5259.2,
+            "role": "asr"
+          },
+          {
+            "id": "C17:S0021",
+            "start": 5260.34,
+            "end": 5267.2,
+            "role": "asr"
+          },
+          {
+            "id": "C17:S0022",
+            "start": 5267.2,
+            "end": 5281.59,
+            "role": "asr"
+          },
+          {
+            "id": "C17:S0023",
+            "start": 5281.59,
+            "end": 5300.31,
+            "role": "asr"
+          },
+          {
+            "id": "C17:S0024",
+            "start": 5300.61,
+            "end": 5303.13,
+            "role": "asr"
+          },
+          {
+            "id": "C17:S0026",
+            "start": 5308.91,
+            "end": 5311.11,
+            "role": "asr"
+          },
+          {
+            "id": "C17:S0028",
+            "start": 5332.4,
+            "end": 5335,
+            "role": "asr"
+          },
+          {
+            "id": "C17:S0020",
+            "start": 5254.02,
+            "end": 5259.2,
+            "role": "context"
+          },
+          {
+            "id": "C17:S0021",
+            "start": 5260.34,
+            "end": 5267.2,
+            "role": "context"
+          },
+          {
+            "id": "C17:S0022",
+            "start": 5267.2,
+            "end": 5281.59,
+            "role": "context"
+          },
+          {
+            "id": "C17:S0023",
+            "start": 5281.59,
+            "end": 5300.31,
+            "role": "context"
+          },
+          {
+            "id": "C17:S0024",
+            "start": 5300.61,
+            "end": 5303.13,
+            "role": "context"
+          },
+          {
+            "id": "C17:S0025",
+            "start": 5304.59,
+            "end": 5308.07,
+            "role": "context"
+          },
+          {
+            "id": "C17:S0026",
+            "start": 5308.91,
+            "end": 5311.11,
+            "role": "context"
+          },
+          {
+            "id": "C17:S0027",
+            "start": 5314.7,
+            "end": 5316.64,
+            "role": "context"
+          },
+          {
+            "id": "C17:S0028",
+            "start": 5332.4,
+            "end": 5335,
+            "role": "context"
+          },
+          {
+            "id": "C17:S0029",
+            "start": 5335.62,
+            "end": 5336.84,
+            "role": "context"
+          },
+          {
+            "id": "C17:S0030",
+            "start": 5338.26,
+            "end": 5339.4,
+            "role": "context"
+          },
+          {
+            "id": "C17:S0031",
+            "start": 5340.12,
+            "end": 5342.38,
+            "role": "context"
+          }
+        ],
+        "visual": [
+          {
+            "id": "W-PASS-07",
+            "start": 5250,
+            "end": 5310,
+            "scope": "reviewed_passages/W-PASS-07/media_interval"
+          }
+        ]
+      },
+      "availableAt": 5345,
+      "withheldReason": null
+    },
+    {
+      "id": "E-14c",
+      "title": "Late free-kick and missed-chance candidate",
+      "text": "Recognition describes an unmarked chance that missed by a substantial margin.",
+      "uncertainty": "Shooter, location, exact contact and outcome remain unverified from sampled review.",
+      "reviewStatus": "provisional_asr_candidate_not_visually_verified",
+      "badges": [
+        "asr_candidate"
+      ],
+      "mediaInterval": [
+        5550,
+        5635
+      ],
+      "support": {
+        "asr": [
+          {
+            "id": "C18:S0017",
+            "start": 5551.22,
+            "end": 5555.08,
+            "role": "asr"
+          },
+          {
+            "id": "C18:S0025",
+            "start": 5622.47,
+            "end": 5629.07,
+            "role": "asr"
+          },
+          {
+            "id": "C18:S0017",
+            "start": 5551.22,
+            "end": 5555.08,
+            "role": "context"
+          },
+          {
+            "id": "C18:S0018",
+            "start": 5555.08,
+            "end": 5572.16,
+            "role": "context"
+          },
+          {
+            "id": "C18:S0019",
+            "start": 5572.16,
+            "end": 5576.2,
+            "role": "context"
+          },
+          {
+            "id": "C18:S0020",
+            "start": 5576.2,
+            "end": 5582.57,
+            "role": "context"
+          },
+          {
+            "id": "C18:S0021",
+            "start": 5582.57,
+            "end": 5588.93,
+            "role": "context"
+          },
+          {
+            "id": "C18:S0022",
+            "start": 5593.31,
+            "end": 5606.2,
+            "role": "context"
+          },
+          {
+            "id": "C18:S0023",
+            "start": 5606.2,
+            "end": 5615.36,
+            "role": "context"
+          },
+          {
+            "id": "C18:S0024",
+            "start": 5615.36,
+            "end": 5622.47,
+            "role": "context"
+          },
+          {
+            "id": "C18:S0025",
+            "start": 5622.47,
+            "end": 5629.07,
+            "role": "context"
+          },
+          {
+            "id": "C18:S0026",
+            "start": 5629.85,
+            "end": 5635.75,
+            "role": "context"
+          }
+        ],
+        "visual": []
+      },
+      "availableAt": 5635.75,
+      "withheldReason": null
+    },
+    {
+      "id": "E-15",
+      "title": "Late third-goal review passage",
+      "text": "A touchline throw-in leads to shirt 7 near the image-left penalty-area corner, then action into the box/goal around 5728–5732 and celebration; first readable 3–0 at 5738 / 94:05.",
+      "uncertainty": "Throw-in, not corner. Scorer jersey/contact not readable in reviewed samples. O.DANGO 11 and DIOUF 25 are visible celebration teammates, not automatically scorers.",
+      "reviewStatus": "coordinator_sampled_visual_sequence_plus_provisional_asr_and_report",
+      "badges": [
+        "sampled_visual",
+        "asr_candidate"
+      ],
+      "mediaInterval": [
+        5716,
+        5750
+      ],
+      "support": {
+        "asr": [
+          {
+            "id": "C19:S0003",
+            "start": 5719.61,
+            "end": 5741.88,
+            "role": "asr"
+          },
+          {
+            "id": "C19:S0004",
+            "start": 5741.88,
+            "end": 5755.14,
+            "role": "asr"
+          },
+          {
+            "id": "C19:S0017",
+            "start": 5801.18,
+            "end": 5812.54,
+            "role": "asr"
+          },
+          {
+            "id": "C19:S0002",
+            "start": 5706.26,
+            "end": 5719.61,
+            "role": "context"
+          },
+          {
+            "id": "C19:S0003",
+            "start": 5719.61,
+            "end": 5741.88,
+            "role": "context"
+          },
+          {
+            "id": "C19:S0004",
+            "start": 5741.88,
+            "end": 5755.14,
+            "role": "context"
+          }
+        ],
+        "visual": [
+          {
+            "id": "V-PASS-06",
+            "start": 5716,
+            "end": 5738,
+            "scope": "reviewed_passages/V-PASS-06/media_interval"
+          },
+          {
+            "id": "V-PER-09",
+            "start": 5718,
+            "end": 5718,
+            "scope": "visible_people/V-PER-09/media_pts"
+          },
+          {
+            "id": "V-PER-10",
+            "start": 5742,
+            "end": 5742,
+            "scope": "visible_people/V-PER-10/media_pts"
+          },
+          {
+            "id": "V-PER-11",
+            "start": 5743,
+            "end": 5743,
+            "scope": "visible_people/V-PER-11/media_pts"
+          }
+        ]
+      },
+      "availableAt": 5812.54,
+      "withheldReason": null
+    },
+    {
+      "id": "E-16",
+      "title": "Closing source passage",
+      "text": "A late wide view shows 3–0 at displayed 95:27; the acquired source ends around media 97:52.",
+      "uncertainty": "Exact full-time whistle/contact not established from the global sample. Source endpoint and match endpoint are distinct.",
+      "reviewStatus": "coordinator_global_sample_plus_source_endpoint",
+      "badges": [
+        "sampled_visual",
+        "asr_candidate"
+      ],
+      "mediaInterval": [
+        5815,
+        5872.04644
+      ],
+      "support": {
+        "asr": [
+          {
+            "id": "C19:S0026",
+            "start": 5854.92,
+            "end": 5857.84,
+            "role": "asr"
+          },
+          {
+            "id": "C19:S0027",
+            "start": 5859.48,
+            "end": 5860.4,
+            "role": "asr"
+          },
+          {
+            "id": "C19:S0028",
+            "start": 5861.46,
+            "end": 5863.68,
+            "role": "asr"
+          },
+          {
+            "id": "C19:S0019",
+            "start": 5814.44,
+            "end": 5819.82,
+            "role": "context"
+          },
+          {
+            "id": "C19:S0020",
+            "start": 5819.82,
+            "end": 5820.94,
+            "role": "context"
+          },
+          {
+            "id": "C19:S0021",
+            "start": 5821.56,
+            "end": 5831.66,
+            "role": "context"
+          },
+          {
+            "id": "C19:S0022",
+            "start": 5832.98,
+            "end": 5838.26,
+            "role": "context"
+          },
+          {
+            "id": "C19:S0023",
+            "start": 5838.26,
+            "end": 5838.62,
+            "role": "context"
+          },
+          {
+            "id": "C19:S0024",
+            "start": 5838.62,
+            "end": 5842.78,
+            "role": "context"
+          },
+          {
+            "id": "C19:S0025",
+            "start": 5849.07,
+            "end": 5850.33,
+            "role": "context"
+          },
+          {
+            "id": "C19:S0026",
+            "start": 5854.92,
+            "end": 5857.84,
+            "role": "context"
+          },
+          {
+            "id": "C19:S0027",
+            "start": 5859.48,
+            "end": 5860.4,
+            "role": "context"
+          },
+          {
+            "id": "C19:S0028",
+            "start": 5861.46,
+            "end": 5863.68,
+            "role": "context"
+          },
+          {
+            "id": "C19:S0029",
+            "start": 5865.18,
+            "end": 5870.26,
+            "role": "context"
+          }
+        ],
+        "visual": [
+          {
+            "id": "V-EVT-08",
+            "start": 5820,
+            "end": 5820,
+            "scope": "sampled_event_observations/V-EVT-08/media_pts"
+          }
+        ]
+      },
+      "availableAt": 5872.04644,
+      "withheldReason": null
+    }
+  ]
+}

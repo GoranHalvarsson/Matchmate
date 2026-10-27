@@ -1,0 +1,19 @@
+@using Matchmate.Web.Localization
+@inject MatchLanguageState State
+@implements IDisposable
+
+<footer class="experience-footer" lang="@MatchLanguages.Code(State.Language)">@T("Footer")</footer>
+<div id="blazor-error-ui" lang="@MatchLanguages.Code(State.Language)">
+    @T("ConnectionInterrupted") <a href="." class="reload">@T("Reload")</a><button class="dismiss" aria-label="@T("Dismiss")">×</button>
+</div>
+
+@code {
+    private string T(string key) => ShellText.Get(State.Language, key);
+    protected override void OnInitialized() => State.Changed += LanguageChanged;
+    private async void LanguageChanged()
+    {
+        try { await InvokeAsync(StateHasChanged); }
+        catch (Exception exception) { await DispatchExceptionAsync(exception); }
+    }
+    public void Dispose() => State.Changed -= LanguageChanged;
+}

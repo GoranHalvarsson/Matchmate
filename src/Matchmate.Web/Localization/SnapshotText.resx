@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms</value>
+  </resheader>
+  <data name="Selected">
+    <value>Selected {0}, reported at {1}′.</value>
+  </data>
+  <data name="UnknownActor">
+    <value>unidentified player</value>
+  </data>
+  <data name="OutsideOverlay">
+    <value>That event's overlay is not active at the current replay moment.</value>
+  </data>
+  <data name="NonSpatial">
+    <value>The annotation reports the incident or player change; it establishes no tackle location, running path or order within the same minute.</value>
+  </data>
+  <data name="NoFrame">
+    <value>No current positions are shown; no earlier positions are carried forward.</value>
+  </data>
+  <data name="Neutral">
+    <value>The pitch currently shows a neutral illustration, without a supported ball location or nearby-player reading.</value>
+  </data>
+  <data name="NoBall">
+    <value>The ball's current position is missing, so nearby players cannot be identified from it.</value>
+  </data>
+  <data name="Ball">
+    <value>The ball is shown in the {0}, in the {1} of the screen.</value>
+  </data>
+  <data name="Left">
+    <value>left third</value>
+  </data>
+  <data name="Middle">
+    <value>middle third</value>
+  </data>
+  <data name="Right">
+    <value>right third</value>
+  </data>
+  <data name="Top">
+    <value>top band</value>
+  </data>
+  <data name="Central">
+    <value>central band</value>
+  </data>
+  <data name="Bottom">
+    <value>bottom band</value>
+  </data>
+  <data name="Nearby">
+    <value>Nearest named markers: {0}. This is proximity only, not possession.</value>
+  </data>
+  <data name="Rings">
+    <value>Rings mark the reported participants: {0}; they do not indicate who has the ball.</value>
+  </data>
+  <data name="Path">
+    <value>The connecting path illustrates the reported sequence.</value>
+  </data>
+  <data name="Active">
+    <value>The current illustration step is {0}: {1}.</value>
+  </data>
+  <data name="Dismissal">
+    <value>The dismissal is shown as a separate annotation; the dismissed player need not have a pitch marker.</value>
+  </data>
+  <data name="Card">
+    <value>A card symbol marks the reported booking.</value>
+  </data>
+  <data name="Change">
+    <value>An arrow marks the incoming player in the reported substitution.</value>
+  </data>
+  <data name="Generated">
+    <value>Positions and any ball path are generated illustrations; they do not establish actual movement, tactics or intent.</value>
+  </data>
+  <data name="Estimated">
+    <value>Some displayed positions are estimates; this snapshot does not establish a run or tactical intent.</value>
+  </data>
+  <data name="UnknownMethod">
+    <value>The method or quality is unspecified for some displayed positions.</value>
+  </data>
+  <data name="ReportedSequence">
+    <value>Reported sequence: {0}</value>
+  </data>
+  <data name="ActivePath">
+    <value>The line illustrates that sequence, currently at {0}: {1}.</value>
+  </data>
+  <data name="Analyst">
+    <value>This reading is bound to the displayed replay moment; reported actions do not establish exact contact times.</value>
+  </data>
+  <data name="Substitution">
+    <value>Reported player change: {0} off, {1} on.</value>
+  </data>
+  <data name="SubstitutionParticipant">
+    <value>Reported substitution involving {0}; outgoing and incoming identities are not supplied.</value>
+  </data>
+  <data name="OnPitch">
+    <value>On the pitch now</value>
+  </data>
+</root>

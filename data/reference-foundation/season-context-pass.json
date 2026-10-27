@@ -1,0 +1,374 @@
+{
+  "requests": [
+    {
+      "file": "bulk-club-season-contexts-0-2026-10-17.json",
+      "url": "https://www.wikidata.org/w/api.php?action=wbgetentities&format=json&sites=enwiki&titles=2015%E2%80%9316+AFC+Bournemouth+season%7C2015%E2%80%9316+Arsenal+F.C.+season%7C2015%E2%80%9316+Aston+Villa+F.C.+season%7C2015%E2%80%9316+Chelsea+F.C.+season%7C2015%E2%80%9316+Crystal+Palace+F.C.+season%7C2015%E2%80%9316+Everton+F.C.+season%7C2015%E2%80%9316+Leicester+City+F.C.+season%7C2015%E2%80%9316+Liverpool+F.C.+season%7C2015%E2%80%9316+Manchester+City+F.C.+season%7C2015%E2%80%9316+Manchester+United+F.C.+season%7C2015%E2%80%9316+Newcastle+United+F.C.+season%7C2015%E2%80%9316+Norwich+City+F.C.+season%7C2015%E2%80%9316+Southampton+F.C.+season%7C2015%E2%80%9316+Stoke+City+F.C.+season%7C2015%E2%80%9316+Sunderland+A.F.C.+season%7C2015%E2%80%9316+Swansea+City+A.F.C.+season%7C2015%E2%80%9316+Tottenham+Hotspur+F.C.+season%7C2015%E2%80%9316+Watford+F.C.+season%7C2015%E2%80%9316+West+Bromwich+Albion+F.C.+season%7C2015%E2%80%9316+West+Ham+United+F.C.+season%7C2016%E2%80%9317+AFC+Bournemouth+season%7C2016%E2%80%9317+Arsenal+F.C.+season%7C2016%E2%80%9317+Burnley+F.C.+season%7C2016%E2%80%9317+Chelsea+F.C.+season%7C2016%E2%80%9317+Crystal+Palace+F.C.+season%7C2016%E2%80%9317+Everton+F.C.+season%7C2016%E2%80%9317+Hull+City+A.F.C.+season%7C2016%E2%80%9317+Leicester+City+F.C.+season%7C2016%E2%80%9317+Liverpool+F.C.+season%7C2016%E2%80%9317+Manchester+City+F.C.+season&props=info%7Clabels%7Cclaims%7Csitelinks&languages=en"
+    },
+    {
+      "file": "bulk-club-season-contexts-30-2026-10-17.json",
+      "url": "https://www.wikidata.org/w/api.php?action=wbgetentities&format=json&sites=enwiki&titles=2016%E2%80%9317+Manchester+United+F.C.+season%7C2016%E2%80%9317+Middlesbrough+F.C.+season%7C2016%E2%80%9317+Southampton+F.C.+season%7C2016%E2%80%9317+Stoke+City+F.C.+season%7C2016%E2%80%9317+Sunderland+A.F.C.+season%7C2016%E2%80%9317+Swansea+City+A.F.C.+season%7C2016%E2%80%9317+Tottenham+Hotspur+F.C.+season%7C2016%E2%80%9317+Watford+F.C.+season%7C2016%E2%80%9317+West+Bromwich+Albion+F.C.+season%7C2016%E2%80%9317+West+Ham+United+F.C.+season%7C2026%E2%80%9327+AFC+Bournemouth+season%7C2026%E2%80%9327+Arsenal+F.C.+season%7C2026%E2%80%9327+Aston+Villa+F.C.+season%7C2026%E2%80%9327+Brentford+F.C.+season%7C2026%E2%80%9327+Brighton+%26+Hove+Albion+F.C.+season%7C2026%E2%80%9327+Chelsea+F.C.+season%7C2026%E2%80%9327+Coventry+City+F.C.+season%7C2026%E2%80%9327+Crystal+Palace+F.C.+season%7C2026%E2%80%9327+Everton+F.C.+season%7C2026%E2%80%9327+Fulham+F.C.+season%7C2026%E2%80%9327+Hull+City+A.F.C.+season%7C2026%E2%80%9327+Ipswich+Town+F.C.+season%7C2026%E2%80%9327+Leeds+United+F.C.+season%7C2026%E2%80%9327+Liverpool+F.C.+season%7C2026%E2%80%9327+Manchester+City+F.C.+season%7C2026%E2%80%9327+Manchester+United+F.C.+season%7C2026%E2%80%9327+Newcastle+United+F.C.+season%7C2026%E2%80%9327+Nottingham+Forest+F.C.+season%7C2026%E2%80%9327+Sunderland+A.F.C.+season%7C2026%E2%80%9327+Tottenham+Hotspur+F.C.+season&props=info%7Clabels%7Cclaims%7Csitelinks&languages=en"
+    }
+  ],
+  "contexts": {
+    "2015/16|bournemouth": {
+      "title": "2015\u201316 AFC Bournemouth season",
+      "qid": "Q19870279",
+      "ground_claims": [],
+      "source_file": "bulk-club-season-contexts-0-2026-10-17.json"
+    },
+    "2015/16|arsenal": {
+      "title": "2015\u201316 Arsenal F.C. season",
+      "qid": "Q19870288",
+      "ground_claims": [],
+      "source_file": "bulk-club-season-contexts-0-2026-10-17.json"
+    },
+    "2015/16|aston-villa": {
+      "title": "2015\u201316 Aston Villa F.C. season",
+      "qid": "Q20127813",
+      "ground_claims": [],
+      "source_file": "bulk-club-season-contexts-0-2026-10-17.json"
+    },
+    "2015/16|chelsea": {
+      "title": "2015\u201316 Chelsea F.C. season",
+      "qid": "Q19840671",
+      "ground_claims": [],
+      "source_file": "bulk-club-season-contexts-0-2026-10-17.json"
+    },
+    "2015/16|crystal-palace": {
+      "title": "2015\u201316 Crystal Palace F.C. season",
+      "qid": "Q19946083",
+      "ground_claims": [],
+      "source_file": "bulk-club-season-contexts-0-2026-10-17.json"
+    },
+    "2015/16|everton": {
+      "title": "2015\u201316 Everton F.C. season",
+      "qid": "Q20127815",
+      "ground_claims": [],
+      "source_file": "bulk-club-season-contexts-0-2026-10-17.json"
+    },
+    "2015/16|leicester": {
+      "title": "2015\u201316 Leicester City F.C. season",
+      "qid": "Q20647604",
+      "ground_claims": [],
+      "source_file": "bulk-club-season-contexts-0-2026-10-17.json"
+    },
+    "2015/16|liverpool": {
+      "title": "2015\u201316 Liverpool F.C. season",
+      "qid": "Q19886982",
+      "ground_claims": [],
+      "source_file": "bulk-club-season-contexts-0-2026-10-17.json"
+    },
+    "2015/16|manchester-city": {
+      "title": "2015\u201316 Manchester City F.C. season",
+      "qid": "Q20127818",
+      "ground_claims": [],
+      "source_file": "bulk-club-season-contexts-0-2026-10-17.json"
+    },
+    "2015/16|manchester-united": {
+      "title": "2015\u201316 Manchester United F.C. season",
+      "qid": "Q19849295",
+      "ground_claims": [],
+      "source_file": "bulk-club-season-contexts-0-2026-10-17.json"
+    },
+    "2015/16|newcastle": {
+      "title": "2015\u201316 Newcastle United F.C. season",
+      "qid": "Q20127819",
+      "ground_claims": [],
+      "source_file": "bulk-club-season-contexts-0-2026-10-17.json"
+    },
+    "2015/16|norwich": {
+      "title": "2015\u201316 Norwich City F.C. season",
+      "qid": "Q20648418",
+      "ground_claims": [],
+      "source_file": "bulk-club-season-contexts-0-2026-10-17.json"
+    },
+    "2015/16|southampton": {
+      "title": "2015\u201316 Southampton F.C. season",
+      "qid": "Q20648705",
+      "ground_claims": [],
+      "source_file": "bulk-club-season-contexts-0-2026-10-17.json"
+    },
+    "2015/16|stoke": {
+      "title": "2015\u201316 Stoke City F.C. season",
+      "qid": "Q20647823",
+      "ground_claims": [],
+      "source_file": "bulk-club-season-contexts-0-2026-10-17.json"
+    },
+    "2015/16|sunderland": {
+      "title": "2015\u201316 Sunderland A.F.C. season",
+      "qid": "Q20127824",
+      "ground_claims": [],
+      "source_file": "bulk-club-season-contexts-0-2026-10-17.json"
+    },
+    "2015/16|swansea": {
+      "title": "2015\u201316 Swansea City A.F.C. season",
+      "qid": "Q19903097",
+      "ground_claims": [],
+      "source_file": "bulk-club-season-contexts-0-2026-10-17.json"
+    },
+    "2015/16|tottenham": {
+      "title": "2015\u201316 Tottenham Hotspur F.C. season",
+      "qid": "Q20644819",
+      "ground_claims": [],
+      "source_file": "bulk-club-season-contexts-0-2026-10-17.json"
+    },
+    "2015/16|watford": {
+      "title": "2015\u201316 Watford F.C. season",
+      "qid": "Q20312075",
+      "ground_claims": [],
+      "source_file": "bulk-club-season-contexts-0-2026-10-17.json"
+    },
+    "2015/16|west-brom": {
+      "title": "2015\u201316 West Bromwich Albion F.C. season",
+      "qid": "Q19946082",
+      "ground_claims": [],
+      "source_file": "bulk-club-season-contexts-0-2026-10-17.json"
+    },
+    "2015/16|west-ham": {
+      "title": "2015\u201316 West Ham United F.C. season",
+      "qid": "Q20648753",
+      "ground_claims": [],
+      "source_file": "bulk-club-season-contexts-0-2026-10-17.json"
+    },
+    "2016/17|bournemouth": {
+      "title": "2016\u201317 AFC Bournemouth season",
+      "qid": "Q24083687",
+      "ground_claims": [],
+      "source_file": "bulk-club-season-contexts-0-2026-10-17.json"
+    },
+    "2016/17|arsenal": {
+      "title": "2016\u201317 Arsenal F.C. season",
+      "qid": "Q24039373",
+      "ground_claims": [],
+      "source_file": "bulk-club-season-contexts-0-2026-10-17.json"
+    },
+    "2016/17|burnley": {
+      "title": "2016\u201317 Burnley F.C. season",
+      "qid": "Q24083712",
+      "ground_claims": [],
+      "source_file": "bulk-club-season-contexts-0-2026-10-17.json"
+    },
+    "2016/17|chelsea": {
+      "title": "2016\u201317 Chelsea F.C. season",
+      "qid": "Q23809767",
+      "ground_claims": [],
+      "source_file": "bulk-club-season-contexts-0-2026-10-17.json"
+    },
+    "2016/17|crystal-palace": {
+      "title": "2016\u201317 Crystal Palace F.C. season",
+      "qid": "Q24083714",
+      "ground_claims": [],
+      "source_file": "bulk-club-season-contexts-0-2026-10-17.json"
+    },
+    "2016/17|everton": {
+      "title": "2016\u201317 Everton F.C. season",
+      "qid": "Q24060313",
+      "ground_claims": [],
+      "source_file": "bulk-club-season-contexts-0-2026-10-17.json"
+    },
+    "2016/17|hull": {
+      "title": "2016\u201317 Hull City A.F.C. season",
+      "qid": "Q24910256",
+      "ground_claims": [],
+      "source_file": "bulk-club-season-contexts-0-2026-10-17.json"
+    },
+    "2016/17|leicester": {
+      "title": "2016\u201317 Leicester City F.C. season",
+      "qid": "Q24060451",
+      "ground_claims": [],
+      "source_file": "bulk-club-season-contexts-0-2026-10-17.json"
+    },
+    "2016/17|liverpool": {
+      "title": "2016\u201317 Liverpool F.C. season",
+      "qid": "Q24082345",
+      "ground_claims": [],
+      "source_file": "bulk-club-season-contexts-0-2026-10-17.json"
+    },
+    "2016/17|manchester-city": {
+      "title": "2016\u201317 Manchester City F.C. season",
+      "qid": "Q23808692",
+      "ground_claims": [],
+      "source_file": "bulk-club-season-contexts-0-2026-10-17.json"
+    },
+    "2016/17|manchester-united": {
+      "title": "2016\u201317 Manchester United F.C. season",
+      "qid": "Q23914529",
+      "ground_claims": [],
+      "source_file": "bulk-club-season-contexts-30-2026-10-17.json"
+    },
+    "2016/17|middlesbrough": {
+      "title": "2016\u201317 Middlesbrough F.C. season",
+      "qid": "Q24083605",
+      "ground_claims": [],
+      "source_file": "bulk-club-season-contexts-30-2026-10-17.json"
+    },
+    "2016/17|southampton": {
+      "title": "2016\u201317 Southampton F.C. season",
+      "qid": "Q24083715",
+      "ground_claims": [],
+      "source_file": "bulk-club-season-contexts-30-2026-10-17.json"
+    },
+    "2016/17|stoke": {
+      "title": "2016\u201317 Stoke City F.C. season",
+      "qid": "Q24083570",
+      "ground_claims": [],
+      "source_file": "bulk-club-season-contexts-30-2026-10-17.json"
+    },
+    "2016/17|sunderland": {
+      "title": "2016\u201317 Sunderland A.F.C. season",
+      "qid": "Q25108721",
+      "ground_claims": [],
+      "source_file": "bulk-club-season-contexts-30-2026-10-17.json"
+    },
+    "2016/17|swansea": {
+      "title": "2016\u201317 Swansea City A.F.C. season",
+      "qid": "Q24182045",
+      "ground_claims": [],
+      "source_file": "bulk-club-season-contexts-30-2026-10-17.json"
+    },
+    "2016/17|tottenham": {
+      "title": "2016\u201317 Tottenham Hotspur F.C. season",
+      "qid": "Q24083730",
+      "ground_claims": [],
+      "source_file": "bulk-club-season-contexts-30-2026-10-17.json"
+    },
+    "2016/17|watford": {
+      "title": "2016\u201317 Watford F.C. season",
+      "qid": "Q24909616",
+      "ground_claims": [],
+      "source_file": "bulk-club-season-contexts-30-2026-10-17.json"
+    },
+    "2016/17|west-brom": {
+      "title": "2016\u201317 West Bromwich Albion F.C. season",
+      "qid": "Q24909458",
+      "ground_claims": [],
+      "source_file": "bulk-club-season-contexts-30-2026-10-17.json"
+    },
+    "2016/17|west-ham": {
+      "title": "2016\u201317 West Ham United F.C. season",
+      "qid": "Q24083736",
+      "ground_claims": [],
+      "source_file": "bulk-club-season-contexts-30-2026-10-17.json"
+    },
+    "2026/27|bournemouth": {
+      "title": "2026\u201327 AFC Bournemouth season",
+      "qid": "Q140183432",
+      "ground_claims": [],
+      "source_file": "bulk-club-season-contexts-30-2026-10-17.json"
+    },
+    "2026/27|arsenal": {
+      "title": "2026\u201327 Arsenal F.C. season",
+      "qid": "Q140157464",
+      "ground_claims": [],
+      "source_file": "bulk-club-season-contexts-30-2026-10-17.json"
+    },
+    "2026/27|aston-villa": {
+      "title": "2026\u201327 Aston Villa F.C. season",
+      "qid": "Q139964079",
+      "ground_claims": [],
+      "source_file": "bulk-club-season-contexts-30-2026-10-17.json"
+    },
+    "2026/27|brentford": {
+      "title": "2026\u201327 Brentford F.C. season",
+      "qid": "Q140089075",
+      "ground_claims": [],
+      "source_file": "bulk-club-season-contexts-30-2026-10-17.json"
+    },
+    "2026/27|brighton": {
+      "title": "2026\u201327 Brighton & Hove Albion F.C. season",
+      "qid": "Q140196769",
+      "ground_claims": [],
+      "source_file": "bulk-club-season-contexts-30-2026-10-17.json"
+    },
+    "2026/27|chelsea": {
+      "title": "2026\u201327 Chelsea F.C. season",
+      "qid": "Q139897259",
+      "ground_claims": [],
+      "source_file": "bulk-club-season-contexts-30-2026-10-17.json"
+    },
+    "2026/27|coventry": {
+      "title": "2026\u201327 Coventry City F.C. season",
+      "qid": "Q140128526",
+      "ground_claims": [],
+      "source_file": "bulk-club-season-contexts-30-2026-10-17.json"
+    },
+    "2026/27|crystal-palace": {
+      "title": "2026\u201327 Crystal Palace F.C. season",
+      "qid": "Q140196405",
+      "ground_claims": [],
+      "source_file": "bulk-club-season-contexts-30-2026-10-17.json"
+    },
+    "2026/27|everton": {
+      "title": "2026\u201327 Everton F.C. season",
+      "qid": "Q140089076",
+      "ground_claims": [],
+      "source_file": "bulk-club-season-contexts-30-2026-10-17.json"
+    },
+    "2026/27|fulham": {
+      "title": "2026\u201327 Fulham F.C. season",
+      "qid": "Q140301311",
+      "ground_claims": [],
+      "source_file": "bulk-club-season-contexts-30-2026-10-17.json"
+    },
+    "2026/27|hull": {
+      "title": "2026\u201327 Hull City A.F.C. season",
+      "qid": "Q140301315",
+      "ground_claims": [],
+      "source_file": "bulk-club-season-contexts-30-2026-10-17.json"
+    },
+    "2026/27|ipswich": {
+      "title": "2026\u201327 Ipswich Town F.C. season",
+      "qid": "Q139855932",
+      "ground_claims": [],
+      "source_file": "bulk-club-season-contexts-30-2026-10-17.json"
+    },
+    "2026/27|leeds": {
+      "title": "2026\u201327 Leeds United F.C. season",
+      "qid": "Q140157455",
+      "ground_claims": [],
+      "source_file": "bulk-club-season-contexts-30-2026-10-17.json"
+    },
+    "2026/27|liverpool": {
+      "title": "2026\u201327 Liverpool F.C. season",
+      "qid": "Q139971188",
+      "ground_claims": [],
+      "source_file": "bulk-club-season-contexts-30-2026-10-17.json"
+    },
+    "2026/27|manchester-city": {
+      "title": "2026\u201327 Manchester City F.C. season",
+      "qid": "Q139982251",
+      "ground_claims": [],
+      "source_file": "bulk-club-season-contexts-30-2026-10-17.json"
+    },
+    "2026/27|manchester-united": {
+      "title": "2026\u201327 Manchester United F.C. season",
+      "qid": "Q139916055",
+      "ground_claims": [],
+      "source_file": "bulk-club-season-contexts-30-2026-10-17.json"
+    },
+    "2026/27|newcastle": {
+      "title": "2026\u201327 Newcastle United F.C. season",
+      "qid": "Q139963362",
+      "ground_claims": [],
+      "source_file": "bulk-club-season-contexts-30-2026-10-17.json"
+    },
+    "2026/27|nottingham-forest": {
+      "title": "2026\u201327 Nottingham Forest F.C. season",
+      "qid": "Q140183445",
+      "ground_claims": [],
+      "source_file": "bulk-club-season-contexts-30-2026-10-17.json"
+    },
+    "2026/27|sunderland": {
+      "title": "2026\u201327 Sunderland A.F.C. season",
+      "qid": "Q140157454",
+      "ground_claims": [],
+      "source_file": "bulk-club-season-contexts-30-2026-10-17.json"
+    },
+    "2026/27|tottenham": {
+      "title": "2026\u201327 Tottenham Hotspur F.C. season",
+      "qid": "Q140089023",
+      "ground_claims": [],
+      "source_file": "bulk-club-season-contexts-30-2026-10-17.json"
+    }
+  }
+}

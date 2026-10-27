@@ -1,0 +1,16 @@
+@using Matchmate.Web.Localization
+@using Matchmate.Web.Chat
+@using Matchmate.Web.Experience
+<div class="audience-picker">
+    <div class="audience-buttons" role="group" aria-label="@T("AudienceStyle")">
+        <button type="button" aria-pressed="@ExperiencePresentation.Pressed(Mode != MatchAudienceMode.Analyst)" @onclick="() => Changed.InvokeAsync(MatchAudienceMode.Fan)">@T("AudienceFan")</button>
+        <button type="button" aria-pressed="@ExperiencePresentation.Pressed(Mode == MatchAudienceMode.Analyst)" @onclick="() => Changed.InvokeAsync(MatchAudienceMode.Analyst)">@T("AudienceAnalyst")</button>
+    </div>
+    <p>@T("AudienceSame") @T(Mode == MatchAudienceMode.Analyst ? "AudienceAnalystNote" : "AudienceFanNote")</p>
+</div>
+@code {
+    [CascadingParameter] public MatchLanguage Language { get; set; }
+    private string T(string key, params object?[] args) => ReplayText.Get(Language, key, args);
+    [Parameter] public MatchAudienceMode Mode { get; set; }
+    [Parameter] public EventCallback<MatchAudienceMode> Changed { get; set; }
+}

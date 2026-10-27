@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <data name="Question.standing" xml:space="preserve"><value>Where do we stand?</value></data>
+  <data name="Question.changes" xml:space="preserve"><value>What changed on this date?</value></data>
+  <data name="Question.ground" xml:space="preserve"><value>Tell me about our ground?</value></data>
+  <data name="Question.table" xml:space="preserve"><value>Who leads this table?</value></data>
+  <data name="Question.coverage" xml:space="preserve"><value>What does this table include?</value></data>
+  <data name="Source.Table" xml:space="preserve"><value>{0} lead on {1} points from {2} matches. {3} league matches completed.</value></data>
+  <data name="Source.SharedTable" xml:space="preserve"><value>{0} share the lead on {1} points from {2} matches. {3} league matches completed.</value></data>
+  <data name="Source.EmptyTable" xml:space="preserve"><value>No results have entered yet. All clubs have zero points and no ranking.</value></data>
+  <data name="Source.Standing" xml:space="preserve"><value>{0}: {1}; {2} points from {3} matches, {4} wins, {5} draws and {6} losses.</value></data>
+  <data name="Source.Rank" xml:space="preserve"><value>position {0}</value></data>
+  <data name="Source.SharedRank" xml:space="preserve"><value>shared position {0}</value></data>
+  <data name="Source.Unranked" xml:space="preserve"><value>unranked</value></data>
+  <data name="Source.Ground" xml:space="preserve"><value>{0}: season ground reference {1}, {2}. This does not confirm a fixture venue or supply stadium history.</value></data>
+  <data name="Source.Coverage" xml:space="preserve"><value>{0} loaded results from {1} scheduled fixtures at this point. All results on a date count together. No live feed or automatic updates.</value></data>
+  <data name="Source.Scope" xml:space="preserve"><value>Selected season {0}, through the end of {1}.</value></data>
+  <data name="Source.BeforeResults" xml:space="preserve"><value>Before the first loaded results in season {0}.</value></data>
+  <data name="Source.Change" xml:space="preserve"><value>{0}: {1}; points {2} → {3}; {4} → {5}.</value></data>
+  <data name="Source.Played" xml:space="preserve"><value>played on this date</value></data>
+  <data name="Source.DidNotPlay" xml:space="preserve"><value>did not play on this date</value></data>
+  <data name="Source.DayRule" xml:space="preserve"><value>All results from the date count together. Movements cannot be attributed solely to one fixture.</value></data>
+  <data name="Source.DayResults" xml:space="preserve"><value>Results on this date: {0}</value></data>
+  <data name="Source.NoDayResults" xml:space="preserve"><value>No results entered on this date.</value></data>
+  <data name="Source.Recent" xml:space="preserve"><value>Latest loaded results for {0}: {1}</value></data>
+  <data name="Source.NoRecent" xml:space="preserve"><value>No completed result is supplied for {0} at this point.</value></data>
+  <data name="Source.Compact" xml:space="preserve"><value>See Supporting facts for all prepared rows and results.</value></data>
+  <data name="Feedback.Source" xml:space="preserve"><value>Choose an available source question.</value></data>
+  <data name="Feedback.Input" xml:space="preserve"><value>Use a valid question of at most 1,000 characters and a ready league context.</value></data>
+  <data name="Feedback.SignIn" xml:space="preserve"><value>Sign in with your test account to chat.</value></data>
+  <data name="Feedback.Clarify" xml:space="preserve"><value>Please clarify the club, table question or selected-date scope.</value></data>
+  <data name="Feedback.Routing" xml:space="preserve"><value>The question could not be routed. Try again or choose a source question.</value></data>
+  <data name="Feedback.Unsupported" xml:space="preserve"><value>These records cover the table, results and season ground references. Player details, tactical metrics and invented facts are unavailable.</value></data>
+  <data name="Feedback.Unavailable" xml:space="preserve"><value>I could not verify a reply. Try again or choose a source question.</value></data>
+  <data name="Feedback.Cancelled" xml:space="preserve"><value>Reply cancelled or context changed. No answer was added.</value></data>
+  <data name="Feedback.Stale" xml:space="preserve"><value>The league context or signed-in session changed; reply discarded.</value></data>
+  <data name="Feedback.SelectScope" xml:space="preserve"><value>Select the season and played date, then ask again.</value></data>
+  <data name="Feedback.Live" xml:space="preserve"><value>Live football data is unavailable. This is a pinned season snapshot.</value></data>
+</root>

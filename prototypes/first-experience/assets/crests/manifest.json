@@ -1,0 +1,499 @@
+{
+  "retrieved_at": "2026-10-16",
+  "purpose": "Local unpublished prototype identification using existing artworks, not generated or redrawn. Period corporate/reference crests except explicitly labelled West Ham 2015/16 gold commemorative Boleyn kit variant; not exact kit embroidery or a uniform corporate-mark claim.",
+  "rights": "Club crests remain copyright/trademark material. Wikimedia non-free-use rationales apply to their specific Wikipedia use, not a licence for Matchmate. Official hosting also grants no blanket reuse permission. No endorsement or publication/commercial-use clearance is asserted; obtain clearance before external distribution.",
+  "safety": "SVG declarations/editor metadata removed; artwork retained. SVG safety checked at build/test time. Assets render as images, never injected as SVG markup. PNG signatures checked. No runtime remote requests.",
+  "assets": [
+    {
+      "club_id": "arsenal",
+      "file": "arsenal.svg",
+      "seasons": [
+        "2015/16",
+        "2016/17"
+      ],
+      "source_page": "https://en.wikipedia.org/wiki/File:Arsenal_FC.svg",
+      "download_url": "https://upload.wikimedia.org/wikipedia/en/5/53/Arsenal_FC.svg",
+      "history_sources": [
+        "https://arsenaldirect.arsenal.com/Memorabilia/Photography-%26-Prints/Arsenal-Framed-Retro-Crest-Print-2002/p/N05097",
+        "https://en.wikipedia.org/wiki/File:Arsenal_FC.svg#filehistory"
+      ],
+      "historical_status": "Supported: club store identifies the 2002 crest; Wikimedia file history spans 2012 and a 2018 nominal-size reduction. This is the corporate crest, not a claim about every shirt variant.",
+      "rights_status": "Wikimedia source page marks non-free logo; no Matchmate licence established.",
+      "sha256": "cf7b7c223e2b5e76e9d1a15855173d8c99673c33243191182ddcfed877e9fbf7",
+      "bytes": 14034,
+      "retrieved_at": "2026-10-15"
+    },
+    {
+      "club_id": "chelsea",
+      "file": "chelsea.svg",
+      "seasons": [
+        "2015/16",
+        "2016/17"
+      ],
+      "source_page": "https://en.wikipedia.org/wiki/File:Chelsea_FC.svg",
+      "download_url": "https://upload.wikimedia.org/wikipedia/en/c/cc/Chelsea_FC.svg",
+      "history_sources": [
+        "https://www.chelseafc.com/en/news/article/different-crests-many-trophies-one-chelsea"
+      ],
+      "historical_status": "Supported: official club history identifies the design used since 2006/07, following the centenary version.",
+      "rights_status": "Wikimedia source page marks non-free logo; no Matchmate licence established.",
+      "sha256": "6722ec1a76c404712112edc621f34a44c1a27e66688a583d36172de54bcd713f",
+      "bytes": 40095,
+      "retrieved_at": "2026-10-15"
+    },
+    {
+      "club_id": "leicester",
+      "file": "leicester.svg",
+      "seasons": [
+        "2015/16",
+        "2016/17"
+      ],
+      "source_page": "https://en.wikipedia.org/wiki/File:Leicester_City_crest.svg",
+      "download_url": "https://upload.wikimedia.org/wikipedia/en/2/2d/Leicester_City_crest.svg",
+      "history_sources": [
+        "https://www.lcfc.com/history-crests"
+      ],
+      "historical_status": "Supported: official crest history labels the matching fox/roundel design 2010-present.",
+      "rights_status": "Wikimedia source page marks non-free logo; no Matchmate licence established.",
+      "sha256": "b37cade736bd0d236d03b8284e4f31e189fabc3208cfd9d2aa31388bd66b8801",
+      "bytes": 37826,
+      "retrieved_at": "2026-10-15"
+    },
+    {
+      "club_id": "liverpool",
+      "file": "liverpool.svg",
+      "seasons": [
+        "2015/16",
+        "2016/17"
+      ],
+      "source_page": "https://en.wikipedia.org/wiki/File:Liverpool_FC.svg",
+      "download_url": "https://upload.wikimedia.org/wikipedia/en/0/0c/Liverpool_FC.svg",
+      "history_sources": [
+        "https://en.wikipedia.org/wiki/File:Liverpool_FC.svg",
+        "https://www.liverpoolfc.com/news/liverpool-fc-use-liver-bird-across-digital-platforms?amp=1"
+      ],
+      "historical_status": "Supported as the corporate full crest, not the simplified Liver Bird worn on shirts. The file source traces to an official 2012 guide; the club's later explanation distinguishes the continuing full official crest from its kit emblem. The separately indexed May 2016 guidelines PDF timed out on direct retrieval and was not relied on for this decision.",
+      "rights_status": "Wikimedia source page marks non-free logo; official guidelines constrain brand use; no Matchmate licence established.",
+      "sha256": "bbb7768e2875eb1f273243c09dc16d6fc7f308582996d9188926a8d8e6243040",
+      "bytes": 819559,
+      "retrieved_at": "2026-10-15"
+    },
+    {
+      "club_id": "tottenham",
+      "file": "tottenham.svg",
+      "seasons": [
+        "2015/16",
+        "2016/17"
+      ],
+      "source_page": "https://en.wikipedia.org/wiki/File:Tottenham_Hotspur.svg",
+      "download_url": "https://upload.wikimedia.org/wikipedia/en/b/b4/Tottenham_Hotspur.svg",
+      "history_sources": [
+        "https://www.tottenhamhotspur.com/news/1031199/club-unveils-new-badge",
+        "https://www.tottenhamhotspur.com/media/28071/schoolofspurs.pdf",
+        "https://www.tottenhamhotspur.com/the-club/spurs-brand-remastered/"
+      ],
+      "historical_status": "Supported: 2006 cockerel/ball plus Tottenham Hotspur wordmark. Official history says unchanged through the relevant period; newer remaster removes the wordmark and is deliberately not used.",
+      "rights_status": "Wikimedia source page marks non-free logo; no Matchmate licence established.",
+      "sha256": "c7c6f45a35146e63ac027d2133eaf857905ca2fe70f3bf3eb9d69928d586a995",
+      "bytes": 11923,
+      "retrieved_at": "2026-10-15"
+    },
+    {
+      "club_id": "newcastle",
+      "file": "newcastle.png",
+      "seasons": [
+        "2015/16"
+      ],
+      "source_page": "https://www.newcastleunited.com/en/club-crest",
+      "download_url": "https://contentfulproxy.stadion.io/9ec6988xevcz/7lDcoPNG6RruLjlHdSZFQ3/b230063b7399e2ad5c0f09dad5faee76/NUFC_Crest_Colour.png?fm=png&w=160",
+      "history_sources": [
+        "https://www.newcastleunited.com/en/club-crest"
+      ],
+      "historical_status": "Supported: official history labels this colour seahorse/striped-shield design 1988-present; Newcastle is not in the 2016/17 PL set.",
+      "rights_status": "Official club artwork; no public reuse licence established.",
+      "sha256": "ae891f34f0f75cf882f74c4b2f62eac78d965740d84674db8ae43a2a3e72fb90",
+      "bytes": 35714,
+      "retrieved_at": "2026-10-15",
+      "width": 160,
+      "height": 160
+    },
+    {
+      "club_id": "manchester-city",
+      "file": "manchester-city-2016.svg",
+      "seasons": [
+        "2016/17"
+      ],
+      "source_page": "https://en.wikipedia.org/wiki/File:Manchester_City_FC_badge.svg",
+      "download_url": "https://upload.wikimedia.org/wikipedia/en/e/eb/Manchester_City_FC_badge.svg",
+      "history_sources": [
+        "https://www.mancity.com/news/club-news/club-news/2016/june/mcfc-new-badge-is-here",
+        "https://www.mancity.com/news/first-team/first-team-news/2015/december/badge-reveal-sunderland-image-gallery"
+      ],
+      "historical_status": "Supported only for 2016/17: official launch says the round ship/rose badge replaces the Eagle badge for the new season. Its December 2015 reveal does not make it the 2015/16 season identity. Earlier Eagle artwork now separately mapped to 2015/16 from a period-labelled archive PNG.",
+      "rights_status": "Wikimedia source page marks non-free logo and copyright registration; no Matchmate licence established.",
+      "sha256": "fde62a10352257f95d5d2e0af5f41e7035ab734bd3169852c28391272dd9ea0c",
+      "bytes": 18470,
+      "retrieved_at": "2026-10-15"
+    },
+    {
+      "club_id": "west-ham",
+      "file": "west-ham-2016.png",
+      "seasons": [
+        "2016/17"
+      ],
+      "source_page": "https://www.whufc.com/en/our-crest",
+      "download_url": "https://contentfulproxy.stadion.io/zl2jjr3puakk/6ShptWgdeMagFxa9YBknO5/6244026e51b242c68b1f7cba04fa2136/Style_Full_Colour.png?fm=png&w=160",
+      "history_sources": [
+        "https://www.whufc.com/en/our-crest",
+        "https://www.whufc.com/news/articles/2015/october/28-october/commemorate-final-season-boleyn-kit"
+      ],
+      "historical_status": "Supported only for 2016/17: official crest consultation page embeds its dated crest timeline ending in the 2016 hammers/London design and supplies the matching header image. The club's 2015 Boleyn kit article documents a different commemorative crest. No 2015/16 artwork is substituted.",
+      "rights_status": "Official club artwork; no public reuse licence established.",
+      "sha256": "a508efe1a5d3416c48f797d0bc7d60f5aaf23f3b885c16d8f9855dc29bffc453",
+      "bytes": 4083,
+      "retrieved_at": "2026-10-15",
+      "width": 148,
+      "height": 148
+    },
+    {
+      "club_id": "bournemouth",
+      "file": "bournemouth.png",
+      "seasons": [
+        "2015/16",
+        "2016/17"
+      ],
+      "source_page": "https://www.footballkitarchive.com/afc-bournemouth-logo-history-t61/",
+      "download_url": "https://www.footballkitarchive.com/static/logos/B1ADBVwd7FhdNXi/afc-bournemouth-2013-logo.png",
+      "retrieved_at": "2026-10-16",
+      "history_sources": [
+        "https://www.footballkitarchive.com/afc-bournemouth-logo-history-t61/"
+      ],
+      "historical_status": "Reference archive labels this artwork 2013. Archive period labels support season mapping; not independently verified exact introduction dates. Original PNG retained, not generated or redrawn.",
+      "rights_status": "Unofficial reference archive. Copyright/trademark rights remain with their owners; no free licence, endorsement or Matchmate publication clearance established.",
+      "sha256": "762c992b567fcb5ab965009c2c7d160835690bf979e89ce6ef70dc3c6d8391f7",
+      "width": 912,
+      "height": 1200,
+      "bytes": 163718
+    },
+    {
+      "club_id": "aston-villa",
+      "file": "aston-villa.png",
+      "seasons": [
+        "2015/16"
+      ],
+      "source_page": "https://www.footballkitarchive.com/aston-villa-logo-history-t10/",
+      "download_url": "https://www.footballkitarchive.com/static/logos/GYh0bwrCh0BvrQq/aston-villa-2008-2016-logo.png",
+      "retrieved_at": "2026-10-16",
+      "history_sources": [
+        "https://www.footballkitarchive.com/aston-villa-logo-history-t10/"
+      ],
+      "historical_status": "Reference archive labels this artwork 2008-2016. Archive period labels support season mapping; not independently verified exact introduction dates. Original PNG retained, not generated or redrawn.",
+      "rights_status": "Unofficial reference archive. Copyright/trademark rights remain with their owners; no free licence, endorsement or Matchmate publication clearance established.",
+      "sha256": "be69fd43e6ff3506dc98334ef23edb3978d10a217484db2d89435b3aee29a0bd",
+      "width": 860,
+      "height": 1200,
+      "bytes": 146507
+    },
+    {
+      "club_id": "burnley",
+      "file": "burnley.png",
+      "seasons": [
+        "2016/17"
+      ],
+      "source_page": "https://www.footballkitarchive.com/es/burnley-fc-archivo-de-logotipos-t33/",
+      "download_url": "https://www.footballkitarchive.com/static/logos/3oQnvx2PSnxjAgw/burnley-fc-2015-2023-logo.png",
+      "retrieved_at": "2026-10-16",
+      "history_sources": [
+        "https://www.footballkitarchive.com/es/burnley-fc-archivo-de-logotipos-t33/"
+      ],
+      "historical_status": "Reference archive labels this artwork 2015-2023. Archive period labels support season mapping; not independently verified exact introduction dates. Original PNG retained, not generated or redrawn.",
+      "rights_status": "Unofficial reference archive. Copyright/trademark rights remain with their owners; no free licence, endorsement or Matchmate publication clearance established.",
+      "sha256": "74fcb8e485681b84a072c00f0db3e42d098906caa4ae6886832d9c909f8d218f",
+      "width": 427,
+      "height": 500,
+      "bytes": 303040
+    },
+    {
+      "club_id": "crystal-palace",
+      "file": "crystal-palace.png",
+      "seasons": [
+        "2015/16",
+        "2016/17"
+      ],
+      "source_page": "https://www.footballkitarchive.com/crystal-palace-logo-history-t37/",
+      "download_url": "https://www.footballkitarchive.com/static/logos/WK8xp1POUEvvbma/crystal-palace-2013-2022-logo.png",
+      "retrieved_at": "2026-10-16",
+      "history_sources": [
+        "https://www.footballkitarchive.com/crystal-palace-logo-history-t37/"
+      ],
+      "historical_status": "Reference archive labels this artwork 2013-2022. Archive period labels support season mapping; not independently verified exact introduction dates. Original PNG retained, not generated or redrawn.",
+      "rights_status": "Unofficial reference archive. Copyright/trademark rights remain with their owners; no free licence, endorsement or Matchmate publication clearance established.",
+      "sha256": "a887fc3f7c738c235f8346ee4747cbc507579e78d32b7871f8c173de7bed0e80",
+      "width": 403,
+      "height": 500,
+      "bytes": 159437
+    },
+    {
+      "club_id": "everton",
+      "file": "everton.png",
+      "seasons": [
+        "2015/16",
+        "2016/17"
+      ],
+      "source_page": "https://www.footballkitarchive.com/everton-fc-logo-history-t51/",
+      "download_url": "https://www.footballkitarchive.com/static/logos/YSUVeEH9aOvm5y2/everton-fc-2014-logo.png",
+      "retrieved_at": "2026-10-16",
+      "history_sources": [
+        "https://www.footballkitarchive.com/everton-fc-logo-history-t51/"
+      ],
+      "historical_status": "Reference archive labels this artwork 2014. Archive period labels support season mapping; not independently verified exact introduction dates. Original PNG retained, not generated or redrawn.",
+      "rights_status": "Unofficial reference archive. Copyright/trademark rights remain with their owners; no free licence, endorsement or Matchmate publication clearance established.",
+      "sha256": "23d743eaadc793fa25033b61aa24b91c8d9d0a0f3907f794480840b6ee0807bf",
+      "width": 1167,
+      "height": 1196,
+      "bytes": 341875
+    },
+    {
+      "club_id": "hull",
+      "file": "hull.png",
+      "seasons": [
+        "2016/17"
+      ],
+      "source_page": "https://www.footballkitarchive.com/hull-city-afc-logo-history-t14980/",
+      "download_url": "https://www.footballkitarchive.com/static/logos/9KISdYmEFU2klpB/hull-city-afc-2014-2019-logo.png",
+      "retrieved_at": "2026-10-16",
+      "history_sources": [
+        "https://www.footballkitarchive.com/hull-city-afc-logo-history-t14980/"
+      ],
+      "historical_status": "Reference archive labels this artwork 2014-2019. Archive period labels support season mapping; not independently verified exact introduction dates. Original PNG retained, not generated or redrawn.",
+      "rights_status": "Unofficial reference archive. Copyright/trademark rights remain with their owners; no free licence, endorsement or Matchmate publication clearance established.",
+      "sha256": "6eb51e09bd42564b5a142862e9a5d43479269872cdaf42e89c4e032bb105730c",
+      "width": 428,
+      "height": 500,
+      "bytes": 246877
+    },
+    {
+      "club_id": "manchester-united",
+      "file": "manchester-united.png",
+      "seasons": [
+        "2015/16",
+        "2016/17"
+      ],
+      "source_page": "https://www.footballkitarchive.com/manchester-united-logo-history-t26/",
+      "download_url": "https://www.footballkitarchive.com/static/logos/hqc8ANDffxd5toC/manchester-united-1998-logo.png",
+      "retrieved_at": "2026-10-16",
+      "history_sources": [
+        "https://www.footballkitarchive.com/manchester-united-logo-history-t26/"
+      ],
+      "historical_status": "Reference archive labels this artwork 1998. Archive period labels support season mapping; not independently verified exact introduction dates. Original PNG retained, not generated or redrawn.",
+      "rights_status": "Unofficial reference archive. Copyright/trademark rights remain with their owners; no free licence, endorsement or Matchmate publication clearance established.",
+      "sha256": "4453392bbb3bd36fe059614ba2f264c2a225d0062c01e039415e6082d29cc74b",
+      "width": 1010,
+      "height": 1024,
+      "bytes": 326333
+    },
+    {
+      "club_id": "middlesbrough",
+      "file": "middlesbrough.png",
+      "seasons": [
+        "2016/17"
+      ],
+      "source_page": "https://www.footballkitarchive.com/middlesbrough-fc-logo-history-t336/",
+      "download_url": "https://www.footballkitarchive.com/static/logos/CEMYWzUSBGjCQiR/middlesbrough-fc-2007-2026-logo.png",
+      "retrieved_at": "2026-10-16",
+      "history_sources": [
+        "https://www.footballkitarchive.com/middlesbrough-fc-logo-history-t336/"
+      ],
+      "historical_status": "Reference archive labels this artwork 2007-2026. Archive period labels support season mapping; not independently verified exact introduction dates. Original PNG retained, not generated or redrawn.",
+      "rights_status": "Unofficial reference archive. Copyright/trademark rights remain with their owners; no free licence, endorsement or Matchmate publication clearance established.",
+      "sha256": "6dd4dd386b479a48ec20732b01e81cdba151d6a2910356937f8a96a6fbf5a623",
+      "width": 1153,
+      "height": 1200,
+      "bytes": 437086
+    },
+    {
+      "club_id": "norwich",
+      "file": "norwich.png",
+      "seasons": [
+        "2015/16"
+      ],
+      "source_page": "https://www.footballkitarchive.com/norwich-city-logo-history-t35/",
+      "download_url": "https://www.footballkitarchive.com/static/logos/8FlnmMMFlI334VZ/norwich-city-1972-2022-logo.png",
+      "retrieved_at": "2026-10-16",
+      "history_sources": [
+        "https://www.footballkitarchive.com/norwich-city-logo-history-t35/"
+      ],
+      "historical_status": "Reference archive labels this artwork 1972-2022. Archive period labels support season mapping; not independently verified exact introduction dates. Original PNG retained, not generated or redrawn.",
+      "rights_status": "Unofficial reference archive. Copyright/trademark rights remain with their owners; no free licence, endorsement or Matchmate publication clearance established.",
+      "sha256": "e64983b2992dbc96b2ea3ea4a45be3d8812601f686883c4c9268460bda50d9a2",
+      "width": 1000,
+      "height": 1116,
+      "bytes": 411385
+    },
+    {
+      "club_id": "southampton",
+      "file": "southampton.png",
+      "seasons": [
+        "2015/16",
+        "2016/17"
+      ],
+      "source_page": "https://www.footballkitarchive.com/pt/southampton-fc-arquivo-de-logotipos-t59/",
+      "download_url": "https://www.footballkitarchive.com/static/logos/7j3Kw0gHysRCfgV/southampton-fc-2011-logo.png",
+      "retrieved_at": "2026-10-16",
+      "history_sources": [
+        "https://www.footballkitarchive.com/pt/southampton-fc-arquivo-de-logotipos-t59/"
+      ],
+      "historical_status": "Reference archive labels this artwork 2011. Archive period labels support season mapping; not independently verified exact introduction dates. Original PNG retained, not generated or redrawn.",
+      "rights_status": "Unofficial reference archive. Copyright/trademark rights remain with their owners; no free licence, endorsement or Matchmate publication clearance established.",
+      "sha256": "a283928ae6dfef6a726315d511c3fe076048b2e6f34e3dbe4339055d27aab434",
+      "width": 1052,
+      "height": 1200,
+      "bytes": 240062
+    },
+    {
+      "club_id": "stoke",
+      "file": "stoke.png",
+      "seasons": [
+        "2015/16",
+        "2016/17"
+      ],
+      "source_page": "https://www.footballkitarchive.com/stoke-city-logo-history-t489/",
+      "download_url": "https://www.footballkitarchive.com/static/logos/rQYHVyVzWT6BYuO/stoke-city-2001-2026-logo.png",
+      "retrieved_at": "2026-10-16",
+      "history_sources": [
+        "https://www.footballkitarchive.com/stoke-city-logo-history-t489/"
+      ],
+      "historical_status": "Reference archive labels this artwork 2001-2026. Archive period labels support season mapping; not independently verified exact introduction dates. Original PNG retained, not generated or redrawn.",
+      "rights_status": "Unofficial reference archive. Copyright/trademark rights remain with their owners; no free licence, endorsement or Matchmate publication clearance established.",
+      "sha256": "1d3dcd437e5113876b25e3d12105b70b7630210673a08f96e10c9f18f5e994c2",
+      "width": 1024,
+      "height": 1200,
+      "bytes": 166062
+    },
+    {
+      "club_id": "sunderland",
+      "file": "sunderland.png",
+      "seasons": [
+        "2015/16",
+        "2016/17"
+      ],
+      "source_page": "https://www.footballkitarchive.com/es/sunderland-afc-archivo-de-logotipos-t67/",
+      "download_url": "https://www.footballkitarchive.com/static/logos/92HzGIJ1nDayrf0/sunderland-afc-1999-logo.png",
+      "retrieved_at": "2026-10-16",
+      "history_sources": [
+        "https://www.footballkitarchive.com/es/sunderland-afc-archivo-de-logotipos-t67/"
+      ],
+      "historical_status": "Reference archive labels this artwork 1999. Archive period labels support season mapping; not independently verified exact introduction dates. Original PNG retained, not generated or redrawn.",
+      "rights_status": "Unofficial reference archive. Copyright/trademark rights remain with their owners; no free licence, endorsement or Matchmate publication clearance established.",
+      "sha256": "a2211761bf44fac5eedd47127e38035266ab5ca48f629b5611bfc0f06cd8b8e9",
+      "width": 1200,
+      "height": 1003,
+      "bytes": 314479
+    },
+    {
+      "club_id": "swansea",
+      "file": "swansea.png",
+      "seasons": [
+        "2015/16",
+        "2016/17"
+      ],
+      "source_page": "https://www.footballkitarchive.com/swansea-city-logo-history-t493/",
+      "download_url": "https://www.footballkitarchive.com/static/logos/5OtUvk3MTxnujvn/swansea-city-1998-2021-logo.png",
+      "retrieved_at": "2026-10-16",
+      "history_sources": [
+        "https://www.footballkitarchive.com/swansea-city-logo-history-t493/"
+      ],
+      "historical_status": "Reference archive labels this artwork 1998-2021. Archive period labels support season mapping; not independently verified exact introduction dates. Original PNG retained, not generated or redrawn.",
+      "rights_status": "Unofficial reference archive. Copyright/trademark rights remain with their owners; no free licence, endorsement or Matchmate publication clearance established.",
+      "sha256": "14696a7199746be2ab4d894c9fe8bf0ac833d68076459e5463f068f9c2a4df65",
+      "width": 500,
+      "height": 458,
+      "bytes": 45617
+    },
+    {
+      "club_id": "watford",
+      "file": "watford.png",
+      "seasons": [
+        "2015/16",
+        "2016/17"
+      ],
+      "source_page": "https://www.footballkitarchive.com/pt/watford-fc-logo-history/",
+      "download_url": "https://www.footballkitarchive.com/static/logos/7a1rvT6SqBWY8U7/watford-fc-2001-logo.png",
+      "retrieved_at": "2026-10-16",
+      "history_sources": [
+        "https://www.footballkitarchive.com/pt/watford-fc-logo-history/"
+      ],
+      "historical_status": "Reference archive labels this artwork 2001. Archive period labels support season mapping; not independently verified exact introduction dates. Original PNG retained, not generated or redrawn.",
+      "rights_status": "Unofficial reference archive. Copyright/trademark rights remain with their owners; no free licence, endorsement or Matchmate publication clearance established.",
+      "sha256": "4c77c0f484afb3bfbb9ec7e5fc3ee1f1641036a24dd0269197ff69d723069d79",
+      "width": 1068,
+      "height": 1200,
+      "bytes": 136509
+    },
+    {
+      "club_id": "west-brom",
+      "file": "west-brom.png",
+      "seasons": [
+        "2015/16",
+        "2016/17"
+      ],
+      "source_page": "https://www.footballkitarchive.com/west-bromwich-albion-logo-history-t550/",
+      "download_url": "https://www.footballkitarchive.com/static/logos/BzWklR5ItzUvHwO/west-bromwich-albion-2008-logo.png",
+      "retrieved_at": "2026-10-16",
+      "history_sources": [
+        "https://www.footballkitarchive.com/west-bromwich-albion-logo-history-t550/"
+      ],
+      "historical_status": "Reference archive labels this artwork 2008. Archive period labels support season mapping; not independently verified exact introduction dates. Original PNG retained, not generated or redrawn.",
+      "rights_status": "Unofficial reference archive. Copyright/trademark rights remain with their owners; no free licence, endorsement or Matchmate publication clearance established.",
+      "sha256": "9f53b722f7bd44fdd2ac9bd9488e1865fafdb60aec5b79b1b31342219f41ca7a",
+      "width": 1004,
+      "height": 1200,
+      "bytes": 208822
+    },
+    {
+      "club_id": "manchester-city",
+      "file": "manchester-city-2015.png",
+      "seasons": [
+        "2015/16"
+      ],
+      "source_page": "https://www.footballkitarchive.com/manchester-city-logo-history-t7/",
+      "download_url": "https://www.footballkitarchive.com/static/logos/JvGKN7XvFwIzzNX/manchester-city-1997-2016-logo.png",
+      "retrieved_at": "2026-10-16",
+      "history_sources": [
+        "https://www.footballkitarchive.com/manchester-city-logo-history-t7/"
+      ],
+      "historical_status": "Reference archive labels this artwork 1997-2016. Archive period labels support season mapping; not independently verified exact introduction dates. Original PNG retained, not generated or redrawn.",
+      "rights_status": "Unofficial reference archive. Copyright/trademark rights remain with their owners; no free licence, endorsement or Matchmate publication clearance established.",
+      "sha256": "ce587e0d45f5d585ed46283181c336dfbd64de3fe032f882e071336625fedb8d",
+      "width": 842,
+      "height": 1000,
+      "bytes": 648282
+    },
+    {
+      "club_id": "west-ham",
+      "file": "west-ham-2015.png",
+      "seasons": [
+        "2015/16"
+      ],
+      "source_page": "https://www.footballkitarchive.com/west-ham-united-logo-history-t36/",
+      "download_url": "https://www.footballkitarchive.com/static/logos/lhoj6yTuS30QMk2/west-ham-united-2015-2016-logo.png",
+      "retrieved_at": "2026-10-16",
+      "history_sources": [
+        "https://www.footballkitarchive.com/west-ham-united-logo-history-t36/",
+        "https://www.whufc.com/news/articles/2015/october/28-october/commemorate-final-season-boleyn-kit"
+      ],
+      "historical_status": "Reference archive labels this artwork 2015-2016. Archive period labels support season mapping; not independently verified exact introduction dates. Original PNG retained, not generated or redrawn. Explicit exception: gold commemorative final Boleyn season kit variant corroborated by official 2015 article, not a uniform corporate mark claim.",
+      "rights_status": "Unofficial reference archive. Copyright/trademark rights remain with their owners; no free licence, endorsement or Matchmate publication clearance established.",
+      "sha256": "a75e0a69c0a72e87bfd4403a67dfb2c5b46193b181bd4c4e6230750698b04be0",
+      "width": 392,
+      "height": 500,
+      "bytes": 123779
+    }
+  ],
+  "fallbacks": {},
+  "archive_retrieval": {
+    "terms_url": "https://www.footballkitarchive.com/terms-of-use/",
+    "scope": "Finite user-authorized retrieval of 17 researched original PNG URLs, no crawling or bulk archive scraping. No publication clearance.",
+    "source_status": "Unofficial reference archive; date labels are not independently verified official introduction dates."
+  }
+}

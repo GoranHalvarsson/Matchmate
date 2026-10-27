@@ -1,0 +1,27 @@
+# Official fixture venue verification — 2016/17
+
+Observed **2026-10-17**. **380/380 actual Premier League match headers checked; zero remaining fixture keys, date/score differences or venue-identity disagreements.** This is a retrospective source-verification ledger, not an application import or a newly licensed fixture feed. Independent review passed without findings: both validators and 29 tests, all 380 keys and unique source IDs, 20 clubs with 19 home fixtures each, and 121 local links checked. Reviewer accepted the captured-header evidence and root spotchecks; it did not independently recapture all 380 pages.
+
+## Evidence and method
+
+The rendered [official season listing](https://www.premierleague.com/en/matches/premier-league/2016-17) exposes completed results through Matchweeks 1–38. We traversed the visible controls and read all 380 unique observed match links. The page heading can update before its rows: captures were accepted only after the fixture-link set changed. Listing discovery alone never counted as a venue check.
+
+Each linked **actual match overview** was then opened and its rendered season/fixture heading, full-time result, displayed weekday/day/month and explicit stadium header inspected. The year derives from the explicit 2016/2017 season (August–December 2016; January–May 2017); this basis is recorded per note. The displayed calendar date, not matchweek or the original schedule, must equal the existing played date. No kickoff time, timezone, known-then availability or full-time timestamp is asserted.
+
+Transient observations passed the saved network-free [ingestor/validator](audit_primary_fixtures.py): exact home/away identity and source-URL slug, played date and weekday, completed score, and an explicit venue mapped to an existing ground identity. Only after reading that venue did it compare with the existing season ground context; no home-ground substitution is allowed. An unknown/different venue raises a review error. All 20 clubs have 19 home fixtures in the checked local set; all 380 passed. No alternative ground identity was found in these official headers, which remains a statement about this source audit rather than infallible proof of every historical venue fact.
+
+[Discovered references](primary-fixture-source-links-2016-17.json) and the [verification ledger](primary-fixture-audit-2016-17.json) retain existing local fixture keys, source URLs, observation date, locators, date basis and our agreement/status flags. They contain no copied article bodies, source scores, venue values or raw pages. Small batches were checkpointed; uncheckpointed observations lost in browser-tool timeouts were re-read, not counted. Three public research tabs were closed and transient header arrays cleared after the final checkpoint.
+
+## Names, exceptional cases and previous evidence
+
+Current/backfilled labels including **The MKM Stadium** and **Swansea.com Stadium** corroborate ground identity only. Every ledger note explicitly leaves historical venue-name verification false. The separately sourced naming review is unchanged.
+
+The three earlier primary cases are now overlapping ledger entries, not three additional fixtures: Burnley–Liverpool on 20 August 2016 (Turf Moor), West Ham–Bournemouth on 21 August (London Stadium), and Tottenham–Manchester United on 14 May 2017 (White Hart Lane). Root independently inspected the rendered Burnley page [855444](https://www.premierleague.com/en/match/855444/burnley-vs-liverpool/overview) and Tottenham page [855539](https://www.premierleague.com/en/match/855539/tottenham-hotspur-vs-manchester-united/overview), confirming their season/date/result/venue. Burnley's reversed home/away scheduling is not a neutral relocation. Spurs' 2016/17 Wembley European matches remain outside this Premier League denominator.
+
+Other existing primary-ground match notes, including Swansea–Spurs on 5 April 2017, are supplementary corroboration of already included keys, not added coverage. The previous [380-row third-party catalogue audit](VENUE-AUDIT-2016-17.md) remains a separate completed audit with its own hashes and retention limits. This new check closes its **377-fixture primary-audit gap**. It does not expand the 2015/16 primary audit or change **379/380 unchecked actual 2026/27 venues**, with the separate planned case still not actual evidence.
+
+## Rights and verification limits
+
+The [Premier League terms](https://www.premierleague.com/en/terms-and-conditions) reserve database/reuse/commercial rights. This local research verification does not clear product reuse, automated feeds, publication or external-AI use. No copied PL fixture/venue export, bulk articles, account, payment, provider contact, app/schema integration or publication occurred.
+
+Run `python data/reference-foundation/audit_primary_fixtures.py --validate`, the existing `validate.py`, and `python -m unittest discover -s data/reference-foundation -p "test*.py" -v`. The primary validator checks the complete local/reference key sets, unique source identities, source URLs, provenance, counts, remaining keys and unchanged local results hash. Ten new tests cover actual-date versus round handling; season/date/score/venue conflicts; missing records; stale fixture headers; source-ID reuse; provenance and historical-name boundaries. All **29** scoped tests passed. Existing source/licence/prototype hash gates pass. Offline checks establish internal evidence consistency; they do not independently recapture 380 live pages.

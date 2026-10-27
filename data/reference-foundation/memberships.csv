@@ -1,0 +1,61 @@
+membership_id,season,club_id,source_team_name,source_id,evidence_status,observed_at,valid_from,valid_to,temporal_note
+2015/16|bournemouth,2015/16,bournemouth,AFC Bournemouth,openfootball-2015-16,community_completed_fixture_presence,2026-10-17,,,Season label only; legal membership interval not established.
+2015/16|arsenal,2015/16,arsenal,Arsenal FC,openfootball-2015-16,community_completed_fixture_presence,2026-10-17,,,Season label only; legal membership interval not established.
+2015/16|aston-villa,2015/16,aston-villa,Aston Villa,openfootball-2015-16,community_completed_fixture_presence,2026-10-17,,,Season label only; legal membership interval not established.
+2015/16|chelsea,2015/16,chelsea,Chelsea FC,openfootball-2015-16,community_completed_fixture_presence,2026-10-17,,,Season label only; legal membership interval not established.
+2015/16|crystal-palace,2015/16,crystal-palace,Crystal Palace,openfootball-2015-16,community_completed_fixture_presence,2026-10-17,,,Season label only; legal membership interval not established.
+2015/16|everton,2015/16,everton,Everton FC,openfootball-2015-16,community_completed_fixture_presence,2026-10-17,,,Season label only; legal membership interval not established.
+2015/16|leicester,2015/16,leicester,Leicester City,openfootball-2015-16,community_completed_fixture_presence,2026-10-17,,,Season label only; legal membership interval not established.
+2015/16|liverpool,2015/16,liverpool,Liverpool FC,openfootball-2015-16,community_completed_fixture_presence,2026-10-17,,,Season label only; legal membership interval not established.
+2015/16|manchester-city,2015/16,manchester-city,Manchester City,openfootball-2015-16,community_completed_fixture_presence,2026-10-17,,,Season label only; legal membership interval not established.
+2015/16|manchester-united,2015/16,manchester-united,Manchester United,openfootball-2015-16,community_completed_fixture_presence,2026-10-17,,,Season label only; legal membership interval not established.
+2015/16|newcastle,2015/16,newcastle,Newcastle United,openfootball-2015-16,community_completed_fixture_presence,2026-10-17,,,Season label only; legal membership interval not established.
+2015/16|norwich,2015/16,norwich,Norwich City,openfootball-2015-16,community_completed_fixture_presence,2026-10-17,,,Season label only; legal membership interval not established.
+2015/16|southampton,2015/16,southampton,Southampton FC,openfootball-2015-16,community_completed_fixture_presence,2026-10-17,,,Season label only; legal membership interval not established.
+2015/16|stoke,2015/16,stoke,Stoke City,openfootball-2015-16,community_completed_fixture_presence,2026-10-17,,,Season label only; legal membership interval not established.
+2015/16|sunderland,2015/16,sunderland,Sunderland AFC,openfootball-2015-16,community_completed_fixture_presence,2026-10-17,,,Season label only; legal membership interval not established.
+2015/16|swansea,2015/16,swansea,Swansea City,openfootball-2015-16,community_completed_fixture_presence,2026-10-17,,,Season label only; legal membership interval not established.
+2015/16|tottenham,2015/16,tottenham,Tottenham Hotspur,openfootball-2015-16,community_completed_fixture_presence,2026-10-17,,,Season label only; legal membership interval not established.
+2015/16|watford,2015/16,watford,Watford FC,openfootball-2015-16,community_completed_fixture_presence,2026-10-17,,,Season label only; legal membership interval not established.
+2015/16|west-brom,2015/16,west-brom,West Bromwich Albion,openfootball-2015-16,community_completed_fixture_presence,2026-10-17,,,Season label only; legal membership interval not established.
+2015/16|west-ham,2015/16,west-ham,West Ham United,openfootball-2015-16,community_completed_fixture_presence,2026-10-17,,,Season label only; legal membership interval not established.
+2016/17|bournemouth,2016/17,bournemouth,AFC Bournemouth,openfootball-2016-17,community_completed_fixture_presence,2026-10-17,,,Season label only; legal membership interval not established.
+2016/17|arsenal,2016/17,arsenal,Arsenal FC,openfootball-2016-17,community_completed_fixture_presence,2026-10-17,,,Season label only; legal membership interval not established.
+2016/17|burnley,2016/17,burnley,Burnley FC,openfootball-2016-17,community_completed_fixture_presence,2026-10-17,,,Season label only; legal membership interval not established.
+2016/17|chelsea,2016/17,chelsea,Chelsea FC,openfootball-2016-17,community_completed_fixture_presence,2026-10-17,,,Season label only; legal membership interval not established.
+2016/17|crystal-palace,2016/17,crystal-palace,Crystal Palace,openfootball-2016-17,community_completed_fixture_presence,2026-10-17,,,Season label only; legal membership interval not established.
+2016/17|everton,2016/17,everton,Everton FC,openfootball-2016-17,community_completed_fixture_presence,2026-10-17,,,Season label only; legal membership interval not established.
+2016/17|hull,2016/17,hull,Hull City,openfootball-2016-17,community_completed_fixture_presence,2026-10-17,,,Season label only; legal membership interval not established.
+2016/17|leicester,2016/17,leicester,Leicester City,openfootball-2016-17,community_completed_fixture_presence,2026-10-17,,,Season label only; legal membership interval not established.
+2016/17|liverpool,2016/17,liverpool,Liverpool FC,openfootball-2016-17,community_completed_fixture_presence,2026-10-17,,,Season label only; legal membership interval not established.
+2016/17|manchester-city,2016/17,manchester-city,Manchester City,openfootball-2016-17,community_completed_fixture_presence,2026-10-17,,,Season label only; legal membership interval not established.
+2016/17|manchester-united,2016/17,manchester-united,Manchester United,openfootball-2016-17,community_completed_fixture_presence,2026-10-17,,,Season label only; legal membership interval not established.
+2016/17|middlesbrough,2016/17,middlesbrough,Middlesbrough FC,openfootball-2016-17,community_completed_fixture_presence,2026-10-17,,,Season label only; legal membership interval not established.
+2016/17|southampton,2016/17,southampton,Southampton FC,openfootball-2016-17,community_completed_fixture_presence,2026-10-17,,,Season label only; legal membership interval not established.
+2016/17|stoke,2016/17,stoke,Stoke City,openfootball-2016-17,community_completed_fixture_presence,2026-10-17,,,Season label only; legal membership interval not established.
+2016/17|sunderland,2016/17,sunderland,Sunderland AFC,openfootball-2016-17,community_completed_fixture_presence,2026-10-17,,,Season label only; legal membership interval not established.
+2016/17|swansea,2016/17,swansea,Swansea City,openfootball-2016-17,community_completed_fixture_presence,2026-10-17,,,Season label only; legal membership interval not established.
+2016/17|tottenham,2016/17,tottenham,Tottenham Hotspur,openfootball-2016-17,community_completed_fixture_presence,2026-10-17,,,Season label only; legal membership interval not established.
+2016/17|watford,2016/17,watford,Watford FC,openfootball-2016-17,community_completed_fixture_presence,2026-10-17,,,Season label only; legal membership interval not established.
+2016/17|west-brom,2016/17,west-brom,West Bromwich Albion,openfootball-2016-17,community_completed_fixture_presence,2026-10-17,,,Season label only; legal membership interval not established.
+2016/17|west-ham,2016/17,west-ham,West Ham United,openfootball-2016-17,community_completed_fixture_presence,2026-10-17,,,Season label only; legal membership interval not established.
+2026/27|bournemouth,2026/27,bournemouth,AFC Bournemouth,openfootball-2026-27,community_fixture_list_presence_unconfirmed_official,2026-10-17,,,Source planned header dates are not membership bounds; no future/full-season guarantee.
+2026/27|arsenal,2026/27,arsenal,Arsenal FC,openfootball-2026-27,community_fixture_list_presence_unconfirmed_official,2026-10-17,,,Source planned header dates are not membership bounds; no future/full-season guarantee.
+2026/27|aston-villa,2026/27,aston-villa,Aston Villa FC,openfootball-2026-27,community_fixture_list_presence_unconfirmed_official,2026-10-17,,,Source planned header dates are not membership bounds; no future/full-season guarantee.
+2026/27|brentford,2026/27,brentford,Brentford FC,openfootball-2026-27,community_fixture_list_presence_unconfirmed_official,2026-10-17,,,Source planned header dates are not membership bounds; no future/full-season guarantee.
+2026/27|brighton,2026/27,brighton,Brighton & Hove Albion FC,openfootball-2026-27,community_fixture_list_presence_unconfirmed_official,2026-10-17,,,Source planned header dates are not membership bounds; no future/full-season guarantee.
+2026/27|chelsea,2026/27,chelsea,Chelsea FC,openfootball-2026-27,community_fixture_list_presence_unconfirmed_official,2026-10-17,,,Source planned header dates are not membership bounds; no future/full-season guarantee.
+2026/27|coventry,2026/27,coventry,Coventry City FC,openfootball-2026-27,community_fixture_list_presence_unconfirmed_official,2026-10-17,,,Source planned header dates are not membership bounds; no future/full-season guarantee.
+2026/27|crystal-palace,2026/27,crystal-palace,Crystal Palace FC,openfootball-2026-27,community_fixture_list_presence_unconfirmed_official,2026-10-17,,,Source planned header dates are not membership bounds; no future/full-season guarantee.
+2026/27|everton,2026/27,everton,Everton FC,openfootball-2026-27,community_fixture_list_presence_unconfirmed_official,2026-10-17,,,Source planned header dates are not membership bounds; no future/full-season guarantee.
+2026/27|fulham,2026/27,fulham,Fulham FC,openfootball-2026-27,community_fixture_list_presence_unconfirmed_official,2026-10-17,,,Source planned header dates are not membership bounds; no future/full-season guarantee.
+2026/27|hull,2026/27,hull,Hull City AFC,openfootball-2026-27,community_fixture_list_presence_unconfirmed_official,2026-10-17,,,Source planned header dates are not membership bounds; no future/full-season guarantee.
+2026/27|ipswich,2026/27,ipswich,Ipswich Town FC,openfootball-2026-27,community_fixture_list_presence_unconfirmed_official,2026-10-17,,,Source planned header dates are not membership bounds; no future/full-season guarantee.
+2026/27|leeds,2026/27,leeds,Leeds United FC,openfootball-2026-27,community_fixture_list_presence_unconfirmed_official,2026-10-17,,,Source planned header dates are not membership bounds; no future/full-season guarantee.
+2026/27|liverpool,2026/27,liverpool,Liverpool FC,openfootball-2026-27,community_fixture_list_presence_unconfirmed_official,2026-10-17,,,Source planned header dates are not membership bounds; no future/full-season guarantee.
+2026/27|manchester-city,2026/27,manchester-city,Manchester City FC,openfootball-2026-27,community_fixture_list_presence_unconfirmed_official,2026-10-17,,,Source planned header dates are not membership bounds; no future/full-season guarantee.
+2026/27|manchester-united,2026/27,manchester-united,Manchester United FC,openfootball-2026-27,community_fixture_list_presence_unconfirmed_official,2026-10-17,,,Source planned header dates are not membership bounds; no future/full-season guarantee.
+2026/27|newcastle,2026/27,newcastle,Newcastle United FC,openfootball-2026-27,community_fixture_list_presence_unconfirmed_official,2026-10-17,,,Source planned header dates are not membership bounds; no future/full-season guarantee.
+2026/27|nottingham-forest,2026/27,nottingham-forest,Nottingham Forest FC,openfootball-2026-27,community_fixture_list_presence_unconfirmed_official,2026-10-17,,,Source planned header dates are not membership bounds; no future/full-season guarantee.
+2026/27|sunderland,2026/27,sunderland,Sunderland AFC,openfootball-2026-27,community_fixture_list_presence_unconfirmed_official,2026-10-17,,,Source planned header dates are not membership bounds; no future/full-season guarantee.
+2026/27|tottenham,2026/27,tottenham,Tottenham Hotspur FC,openfootball-2026-27,community_fixture_list_presence_unconfirmed_official,2026-10-17,,,Source planned header dates are not membership bounds; no future/full-season guarantee.

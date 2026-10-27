@@ -1,0 +1,42 @@
+@using Matchmate.Web.Experience
+@using Matchmate.Web.Localization
+@inject NavigationManager Navigation
+
+<a @attributes="AnchorAttributes" href="@Destination.Href" target="@Target" rel="@EffectiveRel">
+    @ChildContent
+    @if (Destination.LeavesApp)
+    {
+        <svg class="external-link-icon" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true" focusable="false"><path d="M9 2h5v5M14 2 7 9M6 3H3a1 1 0 0 0-1 1v9a1 1 0 0 0 1 1h9a1 1 0 0 0 1-1v-3" /></svg>
+        <span class="link-accessible-hint"> (@Hint)</span>
+    }
+</a>
+
+@code {
+    [CascadingParameter] public MatchLanguage Language { get; set; }
+    [Parameter, EditorRequired] public string? Href { get; set; }
+    [Parameter] public string? Target { get; set; }
+    [Parameter] public string? Rel { get; set; }
+    [Parameter] public RenderFragment? ChildContent { get; set; }
+    [Parameter(CaptureUnmatchedValues = true)] public IReadOnlyDictionary<string, object>? AdditionalAttributes { get; set; }
+    private LinkDestination Destination => LinkDestination.Classify(Href, new Uri(Navigation.BaseUri));
+    private bool NewTab => string.Equals(Target, "_blank", StringComparison.OrdinalIgnoreCase);
+    private string Hint => ShellText.Get(Language, Destination.Kind switch
+    {
+        LinkDestinationKind.Email => "LinkOpensEmail", LinkDestinationKind.Telephone => "LinkOpensTelephone",
+        _ => NewTab ? "LinkExternalNewTab" : "LinkExternal"
+    });
+    private string? EffectiveRel => !NewTab ? Rel : string.Join(' ', (Rel ?? "").Split((char[]?)null, StringSplitOptions.RemoveEmptyEntries)
+        .Concat(["noopener", "noreferrer"]).Distinct(StringComparer.OrdinalIgnoreCase));
+    private IReadOnlyDictionary<string, object> AnchorAttributes
+    {
+        get
+        {
+            var attributes = (AdditionalAttributes ?? new Dictionary<string, object>())
+                .Where(a => !new[] { "href", "target", "rel" }.Contains(a.Key, StringComparer.OrdinalIgnoreCase))
+                .ToDictionary(a => a.Key, a => a.Value, StringComparer.OrdinalIgnoreCase);
+            if (Destination.LeavesApp && attributes.TryGetValue("aria-label", out var label)) attributes["aria-label"] = $"{label} ({Hint})";
+            if (Destination.Kind == LinkDestinationKind.Unsupported) attributes["aria-disabled"] = "true";
+            return attributes;
+        }
+    }
+}

@@ -1,0 +1,616 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Matchmate clubs-competitions contracts v0.3.0",
+  "$defs": {
+    "club": {
+      "type": "object",
+      "properties": {
+        "record_id": {
+          "$ref": "common.schema.json#/$defs/record_id"
+        },
+        "revision_id": {
+          "$ref": "common.schema.json#/$defs/record_id"
+        },
+        "supersedes_revision_id": {
+          "$ref": "common.schema.json#/$defs/supersedes_revision_id"
+        },
+        "kind": {
+          "const": "club"
+        },
+        "source_id": {
+          "$ref": "common.schema.json#/$defs/source_id"
+        },
+        "provenance": {
+          "$ref": "common.schema.json#/$defs/provenance"
+        },
+        "claim_status": {
+          "$ref": "common.schema.json#/$defs/claim_status"
+        },
+        "valid_from": {
+          "$ref": "common.schema.json#/$defs/valid_from"
+        },
+        "valid_to": {
+          "$ref": "common.schema.json#/$defs/valid_to"
+        },
+        "recorded_at": {
+          "$ref": "common.schema.json#/$defs/valid_from"
+        },
+        "published_at": {
+          "$ref": "common.schema.json#/$defs/valid_to"
+        },
+        "synthetic_released_at": {
+          "$ref": "common.schema.json#/$defs/valid_to"
+        },
+        "payload": {
+          "type": "object",
+          "properties": {
+            "name": {
+              "type": "string",
+              "minLength": 1
+            },
+            "aliases": {
+              "type": "array",
+              "items": {
+                "type": "string",
+                "minLength": 1
+              }
+            },
+            "location": {
+              "anyOf": [
+                {
+                  "$ref": "common.schema.json#/$defs/locality"
+                },
+                {
+                  "type": "null"
+                }
+              ]
+            }
+          },
+          "required": [
+            "name",
+            "aliases",
+            "location"
+          ],
+          "additionalProperties": false
+        }
+      },
+      "required": [
+        "record_id",
+        "revision_id",
+        "supersedes_revision_id",
+        "kind",
+        "source_id",
+        "provenance",
+        "claim_status",
+        "valid_from",
+        "valid_to",
+        "recorded_at",
+        "published_at",
+        "synthetic_released_at",
+        "payload"
+      ],
+      "additionalProperties": false,
+      "allOf": [
+        {
+          "if": {
+            "properties": {
+              "provenance": {
+                "const": "synthetic"
+              }
+            }
+          },
+          "then": {
+            "properties": {
+              "synthetic_released_at": {
+                "$ref": "common.schema.json#/$defs/valid_from"
+              },
+              "claim_status": {
+                "const": "authored"
+              }
+            }
+          },
+          "else": {
+            "properties": {
+              "synthetic_released_at": {
+                "type": "null"
+              }
+            }
+          }
+        }
+      ]
+    },
+    "ruleset": {
+      "type": "object",
+      "properties": {
+        "record_id": {
+          "$ref": "common.schema.json#/$defs/record_id"
+        },
+        "revision_id": {
+          "$ref": "common.schema.json#/$defs/record_id"
+        },
+        "supersedes_revision_id": {
+          "$ref": "common.schema.json#/$defs/supersedes_revision_id"
+        },
+        "kind": {
+          "const": "ruleset"
+        },
+        "source_id": {
+          "$ref": "common.schema.json#/$defs/source_id"
+        },
+        "provenance": {
+          "$ref": "common.schema.json#/$defs/provenance"
+        },
+        "claim_status": {
+          "$ref": "common.schema.json#/$defs/claim_status"
+        },
+        "valid_from": {
+          "$ref": "common.schema.json#/$defs/valid_from"
+        },
+        "valid_to": {
+          "$ref": "common.schema.json#/$defs/valid_to"
+        },
+        "recorded_at": {
+          "$ref": "common.schema.json#/$defs/valid_from"
+        },
+        "published_at": {
+          "$ref": "common.schema.json#/$defs/valid_to"
+        },
+        "synthetic_released_at": {
+          "$ref": "common.schema.json#/$defs/valid_to"
+        },
+        "payload": {
+          "type": "object",
+          "properties": {
+            "name": {
+              "type": "string",
+              "minLength": 1
+            },
+            "substitutions_max": {
+              "anyOf": [
+                {
+                  "type": "integer",
+                  "minimum": 0
+                },
+                {
+                  "type": "null"
+                }
+              ]
+            },
+            "extra_time_allowed": {
+              "anyOf": [
+                {
+                  "type": "boolean"
+                },
+                {
+                  "type": "null"
+                }
+              ]
+            },
+            "shootout_allowed": {
+              "anyOf": [
+                {
+                  "type": "boolean"
+                },
+                {
+                  "type": "null"
+                }
+              ]
+            },
+            "discipline_rules_status": {
+              "type": "string",
+              "enum": [
+                "documented",
+                "unknown"
+              ]
+            }
+          },
+          "required": [
+            "name",
+            "substitutions_max",
+            "extra_time_allowed",
+            "shootout_allowed",
+            "discipline_rules_status"
+          ],
+          "additionalProperties": false
+        }
+      },
+      "required": [
+        "record_id",
+        "revision_id",
+        "supersedes_revision_id",
+        "kind",
+        "source_id",
+        "provenance",
+        "claim_status",
+        "valid_from",
+        "valid_to",
+        "recorded_at",
+        "published_at",
+        "synthetic_released_at",
+        "payload"
+      ],
+      "additionalProperties": false,
+      "allOf": [
+        {
+          "if": {
+            "properties": {
+              "provenance": {
+                "const": "synthetic"
+              }
+            }
+          },
+          "then": {
+            "properties": {
+              "synthetic_released_at": {
+                "$ref": "common.schema.json#/$defs/valid_from"
+              },
+              "claim_status": {
+                "const": "authored"
+              }
+            }
+          },
+          "else": {
+            "properties": {
+              "synthetic_released_at": {
+                "type": "null"
+              }
+            }
+          }
+        }
+      ]
+    },
+    "competition_season": {
+      "type": "object",
+      "properties": {
+        "record_id": {
+          "$ref": "common.schema.json#/$defs/record_id"
+        },
+        "revision_id": {
+          "$ref": "common.schema.json#/$defs/record_id"
+        },
+        "supersedes_revision_id": {
+          "$ref": "common.schema.json#/$defs/supersedes_revision_id"
+        },
+        "kind": {
+          "const": "competition_season"
+        },
+        "source_id": {
+          "$ref": "common.schema.json#/$defs/source_id"
+        },
+        "provenance": {
+          "$ref": "common.schema.json#/$defs/provenance"
+        },
+        "claim_status": {
+          "$ref": "common.schema.json#/$defs/claim_status"
+        },
+        "valid_from": {
+          "$ref": "common.schema.json#/$defs/valid_from"
+        },
+        "valid_to": {
+          "$ref": "common.schema.json#/$defs/valid_to"
+        },
+        "recorded_at": {
+          "$ref": "common.schema.json#/$defs/valid_from"
+        },
+        "published_at": {
+          "$ref": "common.schema.json#/$defs/valid_to"
+        },
+        "synthetic_released_at": {
+          "$ref": "common.schema.json#/$defs/valid_to"
+        },
+        "payload": {
+          "type": "object",
+          "properties": {
+            "name": {
+              "type": "string",
+              "minLength": 1
+            },
+            "season": {
+              "type": "string",
+              "minLength": 1
+            },
+            "ruleset_id": {
+              "type": "string",
+              "pattern": "^[a-z][a-z0-9-]*$",
+              "x-reference": "ruleset"
+            },
+            "competition_id": {
+              "type": "string",
+              "pattern": "^[a-z][a-z0-9-]*$",
+              "x-reference": "competition"
+            },
+            "start_date": {
+              "type": "string",
+              "format": "date"
+            },
+            "end_date": {
+              "type": "string",
+              "format": "date"
+            },
+            "membership_coverage": {
+              "enum": [
+                "complete",
+                "partial",
+                "unknown"
+              ]
+            }
+          },
+          "required": [
+            "name",
+            "season",
+            "ruleset_id",
+            "competition_id",
+            "start_date",
+            "end_date",
+            "membership_coverage"
+          ],
+          "additionalProperties": false
+        }
+      },
+      "required": [
+        "record_id",
+        "revision_id",
+        "supersedes_revision_id",
+        "kind",
+        "source_id",
+        "provenance",
+        "claim_status",
+        "valid_from",
+        "valid_to",
+        "recorded_at",
+        "published_at",
+        "synthetic_released_at",
+        "payload"
+      ],
+      "additionalProperties": false,
+      "allOf": [
+        {
+          "if": {
+            "properties": {
+              "provenance": {
+                "const": "synthetic"
+              }
+            }
+          },
+          "then": {
+            "properties": {
+              "synthetic_released_at": {
+                "$ref": "common.schema.json#/$defs/valid_from"
+              },
+              "claim_status": {
+                "const": "authored"
+              }
+            }
+          },
+          "else": {
+            "properties": {
+              "synthetic_released_at": {
+                "type": "null"
+              }
+            }
+          }
+        }
+      ]
+    },
+    "competition": {
+      "type": "object",
+      "properties": {
+        "record_id": {
+          "$ref": "common.schema.json#/$defs/record_id"
+        },
+        "revision_id": {
+          "$ref": "common.schema.json#/$defs/record_id"
+        },
+        "supersedes_revision_id": {
+          "$ref": "common.schema.json#/$defs/supersedes_revision_id"
+        },
+        "kind": {
+          "const": "competition"
+        },
+        "source_id": {
+          "$ref": "common.schema.json#/$defs/source_id"
+        },
+        "provenance": {
+          "$ref": "common.schema.json#/$defs/provenance"
+        },
+        "claim_status": {
+          "$ref": "common.schema.json#/$defs/claim_status"
+        },
+        "valid_from": {
+          "$ref": "common.schema.json#/$defs/valid_from"
+        },
+        "valid_to": {
+          "$ref": "common.schema.json#/$defs/valid_to"
+        },
+        "recorded_at": {
+          "$ref": "common.schema.json#/$defs/valid_from"
+        },
+        "published_at": {
+          "$ref": "common.schema.json#/$defs/valid_to"
+        },
+        "synthetic_released_at": {
+          "$ref": "common.schema.json#/$defs/valid_to"
+        },
+        "payload": {
+          "type": "object",
+          "properties": {
+            "name": {
+              "type": "string",
+              "minLength": 1
+            },
+            "country_code": {
+              "type": "string",
+              "pattern": "^[A-Z]{2}$"
+            },
+            "time_zone": {
+              "type": "string",
+              "minLength": 1
+            }
+          },
+          "required": [
+            "name",
+            "country_code",
+            "time_zone"
+          ],
+          "additionalProperties": false
+        }
+      },
+      "required": [
+        "record_id",
+        "revision_id",
+        "supersedes_revision_id",
+        "kind",
+        "source_id",
+        "provenance",
+        "claim_status",
+        "valid_from",
+        "valid_to",
+        "recorded_at",
+        "published_at",
+        "synthetic_released_at",
+        "payload"
+      ],
+      "additionalProperties": false,
+      "allOf": [
+        {
+          "if": {
+            "properties": {
+              "provenance": {
+                "const": "synthetic"
+              }
+            }
+          },
+          "then": {
+            "properties": {
+              "synthetic_released_at": {
+                "$ref": "common.schema.json#/$defs/valid_from"
+              },
+              "claim_status": {
+                "const": "authored"
+              }
+            }
+          },
+          "else": {
+            "properties": {
+              "synthetic_released_at": {
+                "type": "null"
+              }
+            }
+          }
+        }
+      ]
+    },
+    "season_membership": {
+      "type": "object",
+      "properties": {
+        "record_id": {
+          "$ref": "common.schema.json#/$defs/record_id"
+        },
+        "revision_id": {
+          "$ref": "common.schema.json#/$defs/record_id"
+        },
+        "supersedes_revision_id": {
+          "$ref": "common.schema.json#/$defs/supersedes_revision_id"
+        },
+        "kind": {
+          "const": "season_membership"
+        },
+        "source_id": {
+          "$ref": "common.schema.json#/$defs/source_id"
+        },
+        "provenance": {
+          "$ref": "common.schema.json#/$defs/provenance"
+        },
+        "claim_status": {
+          "$ref": "common.schema.json#/$defs/claim_status"
+        },
+        "valid_from": {
+          "$ref": "common.schema.json#/$defs/valid_from"
+        },
+        "valid_to": {
+          "$ref": "common.schema.json#/$defs/valid_to"
+        },
+        "recorded_at": {
+          "$ref": "common.schema.json#/$defs/valid_from"
+        },
+        "published_at": {
+          "$ref": "common.schema.json#/$defs/valid_to"
+        },
+        "synthetic_released_at": {
+          "$ref": "common.schema.json#/$defs/valid_to"
+        },
+        "payload": {
+          "type": "object",
+          "properties": {
+            "competition_season_id": {
+              "type": "string",
+              "pattern": "^[a-z][a-z0-9-]*$",
+              "x-reference": "competition_season"
+            },
+            "club_id": {
+              "type": "string",
+              "pattern": "^[a-z][a-z0-9-]*$",
+              "x-reference": "club"
+            },
+            "status": {
+              "enum": [
+                "participating",
+                "not_participating"
+              ]
+            }
+          },
+          "required": [
+            "competition_season_id",
+            "club_id",
+            "status"
+          ],
+          "additionalProperties": false
+        }
+      },
+      "required": [
+        "record_id",
+        "revision_id",
+        "supersedes_revision_id",
+        "kind",
+        "source_id",
+        "provenance",
+        "claim_status",
+        "valid_from",
+        "valid_to",
+        "recorded_at",
+        "published_at",
+        "synthetic_released_at",
+        "payload"
+      ],
+      "additionalProperties": false,
+      "allOf": [
+        {
+          "if": {
+            "properties": {
+              "provenance": {
+                "const": "synthetic"
+              }
+            }
+          },
+          "then": {
+            "properties": {
+              "synthetic_released_at": {
+                "$ref": "common.schema.json#/$defs/valid_from"
+              },
+              "claim_status": {
+                "const": "authored"
+              }
+            }
+          },
+          "else": {
+            "properties": {
+              "synthetic_released_at": {
+                "type": "null"
+              }
+            }
+          }
+        }
+      ]
+    }
+  }
+}

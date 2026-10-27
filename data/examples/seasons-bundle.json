@@ -1,0 +1,770 @@
+{
+  "schema_version": "0.3.0",
+  "dataset_id": "synthetic-seasons-v1",
+  "description": "Two partial fictional Premier League-shaped seasons, 2022/23 and 2023/24. Real town names only. Clubs, venues, coordinates, addresses, dates, membership, fixtures and player history are authored test data, not historical Premier League facts. Riverside appears only in the first sample; absence from a partial sample is not proof of relegation.",
+  "sources": [
+    {
+      "source_id": "source-seasons",
+      "title": "Authored two-season scenario",
+      "origin": "synthetic_authoring",
+      "locator": "data/SEASON-REVIEW.md",
+      "retrieved_at": "2026-10-15T00:00:00Z",
+      "usage": "synthetic_project_example"
+    }
+  ],
+  "records": [
+    {
+      "record_id": "competition-premier-league",
+      "revision_id": "competition-premier-league-v1",
+      "supersedes_revision_id": null,
+      "kind": "competition",
+      "source_id": "source-seasons",
+      "provenance": "synthetic",
+      "claim_status": "authored",
+      "valid_from": "2022-01-01T00:00:00Z",
+      "valid_to": null,
+      "recorded_at": "2026-10-15T00:00:00Z",
+      "published_at": null,
+      "synthetic_released_at": "2022-01-01T00:00:00Z",
+      "payload": {
+        "name": "Premier League \u2014 synthetic demonstration",
+        "country_code": "GB",
+        "time_zone": "Europe/London"
+      }
+    },
+    {
+      "record_id": "rules-season-demo",
+      "revision_id": "rules-season-demo-v1",
+      "supersedes_revision_id": null,
+      "kind": "ruleset",
+      "source_id": "source-seasons",
+      "provenance": "synthetic",
+      "claim_status": "authored",
+      "valid_from": "2022-01-01T00:00:00Z",
+      "valid_to": null,
+      "recorded_at": "2026-10-15T00:00:00Z",
+      "published_at": null,
+      "synthetic_released_at": "2022-01-01T00:00:00Z",
+      "payload": {
+        "name": "Synthetic league rules (incomplete)",
+        "substitutions_max": null,
+        "extra_time_allowed": false,
+        "shootout_allowed": false,
+        "discipline_rules_status": "unknown"
+      }
+    },
+    {
+      "record_id": "club-harbour",
+      "revision_id": "club-harbour-v1",
+      "supersedes_revision_id": null,
+      "kind": "club",
+      "source_id": "source-seasons",
+      "provenance": "synthetic",
+      "claim_status": "authored",
+      "valid_from": "2022-01-01T00:00:00Z",
+      "valid_to": null,
+      "recorded_at": "2026-10-15T00:00:00Z",
+      "published_at": null,
+      "synthetic_released_at": "2022-01-01T00:00:00Z",
+      "payload": {
+        "name": "Harbour FC (fictional)",
+        "aliases": [],
+        "location": {
+          "town_city": "Bristol",
+          "region": "England",
+          "country": "United Kingdom",
+          "country_code": "GB"
+        }
+      }
+    },
+    {
+      "record_id": "club-riverside",
+      "revision_id": "club-riverside-v1",
+      "supersedes_revision_id": null,
+      "kind": "club",
+      "source_id": "source-seasons",
+      "provenance": "synthetic",
+      "claim_status": "authored",
+      "valid_from": "2022-01-01T00:00:00Z",
+      "valid_to": null,
+      "recorded_at": "2026-10-15T00:00:00Z",
+      "published_at": null,
+      "synthetic_released_at": "2022-01-01T00:00:00Z",
+      "payload": {
+        "name": "Riverside FC (fictional)",
+        "aliases": [],
+        "location": {
+          "town_city": "Leeds",
+          "region": "England",
+          "country": "United Kingdom",
+          "country_code": "GB"
+        }
+      }
+    },
+    {
+      "record_id": "club-moor",
+      "revision_id": "club-moor-v1",
+      "supersedes_revision_id": null,
+      "kind": "club",
+      "source_id": "source-seasons",
+      "provenance": "synthetic",
+      "claim_status": "authored",
+      "valid_from": "2022-01-01T00:00:00Z",
+      "valid_to": null,
+      "recorded_at": "2026-10-15T00:00:00Z",
+      "published_at": null,
+      "synthetic_released_at": "2022-01-01T00:00:00Z",
+      "payload": {
+        "name": "Moor FC (fictional)",
+        "aliases": [],
+        "location": {
+          "town_city": "Sheffield",
+          "region": "England",
+          "country": "United Kingdom",
+          "country_code": "GB"
+        }
+      }
+    },
+    {
+      "record_id": "stadium-lantern",
+      "revision_id": "stadium-lantern-v1",
+      "supersedes_revision_id": null,
+      "kind": "stadium",
+      "source_id": "source-seasons",
+      "provenance": "synthetic",
+      "claim_status": "authored",
+      "valid_from": "2022-01-01T00:00:00Z",
+      "valid_to": null,
+      "recorded_at": "2026-10-15T00:00:00Z",
+      "published_at": null,
+      "synthetic_released_at": "2022-01-01T00:00:00Z",
+      "payload": {
+        "name": "Lantern Ground (fictional)",
+        "time_zone": "Europe/London",
+        "latitude": 51.45,
+        "longitude": -2.6,
+        "capacity": null,
+        "address": {
+          "lines": [
+            "Fictional Lantern Way"
+          ],
+          "postal_code": null,
+          "locality": {
+            "town_city": "Bristol",
+            "region": "England",
+            "country": "United Kingdom",
+            "country_code": "GB"
+          }
+        }
+      }
+    },
+    {
+      "record_id": "pitch-lantern",
+      "revision_id": "pitch-lantern-v1",
+      "supersedes_revision_id": null,
+      "kind": "pitch",
+      "source_id": "source-seasons",
+      "provenance": "synthetic",
+      "claim_status": "authored",
+      "valid_from": "2022-01-01T00:00:00Z",
+      "valid_to": null,
+      "recorded_at": "2026-10-15T00:00:00Z",
+      "published_at": null,
+      "synthetic_released_at": "2022-01-01T00:00:00Z",
+      "payload": {
+        "stadium_id": "stadium-lantern",
+        "name": "Main pitch"
+      }
+    },
+    {
+      "record_id": "stadium-beacon",
+      "revision_id": "stadium-beacon-v1",
+      "supersedes_revision_id": null,
+      "kind": "stadium",
+      "source_id": "source-seasons",
+      "provenance": "synthetic",
+      "claim_status": "authored",
+      "valid_from": "2022-01-01T00:00:00Z",
+      "valid_to": null,
+      "recorded_at": "2026-10-15T00:00:00Z",
+      "published_at": null,
+      "synthetic_released_at": "2022-01-01T00:00:00Z",
+      "payload": {
+        "name": "Beacon Ground (fictional)",
+        "time_zone": "Europe/London",
+        "latitude": 51.49,
+        "longitude": -2.57,
+        "capacity": null,
+        "address": {
+          "lines": [
+            "Fictional Beacon Way"
+          ],
+          "postal_code": null,
+          "locality": {
+            "town_city": "Bristol",
+            "region": "England",
+            "country": "United Kingdom",
+            "country_code": "GB"
+          }
+        }
+      }
+    },
+    {
+      "record_id": "pitch-beacon",
+      "revision_id": "pitch-beacon-v1",
+      "supersedes_revision_id": null,
+      "kind": "pitch",
+      "source_id": "source-seasons",
+      "provenance": "synthetic",
+      "claim_status": "authored",
+      "valid_from": "2022-01-01T00:00:00Z",
+      "valid_to": null,
+      "recorded_at": "2026-10-15T00:00:00Z",
+      "published_at": null,
+      "synthetic_released_at": "2022-01-01T00:00:00Z",
+      "payload": {
+        "stadium_id": "stadium-beacon",
+        "name": "Main pitch"
+      }
+    },
+    {
+      "record_id": "stadium-riverbank",
+      "revision_id": "stadium-riverbank-v1",
+      "supersedes_revision_id": null,
+      "kind": "stadium",
+      "source_id": "source-seasons",
+      "provenance": "synthetic",
+      "claim_status": "authored",
+      "valid_from": "2022-01-01T00:00:00Z",
+      "valid_to": null,
+      "recorded_at": "2026-10-15T00:00:00Z",
+      "published_at": null,
+      "synthetic_released_at": "2022-01-01T00:00:00Z",
+      "payload": {
+        "name": "Riverbank Ground (fictional)",
+        "time_zone": "Europe/London",
+        "latitude": 53.8,
+        "longitude": -1.55,
+        "capacity": null,
+        "address": {
+          "lines": [
+            "Fictional Riverbank Way"
+          ],
+          "postal_code": null,
+          "locality": {
+            "town_city": "Leeds",
+            "region": "England",
+            "country": "United Kingdom",
+            "country_code": "GB"
+          }
+        }
+      }
+    },
+    {
+      "record_id": "pitch-riverbank",
+      "revision_id": "pitch-riverbank-v1",
+      "supersedes_revision_id": null,
+      "kind": "pitch",
+      "source_id": "source-seasons",
+      "provenance": "synthetic",
+      "claim_status": "authored",
+      "valid_from": "2022-01-01T00:00:00Z",
+      "valid_to": null,
+      "recorded_at": "2026-10-15T00:00:00Z",
+      "published_at": null,
+      "synthetic_released_at": "2022-01-01T00:00:00Z",
+      "payload": {
+        "stadium_id": "stadium-riverbank",
+        "name": "Main pitch"
+      }
+    },
+    {
+      "record_id": "stadium-moorfield",
+      "revision_id": "stadium-moorfield-v1",
+      "supersedes_revision_id": null,
+      "kind": "stadium",
+      "source_id": "source-seasons",
+      "provenance": "synthetic",
+      "claim_status": "authored",
+      "valid_from": "2022-01-01T00:00:00Z",
+      "valid_to": null,
+      "recorded_at": "2026-10-15T00:00:00Z",
+      "published_at": null,
+      "synthetic_released_at": "2022-01-01T00:00:00Z",
+      "payload": {
+        "name": "Moorfield Ground (fictional)",
+        "time_zone": "Europe/London",
+        "latitude": 53.38,
+        "longitude": -1.47,
+        "capacity": null,
+        "address": {
+          "lines": [
+            "Fictional Moorfield Way"
+          ],
+          "postal_code": null,
+          "locality": {
+            "town_city": "Sheffield",
+            "region": "England",
+            "country": "United Kingdom",
+            "country_code": "GB"
+          }
+        }
+      }
+    },
+    {
+      "record_id": "pitch-moorfield",
+      "revision_id": "pitch-moorfield-v1",
+      "supersedes_revision_id": null,
+      "kind": "pitch",
+      "source_id": "source-seasons",
+      "provenance": "synthetic",
+      "claim_status": "authored",
+      "valid_from": "2022-01-01T00:00:00Z",
+      "valid_to": null,
+      "recorded_at": "2026-10-15T00:00:00Z",
+      "published_at": null,
+      "synthetic_released_at": "2022-01-01T00:00:00Z",
+      "payload": {
+        "stadium_id": "stadium-moorfield",
+        "name": "Main pitch"
+      }
+    },
+    {
+      "record_id": "home-harbour-lantern",
+      "revision_id": "home-harbour-lantern-v1",
+      "supersedes_revision_id": null,
+      "kind": "club_stadium",
+      "source_id": "source-seasons",
+      "provenance": "synthetic",
+      "claim_status": "authored",
+      "valid_from": "2022-01-01T00:00:00Z",
+      "valid_to": null,
+      "recorded_at": "2026-10-15T00:00:00Z",
+      "published_at": null,
+      "synthetic_released_at": "2022-01-01T00:00:00Z",
+      "payload": {
+        "club_id": "club-harbour",
+        "stadium_id": "stadium-lantern",
+        "use": "home"
+      }
+    },
+    {
+      "record_id": "home-harbour-lantern",
+      "revision_id": "home-harbour-lantern-v2",
+      "supersedes_revision_id": "home-harbour-lantern-v1",
+      "kind": "club_stadium",
+      "source_id": "source-seasons",
+      "provenance": "synthetic",
+      "claim_status": "authored",
+      "valid_from": "2022-01-01T00:00:00Z",
+      "valid_to": "2023-07-01T00:00:00Z",
+      "recorded_at": "2026-10-15T00:00:00Z",
+      "published_at": null,
+      "synthetic_released_at": "2023-06-01T00:00:00Z",
+      "payload": {
+        "club_id": "club-harbour",
+        "stadium_id": "stadium-lantern",
+        "use": "home"
+      }
+    },
+    {
+      "record_id": "home-harbour-beacon",
+      "revision_id": "home-harbour-beacon-v1",
+      "supersedes_revision_id": null,
+      "kind": "club_stadium",
+      "source_id": "source-seasons",
+      "provenance": "synthetic",
+      "claim_status": "authored",
+      "valid_from": "2023-07-01T00:00:00Z",
+      "valid_to": null,
+      "recorded_at": "2026-10-15T00:00:00Z",
+      "published_at": null,
+      "synthetic_released_at": "2023-06-01T00:00:00Z",
+      "payload": {
+        "club_id": "club-harbour",
+        "stadium_id": "stadium-beacon",
+        "use": "home"
+      }
+    },
+    {
+      "record_id": "home-riverside",
+      "revision_id": "home-riverside-v1",
+      "supersedes_revision_id": null,
+      "kind": "club_stadium",
+      "source_id": "source-seasons",
+      "provenance": "synthetic",
+      "claim_status": "authored",
+      "valid_from": "2022-01-01T00:00:00Z",
+      "valid_to": null,
+      "recorded_at": "2026-10-15T00:00:00Z",
+      "published_at": null,
+      "synthetic_released_at": "2022-01-01T00:00:00Z",
+      "payload": {
+        "club_id": "club-riverside",
+        "stadium_id": "stadium-riverbank",
+        "use": "home"
+      }
+    },
+    {
+      "record_id": "home-moor",
+      "revision_id": "home-moor-v1",
+      "supersedes_revision_id": null,
+      "kind": "club_stadium",
+      "source_id": "source-seasons",
+      "provenance": "synthetic",
+      "claim_status": "authored",
+      "valid_from": "2022-01-01T00:00:00Z",
+      "valid_to": null,
+      "recorded_at": "2026-10-15T00:00:00Z",
+      "published_at": null,
+      "synthetic_released_at": "2022-01-01T00:00:00Z",
+      "payload": {
+        "club_id": "club-moor",
+        "stadium_id": "stadium-moorfield",
+        "use": "home"
+      }
+    },
+    {
+      "record_id": "season-2022",
+      "revision_id": "season-2022-v1",
+      "supersedes_revision_id": null,
+      "kind": "competition_season",
+      "source_id": "source-seasons",
+      "provenance": "synthetic",
+      "claim_status": "authored",
+      "valid_from": "2022-08-01T00:00:00Z",
+      "valid_to": null,
+      "recorded_at": "2026-10-15T00:00:00Z",
+      "published_at": null,
+      "synthetic_released_at": "2022-06-01T00:00:00Z",
+      "payload": {
+        "name": "Synthetic Premier League sample",
+        "season": "2022/23",
+        "ruleset_id": "rules-season-demo",
+        "competition_id": "competition-premier-league",
+        "start_date": "2022-08-01",
+        "end_date": "2023-05-31",
+        "membership_coverage": "partial"
+      }
+    },
+    {
+      "record_id": "member-2022-harbour",
+      "revision_id": "member-2022-harbour-v1",
+      "supersedes_revision_id": null,
+      "kind": "season_membership",
+      "source_id": "source-seasons",
+      "provenance": "synthetic",
+      "claim_status": "authored",
+      "valid_from": "2022-08-01T00:00:00Z",
+      "valid_to": "2023-06-01T00:00:00Z",
+      "recorded_at": "2026-10-15T00:00:00Z",
+      "published_at": null,
+      "synthetic_released_at": "2022-06-01T00:00:00Z",
+      "payload": {
+        "competition_season_id": "season-2022",
+        "club_id": "club-harbour",
+        "status": "participating"
+      }
+    },
+    {
+      "record_id": "member-2022-riverside",
+      "revision_id": "member-2022-riverside-v1",
+      "supersedes_revision_id": null,
+      "kind": "season_membership",
+      "source_id": "source-seasons",
+      "provenance": "synthetic",
+      "claim_status": "authored",
+      "valid_from": "2022-08-01T00:00:00Z",
+      "valid_to": "2023-06-01T00:00:00Z",
+      "recorded_at": "2026-10-15T00:00:00Z",
+      "published_at": null,
+      "synthetic_released_at": "2022-06-01T00:00:00Z",
+      "payload": {
+        "competition_season_id": "season-2022",
+        "club_id": "club-riverside",
+        "status": "participating"
+      }
+    },
+    {
+      "record_id": "fixture-2022-home",
+      "revision_id": "fixture-2022-home-v1",
+      "supersedes_revision_id": null,
+      "kind": "fixture",
+      "source_id": "source-seasons",
+      "provenance": "synthetic",
+      "claim_status": "authored",
+      "valid_from": "2022-06-01T00:00:00Z",
+      "valid_to": null,
+      "recorded_at": "2026-10-15T00:00:00Z",
+      "published_at": null,
+      "synthetic_released_at": "2022-06-01T00:00:00Z",
+      "payload": {
+        "competition_season_id": "season-2022",
+        "home_club_id": "club-harbour",
+        "away_club_id": "club-riverside",
+        "stadium_id": "stadium-lantern",
+        "pitch_id": "pitch-lantern",
+        "scheduled_kickoff": "2022-09-10T14:00:00Z",
+        "actual_kickoff": null,
+        "status": "scheduled",
+        "stage": "synthetic sample"
+      }
+    },
+    {
+      "record_id": "fixture-2022-neutral",
+      "revision_id": "fixture-2022-neutral-v1",
+      "supersedes_revision_id": null,
+      "kind": "fixture",
+      "source_id": "source-seasons",
+      "provenance": "synthetic",
+      "claim_status": "authored",
+      "valid_from": "2022-06-01T00:00:00Z",
+      "valid_to": null,
+      "recorded_at": "2026-10-15T00:00:00Z",
+      "published_at": null,
+      "synthetic_released_at": "2022-06-01T00:00:00Z",
+      "payload": {
+        "competition_season_id": "season-2022",
+        "home_club_id": "club-riverside",
+        "away_club_id": "club-harbour",
+        "stadium_id": "stadium-riverbank",
+        "pitch_id": "pitch-riverbank",
+        "scheduled_kickoff": "2022-10-10T14:00:00Z",
+        "actual_kickoff": null,
+        "status": "scheduled",
+        "stage": "synthetic sample"
+      }
+    },
+    {
+      "record_id": "season-2023",
+      "revision_id": "season-2023-v1",
+      "supersedes_revision_id": null,
+      "kind": "competition_season",
+      "source_id": "source-seasons",
+      "provenance": "synthetic",
+      "claim_status": "authored",
+      "valid_from": "2023-08-01T00:00:00Z",
+      "valid_to": null,
+      "recorded_at": "2026-10-15T00:00:00Z",
+      "published_at": null,
+      "synthetic_released_at": "2023-06-01T00:00:00Z",
+      "payload": {
+        "name": "Synthetic Premier League sample",
+        "season": "2023/24",
+        "ruleset_id": "rules-season-demo",
+        "competition_id": "competition-premier-league",
+        "start_date": "2023-08-01",
+        "end_date": "2024-05-31",
+        "membership_coverage": "partial"
+      }
+    },
+    {
+      "record_id": "member-2023-harbour",
+      "revision_id": "member-2023-harbour-v1",
+      "supersedes_revision_id": null,
+      "kind": "season_membership",
+      "source_id": "source-seasons",
+      "provenance": "synthetic",
+      "claim_status": "authored",
+      "valid_from": "2023-08-01T00:00:00Z",
+      "valid_to": "2024-06-01T00:00:00Z",
+      "recorded_at": "2026-10-15T00:00:00Z",
+      "published_at": null,
+      "synthetic_released_at": "2023-06-01T00:00:00Z",
+      "payload": {
+        "competition_season_id": "season-2023",
+        "club_id": "club-harbour",
+        "status": "participating"
+      }
+    },
+    {
+      "record_id": "member-2023-moor",
+      "revision_id": "member-2023-moor-v1",
+      "supersedes_revision_id": null,
+      "kind": "season_membership",
+      "source_id": "source-seasons",
+      "provenance": "synthetic",
+      "claim_status": "authored",
+      "valid_from": "2023-08-01T00:00:00Z",
+      "valid_to": "2024-06-01T00:00:00Z",
+      "recorded_at": "2026-10-15T00:00:00Z",
+      "published_at": null,
+      "synthetic_released_at": "2023-06-01T00:00:00Z",
+      "payload": {
+        "competition_season_id": "season-2023",
+        "club_id": "club-moor",
+        "status": "participating"
+      }
+    },
+    {
+      "record_id": "fixture-2023-home",
+      "revision_id": "fixture-2023-home-v1",
+      "supersedes_revision_id": null,
+      "kind": "fixture",
+      "source_id": "source-seasons",
+      "provenance": "synthetic",
+      "claim_status": "authored",
+      "valid_from": "2023-06-01T00:00:00Z",
+      "valid_to": null,
+      "recorded_at": "2026-10-15T00:00:00Z",
+      "published_at": null,
+      "synthetic_released_at": "2023-06-01T00:00:00Z",
+      "payload": {
+        "competition_season_id": "season-2023",
+        "home_club_id": "club-harbour",
+        "away_club_id": "club-moor",
+        "stadium_id": "stadium-beacon",
+        "pitch_id": "pitch-beacon",
+        "scheduled_kickoff": "2023-09-10T14:00:00Z",
+        "actual_kickoff": null,
+        "status": "scheduled",
+        "stage": "synthetic sample"
+      }
+    },
+    {
+      "record_id": "fixture-2023-neutral",
+      "revision_id": "fixture-2023-neutral-v1",
+      "supersedes_revision_id": null,
+      "kind": "fixture",
+      "source_id": "source-seasons",
+      "provenance": "synthetic",
+      "claim_status": "authored",
+      "valid_from": "2023-06-01T00:00:00Z",
+      "valid_to": null,
+      "recorded_at": "2026-10-15T00:00:00Z",
+      "published_at": null,
+      "synthetic_released_at": "2023-06-01T00:00:00Z",
+      "payload": {
+        "competition_season_id": "season-2023",
+        "home_club_id": "club-moor",
+        "away_club_id": "club-harbour",
+        "stadium_id": "stadium-riverbank",
+        "pitch_id": "pitch-riverbank",
+        "scheduled_kickoff": "2023-10-10T14:00:00Z",
+        "actual_kickoff": null,
+        "status": "scheduled",
+        "stage": "synthetic sample"
+      }
+    },
+    {
+      "record_id": "player-alex",
+      "revision_id": "player-alex-v1",
+      "supersedes_revision_id": null,
+      "kind": "person",
+      "source_id": "source-seasons",
+      "provenance": "synthetic",
+      "claim_status": "authored",
+      "valid_from": "2022-01-01T00:00:00Z",
+      "valid_to": null,
+      "recorded_at": "2026-10-15T00:00:00Z",
+      "published_at": null,
+      "synthetic_released_at": "2022-01-01T00:00:00Z",
+      "payload": {
+        "name": "Alex Reed (fictional)",
+        "aliases": [],
+        "birth_date": "2000-03-01"
+      }
+    },
+    {
+      "record_id": "alex-harbour",
+      "revision_id": "alex-harbour-v1",
+      "supersedes_revision_id": null,
+      "kind": "affiliation",
+      "source_id": "source-seasons",
+      "provenance": "synthetic",
+      "claim_status": "authored",
+      "valid_from": "2022-01-01T00:00:00Z",
+      "valid_to": null,
+      "recorded_at": "2026-10-15T00:00:00Z",
+      "published_at": null,
+      "synthetic_released_at": "2022-01-01T00:00:00Z",
+      "payload": {
+        "person_id": "player-alex",
+        "club_id": "club-harbour",
+        "role": "player",
+        "appointment_type": "permanent",
+        "shirt_number": 6
+      }
+    },
+    {
+      "record_id": "alex-harbour",
+      "revision_id": "alex-harbour-v2",
+      "supersedes_revision_id": "alex-harbour-v1",
+      "kind": "affiliation",
+      "source_id": "source-seasons",
+      "provenance": "synthetic",
+      "claim_status": "authored",
+      "valid_from": "2022-01-01T00:00:00Z",
+      "valid_to": "2023-07-01T00:00:00Z",
+      "recorded_at": "2026-10-15T00:00:00Z",
+      "published_at": null,
+      "synthetic_released_at": "2023-06-15T00:00:00Z",
+      "payload": {
+        "person_id": "player-alex",
+        "club_id": "club-harbour",
+        "role": "player",
+        "appointment_type": "permanent",
+        "shirt_number": 6
+      }
+    },
+    {
+      "record_id": "alex-moor",
+      "revision_id": "alex-moor-v1",
+      "supersedes_revision_id": null,
+      "kind": "affiliation",
+      "source_id": "source-seasons",
+      "provenance": "synthetic",
+      "claim_status": "authored",
+      "valid_from": "2023-07-01T00:00:00Z",
+      "valid_to": null,
+      "recorded_at": "2026-10-15T00:00:00Z",
+      "published_at": null,
+      "synthetic_released_at": "2023-06-15T00:00:00Z",
+      "payload": {
+        "person_id": "player-alex",
+        "club_id": "club-moor",
+        "role": "player",
+        "appointment_type": "permanent",
+        "shirt_number": 8
+      }
+    },
+    {
+      "record_id": "member-2022-moor",
+      "revision_id": "member-2022-moor-v1",
+      "supersedes_revision_id": null,
+      "kind": "season_membership",
+      "source_id": "source-seasons",
+      "provenance": "synthetic",
+      "claim_status": "authored",
+      "valid_from": "2022-08-01T00:00:00Z",
+      "valid_to": "2023-06-01T00:00:00Z",
+      "recorded_at": "2026-10-15T00:00:00Z",
+      "published_at": null,
+      "synthetic_released_at": "2022-06-01T00:00:00Z",
+      "payload": {
+        "competition_season_id": "season-2022",
+        "club_id": "club-moor",
+        "status": "not_participating"
+      }
+    },
+    {
+      "record_id": "member-2023-riverside",
+      "revision_id": "member-2023-riverside-v1",
+      "supersedes_revision_id": null,
+      "kind": "season_membership",
+      "source_id": "source-seasons",
+      "provenance": "synthetic",
+      "claim_status": "authored",
+      "valid_from": "2023-08-01T00:00:00Z",
+      "valid_to": "2024-06-01T00:00:00Z",
+      "recorded_at": "2026-10-15T00:00:00Z",
+      "published_at": null,
+      "synthetic_released_at": "2023-06-01T00:00:00Z",
+      "payload": {
+        "competition_season_id": "season-2023",
+        "club_id": "club-riverside",
+        "status": "not_participating"
+      }
+    }
+  ]
+}

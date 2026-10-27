@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms</value></resheader>
+  <data name="PageTitle" xml:space="preserve"><value>Matchmate · Premier League</value></data>
+  <data name="LeagueInPlace" xml:space="preserve"><value>Premier League</value></data>
+  <data name="SeasonHeading" xml:space="preserve"><value>La temporada,</value></data>
+  <data name="DayByDay" xml:space="preserve"><value>día a día.</value></data>
+  <data name="IntroFirst" xml:space="preserve"><value>Sigue una temporada a través de sus clubes, ciudades y estadios.</value></data>
+  <data name="IntroSecond" xml:space="preserve"><value>Elige un club. Descubre su lugar. Hazle una pregunta.</value></data>
+  <data name="FeaturedMatch" xml:space="preserve"><value>La experiencia del partido en directo · Vista previa</value></data>
+  <data name="FeaturedHeadline" xml:space="preserve"><value>Una conversación con el partido mientras se juega.</value></data>
+  <data name="FeaturedInvitation" xml:space="preserve"><value>Explora dos demos en repetición de cómo Matchmate podría ayudarte a seguir un partido en directo. Sigue el juego, pausa y pregunta qué ha cambiado.</value></data>
+  <data name="FeaturedCompetition" xml:space="preserve"><value>Premier League · 2026/27</value></data>
+  <data name="ReplayDemo" xml:space="preserve"><value>Demo de repetición</value></data>
+  <data name="ExploreLiverpoolMatch" xml:space="preserve"><value>Explorar repetición: Brentford–Liverpool</value></data>
+  <data name="ExploreChelseaMatch" xml:space="preserve"><value>Explorar repetición: Brentford–Chelsea</value></data>
+  <data name="FeaturedProvenance" xml:space="preserve"><value>Repeticiones preparadas con datos documentados del partido y movimientos generados. Las estadísticas generadas de la repetición describen la ilustración, no el partido real. La cobertura en directo requeriría una fuente de datos con licencia.</value></data>
+  <data name="BehindReplay" xml:space="preserve"><value>Detrás de la repetición</value></data>
+  <data name="RecordedTrackingSample" xml:space="preserve"><value>Muestra de seguimiento grabada</value></data>
+  <data name="RecordedSampleInvitation" xml:space="preserve"><value>Explora una muestra de seguimiento grabada del Brisbane Roar–Adelaide United.</value></data>
+  <data name="RecordedSampleLimit" xml:space="preserve"><value>La muestra incluye posiciones estimadas y lagunas.</value></data>
+  <data name="ExploreRecordedSample" xml:space="preserve"><value>Explorar la muestra grabada</value></data>
+  <data name="AuthoredReconstruction" xml:space="preserve"><value>Reconstrucción existente elaborada</value></data>
+  <data name="AustralianSample" xml:space="preserve"><value>Muestra australiana grabada</value></data>
+  <data name="ExploreTracking" xml:space="preserve"><value>Explorar seguimiento real</value></data>
+  <data name="CatalogSummary" xml:space="preserve"><value>{0} clubes · {1} temporadas cargadas · Selecciona un club</value></data>
+  <data name="HideMap" xml:space="preserve"><value>Ocultar mapa</value></data>
+  <data name="ShowMap" xml:space="preserve"><value>Mostrar mapa</value></data>
+  <data name="RetryUpdate" xml:space="preserve"><value>Reintentar actualización</value></data>
+  <data name="Freshness" xml:space="preserve"><value>Obtenido el {0} UTC · Instantánea comunitaria fijada · Sin actualizaciones automáticas.</value></data>
+  <data name="CalculationTitle" xml:space="preserve"><value>Cómo se calcula esta temporada</value></data>
+  <data name="CalculationNote" xml:space="preserve"><value>{0} resultados completos de {1} encuentros programados en esta referencia de temporada ({2}). {3}. Puntos, diferencia de goles y goles a favor se calculan con resultados comunitarios fijados. Los resultados del mismo día se incorporan juntos; se excluyen partidos sin marcador y deducciones de puntos. Los estadios siguen el contexto revisado del club para esa temporada, no sedes verificadas de cada partido. Los escudos usan diseños de cada temporada con derechos de autor y marca independientes. No es una repetición en directo ni de lo conocido entonces.</value></data>
+  <data name="Ongoing" xml:space="preserve"><value>en curso</value></data>
+  <data name="Complete" xml:space="preserve"><value>Completa</value></data>
+  <data name="CompleteStatus" xml:space="preserve"><value>completa</value></data>
+  <data name="FindingSeason" xml:space="preserve"><value>Buscando la temporada…</value></data>
+  <data name="SeasonUnavailable" xml:space="preserve"><value>La temporada aún no está disponible.</value></data>
+  <data name="TryAgain" xml:space="preserve"><value>Intentar de nuevo</value></data>
+  <data name="UnknownDate" xml:space="preserve"><value>Fecha desconocida</value></data>
+  <data name="BeforeFirstMatch" xml:space="preserve"><value>Antes del primer partido</value></data>
+  <data name="ResultsThrough" xml:space="preserve"><value>Resultados hasta el {0}</value></data>
+  <data name="CompleteResults" xml:space="preserve"><value>Resultados completos de {0}</value></data>
+  <data name="StatusLoadingCatalog" xml:space="preserve"><value>Cargando el catálogo privado de referencia…</value></data>
+  <data name="StatusShowing" xml:space="preserve"><value>Mostrando {0} · {1}{2}</value></data>
+  <data name="ChooseClubSuffix" xml:space="preserve"><value> · elige un club</value></data>
+  <data name="StatusUpdating" xml:space="preserve"><value>Actualizando tu selección. Se muestra {0}, {1} hasta que esté lista.</value></data>
+  <data name="StatusLoadingSeason" xml:space="preserve"><value>Cargando la temporada y la fecha de juego…</value></data>
+  <data name="StatusUpdateFailed" xml:space="preserve"><value>No se pudo cargar la actualización. Se sigue mostrando {0}, {1}{2}</value></data>
+  <data name="StatusUnavailable" xml:space="preserve"><value>La API de referencia no está disponible o la fecha no es válida. Un arranque en frío puede tardar más de diez segundos; inténtalo de nuevo cuando esté lista.</value></data>
+  <data name="Season" xml:space="preserve"><value>Temporada</value></data>
+  <data name="SearchSeasons" xml:space="preserve"><value>Buscar temporadas</value></data>
+  <data name="SearchSeasonsPlaceholder" xml:space="preserve"><value>Buscar temporadas…</value></data>
+  <data name="OngoingSnapshot" xml:space="preserve"><value>Instantánea en curso</value></data>
+  <data name="NoMatchingSeasons" xml:space="preserve"><value>No se encontraron temporadas.</value></data>
+  <data name="OngoingEndDate" xml:space="preserve"><value>Instantánea en curso · final de la fecha de juego</value></data>
+  <data name="RetrospectiveEndDate" xml:space="preserve"><value>Retrospectiva · final de la fecha de juego</value></data>
+  <data name="EndOfDay" xml:space="preserve"><value> · Final del día</value></data>
+  <data name="PlaybackSummary" xml:space="preserve"><value>{0} / {1} partidos · {2} / {3} fechas de juego</value></data>
+  <data name="PreviousPlayedDate" xml:space="preserve"><value>Fecha de juego anterior</value></data>
+  <data name="NextPlayedDate" xml:space="preserve"><value>Siguiente fecha de juego</value></data>
+  <data name="Pause" xml:space="preserve"><value>Ⅱ Pausa</value></data>
+  <data name="ReplayFromStart" xml:space="preserve"><value>↻ Repetir desde el inicio</value></data>
+  <data name="PlaySeason" xml:space="preserve"><value>▶ Reproducir temporada</value></data>
+  <data name="Speed" xml:space="preserve"><value>Velocidad</value></data>
+  <data name="OneStep" xml:space="preserve"><value>Un paso = una fecha de juego</value></data>
+  <data name="SnapshotRange" xml:space="preserve"><value>Instantánea de la temporada al final del día</value></data>
+  <data name="PlaybackNote" xml:space="preserve"><value>Los resultados de cada fecha se incorporan juntos. Son resultados corregidos actuales, no una repetición en directo ni de lo conocido entonces.</value></data>
+  <data name="ScrollableStandings" xml:space="preserve"><value>Clasificación de la Premier League, desplazable</value></data>
+  <data name="StandingsCaption" xml:space="preserve"><value>Clasificación de la Premier League calculada solo con resultados al final del día seleccionado</value></data>
+  <data name="ColumnPosition" xml:space="preserve"><value>Pos</value></data>
+  <data name="ColumnClub" xml:space="preserve"><value>Club</value></data>
+  <data name="ColumnPlayed" xml:space="preserve"><value>PJ</value></data>
+  <data name="ColumnWon" xml:space="preserve"><value>G</value></data>
+  <data name="ColumnDrawn" xml:space="preserve"><value>E</value></data>
+  <data name="ColumnLost" xml:space="preserve"><value>P</value></data>
+  <data name="ColumnDifference" xml:space="preserve"><value>DG</value></data>
+  <data name="ColumnPoints" xml:space="preserve"><value>Pts</value></data>
+  <data name="StandingsRule" xml:space="preserve"><value>Puntos → diferencia de goles → goles a favor. Los registros iguales comparten puesto (=); el orden alfabético solo ordena nombres empatados. No se incluyen ajustes de puntos.</value></data>
+  <data name="YourPlace" xml:space="preserve"><value>Tu lugar en la Premier League</value></data>
+  <data name="Position" xml:space="preserve"><value>Posición</value></data>
+  <data name="Points" xml:space="preserve"><value>Puntos</value></data>
+  <data name="Played" xml:space="preserve"><value>Jugados</value></data>
+  <data name="ClubDateChange" xml:space="preserve"><value>{0} · +{1} puntos en esta fecha. {2}</value></data>
+  <data name="NoPreviousRank" xml:space="preserve"><value>No hay puesto de la fecha de juego anterior.</value></data>
+  <data name="RankUp" xml:space="preserve"><value>Sube {0} respecto a la fecha de juego anterior.</value></data>
+  <data name="RankDown" xml:space="preserve"><value>Baja {0} respecto a la fecha de juego anterior.</value></data>
+  <data name="RankUnchanged" xml:space="preserve"><value>Puesto sin cambios respecto a la fecha de juego anterior.</value></data>
+  <data name="PlayedOnDate" xml:space="preserve"><value>Jugado en esta fecha</value></data>
+  <data name="LatestBeforeDate" xml:space="preserve"><value>Último partido antes de esta fecha</value></data>
+  <data name="FullTime" xml:space="preserve"><value>Finalizado</value></data>
+  <data name="ExploreMatch" xml:space="preserve"><value>Explorar este partido ↗</value></data>
+  <data name="NoCompletedMatch" xml:space="preserve"><value>No hay partido finalizado en este corte temporal.</value></data>
+  <data name="TalkGround" xml:space="preserve"><value>Habla con el estadio</value></data>
+  <data name="GroundReference" xml:space="preserve"><value>{0} · referencia de {1}</value></data>
+  <data name="GroundMapNote" xml:space="preserve"><value>El mapa ilustrado sitúa al club, no una posición topográfica del estadio.</value></data>
+  <data name="RecentResults" xml:space="preserve"><value>Resultados recientes</value></data>
+  <data name="ChooseClub" xml:space="preserve"><value>Elige un club</value></data>
+  <data name="TeamTown" xml:space="preserve"><value>Un equipo. Una ciudad. Un punto de partida.</value></data>
+  <data name="SelectClub" xml:space="preserve"><value>Selecciona un club en la tabla o en el mapa.</value></data>
+  <data name="NoEarlierResults" xml:space="preserve"><value>No hay resultados anteriores en esta temporada.</value></data>
+  <data name="FootballInPlace" xml:space="preserve"><value>El fútbol, en su lugar</value></data>
+  <data name="ChooseCrest" xml:space="preserve"><value>Elige un escudo para explorar</value></data>
+  <data name="MapTitle" xml:space="preserve"><value>Un recorrido ilustrado por el fútbol del Reino Unido</value></data>
+  <data name="MapDescription" xml:space="preserve"><value>Ubicaciones de clubes por ciudad, sin escala. Londres y Watford se amplían en un recuadro aparte. Selecciona un marcador etiquetado o usa la lista.</value></data>
+  <data name="Scotland" xml:space="preserve"><value>ESCOCIA</value></data>
+  <data name="Northern" xml:space="preserve"><value>IRLANDA</value></data>
+  <data name="Ireland" xml:space="preserve"><value>DEL NORTE</value></data>
+  <data name="Wales" xml:space="preserve"><value>GALES</value></data>
+  <data name="England" xml:space="preserve"><value>INGLATERRA</value></data>
+  <data name="IrishSea" xml:space="preserve"><value>MAR DE IRLANDA</value></data>
+  <data name="NorthSea" xml:space="preserve"><value>MAR DEL NORTE</value></data>
+  <data name="LondonLink" xml:space="preserve"><value>Londres ↗</value></data>
+  <data name="LondonWatford" xml:space="preserve"><value>LONDRES Y WATFORD</value></data>
+  <data name="MapScale" xml:space="preserve"><value>Ubicaciones ilustradas · sin escala</value></data>
+  <data name="SourceDetailUnavailable" xml:space="preserve"><value>No hay detalle de la fuente para esta respuesta.</value></data>
+  <data name="Unranked" xml:space="preserve"><value>Sin clasificar</value></data>
+  <data name="SharedPosition" xml:space="preserve"><value>Compartido {0}</value></data>
+</root>

@@ -1,0 +1,12 @@
+﻿@page "/not-found"
+@layout MainLayout
+@attribute [AllowAnonymous]
+@using Matchmate.Web.Localization
+@inject MatchLanguageState LanguageState
+
+<PageTitle>@T("NotFoundTitle")</PageTitle>
+<main class="notice" data-language-refresh="not-found">
+    <h1>@T("NotFoundHeading")</h1>
+    <p>@T("NotFoundDescription")</p>
+</main>
+@code { private string T(string key) => ShellText.Get(LanguageState.Language, key); }

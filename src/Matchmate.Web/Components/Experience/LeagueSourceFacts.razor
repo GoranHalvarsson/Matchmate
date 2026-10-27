@@ -1,0 +1,52 @@
+@using Matchmate.Web.Chat
+@using Matchmate.Web.Experience
+@using Matchmate.Web.Localization
+<div class="league-source-facts">
+    @if (_view.DateChanges is { } changes)
+    {
+        <p class="league-facts-context">@(changes.Date is null ? T("BeforeFirstDate") : ExperiencePresentation.Date(changes.Date, Language))@if (changes.PreviousDate is not null) { <span> · @T("ComparedWith", ExperiencePresentation.Date(changes.PreviousDate, Language))</span> }</p>
+        @if (changes.Preseason)
+        {
+            @if (!StructuredOnly) { <p class="league-facts-text" lang="en">@_view.Text</p> }
+        }
+        else
+        {
+            <p class="league-facts-label">@T("ResultsOnDate")</p>
+            @if (changes.Results.Count == 0) { <p class="league-facts-text">@T("NoResultsOnDate")</p> }
+            else { @Results(changes.Results) }
+            @if (changes.Changed.Count > 0) { @Movements(changes.Changed) }
+            @if (changes.Unchanged.Count > 0)
+            {
+                <details class="league-source-unchanged"><summary>@T("UnchangedClubs", changes.Unchanged.Count)</summary>@Movements(changes.Unchanged)</details>
+            }
+        }
+        @if (!StructuredOnly) { <p class="league-facts-limit" lang="en">@changes.Rule</p> }
+    }
+    else if (_view.RecentResults is { Count: > 0 } recent) { @Results(recent) }
+    else if (!StructuredOnly) { <p class="league-facts-text" lang="@(_view.Text == UnavailableText ? MatchLanguages.Code(Language) : "en")">@(_view.Text == UnavailableText ? LeagueText.Get(Language, "SourceDetailUnavailable") : _view.Text)</p> }
+</div>
+@code {
+    [Parameter, EditorRequired] public MatchChatEvidence? Evidence { get; set; }
+    [Parameter] public string? Fallback { get; set; }
+    [Parameter] public MatchLanguage Language { get; set; }
+    [Parameter] public bool StructuredOnly { get; set; }
+    private const string UnavailableText = "Source detail is unavailable for this reply.";
+    private string T(string key, params object?[] args) => ConversationText.Get(Language, key, args);
+    private LeagueSourceEvidence _view = new("");
+    protected override void OnParametersSet() => _view = LeagueSourcePresentation.Read(Evidence, Fallback);
+    private RenderFragment Results(IReadOnlyList<LeagueSourceResult> results) => @<ul class="league-source-results">
+        @for (var index = 0; index < results.Count; index++)
+        {
+            var result = results[index];
+            <li @key="index"><time datetime="@result.Date">@LeagueSourcePresentation.ResultDate(result.Date, Language)</time><span class="league-result-home">@result.Home</span><strong>@result.HomeGoals–@result.AwayGoals</strong><span>@result.Away</span></li>
+        }
+    </ul>;
+    private RenderFragment Movements(IReadOnlyList<LeagueSourceMovement> rows) => @<div class="league-facts-table-scroll" tabindex="0" aria-label="@T("MovementLabel")">
+        <table class="league-source-movements"><caption>@T("MovementCaption")</caption><thead><tr><th scope="col">@T("Club")</th><th scope="col">@T("OnDate")</th><th scope="col">@T("Played")</th><th scope="col">@T("Points")</th><th scope="col">@T("Position")</th></tr></thead>
+            <tbody>@foreach (var row in rows)
+            {
+                <tr @key="row.Club"><th scope="row">@row.Club</th><td>@T(row.PlayedOnDate ? "PlayedOnDate" : "DidNotPlay")</td><td>@row.Played</td><td><span>@row.PreviousPoints → @row.Points</span><small>@T("Change", LeagueSourcePresentation.Change(row.PointsChange, Language))</small></td><td>@LeagueSourcePresentation.Position(row.PreviousPosition, row.PreviousShared == true, Language) → @LeagueSourcePresentation.Position(row.Position, row.Shared, Language)</td></tr>
+            }</tbody>
+        </table>
+    </div>;
+}

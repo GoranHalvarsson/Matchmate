@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <data name="Question.standing" xml:space="preserve"><value>Hur ligger vi till?</value></data>
+  <data name="Question.changes" xml:space="preserve"><value>Vad ändrades den här dagen?</value></data>
+  <data name="Question.ground" xml:space="preserve"><value>Berätta om vår hemmaarena.</value></data>
+  <data name="Question.table" xml:space="preserve"><value>Vem leder tabellen?</value></data>
+  <data name="Question.coverage" xml:space="preserve"><value>Vad ingår i tabellen?</value></data>
+  <data name="Source.Table" xml:space="preserve"><value>{0} leder med {1} poäng efter {2} matcher. {3} ligamatcher har spelats.</value></data>
+  <data name="Source.SharedTable" xml:space="preserve"><value>{0} delar ledningen med {1} poäng efter {2} matcher. {3} ligamatcher har spelats.</value></data>
+  <data name="Source.EmptyTable" xml:space="preserve"><value>Inga resultat har kommit in än. Alla klubbar har noll poäng och saknar placering.</value></data>
+  <data name="Source.Standing" xml:space="preserve"><value>{0}: {1}; {2} poäng efter {3} matcher, {4} vinster, {5} oavgjorda och {6} förluster.</value></data>
+  <data name="Source.Rank" xml:space="preserve"><value>plats {0}</value></data>
+  <data name="Source.SharedRank" xml:space="preserve"><value>delad plats {0}</value></data>
+  <data name="Source.Unranked" xml:space="preserve"><value>utan placering</value></data>
+  <data name="Source.Ground" xml:space="preserve"><value>{0}: registrerad hemmaarena för säsongen är {1} i {2}. Uppgiften bekräftar inte spelplatsen för en viss match och innehåller ingen arenahistorik.</value></data>
+  <data name="Source.Coverage" xml:space="preserve"><value>{0} inlästa resultat av {1} schemalagda matcher vid den här tidpunkten. Alla resultat från samma dag räknas tillsammans. Ingen realtidsdata eller automatisk uppdatering.</value></data>
+  <data name="Source.Scope" xml:space="preserve"><value>Vald säsong {0}, till och med slutet av {1}.</value></data>
+  <data name="Source.BeforeResults" xml:space="preserve"><value>Före de första inlästa resultaten i säsongen {0}.</value></data>
+  <data name="Source.Change" xml:space="preserve"><value>{0}: {1}; poäng {2} → {3}; {4} → {5}.</value></data>
+  <data name="Source.Played" xml:space="preserve"><value>spelade den här dagen</value></data>
+  <data name="Source.DidNotPlay" xml:space="preserve"><value>spelade inte den här dagen</value></data>
+  <data name="Source.DayRule" xml:space="preserve"><value>Alla resultat från dagen räknas tillsammans. Tabellrörelser kan inte tillskrivas en enda match.</value></data>
+  <data name="Source.DayResults" xml:space="preserve"><value>Resultat den här dagen: {0}</value></data>
+  <data name="Source.NoDayResults" xml:space="preserve"><value>Inga resultat kom in den här dagen.</value></data>
+  <data name="Source.Recent" xml:space="preserve"><value>Senaste inlästa resultat för {0}: {1}</value></data>
+  <data name="Source.NoRecent" xml:space="preserve"><value>Inget slutresultat finns för {0} vid den här tidpunkten.</value></data>
+  <data name="Source.Compact" xml:space="preserve"><value>Se Faktaunderlag för alla förberedda tabellrader och resultat.</value></data>
+  <data name="Feedback.Source" xml:space="preserve"><value>Välj en tillgänglig faktafråga.</value></data>
+  <data name="Feedback.Input" xml:space="preserve"><value>Skriv en giltig fråga på högst 1 000 tecken och välj en färdig ligavy.</value></data>
+  <data name="Feedback.SignIn" xml:space="preserve"><value>Logga in med ditt testkonto för att chatta.</value></data>
+  <data name="Feedback.Clarify" xml:space="preserve"><value>Förtydliga vilken klubb, tabellfråga eller valt datum du menar.</value></data>
+  <data name="Feedback.Routing" xml:space="preserve"><value>Frågan kunde inte kopplas till rätt underlag. Försök igen eller välj en faktafråga.</value></data>
+  <data name="Feedback.Unsupported" xml:space="preserve"><value>Underlaget omfattar tabellen, resultat och säsongens arenauppgifter. Spelardetaljer, taktiska mätvärden och påhittade fakta saknas.</value></data>
+  <data name="Feedback.Unavailable" xml:space="preserve"><value>Jag kunde inte verifiera ett svar. Försök igen eller välj en faktafråga.</value></data>
+  <data name="Feedback.Cancelled" xml:space="preserve"><value>Svaret avbröts eller sammanhanget ändrades. Inget svar lades till.</value></data>
+  <data name="Feedback.Stale" xml:space="preserve"><value>Ligavyn eller inloggningen ändrades. Svaret lades inte till.</value></data>
+  <data name="Feedback.SelectScope" xml:space="preserve"><value>Välj säsong och speldatum och fråga igen.</value></data>
+  <data name="Feedback.Live" xml:space="preserve"><value>Fotbollsdata i realtid saknas. Det här är en fast ögonblicksbild av säsongen.</value></data>
+</root>

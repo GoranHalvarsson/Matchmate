@@ -1,0 +1,82 @@
+@using Matchmate.Web.Localization
+@using System.Globalization
+@using Matchmate.Web.Chat
+@using Matchmate.Web.Experience
+@{ var notes = Visual.Steps.Select(step => SourceNoteText.Get(step.Kind, step.Text, step.Uncertainty, Language)).ToArray(); }
+<figure class="goal-sequence">
+    <figcaption><div><strong>@T(Visual.Kind switch { "goal" => "DiagramGoalTitle", "substitution" => "DiagramSubstitutionTitle", "yellow_card" => "DiagramBookingTitle", "red_card" => "DiagramDismissalTitle", _ => "DiagramPossessionTitle" })</strong><span>@T("DiagramCaption", T(Visual.Kind == "completed_possession" ? "Interval" : "Reported"), Visual.ReportedClock, ExperiencePresentation.Clock(Visual.Context.Query.CursorMs))</span></div><button class="show-on-pitch" type="button" disabled="@Disabled" @onclick="() => OnShowOnPitch.InvokeAsync(new MatchEventVisualAction(TurnId))">@T("ShowOnPitch") <span aria-hidden="true">↑</span></button></figcaption>
+    <div class="sequence-content"><div>
+    @if (Visual.Kind == "goal") {
+    <svg class="goal-sequence-pitch" viewBox="0 0 120 82" role="img" aria-label="@T("GoalDiagramLabel")">
+        <rect class="pitch-field" x="5" y="5" width="110" height="72" rx="1" />
+        <path class="pitch-line" d="M60 5 V77 M5 23 H23 V59 H5 M115 23 H97 V59 H115" />
+        <circle class="pitch-line" cx="60" cy="41" r="10" />
+        @for (var i = 0; i + 1 < Visual.Steps.Length; i++) {
+            var from = Point(Visual.Steps[i]); var to = Point(Visual.Steps[i + 1]);
+            <line class="sequence-link" x1="@N(from.X)" y1="@N(from.Y)" x2="@N(to.X)" y2="@N(to.Y)" />
+        }
+        @for (var i = 0; i < Visual.Steps.Length; i++) {
+            var point = Point(Visual.Steps[i]);
+            <g @key="Visual.Steps[i].Id"><circle class="sequence-marker" cx="@N(point.X)" cy="@N(point.Y)" r="3.6" /><text class="sequence-number" x="@N(point.X)" y="@N(point.Y + .2)">@(i + 1)</text></g>
+        }
+    </svg>
+    <p class="sequence-qualification">@T("ReportedSequence")</p>
+    } else if (Visual.Kind == "substitution") {
+        var change = Visual.Steps[0];
+        <div class="identity-change"><div><small>@T("Off")</small><strong>@(change.ActorName ?? T("PlayerUnconfirmed"))</strong></div><span aria-hidden="true">→</span><div><small>@T("On")</small><strong>@(change.RelatedActorName ?? T("PlayerUnconfirmed"))</strong></div></div>
+        <p class="sequence-qualification">@T("SubstitutionDiagramNote")</p>
+    } else if (Visual.Kind is "yellow_card" or "red_card") {
+        <div class="booking-identity"><span class="@(Visual.Kind == "red_card" ? "reported-card is-red" : "reported-card")" aria-hidden="true"></span><div><small>@(Visual.Kind == "red_card" ? ReplayText.Value(Language, Visual.Decision) : T("ReportedBooking"))</small><strong>@(Visual.Steps[0].ActorName ?? T("PlayerUnconfirmed"))</strong></div></div>
+        <p class="sequence-qualification">@T(Visual.Kind == "red_card" ? "DismissalDiagramNote" : "BookingDiagramNote")</p>
+    } else {
+        <div class="possession-interval"><strong>@(Visual.Steps[0].ActorName ?? T("PlayerUnconfirmed"))</strong><div><span>@ExperiencePresentation.IntervalTime(Visual.IntervalStartMs!.Value)</span><span aria-hidden="true">→</span><span>@ExperiencePresentation.IntervalTime(Visual.IntervalEndMs!.Value)</span></div><small>@T(Visual.IntervalStartMs == Visual.IntervalEndMs ? "PointAnnotation" : "CompletedSourceInterval")</small></div>
+        <p class="sequence-qualification">@T("PossessionDiagramNote")</p>
+    }
+    </div>
+    <div>
+    <p class="source-annotation-label">@T("SourceNotes")</p>
+    <ol class="sequence-steps">
+        @for (var i = 0; i < Visual.Steps.Length; i++) {
+            var step = Visual.Steps[i]; var note = notes[i];
+            <li @key="step.Id"><strong>@MatchPitchPresenter.Label(step.Kind, Language)@(step.ActorName is { } actor ? " · " + actor : T("ActorUnconfirmed"))</strong>
+                @if (note.IsFallback) { <small class="source-note-fallback">@T("SourceNoteOriginalEnglish")</small> }
+                <span lang="@note.LanguageCode">@note.Text</span>
+                @if (step.RelatedActorName is { } related) { <small>@T("RelatedParticipant", related)</small> }
+            </li>
+        }
+    </ol>
+    @foreach (var qualification in SourceNoteText.Qualifications(notes)) {
+        <p class="sequence-uncertainty"><strong>@T("SourceNoteSteps", string.Join(", ", qualification.Steps))</strong>
+            @if (qualification.IsFallback) { <small class="source-note-fallback">@T("SourceNoteOriginalEnglish")</small> }
+            <span lang="@qualification.LanguageCode">@qualification.Text</span>
+        </p>
+    }
+    @if (notes.Any(note => note.IsTranslated)) {
+        var originals = Visual.Steps.Select(step => SourceNoteText.Get(step.Kind, step.Text, step.Uncertainty, MatchLanguage.English)).ToArray();
+        <details class="source-note-originals"><summary>@T("ShowOriginalSourceNotes")</summary>
+            <ol class="sequence-steps original-steps">
+                @for (var i = 0; i < Visual.Steps.Length; i++) {
+                    <li @key="Visual.Steps[i].Id"><span class="source-note-original" lang="en">@originals[i].Text</span></li>
+                }
+            </ol>
+            @foreach (var qualification in SourceNoteText.Qualifications(originals)) {
+                <p class="sequence-uncertainty"><strong>@T("SourceNoteSteps", string.Join(", ", qualification.Steps))</strong><span class="source-note-original" lang="en">@qualification.Text</span></p>
+            }
+        </details>
+    }
+    </div>
+    </div>
+    <details class="sequence-sources"><summary>@T("SequenceSources")</summary>
+        @foreach (var evidence in Visual.Evidence) { <p @key="evidence.Id" lang="en">@evidence.Id · @evidence.SourceId · @evidence.Origin/@evidence.Method · @evidence.ClaimStatus</p> }
+    </details>
+</figure>
+@code {
+    [CascadingParameter] public MatchLanguage Language { get; set; }
+    private string T(string key, params object?[] args) => ReplayText.Get(Language, key, args);
+    [Parameter, EditorRequired] public MatchEventVisual Visual { get; set; } = default!;
+    [Parameter] public Guid TurnId { get; set; }
+    [Parameter] public bool Disabled { get; set; }
+    [Parameter] public EventCallback<MatchEventVisualAction> OnShowOnPitch { get; set; }
+    private (double X, double Y) Point(MatchEventVisualStep step) { var p = MatchSequenceLayout.Point(step.Kind, Visual.AttacksRight, 100, 62); return (10 + p.X, 10 + p.Y); }
+    private static string N(double value) => value.ToString("0.###", CultureInfo.InvariantCulture);
+}

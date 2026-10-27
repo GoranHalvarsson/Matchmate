@@ -1,0 +1,131 @@
+{
+  "sourceId": "openfootball-2026-27",
+  "repository": "https://github.com/openfootball/football.json",
+  "commit": "e6744429ee395bc86f247348c6184bb08d4eb361",
+  "fileCommitDate": "2026-09-22",
+  "url": "https://raw.githubusercontent.com/openfootball/football.json/e6744429ee395bc86f247348c6184bb08d4eb361/2026-27/en.1.json",
+  "license": "CC0-1.0",
+  "licenseUrl": "https://raw.githubusercontent.com/openfootball/football.json/e6744429ee395bc86f247348c6184bb08d4eb361/LICENSE.md",
+  "retrievedAt": "2026-10-23T12:15:59Z",
+  "resultsThrough": "2026-09-20",
+  "firstResultDate": "2026-08-21",
+  "completedResults": 50,
+  "scheduledFixtures": 380,
+  "clubCount": 20,
+  "sourceLimitations": "Community-maintained source, not an official Premier League feed. Only full-time scored records through the accepted cutoff are used; no completeness guarantee beyond this pinned file, official-membership guarantee, actual-venue claim, scorers, events, lineups, deductions or automatic refresh. Original fixture dates are not known-then scheduling evidence.",
+  "files": [
+    {
+      "path": "data/current-season/2026-27/en.1.json",
+      "sha256": "bb91f0ab3e8359df163bb9ec98549bfed85e200dd4c32f3bd606b5890d932dd2"
+    },
+    {
+      "path": "data/current-season/2026-27/LICENSE.md",
+      "sha256": "36ffd9dc085d529a7e60e1276d73ae5a030b020313e6c5408593a6ae2af39673"
+    },
+    {
+      "path": "data/current-season/2026-27/club-context.json",
+      "sha256": "fc4e8b5a4dd749423b0a54b950877de9a2f1a132ad6b478cb6ea38751ec38eb7"
+    },
+    {
+      "path": ".local/league-reference-v1/league-reference.json",
+      "sha256": "32982d9bc2bc272fdd6b7d0c97227326f47d2ac680e62c80dc97aae828f5bbb4"
+    },
+    {
+      "path": "data/reference-foundation/memberships.json",
+      "sha256": "d4c2d6888a4811b3159ccebeab56efe0f8c9a947b7442c94331068c5296be758"
+    },
+    {
+      "path": "data/reference-foundation/membership-ground-review.json",
+      "sha256": "21fde5ba87b113fb5cf609f4e8ec985ab4bfe008aefd0fe4400b6359b9013021"
+    },
+    {
+      "path": "data/reference-foundation/grounds.json",
+      "sha256": "11bf32071c1417a0bdce64dc0fd146e11d9ee7b270219b565578eb60493b8a36"
+    },
+    {
+      "path": "data/current-season/2026-27/crest-sources.json",
+      "sha256": "159977ed99468c69e7cebae19db46059650aed1779b947e4f0089e2349cbdc25"
+    },
+    {
+      "path": "src/Matchmate.Web/wwwroot/assets/crests/arsenal-2026.png",
+      "sha256": "f061448ba45e6aab892dad1b6e80140857dd896a6726d4e7446d784cd43f1ab2"
+    },
+    {
+      "path": "src/Matchmate.Web/wwwroot/assets/crests/aston-villa-2026.png",
+      "sha256": "e6ae8a1f1581453d4be1b40bf7369eb2f428df00d86b96979f25b4a044139ae8"
+    },
+    {
+      "path": "src/Matchmate.Web/wwwroot/assets/crests/bournemouth-2026.png",
+      "sha256": "77b986356450628760890b89dd78b2612bda49966cc61a624f09e390992c9c0d"
+    },
+    {
+      "path": "src/Matchmate.Web/wwwroot/assets/crests/brentford-2026.png",
+      "sha256": "1cdec4f2de9abb7dd384d175f3194730b1144221650966a4d4c0d29330b62653"
+    },
+    {
+      "path": "src/Matchmate.Web/wwwroot/assets/crests/brighton-2026.png",
+      "sha256": "85cdcfeb2c2dd35cf1161dd076f227f7d7e4d2932be15212c5aaca658aecd025"
+    },
+    {
+      "path": "src/Matchmate.Web/wwwroot/assets/crests/chelsea-2026.png",
+      "sha256": "f70bce7abb0cd23af2bd79f1f7d296c2a6f0fbcc25427400a933a0bcaff04641"
+    },
+    {
+      "path": "src/Matchmate.Web/wwwroot/assets/crests/coventry-2026.png",
+      "sha256": "22b774f2293145add10cf3499f83d19c422576f3f00d190c3d0761cde040eed1"
+    },
+    {
+      "path": "src/Matchmate.Web/wwwroot/assets/crests/crystal-palace-2026.png",
+      "sha256": "33d1fdfe1f70956e879d4dc9a8863aef229893ece808c3a9e11dc3b0a9ab2564"
+    },
+    {
+      "path": "src/Matchmate.Web/wwwroot/assets/crests/everton-2026.png",
+      "sha256": "21177fa2b845beaf4b358ea70d9c46d07213b5e010ab272069748ebf7d4c3ca4"
+    },
+    {
+      "path": "src/Matchmate.Web/wwwroot/assets/crests/fulham-2026.png",
+      "sha256": "2a6e0a6eb2991fc7fd5938e3bfccb8e347fd3d777254ea3d31594c19702fd107"
+    },
+    {
+      "path": "src/Matchmate.Web/wwwroot/assets/crests/hull-2026.png",
+      "sha256": "d8f5802949f762cbef011bb625c58ed4fee6df910b8fd9bc4b0f1de44e251f1f"
+    },
+    {
+      "path": "src/Matchmate.Web/wwwroot/assets/crests/ipswich-2026.png",
+      "sha256": "f552bc4ead88f794565ee507cee9985c78c1c26f386111f844f68a4e2471e671"
+    },
+    {
+      "path": "src/Matchmate.Web/wwwroot/assets/crests/leeds-2026.png",
+      "sha256": "7bdc94e6d6103c158acde1679f4c761dd6d9e860efa90524812055d0eb56bd81"
+    },
+    {
+      "path": "src/Matchmate.Web/wwwroot/assets/crests/liverpool-2026.png",
+      "sha256": "0685357c160df9afd82d654c7907cfb46ef2e345b9c168bf51b51437680edf94"
+    },
+    {
+      "path": "src/Matchmate.Web/wwwroot/assets/crests/manchester-city-2026.png",
+      "sha256": "f3567b92ed4ab4002ff094414040e49c6b3c826c43e3496f4dabdf802ef52ccb"
+    },
+    {
+      "path": "src/Matchmate.Web/wwwroot/assets/crests/manchester-united-2026.png",
+      "sha256": "53546406c1234ef955aa713d2b0ebc9afded9100a9a55a1754ec4ab2cf21be3c"
+    },
+    {
+      "path": "src/Matchmate.Web/wwwroot/assets/crests/newcastle-2026.png",
+      "sha256": "83e9c3d4c700c05ccd74b836144226e350dff6381109ebd52d0d611eac56a4d4"
+    },
+    {
+      "path": "src/Matchmate.Web/wwwroot/assets/crests/nottingham-forest-2026.png",
+      "sha256": "4de5d664c10dc944812892293278e3ca7f0e92928ffd4b6638dae28fa1673553"
+    },
+    {
+      "path": "src/Matchmate.Web/wwwroot/assets/crests/sunderland-2026.png",
+      "sha256": "e238cd3439a70a2b52553371cced7f8f7003f14abb76a4cda9bb8df1ff59b2d6"
+    },
+    {
+      "path": "src/Matchmate.Web/wwwroot/assets/crests/tottenham-2026.png",
+      "sha256": "434bcd2bf93c80763a625ace716fe6cd68f9a83ba9b6c9352324475f561b6a70"
+    }
+  ],
+  "crestRights": "Club crest artwork remains copyright/trademark material. Official Premier League hosting establishes source and current competition identity, not a Matchmate reuse licence. Not CC0. Publication/commercial-use clearance remains unresolved; no endorsement is asserted."
+}

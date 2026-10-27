@@ -1,0 +1,702 @@
+{
+  "version": 1,
+  "method": "Explicit allowlist of reviewed candidate episodes; no raw commentary, reports, media paths or report facts. Complete passage released at latest supporting interval, ASR/context or scoped visual end.",
+  "artifact": {
+    "file": "brentford-chelsea-2026-09-18-timeline.json",
+    "sha256": "f30a89d9b6c18f4ceeedca1fdbbbb7edf23784fcadea732d88e72d52eaf46fae",
+    "bytes": 68627
+  },
+  "source": {
+    "url": "https://www.brentfordfc.com/en/video/0_2hoy7vw7?provider=stream",
+    "ledger": {
+      "sha256": "ceeba5fb3da21483b48eb803c1dd3e8d06251d714df303e6e2720563213973db",
+      "bytes": 69569
+    },
+    "asr": {
+      "sha256": "6229d260ebaafbb528de8301fe53bcbf32a7d418b0a52c3b317f929d55c1e0c8",
+      "bytes": 1979834
+    },
+    "visual": {
+      "sha256": "0dfaa34e1d108d853867ea53e3fa46d160f35720ac02483a5fa7fd2640dfd56b",
+      "bytes": 27648
+    },
+    "reviewedBundle": {
+      "sha256": "c02321106f4e5b444ff7c0ba891fcca07ff40c7a945882c863861c281c6e0908",
+      "bytes": 8854
+    },
+    "audioSha256": "6ee38118ce9efe3695146e7c9ff8782c862f29c2cede5ebbbdd314524c15d244",
+    "videoSha256": "87b511b61f3d48e410294e06bf71bbc3a88c7b7ca6a50b89e572808c3e82711f"
+  },
+  "excludedCollections": [
+    "published_report_rows",
+    "report_conflicts",
+    "visual_observations",
+    "raw ASR words/text",
+    "source media/frame paths"
+  ],
+  "passages": [
+    {
+      "id": "E-01",
+      "excludedFields": [
+        "asr.claim",
+        "asr.raw_name_forms"
+      ],
+      "uncertaintyExcerpted": false,
+      "uncertaintySource": "episodes/E-01/uncertainty",
+      "reason": null,
+      "copyEdits": null,
+      "visualScopeOverrides": [
+        {
+          "id": "V-PASS-01",
+          "scope": "reviewed_passages/V-PASS-01/observation: clearly in play by 13",
+          "end": 13
+        }
+      ],
+      "cutoff": {
+        "intervalEnd": 18,
+        "asrAndContextEnd": 18.8,
+        "visualEnd": 13,
+        "availableAt": 18.8,
+        "withheldReason": null
+      }
+    },
+    {
+      "id": "E-02",
+      "excludedFields": [
+        "asr.claim",
+        "asr.raw_name_forms"
+      ],
+      "uncertaintyExcerpted": false,
+      "uncertaintySource": "episodes/E-02/uncertainty",
+      "reason": null,
+      "copyEdits": null,
+      "visualScopeOverrides": [],
+      "cutoff": {
+        "intervalEnd": 590,
+        "asrAndContextEnd": 598.39,
+        "visualEnd": 590,
+        "availableAt": 598.39,
+        "withheldReason": null
+      }
+    },
+    {
+      "id": "E-03",
+      "excludedFields": [
+        "asr.claim",
+        "asr.raw_name_forms"
+      ],
+      "uncertaintyExcerpted": false,
+      "uncertaintySource": "episodes/E-03/uncertainty",
+      "reason": null,
+      "copyEdits": {
+        "uncertainty": [
+          [
+            "at624",
+            "at 624"
+          ],
+          [
+            "replay626–638",
+            "replay 626–638"
+          ],
+          [
+            "KELLEHER1",
+            "KELLEHER 1"
+          ],
+          [
+            "at622",
+            "at 622"
+          ]
+        ]
+      },
+      "visualScopeOverrides": [],
+      "cutoff": {
+        "intervalEnd": 650,
+        "asrAndContextEnd": 651.86,
+        "visualEnd": 650,
+        "availableAt": 651.86,
+        "withheldReason": null
+      }
+    },
+    {
+      "id": "E-04",
+      "excludedFields": [
+        "asr.claim",
+        "asr.raw_name_forms"
+      ],
+      "uncertaintyExcerpted": false,
+      "uncertaintySource": "episodes/E-04/uncertainty",
+      "reason": null,
+      "copyEdits": null,
+      "visualScopeOverrides": [],
+      "cutoff": {
+        "intervalEnd": 915,
+        "asrAndContextEnd": 926.96,
+        "visualEnd": null,
+        "availableAt": 926.96,
+        "withheldReason": null
+      }
+    },
+    {
+      "id": "E-C01",
+      "excludedFields": [
+        "asr.claim",
+        "asr.raw_name_forms"
+      ],
+      "uncertaintyExcerpted": false,
+      "uncertaintySource": "episodes/E-C01/uncertainty",
+      "reason": null,
+      "copyEdits": null,
+      "visualScopeOverrides": [],
+      "cutoff": {
+        "intervalEnd": 1335,
+        "asrAndContextEnd": 1334.24,
+        "visualEnd": null,
+        "availableAt": 1335,
+        "withheldReason": null
+      }
+    },
+    {
+      "id": "E-C02",
+      "excludedFields": [
+        "asr.claim",
+        "asr.raw_name_forms"
+      ],
+      "uncertaintyExcerpted": false,
+      "uncertaintySource": "episodes/E-C02/uncertainty",
+      "reason": null,
+      "copyEdits": null,
+      "visualScopeOverrides": [],
+      "cutoff": {
+        "intervalEnd": 1785,
+        "asrAndContextEnd": 1795.4,
+        "visualEnd": null,
+        "availableAt": 1795.4,
+        "withheldReason": null
+      }
+    },
+    {
+      "id": "E-05",
+      "excludedFields": [
+        "asr.claim",
+        "asr.raw_name_forms"
+      ],
+      "uncertaintyExcerpted": false,
+      "uncertaintySource": "episodes/E-05/uncertainty",
+      "reason": null,
+      "copyEdits": {
+        "text": [
+          [
+            "by2187–2188",
+            "by 2187–2188"
+          ]
+        ],
+        "uncertainty": [
+          [
+            "THIAGO9/COLWILL6",
+            "THIAGO 9 / COLWILL 6"
+          ],
+          [
+            "at2175",
+            "at 2175"
+          ]
+        ]
+      },
+      "visualScopeOverrides": [],
+      "cutoff": {
+        "intervalEnd": 2195,
+        "asrAndContextEnd": 2197.22,
+        "visualEnd": 2195,
+        "availableAt": 2197.22,
+        "withheldReason": null
+      }
+    },
+    {
+      "id": "E-C03",
+      "excludedFields": [
+        "asr.claim",
+        "asr.raw_name_forms"
+      ],
+      "uncertaintyExcerpted": false,
+      "uncertaintySource": "episodes/E-C03/uncertainty",
+      "reason": null,
+      "copyEdits": null,
+      "visualScopeOverrides": [],
+      "cutoff": {
+        "intervalEnd": 2605,
+        "asrAndContextEnd": 2611.42,
+        "visualEnd": null,
+        "availableAt": 2611.42,
+        "withheldReason": null
+      }
+    },
+    {
+      "id": "E-06",
+      "excludedFields": [
+        "asr.claim",
+        "asr.raw_name_forms"
+      ],
+      "uncertaintyExcerpted": false,
+      "uncertaintySource": "episodes/E-06/uncertainty",
+      "reason": null,
+      "copyEdits": null,
+      "visualScopeOverrides": [
+        {
+          "id": "V-PASS-02",
+          "scope": "reviewed_passages/V-PASS-02/observation: lower third at 2800 and 2805",
+          "end": 2805
+        }
+      ],
+      "cutoff": {
+        "intervalEnd": 2835,
+        "asrAndContextEnd": 2837.54,
+        "visualEnd": 2830,
+        "availableAt": 2837.54,
+        "withheldReason": null
+      }
+    },
+    {
+      "id": "E-C04",
+      "excludedFields": [
+        "asr.claim",
+        "asr.raw_name_forms"
+      ],
+      "uncertaintyExcerpted": false,
+      "uncertaintySource": "episodes/E-C04/uncertainty",
+      "reason": null,
+      "copyEdits": null,
+      "visualScopeOverrides": [],
+      "cutoff": {
+        "intervalEnd": 3200,
+        "asrAndContextEnd": 3201.16,
+        "visualEnd": null,
+        "availableAt": 3201.16,
+        "withheldReason": null
+      }
+    },
+    {
+      "id": "E-07",
+      "excludedFields": [
+        "asr.claim",
+        "asr.raw_name_forms"
+      ],
+      "uncertaintyExcerpted": false,
+      "uncertaintySource": "episodes/E-07/uncertainty",
+      "reason": null,
+      "copyEdits": null,
+      "visualScopeOverrides": [],
+      "cutoff": {
+        "intervalEnd": 3635,
+        "asrAndContextEnd": 3636.36,
+        "visualEnd": null,
+        "availableAt": 3636.36,
+        "withheldReason": null
+      }
+    },
+    {
+      "id": "E-09",
+      "excludedFields": [
+        "asr.claim",
+        "asr.raw_name_forms",
+        "report_refs"
+      ],
+      "uncertaintyExcerpted": true,
+      "uncertaintySource": "episodes/E-09/uncertainty",
+      "reason": "Remove report-derived details and express frame-scoped shirt observations in plain product language.",
+      "copyEdits": null,
+      "visualScopeOverrides": [
+        {
+          "id": "V-PER-07",
+          "scope": "visible_people/V-PER-07/identity_scope: shirt 19 separately clear in 3733–3735",
+          "end": 3735
+        }
+      ],
+      "cutoff": {
+        "intervalEnd": 3735,
+        "asrAndContextEnd": 3741.77,
+        "visualEnd": 3735,
+        "availableAt": 3741.77,
+        "withheldReason": null
+      }
+    },
+    {
+      "id": "E-C05",
+      "excludedFields": [
+        "asr.claim",
+        "asr.raw_name_forms"
+      ],
+      "uncertaintyExcerpted": false,
+      "uncertaintySource": "episodes/E-C05/uncertainty",
+      "reason": null,
+      "copyEdits": null,
+      "visualScopeOverrides": [],
+      "cutoff": {
+        "intervalEnd": 3945,
+        "asrAndContextEnd": 3974.76,
+        "visualEnd": null,
+        "availableAt": 3974.76,
+        "withheldReason": null
+      }
+    },
+    {
+      "id": "E-C06",
+      "excludedFields": [
+        "asr.claim",
+        "asr.raw_name_forms"
+      ],
+      "uncertaintyExcerpted": false,
+      "uncertaintySource": "episodes/E-C06/uncertainty",
+      "reason": null,
+      "copyEdits": null,
+      "visualScopeOverrides": [],
+      "cutoff": {
+        "intervalEnd": 4170,
+        "asrAndContextEnd": 4169.54,
+        "visualEnd": null,
+        "availableAt": 4170,
+        "withheldReason": null
+      }
+    },
+    {
+      "id": "E-08",
+      "excludedFields": [
+        "asr.claim",
+        "asr.raw_name_forms",
+        "report_refs"
+      ],
+      "uncertaintyExcerpted": false,
+      "uncertaintySource": "episodes/E-08/uncertainty",
+      "reason": null,
+      "copyEdits": {
+        "text": [
+          [
+            "Kayode33/Yarmoliuk6",
+            "Kayode 33 / Yarmoliuk 6"
+          ],
+          [
+            "Hickey2/Sangaré18",
+            "Hickey 2 / Sangaré 18"
+          ]
+        ]
+      },
+      "visualScopeOverrides": [],
+      "cutoff": {
+        "intervalEnd": 4235,
+        "asrAndContextEnd": 4236.26,
+        "visualEnd": 4240,
+        "availableAt": 4240,
+        "withheldReason": null
+      }
+    },
+    {
+      "id": "E-10",
+      "excludedFields": [
+        "asr.claim",
+        "asr.raw_name_forms",
+        "report_refs"
+      ],
+      "uncertaintyExcerpted": true,
+      "uncertaintySource": "episodes/E-10/uncertainty",
+      "reason": "Remove report-derived names/minutes and retain media/ASR limits.",
+      "copyEdits": {
+        "text": [
+          [
+            "Welbeck18/Fofana3",
+            "Welbeck 18 / Fofana 3"
+          ],
+          [
+            "Quenda23/Acheampong34",
+            "Quenda 23 / Acheampong 34"
+          ]
+        ]
+      },
+      "visualScopeOverrides": [],
+      "cutoff": {
+        "intervalEnd": 4360,
+        "asrAndContextEnd": 4359.84,
+        "visualEnd": 4360,
+        "availableAt": 4360,
+        "withheldReason": null
+      }
+    },
+    {
+      "id": "E-11",
+      "excludedFields": [
+        "asr.claim",
+        "asr.raw_name_forms"
+      ],
+      "uncertaintyExcerpted": false,
+      "uncertaintySource": "episodes/E-11/uncertainty",
+      "reason": null,
+      "copyEdits": null,
+      "visualScopeOverrides": [],
+      "cutoff": {
+        "intervalEnd": 4660,
+        "asrAndContextEnd": 4658.83,
+        "visualEnd": null,
+        "availableAt": 4660,
+        "withheldReason": null
+      }
+    },
+    {
+      "id": "E-C07",
+      "excludedFields": [
+        "asr.claim",
+        "asr.raw_name_forms"
+      ],
+      "uncertaintyExcerpted": false,
+      "uncertaintySource": "episodes/E-C07/uncertainty",
+      "reason": null,
+      "copyEdits": null,
+      "visualScopeOverrides": [],
+      "cutoff": {
+        "intervalEnd": 4855,
+        "asrAndContextEnd": 4856.99,
+        "visualEnd": null,
+        "availableAt": 4856.99,
+        "withheldReason": null
+      }
+    },
+    {
+      "id": "E-12b",
+      "excludedFields": [
+        "asr.claim",
+        "asr.raw_name_forms",
+        "report_refs"
+      ],
+      "uncertaintyExcerpted": true,
+      "uncertaintySource": "episodes/E-12b/uncertainty",
+      "reason": "Remove report-derived names/minutes and retain media/ASR limits.",
+      "copyEdits": null,
+      "visualScopeOverrides": [],
+      "cutoff": {
+        "intervalEnd": 4950,
+        "asrAndContextEnd": 4943.54,
+        "visualEnd": null,
+        "availableAt": 4950,
+        "withheldReason": null
+      }
+    },
+    {
+      "id": "E-12",
+      "excludedFields": [
+        "asr.claim",
+        "asr.raw_name_forms"
+      ],
+      "uncertaintyExcerpted": false,
+      "uncertaintySource": "episodes/E-12/uncertainty",
+      "reason": null,
+      "copyEdits": null,
+      "visualScopeOverrides": [],
+      "cutoff": {
+        "intervalEnd": 4925,
+        "asrAndContextEnd": 4923.76,
+        "visualEnd": 4925,
+        "availableAt": 4925,
+        "withheldReason": null
+      }
+    },
+    {
+      "id": "E-13",
+      "excludedFields": [
+        "asr.claim",
+        "asr.raw_name_forms",
+        "report_refs"
+      ],
+      "uncertaintyExcerpted": true,
+      "uncertaintySource": "episodes/E-13/uncertainty",
+      "reason": "Remove report-derived names/minutes and retain media/ASR limits.",
+      "copyEdits": {
+        "text": [
+          [
+            "shirt7",
+            "shirt 7"
+          ],
+          [
+            "shorts9",
+            "shorts 9"
+          ],
+          [
+            "locator5015.52–5017.52",
+            "locator 5015.52–5017.52"
+          ],
+          [
+            "about82:02–82:04",
+            "about 82:02–82:04"
+          ]
+        ]
+      },
+      "visualScopeOverrides": [],
+      "cutoff": {
+        "intervalEnd": 5025,
+        "asrAndContextEnd": 5028.41,
+        "visualEnd": 5025,
+        "availableAt": 5028.41,
+        "withheldReason": null
+      }
+    },
+    {
+      "id": "E-14",
+      "excludedFields": [
+        "asr.claim",
+        "asr.raw_name_forms",
+        "report_refs"
+      ],
+      "uncertaintyExcerpted": true,
+      "uncertaintySource": "episodes/E-14/uncertainty",
+      "reason": "Remove report-derived names/minutes and retain media/ASR limits.",
+      "copyEdits": {
+        "text": [
+          [
+            "at5145",
+            "at 5145"
+          ]
+        ]
+      },
+      "visualScopeOverrides": [],
+      "cutoff": {
+        "intervalEnd": 5155,
+        "asrAndContextEnd": 5162.78,
+        "visualEnd": 5150,
+        "availableAt": 5162.78,
+        "withheldReason": null
+      }
+    },
+    {
+      "id": "E-C08",
+      "excludedFields": [
+        "asr.claim",
+        "asr.raw_name_forms"
+      ],
+      "uncertaintyExcerpted": false,
+      "uncertaintySource": "episodes/E-C08/uncertainty",
+      "reason": null,
+      "copyEdits": null,
+      "visualScopeOverrides": [],
+      "cutoff": {
+        "intervalEnd": 5247,
+        "asrAndContextEnd": 5246.78,
+        "visualEnd": null,
+        "availableAt": 5247,
+        "withheldReason": null
+      }
+    },
+    {
+      "id": "E-14b",
+      "excludedFields": [
+        "asr.claim",
+        "asr.raw_name_forms",
+        "report_refs"
+      ],
+      "uncertaintyExcerpted": true,
+      "uncertaintySource": "episodes/E-14b/uncertainty",
+      "reason": "Remove report-derived names/minutes and retain media/ASR limits.",
+      "copyEdits": {
+        "text": [
+          [
+            "Neto7/Barco4",
+            "Neto 7 / Barco 4"
+          ],
+          [
+            "Estêvão41/Nicoll-Jazuli32",
+            "Estêvão 41 / Nicoll-Jazuli 32"
+          ]
+        ]
+      },
+      "visualScopeOverrides": [],
+      "cutoff": {
+        "intervalEnd": 5345,
+        "asrAndContextEnd": 5342.38,
+        "visualEnd": 5310,
+        "availableAt": 5345,
+        "withheldReason": null
+      }
+    },
+    {
+      "id": "E-14c",
+      "excludedFields": [
+        "asr.claim",
+        "asr.raw_name_forms"
+      ],
+      "uncertaintyExcerpted": false,
+      "uncertaintySource": "episodes/E-14c/uncertainty",
+      "reason": null,
+      "copyEdits": null,
+      "visualScopeOverrides": [],
+      "cutoff": {
+        "intervalEnd": 5635,
+        "asrAndContextEnd": 5635.75,
+        "visualEnd": null,
+        "availableAt": 5635.75,
+        "withheldReason": null
+      }
+    },
+    {
+      "id": "E-15",
+      "excludedFields": [
+        "asr.claim",
+        "asr.raw_name_forms",
+        "report_refs"
+      ],
+      "uncertaintyExcerpted": true,
+      "uncertaintySource": "episodes/E-15/uncertainty",
+      "reason": "Remove report-derived names/minutes and retain media/ASR limits.",
+      "copyEdits": {
+        "text": [
+          [
+            "shirt7",
+            "shirt 7"
+          ],
+          [
+            "around5728–5732",
+            "around 5728–5732"
+          ],
+          [
+            "readable3-0",
+            "readable 3–0"
+          ],
+          [
+            "at5738/94:05",
+            "at 5738 / 94:05"
+          ]
+        ],
+        "uncertainty": [
+          [
+            "O.DANGO11",
+            "O.DANGO 11"
+          ],
+          [
+            "DIOUF25",
+            "DIOUF 25"
+          ]
+        ]
+      },
+      "visualScopeOverrides": [],
+      "cutoff": {
+        "intervalEnd": 5750,
+        "asrAndContextEnd": 5812.54,
+        "visualEnd": 5743,
+        "availableAt": 5812.54,
+        "withheldReason": null
+      }
+    },
+    {
+      "id": "E-16",
+      "excludedFields": [
+        "asr.claim",
+        "asr.raw_name_forms"
+      ],
+      "uncertaintyExcerpted": false,
+      "uncertaintySource": "episodes/E-16/uncertainty",
+      "reason": null,
+      "copyEdits": null,
+      "visualScopeOverrides": [],
+      "cutoff": {
+        "intervalEnd": 5872.04644,
+        "asrAndContextEnd": 5870.26,
+        "visualEnd": 5820,
+        "availableAt": 5872.04644,
+        "withheldReason": null
+      }
+    }
+  ]
+}

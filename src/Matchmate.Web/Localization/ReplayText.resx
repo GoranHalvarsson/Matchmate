@@ -1,0 +1,451 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms</value></resheader>
+  <data name="LanguageLabel" xml:space="preserve"><value>Replay language</value></data>
+  <data name="LanguageScope" xml:space="preserve"><value>League and historical pages are currently in English.</value></data>
+  <data name="AudienceStyle" xml:space="preserve"><value>Explanation style</value></data>
+  <data name="AudienceFan" xml:space="preserve"><value>Fan</value></data>
+  <data name="AudienceAnalyst" xml:space="preserve"><value>Analyst</value></data>
+  <data name="AudienceSame" xml:space="preserve"><value>Same evidence.</value></data>
+  <data name="AudienceFanNote" xml:space="preserve"><value>The plain football story.</value></data>
+  <data name="AudienceAnalystNote" xml:space="preserve"><value>Figures and method.</value></data>
+  <data name="PageTitle" xml:space="preserve"><value>Matchmate · The match, a little closer</value></data>
+  <data name="ExploreLeague" xml:space="preserve"><value>← Explore the Premier League</value></data>
+  <data name="TechnicalSample" xml:space="preserve"><value>Technical sample</value></data>
+  <data name="BackRecordings" xml:space="preserve"><value>Back to match recordings</value></data>
+  <data name="ChooseRecording" xml:space="preserve"><value>Choose a match recording</value></data>
+  <data name="LoadingMatchRecordings" xml:space="preserve"><value>Loading match recordings…</value></data>
+  <data name="NoRecordings" xml:space="preserve"><value>No match recordings available</value></data>
+  <data name="RefreshRecordings" xml:space="preserve"><value>Refresh recordings</value></data>
+  <data name="Refreshing" xml:space="preserve"><value>Refreshing…</value></data>
+  <data name="Refresh" xml:space="preserve"><value>Refresh</value></data>
+  <data name="TechnicalSamples" xml:space="preserve"><value>Technical samples</value></data>
+  <data name="TechnicalSamplesNote" xml:space="preserve"><value>Reference recordings for testing playback and data quality.</value></data>
+  <data name="Versus" xml:space="preserve"><value>{0} vs {1}</value></data>
+  <data name="RetrospectiveReplay" xml:space="preserve"><value>Retrospective replay</value></data>
+  <data name="GeneratedSource" xml:space="preserve"><value>Generated illustration from the existing authored model. Positions are not observed movement.</value></data>
+  <data name="RecordedSource" xml:space="preserve"><value>Recorded source observations and estimates. Missing positions stay missing.</value></data>
+  <data name="PreparingRecording" xml:space="preserve"><value>Preparing this recording…</value></data>
+  <data name="PitchLabel" xml:space="preserve"><value>Match replay pitch</value></data>
+  <data name="LoadingMoment" xml:space="preserve"><value>Loading moment</value></data>
+  <data name="ReportedGoalsShort" xml:space="preserve"><value>Reported goals · {0}–{1}</value></data>
+  <data name="NoScore" xml:space="preserve"><value>No match score supplied</value></data>
+  <data name="LoadingReplayMoment" xml:space="preserve"><value>Loading replay moment…</value></data>
+  <data name="PreparingPositions" xml:space="preserve"><value>Preparing this replay moment… Player positions are still loading.</value></data>
+  <data name="GapPaused" xml:space="preserve"><value>Playback paused at a source gap or unavailable sample.</value></data>
+  <data name="ContinueGap" xml:space="preserve"><value>Continue clock through gap</value></data>
+  <data name="NextMilestone" xml:space="preserve"><value>Next source milestone</value></data>
+  <data name="PreviousMilestone" xml:space="preserve"><value>Previous source milestone</value></data>
+  <data name="LoadingMomentHeading" xml:space="preserve"><value>Loading this moment…</value></data>
+  <data name="LoadingVerifiedMoment" xml:space="preserve"><value>A verified replay moment is loading.</value></data>
+  <data name="EligibleFacts" xml:space="preserve"><value>Only facts eligible at this clock</value></data>
+  <data name="MatchSoFar" xml:space="preserve"><value>The match, so far.</value></data>
+  <data name="AcceptedMoment" xml:space="preserve"><value>Showing accepted replay {0}. The requested moment is not ready.</value></data>
+  <data name="ReportedGoals" xml:space="preserve"><value>Reported goals: {0} – {1}</value></data>
+  <data name="ReportedGoalsNote" xml:space="preserve"><value>Explicitly disallowed goals are excluded; other reported decisions remain reports. These are reported events represented in this feed, not a separately verified scoreboard. Confirmed-only contributions are not used as the match score.</value></data>
+  <data name="PositionsNotScore" xml:space="preserve"><value>This recording supplies positions and possession annotations, not a goal feed or match score.</value></data>
+  <data name="EventReport" xml:space="preserve"><value>{0} · decision {1} · {2} · reported {3}</value></data>
+  <data name="NotSupplied" xml:space="preserve"><value>not supplied</value></data>
+  <data name="EligiblePossessions" xml:space="preserve"><value>{0} eligible reported possession intervals. No actual-match pass count, speed, distance or tactical fact is inferred from generated positions.</value></data>
+  <data name="SourcesTiming" xml:space="preserve"><value>Sources, coordinates and timing</value></data>
+  <data name="SourceTimingNote" xml:space="preserve"><value>{0} roster people. Canonical identities, fixed top-left metres and period-local milliseconds. Source availability is unknown; known-then is unsupported. Reported minute windows are not exact observed event times. Highlights navigate the replay. A goal selected there can also be discussed retrospectively in chat while its explicit Selected goal label remains visible; current-score and so-far answers still follow the replay cursor.</value></data>
+  <data name="RecordingMetadata" xml:space="preserve"><value>Recording version {0} · schema {1} · stream {2} · head {3} · {4} pending dependencies.</value></data>
+  <data name="Closed" xml:space="preserve"><value>closed</value></data>
+  <data name="Open" xml:space="preserve"><value>open</value></data>
+  <data name="MatchSpendTime" xml:space="preserve"><value>A match to spend time with.</value></data>
+  <data name="LoadingRecordings" xml:space="preserve"><value>Loading recordings…</value></data>
+  <data name="NoMainRecordingsNote" xml:space="preserve"><value>No match recordings are available right now. Open Technical samples above to explore a reference recording.</value></data>
+  <data name="RecordingsUnavailable" xml:space="preserve"><value>Recordings are unavailable right now. Try again to reload the catalog.</value></data>
+  <data name="TryAgain" xml:space="preserve"><value>Try again</value></data>
+  <data name="ThisMatch" xml:space="preserve"><value>this match</value></data>
+  <data name="ChooseReadyMoment" xml:space="preserve"><value>Choose a ready replay moment.</value></data>
+  <data name="ConversationClock" xml:space="preserve"><value>{0} · {1} · replay {2}</value></data>
+  <data name="UnspecifiedPlayer" xml:space="preserve"><value>Unspecified player</value></data>
+  <data name="PeriodUnavailable" xml:space="preserve"><value>Period unavailable</value></data>
+  <data name="MatchPeriod" xml:space="preserve"><value>Match period</value></data>
+  <data name="FirstHalf" xml:space="preserve"><value>First half</value></data>
+  <data name="SecondHalf" xml:space="preserve"><value>Second half</value></data>
+  <data name="ReplayClock" xml:space="preserve"><value>Replay clock</value></data>
+  <data name="SharedCursor" xml:space="preserve"><value>Shared replay cursor</value></data>
+  <data name="GoalTimeline" xml:space="preserve"><value>Goals on the authored replay timeline</value></data>
+  <data name="WatchLabel" xml:space="preserve"><value>Watch {0}, reported {1}</value></data>
+  <data name="GoalPinTitle" xml:space="preserve"><value>{0} · reported {1} · authored {2}</value></data>
+  <data name="Pause" xml:space="preserve"><value>Ⅱ Pause</value></data>
+  <data name="Play" xml:space="preserve"><value>▶ Play</value></data>
+  <data name="Start" xml:space="preserve"><value>← Start</value></data>
+  <data name="NextPeriod" xml:space="preserve"><value>Next period →</value></data>
+  <data name="End" xml:space="preserve"><value>End →</value></data>
+  <data name="Speed" xml:space="preserve"><value>Speed</value></data>
+  <data name="MatchInMoments" xml:space="preserve"><value>The match, in moments</value></data>
+  <data name="MatchHighlights" xml:space="preserve"><value>Match highlights</value></data>
+  <data name="RetrospectiveSpoilers" xml:space="preserve"><value>Full-recording index · retrospective spoilers</value></data>
+  <data name="FilterHighlights" xml:space="preserve"><value>Filter match highlights</value></data>
+  <data name="FilterGoals" xml:space="preserve"><value>Goals</value></data>
+  <data name="FilterSubstitutions" xml:space="preserve"><value>Substitutions</value></data>
+  <data name="FilterCards" xml:space="preserve"><value>Cards</value></data>
+  <data name="FilterPossessions" xml:space="preserve"><value>Completed possessions</value></data>
+  <data name="FilterAll" xml:space="preserve"><value>All moments</value></data>
+  <data name="FilterPinned" xml:space="preserve"><value>Pinned</value></data>
+  <data name="LoadingHighlights" xml:space="preserve"><value>Loading match highlights…</value></data>
+  <data name="RefreshingHighlights" xml:space="preserve"><value>Refreshing highlights…</value></data>
+  <data name="GoalNumber" xml:space="preserve"><value>Goal {0}</value></data>
+  <data name="ReportedAfterRelease" xml:space="preserve"><value>reported after release</value></data>
+  <data name="Assist" xml:space="preserve"><value>Assist · {0}</value></data>
+  <data name="ForPlayer" xml:space="preserve"><value>For {0}</value></data>
+  <data name="SourceReportedEvent" xml:space="preserve"><value>Source-reported event</value></data>
+  <data name="Decision" xml:space="preserve"><value>Decision: {0}</value></data>
+  <data name="WatchGoal" xml:space="preserve"><value>▶ Watch this goal</value></data>
+  <data name="ExploreMoment" xml:space="preserve"><value>Explore this moment →</value></data>
+  <data name="HighlightClock" xml:space="preserve"><value>Replay {0} · {1}</value></data>
+  <data name="EligibleCompletion" xml:space="preserve"><value>eligible completion</value></data>
+  <data name="AuthoredRelease" xml:space="preserve"><value>authored release</value></data>
+  <data name="PinLabel" xml:space="preserve"><value>Pin {0}</value></data>
+  <data name="HighlightsBoundary" xml:space="preserve"><value>Reported minutes and authored replay times are separate. Same-release reports enter together; current facts below still follow your clock.</value></data>
+  <data name="PlayersLabel" xml:space="preserve"><value>Players in the selected replay moment</value></data>
+  <data name="OnPitch" xml:space="preserve"><value>On the pitch</value></data>
+  <data name="ActiveSlots" xml:space="preserve"><value>{0} / 22 active slots</value></data>
+  <data name="GeneratedRosterNote" xml:space="preserve"><value>Source names &amp; shirts · Position assignments are generated</value></data>
+  <data name="RecordedRosterNote" xml:space="preserve"><value>Source names &amp; shirts · Observations, estimates and gaps retained</value></data>
+  <data name="PositionsStillLoading" xml:space="preserve"><value>Player positions are still loading.</value></data>
+  <data name="PositionUnavailable" xml:space="preserve"><value>position unavailable</value></data>
+  <data name="IllustratedSlot" xml:space="preserve"><value>Illustrated slot</value></data>
+  <data name="SourceSample" xml:space="preserve"><value>Source sample</value></data>
+  <data name="AllRoster" xml:space="preserve"><value>All {0} roster people</value></data>
+  <data name="RosterNote" xml:space="preserve"><value>Roster membership is separate from active positions. No tactical role is inferred from a shirt number.</value></data>
+  <data name="SelectedPlayer" xml:space="preserve"><value>Selected player</value></data>
+  <data name="PositionsLoadingNotCarried" xml:space="preserve"><value>Player positions are still loading. No position is carried forward.</value></data>
+  <data name="NotActiveSample" xml:space="preserve"><value>Not in this active sample. No position is carried forward.</value></data>
+  <data name="Coordinates" xml:space="preserve"><value>x {0} m · y {1} m · height {2}</value></data>
+  <data name="Unknown" xml:space="preserve"><value>unknown</value></data>
+  <data name="Observed" xml:space="preserve"><value>observed</value></data>
+  <data name="Estimated" xml:space="preserve"><value>estimated</value></data>
+  <data name="Generated" xml:space="preserve"><value>generated</value></data>
+  <data name="ReportedValue" xml:space="preserve"><value>reported</value></data>
+  <data name="Present" xml:space="preserve"><value>present</value></data>
+  <data name="Missing" xml:space="preserve"><value>missing</value></data>
+  <data name="NotObserved" xml:space="preserve"><value>not observed</value></data>
+  <data name="Confirmed" xml:space="preserve"><value>confirmed</value></data>
+  <data name="Unconfirmed" xml:space="preserve"><value>unconfirmed</value></data>
+  <data name="Disallowed" xml:space="preserve"><value>disallowed</value></data>
+  <data name="High" xml:space="preserve"><value>high</value></data>
+  <data name="Medium" xml:space="preserve"><value>medium</value></data>
+  <data name="Low" xml:space="preserve"><value>low</value></data>
+  <data name="CoverageNoSample" xml:space="preserve"><value>No committed tracking sample at this cursor; positions are not carried across gaps.</value></data>
+  <data name="CoverageEmptyFrame" xml:space="preserve"><value>Explicit empty player frame; independent ball evidence is preserved.</value></data>
+  <data name="CoverageSourceSample" xml:space="preserve"><value>Source sample; no interpolation or measured movement statistics.</value></data>
+  <data name="CoverageUnknown" xml:space="preserve"><value>Coverage information is unavailable for this source state.</value></data>
+  <data name="GeneratedStats" xml:space="preserve"><value>Generated illustration stats</value></data>
+  <data name="AtAcceptedReplay" xml:space="preserve"><value>At accepted replay {0}</value></data>
+  <data name="StatsDescription" xml:space="preserve"><value>Calculated from the generated replay actions. These describe the illustration, not the actual match.</value></data>
+  <data name="Team" xml:space="preserve"><value>Team</value></data>
+  <data name="Passes" xml:space="preserve"><value>Passes</value></data>
+  <data name="Completed" xml:space="preserve"><value>Completed</value></data>
+  <data name="Shots" xml:space="preserve"><value>Shots</value></data>
+  <data name="IllustratedControl" xml:space="preserve"><value>Illustrated control</value></data>
+  <data name="ControlShare" xml:space="preserve"><value>Control share</value></data>
+  <data name="StatsNote" xml:space="preserve"><value>Only finished actions and completed control spells count. Control share uses {0} of classified control so far; unfinished spells, holds, restarts and unknown time are excluded. — means unavailable.</value></data>
+  <data name="GeneratedInsight" xml:space="preserve"><value>Generated replay insight</value></data>
+  <data name="InsightScope" xml:space="preserve"><value>Generated replay · {0} · {1}</value></data>
+  <data name="AskAboutThis" xml:space="preserve"><value>Ask about this</value></data>
+  <data name="KindGoal" xml:space="preserve"><value>Goal</value></data>
+  <data name="KindSubstitution" xml:space="preserve"><value>Substitution</value></data>
+  <data name="KindBooking" xml:space="preserve"><value>Booking</value></data>
+  <data name="KindCompletedPossession" xml:space="preserve"><value>Completed possession</value></data>
+  <data name="KindReportedEvent" xml:space="preserve"><value>Reported event</value></data>
+  <data name="StepCorner" xml:space="preserve"><value>Corner kick</value></data>
+  <data name="StepHeadedAssist" xml:space="preserve"><value>Header across goal</value></data>
+  <data name="StepHeaderFinish" xml:space="preserve"><value>Close-range header</value></data>
+  <data name="StepAdvance" xml:space="preserve"><value>Advance</value></data>
+  <data name="StepKeeperOut" xml:space="preserve"><value>Keeper comes out</value></data>
+  <data name="StepUncertainGoalmouth" xml:space="preserve"><value>Pass or parry unknown</value></data>
+  <data name="StepReportedFinish" xml:space="preserve"><value>Reported finish</value></data>
+  <data name="StepThrowIn" xml:space="preserve"><value>Throw-in</value></data>
+  <data name="StepIntoArea" xml:space="preserve"><value>Action into area</value></data>
+  <data name="StepReleasePass" xml:space="preserve"><value>Release pass</value></data>
+  <data name="StepShot" xml:space="preserve"><value>Shot</value></data>
+  <data name="StepSave" xml:space="preserve"><value>Save</value></data>
+  <data name="StepReboundFinish" xml:space="preserve"><value>Rebound finish</value></data>
+  <data name="StepCross" xml:space="preserve"><value>Cross</value></data>
+  <data name="StepDeflection" xml:space="preserve"><value>Slight deflection</value></data>
+  <data name="PitchGeneratedLabel" xml:space="preserve"><value>Illustrative football positions. Event geometry is generated; use the roster to select a player.</value></data>
+  <data name="PitchObservedLabel" xml:space="preserve"><value>Football positions. Home red, away blue. Select a named player or use the roster.</value></data>
+  <data name="PlayerPositionLabel" xml:space="preserve"><value>{0}, {1} position, {2}</value></data>
+  <data name="BallDetails" xml:space="preserve"><value>Ball · {0} · {1}</value></data>
+  <data name="PreparingMoment" xml:space="preserve"><value>Preparing this replay moment…</value></data>
+  <data name="TrackingGap" xml:space="preserve"><value>Tracking gap</value></data>
+  <data name="SelectedGoal" xml:space="preserve"><value>Selected goal</value></data>
+  <data name="SelectedSubstitution" xml:space="preserve"><value>Selected substitution</value></data>
+  <data name="SelectedBooking" xml:space="preserve"><value>Selected booking</value></data>
+  <data name="SelectedPossession" xml:space="preserve"><value>Selected completed possession</value></data>
+  <data name="SequenceEvidenceLimits" xml:space="preserve"><value>Sequence evidence and limits</value></data>
+  <data name="SequenceLimits" xml:space="preserve"><value>Positions and timing are illustrative. Unknown identities and contacts stay unknown.</value></data>
+  <data name="CompletedInterval" xml:space="preserve"><value>Completed possession · {0}–{1} · not possession now.</value></data>
+  <data name="IllustrativeLegend" xml:space="preserve"><value>Illustrative positions · no measured trajectories</value></data>
+  <data name="GeneratedMotionLegend" xml:space="preserve"><value>Generated positions · smoothed between accepted frames during playback · not measured movement</value></data>
+  <data name="GeneratedMotionCoverage" xml:space="preserve"><value>Generated replay movement. Display smoothing does not change the accepted replay clock or match evidence.</value></data>
+  <data name="ObservationLegend" xml:space="preserve"><value>Solid = observed · dashed = estimated/generated · square = unknown method</value></data>
+  <data name="BallLegend" xml:space="preserve"><value>Ball: {0} / {1}</value></data>
+  <data name="NoSample" xml:space="preserve"><value>no sample</value></data>
+  <data name="NoCurrentPosition" xml:space="preserve"><value>No current position sample is available.</value></data>
+  <data name="EventEvidenceLoading" xml:space="preserve"><value>Event evidence is loading; neutral illustrative positions. Use Refresh to retry.</value></data>
+  <data name="NeutralPlay" xml:space="preserve"><value>Neutral illustrative play. Select a goal to explore its supported sequence.</value></data>
+  <data name="SubstitutionsCaption" xml:space="preserve"><value>Substitutions · {0} reported changes at this minute; order unknown.</value></data>
+  <data name="Goalkeeper" xml:space="preserve"><value>{0} goalkeeper</value></data>
+  <data name="DiagramCaption" xml:space="preserve"><value>{0} {1} · asked at replay {2}</value></data>
+  <data name="Interval" xml:space="preserve"><value>Interval</value></data>
+  <data name="Reported" xml:space="preserve"><value>Reported</value></data>
+  <data name="ShowOnPitch" xml:space="preserve"><value>Show on pitch</value></data>
+  <data name="GoalDiagramLabel" xml:space="preserve"><value>Numbered illustration of the reported goal sequence; ordered steps follow below.</value></data>
+  <data name="ReportedSequence" xml:space="preserve"><value>Illustration of the reported sequence</value></data>
+  <data name="Off" xml:space="preserve"><value>Off</value></data>
+  <data name="On" xml:space="preserve"><value>On</value></data>
+  <data name="PlayerUnconfirmed" xml:space="preserve"><value>Player unconfirmed</value></data>
+  <data name="SubstitutionDiagramNote" xml:space="preserve"><value>Reported player change. Same-minute changes have no known within-group order or running paths.</value></data>
+  <data name="ReportedBooking" xml:space="preserve"><value>Reported booking</value></data>
+  <data name="BookingDiagramNote" xml:space="preserve"><value>The reported reason does not reconstruct a tackle or its location.</value></data>
+  <data name="PointAnnotation" xml:space="preserve"><value>Point annotation · not possession now</value></data>
+  <data name="CompletedSourceInterval" xml:space="preserve"><value>Completed source interval · not possession now</value></data>
+  <data name="PossessionDiagramNote" xml:space="preserve"><value>Interval endpoints follow the source annotation; this is a time diagram, not a movement path.</value></data>
+  <data name="ActorUnconfirmed" xml:space="preserve"><value> · actor unconfirmed</value></data>
+  <data name="RelatedParticipant" xml:space="preserve"><value>Related participant: {0}</value></data>
+  <data name="SequenceSources" xml:space="preserve"><value>Sequence sources</value></data>
+  <data name="SchematicLabel" xml:space="preserve"><value>Illustrative event path and contact; player identities remain source-bound.</value></data>
+  <data name="Loading" xml:space="preserve"><value>Loading…</value></data>
+  <data name="ChatLabel" xml:space="preserve"><value>Match conversation</value></data>
+  <data name="ChatEyebrow" xml:space="preserve"><value>A conversation with the match</value></data>
+  <data name="ChatHeading" xml:space="preserve"><value>Talk through this moment.</value></data>
+  <data name="NewChat" xml:space="preserve"><value>New chat</value></data>
+  <data name="SelectionClock" xml:space="preserve"><value>{0} {1} · replay {2}</value></data>
+  <data name="GoalSelectionNote" xml:space="preserve"><value>Goal questions use this retrospective selection. So-far and score answers use the replay moment.</value></data>
+  <data name="EventSelectionNote" xml:space="preserve"><value>This event must be eligible at the replay moment. Score and player answers keep their current scope.</value></data>
+  <data name="BackReplayMoment" xml:space="preserve"><value>Back to replay moment</value></data>
+  <data name="ChatThread" xml:space="preserve"><value>Match conversation thread</value></data>
+  <data name="ChatWaiting" xml:space="preserve"><value>Waiting for a verified replay moment. Earlier answers return when the context is ready.</value></data>
+  <data name="ChatEmpty" xml:space="preserve"><value>A question about this moment? Start below, or ask one of your own.</value></data>
+  <data name="You" xml:space="preserve"><value>You</value></data>
+  <data name="AskedAt" xml:space="preserve"><value>Asked at replay {0} · {1} · {2} · {3}</value></data>
+  <data name="SourceAnswer" xml:space="preserve"><value>Source answer</value></data>
+  <data name="MatchmateAi" xml:space="preserve"><value>Matchmate · AI</value></data>
+  <data name="SelectionWhenAsked" xml:space="preserve"><value>Selection when asked · reported {0} · replay {1}</value></data>
+  <data name="AnswerSelectionScope" xml:space="preserve"><value>{0} · {1} · replay {2} · {3}</value></data>
+  <data name="Retrospective" xml:space="preserve"><value>retrospective</value></data>
+  <data name="EligibleEvent" xml:space="preserve"><value>eligible event</value></data>
+  <data name="ReplayMomentScope" xml:space="preserve"><value>Replay moment · {0}</value></data>
+  <data name="SupportingEvidence" xml:space="preserve"><value>Supporting evidence {0}</value></data>
+  <data name="EvidenceTool" xml:space="preserve"><value>Evidence · {0}</value></data>
+  <data name="CheckingEvidence" xml:space="preserve"><value>Checking the current source evidence…</value></data>
+  <data name="Cancel" xml:space="preserve"><value>Cancel</value></data>
+  <data name="SourceQuestions" xml:space="preserve"><value>Source questions</value></data>
+  <data name="EventQuestions" xml:space="preserve"><value>Event questions</value></data>
+  <data name="AskMatch" xml:space="preserve"><value>Ask the match</value></data>
+  <data name="ClarifyPlaceholder" xml:space="preserve"><value>Clarify the player or replay/live scope…</value></data>
+  <data name="AskPlaceholder" xml:space="preserve"><value>Ask about this moment or follow up…</value></data>
+  <data name="AskMatchmate" xml:space="preserve"><value>Ask Matchmate</value></data>
+  <data name="ChatDisclosure" xml:space="preserve"><value>Source answers use available evidence; AI replies can be mistaken. Temporary history stays in this sign-in. New chat clears it.</value></data>
+  <data name="ChatUpdating" xml:space="preserve"><value>Replay context is updating or unavailable. Earlier answers keep their asked-at labels.</value></data>
+  <data name="ChatDisconnected" xml:space="preserve"><value>AI follow-ups are not connected. The source questions are available here.</value></data>
+  <data name="ChatReady" xml:space="preserve"><value>Replay changes cancel pending replies; earlier answers keep their asked-at labels.</value></data>
+  <data name="FeedbackClarify" xml:space="preserve"><value>Clarification</value></data>
+  <data name="FeedbackUnsupported" xml:space="preserve"><value>Not supported</value></data>
+  <data name="FeedbackUnavailable" xml:space="preserve"><value>Unavailable</value></data>
+  <data name="AudienceChanged" xml:space="preserve"><value>Now using {0} explanations. {1}</value></data>
+  <data name="LanguageChanged" xml:space="preserve"><value>Now using {0}. {1}</value></data>
+  <data name="PendingCancelledDraft" xml:space="preserve"><value>Pending reply cancelled; your draft is kept.</value></data>
+  <data name="EarlierStyleKept" xml:space="preserve"><value>Earlier answers keep their original style.</value></data>
+  <data name="EarlierLanguageKept" xml:space="preserve"><value>Earlier answers keep their original language.</value></data>
+  <data name="DraftKept" xml:space="preserve"><value>Your current question is still here. Send or clear it before preparing another.</value></data>
+  <data name="QuestionReady" xml:space="preserve"><value>Question ready. Send it when you’re ready.</value></data>
+  <data name="VisualGoalQuestion" xml:space="preserve"><value>Show me how this goal happened</value></data>
+  <data name="VisualSubstitutionQuestion" xml:space="preserve"><value>Show this substitution on a diagram</value></data>
+  <data name="VisualBookingQuestion" xml:space="preserve"><value>Show this booking on a diagram</value></data>
+  <data name="VisualPossessionQuestion" xml:space="preserve"><value>Show this completed possession on a diagram</value></data>
+  <data name="ReplyCancelled" xml:space="preserve"><value>Reply cancelled.</value></data>
+  <data name="NewChatNotice" xml:space="preserve"><value>New chat. Earlier questions and replies have been cleared.</value></data>
+  <data name="ShotQuestion" xml:space="preserve"><value>Show shots for both teams in this generated replay</value></data>
+  <data name="PassQuestion" xml:space="preserve"><value>Show pass completion rate for both teams in this replay</value></data>
+  <data name="ControlQuestion" xml:space="preserve"><value>Show possession statistics for both teams in this replay</value></data>
+  <data name="InsightControlNote" xml:space="preserve"><value>Control uses {0} of finished spells; pauses, restarts, unknown time and unfinished spells are excluded.</value></data>
+  <data name="DurationMinutes" xml:space="preserve"><value>{0} min</value></data>
+  <data name="DurationMinutesSeconds" xml:space="preserve"><value>{0} min {1} sec</value></data>
+  <data name="InsightShotHeadline" xml:space="preserve"><value>Control is shared. The shots aren’t.</value></data>
+  <data name="InsightShotAnalyst" xml:space="preserve"><value>{0} have taken {1}; {2} have taken none. Illustrated control is close ({3} / {4}), but control and shots measure different things.</value></data>
+  <data name="InsightShotFan" xml:space="preserve"><value>Illustrated control is almost even, but {0} have taken {1}; {2} have taken none. Control and shots measure different things.</value></data>
+  <data name="AShot" xml:space="preserve"><value>a shot</value></data>
+  <data name="ShotsCount" xml:space="preserve"><value>{0} shots</value></data>
+  <data name="OnlyShot" xml:space="preserve"><value>the only shot</value></data>
+  <data name="AllShots" xml:space="preserve"><value>all {0} shots</value></data>
+  <data name="InsightPassHeadline" xml:space="preserve"><value>Cleaner passing so far</value></data>
+  <data name="InsightPassAnalyst" xml:space="preserve"><value>{0} have completed {1} of {2} passes ({3}); {4}, {5} of {6} ({7}). The higher rate means a larger share of attempted passes is completed in this illustration; it does not measure pass difficulty.</value></data>
+  <data name="InsightPassFan" xml:space="preserve"><value>{0} are completing a larger share of attempted passes in this illustration. That compares completion rates, not total passes, and does not measure pass difficulty.</value></data>
+  <data name="InsightBalancedHeadline" xml:space="preserve"><value>Little separates them</value></data>
+  <data name="InsightBalancedAnalyst" xml:space="preserve"><value>{0} have {1} of illustrated control; {2}, {3}. Neither has much advantage on this measure.</value></data>
+  <data name="InsightBalancedFan" xml:space="preserve"><value>Illustrated control is almost even between {0} and {1}. Neither has much advantage on this measure.</value></data>
+  <data name="StatusWaiting" xml:space="preserve"><value>Waiting for shared football batches…</value></data>
+  <data name="StatusLoadingIndex" xml:space="preserve"><value>Loading the retrospective index…</value></data>
+  <data name="StatusReplayReady" xml:space="preserve"><value>Replay ready.</value></data>
+  <data name="StatusLoadingRecording" xml:space="preserve"><value>Loading this recording…</value></data>
+  <data name="StatusNoRecordings" xml:space="preserve"><value>No match recordings are available. Technical samples are listed below.</value></data>
+  <data name="StatusNotInCatalog" xml:space="preserve"><value>This recording is not in the current catalog. Choose an available recording.</value></data>
+  <data name="StatusNoBatch" xml:space="preserve"><value>No common batch is queryable yet. The first full local import can take about three minutes; refresh after the Worker is ready.</value></data>
+  <data name="StatusApiUnavailable" xml:space="preserve"><value>The shared API is unavailable. Refresh after the Worker is ready.</value></data>
+  <data name="StatusLoadingStream" xml:space="preserve"><value>Loading shared stream…</value></data>
+  <data name="StatusAdvancedIndex" xml:space="preserve"><value>The recording advanced while the index loaded. Retrying automatically; the replay remains available.</value></data>
+  <data name="StatusIndexUnavailable" xml:space="preserve"><value>The retrospective index is unavailable. Retrying automatically; use Refresh to retry manually.</value></data>
+  <data name="StatusImporting" xml:space="preserve"><value>This recording is importing. The retrospective index reflects committed batches and will update automatically.</value></data>
+  <data name="StatusNoEvents" xml:space="preserve"><value>No reported events are present in this recording.</value></data>
+  <data name="StatusWaitingIndex" xml:space="preserve"><value>Waiting for the selected recording's committed index. Retrying automatically.</value></data>
+  <data name="StatusChangedIndex" xml:space="preserve"><value>The replay changed while the index refreshed. Retrying at your current moment.</value></data>
+  <data name="StatusStillPreparing" xml:space="preserve"><value>This recording is still being prepared. Highlights will retry automatically.</value></data>
+  <data name="StatusRefreshUnavailable" xml:space="preserve"><value>The index refresh is unavailable. Retrying automatically; use Refresh to retry manually.</value></data>
+  <data name="StatusRetryLimit" xml:space="preserve"><value>Automatic index refresh paused after its retry limit. The import may still be running; use Refresh to retry.</value></data>
+  <data name="StatusUpdatingAccepted" xml:space="preserve"><value>Updating… Showing accepted replay {0} until the new moment is ready.</value></data>
+  <data name="StatusLoadingContext" xml:space="preserve"><value>Loading this replay context…</value></data>
+  <data name="StatusContextFailed" xml:space="preserve"><value>This context cannot be loaded. Playback is paused; refresh if its version changed.</value></data>
+  <data name="StatusPeriodBoundary" xml:space="preserve"><value>Half-time / period boundary. Resume when you are ready.</value></data>
+  <data name="StatusStaleDiagram" xml:space="preserve"><value>That event diagram is no longer current. Ask again from a ready replay moment.</value></data>
+  <data name="StatusRecordingChanged" xml:space="preserve"><value>The recording changed. Its index is refreshing; use Refresh to retry manually.</value></data>
+  <data name="StatusUnavailable" xml:space="preserve"><value>Status information is unavailable. Try Refresh.</value></data>
+  <data name="DiagramGoalTitle" xml:space="preserve"><value>How this goal happened</value></data>
+  <data name="DiagramSubstitutionTitle" xml:space="preserve"><value>The player change</value></data>
+  <data name="DiagramBookingTitle" xml:space="preserve"><value>The reported booking</value></data>
+  <data name="DiagramPossessionTitle" xml:space="preserve"><value>Completed possession interval</value></data>
+  <data name="CompletedPossessionCaption" xml:space="preserve"><value>Completed possession · {0} · {1}–{2} · not possession now.</value></data>
+  <data name="FilterCard" xml:space="preserve"><value>Card</value></data>
+  <data name="SourceAnnotationEnglish" xml:space="preserve"><value>Source annotation (English)</value></data>
+  <data name="GeneratedDistanceLabel" xml:space="preserve"><value>Generated replay distance</value></data>
+  <data name="GeneratedDistanceExplanation" xml:space="preserve"><value>Movement in the generated replay, not distance actually run. Gaps and jumps are excluded; totals cover accepted movement samples only.</value></data>
+  <data name="GeneratedDistanceCompact" xml:space="preserve"><value>Generated · {0}</value></data>
+  <data name="GeneratedDistanceMetres" xml:space="preserve"><value>{0} m</value></data>
+  <data name="GeneratedDistanceUnavailable" xml:space="preserve"><value>No generated movement yet</value></data>
+  <data name="RosterPlayers" xml:space="preserve"><value>Players</value></data>
+  <data name="CurrentOnPitch" xml:space="preserve"><value>{0} / 22 on pitch</value></data>
+  <data name="RosterPlayerColumn" xml:space="preserve"><value>Player / role evidence</value></data>
+  <data name="RosterOffPitch" xml:space="preserve"><value>Off pitch in replay</value></data>
+  <data name="GeneratedDistanceColumn" xml:space="preserve"><value>Generated m</value></data>
+  <data name="SortDistanceAscending" xml:space="preserve"><value>{0}: sort generated replay distance from shortest to furthest</value></data>
+  <data name="SortDistanceDescending" xml:space="preserve"><value>{0}: sort generated replay distance from furthest to shortest</value></data>
+  <data name="RoleUnverified" xml:space="preserve"><value>Role unverified</value></data>
+  <data name="RoleWithScope" xml:space="preserve"><value>{0} · {1}</value></data>
+  <data name="RoleGoalkeeper" xml:space="preserve"><value>Goalkeeper</value></data>
+  <data name="RoleDefender" xml:space="preserve"><value>Defender</value></data>
+  <data name="RoleMidfielder" xml:space="preserve"><value>Midfielder</value></data>
+  <data name="RoleMidfield" xml:space="preserve"><value>Midfield</value></data>
+  <data name="RoleWinger" xml:space="preserve"><value>Winger</value></data>
+  <data name="RoleForward" xml:space="preserve"><value>Forward</value></data>
+  <data name="RoleStriker" xml:space="preserve"><value>Striker</value></data>
+  <data name="RoleRightBack" xml:space="preserve"><value>Right back</value></data>
+  <data name="RoleStartingPosition" xml:space="preserve"><value>Starting position</value></data>
+  <data name="RoleStartingLine" xml:space="preserve"><value>Starting line</value></data>
+  <data name="RoleListedCategory" xml:space="preserve"><value>Listed category</value></data>
+  <data name="RoleReportDescription" xml:space="preserve"><value>Match-report description</value></data>
+  <data name="RoleSourcePremierLeague" xml:space="preserve"><value>Premier League lineup</value></data>
+  <data name="RoleSourceBrentford" xml:space="preserve"><value>Brentford match report</value></data>
+  <data name="RoleEvidenceBoundary" xml:space="preserve"><value>Source description for this fixture, not a timed record of the player's role throughout the match. Replay movement is generated separately.</value></data>
+  <data name="GeneratedDistanceShortExplanation" xml:space="preserve"><value>Generated movement, not actual distance run.</value></data>
+  <data name="SelectedPlayerDetails" xml:space="preserve"><value>Source and replay details</value></data>
+  <data name="WorkspaceEyebrow" xml:space="preserve"><value>Your Matchmate</value></data>
+  <data name="WorkspaceConversation" xml:space="preserve"><value>Conversation</value></data>
+  <data name="WorkspacePaneLabel" xml:space="preserve"><value>Beside the pitch</value></data>
+  <data name="WorkspaceExplainMoment" xml:space="preserve"><value>Catch me up</value></data>
+  <data name="WorkspaceAskPlayer" xml:space="preserve"><value>Ask about {0}</value></data>
+  <data name="WorkspaceEmpty" xml:space="preserve"><value>Ask a question above the pitch, or choose a suggestion.</value></data>
+  <data name="WorkspaceIntro" xml:space="preserve"><value>Hi, I’m Matchmate. What caught your eye in the match?</value></data>
+  <data name="WorkspaceWelcomeHeading" xml:space="preserve"><value>Let’s talk football.</value></data>
+  <data name="WorkspaceWelcomeEvent" xml:space="preserve"><value>Let’s take a closer look at the selected moment together.</value></data>
+  <data name="WorkspaceWelcomePlayer" xml:space="preserve"><value>Let’s explore what the match evidence shows about {0}.</value></data>
+  <data name="WorkspaceWelcomeMatch" xml:space="preserve"><value>We can explore {0} together, one question at a time.</value></data>
+  <data name="RecapHalfTime" xml:space="preserve"><value>Half-time recap</value></data>
+  <data name="RecapFullTime" xml:space="preserve"><value>Full-time recap</value></data>
+  <data name="RecapScope" xml:space="preserve"><value>Match clock {0} · {1} · automatic recap</value></data>
+  <data name="RecapScore" xml:space="preserve"><value>{0} {1}–{2} {3}.</value></data>
+  <data name="RecapReported" xml:space="preserve"><value>Reported score: {0} {1}</value></data>
+  <data name="RecapGoals" xml:space="preserve"><value>Reported goals: {0}.</value></data>
+  <data name="RecapScorer" xml:space="preserve"><value>{0} ({1})</value></data>
+  <data name="RecapNoGoals" xml:space="preserve"><value>No reported goals so far.</value></data>
+  <data name="RecapEvents" xml:space="preserve"><value>Eligible reports also include {0} bookings and {1} substitutions.</value></data>
+  <data name="RecapGeneratedAnalyst" xml:space="preserve"><value>Generated replay only: {0} completed {1}/{2} passes ({3}), with {4} shots and {5} of classified control; {6} completed {7}/{8} passes ({9}), with {10} shots and {11} of classified control.</value></data>
+  <data name="RecapGeneratedFan" xml:space="preserve"><value>In the generated replay, {0} {1}</value></data>
+  <data name="RecapShotsLevel" xml:space="preserve"><value>the teams had the same number of shots.</value></data>
+  <data name="RecapShotsLead" xml:space="preserve"><value>{0} had more shots.</value></data>
+  <data name="RecapControlLevel" xml:space="preserve"><value>Classified control was broadly even.</value></data>
+  <data name="RecapControlLead" xml:space="preserve"><value>{0} had more classified control.</value></data>
+  <data name="RecapControlUnavailable" xml:space="preserve"><value>Classified control is unavailable.</value></data>
+  <data name="RecapUnavailable" xml:space="preserve"><value>unavailable</value></data>
+  <data name="RecapControlNote" xml:space="preserve"><value>Generated statistics do not measure the real match. Control covers {0} of completed classified spells; unfinished spells, holds, restarts and unknown time are excluded. Evidence through replay {1}.</value></data>
+  <data name="RecapAsk" xml:space="preserve"><value>Ask about this recap</value></data>
+  <data name="RecapHalfTimeQuestion" xml:space="preserve"><value>Explain this half-time recap using the reported score and generated replay statistics.</value></data>
+  <data name="RecapFullTimeQuestion" xml:space="preserve"><value>Explain this full-time recap using the reported score and generated replay statistics.</value></data>
+  <data name="IncomingSyntheticDemo" xml:space="preserve"><value>Incoming synthetic demo</value></data>
+  <data name="HalftimeTransition" xml:space="preserve"><value>Halftime · generated transition · clock paused</value></data>
+  <data name="KindRedCard" xml:space="preserve"><value>Red card</value></data>
+  <data name="KindVarDecision" xml:space="preserve"><value>VAR decision</value></data>
+  <data name="StraightRed" xml:space="preserve"><value>straight red</value></data>
+  <data name="SecondYellow" xml:space="preserve"><value>second yellow</value></data>
+  <data name="NoPenalty" xml:space="preserve"><value>no penalty</value></data>
+  <data name="CardUpgraded" xml:space="preserve"><value>card upgraded</value></data>
+  <data name="GeneratedMovementSource" xml:space="preserve"><value>Generated illustration with source-reported events. Movement, exact staging and halftime duration are authored, not observed.</value></data>
+  <data name="StepReportedAssist" xml:space="preserve"><value>Reported assist</value></data>
+  <data name="VisualRedCardQuestion" xml:space="preserve"><value>Show this red card on a diagram</value></data>
+  <data name="SelectedDismissal" xml:space="preserve"><value>Selected dismissal</value></data>
+  <data name="DiagramDismissalTitle" xml:space="preserve"><value>The reported dismissal</value></data>
+  <data name="DismissalDiagramNote" xml:space="preserve"><value>The reported dismissal and reason do not reconstruct a tackle or referee location.</value></data>
+  <data name="DismissalAnnotationNote" xml:space="preserve"><value>Event annotation · no player location</value></data>
+  <data name="SourceNotes" xml:space="preserve"><value>Source notes</value></data>
+  <data name="SourceNoteOriginalEnglish" xml:space="preserve"><value>Original English · translation unavailable</value></data>
+  <data name="ShowOriginalSourceNotes" xml:space="preserve"><value>Show original</value></data>
+  <data name="SourceNoteSteps" xml:space="preserve"><value>Steps {0}</value></data>
+  <data name="FullMatchSpoilerWarning" xml:space="preserve"><value>Full-match retrospective · contains spoilers</value></data>
+  <data name="ReportedStats" xml:space="preserve"><value>Reported match events</value></data>
+  <data name="ReportedStatsDescription" xml:space="preserve"><value>Goals, cards and substitutions counted from released source reports. Passes, shots and possession are not supplied.</value></data>
+  <data name="ReportedYellows" xml:space="preserve"><value>Yellow cards</value></data>
+  <data name="ReportedReds" xml:space="preserve"><value>Red cards</value></data>
+  <data name="ReportedPanelNote" xml:space="preserve"><value>Counts cover the reports available at this replay point, not every incident or measured match statistics. A second-yellow dismissal adds one red-card report; another yellow counts only if separately reported. VAR reviews add no cards.</value></data>
+  <data name="ReportedInsight" xml:space="preserve"><value>Insight from match reports</value></data>
+  <data name="ReportedInsightScope" xml:space="preserve"><value>Match reports · replay {0} · {1}</value></data>
+  <data name="ReportedInsightLead" xml:space="preserve"><value>{0} lead on reported goals</value></data>
+  <data name="ReportedInsightLevel" xml:space="preserve"><value>Reported goals are level</value></data>
+  <data name="ReportedDismissals" xml:space="preserve"><value>{0}: dismissal reports {1}.</value></data>
+  <data name="ReportedInsightCounts" xml:space="preserve"><value>Available reports: {0}; yellow cards: {1}; substitutions: {2}.</value></data>
+  <data name="ReportedInsightQuestion" xml:space="preserve"><value>Explain the current reported score and cards using the reports available at this replay point.</value></data>
+  <data name="ReportedRecapScope" xml:space="preserve"><value>Match reports · match clock {0} · {1} · automatic recap</value></data>
+  <data name="ReportedRecapTeamFan" xml:space="preserve"><value>{0}: yellow-card reports {1}, dismissal reports {2} and substitutions {3}.</value></data>
+  <data name="ReportedRecapTeamAnalyst" xml:space="preserve"><value>{0} — reported yellows: {1}; reds: {2}; substitutions: {3}.</value></data>
+  <data name="ReportedHalfTimeNote" xml:space="preserve"><value>Evidence through replay {0}, including reported half-time changes. Timing follows the authored replay, not verified whistle or incident seconds.</value></data>
+  <data name="ReportedFullTimeNote" xml:space="preserve"><value>Evidence through the end of the authored replay at {0}. Exact whistle and incident seconds are not supplied.</value></data>
+  <data name="ReportedHalfTimeQuestion" xml:space="preserve"><value>Explain this half-time recap using the reported score, cards and substitutions, including half-time changes.</value></data>
+  <data name="ReportedFullTimeQuestion" xml:space="preserve"><value>Explain this full-time recap using the reported score, cards and substitutions.</value></data>
+  <data name="ReportedPanelCoverage" xml:space="preserve"><value>Based on the reports available at this replay point. Coverage may be incomplete; these counts do not measure possession or overall performance.</value></data>
+  <data name="StoryHeading" xml:space="preserve"><value>Match story</value></data>
+  <data name="StoryGenerated" xml:space="preserve"><value>Generated replay</value></data>
+  <data name="StoryEmpty" xml:space="preserve"><value>No completed passages yet at this replay moment.</value></data>
+  <data name="StoryEarlier" xml:space="preserve"><value>Earlier passages ({0})</value></data>
+  <data name="StorySummary" xml:space="preserve"><value>{0} completed passes → {1}</value></data>
+  <data name="StoryTurnover" xml:space="preserve"><value>turnover</value></data>
+  <data name="StoryShot" xml:space="preserve"><value>shot</value></data>
+  <data name="StoryPeriodEnd" xml:space="preserve"><value>period end</value></data>
+  <data name="StoryControlEnd" xml:space="preserve"><value>control ends</value></data>
+  <data name="StoryInterval" xml:space="preserve"><value>{0}–{1}</value></data>
+  <data name="StoryAsk" xml:space="preserve"><value>Ask about this</value></data>
+  <data name="StoryAskLabel" xml:space="preserve"><value>Ask about {0}, {1}</value></data>
+  <data name="StoryQuestion" xml:space="preserve"><value>What happened in {0}’s generated passage at {1}?</value></data>
+  <data name="StoryPreparedQuestion" xml:space="preserve"><value>What happened in this selected generated passage?</value></data>
+  <data name="StoryAnswer" xml:space="preserve"><value>In this generated replay, {0}’s passage at {1} lasted {5:0.#} seconds: {2} of {3} passes completed and {4} shots, ending with {6}.</value></data>
+  <data name="StoryAnswerLimit" xml:space="preserve"><value>Calculated from generated replay actions for this passage only, not measured match performance.</value></data>
+  <data name="StoryUnavailable" xml:space="preserve"><value>That generated passage is unavailable or changed. Choose it again from the accepted replay.</value></data>
+  <data name="StoryReplyReady" xml:space="preserve"><value>Reply grounded in the selected generated passage.</value></data>
+  <data name="StorySelected" xml:space="preserve"><value>Selected passage</value></data>
+  <data name="StorySelectedScope" xml:space="preserve"><value>Questions use this generated passage only. Return to the match for other questions.</value></data>
+  <data name="StoryReplayInterval" xml:space="preserve"><value>Replay interval {0}–{1}</value></data>
+  <data name="StoryBackMatch" xml:space="preserve"><value>Back to match</value></data>
+  <data name="StoryWelcome" xml:space="preserve"><value>Ask about the selected passage’s passes, shots, duration or ending.</value></data>
+  <data name="StoryReady" xml:space="preserve"><value>Ready to answer about the selected passage.</value></data>
+  <data name="StorySummaryOne" xml:space="preserve"><value>{0} completed pass → {1}</value></data>
+  <data name="StoryUnsupportedTactics" xml:space="preserve"><value>This generated passage does not establish why it happened or real-match tactics.</value></data>
+  <data name="StoryUnsupportedMovement" xml:space="preserve"><value>Speed and distance are unavailable for this generated passage.</value></data>
+  <data name="StoryUnsupportedRating" xml:space="preserve"><value>This generated passage cannot establish a player rating or actual match performance.</value></data>
+  <data name="StoryUnsupportedActual" xml:space="preserve"><value>Actual match statistics are unavailable for this passage. Its actions are generated.</value></data>
+  <data name="ReportedStatsWithGeneratedDescription" xml:space="preserve"><value>This table counts reported goals, cards and substitutions. The separate generated table describes the illustration; it does not measure the match.</value></data>
+</root>

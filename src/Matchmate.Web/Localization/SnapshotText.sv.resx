@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms</value>
+  </resheader>
+  <data name="Selected">
+    <value>Valt: {0}, rapporterat i minut {1}.</value>
+  </data>
+  <data name="UnknownActor">
+    <value>oidentifierad spelare</value>
+  </data>
+  <data name="OutsideOverlay">
+    <value>Händelsens markeringar är inte aktiva vid den här repristidpunkten.</value>
+  </data>
+  <data name="NonSpatial">
+    <value>Anteckningen återger händelsen eller spelarbytet; den visar ingen tacklingsplats, löpväg eller ordning inom samma minut.</value>
+  </data>
+  <data name="NoFrame">
+    <value>Inga aktuella positioner visas; tidigare positioner förs inte vidare.</value>
+  </data>
+  <data name="Neutral">
+    <value>Planen visar just nu en neutral illustration, utan underlag för bollens läge eller närmaste spelare.</value>
+  </data>
+  <data name="NoBall">
+    <value>Bollens aktuella position saknas, så närmaste spelare kan inte avgöras utifrån den.</value>
+  </data>
+  <data name="Ball">
+    <value>Bollen visas i {0}, i {1} på skärmen.</value>
+  </data>
+  <data name="Left">
+    <value>vänstra tredjedelen</value>
+  </data>
+  <data name="Middle">
+    <value>mittersta tredjedelen</value>
+  </data>
+  <data name="Right">
+    <value>högra tredjedelen</value>
+  </data>
+  <data name="Top">
+    <value>övre delen</value>
+  </data>
+  <data name="Central">
+    <value>centrala delen</value>
+  </data>
+  <data name="Bottom">
+    <value>nedre delen</value>
+  </data>
+  <data name="Nearby">
+    <value>Närmaste namngivna markörer: {0}. Det visar bara närhet, inte bollinnehav.</value>
+  </data>
+  <data name="Rings">
+    <value>Ringarna markerar de rapporterade deltagarna: {0}; de visar inte vem som har bollen.</value>
+  </data>
+  <data name="Path">
+    <value>Linjen illustrerar den rapporterade sekvensen.</value>
+  </data>
+  <data name="Active">
+    <value>Illustrationens aktuella steg är {0}: {1}.</value>
+  </data>
+  <data name="Dismissal">
+    <value>Utvisningen visas som en separat anteckning; den utvisade spelaren behöver inte ha en markör på planen.</value>
+  </data>
+  <data name="Card">
+    <value>En kortsymbol markerar den rapporterade varningen.</value>
+  </data>
+  <data name="Change">
+    <value>En pil markerar den inkommande spelaren i det rapporterade bytet.</value>
+  </data>
+  <data name="Generated">
+    <value>Positioner och en eventuell bollbana är genererade illustrationer; de visar inte faktiska rörelser, taktik eller avsikt.</value>
+  </data>
+  <data name="Estimated">
+    <value>Vissa visade positioner är uppskattningar; bilden visar ingen fastställd löpning eller taktisk avsikt.</value>
+  </data>
+  <data name="UnknownMethod">
+    <value>Metod eller kvalitet är ospecificerad för vissa visade positioner.</value>
+  </data>
+  <data name="ReportedSequence">
+    <value>Rapporterad sekvens: {0}</value>
+  </data>
+  <data name="ActivePath">
+    <value>Linjen illustrerar sekvensen, just nu vid {0}: {1}.</value>
+  </data>
+  <data name="Analyst">
+    <value>Läsningen är knuten till det visade reprisögonblicket; rapporterade handlingar fastställer inga exakta tidpunkter för bollkontakter.</value>
+  </data>
+  <data name="Substitution">
+    <value>Rapporterat byte: {0} ut, {1} in.</value>
+  </data>
+  <data name="SubstitutionParticipant">
+    <value>Rapporterat byte som berör {0}; identiteterna för utgående och inkommande spelare saknas.</value>
+  </data>
+  <data name="OnPitch">
+    <value>På planen just nu</value>
+  </data>
+</root>

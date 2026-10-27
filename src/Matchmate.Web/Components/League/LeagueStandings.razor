@@ -1,0 +1,26 @@
+@using Matchmate.Web.Localization
+@using Matchmate.Contracts
+@using Matchmate.Web.Experience
+@using Microsoft.JSInterop
+@inject IJSRuntime JS
+@implements IAsyncDisposable
+<section class="season-table-panel"><div class="standings-scroll" tabindex="0" aria-label="@T("ScrollableStandings")"><table class="standings"><caption class="sr-only">@T("StandingsCaption")</caption><thead><tr><th>@T("ColumnPosition")</th><th>@T("ColumnClub")</th><th>@T("ColumnPlayed")</th><th>@T("ColumnWon")</th><th>@T("ColumnDrawn")</th><th>@T("ColumnLost")</th><th>@T("ColumnDifference")</th><th>@T("ColumnPoints")</th></tr></thead><tbody @ref="_body">
+@foreach (var row in Snapshot.Rows) { var club = Snapshot.Clubs.First(c => c.Id == row.Id);
+<tr @key="row.Id" data-club-id="@row.Id" class="@(Selected == row.Id ? "selected" : "")"><td>@ExperiencePresentation.Rank(row)</td><th scope="row"><button aria-pressed="@(Selected == row.Id)" @onclick="() => Select.InvokeAsync(row.Id)"><CrestBadge Club="club" Class="table-crest"/><span>@row.Name</span></button></th><td>@row.Played</td><td>@row.Won</td><td>@row.Drawn</td><td>@row.Lost</td><td>@(row.GoalDifference > 0 ? "+" : "")@row.GoalDifference</td><td><strong>@row.Points</strong></td></tr> }
+</tbody></table></div><p class="table-rule">@T("StandingsRule")</p></section>
+@code {
+    [CascadingParameter] public MatchLanguage Language { get; set; }
+    private string T(string key, params object?[] args) => LeagueText.Get(Language, key, args);
+    [Parameter, EditorRequired] public LeagueSeasonSnapshot Snapshot { get; set; } = default!;
+    [Parameter] public string? Selected { get; set; }
+    [Parameter] public EventCallback<string> Select { get; set; }
+    private ElementReference _body;
+    private StandingsMotionInterop? _motion;
+    private bool _disposed;
+    protected override async Task OnAfterRenderAsync(bool firstRender)
+    {
+        if (!firstRender || _disposed) return;
+        _motion = new(JS); await _motion.InitializeAsync(_body);
+    }
+    public async ValueTask DisposeAsync() { _disposed = true; if (_motion is not null) await _motion.DisposeAsync(); }
+}

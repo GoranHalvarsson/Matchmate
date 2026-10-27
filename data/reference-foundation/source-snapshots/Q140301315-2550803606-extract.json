@@ -1,0 +1,180 @@
+{
+  "entities": {
+    "Q140301315": {
+      "pageid": 133739521,
+      "ns": 0,
+      "title": "Q140301315",
+      "lastrevid": 2550803606,
+      "modified": "2026-09-29T08:42:57Z",
+      "type": "item",
+      "id": "Q140301315",
+      "labels": {
+        "en": {
+          "language": "en",
+          "value": "2026–27 Hull City A.F.C. season"
+        }
+      },
+      "claims": {
+        "P31": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P31",
+              "hash": "9ddb403180b684facfb50183c3b3a99ce0b171d1",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 26887310,
+                  "id": "Q26887310"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q140301315$8cdab519-468d-7e79-f5e0-ef4c23d6e35a",
+            "rank": "normal"
+          }
+        ],
+        "P5138": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P5138",
+              "hash": "4d169eaebd85c4cbf1b457f19feea2797b2630b3",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 19477,
+                  "id": "Q19477"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q140301315$e1996fa8-49ad-55da-84ee-d0717583bf02",
+            "rank": "normal"
+          }
+        ],
+        "P2094": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P2094",
+              "hash": "6c137752b3b79bad9a00b5fae9d171a795a357df",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 31930761,
+                  "id": "Q31930761"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q140301315$36971e77-4ffe-9b96-322f-0b265843bf93",
+            "rank": "normal"
+          }
+        ],
+        "P641": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P641",
+              "hash": "1624e15e061523279bc14bb6497168e45caacb32",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 2736,
+                  "id": "Q2736"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q140301315$9ec4188a-4937-33d5-5f12-89756c826aeb",
+            "rank": "normal"
+          }
+        ],
+        "P17": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P17",
+              "hash": "a44880420787fb348836dc51d3babc5227c4ef7e",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 145,
+                  "id": "Q145"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q140301315$4c2b1605-4ad5-4698-8fd1-43398302eba4",
+            "rank": "normal"
+          }
+        ],
+        "P155": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P155",
+              "hash": "311b2e89da56a654ca20f62f6115ef512c0cc298",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 134429035,
+                  "id": "Q134429035"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q140301315$b44ccec6-47f6-6ae0-34fc-2a6a781d1e09",
+            "rank": "normal"
+          }
+        ],
+        "P2348": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P2348",
+              "hash": "33dc124fb8ec0bedb17f94adfe80c432678d5a4d",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 53389812,
+                  "id": "Q53389812"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q140301315$2b0e2c26-4b7c-da86-2c2c-52ebe662bf5f",
+            "rank": "normal"
+          }
+        ]
+      },
+      "sitelinks": {
+        "enwiki": {
+          "site": "enwiki",
+          "title": "2026–27 Hull City A.F.C. season",
+          "badges": []
+        },
+        "itwiki": {
+          "site": "itwiki",
+          "title": "Hull City Association Football Club 2026-2027",
+          "badges": []
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,3 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <ItemGroup><ProjectReference Include="../Matchmate.Contracts/Matchmate.Contracts.csproj" /></ItemGroup>
+</Project>

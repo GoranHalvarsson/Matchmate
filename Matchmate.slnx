@@ -1,0 +1,14 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/Matchmate.AppHost/Matchmate.AppHost.csproj" />
+    <Project Path="src/Matchmate.Api/Matchmate.Api.csproj" />
+    <Project Path="src/Matchmate.Web/Matchmate.Web.csproj" />
+    <Project Path="src/Matchmate.Worker/Matchmate.Worker.csproj" />
+    <Project Path="src/Matchmate.Contracts/Matchmate.Contracts.csproj" />
+    <Project Path="src/Matchmate.Core/Matchmate.Core.csproj" />
+    <Project Path="src/Matchmate.Infrastructure/Matchmate.Infrastructure.csproj" />
+    <Project Path="src/Matchmate.ServiceDefaults/Matchmate.ServiceDefaults.csproj" />
+  </Folder>
+  <Folder Name="/tests/"><Project Path="tests/Matchmate.Tests/Matchmate.Tests.csproj" /></Folder>
+  <Folder Name="/tools/"><Project Path="tools/Matchmate.ReplayPublisher/Matchmate.ReplayPublisher.csproj" /></Folder>
+</Solution>

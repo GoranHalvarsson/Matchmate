@@ -1,0 +1,483 @@
+{
+  "observed_at": "2026-10-17",
+  "club_search_cap": 30,
+  "ground_cap": 40,
+  "source_work_seconds": 4.5,
+  "discovery": [
+    {
+      "club_id": "arsenal",
+      "search": {
+        "file": "club-search-arsenal.json",
+        "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=Arsenal&language=en&type=item&limit=5&format=json"
+      },
+      "status": "identified_football_club",
+      "discovery": "search_exact_normalized_english_label_and_description",
+      "qid": "Q9617",
+      "entity_file": "Q9617-2532381290.json",
+      "retrieval_url": "https://www.wikidata.org/wiki/Special:EntityData/Q9617.json",
+      "english_label": "Arsenal F.C.",
+      "description": "association football club in London, England",
+      "instance_of": [
+        "Q476028"
+      ],
+      "search_attempt_url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=Arsenal&language=en&type=item&limit=5&format=json"
+    },
+    {
+      "club_id": "aston-villa",
+      "search": {
+        "file": "club-search-aston-villa.json",
+        "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=Aston+Villa&language=en&type=item&limit=5&format=json"
+      },
+      "status": "identified_football_club",
+      "discovery": "search_exact_normalized_english_label_and_description",
+      "qid": "Q18711",
+      "entity_file": "Q18711-2551438037.json",
+      "retrieval_url": "https://www.wikidata.org/wiki/Special:EntityData/Q18711.json",
+      "english_label": "Aston Villa F.C.",
+      "description": "association football club in Birmingham, England",
+      "instance_of": [
+        "Q476028"
+      ],
+      "search_attempt_url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=Aston+Villa&language=en&type=item&limit=5&format=json"
+    },
+    {
+      "club_id": "bournemouth",
+      "search": {
+        "file": "club-search-bournemouth.json",
+        "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=AFC+Bournemouth&language=en&type=item&limit=5&format=json"
+      },
+      "status": "identified_football_club",
+      "discovery": "search_exact_normalized_english_label_and_description",
+      "qid": "Q19568",
+      "entity_file": "Q19568-2541673573.json",
+      "retrieval_url": "https://www.wikidata.org/wiki/Special:EntityData/Q19568.json",
+      "english_label": "AFC Bournemouth",
+      "description": "association football club in Bournemouth, England",
+      "instance_of": [
+        "Q476028"
+      ],
+      "search_attempt_url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=AFC+Bournemouth&language=en&type=item&limit=5&format=json"
+    },
+    {
+      "club_id": "brentford",
+      "search": {
+        "file": "club-search-brentford.json",
+        "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=Brentford&language=en&type=item&limit=5&format=json"
+      },
+      "status": "identified_football_club",
+      "discovery": "search_exact_normalized_english_label_and_description",
+      "qid": "Q19571",
+      "entity_file": "Q19571-2553201291.json",
+      "retrieval_url": "https://www.wikidata.org/wiki/Special:EntityData/Q19571.json",
+      "english_label": "Brentford F.C.",
+      "description": "association football club in London, England",
+      "instance_of": [
+        "Q476028"
+      ],
+      "search_attempt_url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=Brentford&language=en&type=item&limit=5&format=json"
+    },
+    {
+      "club_id": "brighton",
+      "search": {
+        "file": "club-search-brighton.json",
+        "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=Brighton+%26+Hove+Albion&language=en&type=item&limit=5&format=json"
+      },
+      "status": "identified_football_club",
+      "discovery": "search_exact_normalized_english_label_and_description",
+      "qid": "Q19453",
+      "entity_file": "Q19453-2553236335.json",
+      "retrieval_url": "https://www.wikidata.org/wiki/Special:EntityData/Q19453.json",
+      "english_label": "Brighton & Hove Albion F.C.",
+      "description": "football club in Brighton & Hove, England",
+      "instance_of": [
+        "Q476028",
+        "Q20639856"
+      ],
+      "search_attempt_url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=Brighton+%26+Hove+Albion&language=en&type=item&limit=5&format=json"
+    },
+    {
+      "club_id": "burnley",
+      "search": {
+        "file": "club-search-burnley.json",
+        "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=Burnley&language=en&type=item&limit=5&format=json"
+      },
+      "status": "identified_football_club",
+      "discovery": "search_exact_normalized_english_label_and_description",
+      "qid": "Q19458",
+      "entity_file": "Q19458-2556167511.json",
+      "retrieval_url": "https://www.wikidata.org/wiki/Special:EntityData/Q19458.json",
+      "english_label": "Burnley F.C.",
+      "description": "association football club in Burnley, England",
+      "instance_of": [
+        "Q476028"
+      ],
+      "search_attempt_url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=Burnley&language=en&type=item&limit=5&format=json"
+    },
+    {
+      "club_id": "chelsea",
+      "search": {
+        "file": "club-search-chelsea.json",
+        "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=Chelsea&language=en&type=item&limit=5&format=json"
+      },
+      "status": "lookup_gap",
+      "reason": "No unique English football-club result matching canonical label",
+      "search_attempt_url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=Chelsea&language=en&type=item&limit=5&format=json"
+    },
+    {
+      "club_id": "coventry",
+      "search": {
+        "file": "club-search-coventry.json",
+        "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=Coventry+City&language=en&type=item&limit=5&format=json"
+      },
+      "status": "identified_football_club",
+      "discovery": "search_exact_normalized_english_label_and_description",
+      "qid": "Q19580",
+      "entity_file": "Q19580-2554419013.json",
+      "retrieval_url": "https://www.wikidata.org/wiki/Special:EntityData/Q19580.json",
+      "english_label": "Coventry City F.C.",
+      "description": "association football club in Coventry, England",
+      "instance_of": [
+        "Q476028"
+      ],
+      "search_attempt_url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=Coventry+City&language=en&type=item&limit=5&format=json"
+    },
+    {
+      "club_id": "crystal-palace",
+      "search": {
+        "file": "club-search-crystal-palace.json",
+        "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=Crystal+Palace&language=en&type=item&limit=5&format=json"
+      },
+      "status": "identified_football_club",
+      "discovery": "search_exact_normalized_english_label_and_description",
+      "qid": "Q19467",
+      "entity_file": "Q19467-2554440170.json",
+      "retrieval_url": "https://www.wikidata.org/wiki/Special:EntityData/Q19467.json",
+      "english_label": "Crystal Palace F.C.",
+      "description": "association football club in London, England",
+      "instance_of": [
+        "Q476028"
+      ],
+      "search_attempt_url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=Crystal+Palace&language=en&type=item&limit=5&format=json"
+    },
+    {
+      "club_id": "everton",
+      "search": null,
+      "status": "identified_football_club",
+      "discovery": "previous_exact_observation",
+      "qid": "Q5794",
+      "entity_file": "Q5794-2553199200.json",
+      "retrieval_url": "https://www.wikidata.org/wiki/Special:EntityData/Q5794.json?revision=2553199200",
+      "english_label": "Everton F.C.",
+      "description": "association football club in Liverpool, England",
+      "instance_of": [
+        "Q476028"
+      ],
+      "search_attempt_url": null
+    },
+    {
+      "club_id": "fulham",
+      "search": null,
+      "status": "lookup_gap",
+      "reason": "HTTPError: HTTP Error 429: Too Many Requests",
+      "search_attempt_url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=Fulham&language=en&type=item&limit=5&format=json"
+    },
+    {
+      "club_id": "hull",
+      "search": null,
+      "status": "lookup_gap",
+      "reason": "HTTPError: HTTP Error 429: Too Many Requests",
+      "search_attempt_url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=Hull+City&language=en&type=item&limit=5&format=json"
+    },
+    {
+      "club_id": "ipswich",
+      "search": null,
+      "status": "lookup_gap",
+      "reason": "HTTPError: HTTP Error 429: Too Many Requests",
+      "search_attempt_url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=Ipswich+Town&language=en&type=item&limit=5&format=json"
+    },
+    {
+      "club_id": "leeds",
+      "search": null,
+      "status": "lookup_gap",
+      "reason": "HTTPError: HTTP Error 429: Too Many Requests",
+      "search_attempt_url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=Leeds+United&language=en&type=item&limit=5&format=json"
+    },
+    {
+      "club_id": "leicester",
+      "search": null,
+      "status": "lookup_gap",
+      "reason": "HTTPError: HTTP Error 429: Too Many Requests",
+      "search_attempt_url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=Leicester+City&language=en&type=item&limit=5&format=json"
+    },
+    {
+      "club_id": "liverpool",
+      "search": null,
+      "status": "lookup_gap",
+      "reason": "HTTPError: HTTP Error 429: Too Many Requests",
+      "search_attempt_url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=Liverpool&language=en&type=item&limit=5&format=json"
+    },
+    {
+      "club_id": "manchester-city",
+      "search": null,
+      "status": "lookup_gap",
+      "reason": "HTTPError: HTTP Error 429: Too Many Requests",
+      "search_attempt_url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=Manchester+City&language=en&type=item&limit=5&format=json"
+    },
+    {
+      "club_id": "manchester-united",
+      "search": null,
+      "status": "lookup_gap",
+      "reason": "HTTPError: HTTP Error 429: Too Many Requests",
+      "search_attempt_url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=Manchester+United&language=en&type=item&limit=5&format=json"
+    },
+    {
+      "club_id": "middlesbrough",
+      "search": null,
+      "status": "lookup_gap",
+      "reason": "HTTPError: HTTP Error 429: Too Many Requests",
+      "search_attempt_url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=Middlesbrough&language=en&type=item&limit=5&format=json"
+    },
+    {
+      "club_id": "newcastle",
+      "search": null,
+      "status": "lookup_gap",
+      "reason": "HTTPError: HTTP Error 429: Too Many Requests",
+      "search_attempt_url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=Newcastle+United&language=en&type=item&limit=5&format=json"
+    },
+    {
+      "club_id": "norwich",
+      "search": null,
+      "status": "lookup_gap",
+      "reason": "HTTPError: HTTP Error 429: Too Many Requests",
+      "search_attempt_url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=Norwich+City&language=en&type=item&limit=5&format=json"
+    },
+    {
+      "club_id": "nottingham-forest",
+      "search": null,
+      "status": "lookup_gap",
+      "reason": "HTTPError: HTTP Error 429: Too Many Requests",
+      "search_attempt_url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=Nottingham+Forest&language=en&type=item&limit=5&format=json"
+    },
+    {
+      "club_id": "southampton",
+      "search": null,
+      "status": "lookup_gap",
+      "reason": "HTTPError: HTTP Error 429: Too Many Requests",
+      "search_attempt_url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=Southampton&language=en&type=item&limit=5&format=json"
+    },
+    {
+      "club_id": "stoke",
+      "search": null,
+      "status": "lookup_gap",
+      "reason": "HTTPError: HTTP Error 429: Too Many Requests",
+      "search_attempt_url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=Stoke+City&language=en&type=item&limit=5&format=json"
+    },
+    {
+      "club_id": "sunderland",
+      "search": null,
+      "status": "lookup_gap",
+      "reason": "HTTPError: HTTP Error 429: Too Many Requests",
+      "search_attempt_url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=Sunderland&language=en&type=item&limit=5&format=json"
+    },
+    {
+      "club_id": "swansea",
+      "search": null,
+      "status": "lookup_gap",
+      "reason": "HTTPError: HTTP Error 429: Too Many Requests",
+      "search_attempt_url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=Swansea+City&language=en&type=item&limit=5&format=json"
+    },
+    {
+      "club_id": "tottenham",
+      "search": null,
+      "status": "identified_football_club",
+      "discovery": "previous_exact_observation",
+      "qid": "Q18741",
+      "entity_file": "Q18741-2542332467.json",
+      "retrieval_url": "https://www.wikidata.org/wiki/Special:EntityData/Q18741.json?revision=2542332467",
+      "english_label": "Tottenham Hotspur F.C.",
+      "description": "association football club in London, England",
+      "instance_of": [
+        "Q476028"
+      ],
+      "search_attempt_url": null
+    },
+    {
+      "club_id": "watford",
+      "search": null,
+      "status": "lookup_gap",
+      "reason": "HTTPError: HTTP Error 429: Too Many Requests",
+      "search_attempt_url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=Watford&language=en&type=item&limit=5&format=json"
+    },
+    {
+      "club_id": "west-brom",
+      "search": null,
+      "status": "lookup_gap",
+      "reason": "HTTPError: HTTP Error 429: Too Many Requests",
+      "search_attempt_url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=West+Bromwich+Albion&language=en&type=item&limit=5&format=json"
+    },
+    {
+      "club_id": "west-ham",
+      "search": null,
+      "status": "identified_football_club",
+      "discovery": "previous_exact_observation",
+      "qid": "Q18747",
+      "entity_file": "Q18747-2553199631.json",
+      "retrieval_url": "https://www.wikidata.org/wiki/Special:EntityData/Q18747.json?revision=2553199631",
+      "english_label": "West Ham United F.C.",
+      "description": "association football club in London, England",
+      "instance_of": [
+        "Q476028"
+      ],
+      "search_attempt_url": null
+    }
+  ],
+  "selected_ground_claims": [
+    {
+      "club_id": "arsenal",
+      "ground_qid": "Q163995",
+      "claim_id": "q9617$4BFD5480-4B7C-4823-91F4-5BB14C6EF56A"
+    },
+    {
+      "club_id": "aston-villa",
+      "ground_qid": "Q175339",
+      "claim_id": "q18711$D21EC5DF-D3EF-4909-9433-65A8CD8D1AF8"
+    },
+    {
+      "club_id": "bournemouth",
+      "ground_qid": "Q619094",
+      "claim_id": "q19568$6B1B001C-F3BB-47CA-B677-9C6FC6C96196"
+    },
+    {
+      "club_id": "brentford",
+      "ground_qid": "Q1546623",
+      "claim_id": "q19571$A8086B27-E2A0-4555-BE83-B85755F2F27F"
+    },
+    {
+      "club_id": "brighton",
+      "ground_qid": "Q619409",
+      "claim_id": "q19453$A139AF6E-9738-4EF7-9D5E-CAE586DA619F"
+    },
+    {
+      "club_id": "burnley",
+      "ground_qid": "Q683112",
+      "claim_id": "q19458$352985E1-4DAD-4AD5-A745-379D28102B80"
+    },
+    {
+      "club_id": "coventry",
+      "ground_qid": "Q842077",
+      "claim_id": "q19580$0EA43FCA-1F70-41E8-9925-99EA38E2111C"
+    },
+    {
+      "club_id": "crystal-palace",
+      "ground_qid": "Q1066373",
+      "claim_id": "q19467$517DA7BA-D26C-424E-BC66-74B1DD0F4ECB"
+    },
+    {
+      "club_id": "everton",
+      "ground_qid": "Q29347805",
+      "claim_id": "q5794$AD4D222E-4D69-49EE-B967-2960EF0E75F8"
+    },
+    {
+      "club_id": "tottenham",
+      "ground_qid": "Q55074091",
+      "claim_id": "q18741$45065F12-8878-4378-8F51-E599874F5DFC"
+    },
+    {
+      "club_id": "tottenham",
+      "ground_qid": "Q186425",
+      "claim_id": "Q18741$d3662911-47a3-8a43-6cce-20e1aaf946be"
+    },
+    {
+      "club_id": "west-ham",
+      "ground_qid": "Q172190",
+      "claim_id": "q18747$23A66AF1-4DF1-4A1D-AD56-BAC4382EB526"
+    }
+  ],
+  "grounds": [
+    {
+      "qid": "Q1066373",
+      "file": "Q1066373-2557638896.json",
+      "retrieval_url": "https://www.wikidata.org/wiki/Special:EntityData/Q1066373.json",
+      "status": "retrieved"
+    },
+    {
+      "qid": "Q1546623",
+      "file": "Q1546623-2438044756.json",
+      "retrieval_url": "https://www.wikidata.org/wiki/Special:EntityData/Q1546623.json",
+      "status": "retrieved"
+    },
+    {
+      "qid": "Q163995",
+      "file": "Q163995-2537767293.json",
+      "retrieval_url": "https://www.wikidata.org/wiki/Special:EntityData/Q163995.json",
+      "status": "retrieved"
+    },
+    {
+      "qid": "Q172190",
+      "file": "Q172190-2517444204.json",
+      "retrieval_url": "https://www.wikidata.org/wiki/Special:EntityData/Q172190.json?revision=2517444204",
+      "status": "retrieved"
+    },
+    {
+      "qid": "Q175339",
+      "file": "Q175339-2504219260.json",
+      "retrieval_url": "https://www.wikidata.org/wiki/Special:EntityData/Q175339.json",
+      "status": "retrieved"
+    },
+    {
+      "qid": "Q186425",
+      "file": "Q186425-2522615508.json",
+      "retrieval_url": "https://www.wikidata.org/wiki/Special:EntityData/Q186425.json?revision=2522615508",
+      "status": "retrieved"
+    },
+    {
+      "qid": "Q29347805",
+      "file": "Q29347805-2553173762.json",
+      "retrieval_url": "https://www.wikidata.org/wiki/Special:EntityData/Q29347805.json?revision=2553173762",
+      "status": "retrieved"
+    },
+    {
+      "qid": "Q330731",
+      "file": "Q330731-2517416046.json",
+      "retrieval_url": "https://www.wikidata.org/wiki/Special:EntityData/Q330731.json?revision=2517416046",
+      "status": "retrieved"
+    },
+    {
+      "qid": "Q55074091",
+      "file": "Q55074091-2491586322.json",
+      "retrieval_url": "https://www.wikidata.org/wiki/Special:EntityData/Q55074091.json?revision=2491586322",
+      "status": "retrieved"
+    },
+    {
+      "qid": "Q619094",
+      "file": "Q619094-2530974896.json",
+      "retrieval_url": "https://www.wikidata.org/wiki/Special:EntityData/Q619094.json",
+      "status": "retrieved"
+    },
+    {
+      "qid": "Q619409",
+      "file": "Q619409-2529520768.json",
+      "retrieval_url": "https://www.wikidata.org/wiki/Special:EntityData/Q619409.json",
+      "status": "retrieved"
+    },
+    {
+      "qid": "Q683112",
+      "file": "Q683112-2460645881.json",
+      "retrieval_url": "https://www.wikidata.org/wiki/Special:EntityData/Q683112.json",
+      "status": "retrieved"
+    },
+    {
+      "qid": "Q842077",
+      "file": "Q842077-2541477555.json",
+      "retrieval_url": "https://www.wikidata.org/wiki/Special:EntityData/Q842077.json",
+      "status": "retrieved"
+    },
+    {
+      "qid": "Q968420",
+      "file": "Q968420-2538956539.json",
+      "retrieval_url": "https://www.wikidata.org/wiki/Special:EntityData/Q968420.json?revision=2538956539",
+      "status": "retrieved"
+    }
+  ],
+  "scope": "Finite Wikidata CC0 pass only; no club/league website requests."
+}

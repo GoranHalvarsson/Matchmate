@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net11.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <BlazorDisableThrowNavigationException>true</BlazorDisableThrowNavigationException>
+    <UserSecretsId>matchmate-web-development</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="Experience/Data/match-roles-v1.json" LogicalName="Matchmate.MatchRoles.v1.json" />
+    <EmbeddedResource Include="Experience/Data/match-roles-liverpool-v1.json" LogicalName="Matchmate.MatchRoles.Liverpool.v1.json" />
+    <PackageReference Include="Azure.AI.OpenAI" Version="2.1.0" />
+    <PackageReference Include="Azure.Identity" Version="1.21.0" />
+    <PackageReference Include="Azure.Extensions.AspNetCore.DataProtection.Blobs" Version="1.5.3" />
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.OpenIdConnect" Version="11.0.0-rc.2.26504.105" />
+    <ProjectReference Include="../Matchmate.Core/Matchmate.Core.csproj" />
+    <ProjectReference Include="../Matchmate.ServiceDefaults/Matchmate.ServiceDefaults.csproj" />
+  </ItemGroup>
+</Project>

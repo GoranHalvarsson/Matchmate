@@ -1,0 +1,32 @@
+@using Matchmate.Web.Chat
+@using Matchmate.Web.HistoricalChat
+@using Matchmate.Web.Localization
+@implements IAsyncDisposable
+<section class="historical-conversation @(Session.Turns.Count > 0 ? "has-turns" : "")" aria-label="@T("MatchConversation")" lang="@MatchLanguages.Code(Language)">
+    <div class="sr-only" role="status" aria-live="polite" aria-atomic="true">@(_pending ? T("ResponsePending") : Notice.Length > 0 ? Notice : !Session.Configured ? T("MatchDisconnected") : "")</div>
+    <header class="historical-chat-heading"><div><p class="historical-chat-eyebrow">@T("MatchEyebrow")</p><h2>@T("MatchHeading")</h2></div><button type="button" class="historical-new-chat" @onclick="Reset">@T("NewChat")</button></header>
+    <div class="historical-thread" role="log" aria-live="polite" aria-busy="@_pending">
+        @if (Session.Turns.Count == 0 && !_pending) {
+            <p class="historical-chat-welcome">@T("MatchWelcome")</p>
+        }
+        @foreach (var turn in Session.Turns) {
+            <article class="historical-turn" @key="turn.Id" lang="@MatchLanguages.Code(turn.Language)">
+                <p class="historical-question"><span>@ConversationText.Get(turn.Language, "You")</span>@turn.Question</p>
+                <div class="historical-answer"><span>@(turn.SourceOnly ? ConversationText.Get(turn.Language, "MatchmateSource") : turn.Outcome == MatchChatOutcome.Answered ? ConversationText.Get(turn.Language, "MatchmateAi") : turn.Outcome == MatchChatOutcome.Clarify ? ConversationText.Get(turn.Language, "MatchmateClarification") : "Matchmate")</span><p>@turn.Answer</p></div>
+                @if (turn.Evidence.Length > 0) {
+                    <details class="historical-turn-facts"><summary>@ConversationText.Get(turn.Language, "SupportingFacts")</summary><div>@foreach (var fact in turn.Evidence) { <p @key="fact.Id"><strong>@FactLabel(fact.Id, turn.Language)</strong> <span lang="en">@Supporting(fact)</span></p> }</div></details>
+                }
+            </article>
+        }
+        @if (_pending) { <div class="historical-chat-pending"><p class="historical-question"><span>@T("You")</span>@_pendingQuestion</p><ChatResponsePending Language="Language"/></div> }
+    </div>
+    <div class="historical-suggestions">@foreach (var suggestion in Suggestions) { var title = HistoricalChatPresentation.DisplayTitle(suggestion, Language); var question = HistoricalChatPresentation.DisplayQuestion(suggestion, Language); <button type="button" @key="suggestion.Id" disabled="@Blocked" aria-label="@($"{title}: {question}")" @onclick="() => SendSuggestionAsync(suggestion.Id)"><strong>@title</strong><span class="historical-suggestion-question">@question</span></button> }</div>
+    <form class="historical-chat-form" @onsubmit="SubmitAsync" @onsubmit:preventDefault>
+        <label for="@_inputId">@T("AskMatch")</label>
+        @if (_pending) { <div class="historical-composer-pending"><ChatResponsePending Language="Language" Compact="true"/><button type="button" @onclick="Cancel">@T("CancelReply")</button></div> }
+        <div class="historical-chat-composer"><input id="@_inputId" maxlength="1000" @bind="_question" @bind:event="oninput" disabled="@Blocked" placeholder="@T("MatchPlaceholder")"/><button type="submit" disabled="@(Blocked || string.IsNullOrWhiteSpace(_question))">@T(_pending ? "Responding" : "AskMatchmate")</button></div>
+    </form>
+    @if (!Session.Configured) { <p class="historical-chat-notice">@T("MatchDisconnected")</p> }
+    @if (Notice.Length > 0) { <p class="historical-chat-notice">@Notice</p> }
+    <p class="historical-chat-footnote">@T("MatchFootnote")</p>
+</section>

@@ -1,0 +1,135 @@
+[
+  {
+    "id": "chelsea-report",
+    "publisher": "Chelsea",
+    "kind": "actual report",
+    "url": "https://www.chelseafc.com/en/news/article/match-report-brentford-3-0-chelsea",
+    "publication_date": null,
+    "observed_on": "2026-10-17",
+    "product_and_external_ai_reuse": "not_cleared"
+  },
+  {
+    "id": "brentford-hub",
+    "publisher": "Brentford",
+    "kind": "actual match video index; titles inspected, videos not watched",
+    "url": "https://www.brentfordfc.com/en/video/match/brentford-v-chelsea-premier-league-20260918",
+    "publication_date": null,
+    "observed_on": "2026-10-17",
+    "product_and_external_ai_reuse": "not_cleared"
+  },
+  {
+    "id": "brentford-preview",
+    "publisher": "Brentford",
+    "kind": "preview; scheduled facts only",
+    "url": "https://www.brentfordfc.com/en/news/match-previews-brentford-v-chelsea-premier-league-18-09-2026",
+    "publication_date": "2026-09-15",
+    "observed_on": "2026-10-17",
+    "product_and_external_ai_reuse": "not_cleared"
+  },
+  {
+    "id": "brentford-role",
+    "publisher": "Brentford",
+    "kind": "earlier preview; explicit head coach role",
+    "url": "https://www.brentfordfc.com/en/news/match-previews-brentford-v-tottenham-hotspur-premier-league-22-08-2026",
+    "publication_date": "2026-08-17",
+    "observed_on": "2026-10-17",
+    "product_and_external_ai_reuse": "not_cleared"
+  },
+  {
+    "id": "brentford-terms",
+    "publisher": "Brentford",
+    "kind": "terms, sections 8.1–8.2 and 8.6",
+    "url": "https://www.brentfordfc.com/en/terms-of-use",
+    "publication_date": null,
+    "observed_on": "2026-10-17",
+    "product_and_external_ai_reuse": "not_cleared"
+  },
+  {
+    "id": "chelsea-season-names",
+    "publisher": "Chelsea",
+    "kind": "dated season squad-number announcement",
+    "url": "https://www.chelseafc.com/en/news/article/chelsea-squad-numbers-confirmed-for-the-2026-27-season",
+    "publication_date": "2026-08-19",
+    "observed_on": "2026-10-17",
+    "product_and_external_ai_reuse": "not_cleared",
+    "publication_date_basis": "Dated heading in search-returned official indexed page text; date not repeated in opened article-body extraction."
+  },
+  {
+    "id": "chelsea-match-retrospective",
+    "publisher": "Chelsea",
+    "kind": "dated retrospective explicitly identifies match participants",
+    "url": "https://www.chelseafc.com/en/news/article/chelsea-vs-bournemouth-key-statistics-and-facts",
+    "publication_date": "2026-10-09",
+    "observed_on": "2026-10-17",
+    "product_and_external_ai_reuse": "not_cleared",
+    "publication_date_basis": "Dated heading in search-returned official indexed page text; date not repeated in opened article-body extraction."
+  },
+  {
+    "id": "brentford-public-names",
+    "publisher": "Brentford",
+    "kind": "observed current official squad; identity names only, not historical affiliation",
+    "url": "https://www.brentfordfc.com/en/teams/mens",
+    "publication_date": null,
+    "observed_on": "2026-10-17",
+    "product_and_external_ai_reuse": "not_cleared"
+  },
+  {
+    "id": "brentford-actual-report",
+    "publisher": "Brentford",
+    "kind": "actual completed-match report",
+    "url": "https://www.brentfordfc.com/en/news/match-reports-brentford-3-chelsea-0-premier-league-jaidon-anthony-igor-thiago-fabio-carvalho",
+    "publication_date": "2026-09-18",
+    "observed_on": "2026-10-17",
+    "product_and_external_ai_reuse": "not_cleared"
+  },
+  {
+    "id": "pl-overview",
+    "publisher": "Premier League",
+    "kind": "actual match record; rendered public UI",
+    "url": "https://www.premierleague.com/en/match/2645236/brentford-vs-chelsea/overview",
+    "publication_date": null,
+    "observed_on": "2026-10-17",
+    "access_method": "Background in-app browser; discovered actual match through visible 2026/27 Matchweek 5 controls, then observed tab links. Web text extraction returned shell; hydrated visible accessibility content inspected.",
+    "product_and_external_ai_reuse": "not_cleared"
+  },
+  {
+    "id": "pl-lineups",
+    "publisher": "Premier League",
+    "kind": "actual match record; rendered public UI",
+    "url": "https://www.premierleague.com/en/match/2645236/brentford-vs-chelsea/lineups",
+    "publication_date": null,
+    "observed_on": "2026-10-17",
+    "access_method": "Background in-app browser; discovered actual match through visible 2026/27 Matchweek 5 controls, then observed tab links. Web text extraction returned shell; hydrated visible accessibility content inspected.",
+    "product_and_external_ai_reuse": "not_cleared"
+  },
+  {
+    "id": "pl-commentary",
+    "publisher": "Premier League",
+    "kind": "actual match record; rendered public UI",
+    "url": "https://www.premierleague.com/en/match/2645236/brentford-vs-chelsea/commentary",
+    "publication_date": null,
+    "observed_on": "2026-10-17",
+    "access_method": "Background in-app browser; discovered actual match through visible 2026/27 Matchweek 5 controls, then observed tab links. Web text extraction returned shell; hydrated visible accessibility content inspected.",
+    "product_and_external_ai_reuse": "not_cleared"
+  },
+  {
+    "id": "pl-info",
+    "publisher": "Premier League",
+    "kind": "actual match record; rendered public UI",
+    "url": "https://www.premierleague.com/en/match/2645236/brentford-vs-chelsea/info",
+    "publication_date": null,
+    "observed_on": "2026-10-17",
+    "access_method": "Background in-app browser; discovered actual match through visible 2026/27 Matchweek 5 controls, then observed tab links. Web text extraction returned shell; hydrated visible accessibility content inspected.",
+    "product_and_external_ai_reuse": "not_cleared"
+  },
+  {
+    "id": "pl-stats",
+    "publisher": "Premier League",
+    "kind": "rendered actual match team summary statistics",
+    "url": "https://www.premierleague.com/en/match/2645236/brentford-vs-chelsea/stats",
+    "publication_date": null,
+    "observed_on": "2026-10-17",
+    "access_method": "Public background browser; followed observed Stats tab link from actual match Lineups page and inspected hydrated visible content.",
+    "product_and_external_ai_reuse": "not_cleared"
+  }
+]

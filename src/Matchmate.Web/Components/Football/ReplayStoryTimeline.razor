@@ -1,0 +1,35 @@
+@using Matchmate.Web.Experience
+@using Matchmate.Web.Chat
+@using Matchmate.Web.Localization
+@if (Items is not null || !string.IsNullOrEmpty(Notice))
+{
+    <section class="replay-story" aria-label="@T("StoryHeading")">
+        <header><h2>@T("StoryHeading")</h2><span>@T("StoryGenerated")</span></header>
+        @if (!string.IsNullOrEmpty(Notice)) { <p class="story-empty" role="status">@Notice</p> }
+        @if (Items is { } items) {
+            @if (items.Length == 0 && string.IsNullOrEmpty(Notice)) { <p class="story-empty">@T("StoryEmpty")</p> }
+            else if (items.Length > 0) {
+                @if (items.Length > 3) {
+                    <button type="button" class="story-earlier" aria-expanded="@ExperiencePresentation.Pressed(_expanded)" @onclick="() => _expanded = !_expanded">@T("StoryEarlier", items.Length - 3)</button>
+                    @if (_expanded) { <ol>@foreach (var item in items.SkipLast(3)) { @Row(item) }</ol> }
+                }
+                <ol start="@Math.Max(1, items.Length - 2)">@foreach (var item in items.TakeLast(3)) { @Row(item) }</ol>
+            }
+        }
+    </section>
+}
+@code {
+    private bool _expanded;
+    [Parameter] public ReplayStoryItem[]? Items { get; set; }
+    [Parameter] public string Notice { get; set; } = "";
+    [Parameter] public MatchSelectedPassage? Selected { get; set; }
+    [Parameter] public bool Disabled { get; set; }
+    [Parameter] public EventCallback<ReplayStoryAction> OnSelect { get; set; }
+    [Parameter] public EventCallback<ReplayStoryAction> OnAsk { get; set; }
+    [CascadingParameter] public MatchLanguage Language { get; set; }
+    private string T(string key, params object?[] args) => ReplayText.Get(Language, key, args);
+    private RenderFragment Row(ReplayStoryItem item) => @<li @key="item.Passage.Fingerprint" class="@(Selected == item.Action.Passage ? "story-selected" : null)">
+        <button type="button" class="story-select" aria-pressed="@ExperiencePresentation.Pressed(Selected == item.Action.Passage)" disabled="@Disabled" @onclick="() => OnSelect.InvokeAsync(item.Action)"><span class="story-time">@item.Interval</span><span class="story-team">@item.Team</span><span class="story-summary">@item.Summary</span></button>
+        <button type="button" class="story-ask" aria-label="@T("StoryAskLabel", item.Team, item.Interval)" disabled="@Disabled" @onclick="() => OnAsk.InvokeAsync(item.Action)">@T("StoryAsk") <span aria-hidden="true">↗</span></button>
+    </li>;
+}

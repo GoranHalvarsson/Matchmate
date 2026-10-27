@@ -1,0 +1,285 @@
+{
+  "entities": {
+    "Q24082345": {
+      "pageid": 26073357,
+      "ns": 0,
+      "title": "Q24082345",
+      "lastrevid": 2529915322,
+      "modified": "2026-08-11T06:43:41Z",
+      "type": "item",
+      "id": "Q24082345",
+      "labels": {
+        "en": {
+          "language": "en",
+          "value": "2016–17 Liverpool F.C. season"
+        }
+      },
+      "claims": {
+        "P155": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P155",
+              "hash": "888be9534ad00ce9d55bb87bcfae3ccda5322d56",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 19886982,
+                  "id": "Q19886982"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q24082345$ae8674b1-4f2f-d2b6-fc1a-9336a627b4f9",
+            "rank": "normal"
+          }
+        ],
+        "P641": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P641",
+              "hash": "1624e15e061523279bc14bb6497168e45caacb32",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 2736,
+                  "id": "Q2736"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q24082345$07ac249c-4c09-3a43-7125-6399ee8bcfc4",
+            "rank": "normal"
+          }
+        ],
+        "P31": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P31",
+              "hash": "9ddb403180b684facfb50183c3b3a99ce0b171d1",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 26887310,
+                  "id": "Q26887310"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q24082345$06d17d64-4d55-d588-7189-896cb691886f",
+            "rank": "normal"
+          }
+        ],
+        "P2348": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P2348",
+              "hash": "b7af4df92bbae693e13f478b16af9ae9aa3d0328",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 30201458,
+                  "id": "Q30201458"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q24082345$49C22CF2-6F57-483B-BE5E-7B1650C31845",
+            "rank": "normal"
+          }
+        ],
+        "P5138": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P5138",
+              "hash": "dbd8f17cda4fe4cd617e04b777c53c27d9ed43a0",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 1130849,
+                  "id": "Q1130849"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q24082345$E3ADD687-997A-4576-8964-E110DBFB7A06",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "d4bd87b862b12d99d26e86472d44f26858dee639",
+                "snaks": {
+                  "P143": [
+                    {
+                      "snaktype": "value",
+                      "property": "P143",
+                      "hash": "f30cbd35620c4ea6d0633aaf0210a8916130469b",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 8447,
+                          "id": "Q8447"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P143"
+                ]
+              }
+            ]
+          }
+        ],
+        "P17": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P17",
+              "hash": "a44880420787fb348836dc51d3babc5227c4ef7e",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 145,
+                  "id": "Q145"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q24082345$BAAEA0B6-28AB-4B0D-B0B1-08DFBD486D3D",
+            "rank": "normal"
+          }
+        ],
+        "P156": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P156",
+              "hash": "14a55a599eec81322f03e7f007dabb3964104dc1",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 30130375,
+                  "id": "Q30130375"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q24082345$A7191C99-128E-4854-BA40-73AFDF8A8C82",
+            "rank": "normal"
+          }
+        ],
+        "P2671": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P2671",
+              "hash": "b983cc1418be04478280f43125e6c5028829a4fc",
+              "datavalue": {
+                "value": "/g/11bz0fp8gj",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q24082345$0B6216C7-7A0C-45F6-A832-709190FA751E",
+            "rank": "normal"
+          }
+        ],
+        "P18": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P18",
+              "hash": "f84b54af4b012d50f9b4643b63010d98c87d6282",
+              "datavalue": {
+                "value": "Manchester United v Liverpool, January 2017 (09).JPG",
+                "type": "string"
+              },
+              "datatype": "commonsMedia"
+            },
+            "type": "statement",
+            "id": "Q24082345$549AFA5C-B0F8-4FC5-B091-5FF510E3983D",
+            "rank": "normal"
+          }
+        ]
+      },
+      "sitelinks": {
+        "arwiki": {
+          "site": "arwiki",
+          "title": "ليفربول موسم 2016–17",
+          "badges": []
+        },
+        "bswiki": {
+          "site": "bswiki",
+          "title": "Liverpool FC – sezona 2016/2017.",
+          "badges": []
+        },
+        "enwiki": {
+          "site": "enwiki",
+          "title": "2016–17 Liverpool F.C. season",
+          "badges": []
+        },
+        "fawiki": {
+          "site": "fawiki",
+          "title": "باشگاه فوتبال لیورپول در فصل ۱۷–۲۰۱۶",
+          "badges": []
+        },
+        "frwiki": {
+          "site": "frwiki",
+          "title": "Saison 2016-2017 du Liverpool FC",
+          "badges": []
+        },
+        "huwiki": {
+          "site": "huwiki",
+          "title": "A Liverpool FC 2016–2017-es szezonja",
+          "badges": []
+        },
+        "itwiki": {
+          "site": "itwiki",
+          "title": "Liverpool Football Club 2016-2017",
+          "badges": []
+        },
+        "nlwiki": {
+          "site": "nlwiki",
+          "title": "Liverpool FC in het seizoen 2016/17",
+          "badges": []
+        },
+        "ptwiki": {
+          "site": "ptwiki",
+          "title": "Temporada do Liverpool Football Club de 2016–17",
+          "badges": []
+        },
+        "ruwiki": {
+          "site": "ruwiki",
+          "title": "ФК «Ливерпуль» в сезоне 2016/2017",
+          "badges": []
+        },
+        "thwiki": {
+          "site": "thwiki",
+          "title": "สโมสรฟุตบอลลิเวอร์พูลในฤดูกาล 2016–17",
+          "badges": []
+        }
+      }
+    }
+  }
+}

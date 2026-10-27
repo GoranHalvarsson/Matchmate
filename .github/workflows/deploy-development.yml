@@ -1,0 +1,228 @@
+name: Deploy Matchmate development
+
+on:
+  workflow_call:
+    inputs:
+      action:
+        required: false
+        default: deploy
+        type: string
+      release_tag:
+        required: true
+        type: string
+      expected_commit:
+        required: true
+        type: string
+      pipeline_enabled:
+        required: false
+        default: true
+        type: boolean
+  workflow_dispatch:
+    inputs:
+      action:
+        description: Preview app configuration or build/push/deploy
+        required: true
+        default: preview
+        type: choice
+        options: [preview, deploy]
+      release_tag:
+        description: Existing vMAJOR.MINOR.PATCH tag (required for deploy; blank previews main)
+        required: false
+        type: string
+      pipeline_enabled:
+        description: Enable canonical Event Hubs consumer after operator applies pipeline-access Bicep
+        required: true
+        default: false
+        type: boolean
+
+permissions:
+  contents: read
+  id-token: write
+
+concurrency:
+  group: matchmate-development-deployment
+  cancel-in-progress: false
+  queue: max
+
+env:
+  DOTNET_CLI_TELEMETRY_OPTOUT: 1
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    environment: development
+    steps:
+      - uses: actions/checkout@v6
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-node@v6
+        with:
+          node-version: 24
+      - name: Retain workflow deployment validator before release checkout
+        shell: bash
+        run: |
+          set -euo pipefail
+          cp -- .github/scripts/deployment-config.mjs "$RUNNER_TEMP/matchmate-deployment-config.mjs"
+      - name: Resolve validated release and immutable image tag
+        id: version
+        env:
+          DEPLOY_ACTION: ${{ inputs.action }}
+          RELEASE_TAG: ${{ inputs.release_tag }}
+          EXPECTED_COMMIT: ${{ inputs.expected_commit }}
+        run: node .github/scripts/release-version.mjs select
+      - name: Check out exactly the selected release source
+        uses: actions/checkout@v6
+        with:
+          ref: ${{ steps.version.outputs.checkout_ref }}
+          fetch-depth: 0
+      - name: Verify checked-out commit before building
+        env:
+          DEPLOY_ACTION: ${{ inputs.action }}
+          RELEASE_TAG: ${{ steps.version.outputs.release_tag }}
+          EXPECTED_COMMIT: ${{ steps.version.outputs.expected_commit }}
+        run: node .github/scripts/release-version.mjs verify-checkout
+      - uses: actions/setup-dotnet@v6
+        with:
+          dotnet-version: 11.0.100-rc.2.26504.105
+      - name: Build and verify hosting/authentication
+        shell: bash
+        run: |
+          set -euo pipefail
+          node --test .github/scripts/*.test.mjs
+          dotnet build Matchmate.slnx --configuration Release
+          dotnet test tests/Matchmate.Tests/Matchmate.Tests.csproj --configuration Release --no-build --filter '(FullyQualifiedName~WebAuthenticationTests|FullyQualifiedName~HostedRuntimeTests|FullyQualifiedName~ApiServiceAuthenticationTests|FullyQualifiedName~ReplayPipelineTests|FullyQualifiedName~DatasetSelectionTests|FullyQualifiedName~DatasetApiTests|FullyQualifiedName~SharedFootballTests|FullyQualifiedName~SharedFootballUiTests|FullyQualifiedName~CanonicalCloudTests|FullyQualifiedName~LeagueReferenceTests|FullyQualifiedName~LeagueUiTests|FullyQualifiedName~CurrentSeasonTests|FullyQualifiedName~LeagueChat)&FullyQualifiedName!~All208OriginalSnapshotsAnd4160ClubFactsMatchPinnedPocAndPeriodContext&RequiresLocalData!=true'
+          az bicep build --file infra/container-apps/apps.bicep --stdout > /dev/null
+          az bicep build --file infra/container-apps/pipeline-access.bicep --stdout > /dev/null
+      - name: Validate nonsecret deployment variables
+        env:
+          AZURE_RESOURCE_GROUP: ${{ vars.AZURE_RESOURCE_GROUP }}
+          REGISTRY_NAME: ${{ vars.REGISTRY_NAME }}
+          API_CLIENT_ID: ${{ vars.API_CLIENT_ID }}
+          EXTERNAL_ID_AUTHORITY: ${{ vars.EXTERNAL_ID_AUTHORITY }}
+          EXTERNAL_ID_CLIENT_ID: ${{ vars.EXTERNAL_ID_CLIENT_ID }}
+          WEB_AI_ENABLED: ${{ vars.WEB_AI_ENABLED }}
+          MATCH_CHAT_ENDPOINT: ${{ vars.MATCH_CHAT_ENDPOINT }}
+          MATCH_CHAT_DEPLOYMENT: ${{ vars.MATCH_CHAT_DEPLOYMENT }}
+          DECISION_ROUTING_ENDPOINT: ${{ vars.DECISION_ROUTING_ENDPOINT }}
+          DECISION_ROUTING_DEPLOYMENT: ${{ vars.DECISION_ROUTING_DEPLOYMENT }}
+        shell: bash
+        run: node "$RUNNER_TEMP/matchmate-deployment-config.mjs" validate
+      - uses: azure/login@v3
+        with:
+          client-id: ${{ vars.AZURE_CLIENT_ID }}
+          tenant-id: ${{ vars.AZURE_TENANT_ID }}
+          subscription-id: ${{ vars.AZURE_SUBSCRIPTION_ID }}
+      - name: Resolve registry login server from Azure
+        shell: bash
+        run: |
+          set -euo pipefail
+          REGISTRY_SERVER="$(az acr show --name "$REGISTRY_NAME" --resource-group "$AZURE_RESOURCE_GROUP" --query loginServer --output tsv --only-show-errors)"
+          export REGISTRY_SERVER
+          node "$RUNNER_TEMP/matchmate-deployment-config.mjs" registry
+      - uses: docker/setup-buildx-action@v4
+        if: inputs.action == 'deploy'
+      - name: Registry login with federated identity
+        if: inputs.action == 'deploy'
+        run: az acr login --name "$REGISTRY_NAME"
+      - uses: docker/build-push-action@v7
+        if: inputs.action == 'deploy'
+        with:
+          context: .
+          file: src/Matchmate.Api/Dockerfile
+          push: true
+          tags: ${{ env.REGISTRY_SERVER }}/matchmate/api:${{ steps.version.outputs.image_tag }}
+          labels: |
+            org.opencontainers.image.version=${{ steps.version.outputs.release_tag }}
+            org.opencontainers.image.revision=${{ steps.version.outputs.expected_commit }}
+      - uses: docker/build-push-action@v7
+        if: inputs.action == 'deploy'
+        with:
+          context: .
+          file: src/Matchmate.Worker/Dockerfile
+          push: true
+          tags: ${{ env.REGISTRY_SERVER }}/matchmate/worker:${{ steps.version.outputs.image_tag }}
+          labels: |
+            org.opencontainers.image.version=${{ steps.version.outputs.release_tag }}
+            org.opencontainers.image.revision=${{ steps.version.outputs.expected_commit }}
+      - uses: docker/build-push-action@v7
+        if: inputs.action == 'deploy'
+        with:
+          context: .
+          file: src/Matchmate.Web/Dockerfile
+          push: true
+          tags: ${{ env.REGISTRY_SERVER }}/matchmate/web:${{ steps.version.outputs.image_tag }}
+          labels: |
+            org.opencontainers.image.version=${{ steps.version.outputs.release_tag }}
+            org.opencontainers.image.revision=${{ steps.version.outputs.expected_commit }}
+      - name: Validate and preview app-only Bicep
+        env:
+          IMAGE_TAG: ${{ steps.version.outputs.image_tag }}
+        shell: bash
+        run: |
+          set -euo pipefail
+          # Begin app parameters
+          app_parameters=("registryServer=$REGISTRY_SERVER" "apiClientId=$API_CLIENT_ID" "imageTag=$IMAGE_TAG" "pipelineEnabled=${{ inputs.pipeline_enabled }}")
+          if grep -q '^param externalIdAuthority string' infra/container-apps/apps.bicep && grep -q '^param externalIdClientId string' infra/container-apps/apps.bicep; then
+            app_parameters+=("externalIdAuthority=$EXTERNAL_ID_AUTHORITY" "externalIdClientId=$EXTERNAL_ID_CLIENT_ID")
+          fi
+          ai_template_supported=true
+          for definition in 'webAiEnabled bool' 'matchChatEndpoint string' 'matchChatDeployment string' 'decisionRoutingEndpoint string' 'decisionRoutingDeployment string'; do
+            if ! grep -Eq "^param ${definition}( =|$)" infra/container-apps/apps.bicep; then
+              ai_template_supported=false
+            fi
+          done
+          if [[ "$ai_template_supported" == true ]]; then
+            app_parameters+=("webAiEnabled=$WEB_AI_ENABLED" "matchChatEndpoint=$MATCH_CHAT_ENDPOINT" "matchChatDeployment=$MATCH_CHAT_DEPLOYMENT" "decisionRoutingEndpoint=$DECISION_ROUTING_ENDPOINT" "decisionRoutingDeployment=$DECISION_ROUTING_DEPLOYMENT")
+          elif [[ "$WEB_AI_ENABLED" == true ]]; then
+            echo '::error::Selected release template does not support the complete Web AI configuration. Select a release containing all five AI parameters.' >&2
+            exit 1
+          fi
+          # End app parameters
+          az deployment group validate --resource-group "$AZURE_RESOURCE_GROUP" --template-file infra/container-apps/apps.bicep --parameters "${app_parameters[@]}" --only-show-errors --output none
+          az deployment group what-if --resource-group "$AZURE_RESOURCE_GROUP" --template-file infra/container-apps/apps.bicep --parameters "${app_parameters[@]}" --no-pretty-print
+      - name: Recheck release order immediately before applying
+        if: inputs.action == 'deploy'
+        env:
+          DEPLOY_ACTION: deploy
+          RELEASE_TAG: ${{ steps.version.outputs.release_tag }}
+          EXPECTED_COMMIT: ${{ steps.version.outputs.expected_commit }}
+        run: node .github/scripts/release-version.mjs guard-deploy
+      - name: Deploy app-only Bicep
+        if: inputs.action == 'deploy'
+        env:
+          IMAGE_TAG: ${{ steps.version.outputs.image_tag }}
+        shell: bash
+        run: |
+          set -euo pipefail
+          # Begin app parameters
+          app_parameters=("registryServer=$REGISTRY_SERVER" "apiClientId=$API_CLIENT_ID" "imageTag=$IMAGE_TAG" "pipelineEnabled=${{ inputs.pipeline_enabled }}")
+          if grep -q '^param externalIdAuthority string' infra/container-apps/apps.bicep && grep -q '^param externalIdClientId string' infra/container-apps/apps.bicep; then
+            app_parameters+=("externalIdAuthority=$EXTERNAL_ID_AUTHORITY" "externalIdClientId=$EXTERNAL_ID_CLIENT_ID")
+          fi
+          ai_template_supported=true
+          for definition in 'webAiEnabled bool' 'matchChatEndpoint string' 'matchChatDeployment string' 'decisionRoutingEndpoint string' 'decisionRoutingDeployment string'; do
+            if ! grep -Eq "^param ${definition}( =|$)" infra/container-apps/apps.bicep; then
+              ai_template_supported=false
+            fi
+          done
+          if [[ "$ai_template_supported" == true ]]; then
+            app_parameters+=("webAiEnabled=$WEB_AI_ENABLED" "matchChatEndpoint=$MATCH_CHAT_ENDPOINT" "matchChatDeployment=$MATCH_CHAT_DEPLOYMENT" "decisionRoutingEndpoint=$DECISION_ROUTING_ENDPOINT" "decisionRoutingDeployment=$DECISION_ROUTING_DEPLOYMENT")
+          elif [[ "$WEB_AI_ENABLED" == true ]]; then
+            echo '::error::Selected release template does not support the complete Web AI configuration. Select a release containing all five AI parameters.' >&2
+            exit 1
+          fi
+          # End app parameters
+          az deployment group create --name "matchmate-apps-${GITHUB_RUN_ID}-${GITHUB_RUN_ATTEMPT}" --resource-group "$AZURE_RESOURCE_GROUP" --template-file infra/container-apps/apps.bicep --parameters "${app_parameters[@]}" --only-show-errors --output none
+      - name: Verify revision metadata and authenticated Web to API health
+        if: inputs.action == 'deploy'
+        shell: bash
+        run: |
+          set -euo pipefail
+          for app in mm-web-dev mm-api-dev mm-worker-dev; do
+            az containerapp show --resource-group "$AZURE_RESOURCE_GROUP" --name "$app" --query '{name:name,state:properties.provisioningState,image:properties.template.containers[0].image,min:properties.template.scale.minReplicas,max:properties.template.scale.maxReplicas}' --output json
+          done
+          web_host="$(az containerapp show --resource-group "$AZURE_RESOURCE_GROUP" --name mm-web-dev --query properties.configuration.ingress.fqdn --output tsv)"
+          curl --fail --silent --show-error --retry 12 --retry-delay 10 --retry-all-errors --max-time 30 "https://${web_host}/alive"
+          curl --fail --silent --show-error --retry 12 --retry-delay 10 --retry-all-errors --max-time 30 "https://${web_host}/health"
+          echo 'Hosting/service-auth checked. Dataset pipeline and customer browser sign-in are separate gates.'

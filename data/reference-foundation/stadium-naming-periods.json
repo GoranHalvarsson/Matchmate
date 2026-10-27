@@ -1,0 +1,505 @@
+{
+  "observed_at": "2026-10-17",
+  "scope": "Research periods and explicit starts, not executable product/schema intervals. Unknown end is not unbounded validity.",
+  "periods": [
+    {
+      "period_id": "period-1",
+      "ground_id": "brentford-community-stadium",
+      "name": "Gtech Community Stadium",
+      "scope": "commercial",
+      "status": "effective_start_only",
+      "start": {
+        "value": "2022-07-28",
+        "precision": "day",
+        "inclusivity": "unspecified",
+        "semantics": "explicit_effective_start",
+        "evidence_ids": [
+          "naming-37"
+        ]
+      },
+      "end": {
+        "value": null,
+        "precision": null,
+        "inclusivity": "unspecified",
+        "semantics": "unknown",
+        "evidence_ids": []
+      },
+      "primary_evidence_ids": [
+        "naming-37"
+      ],
+      "planned_contract_end": {
+        "source_text": "ten-year naming-rights agreement",
+        "precision": "announced_duration_without_normalized_end_date",
+        "status": "announced_commitment_not_actual_end",
+        "evidence_ids": [
+          "naming-37"
+        ]
+      },
+      "limitation": "Unknown actual end means unknown, not forever/current; no exclusivity across naming scopes."
+    },
+    {
+      "period_id": "period-2",
+      "ground_id": "liberty-stadium",
+      "name": "Swansea.com Stadium",
+      "scope": "commercial",
+      "status": "effective_start_only",
+      "start": {
+        "value": "2021-08-09",
+        "precision": "day",
+        "inclusivity": "unspecified",
+        "semantics": "explicit_effective_start",
+        "evidence_ids": [
+          "naming-38"
+        ]
+      },
+      "end": {
+        "value": null,
+        "precision": null,
+        "inclusivity": "unspecified",
+        "semantics": "unknown",
+        "evidence_ids": []
+      },
+      "primary_evidence_ids": [
+        "naming-38"
+      ],
+      "planned_contract_end": {
+        "source_text": "ten-year naming-rights agreement",
+        "precision": "announced_duration_without_normalized_end_date",
+        "status": "announced_commitment_not_actual_end",
+        "evidence_ids": [
+          "naming-38"
+        ]
+      },
+      "limitation": "Unknown actual end means unknown, not forever/current; no exclusivity across naming scopes."
+    },
+    {
+      "period_id": "period-3",
+      "ground_id": "mkm-stadium",
+      "name": "MKM Stadium",
+      "scope": "commercial",
+      "status": "effective_start_only",
+      "start": {
+        "value": "2021-06-25",
+        "precision": "day",
+        "inclusivity": "unspecified",
+        "semantics": "explicit_effective_start",
+        "evidence_ids": [
+          "naming-39"
+        ]
+      },
+      "end": {
+        "value": null,
+        "precision": null,
+        "inclusivity": "unspecified",
+        "semantics": "unknown",
+        "evidence_ids": []
+      },
+      "primary_evidence_ids": [
+        "naming-39"
+      ],
+      "planned_contract_end": null,
+      "limitation": "Unknown actual end means unknown, not forever/current; no exclusivity across naming scopes."
+    },
+    {
+      "period_id": "period-4",
+      "ground_id": "mkm-stadium",
+      "name": "KCOM Stadium",
+      "scope": "commercial",
+      "status": "effective_start_only",
+      "start": {
+        "value": "2016-04-04",
+        "precision": "day",
+        "inclusivity": "unspecified",
+        "semantics": "explicit_effective_start",
+        "evidence_ids": [
+          "naming-40"
+        ]
+      },
+      "end": {
+        "value": null,
+        "precision": null,
+        "inclusivity": "unspecified",
+        "semantics": "unknown",
+        "evidence_ids": []
+      },
+      "primary_evidence_ids": [
+        "naming-40"
+      ],
+      "planned_contract_end": null,
+      "limitation": "Unknown actual end means unknown, not forever/current; no exclusivity across naming scopes."
+    },
+    {
+      "period_id": "period-5",
+      "ground_id": "etihad-stadium",
+      "name": "Etihad Stadium",
+      "scope": "commercial",
+      "status": "effective_start_only",
+      "start": {
+        "value": "2011-07-08",
+        "precision": "day",
+        "inclusivity": "unspecified",
+        "semantics": "explicit_effective_start",
+        "evidence_ids": [
+          "naming-41"
+        ]
+      },
+      "end": {
+        "value": null,
+        "precision": null,
+        "inclusivity": "unspecified",
+        "semantics": "unknown",
+        "evidence_ids": []
+      },
+      "primary_evidence_ids": [
+        "naming-41"
+      ],
+      "planned_contract_end": null,
+      "limitation": "Unknown actual end means unknown, not forever/current; no exclusivity across naming scopes."
+    },
+    {
+      "period_id": "period-6",
+      "ground_id": "dean-court",
+      "name": "Vitality Stadium",
+      "scope": "commercial",
+      "status": "effective_start_only",
+      "start": {
+        "value": "2015",
+        "precision": "year",
+        "inclusivity": "unspecified",
+        "semantics": "explicit_effective_start",
+        "evidence_ids": [
+          "naming-42"
+        ]
+      },
+      "end": {
+        "value": null,
+        "precision": null,
+        "inclusivity": "unspecified",
+        "semantics": "unknown",
+        "evidence_ids": []
+      },
+      "primary_evidence_ids": [
+        "naming-42"
+      ],
+      "planned_contract_end": null,
+      "limitation": "Unknown actual end means unknown, not forever/current; no exclusivity across naming scopes."
+    },
+    {
+      "period_id": "period-7",
+      "ground_id": "leicester-city-stadium",
+      "name": "King Power Stadium",
+      "scope": "commercial",
+      "status": "effective_start_only",
+      "start": {
+        "value": "2011",
+        "precision": "year",
+        "inclusivity": "unspecified",
+        "semantics": "explicit_effective_start",
+        "evidence_ids": [
+          "naming-43"
+        ]
+      },
+      "end": {
+        "value": null,
+        "precision": null,
+        "inclusivity": "unspecified",
+        "semantics": "unknown",
+        "evidence_ids": []
+      },
+      "primary_evidence_ids": [
+        "naming-43"
+      ],
+      "planned_contract_end": null,
+      "limitation": "Unknown actual end means unknown, not forever/current; no exclusivity across naming scopes."
+    },
+    {
+      "period_id": "period-8",
+      "ground_id": "coventry-building-society-arena",
+      "name": "Coventry Building Society Arena",
+      "scope": "commercial",
+      "status": "effective_start_only",
+      "start": {
+        "value": "2021",
+        "precision": "year",
+        "inclusivity": "unspecified",
+        "semantics": "explicit_effective_start",
+        "evidence_ids": [
+          "naming-44"
+        ]
+      },
+      "end": {
+        "value": null,
+        "precision": null,
+        "inclusivity": "unspecified",
+        "semantics": "unknown",
+        "evidence_ids": []
+      },
+      "primary_evidence_ids": [
+        "naming-44"
+      ],
+      "planned_contract_end": null,
+      "limitation": "Unknown actual end means unknown, not forever/current; no exclusivity across naming scopes."
+    },
+    {
+      "period_id": "period-9",
+      "ground_id": "coventry-building-society-arena",
+      "name": "Coventry Building Society Arena",
+      "scope": "commercial",
+      "status": "effective_start_only",
+      "start": {
+        "value": "2021-07-01",
+        "precision": "day",
+        "inclusivity": "unspecified",
+        "semantics": "explicit_effective_start",
+        "evidence_ids": [
+          "naming-87"
+        ]
+      },
+      "end": {
+        "value": null,
+        "precision": null,
+        "inclusivity": "unspecified",
+        "semantics": "unknown",
+        "evidence_ids": []
+      },
+      "primary_evidence_ids": [
+        "naming-87"
+      ],
+      "planned_contract_end": null,
+      "limitation": "Unknown actual end means unknown, not forever/current; no exclusivity across naming scopes."
+    },
+    {
+      "period_id": "period-10",
+      "ground_id": "brighton-community-stadium",
+      "name": "American Express Stadium",
+      "scope": "commercial",
+      "status": "effective_start_only",
+      "start": {
+        "value": "2023-08-01",
+        "precision": "day",
+        "inclusivity": "unspecified",
+        "semantics": "announced_effective_start_not_independently_observed_on_day",
+        "evidence_ids": [
+          "naming-99"
+        ]
+      },
+      "end": {
+        "value": null,
+        "precision": null,
+        "inclusivity": "unspecified",
+        "semantics": "unknown",
+        "evidence_ids": []
+      },
+      "primary_evidence_ids": [
+        "naming-99"
+      ],
+      "planned_contract_end": null,
+      "limitation": "Unknown actual end means unknown, not forever/current; no exclusivity across naming scopes."
+    },
+    {
+      "period_id": "period-11",
+      "ground_id": "emirates-stadium",
+      "name": "Emirates Stadium",
+      "scope": "unspecified",
+      "status": "effective_start_only",
+      "start": {
+        "value": "2004-10",
+        "precision": "month",
+        "inclusivity": "unspecified",
+        "semantics": "explicit_effective_start",
+        "evidence_ids": [
+          "naming-103"
+        ]
+      },
+      "end": {
+        "value": null,
+        "precision": null,
+        "inclusivity": "unspecified",
+        "semantics": "unknown",
+        "evidence_ids": []
+      },
+      "primary_evidence_ids": [
+        "naming-103"
+      ],
+      "planned_contract_end": null,
+      "limitation": "Unknown actual end means unknown, not forever/current; no exclusivity across naming scopes."
+    },
+    {
+      "period_id": "period-12",
+      "ground_id": "dean-court",
+      "name": "Vitality Stadium",
+      "scope": "commercial",
+      "status": "source_asserted_period",
+      "start": {
+        "value": "2015",
+        "precision": "year",
+        "inclusivity": "unspecified",
+        "semantics": "source_asserted_since",
+        "evidence_ids": [
+          "naming-101"
+        ]
+      },
+      "end": {
+        "value": null,
+        "precision": null,
+        "inclusivity": "unspecified",
+        "semantics": "unknown",
+        "evidence_ids": []
+      },
+      "asserted_through": {
+        "value": "2023-06-26",
+        "precision": "day",
+        "inclusivity": "unspecified",
+        "semantics": "retrospective_assertion_as_of_publication",
+        "evidence_ids": [
+          "naming-101"
+        ]
+      },
+      "primary_evidence_ids": [
+        "naming-101"
+      ],
+      "planned_contract_end": {
+        "source_text": "at least until summer 2026",
+        "precision": "seasonal_phrase",
+        "status": "announced_commitment_not_actual_end",
+        "evidence_ids": [
+          "naming-101"
+        ]
+      },
+      "limitation": "Source asserts continuity since 2015 through publication; exact start day and actual end remain unknown. Planned commitment is not observed completion.",
+      "continuity_basis": "Primary source explicitly uses since, rather than continuity inferred between separate match reports. Assertion through source publication/transition; actual interval end remains unknown."
+    },
+    {
+      "period_id": "period-13",
+      "ground_id": "liberty-stadium",
+      "name": "Liberty Stadium",
+      "scope": "commercial",
+      "status": "source_asserted_period",
+      "start": {
+        "value": "2005",
+        "precision": "year",
+        "inclusivity": "unspecified",
+        "semantics": "shortly_after_opening_year_only",
+        "evidence_ids": [
+          "naming-100"
+        ]
+      },
+      "end": {
+        "value": null,
+        "precision": null,
+        "inclusivity": "unspecified",
+        "semantics": "unknown",
+        "evidence_ids": []
+      },
+      "asserted_through": {
+        "value": "2021-08-09",
+        "precision": "day",
+        "inclusivity": "unspecified",
+        "semantics": "retrospective_prior_name_assertion_at_transition",
+        "evidence_ids": [
+          "naming-100"
+        ]
+      },
+      "primary_evidence_ids": [
+        "naming-100"
+      ],
+      "planned_contract_end": null,
+      "limitation": "Retrospective continuity assertion only; no exact original day or normalized exclusive end. Same-day title-sponsor transition is separately recorded; traditional usage may overlap.",
+      "continuity_basis": "Primary source explicitly uses since, rather than continuity inferred between separate match reports. Assertion through source publication/transition; actual interval end remains unknown."
+    },
+    {
+      "period_id": "period-14",
+      "ground_id": "coventry-building-society-arena",
+      "name": "Ricoh Arena",
+      "scope": "commercial",
+      "status": "source_asserted_period",
+      "start": {
+        "value": "2005",
+        "precision": "year",
+        "inclusivity": "unspecified",
+        "semantics": "source_asserted_name_since_opening_year",
+        "evidence_ids": [
+          "naming-109"
+        ]
+      },
+      "end": {
+        "value": null,
+        "precision": null,
+        "inclusivity": "unspecified",
+        "semantics": "unknown",
+        "evidence_ids": []
+      },
+      "asserted_through": {
+        "value": "2021",
+        "precision": "year",
+        "inclusivity": "unspecified",
+        "semantics": "source_asserted_first_change_transition_context",
+        "evidence_ids": [
+          "naming-109"
+        ]
+      },
+      "primary_evidence_ids": [
+        "naming-109"
+      ],
+      "planned_contract_end": null,
+      "continuity_basis": "Operator explicitly describes CBS as first name change since opening in2005. 2021 transition context is corroborated by naming-87; temporary Olympic clean naming is a different scope.",
+      "limitation": "Year-level retrospective commercial continuity only. Unknown actual end is not forever/current. Opening-name usage is separate; no exclusive naming interval or Olympic suppression inferred."
+    },
+    {
+      "period_id": "period-15",
+      "ground_id": "leicester-city-stadium",
+      "name": "King Power Stadium",
+      "scope": "commercial",
+      "status": "effective_start_only",
+      "start": {
+        "value": "2011-07-05",
+        "precision": "day",
+        "inclusivity": "unspecified",
+        "semantics": "retrospective_rename_day",
+        "evidence_ids": [
+          "naming-117"
+        ]
+      },
+      "end": {
+        "value": null,
+        "precision": null,
+        "inclusivity": "unspecified",
+        "semantics": "unknown",
+        "evidence_ids": []
+      },
+      "primary_evidence_ids": [
+        "naming-117"
+      ],
+      "planned_contract_end": null,
+      "limitation": "Unknown actual end remains unknown, not forever/current. Source type retained; this is not an original day-dated announcement retrieval."
+    },
+    {
+      "period_id": "period-16",
+      "ground_id": "emirates-stadium",
+      "name": "Emirates Stadium",
+      "scope": "commercial",
+      "status": "effective_start_only",
+      "start": {
+        "value": "2004-10",
+        "precision": "month",
+        "inclusivity": "unspecified",
+        "semantics": "combined_month_level_immediate_effect_assertion",
+        "evidence_ids": [
+          "naming-118"
+        ]
+      },
+      "end": {
+        "value": null,
+        "precision": null,
+        "inclusivity": "unspecified",
+        "semantics": "unknown",
+        "evidence_ids": []
+      },
+      "primary_evidence_ids": [
+        "naming-118"
+      ],
+      "planned_contract_end": null,
+      "limitation": "Unknown actual end remains unknown, not forever/current. Source type retained; this is not an original day-dated announcement retrieval."
+    }
+  ]
+}

@@ -1,0 +1,121 @@
+.replay-match-header.match-heading {
+    align-items: center;
+    gap: 28px;
+}
+
+.replay-match-identity {
+    min-width: 0;
+}
+
+.replay-match-header.match-heading h1.replay-match-title {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin: 0 0 8px;
+    font-size: 34px;
+    letter-spacing: -1px;
+}
+
+.replay-match-title .replay-match-team {
+    display: inline-flex;
+    align-items: center;
+    gap: 11px;
+    min-width: 0;
+    margin: 0;
+    color: var(--ink);
+    font: inherit;
+}
+
+.replay-match-title .replay-match-name {
+    min-width: 0;
+    margin: 0;
+    overflow-wrap: anywhere;
+    color: inherit;
+    font: inherit;
+}
+
+.replay-match-title .replay-match-crest {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    flex: 0 0 44px;
+    width: 44px;
+    height: 44px;
+    margin: 0;
+}
+
+.replay-match-crest img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.replay-match-title .replay-match-initials {
+    margin: 0;
+    color: var(--muted);
+    font: 600 11px 'Segoe UI', sans-serif;
+    letter-spacing: .04em;
+}
+
+.replay-match-title .replay-match-versus {
+    flex: 0 0 auto;
+    margin: 0;
+    color: var(--muted);
+    font: 400 22px Georgia, serif;
+}
+
+.replay-match-header.match-heading p.replay-match-date {
+    margin: 0 0 6px;
+    color: var(--muted);
+    font-size: 12px;
+}
+
+.replay-match-header.match-heading p.replay-match-source {
+    max-width: 72ch;
+    line-height: 1.5;
+}
+
+.replay-match-audience {
+    flex: 0 0 auto;
+}
+
+@media (max-width: 900px) {
+    .replay-match-header.match-heading {
+        flex-wrap: wrap;
+        gap: 15px;
+    }
+
+    .replay-match-identity {
+        flex: 1 1 100%;
+    }
+}
+
+@media (max-width: 760px) {
+    .replay-match-header.match-heading h1.replay-match-title {
+        display: grid;
+        grid-template-columns: minmax(0, 1fr) auto minmax(0, 1fr);
+        gap: 9px;
+        font-size: 25px;
+        letter-spacing: -.6px;
+        line-height: 1.15;
+    }
+
+    .replay-match-title .replay-match-team {
+        gap: 8px;
+    }
+
+    .replay-match-title .replay-match-crest {
+        flex-basis: 32px;
+        width: 32px;
+        height: 36px;
+    }
+
+    .replay-match-title .replay-match-versus {
+        font-size: 18px;
+    }
+
+    .replay-match-audience {
+        margin-top: 14px;
+    }
+}

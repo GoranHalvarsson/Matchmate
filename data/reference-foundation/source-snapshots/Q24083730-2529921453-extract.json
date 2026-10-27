@@ -1,0 +1,248 @@
+{
+  "entities": {
+    "Q24083730": {
+      "pageid": 26074660,
+      "ns": 0,
+      "title": "Q24083730",
+      "lastrevid": 2529921453,
+      "modified": "2026-08-11T07:07:21Z",
+      "type": "item",
+      "id": "Q24083730",
+      "labels": {
+        "en": {
+          "language": "en",
+          "value": "2016–17 Tottenham Hotspur F.C. season"
+        }
+      },
+      "claims": {
+        "P31": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P31",
+              "hash": "9ddb403180b684facfb50183c3b3a99ce0b171d1",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 26887310,
+                  "id": "Q26887310"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q24083730$AC677FFE-CB07-42F8-91CD-4F4E72E3F3B5",
+            "rank": "normal"
+          }
+        ],
+        "P641": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P641",
+              "hash": "1624e15e061523279bc14bb6497168e45caacb32",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 2736,
+                  "id": "Q2736"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q24083730$FEC2D652-3656-4078-A347-C6E9F9F4CCED",
+            "rank": "normal"
+          }
+        ],
+        "P5138": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P5138",
+              "hash": "e45171772e838b8aa679edbfbd3cd3a8e5aec95b",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 18741,
+                  "id": "Q18741"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q24083730$1CEBC78D-0C6A-4C02-9552-55B1537FEFE3",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "d4bd87b862b12d99d26e86472d44f26858dee639",
+                "snaks": {
+                  "P143": [
+                    {
+                      "snaktype": "value",
+                      "property": "P143",
+                      "hash": "f30cbd35620c4ea6d0633aaf0210a8916130469b",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 8447,
+                          "id": "Q8447"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P143"
+                ]
+              }
+            ]
+          }
+        ],
+        "P2348": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P2348",
+              "hash": "b7af4df92bbae693e13f478b16af9ae9aa3d0328",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 30201458,
+                  "id": "Q30201458"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q24083730$10F4F2F6-75D0-4476-A943-4005A6197AA3",
+            "rank": "normal"
+          }
+        ],
+        "P17": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P17",
+              "hash": "a44880420787fb348836dc51d3babc5227c4ef7e",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 145,
+                  "id": "Q145"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q24083730$EB05FCAE-F47D-466A-B045-A0FAA7D21CB9",
+            "rank": "normal"
+          }
+        ],
+        "P155": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P155",
+              "hash": "5c6e3b33382428f4b3f990afffd683fed8b7d01e",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 20644819,
+                  "id": "Q20644819"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q24083730$410D3689-2616-4D4F-A4DE-E5451B72FDD5",
+            "rank": "normal"
+          }
+        ],
+        "P156": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P156",
+              "hash": "c9242689516e3ae5078f63cc181ee9b8e2c8cde1",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 30512331,
+                  "id": "Q30512331"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q24083730$03C201FB-74DB-4D1F-87E4-B2504FFA0C78",
+            "rank": "normal"
+          }
+        ],
+        "P18": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P18",
+              "hash": "d3759eedeec58e5ec9e20a5956d82ff6f590ee10",
+              "datavalue": {
+                "value": "Manchester United v Tottenham Hotspur, December 2016 (08).JPG",
+                "type": "string"
+              },
+              "datatype": "commonsMedia"
+            },
+            "type": "statement",
+            "id": "Q24083730$834BA3EA-40C9-4410-9C3A-627B5E539607",
+            "rank": "normal"
+          }
+        ]
+      },
+      "sitelinks": {
+        "arwiki": {
+          "site": "arwiki",
+          "title": "توتنهام هوتسبير موسم 2016–17",
+          "badges": []
+        },
+        "enwiki": {
+          "site": "enwiki",
+          "title": "2016–17 Tottenham Hotspur F.C. season",
+          "badges": []
+        },
+        "frwiki": {
+          "site": "frwiki",
+          "title": "Saison 2016-2017 du Tottenham Hotspur FC",
+          "badges": []
+        },
+        "huwiki": {
+          "site": "huwiki",
+          "title": "A Tottenham Hotspur FC 2016–2017-es szezonja",
+          "badges": []
+        },
+        "itwiki": {
+          "site": "itwiki",
+          "title": "Tottenham Hotspur Football Club 2016-2017",
+          "badges": []
+        },
+        "svwiki": {
+          "site": "svwiki",
+          "title": "Tottenham Hotspur FC 2016/2017",
+          "badges": []
+        },
+        "thwiki": {
+          "site": "thwiki",
+          "title": "สโมสรฟุตบอลทอตนัมฮอตสเปอร์ในฤดูกาล 2016–17",
+          "badges": []
+        }
+      }
+    }
+  }
+}

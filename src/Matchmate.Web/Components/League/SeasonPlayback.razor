@@ -1,0 +1,18 @@
+@using Matchmate.Web.Localization
+@using Matchmate.Contracts
+@using Matchmate.Web.Experience
+<section class="season-monitor"><div class="snapshot-header"><div><span class="eyebrow">@(T(Snapshot.Season.Status == "ongoing" ? "OngoingEndDate" : "RetrospectiveEndDate"))</span><h2>@ExperiencePresentation.Date(Snapshot.Date, Language)<small>@(Snapshot.Date is null ? "" : T("EndOfDay"))</small></h2></div><span>@T("PlaybackSummary", Snapshot.Completed, Snapshot.Season.ScheduledMatchCount, Snapshot.DateIndex, Snapshot.Season.PlayedDates.Length)</span></div>
+<div class="season-playback"><button aria-label="@T("PreviousPlayedDate")" disabled="@(Snapshot.DateIndex == 0)" @onclick="() => Seek.InvokeAsync(Snapshot.DateIndex - 1)">←</button><button aria-pressed="@Playing" @onclick="Toggle">@(T(Playing ? "Pause" : Snapshot.DateIndex == Snapshot.Season.PlayedDates.Length ? "ReplayFromStart" : "PlaySeason"))</button><button aria-label="@T("NextPlayedDate")" disabled="@(Snapshot.DateIndex == Snapshot.Season.PlayedDates.Length)" @onclick="() => Seek.InvokeAsync(Snapshot.DateIndex + 1)">→</button><label>@T("Speed") <select value="@Speed" @onchange="SpeedAsync"><option value="1">1×</option><option value="2">2×</option><option value="4">4×</option></select></label><span>@T("OneStep")</span></div>
+<input aria-label="@T("SnapshotRange")" type="range" min="0" max="@Snapshot.Season.PlayedDates.Length" step="1" value="@Snapshot.DateIndex" @oninput="ScrubAsync"/><p>@T("PlaybackNote")</p></section>
+@code {
+    [CascadingParameter] public MatchLanguage Language { get; set; }
+    private string T(string key, params object?[] args) => LeagueText.Get(Language, key, args);
+    [Parameter, EditorRequired] public LeagueSeasonSnapshot Snapshot { get; set; } = default!;
+    [Parameter] public bool Playing { get; set; }
+    [Parameter] public int Speed { get; set; } = 1;
+    [Parameter] public EventCallback Toggle { get; set; }
+    [Parameter] public EventCallback<int> Seek { get; set; }
+    [Parameter] public EventCallback<int> SpeedChanged { get; set; }
+    private Task ScrubAsync(ChangeEventArgs e) => int.TryParse(e.Value?.ToString(), out var value) ? Seek.InvokeAsync(value) : Task.CompletedTask;
+    private Task SpeedAsync(ChangeEventArgs e) => int.TryParse(e.Value?.ToString(), out var value) ? SpeedChanged.InvokeAsync(value) : Task.CompletedTask;
+}

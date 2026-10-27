@@ -1,0 +1,643 @@
+{
+  "observed_at": "2026-10-17",
+  "requests": [
+    {
+      "url": "https://www.wikidata.org/w/api.php?action=wbgetentities&format=json&sites=enwiki&titles=Chelsea+F.C.%7CFulham+F.C.%7CHull+City+A.F.C.%7CIpswich+Town+F.C.%7CLeeds+United+F.C.%7CLeicester+City+F.C.%7CLiverpool+F.C.%7CManchester+City+F.C.%7CManchester+United+F.C.%7CMiddlesbrough+F.C.%7CNewcastle+United+F.C.%7CNorwich+City+F.C.%7CNottingham+Forest+F.C.%7CSouthampton+F.C.%7CStoke+City+F.C.%7CSunderland+A.F.C.%7CSwansea+City+A.F.C.%7CWatford+F.C.%7CWest+Bromwich+Albion+F.C.&props=info%7Clabels%7Cdescriptions%7Cclaims%7Csitelinks&languages=en",
+      "file": "bulk-club-identities-2026-10-17.json"
+    },
+    {
+      "url": "https://www.wikidata.org/w/api.php?action=wbgetentities&format=json&ids=Q10626%7CQ1066373%7CQ123017%7CQ1546623%7CQ163995%7CQ172190%7CQ175339%7CQ186425%7CQ191774%7CQ29347805%7CQ31678%7CQ318043%7CQ31969%7CQ330731%7CQ45671%7CQ48159%7CQ500922%7CQ55074091%7CQ567339%7CQ580480%7CQ593446%7CQ619094%7CQ619409%7CQ619505%7CQ619558%7CQ620031%7CQ630160%7CQ683112%7CQ822886%7CQ83457%7CQ842077%7CQ968420&props=info%7Clabels%7Cdescriptions%7Cclaims%7Csitelinks&languages=en",
+      "file": "bulk-grounds-2026-10-17.json"
+    },
+    {
+      "url": "https://www.wikidata.org/w/api.php?action=wbgetentities&format=json&ids=Q1005234%7CQ1013528%7CQ124308%7CQ128147%7CQ130191%7CQ1309863%7CQ1425428%7CQ145%7CQ1455478%7CQ170478%7CQ171866%7CQ18125%7CQ184775%7CQ1854225%7CQ188304%7CQ205817%7CQ20712059%7CQ209096%7CQ21%7CQ21012735%7CQ212826%7CQ21525592%7CQ21665571%7CQ21683242%7CQ21891722%7CQ2256%7CQ2265962%7CQ2268251%7CQ23051%7CQ24826%7CQ25%7CQ2598%7CQ3367868%7CQ41262%7CQ4956188%7CQ503375%7CQ56573534%7CQ6225%7CQ676136%7CQ769186&props=info%7Clabels%7Cdescriptions&languages=en",
+      "file": "bulk-geographic-labels-0-2026-10-17.json"
+    },
+    {
+      "url": "https://www.wikidata.org/w/api.php?action=wbgetentities&format=json&ids=Q774015%7CQ7899393%7CQ79848%7CQ84%7CQ915954&props=info%7Clabels%7Cdescriptions&languages=en",
+      "file": "bulk-geographic-labels-1-2026-10-17.json"
+    },
+    {
+      "url": "https://www.wikidata.org/w/api.php?action=wbgetentities&format=json&props=info%7Clabels%7Cdescriptions%7Cclaims%7Csitelinks&languages=en&ids=Q103229495%7CQ171458",
+      "file": "bulk-type-chelsea-ground-2026-10-17.json"
+    },
+    {
+      "url": "https://www.wikidata.org/w/api.php?action=wbgetentities&format=json&props=info%7Clabels%7Cdescriptions%7Cclaims%7Csitelinks&languages=en&sites=enwiki&titles=Brentford+Community+Stadium",
+      "file": "bulk-brentford-ground-2026-10-17.json"
+    }
+  ],
+  "resolved_clubs": [
+    {
+      "club_id": "chelsea",
+      "qid": "Q9616",
+      "english_label": "Chelsea F.C.",
+      "instance_of": [
+        "Q103229495"
+      ],
+      "verified_football_type": false,
+      "title": "Chelsea F.C.",
+      "batch_file": "bulk-club-identities-2026-10-17.json"
+    },
+    {
+      "club_id": "fulham",
+      "qid": "Q18708",
+      "english_label": "Fulham F.C.",
+      "instance_of": [
+        "Q476028"
+      ],
+      "verified_football_type": true,
+      "title": "Fulham F.C.",
+      "batch_file": "bulk-club-identities-2026-10-17.json"
+    },
+    {
+      "club_id": "hull",
+      "qid": "Q19477",
+      "english_label": "Hull City A.F.C.",
+      "instance_of": [
+        "Q476028"
+      ],
+      "verified_football_type": true,
+      "title": "Hull City A.F.C.",
+      "batch_file": "bulk-club-identities-2026-10-17.json"
+    },
+    {
+      "club_id": "ipswich",
+      "qid": "Q9653",
+      "english_label": "Ipswich Town F.C.",
+      "instance_of": [
+        "Q476028"
+      ],
+      "verified_football_type": true,
+      "title": "Ipswich Town F.C.",
+      "batch_file": "bulk-club-identities-2026-10-17.json"
+    },
+    {
+      "club_id": "leeds",
+      "qid": "Q1128631",
+      "english_label": "Leeds United F.C.",
+      "instance_of": [
+        "Q476028"
+      ],
+      "verified_football_type": true,
+      "title": "Leeds United F.C.",
+      "batch_file": "bulk-club-identities-2026-10-17.json"
+    },
+    {
+      "club_id": "leicester",
+      "qid": "Q19481",
+      "english_label": "Leicester City F.C.",
+      "instance_of": [
+        "Q476028"
+      ],
+      "verified_football_type": true,
+      "title": "Leicester City F.C.",
+      "batch_file": "bulk-club-identities-2026-10-17.json"
+    },
+    {
+      "club_id": "liverpool",
+      "qid": "Q1130849",
+      "english_label": "Liverpool F.C.",
+      "instance_of": [
+        "Q476028"
+      ],
+      "verified_football_type": true,
+      "title": "Liverpool F.C.",
+      "batch_file": "bulk-club-identities-2026-10-17.json"
+    },
+    {
+      "club_id": "manchester-city",
+      "qid": "Q50602",
+      "english_label": "Manchester City F.C.",
+      "instance_of": [
+        "Q476028"
+      ],
+      "verified_football_type": true,
+      "title": "Manchester City F.C.",
+      "batch_file": "bulk-club-identities-2026-10-17.json"
+    },
+    {
+      "club_id": "manchester-united",
+      "qid": "Q18656",
+      "english_label": "Manchester United F.C.",
+      "instance_of": [
+        "Q476028",
+        "Q4830453",
+        "Q103229495",
+        "Q891723"
+      ],
+      "verified_football_type": true,
+      "title": "Manchester United F.C.",
+      "batch_file": "bulk-club-identities-2026-10-17.json"
+    },
+    {
+      "club_id": "middlesbrough",
+      "qid": "Q18661",
+      "english_label": "Middlesbrough F.C.",
+      "instance_of": [
+        "Q476028"
+      ],
+      "verified_football_type": true,
+      "title": "Middlesbrough F.C.",
+      "batch_file": "bulk-club-identities-2026-10-17.json"
+    },
+    {
+      "club_id": "newcastle",
+      "qid": "Q18716",
+      "english_label": "Newcastle United F.C.",
+      "instance_of": [
+        "Q476028"
+      ],
+      "verified_football_type": true,
+      "title": "Newcastle United F.C.",
+      "batch_file": "bulk-club-identities-2026-10-17.json"
+    },
+    {
+      "club_id": "norwich",
+      "qid": "Q18721",
+      "english_label": "Norwich City F.C.",
+      "instance_of": [
+        "Q476028"
+      ],
+      "verified_football_type": true,
+      "title": "Norwich City F.C.",
+      "batch_file": "bulk-club-identities-2026-10-17.json"
+    },
+    {
+      "club_id": "nottingham-forest",
+      "qid": "Q19490",
+      "english_label": "Nottingham Forest F.C.",
+      "instance_of": [
+        "Q476028"
+      ],
+      "verified_football_type": true,
+      "title": "Nottingham Forest F.C.",
+      "batch_file": "bulk-club-identities-2026-10-17.json"
+    },
+    {
+      "club_id": "southampton",
+      "qid": "Q18732",
+      "english_label": "Southampton F.C.",
+      "instance_of": [
+        "Q476028"
+      ],
+      "verified_football_type": true,
+      "title": "Southampton F.C.",
+      "batch_file": "bulk-club-identities-2026-10-17.json"
+    },
+    {
+      "club_id": "stoke",
+      "qid": "Q18736",
+      "english_label": "Stoke City F.C.",
+      "instance_of": [
+        "Q476028"
+      ],
+      "verified_football_type": true,
+      "title": "Stoke City F.C.",
+      "batch_file": "bulk-club-identities-2026-10-17.json"
+    },
+    {
+      "club_id": "sunderland",
+      "qid": "Q18739",
+      "english_label": "Sunderland A.F.C.",
+      "instance_of": [
+        "Q476028"
+      ],
+      "verified_football_type": true,
+      "title": "Sunderland A.F.C.",
+      "batch_file": "bulk-club-identities-2026-10-17.json"
+    },
+    {
+      "club_id": "swansea",
+      "qid": "Q18659",
+      "english_label": "Swansea City A.F.C.",
+      "instance_of": [
+        "Q476028"
+      ],
+      "verified_football_type": true,
+      "title": "Swansea City A.F.C.",
+      "batch_file": "bulk-club-identities-2026-10-17.json"
+    },
+    {
+      "club_id": "watford",
+      "qid": "Q2714",
+      "english_label": "Watford F.C.",
+      "instance_of": [
+        "Q476028"
+      ],
+      "verified_football_type": true,
+      "title": "Watford F.C.",
+      "batch_file": "bulk-club-identities-2026-10-17.json"
+    },
+    {
+      "club_id": "west-brom",
+      "qid": "Q18744",
+      "english_label": "West Bromwich Albion F.C.",
+      "instance_of": [
+        "Q476028"
+      ],
+      "verified_football_type": true,
+      "title": "West Bromwich Albion F.C.",
+      "batch_file": "bulk-club-identities-2026-10-17.json"
+    }
+  ],
+  "selected_ground_claims": [
+    {
+      "club_id": "arsenal",
+      "ground_qid": "Q163995",
+      "claim_id": "q9617$4BFD5480-4B7C-4823-91F4-5BB14C6EF56A"
+    },
+    {
+      "club_id": "aston-villa",
+      "ground_qid": "Q175339",
+      "claim_id": "q18711$D21EC5DF-D3EF-4909-9433-65A8CD8D1AF8"
+    },
+    {
+      "club_id": "bournemouth",
+      "ground_qid": "Q619094",
+      "claim_id": "q19568$6B1B001C-F3BB-47CA-B677-9C6FC6C96196"
+    },
+    {
+      "club_id": "brentford",
+      "ground_qid": "Q1546623",
+      "claim_id": "q19571$A8086B27-E2A0-4555-BE83-B85755F2F27F"
+    },
+    {
+      "club_id": "brighton",
+      "ground_qid": "Q619409",
+      "claim_id": "q19453$A139AF6E-9738-4EF7-9D5E-CAE586DA619F"
+    },
+    {
+      "club_id": "burnley",
+      "ground_qid": "Q683112",
+      "claim_id": "q19458$352985E1-4DAD-4AD5-A745-379D28102B80"
+    },
+    {
+      "club_id": "coventry",
+      "ground_qid": "Q842077",
+      "claim_id": "q19580$0EA43FCA-1F70-41E8-9925-99EA38E2111C"
+    },
+    {
+      "club_id": "crystal-palace",
+      "ground_qid": "Q1066373",
+      "claim_id": "q19467$517DA7BA-D26C-424E-BC66-74B1DD0F4ECB"
+    },
+    {
+      "club_id": "everton",
+      "ground_qid": "Q29347805",
+      "claim_id": "q5794$AD4D222E-4D69-49EE-B967-2960EF0E75F8"
+    },
+    {
+      "club_id": "tottenham",
+      "ground_qid": "Q55074091",
+      "claim_id": "q18741$45065F12-8878-4378-8F51-E599874F5DFC"
+    },
+    {
+      "club_id": "tottenham",
+      "ground_qid": "Q186425",
+      "claim_id": "Q18741$d3662911-47a3-8a43-6cce-20e1aaf946be"
+    },
+    {
+      "club_id": "west-ham",
+      "ground_qid": "Q172190",
+      "claim_id": "q18747$23A66AF1-4DF1-4A1D-AD56-BAC4382EB526"
+    },
+    {
+      "club_id": "fulham",
+      "ground_qid": "Q318043",
+      "claim_id": "q18708$682B360A-BF23-4140-AE08-E3E65FCEEF68"
+    },
+    {
+      "club_id": "hull",
+      "ground_qid": "Q630160",
+      "claim_id": "q19477$455B93F8-2645-4C04-947C-CB15E8CC695D"
+    },
+    {
+      "club_id": "ipswich",
+      "ground_qid": "Q619558",
+      "claim_id": "q9653$F30923A9-FC2E-4698-A78F-5C26064DA2EB"
+    },
+    {
+      "club_id": "leeds",
+      "ground_qid": "Q619505",
+      "claim_id": "q1128631$3D940503-7793-4BD5-A35F-752BE3FE0F87"
+    },
+    {
+      "club_id": "leicester",
+      "ground_qid": "Q620031",
+      "claim_id": "q19481$261E3FA0-B85F-47C9-976B-2F3858C78718"
+    },
+    {
+      "club_id": "liverpool",
+      "ground_qid": "Q45671",
+      "claim_id": "q1130849$5B083F34-F34C-4499-AB46-6AA850995AEB"
+    },
+    {
+      "club_id": "manchester-city",
+      "ground_qid": "Q48159",
+      "claim_id": "Q50602$D37D067F-343A-494C-9C3E-AB93066BCB7D"
+    },
+    {
+      "club_id": "manchester-united",
+      "ground_qid": "Q83457",
+      "claim_id": "q18656$1fc7dd12-49f9-5812-3da7-b3fea7adee5d"
+    },
+    {
+      "club_id": "middlesbrough",
+      "ground_qid": "Q822886",
+      "claim_id": "q18661$54D0F77B-BF73-4171-8037-E6BE14B427D3"
+    },
+    {
+      "club_id": "newcastle",
+      "ground_qid": "Q191774",
+      "claim_id": "q18716$BF093771-1F0E-4847-88EB-715BB3CBDF71"
+    },
+    {
+      "club_id": "norwich",
+      "ground_qid": "Q123017",
+      "claim_id": "q18721$F1515194-95C7-4A29-A34D-C580ABB9CB8F"
+    },
+    {
+      "club_id": "nottingham-forest",
+      "ground_qid": "Q593446",
+      "claim_id": "q19490$D72AAAF1-6B08-434A-BC68-D84AD653BD08"
+    },
+    {
+      "club_id": "southampton",
+      "ground_qid": "Q567339",
+      "claim_id": "q18732$37BFDE2E-CC40-4E7B-831C-C8861012691A"
+    },
+    {
+      "club_id": "stoke",
+      "ground_qid": "Q500922",
+      "claim_id": "q18736$B467369E-BB34-406F-A00E-D0218F8D247A"
+    },
+    {
+      "club_id": "sunderland",
+      "ground_qid": "Q31969",
+      "claim_id": "q18739$5C1614F4-6C2D-477F-8B57-EBE7B84881F7"
+    },
+    {
+      "club_id": "swansea",
+      "ground_qid": "Q580480",
+      "claim_id": "q18659$16A83117-3AE8-42A3-A8CE-D90941A6BB8F"
+    },
+    {
+      "club_id": "watford",
+      "ground_qid": "Q10626",
+      "claim_id": "q2714$DC3F69FF-CF3F-46D6-A012-47FFF6617593"
+    },
+    {
+      "club_id": "west-brom",
+      "ground_qid": "Q31678",
+      "claim_id": "q18744$CDB0E75C-06AB-420D-A777-8E01A4036917"
+    }
+  ],
+  "club_entity_qids": {
+    "arsenal": "Q9617",
+    "aston-villa": "Q18711",
+    "bournemouth": "Q19568",
+    "brentford": "Q19571",
+    "brighton": "Q19453",
+    "burnley": "Q19458",
+    "coventry": "Q19580",
+    "crystal-palace": "Q19467",
+    "everton": "Q5794",
+    "tottenham": "Q18741",
+    "west-ham": "Q18747",
+    "fulham": "Q18708",
+    "hull": "Q19477",
+    "ipswich": "Q9653",
+    "leeds": "Q1128631",
+    "leicester": "Q19481",
+    "liverpool": "Q1130849",
+    "manchester-city": "Q50602",
+    "manchester-united": "Q18656",
+    "middlesbrough": "Q18661",
+    "newcastle": "Q18716",
+    "norwich": "Q18721",
+    "nottingham-forest": "Q19490",
+    "southampton": "Q18732",
+    "stoke": "Q18736",
+    "sunderland": "Q18739",
+    "swansea": "Q18659",
+    "watford": "Q2714",
+    "west-brom": "Q18744"
+  },
+  "ground_qids": [
+    "Q10626",
+    "Q1066373",
+    "Q123017",
+    "Q1546623",
+    "Q163995",
+    "Q172190",
+    "Q175339",
+    "Q186425",
+    "Q191774",
+    "Q29347805",
+    "Q31678",
+    "Q318043",
+    "Q31969",
+    "Q330731",
+    "Q45671",
+    "Q48159",
+    "Q500922",
+    "Q55074091",
+    "Q567339",
+    "Q580480",
+    "Q593446",
+    "Q619094",
+    "Q619409",
+    "Q619505",
+    "Q619558",
+    "Q620031",
+    "Q630160",
+    "Q683112",
+    "Q822886",
+    "Q83457",
+    "Q842077",
+    "Q968420"
+  ],
+  "geographic_labels": {
+    "Q1005234": {
+      "label": "Falmer",
+      "revision": 2445641404
+    },
+    "Q1013528": {
+      "label": "Brentford",
+      "revision": 2540303473
+    },
+    "Q124308": {
+      "label": "Holloway",
+      "revision": 2553093193
+    },
+    "Q128147": {
+      "label": "Kingston upon Hull",
+      "revision": 2530928945
+    },
+    "Q130191": {
+      "label": "Norwich",
+      "revision": 2525223651
+    },
+    "Q1309863": {
+      "label": "City of Liverpool",
+      "revision": 2514270243
+    },
+    "Q1425428": {
+      "label": "Newcastle upon Tyne",
+      "revision": 2554213553
+    },
+    "Q145": {
+      "label": "United Kingdom",
+      "revision": 2554939741
+    },
+    "Q1455478": {
+      "label": "Old Trafford",
+      "revision": 2549977448
+    },
+    "Q170478": {
+      "label": "Bournemouth",
+      "revision": 2534086457
+    },
+    "Q171866": {
+      "label": "Middlesbrough",
+      "revision": 2546313506
+    },
+    "Q18125": {
+      "label": "Manchester",
+      "revision": 2545458446
+    },
+    "Q184775": {
+      "label": "Ipswich",
+      "revision": 2525224467
+    },
+    "Q1854225": {
+      "label": "Rushcliffe",
+      "revision": 2443911934
+    },
+    "Q188304": {
+      "label": "Sunderland",
+      "revision": 2506616411
+    },
+    "Q205817": {
+      "label": "London Borough of Islington",
+      "revision": 2537559399
+    },
+    "Q20712059": {
+      "label": "Kings Park, Boscombe",
+      "revision": 2194617980
+    },
+    "Q209096": {
+      "label": "Burnley",
+      "revision": 2534230928
+    },
+    "Q21": {
+      "label": "England",
+      "revision": 2552916198
+    },
+    "Q21012735": {
+      "label": "Newcastle upon Tyne",
+      "revision": 2498157498
+    },
+    "Q212826": {
+      "label": "West Bromwich",
+      "revision": 2537073227
+    },
+    "Q21525592": {
+      "label": "Manchester",
+      "revision": 2545817396
+    },
+    "Q21665571": {
+      "label": "Liverpool",
+      "revision": 2533858890
+    },
+    "Q21683242": {
+      "label": "City of Leicester",
+      "revision": 2503407150
+    },
+    "Q21891722": {
+      "label": "City of Stoke-on-Trent",
+      "revision": 2484708884
+    },
+    "Q2256": {
+      "label": "Birmingham",
+      "revision": 2539781026
+    },
+    "Q2265962": {
+      "label": "South Norwood",
+      "revision": 2428685360
+    },
+    "Q2268251": {
+      "label": "Selhurst",
+      "revision": 2366910321
+    },
+    "Q23051": {
+      "label": "Swansea",
+      "revision": 2522973644
+    },
+    "Q24826": {
+      "label": "Liverpool",
+      "revision": 2548612294
+    },
+    "Q25": {
+      "label": "Wales",
+      "revision": 2557034016
+    },
+    "Q2598": {
+      "label": "Watford",
+      "revision": 2534232050
+    },
+    "Q3367868": {
+      "label": "Fulham",
+      "revision": 2494971626
+    },
+    "Q41262": {
+      "label": "Nottingham",
+      "revision": 2538684218
+    },
+    "Q4956188": {
+      "label": "Bramley-Moore Dock",
+      "revision": 2535722653
+    },
+    "Q503375": {
+      "label": "Tottenham",
+      "revision": 2555873080
+    },
+    "Q56573534": {
+      "label": "Moulsecoomb and Bevendean",
+      "revision": 2465253252
+    },
+    "Q6225": {
+      "label": "Coventry",
+      "revision": 2551486550
+    },
+    "Q676136": {
+      "label": "Stratford",
+      "revision": 2549022122
+    },
+    "Q769186": {
+      "label": "Anfield",
+      "revision": 2538962514
+    },
+    "Q774015": {
+      "label": "Leeds",
+      "revision": 2499356583
+    },
+    "Q7899393": {
+      "label": "Upton Park",
+      "revision": 2487282168
+    },
+    "Q79848": {
+      "label": "Southampton",
+      "revision": 2532336317
+    },
+    "Q84": {
+      "label": "London",
+      "revision": 2555302704
+    },
+    "Q915954": {
+      "label": "Trafford",
+      "revision": 2499597014
+    }
+  },
+  "notes": "Wikidata structured API bulk requests; no repeating search queries or access-control bypass. Individual files for new entities are lossless entity extracts from retained original bulk responses."
+}

@@ -1,0 +1,60 @@
+{
+  "version": 1,
+  "binding": {
+    "datasetId": "brentford-liverpool-illustration",
+    "datasetVersion": "liverpool-generated-v2-cards-v1-f068a719fb27-45d0952330c2",
+    "streamId": "run-liverpool-generated-v2-cards-v1-f068a719fb27-45d0952330c2",
+    "fixtureId": "fixture-pl-2645256",
+    "manifestRevision": 4,
+    "rosterSha256": "29391df6c30470656e55c84555dd2e561b9fe6f9e2afef8ebf7a90ffa74a26f3",
+    "sourceId": "brentford-report",
+    "sourceLocator": "https://www.brentfordfc.com/en/news/match-reports-brentford-1-liverpool-2-premier-league-17-11-2026",
+    "sourceSha256": "d5a15af25696db2cd0c983d1869f6950074f6371d7689a8610a3f198775532cf",
+    "datasetSha256": "87edf4604d2ace97a612abc5378a86dbbc81229c4f264166ccd254eba5417d9e"
+  },
+  "sources": [
+    {
+      "id": "brentford-report",
+      "url": "https://www.brentfordfc.com/en/news/match-reports-brentford-1-liverpool-2-premier-league-17-11-2026",
+      "reviewedOn": "2026-10-26",
+      "publishedOn": "2026-10-17"
+    }
+  ],
+  "roles": [
+    {
+      "personId": "person-pl-reference-brentford-van-den-berg",
+      "role": "defender",
+      "scope": "match_report_description",
+      "sourceId": "brentford-report",
+      "locator": "Selection paragraph describing van den Berg as a centre-back"
+    },
+    {
+      "personId": "person-pl-reference-brentford-ouattara",
+      "role": "winger",
+      "scope": "match_report_description",
+      "sourceId": "brentford-report",
+      "locator": "First-half Anthony-to-Ouattara passage describing the winger before his cross to Thiago"
+    },
+    {
+      "personId": "person-pl-reference-brentford-thiago",
+      "role": "striker",
+      "scope": "match_report_description",
+      "sourceId": "brentford-report",
+      "locator": "First-half Ouattara cross and opener delivery passages describing Thiago as a striker"
+    },
+    {
+      "personId": "person-pl-reference-brentford-yarmoliuk",
+      "role": "midfielder",
+      "scope": "match_report_description",
+      "sourceId": "brentford-report",
+      "locator": "VAR dismissal passage describing Yarmoliuk as a midfielder"
+    },
+    {
+      "personId": "person-pl-reference-liverpool-jacquet",
+      "role": "defender",
+      "scope": "match_report_description",
+      "sourceId": "brentford-report",
+      "locator": "Second-half Schade foul and booking passage describing Jacquet as a defender"
+    }
+  ]
+}

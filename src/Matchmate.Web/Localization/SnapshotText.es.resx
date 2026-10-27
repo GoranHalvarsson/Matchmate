@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms</value>
+  </resheader>
+  <data name="Selected">
+    <value>Selección: {0}, indicado en el minuto {1}.</value>
+  </data>
+  <data name="UnknownActor">
+    <value>jugador sin identificar</value>
+  </data>
+  <data name="OutsideOverlay">
+    <value>Las marcas de ese evento no están activas en este momento de la repetición.</value>
+  </data>
+  <data name="NonSpatial">
+    <value>La anotación recoge el incidente o el cambio; no establece dónde ocurrió una entrada, una carrera ni el orden dentro del mismo minuto.</value>
+  </data>
+  <data name="NoFrame">
+    <value>No se muestran posiciones actuales; no se conservan posiciones anteriores.</value>
+  </data>
+  <data name="Neutral">
+    <value>El campo muestra ahora una ilustración neutral, sin una ubicación del balón ni jugadores cercanos que se puedan interpretar.</value>
+  </data>
+  <data name="NoBall">
+    <value>Falta la posición actual del balón, por lo que no se pueden identificar los jugadores más cercanos a él.</value>
+  </data>
+  <data name="Ball">
+    <value>El balón aparece en {0}, en {1} de la pantalla.</value>
+  </data>
+  <data name="Left">
+    <value>el tercio izquierdo</value>
+  </data>
+  <data name="Middle">
+    <value>el tercio central</value>
+  </data>
+  <data name="Right">
+    <value>el tercio derecho</value>
+  </data>
+  <data name="Top">
+    <value>la franja superior</value>
+  </data>
+  <data name="Central">
+    <value>la franja central</value>
+  </data>
+  <data name="Bottom">
+    <value>la franja inferior</value>
+  </data>
+  <data name="Nearby">
+    <value>Marcadores identificados más cercanos: {0}. Solo indica proximidad, no posesión.</value>
+  </data>
+  <data name="Rings">
+    <value>Los aros señalan a los participantes indicados: {0}; no indican quién tiene el balón.</value>
+  </data>
+  <data name="Path">
+    <value>La línea ilustra la secuencia indicada en el informe.</value>
+  </data>
+  <data name="Active">
+    <value>El paso actual de la ilustración es {0}: {1}.</value>
+  </data>
+  <data name="Dismissal">
+    <value>La expulsión aparece en una anotación separada; el jugador expulsado puede no tener marcador en el campo.</value>
+  </data>
+  <data name="Card">
+    <value>Un símbolo de tarjeta marca la amonestación indicada.</value>
+  </data>
+  <data name="Change">
+    <value>Una flecha marca al jugador que entra en el cambio indicado.</value>
+  </data>
+  <data name="Generated">
+    <value>Las posiciones y cualquier trayectoria del balón son ilustraciones generadas; no demuestran movimientos reales, táctica ni intención.</value>
+  </data>
+  <data name="Estimated">
+    <value>Algunas posiciones mostradas son estimaciones; esta imagen no demuestra una carrera ni una intención táctica.</value>
+  </data>
+  <data name="UnknownMethod">
+    <value>No se especifica el método o la calidad de algunas posiciones mostradas.</value>
+  </data>
+  <data name="ReportedSequence">
+    <value>Secuencia indicada en el informe: {0}</value>
+  </data>
+  <data name="ActivePath">
+    <value>La línea ilustra esa secuencia, ahora en {0}: {1}.</value>
+  </data>
+  <data name="Analyst">
+    <value>Esta lectura corresponde al momento mostrado; las acciones indicadas en los informes no establecen los tiempos exactos de los contactos.</value>
+  </data>
+  <data name="Substitution">
+    <value>Cambio indicado: sale {0}, entra {1}.</value>
+  </data>
+  <data name="SubstitutionParticipant">
+    <value>Cambio indicado que involucra a {0}; no se indican las identidades de quien sale y quien entra.</value>
+  </data>
+  <data name="OnPitch">
+    <value>En el campo ahora</value>
+  </data>
+</root>

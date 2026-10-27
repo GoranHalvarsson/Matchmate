@@ -1,0 +1,37 @@
+.event-ring { fill:none; stroke:#ffdc88; stroke-width:.45; stroke-dasharray:.8 .6; }
+.dismissal-annotation{display:flex;align-items:center;gap:.7rem;padding:.7rem .8rem;margin:.5rem 0;background:#fff6ed;border:1px solid #b86c5c;border-radius:.35rem;color:#4c241e;overflow-wrap:anywhere}
+.dismissal-annotation>div{min-width:0}.dismissal-annotation strong,.dismissal-annotation span,.dismissal-annotation small{display:block}.dismissal-annotation small{font-size:.75rem;line-height:1.45;margin-top:.2rem}.dismissal-card{width:1.2rem;height:1.8rem;flex-shrink:0;background:#c23d32;border:1px solid #80251e;border-radius:.15rem}
+/* The native SVG focus outline encloses the enlarged invisible pointer target. */
+.pitch .marker:focus { outline:none; }
+.pitch .marker:focus-visible .player-dot,.pitch .marker:focus-visible rect { stroke:#f6d260; stroke-width:3px; }
+/* Beat the later replay skin while retaining its quality-specific dash patterns. */
+.pitch-wrap .pitch circle.ball { fill:white; stroke:#1b392b; }
+.pitch-wrap .pitch circle.ball.generated-ball { stroke-dasharray:none; stroke-width:.25; }
+.pitch-wrap .pitch .marker.generated-marker .player-dot { stroke-dasharray:none; }
+.pitch-wrap .pitch .marker.generated-marker .selection-ring { fill:none; stroke:white; stroke-width:2px; }
+.pitch[data-motion-duration="100"] { --pitch-tween-duration:100ms; }
+.pitch[data-motion-duration="150"] { --pitch-tween-duration:150ms; }
+.pitch[data-motion-duration="200"] { --pitch-tween-duration:200ms; }
+.pitch[data-motion-duration="250"] { --pitch-tween-duration:250ms; }
+.pitch[data-motion-duration="300"] { --pitch-tween-duration:300ms; }
+.pitch[data-motion-duration="350"] { --pitch-tween-duration:350ms; }
+.pitch[data-motion-duration="400"] { --pitch-tween-duration:400ms; }
+.pitch-motion { transition:transform var(--pitch-tween-duration,0ms) linear; }
+.sequence-note { padding:.45rem 0; color:#294334; font-size:.78rem; line-height:1.4; }
+.sequence-note small { display:block; color:#687064; font-size:.71rem; margin-top:.12rem; }
+.sequence-details { color:#687064; font-size:.72rem; margin:.25rem 0; }
+.sequence-details summary { cursor:pointer; }
+.sequence-details p { margin:.4rem 0; }
+.semantic-steps { padding-left:1.1rem; margin:.5rem 0; }
+.semantic-steps small { display:block; }
+.source-annotation-label { display:block; color:var(--muted,#627169); font-size:.75rem; line-height:1.45; }
+.sequence-note .source-annotation-label { margin-top:.3rem; }
+.source-note-fallback { display:block; font-size:.72rem; }
+.source-note-qualification { line-height:1.45; overflow-wrap:anywhere; }
+.source-note-qualification strong,.source-note-qualification span { display:block; }
+.source-note-qualification strong { font-weight:600; }
+.source-note-originals { margin:.4rem 0; font-size:.75rem; overflow-wrap:anywhere; }
+.source-note-originals summary { min-height:30px; cursor:pointer; }
+.source-note-originals summary:focus-visible { outline:3px solid #8c984c; outline-offset:3px; }
+.source-note-original { white-space:pre-wrap; }
+@media(prefers-reduced-motion:reduce) { .pitch-motion { transition:none; } }

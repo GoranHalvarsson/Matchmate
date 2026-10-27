@@ -1,0 +1,820 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Matchmate club ecosystem contracts v0.3.0",
+  "$defs": {
+    "record_envelope": {
+      "type": "object",
+      "properties": {
+        "record_id": { "$ref": "common.schema.json#/$defs/record_id" },
+        "revision_id": { "$ref": "common.schema.json#/$defs/revision_id" },
+        "supersedes_revision_id": { "$ref": "common.schema.json#/$defs/supersedes_revision_id" },
+        "source_id": { "$ref": "common.schema.json#/$defs/source_id" },
+        "provenance": { "$ref": "common.schema.json#/$defs/provenance" },
+        "claim_status": { "$ref": "common.schema.json#/$defs/claim_status" },
+        "valid_from": { "$ref": "common.schema.json#/$defs/valid_from" },
+        "valid_to": { "$ref": "common.schema.json#/$defs/valid_to" },
+        "recorded_at": { "$ref": "common.schema.json#/$defs/recorded_at" },
+        "published_at": { "$ref": "common.schema.json#/$defs/published_at" },
+        "synthetic_released_at": { "$ref": "common.schema.json#/$defs/synthetic_released_at" }
+      },
+      "required": [
+        "record_id",
+        "revision_id",
+        "supersedes_revision_id",
+        "source_id",
+        "provenance",
+        "claim_status",
+        "valid_from",
+        "valid_to",
+        "recorded_at",
+        "published_at",
+        "synthetic_released_at"
+      ],
+      "allOf": [
+        {
+          "if": { "properties": { "provenance": { "const": "synthetic" } } },
+          "then": {
+            "properties": {
+              "synthetic_released_at": { "$ref": "common.schema.json#/$defs/valid_from" },
+              "claim_status": { "const": "authored" }
+            }
+          },
+          "else": { "properties": { "synthetic_released_at": { "type": "null" } } }
+        }
+      ]
+    },
+    "nullable_string": {
+      "anyOf": [
+        { "type": "string", "minLength": 1 },
+        { "type": "null" }
+      ]
+    },
+    "nullable_timestamp": {
+      "anyOf": [
+        { "$ref": "common.schema.json#/$defs/valid_from" },
+        { "type": "null" }
+      ]
+    },
+    "nullable_address": {
+      "anyOf": [
+        { "$ref": "common.schema.json#/$defs/address" },
+        { "type": "null" }
+      ]
+    },
+    "nullable_locality": {
+      "anyOf": [
+        { "$ref": "common.schema.json#/$defs/locality" },
+        { "type": "null" }
+      ]
+    },
+    "club_scope": {
+      "type": "object",
+      "properties": {
+        "scope_kind": { "const": "club" },
+        "club_id": {
+          "type": "string",
+          "pattern": "^[a-z][a-z0-9-]*$",
+          "x-reference": "club"
+        }
+      },
+      "required": ["scope_kind", "club_id"],
+      "additionalProperties": false
+    },
+    "academy_scope": {
+      "type": "object",
+      "properties": {
+        "scope_kind": { "const": "academy" },
+        "academy_id": {
+          "type": "string",
+          "pattern": "^[a-z][a-z0-9-]*$",
+          "x-reference": "academy"
+        }
+      },
+      "required": ["scope_kind", "academy_id"],
+      "additionalProperties": false
+    },
+    "team_programme_scope": {
+      "type": "object",
+      "properties": {
+        "scope_kind": { "const": "team_programme" },
+        "team_programme_id": {
+          "type": "string",
+          "pattern": "^[a-z][a-z0-9-]*$",
+          "x-reference": "team_programme"
+        }
+      },
+      "required": ["scope_kind", "team_programme_id"],
+      "additionalProperties": false
+    },
+    "support_department_scope": {
+      "type": "object",
+      "properties": {
+        "scope_kind": { "const": "support_department" },
+        "support_department_id": {
+          "type": "string",
+          "pattern": "^[a-z][a-z0-9-]*$",
+          "x-reference": "support_department"
+        }
+      },
+      "required": ["scope_kind", "support_department_id"],
+      "additionalProperties": false
+    },
+    "organisation_scope": {
+      "oneOf": [
+        { "$ref": "#/$defs/club_scope" },
+        { "$ref": "#/$defs/academy_scope" },
+        { "$ref": "#/$defs/team_programme_scope" },
+        { "$ref": "#/$defs/support_department_scope" }
+      ]
+    },
+    "facility_user_scope": {
+      "oneOf": [
+        { "$ref": "#/$defs/academy_scope" },
+        { "$ref": "#/$defs/team_programme_scope" },
+        { "$ref": "#/$defs/support_department_scope" }
+      ]
+    },
+    "coaching_scope": {
+      "oneOf": [
+        { "$ref": "#/$defs/club_scope" },
+        { "$ref": "#/$defs/team_programme_scope" }
+      ]
+    },
+    "contact_owner": {
+      "oneOf": [
+        {
+          "type": "object",
+          "properties": {
+            "owner_kind": { "const": "club" },
+            "club_id": {
+              "type": "string",
+              "pattern": "^[a-z][a-z0-9-]*$",
+              "x-reference": "club"
+            }
+          },
+          "required": ["owner_kind", "club_id"],
+          "additionalProperties": false
+        },
+        {
+          "type": "object",
+          "properties": {
+            "owner_kind": { "const": "supporter_group" },
+            "supporter_group_id": {
+              "type": "string",
+              "pattern": "^[a-z][a-z0-9-]*$",
+              "x-reference": "supporter_group"
+            }
+          },
+          "required": ["owner_kind", "supporter_group_id"],
+          "additionalProperties": false
+        },
+        {
+          "type": "object",
+          "properties": {
+            "owner_kind": { "const": "academy" },
+            "academy_id": {
+              "type": "string",
+              "pattern": "^[a-z][a-z0-9-]*$",
+              "x-reference": "academy"
+            }
+          },
+          "required": ["owner_kind", "academy_id"],
+          "additionalProperties": false
+        },
+        {
+          "type": "object",
+          "properties": {
+            "owner_kind": { "const": "support_department" },
+            "support_department_id": {
+              "type": "string",
+              "pattern": "^[a-z][a-z0-9-]*$",
+              "x-reference": "support_department"
+            }
+          },
+          "required": ["owner_kind", "support_department_id"],
+          "additionalProperties": false
+        }
+      ]
+    },
+    "recogniser": {
+      "oneOf": [
+        {
+          "type": "object",
+          "properties": {
+            "recogniser_kind": { "const": "club" },
+            "club_id": {
+              "type": "string",
+              "pattern": "^[a-z][a-z0-9-]*$",
+              "x-reference": "club"
+            }
+          },
+          "required": ["recogniser_kind", "club_id"],
+          "additionalProperties": false
+        },
+        {
+          "type": "object",
+          "properties": {
+            "recogniser_kind": { "const": "external_body" },
+            "body_name": { "type": "string", "minLength": 1 },
+            "body_type": {
+              "type": "string",
+              "enum": ["competition", "governing_body", "local_authority", "other"]
+            }
+          },
+          "required": ["recogniser_kind", "body_name", "body_type"],
+          "additionalProperties": false
+        }
+      ]
+    },
+    "attendance_payload": {
+      "type": "object",
+      "properties": {
+        "fixture_id": {
+          "type": "string",
+          "pattern": "^[a-z][a-z0-9-]*$",
+          "x-reference": "fixture"
+        },
+        "population_scope": {
+          "type": "string",
+          "enum": ["total", "home", "away", "neutral", "unspecified"]
+        },
+        "measure": {
+          "type": "string",
+          "enum": ["allocation", "tickets_sold", "tickets_distributed", "reported_attendance"]
+        },
+        "count_status": { "type": "string", "enum": ["reported", "unknown"] },
+        "count": {
+          "anyOf": [
+            { "type": "integer", "minimum": 0 },
+            { "type": "null" }
+          ]
+        },
+        "counting_basis": {
+          "type": "string",
+          "enum": ["allocation", "sales", "distribution", "turnstile", "reported", "unknown"]
+        },
+        "reported_at": { "$ref": "#/$defs/nullable_timestamp" },
+        "retrieved_at": { "$ref": "#/$defs/nullable_timestamp" }
+      },
+      "required": [
+        "fixture_id",
+        "population_scope",
+        "measure",
+        "count_status",
+        "count",
+        "counting_basis",
+        "reported_at",
+        "retrieved_at"
+      ],
+      "additionalProperties": false,
+      "allOf": [
+        {
+          "if": { "properties": { "count_status": { "const": "reported" } } },
+          "then": { "properties": { "count": { "type": "integer", "minimum": 0 } } },
+          "else": { "properties": { "count": { "type": "null" } } }
+        },
+        {
+          "if": { "properties": { "measure": { "const": "allocation" } } },
+          "then": { "properties": { "counting_basis": { "const": "allocation" } } }
+        },
+        {
+          "if": { "properties": { "measure": { "const": "tickets_sold" } } },
+          "then": { "properties": { "counting_basis": { "const": "sales" } } }
+        },
+        {
+          "if": { "properties": { "measure": { "const": "tickets_distributed" } } },
+          "then": { "properties": { "counting_basis": { "const": "distribution" } } }
+        },
+        {
+          "if": { "properties": { "measure": { "const": "reported_attendance" } } },
+          "then": {
+            "properties": {
+              "counting_basis": { "enum": ["turnstile", "reported", "unknown"] }
+            }
+          }
+        }
+      ]
+    },
+    "match_capacity_payload": {
+      "type": "object",
+      "properties": {
+        "fixture_id": {
+          "type": "string",
+          "pattern": "^[a-z][a-z0-9-]*$",
+          "x-reference": "fixture"
+        },
+        "capacity_status": { "type": "string", "enum": ["reported", "unknown"] },
+        "available_capacity": {
+          "anyOf": [
+            { "type": "integer", "minimum": 0 },
+            { "type": "null" }
+          ]
+        },
+        "basis": {
+          "type": "string",
+          "enum": ["safety_certificate", "ticket_inventory", "configured_match_limit", "reported", "unknown"]
+        },
+        "restrictions": {
+          "type": "array",
+          "items": { "type": "string", "minLength": 1 }
+        },
+        "reported_at": { "$ref": "#/$defs/nullable_timestamp" },
+        "retrieved_at": { "$ref": "#/$defs/nullable_timestamp" }
+      },
+      "required": [
+        "fixture_id",
+        "capacity_status",
+        "available_capacity",
+        "basis",
+        "restrictions",
+        "reported_at",
+        "retrieved_at"
+      ],
+      "additionalProperties": false,
+      "allOf": [
+        {
+          "if": { "properties": { "capacity_status": { "const": "reported" } } },
+          "then": { "properties": { "available_capacity": { "type": "integer", "minimum": 0 } } },
+          "else": { "properties": { "available_capacity": { "type": "null" } } }
+        }
+      ]
+    },
+    "supporter_group": {
+      "allOf": [
+        { "$ref": "#/$defs/record_envelope" },
+        {
+          "type": "object",
+          "properties": {
+            "kind": { "const": "supporter_group" },
+            "payload": {
+              "type": "object",
+              "properties": {
+                "name": { "type": "string", "minLength": 1 },
+                "aliases": { "type": "array", "items": { "type": "string", "minLength": 1 } },
+                "club_ids": {
+                  "type": "array",
+                  "minItems": 1,
+                  "uniqueItems": true,
+                  "items": {
+                    "type": "string",
+                    "pattern": "^[a-z][a-z0-9-]*$",
+                    "x-reference": "club"
+                  }
+                },
+                "locality": { "$ref": "#/$defs/nullable_locality" },
+                "scope": { "type": "string", "enum": ["local", "international", "online"] },
+                "independence_status": { "type": "string", "enum": ["independent", "club_run", "unknown"] }
+              },
+              "required": ["name", "aliases", "club_ids", "locality", "scope", "independence_status"],
+              "additionalProperties": false
+            }
+          },
+          "required": ["kind", "payload"]
+        }
+      ],
+      "unevaluatedProperties": false
+    },
+    "public_contact_channel": {
+      "allOf": [
+        { "$ref": "#/$defs/record_envelope" },
+        {
+          "type": "object",
+          "properties": {
+            "kind": { "const": "public_contact_channel" },
+            "payload": {
+              "type": "object",
+              "properties": {
+                "owner": { "$ref": "#/$defs/contact_owner" },
+                "channel_type": { "type": "string", "enum": ["website", "email", "phone", "postal_address", "social"] },
+                "purpose": { "type": "string", "enum": ["general_enquiries", "ticketing", "supporter_services", "accessibility", "academy_enquiries", "other"] },
+                "value": { "type": "string", "minLength": 1 },
+                "language": { "$ref": "#/$defs/nullable_string" },
+                "last_checked_at": { "$ref": "#/$defs/nullable_timestamp" }
+              },
+              "required": ["owner", "channel_type", "purpose", "value", "language", "last_checked_at"],
+              "additionalProperties": false,
+              "allOf": [
+                {
+                  "if": { "properties": { "channel_type": { "const": "website" } } },
+                  "then": { "properties": { "value": { "format": "uri", "pattern": "^https?://" } } }
+                },
+                {
+                  "if": { "properties": { "channel_type": { "const": "email" } } },
+                  "then": { "properties": { "value": { "format": "email" } } }
+                }
+              ]
+            }
+          },
+          "required": ["kind", "payload"]
+        }
+      ],
+      "unevaluatedProperties": false
+    },
+    "supporter_group_recognition": {
+      "allOf": [
+        { "$ref": "#/$defs/record_envelope" },
+        {
+          "type": "object",
+          "properties": {
+            "kind": { "const": "supporter_group_recognition" },
+            "payload": {
+              "type": "object",
+              "properties": {
+                "supporter_group_id": {
+                  "type": "string",
+                  "pattern": "^[a-z][a-z0-9-]*$",
+                  "x-reference": "supporter_group"
+                },
+                "recogniser": { "$ref": "#/$defs/recogniser" },
+                "recognition_status": { "type": "string", "enum": ["recognised", "not_recognised", "unverified"] }
+              },
+              "required": ["supporter_group_id", "recogniser", "recognition_status"],
+              "additionalProperties": false
+            }
+          },
+          "required": ["kind", "payload"]
+        }
+      ],
+      "unevaluatedProperties": false
+    },
+    "academy": {
+      "allOf": [
+        { "$ref": "#/$defs/record_envelope" },
+        {
+          "type": "object",
+          "properties": {
+            "kind": { "const": "academy" },
+            "payload": {
+              "type": "object",
+              "properties": {
+                "club_id": {
+                  "type": "string",
+                  "pattern": "^[a-z][a-z0-9-]*$",
+                  "x-reference": "club"
+                },
+                "name": { "type": "string", "minLength": 1 },
+                "aliases": { "type": "array", "items": { "type": "string", "minLength": 1 } },
+                "status": { "type": "string", "enum": ["active", "closed", "unknown"] },
+                "programme_scope": { "$ref": "#/$defs/nullable_string" },
+                "accreditation": { "$ref": "#/$defs/nullable_string" },
+                "accreditation_issuer": { "$ref": "#/$defs/nullable_string" }
+              },
+              "required": ["club_id", "name", "aliases", "status", "programme_scope", "accreditation", "accreditation_issuer"],
+              "additionalProperties": false
+            }
+          },
+          "required": ["kind", "payload"]
+        }
+      ],
+      "unevaluatedProperties": false
+    },
+    "team_programme": {
+      "allOf": [
+        { "$ref": "#/$defs/record_envelope" },
+        {
+          "type": "object",
+          "properties": {
+            "kind": { "const": "team_programme" },
+            "payload": {
+              "type": "object",
+              "properties": {
+                "club_id": {
+                  "type": "string",
+                  "pattern": "^[a-z][a-z0-9-]*$",
+                  "x-reference": "club"
+                },
+                "academy_id": {
+                  "anyOf": [
+                    {
+                      "type": "string",
+                      "pattern": "^[a-z][a-z0-9-]*$",
+                      "x-reference": "academy"
+                    },
+                    { "type": "null" }
+                  ]
+                },
+                "name": { "type": "string", "minLength": 1 },
+                "category": { "type": "string", "enum": ["first_team", "womens_team", "development", "academy_age_group", "other"] },
+                "age_band_designation": { "$ref": "#/$defs/nullable_string" }
+              },
+              "required": ["club_id", "academy_id", "name", "category", "age_band_designation"],
+              "additionalProperties": false
+            }
+          },
+          "required": ["kind", "payload"]
+        }
+      ],
+      "unevaluatedProperties": false
+    },
+    "facility": {
+      "allOf": [
+        { "$ref": "#/$defs/record_envelope" },
+        {
+          "type": "object",
+          "properties": {
+            "kind": { "const": "facility" },
+            "payload": {
+              "type": "object",
+              "properties": {
+                "name": { "type": "string", "minLength": 1 },
+                "aliases": { "type": "array", "items": { "type": "string", "minLength": 1 } },
+                "facility_type": { "type": "string", "enum": ["training_campus", "office", "medical_performance_centre", "other_site", "match_venue"] },
+                "operating_club_id": {
+                  "anyOf": [
+                    {
+                      "type": "string",
+                      "pattern": "^[a-z][a-z0-9-]*$",
+                      "x-reference": "club"
+                    },
+                    { "type": "null" }
+                  ]
+                },
+                "stadium_id": {
+                  "anyOf": [
+                    {
+                      "type": "string",
+                      "pattern": "^[a-z][a-z0-9-]*$",
+                      "x-reference": "stadium"
+                    },
+                    { "type": "null" }
+                  ]
+                },
+                "parent_facility_id": {
+                  "anyOf": [
+                    {
+                      "type": "string",
+                      "pattern": "^[a-z][a-z0-9-]*$",
+                      "x-reference": "facility"
+                    },
+                    { "type": "null" }
+                  ]
+                },
+                "address": { "$ref": "#/$defs/nullable_address" },
+                "locality": { "$ref": "#/$defs/nullable_locality" }
+              },
+              "required": ["name", "aliases", "facility_type", "operating_club_id", "stadium_id", "parent_facility_id", "address", "locality"],
+              "additionalProperties": false,
+              "allOf": [
+                {
+                  "if": { "properties": { "facility_type": { "const": "match_venue" } } },
+                  "then": { "properties": { "stadium_id": { "type": "string", "pattern": "^[a-z][a-z0-9-]*$" } } }
+                }
+              ]
+            }
+          },
+          "required": ["kind", "payload"]
+        }
+      ],
+      "unevaluatedProperties": false
+    },
+    "facility_use": {
+      "allOf": [
+        { "$ref": "#/$defs/record_envelope" },
+        {
+          "type": "object",
+          "properties": {
+            "kind": { "const": "facility_use" },
+            "payload": {
+              "type": "object",
+              "properties": {
+                "scope": { "$ref": "#/$defs/facility_user_scope" },
+                "facility_id": {
+                  "type": "string",
+                  "pattern": "^[a-z][a-z0-9-]*$",
+                  "x-reference": "facility"
+                },
+                "use_type": { "type": "string", "enum": ["training", "medical_performance", "office", "matchday", "other"] }
+              },
+              "required": ["scope", "facility_id", "use_type"],
+              "additionalProperties": false
+            }
+          },
+          "required": ["kind", "payload"]
+        }
+      ],
+      "unevaluatedProperties": false
+    },
+    "support_department": {
+      "allOf": [
+        { "$ref": "#/$defs/record_envelope" },
+        {
+          "type": "object",
+          "properties": {
+            "kind": { "const": "support_department" },
+            "payload": {
+              "type": "object",
+              "properties": {
+                "scope": {
+                  "oneOf": [
+                    { "$ref": "#/$defs/club_scope" },
+                    { "$ref": "#/$defs/academy_scope" },
+                    { "$ref": "#/$defs/team_programme_scope" }
+                  ]
+                },
+                "name": { "type": "string", "minLength": 1 },
+                "function": { "type": "string", "enum": ["coaching", "medical", "rehabilitation", "performance", "analysis", "recruitment", "operations", "other"] },
+                "reports_to_department_id": {
+                  "anyOf": [
+                    {
+                      "type": "string",
+                      "pattern": "^[a-z][a-z0-9-]*$",
+                      "x-reference": "support_department"
+                    },
+                    { "type": "null" }
+                  ]
+                }
+              },
+              "required": ["scope", "name", "function", "reports_to_department_id"],
+              "additionalProperties": false
+            }
+          },
+          "required": ["kind", "payload"]
+        }
+      ],
+      "unevaluatedProperties": false
+    },
+    "staff_appointment": {
+      "allOf": [
+        { "$ref": "#/$defs/record_envelope" },
+        {
+          "type": "object",
+          "properties": {
+            "kind": { "const": "staff_appointment" },
+            "payload": {
+              "type": "object",
+              "properties": {
+                "person_id": {
+                  "type": "string",
+                  "pattern": "^[a-z][a-z0-9-]*$",
+                  "x-reference": "person"
+                },
+                "club_id": {
+                  "type": "string",
+                  "pattern": "^[a-z][a-z0-9-]*$",
+                  "x-reference": "club"
+                },
+                "scope": { "$ref": "#/$defs/organisation_scope" },
+                "source_job_title": { "type": "string", "minLength": 1 },
+                "normalized_role": {
+                  "type": "string",
+                  "enum": [
+                    "head_coach", "assistant_coach", "goalkeeper_coach", "set_piece_coach", "free_kick_specialist",
+                    "individual_development_coach", "doctor", "physiotherapist", "rehabilitation_specialist", "medical_lead",
+                    "strength_conditioning", "sports_scientist", "nutritionist", "psychologist", "analyst", "scout",
+                    "recruitment", "team_manager", "player_liaison", "kit_staff", "equipment", "travel_logistics", "grounds_staff", "other"
+                  ]
+                },
+                "responsibilities": { "type": "array", "items": { "type": "string", "minLength": 1 } },
+                "announced_at": { "$ref": "#/$defs/nullable_timestamp" },
+                "employment_status": { "type": "string", "enum": ["employee", "contractor", "shared_service", "unknown"] }
+              },
+              "required": ["person_id", "club_id", "scope", "source_job_title", "normalized_role", "responsibilities", "announced_at", "employment_status"],
+              "additionalProperties": false
+            }
+          },
+          "required": ["kind", "payload"]
+        }
+      ],
+      "unevaluatedProperties": false
+    },
+    "coaching_staff_relationship": {
+      "allOf": [
+        { "$ref": "#/$defs/record_envelope" },
+        {
+          "type": "object",
+          "properties": {
+            "kind": { "const": "coaching_staff_relationship" },
+            "payload": {
+              "type": "object",
+              "properties": {
+                "staff_appointment_id": {
+                  "type": "string",
+                  "pattern": "^[a-z][a-z0-9-]*$",
+                  "x-reference": "staff_appointment"
+                },
+                "lead_staff_appointment_id": {
+                  "type": "string",
+                  "pattern": "^[a-z][a-z0-9-]*$",
+                  "x-reference": "staff_appointment"
+                },
+                "scope": { "$ref": "#/$defs/coaching_scope" },
+                "relationship_type": { "type": "string", "enum": ["coaching_team_member", "reports_to"] }
+              },
+              "required": ["staff_appointment_id", "lead_staff_appointment_id", "scope", "relationship_type"],
+              "additionalProperties": false
+            }
+          },
+          "required": ["kind", "payload"]
+        }
+      ],
+      "unevaluatedProperties": false
+    },
+    "match_staff_assignment": {
+      "allOf": [
+        { "$ref": "#/$defs/record_envelope" },
+        {
+          "type": "object",
+          "properties": {
+            "kind": { "const": "match_staff_assignment" },
+            "payload": {
+              "type": "object",
+              "properties": {
+                "fixture_id": {
+                  "type": "string",
+                  "pattern": "^[a-z][a-z0-9-]*$",
+                  "x-reference": "fixture"
+                },
+                "subject": {
+                  "oneOf": [
+                    {
+                      "type": "object",
+                      "properties": {
+                        "subject_type": { "const": "person" },
+                        "person_id": {
+                          "type": "string",
+                          "pattern": "^[a-z][a-z0-9-]*$",
+                          "x-reference": "person"
+                        }
+                      },
+                      "required": ["subject_type", "person_id"],
+                      "additionalProperties": false
+                    },
+                    {
+                      "type": "object",
+                      "properties": {
+                        "subject_type": { "const": "external_service" },
+                        "service_name": { "type": "string", "minLength": 1 }
+                      },
+                      "required": ["subject_type", "service_name"],
+                      "additionalProperties": false
+                    }
+                  ]
+                },
+                "staff_appointment_id": {
+                  "anyOf": [
+                    {
+                      "type": "string",
+                      "pattern": "^[a-z][a-z0-9-]*$",
+                      "x-reference": "staff_appointment"
+                    },
+                    { "type": "null" }
+                  ]
+                },
+                "club_id": {
+                  "anyOf": [
+                    {
+                      "type": "string",
+                      "pattern": "^[a-z][a-z0-9-]*$",
+                      "x-reference": "club"
+                    },
+                    { "type": "null" }
+                  ]
+                },
+                "role": { "type": "string", "minLength": 1 },
+                "technical_area_assignment": { "type": "string", "enum": ["home_bench", "away_bench", "technical_area", "other", "unknown"] }
+              },
+              "required": ["fixture_id", "subject", "staff_appointment_id", "club_id", "role", "technical_area_assignment"],
+              "additionalProperties": false,
+              "allOf": [
+                {
+                  "if": { "properties": { "subject": { "properties": { "subject_type": { "const": "external_service" } } } } },
+                  "then": { "properties": { "staff_appointment_id": { "type": "null" } } }
+                }
+              ]
+            }
+          },
+          "required": ["kind", "payload"]
+        }
+      ],
+      "unevaluatedProperties": false
+    },
+    "attendance_observation": {
+      "allOf": [
+        { "$ref": "#/$defs/record_envelope" },
+        {
+          "type": "object",
+          "properties": {
+            "kind": { "const": "attendance_observation" },
+            "payload": { "$ref": "#/$defs/attendance_payload" }
+          },
+          "required": ["kind", "payload"]
+        }
+      ],
+      "unevaluatedProperties": false
+    },
+    "match_capacity": {
+      "allOf": [
+        { "$ref": "#/$defs/record_envelope" },
+        {
+          "type": "object",
+          "properties": {
+            "kind": { "const": "match_capacity" },
+            "payload": { "$ref": "#/$defs/match_capacity_payload" }
+          },
+          "required": ["kind", "payload"]
+        }
+      ],
+      "unevaluatedProperties": false
+    }
+  }
+}

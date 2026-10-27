@@ -1,0 +1,360 @@
+{
+  "entities": {
+    "Q19840671": {
+      "pageid": 21441719,
+      "ns": 0,
+      "title": "Q19840671",
+      "lastrevid": 2529904098,
+      "modified": "2026-08-11T05:54:45Z",
+      "type": "item",
+      "id": "Q19840671",
+      "labels": {
+        "en": {
+          "language": "en",
+          "value": "2015–16 Chelsea F.C. season"
+        }
+      },
+      "claims": {
+        "P641": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P641",
+              "hash": "1624e15e061523279bc14bb6497168e45caacb32",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 2736,
+                  "id": "Q2736"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q19840671$0D97C855-4C9C-482B-8191-EC5BB3EA3ADD",
+            "rank": "normal"
+          }
+        ],
+        "P31": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P31",
+              "hash": "9ddb403180b684facfb50183c3b3a99ce0b171d1",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 26887310,
+                  "id": "Q26887310"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q19840671$A583EBCA-8658-4223-BEEF-D5AC453654D7",
+            "rank": "normal"
+          }
+        ],
+        "P17": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P17",
+              "hash": "a44880420787fb348836dc51d3babc5227c4ef7e",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 145,
+                  "id": "Q145"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q19840671$246A4B85-FEE5-41A9-8A3B-F437FE8B5B54",
+            "rank": "normal"
+          }
+        ],
+        "P5138": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P5138",
+              "hash": "410fb6a14536e591ac0ef18f69534637c292c5d0",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 9616,
+                  "id": "Q9616"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q19840671$D90EA7D6-B8CD-49A2-AD30-EC794457056B",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "fa278ebfc458360e5aed63d5058cca83c46134f1",
+                "snaks": {
+                  "P143": [
+                    {
+                      "snaktype": "value",
+                      "property": "P143",
+                      "hash": "e4f6d9441d0600513c4533c672b5ab472dc73694",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 328,
+                          "id": "Q328"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P143"
+                ]
+              }
+            ]
+          }
+        ],
+        "P2348": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P2348",
+              "hash": "aa2170c45da73f28c5e261a9d37f3a75ef9799c5",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 53386085,
+                  "id": "Q53386085"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q19840671$1BE54356-87E3-4FF5-94A1-4768B1521489",
+            "rank": "normal"
+          }
+        ],
+        "P155": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P155",
+              "hash": "ca57d3d912adad79448c99027521151fff64c07b",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 16886733,
+                  "id": "Q16886733"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q19840671$B74FBB23-ED9B-490D-888D-B3B1E36A5DEA",
+            "rank": "normal"
+          }
+        ],
+        "P156": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P156",
+              "hash": "97bf6216764e484070be9231aa1d9821f4a45218",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 23809767,
+                  "id": "Q23809767"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q19840671$7939BDC6-813F-455A-B060-79790B2211DC",
+            "rank": "normal"
+          }
+        ],
+        "P18": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P18",
+              "hash": "8bc19468c8ab4586bc0a2dd8df80d3ae800dc5e0",
+              "datavalue": {
+                "value": "Chelsea Team vs DK 2015.jpg",
+                "type": "string"
+              },
+              "datatype": "commonsMedia"
+            },
+            "type": "statement",
+            "id": "Q19840671$76D4228C-E94E-4323-80EE-E21D56B38479",
+            "rank": "normal"
+          }
+        ],
+        "P13337": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P13337",
+              "hash": "079bd911418ff314d34e279dfc9fe8dc405d07de",
+              "datavalue": {
+                "value": "chelseafc.com",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q19840671$9AB85B92-3120-47A0-8A3D-B8EEDCC7257A",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "bf700e58af6e22ec28a5e1f105e771b636efb6e4",
+                "snaks": {
+                  "P1476": [
+                    {
+                      "snaktype": "value",
+                      "property": "P1476",
+                      "hash": "11ffa263689aad6455b06f7e457a5c0794f9c7f0",
+                      "datavalue": {
+                        "value": {
+                          "text": "Internet Domains Wikibase",
+                          "language": "en"
+                        },
+                        "type": "monolingualtext"
+                      },
+                      "datatype": "monolingualtext"
+                    }
+                  ],
+                  "P407": [
+                    {
+                      "snaktype": "value",
+                      "property": "P407",
+                      "hash": "daf1c4fcb58181b02dff9cc89deb084004ddae4b",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 1860,
+                          "id": "Q1860"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ],
+                  "P813": [
+                    {
+                      "snaktype": "value",
+                      "property": "P813",
+                      "hash": "bc178beee95bf5ee4e672d5b6cd6765efba029e8",
+                      "datavalue": {
+                        "value": {
+                          "time": "+2025-03-14T00:00:00Z",
+                          "timezone": 0,
+                          "before": 0,
+                          "after": 0,
+                          "precision": 11,
+                          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                        },
+                        "type": "time"
+                      },
+                      "datatype": "time"
+                    }
+                  ],
+                  "P854": [
+                    {
+                      "snaktype": "value",
+                      "property": "P854",
+                      "hash": "e578eecf3062f0c96f9f91856bddf32faf20a051",
+                      "datavalue": {
+                        "value": "https://domains.wikibase.cloud/entity/Q127208",
+                        "type": "string"
+                      },
+                      "datatype": "url"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P1476",
+                  "P407",
+                  "P813",
+                  "P854"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "sitelinks": {
+        "arwiki": {
+          "site": "arwiki",
+          "title": "تشيلسي موسم 2015–16",
+          "badges": []
+        },
+        "bgwiki": {
+          "site": "bgwiki",
+          "title": "ФК Челси през сезон 2015/16",
+          "badges": []
+        },
+        "enwiki": {
+          "site": "enwiki",
+          "title": "2015–16 Chelsea F.C. season",
+          "badges": []
+        },
+        "frwiki": {
+          "site": "frwiki",
+          "title": "Saison 2015-2016 du Chelsea FC",
+          "badges": []
+        },
+        "idwiki": {
+          "site": "idwiki",
+          "title": "Chelsea F.C. musim 2015–2016",
+          "badges": []
+        },
+        "itwiki": {
+          "site": "itwiki",
+          "title": "Chelsea Football Club 2015-2016",
+          "badges": []
+        },
+        "nlwiki": {
+          "site": "nlwiki",
+          "title": "Chelsea FC in het seizoen 2015/16",
+          "badges": []
+        },
+        "ruwiki": {
+          "site": "ruwiki",
+          "title": "ФК «Челси» в сезоне 2015/2016",
+          "badges": []
+        },
+        "thwiki": {
+          "site": "thwiki",
+          "title": "สโมสรฟุตบอลเชลซีในฤดูกาล 2015–16",
+          "badges": []
+        },
+        "trwiki": {
+          "site": "trwiki",
+          "title": "Chelsea FC 2015-16 sezonu",
+          "badges": []
+        },
+        "viwiki": {
+          "site": "viwiki",
+          "title": "Chelsea F.C. mùa giải 2015-16",
+          "badges": []
+        }
+      }
+    }
+  }
+}

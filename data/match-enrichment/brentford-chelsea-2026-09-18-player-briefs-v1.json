@@ -1,0 +1,469 @@
+{
+  "version": 1,
+  "id": "prepared-player-briefs-v1",
+  "binding": {
+    "datasetId": "brentford-existing-illustration",
+    "datasetVersion": "brent-full-v4-3ea6527ce01ffabe043fc6ba642fe9966e1768ba6421cd3c911e0987478a0bfb",
+    "streamId": "run-brent-full-v4-3ea6527ce01f",
+    "fixtureId": "fixture-pl-2645236",
+    "headSequence": 966,
+    "manifestRevision": 5,
+    "rosterSha256": "4822baadc4e7a1f740325100abc1cf8f759c0e980b17279d39621eaa9dbd34ae",
+    "sourcePins": [
+      {
+        "sourceId": "official-record",
+        "locator": "data/official-match-records/brentford-chelsea-2026-09-18.json",
+        "artifactHash": "c6dd8928c34d30b1d0a8f9f236e3e79cb01d846db190176250e503d689229691"
+      },
+      {
+        "sourceId": "existing-model",
+        "locator": "prototypes/first-experience/pl-reconstructed-model.js",
+        "artifactHash": "36ac29d803e381fb88d74a41627072844a23b0858d545d725430b8893219e277"
+      },
+      {
+        "sourceId": "authored-config",
+        "locator": "data/reconstructed-match-illustrations/brentford-chelsea-2026-09-18.json",
+        "artifactHash": "db698f69556ef7a3eeed4cfeadddffa63bebc395f117575c4fc3ff0f15af521c"
+      },
+      {
+        "sourceId": "event-enrichment",
+        "locator": "data/match-enrichment/brentford-chelsea-2026-09-18-event-context-v2.json",
+        "artifactHash": "c030821a66653600053f539cffc81b3fdf7d7020e944275e24e469aa014e36fd"
+      },
+      {
+        "sourceId": "club-report-review",
+        "locator": "wiki/MATCH-COMMENTARY-REVIEW.md",
+        "artifactHash": "61e4443e7f211746ab51ab31200583209a2f7e373a716c636f54c206a8aa3872"
+      },
+      {
+        "sourceId": "visual-review",
+        "locator": "output/full-match-review/visual-observations.json",
+        "artifactHash": "0dfaa34e1d108d853867ea53e3fa46d160f35720ac02483a5fa7fd2640dfd56b"
+      },
+      {
+        "sourceId": "goal-participants",
+        "locator": "data/match-enrichment/brentford-chelsea-2026-09-18-goal-participants-v1.json",
+        "artifactHash": "1b927d5bc0e0b4d601ef6d5ad4e49d641e2f16161c2edf4a53316c2d90165199"
+      },
+      {
+        "sourceId": "event-sequences",
+        "locator": "data/match-enrichment/brentford-chelsea-2026-09-18-sequences-v2.json",
+        "artifactHash": "4565d97026a115a33194b5a16766d116d0382aba6528e8373c41d193e16e5413"
+      }
+    ],
+    "contextSourceIds": [
+      "official-record",
+      "existing-model",
+      "authored-config"
+    ],
+    "periodIds": [
+      "period-pl-2645236-first",
+      "period-pl-2645236-second"
+    ]
+  },
+  "roster": [
+    {
+      "personId": "person-pl-reference-brentford-kelleher",
+      "teamId": "team-pl-reference-brentford",
+      "name": "Caoimhín Kelleher",
+      "shirt": 1,
+      "selection": "starter"
+    },
+    {
+      "personId": "person-pl-reference-brentford-kayode",
+      "teamId": "team-pl-reference-brentford",
+      "name": "Michael Kayode",
+      "shirt": 33,
+      "selection": "starter"
+    },
+    {
+      "personId": "person-pl-reference-brentford-schuster",
+      "teamId": "team-pl-reference-brentford",
+      "name": "Jannik Schuster",
+      "shirt": 44,
+      "selection": "starter"
+    },
+    {
+      "personId": "person-pl-reference-brentford-ajer",
+      "teamId": "team-pl-reference-brentford",
+      "name": "Kristoffer Ajer",
+      "shirt": 20,
+      "selection": "starter"
+    },
+    {
+      "personId": "person-pl-reference-brentford-lewis-potter",
+      "teamId": "team-pl-reference-brentford",
+      "name": "Keane Lewis-Potter",
+      "shirt": 23,
+      "selection": "starter"
+    },
+    {
+      "personId": "person-pl-reference-brentford-yarmoliuk",
+      "teamId": "team-pl-reference-brentford",
+      "name": "Yehor Yarmoliuk",
+      "shirt": 6,
+      "selection": "starter"
+    },
+    {
+      "personId": "person-pl-reference-brentford-janelt",
+      "teamId": "team-pl-reference-brentford",
+      "name": "Vitaly Janelt",
+      "shirt": 27,
+      "selection": "starter"
+    },
+    {
+      "personId": "person-pl-reference-brentford-anthony",
+      "teamId": "team-pl-reference-brentford",
+      "name": "Jaidon Anthony",
+      "shirt": 19,
+      "selection": "starter"
+    },
+    {
+      "personId": "person-pl-reference-brentford-damsgaard",
+      "teamId": "team-pl-reference-brentford",
+      "name": "Mikkel Damsgaard",
+      "shirt": 24,
+      "selection": "starter"
+    },
+    {
+      "personId": "person-pl-reference-brentford-schade",
+      "teamId": "team-pl-reference-brentford",
+      "name": "Kevin Schade",
+      "shirt": 7,
+      "selection": "starter"
+    },
+    {
+      "personId": "person-pl-reference-brentford-thiago",
+      "teamId": "team-pl-reference-brentford",
+      "name": "Igor Thiago",
+      "shirt": 9,
+      "selection": "starter"
+    },
+    {
+      "personId": "person-pl-reference-brentford-hickey",
+      "teamId": "team-pl-reference-brentford",
+      "name": "Aaron Hickey",
+      "shirt": 2,
+      "selection": "bench"
+    },
+    {
+      "personId": "person-pl-reference-brentford-henry",
+      "teamId": "team-pl-reference-brentford",
+      "name": "Rico Henry",
+      "shirt": 3,
+      "selection": "bench"
+    },
+    {
+      "personId": "person-pl-reference-brentford-ouattara",
+      "teamId": "team-pl-reference-brentford",
+      "name": "Dango Ouattara",
+      "shirt": 11,
+      "selection": "bench"
+    },
+    {
+      "personId": "person-pl-reference-brentford-wilson",
+      "teamId": "team-pl-reference-brentford",
+      "name": "Callum Wilson",
+      "shirt": 13,
+      "selection": "bench"
+    },
+    {
+      "personId": "person-pl-reference-brentford-carvalho",
+      "teamId": "team-pl-reference-brentford",
+      "name": "Fábio Carvalho",
+      "shirt": 14,
+      "selection": "bench"
+    },
+    {
+      "personId": "person-pl-reference-brentford-sangare",
+      "teamId": "team-pl-reference-brentford",
+      "name": "Mamadou Sangaré",
+      "shirt": 18,
+      "selection": "bench"
+    },
+    {
+      "personId": "person-pl-reference-brentford-diouf",
+      "teamId": "team-pl-reference-brentford",
+      "name": "El Hadji Malick Diouf",
+      "shirt": 25,
+      "selection": "bench"
+    },
+    {
+      "personId": "person-pl-reference-brentford-balcombe",
+      "teamId": "team-pl-reference-brentford",
+      "name": "Ellery Balcombe",
+      "shirt": 31,
+      "selection": "bench"
+    },
+    {
+      "personId": "person-pl-reference-brentford-fredrick",
+      "teamId": "team-pl-reference-brentford",
+      "name": "Benjamin Fredrick",
+      "shirt": 48,
+      "selection": "bench"
+    },
+    {
+      "personId": "person-pl-reference-chelsea-martinez",
+      "teamId": "team-pl-reference-chelsea",
+      "name": "Emiliano Martinez",
+      "shirt": 1,
+      "selection": "starter"
+    },
+    {
+      "personId": "person-pl-reference-chelsea-fofana",
+      "teamId": "team-pl-reference-chelsea",
+      "name": "Wesley Fofana",
+      "shirt": 3,
+      "selection": "starter"
+    },
+    {
+      "personId": "person-pl-reference-chelsea-lacroix",
+      "teamId": "team-pl-reference-chelsea",
+      "name": "Maxence Lacroix",
+      "shirt": 5,
+      "selection": "starter"
+    },
+    {
+      "personId": "person-pl-reference-chelsea-colwill",
+      "teamId": "team-pl-reference-chelsea",
+      "name": "Levi Colwill",
+      "shirt": 6,
+      "selection": "starter"
+    },
+    {
+      "personId": "person-pl-reference-chelsea-neto",
+      "teamId": "team-pl-reference-chelsea",
+      "name": "Pedro Neto",
+      "shirt": 7,
+      "selection": "starter"
+    },
+    {
+      "personId": "person-pl-reference-chelsea-henderson",
+      "teamId": "team-pl-reference-chelsea",
+      "name": "Jordan Henderson",
+      "shirt": 14,
+      "selection": "starter"
+    },
+    {
+      "personId": "person-pl-reference-chelsea-barco",
+      "teamId": "team-pl-reference-chelsea",
+      "name": "Valentin Barco",
+      "shirt": 4,
+      "selection": "starter"
+    },
+    {
+      "personId": "person-pl-reference-chelsea-chavarria",
+      "teamId": "team-pl-reference-chelsea",
+      "name": "Pep Chavarria",
+      "shirt": 29,
+      "selection": "starter"
+    },
+    {
+      "personId": "person-pl-reference-chelsea-palmer",
+      "teamId": "team-pl-reference-chelsea",
+      "name": "Cole Palmer",
+      "shirt": 10,
+      "selection": "starter"
+    },
+    {
+      "personId": "person-pl-reference-chelsea-rogers",
+      "teamId": "team-pl-reference-chelsea",
+      "name": "Morgan Rogers",
+      "shirt": 17,
+      "selection": "starter"
+    },
+    {
+      "personId": "person-pl-reference-chelsea-welbeck",
+      "teamId": "team-pl-reference-chelsea",
+      "name": "Danny Welbeck",
+      "shirt": 18,
+      "selection": "starter"
+    },
+    {
+      "personId": "person-pl-reference-chelsea-gittens",
+      "teamId": "team-pl-reference-chelsea",
+      "name": "Jamie Gittens",
+      "shirt": 11,
+      "selection": "bench"
+    },
+    {
+      "personId": "person-pl-reference-chelsea-hato",
+      "teamId": "team-pl-reference-chelsea",
+      "name": "Jorrel Hato",
+      "shirt": 21,
+      "selection": "bench"
+    },
+    {
+      "personId": "person-pl-reference-chelsea-quenda",
+      "teamId": "team-pl-reference-chelsea",
+      "name": "Geovany Quenda",
+      "shirt": 23,
+      "selection": "bench"
+    },
+    {
+      "personId": "person-pl-reference-chelsea-gusto",
+      "teamId": "team-pl-reference-chelsea",
+      "name": "Malo Gusto",
+      "shirt": 27,
+      "selection": "bench"
+    },
+    {
+      "personId": "person-pl-reference-chelsea-nicoll-jazuli",
+      "teamId": "team-pl-reference-chelsea",
+      "name": "Mahdi Nicoll-Jazuli",
+      "shirt": 32,
+      "selection": "bench"
+    },
+    {
+      "personId": "person-pl-reference-chelsea-acheampong",
+      "teamId": "team-pl-reference-chelsea",
+      "name": "Josh Acheampong",
+      "shirt": 34,
+      "selection": "bench"
+    },
+    {
+      "personId": "person-pl-reference-chelsea-penders",
+      "teamId": "team-pl-reference-chelsea",
+      "name": "Mike Penders",
+      "shirt": 39,
+      "selection": "bench"
+    },
+    {
+      "personId": "person-pl-reference-chelsea-estevao",
+      "teamId": "team-pl-reference-chelsea",
+      "name": "Estevao Willian",
+      "shirt": 41,
+      "selection": "bench"
+    },
+    {
+      "personId": "person-pl-reference-chelsea-lavia",
+      "teamId": "team-pl-reference-chelsea",
+      "name": "Romeo Lavia",
+      "shirt": 45,
+      "selection": "bench"
+    }
+  ],
+  "sources": [
+    {
+      "sourceId": "player-brief-review",
+      "locator": "output/player-performance-review/danny-v1/review.json",
+      "artifactHash": "f679871aa71147b15941d548cdc401dfb812c6afbb58f9605490553a899b7d58"
+    },
+    {
+      "sourceId": "player-brief-chelsea-report",
+      "locator": "https://www.chelseafc.com/en/news/article/match-report-brentford-3-0-chelsea",
+      "artifactHash": null
+    },
+    {
+      "sourceId": "player-brief-brentford-report",
+      "locator": "https://www.brentfordfc.com/en/news/match-reports-brentford-3-chelsea-0-premier-league-jaidon-anthony-igor-thiago-fabio-carvalho",
+      "artifactHash": null
+    },
+    {
+      "sourceId": "player-brief-replay",
+      "locator": "https://www.brentfordfc.com/en/video/0_2hoy7vw7?provider=stream",
+      "artifactHash": "87b511b61f3d48e410294e06bf71bbc3a88c7b7ca6a50b89e572808c3e82711f"
+    }
+  ],
+  "observations": [
+    {
+      "id": "dw-chance-01",
+      "personId": "person-pl-reference-chelsea-welbeck",
+      "footballTime": {
+        "periodId": "period-pl-2645236-first",
+        "startMs": 540000,
+        "endMs": 600000,
+        "precision": "reported_minute",
+        "endInclusive": false,
+        "reportedClock": "9 (Brentford) / 10 (Chelsea)"
+      },
+      "eligibleAfterMs": 600000,
+      "text": "Both club reports attribute an early layoff to Welbeck that set up Neto's shot, saved by Kelleher, after a Chavarria delivery.",
+      "qualification": "Nine versus tenth-minute wording retained. One reported chance contribution, not a formal goal assist, exact contact time, chance total or complete performance rating. Still samples do not prove every contact.",
+      "evidence": [
+        {
+          "evidenceId": "dw-chance-01-chelsea-report",
+          "sourceId": "player-brief-chelsea-report",
+          "locator": "Bright beginning, paragraph beginning Cole Palmer; web inspection 2026-10-23, extracted line18; reported minute 10",
+          "origin": "real",
+          "method": "reported",
+          "claimStatus": "reported",
+          "availableAtUtc": null,
+          "originalFlags": "Identity review frame media-00630.png SHA256 8eb9dc2963460462665359692516770696416f069d36704b52e956a880246f14"
+        },
+        {
+          "evidenceId": "dw-chance-01-brentford-report",
+          "sourceId": "player-brief-brentford-report",
+          "locator": "First chance paragraph; web inspection 2026-10-23, extracted line61; reported minute 9",
+          "origin": "real",
+          "method": "reported",
+          "claimStatus": "reported",
+          "availableAtUtc": null,
+          "originalFlags": "Identity review frame media-00630.png SHA256 8eb9dc2963460462665359692516770696416f069d36704b52e956a880246f14"
+        }
+      ],
+      "relatedPersonIds": [
+        "person-pl-reference-chelsea-neto",
+        "person-pl-reference-brentford-kelleher",
+        "person-pl-reference-chelsea-chavarria"
+      ]
+    },
+    {
+      "id": "dw-run-point-01",
+      "personId": "person-pl-reference-chelsea-welbeck",
+      "footballTime": {
+        "periodId": "period-pl-2645236-second",
+        "startMs": 239000,
+        "endMs": 239000,
+        "precision": "source_sample",
+        "endInclusive": true,
+        "reportedClock": "48:59"
+      },
+      "eligibleAfterMs": 300000,
+      "text": "A readable Chelsea18 is inside the penalty area alongside a defender, with the ball at or immediately in front of him.",
+      "qualification": "Point identity/ball proximity only. The run/offside commentary remains unverified; no confirmed offside, successful carry, shot, speed or run distance is established. Repeated footage is not an extra action.",
+      "evidence": [
+        {
+          "evidenceId": "dw-run-point-01-frame",
+          "sourceId": "player-brief-replay",
+          "locator": "media-03032.png; SHA256 294d261d31f1aa40e3b5485a4a79a4fdf521ea364264149f285ae354c3604b3e; displayed clock 48:59",
+          "origin": "real",
+          "method": "observed",
+          "claimStatus": "confirmed",
+          "availableAtUtc": null,
+          "originalFlags": "Reviewed point only; retained video SHA256 87b511b61f3d48e410294e06bf71bbc3a88c7b7ca6a50b89e572808c3e82711f"
+        }
+      ],
+      "relatedPersonIds": []
+    },
+    {
+      "id": "dw-attacking-presence-01",
+      "personId": "person-pl-reference-chelsea-welbeck",
+      "footballTime": {
+        "periodId": "period-pl-2645236-second",
+        "startMs": 835000,
+        "endMs": 835000,
+        "precision": "source_sample",
+        "endInclusive": true,
+        "reportedClock": "58:55"
+      },
+      "eligibleAfterMs": 840000,
+      "text": "Readable Chelsea18 is centrally positioned in attack while a teammate has the ball farther left.",
+      "qualification": "Position/presence at one reviewed instant. No proven intended recipient, missed pass, shot, movement duration, tactical assignment or lost opportunity. A repeated view is not another action.",
+      "evidence": [
+        {
+          "evidenceId": "dw-attacking-presence-01-frame",
+          "sourceId": "player-brief-replay",
+          "locator": "media-03628.png; SHA256 9b635bb4dfebdf6abc257211b7dc69dc58ffad8e6dcf8ddafbc93b8b5f68e34a; displayed clock 58:55",
+          "origin": "real",
+          "method": "observed",
+          "claimStatus": "confirmed",
+          "availableAtUtc": null,
+          "originalFlags": "Reviewed point only; retained video SHA256 87b511b61f3d48e410294e06bf71bbc3a88c7b7ca6a50b89e572808c3e82711f"
+        }
+      ],
+      "relatedPersonIds": []
+    }
+  ],
+  "coverage": "Selected reviewed passages only, not an exhaustive action or player-statistics feed. Missing observations and missing metrics are not zeros. No full-match rating, inferred formal assists, offside, tactical assignment or individual blame."
+}

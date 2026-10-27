@@ -1,0 +1,29 @@
+{
+  "retrieved_at": "2026-10-15",
+  "repository": "https://github.com/openfootball/football.json",
+  "commit": "e6744429ee395bc86f247348c6184bb08d4eb361",
+  "license": "CC0-1.0; included in CC0-1.0.txt",
+  "license_url": "https://raw.githubusercontent.com/openfootball/football.json/e6744429ee395bc86f247348c6184bb08d4eb361/LICENSE.md",
+  "upstream": "Generated from openfootball/england Football.TXT. Community-maintained, not an official Premier League feed. Upstream README/NOTES provide general references, not per-match original-source citations. CC0 applies to the affirmer's rights and gives no third-party-rights or accuracy warranty. No club crest/trademark rights are granted by this data licence.",
+  "upstream_repository": "https://github.com/openfootball/england",
+  "upstream_observed_commit": "b17e8f01707d83d2ce1790c14d4a5eeb35987825",
+  "view": "Retrospective corrected end of played calendar date. Not known-then, intraday, live or original-schedule replay. Kickoff strings have no explicit timezone and are not used.",
+  "adjustments": "Results-only calculation. No point deductions/adjustments are supplied or invented; generic adjustment support is not implemented. Checked terminal leader totals agree with primary league reports, not an exhaustive audit of every result/date.",
+  "seasons": {
+    "2015/16": {"file":"2015-16.json","source_url":"https://raw.githubusercontent.com/openfootball/football.json/e6744429ee395bc86f247348c6184bb08d4eb361/2015-16/en.1.json","sha256":"4d8ab70f5d2c29231320be7404310bc1b0fbc6e6be0284e5ee667f581406fead","matches":380,"clubs":20,"first_played_date":"2015-08-08","last_played_date":"2016-05-17"},
+    "2016/17": {"file":"2016-17.json","source_url":"https://raw.githubusercontent.com/openfootball/football.json/e6744429ee395bc86f247348c6184bb08d4eb361/2016-17/en.1.json","sha256":"9c8cdb27355678ab81aacbbabc34a08d00b399aacc28ef4b733da4954a344f17","matches":380,"clubs":20,"first_played_date":"2016-08-13","last_played_date":"2017-05-21"}
+  },
+  "rule_sources": {
+    "2015/16":"https://www.sec.gov/Archives/edgar/data/1549107/000104746915007881/a2225776zex-4_10.htm",
+    "2016/17":"https://www.sec.gov/Archives/edgar/data/1549107/000104746916015489/a2229659zex-4_11.htm",
+    "rules":"League-authored handbooks filed as Manchester United exhibits: C.2 three/one points; C.4-C.6 points, goal difference, goals scored; C.7 shared position; C.17 neutral deciding matches if final title/relegation/qualification unresolved. Alphabetical display is not a sporting tiebreak. No modern head-to-head rule applied."
+  },
+  "primary_crosschecks": [
+    "https://www.premierleague.com/en/news/67802",
+    "https://www.premierleague.com/en/news/394230/match-summary",
+    "https://www.premierleague.com/en/news/388036/match-summary",
+    "https://www.premierleague.com/en/news/396991/kane-scores-four-as-spurs-hit-foxes-for-six",
+    "https://www.premierleague.com/en/news/46357/home-fortress-can-boost-man-utds-european-hopes"
+  ],
+  "excluded":"No football-data.co.uk files fetched. footballcsv/england not adopted: its NOTES trace to jalapic/engsoccerdata whose source list includes football-data.co.uk. StatsBomb not used."
+}

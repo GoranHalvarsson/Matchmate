@@ -1,0 +1,38 @@
+{
+  "provisioningStatus": "deployed",
+  "verificationDate": "2026-10-24",
+  "subscriptionId": "f296c67c-af5b-48e6-9b42-953224b0e69f",
+  "resourceGroup": "rg-matchmate-dev-swedencentral",
+  "location": "swedencentral",
+  "name": "acrmatchmatedev01",
+  "resourceId": "/subscriptions/f296c67c-af5b-48e6-9b42-953224b0e69f/resourceGroups/rg-matchmate-dev-swedencentral/providers/Microsoft.ContainerRegistry/registries/acrmatchmatedev01",
+  "loginServer": "acrmatchmatedev01.azurecr.io",
+  "sku": "Basic",
+  "adminUserEnabled": false,
+  "anonymousPullEnabled": false,
+  "publicNetworkAccess": "Enabled",
+  "roleAssignmentMode": "LegacyRegistryPermissions",
+  "armAudienceAuthenticationEnabled": true,
+  "pullIdentity": {
+    "existing": true,
+    "name": "id-matchmate-registry-pull",
+    "resourceGroup": "rg-matchmate-dev-swedencentral",
+    "resourceId": "/subscriptions/f296c67c-af5b-48e6-9b42-953224b0e69f/resourcegroups/rg-matchmate-dev-swedencentral/providers/Microsoft.ManagedIdentity/userAssignedIdentities/id-matchmate-registry-pull",
+    "clientId": "1fdf2aca-df5d-4672-8c7b-b80dd11c19d6",
+    "principalId": "e807f470-22e8-4c98-8765-d18d616c1018",
+    "role": "AcrPull"
+  },
+  "publisherIdentity": {
+    "existing": true,
+    "name": "id-matchmate-github-dev",
+    "resourceGroup": "rg-matchmate-dev-swedencentral",
+    "resourceId": "/subscriptions/f296c67c-af5b-48e6-9b42-953224b0e69f/resourceGroups/rg-matchmate-dev-swedencentral/providers/Microsoft.ManagedIdentity/userAssignedIdentities/id-matchmate-github-dev",
+    "principalId": "f7c25144-981a-4a2d-876e-984ca03ed56e",
+    "roles": ["Reader", "AcrPush"]
+  },
+  "repositories": {
+    "web": "matchmate/web",
+    "api": "matchmate/api",
+    "worker": "matchmate/worker"
+  }
+}

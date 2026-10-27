@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms</value></resheader>
+  <data name="Question.Summary" xml:space="preserve"><value>¿Qué ha pasado hasta ahora?</value></data>
+  <data name="Question.Positions" xml:space="preserve"><value>Explica este momento</value></data>
+  <data name="Question.Player" xml:space="preserve"><value>¿Qué puedes contarme de este jugador?</value></data>
+  <data name="Question.Statistics" xml:space="preserve"><value>Mostrar estadísticas de la repetición</value></data>
+  <data name="Stats.Prefix" xml:space="preserve"><value>En esta repetición generada, a las {0}: </value></data>
+  <data name="Stats.ActualUnavailable" xml:space="preserve"><value>esta ilustración no ofrece estadísticas reales del partido.</value></data>
+  <data name="Stats.TargetUnavailable" xml:space="preserve"><value>esta ilustración no ofrece totales de tiros a puerta ni fuera de puerta.</value></data>
+  <data name="Stats.MeasuredUnavailable" xml:space="preserve"><value>esta ilustración no ofrece xG ni estadísticas de movimiento medido.</value></data>
+  <data name="Stats.PlayerUnavailable" xml:space="preserve"><value>estas estadísticas de equipo no ofrecen totales individuales ni por receptor de pases.</value></data>
+  <data name="Stats.WindowUnavailable" xml:space="preserve"><value>ese intervalo no está disponible; estos totales abarcan acciones terminadas hasta este momento de la repetición.</value></data>
+  <data name="Stats.ShotsNone" xml:space="preserve"><value>{0} aún no tiene tiros terminados</value></data>
+  <data name="Stats.ShotsZero" xml:space="preserve"><value>{0} no tiene ninguno</value></data>
+  <data name="Stats.ShotOne" xml:space="preserve"><value>{0} ha realizado un tiro</value></data>
+  <data name="Stats.ShotsMany" xml:space="preserve"><value>{0} ha realizado {1} tiros</value></data>
+  <data name="Stats.AttemptsZero" xml:space="preserve"><value>{0} aún no tiene intentos de pase terminados</value></data>
+  <data name="Stats.AttemptsOne" xml:space="preserve"><value>{0} ha realizado un intento de pase</value></data>
+  <data name="Stats.AttemptsMany" xml:space="preserve"><value>{0} ha realizado {1} intentos de pase</value></data>
+  <data name="Stats.CompletedZero" xml:space="preserve"><value>{0} aún no tiene pases completados</value></data>
+  <data name="Stats.CompletedOne" xml:space="preserve"><value>{0} ha completado un pase</value></data>
+  <data name="Stats.CompletedMany" xml:space="preserve"><value>{0} ha completado {1} pases</value></data>
+  <data name="Stats.RateZero" xml:space="preserve"><value>{0} aún no tiene intentos de pase terminados, por lo que el porcentaje no está disponible</value></data>
+  <data name="Stats.Rate" xml:space="preserve"><value>{0} ha completado {1} de {2} {3} ({4})</value></data>
+  <data name="Stats.PassOne" xml:space="preserve"><value>pase</value></data>
+  <data name="Stats.PassMany" xml:space="preserve"><value>pases</value></data>
+  <data name="Stats.ControlTime" xml:space="preserve"><value>{0} tiene {1} de control ilustrado</value></data>
+  <data name="Stats.ControlShare" xml:space="preserve"><value>{0}: cuota de control ilustrado {1}</value></data>
+  <data name="Stats.FinishedOnly" xml:space="preserve"><value> Solo cuentan los periodos terminados.</value></data>
+  <data name="Stats.ControlDenominator" xml:space="preserve"><value> Las cuotas usan {0} de periodos de control terminados.</value></data>
+  <data name="Stats.Exclusions" xml:space="preserve"><value> Se excluyen pausas, reinicios, tiempo desconocido y periodos sin terminar.</value></data>
+  <data name="Stats.Overview" xml:space="preserve"><value>{0}: {1} {2}; {3} de {4} {5} completados ({6}); control ilustrado {7} (cuota {8})</value></data>
+  <data name="Stats.ShotWordOne" xml:space="preserve"><value>tiro</value></data>
+  <data name="Stats.ShotWordMany" xml:space="preserve"><value>tiros</value></data>
+  <data name="Stats.Unavailable" xml:space="preserve"><value>no disponible</value></data>
+  <data name="Stats.Seconds" xml:space="preserve"><value>{0} segundos</value></data>
+  <data name="Stats.Second" xml:space="preserve"><value>{0} segundo</value></data>
+  <data name="Stats.Minutes" xml:space="preserve"><value>{0} min</value></data>
+  <data name="Stats.MinutesSeconds" xml:space="preserve"><value>{0} min {1} s</value></data>
+  <data name="Stats.MethodShots" xml:space="preserve"><value> Los recuentos solo incluyen acciones de tiro generadas y terminadas, no tiros a puerta ni totales reales.</value></data>
+  <data name="Stats.MethodAttempts" xml:space="preserve"><value> Los intentos cuentan acciones de pase generadas y terminadas, incluidos pases completados y pérdidas.</value></data>
+  <data name="Stats.MethodCompleted" xml:space="preserve"><value> Los pases completados son la parte exitosa de los intentos de pase generados y terminados.</value></data>
+  <data name="Stats.MethodRate" xml:space="preserve"><value> El porcentaje divide pases completados entre intentos de pase terminados; sin intentos no está disponible.</value></data>
+  <data name="Stats.MethodTime" xml:space="preserve"><value> La duración suma solo los periodos de control generados y terminados del equipo.</value></data>
+  <data name="Stats.MethodShare" xml:space="preserve"><value> Cada cuota divide el control terminado del equipo entre el total de control clasificado y terminado.</value></data>
+  <data name="Stats.MethodOverview" xml:space="preserve"><value> El porcentaje divide pases completados entre intentos terminados. Los tiros cuentan acciones generadas y terminadas; las cuotas dividen el control terminado del equipo entre el total clasificado.</value></data>
+  <data name="Language.Instruction" xml:space="preserve"><value>Responde en español.</value></data>
+  <data name="Source.NoScore" xml:space="preserve"><value>Aquí no se facilita un marcador, así que no puedo decir quién va por delante.</value></data>
+  <data name="Source.Level" xml:space="preserve"><value>{0} y {1} empatan {2}–{3} según los goles notificados hasta ahora.</value></data>
+  <data name="Source.Lead" xml:space="preserve"><value>{0} va por delante de {1} por {2}–{3} según los goles notificados hasta ahora.</value></data>
+  <data name="Source.GeneratedPositions" xml:space="preserve"><value>Las posiciones dibujan una posible situación de juego; son una ilustración, no un registro del movimiento real.</value></data>
+  <data name="Source.RecordedPositions" xml:space="preserve"><value>Estas posiciones son observaciones y estimaciones registradas: una instantánea, no un relato continuo del juego.</value></data>
+  <data name="Source.UnknownPositions" xml:space="preserve"><value>La fuente no establece cómo se obtuvieron estas posiciones.</value></data>
+  <data name="Source.Gap" xml:space="preserve"><value>Aquí hay un hueco. Las posiciones ausentes siguen ausentes y no se arrastran.</value></data>
+  <data name="Source.NoCarry" xml:space="preserve"><value>Las posiciones ausentes siguen ausentes; la pantalla no las arrastra.</value></data>
+  <data name="Source.PositionLimits" xml:space="preserve"><value>Esta pantalla por sí sola no permite establecer carreras, estadísticas medidas ni tareas tácticas.</value></data>
+  <data name="Source.NoBall" xml:space="preserve"><value>Aquí no hay una posición del balón disponible.</value></data>
+  <data name="Source.BallObserved" xml:space="preserve"><value>El balón tiene una posición observada en esta muestra.</value></data>
+  <data name="Source.BallEstimated" xml:space="preserve"><value>La posición del balón es una estimación.</value></data>
+  <data name="Source.BallGenerated" xml:space="preserve"><value>La posición del balón es ilustrada, no registrada.</value></data>
+  <data name="Source.BallUnknown" xml:space="preserve"><value>Se muestra una posición del balón, pero no se especifica el método.</value></data>
+  <data name="Source.PlayerIdentity" xml:space="preserve"><value>{0} figura en {1}</value></data>
+  <data name="Source.PlayerShirt" xml:space="preserve"><value>{0}, con el dorsal {1}.</value></data>
+  <data name="Source.PlayerShirtOnly" xml:space="preserve"><value>{0} lleva el dorsal {1}.</value></data>
+  <data name="Source.PlayerNoPosition" xml:space="preserve"><value>Aquí no hay una posición actual disponible. Eso por sí solo no indica si jugó.</value></data>
+  <data name="Source.PlayerGenerated" xml:space="preserve"><value>La posición mostrada es una ilustración, no una carrera registrada ni una prueba de intención.</value></data>
+  <data name="Source.PlayerObserved" xml:space="preserve"><value>Hay una posición registrada en este momento; un solo punto no establece una carrera.</value></data>
+  <data name="Source.PlayerEstimated" xml:space="preserve"><value>La posición actual es una estimación, no un movimiento verificado.</value></data>
+  <data name="Source.PlayerUnknown" xml:space="preserve"><value>Se muestra una posición, pero no se especifica el método. No establece una carrera.</value></data>
+  <data name="Source.PlayerLimited" xml:space="preserve"><value>Es una imagen limitada, no una valoración de todo el partido.</value></data>
+  <data name="Source.RawNotes" xml:space="preserve"><value>Los pasajes revisados figuran en las pruebas de apoyo en su inglés original.</value></data>
+  <data name="Source.MethodSummary" xml:space="preserve"><value> El marcador usa solo goles notificados y disponibles en este punto de la repetición; la falta de informes impide establecer un marcador real completo.</value></data>
+  <data name="Source.MethodCoverage" xml:space="preserve"><value> Los métodos describen cómo se obtuvo cada posición; una sola muestra no establece movimiento medido ni una tarea táctica.</value></data>
+  <data name="Source.MethodPlayerGenerated" xml:space="preserve"><value> Método: muestra de posición generada. Es geometría ilustrativa, no movimiento medido; las notas revisadas conservan sus límites de fuente y tiempo.</value></data>
+  <data name="Source.MethodPlayerEstimated" xml:space="preserve"><value> Método: muestra de posición estimada de la fuente. No es una carrera verificada; las notas conservan sus límites de fuente y tiempo.</value></data>
+  <data name="Source.MethodPlayerObserved" xml:space="preserve"><value> Método: muestra de posición observada. Un punto no mide una carrera; las notas conservan sus límites de fuente y tiempo.</value></data>
+  <data name="Source.MethodPlayerUnknown" xml:space="preserve"><value> No se conoce el método de posición actual; las pruebas ausentes siguen siendo desconocidas. Las notas conservan sus límites de fuente y tiempo.</value></data>
+  <data name="Feedback.Input" xml:space="preserve"><value>Escribe un texto válido de hasta 1.000 caracteres.</value></data>
+  <data name="Feedback.Ready" xml:space="preserve"><value>Elige primero un momento de la repetición que esté listo.</value></data>
+  <data name="Feedback.SignIn" xml:space="preserve"><value>Inicia sesión con tu cuenta de prueba para conversar.</value></data>
+  <data name="Feedback.Disconnected" xml:space="preserve"><value>Los seguimientos con IA aún no están conectados. Elige una pregunta sugerida.</value></data>
+  <data name="Feedback.InvalidContext" xml:space="preserve"><value>Elige un contexto válido y listo antes de enviar una pregunta.</value></data>
+  <data name="Feedback.Routing" xml:space="preserve"><value>La selección de flujo no está disponible o devolvió una decisión inválida. No se recuperaron datos.</value></data>
+  <data name="Feedback.NamedReference" xml:space="preserve"><value>No pude mantener ese seguimiento vinculado al jugador anterior. Indica su nombre.</value></data>
+  <data name="Feedback.SelectPlayer" xml:space="preserve"><value>Selecciona un jugador en el campo o la plantilla y vuelve a preguntar.</value></data>
+  <data name="Feedback.Clarify" xml:space="preserve"><value>¿Puedes aclarar el evento, jugador o ámbito de repetición/directo al que te refieres?</value></data>
+  <data name="Feedback.Unsupported" xml:space="preserve"><value>Este flujo no admite la función solicitada.</value></data>
+  <data name="Feedback.Unavailable" xml:space="preserve"><value>Los datos solicitados no están disponibles.</value></data>
+  <data name="Feedback.StatisticsUnavailable" xml:space="preserve"><value>Las estadísticas de la repetición generada no están disponibles para esta grabación en este momento. La ilustración no ofrece estadísticas reales del partido.</value></data>
+  <data name="Feedback.Retrieval" xml:space="preserve"><value>No se pudieron recuperar las pruebas con seguridad. No se aportaron datos de sustitución.</value></data>
+  <data name="Feedback.Stale" xml:space="preserve"><value>Cambió la sesión o el contexto de la repetición; se descartó la respuesta.</value></data>
+  <data name="Feedback.Cancelled" xml:space="preserve"><value>La solicitud se canceló, cambió de contexto o agotó el tiempo. No se añadió una respuesta.</value></data>
+  <data name="Feedback.UserCancelled" xml:space="preserve"><value>Respuesta cancelada.</value></data>
+  <data name="Feedback.Grounded" xml:space="preserve"><value>Respuesta basada en las pruebas del flujo seleccionado.</value></data>
+  <data name="Feedback.Partial" xml:space="preserve"><value>La respuesta usa pruebas parciales con cobertura limitada.</value></data>
+  <data name="Feedback.Failure" xml:space="preserve"><value>No se pudo completar la respuesta con seguridad. No se añadió una respuesta.</value></data>
+  <data name="Visual.Goal" xml:space="preserve"><value>Elige un gol en los momentos destacados y pregunta cómo ocurrió.</value></data>
+  <data name="Visual.Substitution" xml:space="preserve"><value>Elige una sustitución en los momentos destacados y pide su diagrama.</value></data>
+  <data name="Visual.Card" xml:space="preserve"><value>Elige una amonestación en los momentos destacados y pide su diagrama.</value></data>
+  <data name="Visual.Possession" xml:space="preserve"><value>Elige un periodo de posesión terminado en los momentos destacados y pide su diagrama.</value></data>
+  <data name="Visual.Event" xml:space="preserve"><value>Elige un evento admitido en los momentos destacados y pide su diagrama.</value></data>
+  <data name="Visual.Fallback" xml:space="preserve"><value>El diagrama del evento aparece debajo. Se mantienen las limitaciones de fuente en cada paso. Las posiciones de gol son ilustrativas; los periodos terminados no establecen la posesión actual.</value></data>
+  <data name="Chart.Show" xml:space="preserve"><value>Mostrar gráfico</value></data>
+  <data name="Chart.Hide" xml:space="preserve"><value>Ocultar gráfico</value></data>
+  <data name="Chart.Generated" xml:space="preserve"><value>Repetición generada</value></data>
+  <data name="Chart.Reported" xml:space="preserve"><value>Incidencias notificadas</value></data>
+  <data name="Chart.Goals" xml:space="preserve"><value>Goles</value></data>
+  <data name="Chart.YellowCards" xml:space="preserve"><value>Tarjetas amarillas</value></data>
+  <data name="Chart.RedCards" xml:space="preserve"><value>Tarjetas rojas</value></data>
+  <data name="Chart.Substitutions" xml:space="preserve"><value>Cambios</value></data>
+  <data name="Chart.ReportedNote" xml:space="preserve"><value>Recuentos de los informes disponibles hasta este momento de la repetición; la cobertura puede ser incompleta. Cero indica que no hay un informe disponible, no que no haya ocurrido ninguna incidencia. No son estadísticas medidas del partido.</value></data>
+  <data name="Chart.PassAttempts" xml:space="preserve"><value>Pases intentados</value></data>
+  <data name="Chart.PassAccuracy" xml:space="preserve"><value>Precisión de pase</value></data>
+  <data name="Chart.Shots" xml:space="preserve"><value>Tiros</value></data>
+  <data name="Chart.Match" xml:space="preserve"><value>{0} contra {1}</value></data>
+  <data name="Chart.Clock" xml:space="preserve"><value>Repetición en {0}</value></data>
+  <data name="Chart.ChooseMetric" xml:space="preserve"><value>Elegir métrica del gráfico</value></data>
+  <data name="Chart.Completed" xml:space="preserve"><value>{0} de {1} pases completados</value></data>
+  <data name="Chart.NoAttempts" xml:space="preserve"><value>No disponible · sin intentos</value></data>
+  <data name="Chart.Note" xml:space="preserve"><value>Solo acciones generadas finalizadas. Son totales ilustrativos, no estadísticas del partido real.</value></data>
+  <data name="Chart.Unavailable" xml:space="preserve"><value> Los gráficos admiten intentos de pase, precisión de pase y tiros por equipo en este momento de la repetición. Elige una de esas métricas sin otra condición.</value></data>
+  <data name="Chart.CompareTeams" xml:space="preserve"><value>Comparar equipos</value></data>
+  <data name="Source.Reported.Intro" xml:space="preserve"><value>En el minuto {0} de la repetición, esto es lo que indican los informes disponibles hasta ahora.</value></data>
+  <data name="Source.Reported.SoFar" xml:space="preserve"><value>Notificado hasta ahora:</value></data>
+  <data name="Source.Reported.Team" xml:space="preserve"><value>{0} — goles {1}, tarjetas amarillas {2}, tarjetas rojas {3}, cambios {4}.</value></data>
+  <data name="Source.Reported.Recent" xml:space="preserve"><value>Últimos informes: {0}</value></data>
+  <data name="Source.Reported.None" xml:space="preserve"><value>No hay incidencias notificadas y disponibles en este punto de la repetición. Esto no demuestra que no haya ocurrido nada.</value></data>
+  <data name="Source.Reported.Limits" xml:space="preserve"><value>Los totales cubren los informes disponibles, no todas las incidencias ni estadísticas reales del partido.</value></data>
+  <data name="Source.Reported.Unavailable" xml:space="preserve"><value>Esta grabación no facilita un registro de incidencias notificadas del partido, por lo que la comparación no está disponible.</value></data>
+  <data name="Source.Reported.TimeUnknown" xml:space="preserve"><value>Hora notificada no disponible</value></data>
+  <data name="Source.Reported.PlayerUnknown" xml:space="preserve"><value>jugador no identificado</value></data>
+  <data name="Source.Reported.IncidentPrefix" xml:space="preserve"><value>{0} — {1}: </value></data>
+  <data name="Source.Reported.Goal" xml:space="preserve"><value>gol de {0}.</value></data>
+  <data name="Source.Reported.GoalDisallowed" xml:space="preserve"><value>gol anulado.</value></data>
+  <data name="Source.Reported.Yellow" xml:space="preserve"><value>tarjeta amarilla para {0}.</value></data>
+  <data name="Source.Reported.Red" xml:space="preserve"><value>{0} expulsado ({1}).</value></data>
+  <data name="Source.Reported.Substitution" xml:space="preserve"><value>{0} sustituye a {1}.</value></data>
+  <data name="Source.Reported.Var" xml:space="preserve"><value>decisión del VAR notificada; no es una tarjeta adicional.</value></data>
+  <data name="Feedback.ReportComparisonUnavailable" xml:space="preserve"><value>Esta grabación no facilita incidencias notificadas ni estadísticas generadas de la repetición, por lo que la comparación no está disponible.</value></data>
+  <data name="Source.Reported.TeamUnknown" xml:space="preserve"><value>equipo no especificado</value></data>
+  <data name="Source.Reported.ReportCount" xml:space="preserve"><value>Hay {0} informes disponibles hasta ahora.</value></data>
+</root>

@@ -1,0 +1,13 @@
+﻿<Router AppAssembly="typeof(Program).Assembly" NotFoundPage="typeof(Pages.NotFound)">
+    <Found Context="routeData">
+        <AuthorizeRouteView RouteData="routeData" DefaultLayout="typeof(Layout.MainLayout)">
+            <NotAuthorized>
+                <main class="notice"><h1>@T("SignInContinue")</h1><p>@T("SelectedPreview")</p><a href="/account/sign-in" data-enhance-nav="false">@T("GoSignIn")</a></main>
+            </NotAuthorized>
+        </AuthorizeRouteView>
+        <FocusOnNavigate RouteData="routeData" Selector="h1" />
+    </Found>
+</Router>
+@using Matchmate.Web.Localization
+@inject MatchLanguageState LanguageState
+@code { private string T(string key) => ShellText.Get(LanguageState.Language, key); }

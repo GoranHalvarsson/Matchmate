@@ -1,0 +1,6 @@
+@using Matchmate.Web.Localization
+<span class="loading-status" role="status"><span class="loading-indicator" aria-hidden="true"></span>@(Text ?? ReplayText.Get(Language, "Loading"))</span>
+@code {
+    [CascadingParameter] public MatchLanguage Language { get; set; }
+    [Parameter] public string? Text { get; set; }
+}

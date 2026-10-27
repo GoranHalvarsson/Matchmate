@@ -1,0 +1,222 @@
+{
+  "version": 1,
+  "fixtureId": "fixture-pl-2645236",
+  "policy": "accepted-goal-participants-v1",
+  "review": {
+    "path": "output/goal-identity-review/review.json",
+    "sha256": "1a36395d77700b2e38393268b5c90839e5b15cbf1042eefa20b4c623e2f7e4ae",
+    "evidencePath": "output/goal-identity-review/evidence.json",
+    "evidenceSha256": "94017ca6893b4f17d1ebc1f8e0e2b9eb329e9314b031f3730781c02a30d16a92",
+    "independentFactualReview": "passed; 25 existing pins matched"
+  },
+  "inspections": [
+    {
+      "id": "brentford-report-refresh",
+      "url": "https://www.brentfordfc.com/en/news/match-reports-brentford-3-chelsea-0-premier-league-jaidon-anthony-igor-thiago-fabio-carvalho",
+      "fetchedAtUtc": "2026-10-22T14:55:24.6313004Z",
+      "httpStatus": 200,
+      "bodyBytes": 442574,
+      "bodySha256": "182cb349bff9d6f2a12aeb06f92b819823ac257ce276b1b250da4546a3e08c9f",
+      "hashSemantics": "Invoke-WebRequest RawContentStream response body; full body not retained",
+      "goal2Locator": "Paragraph beginning Brentford doubled their advantage on 80 minutes (current rendered line 99)",
+      "goal2Paraphrase": "Damsgaard releases Schade; Martinez saves the attempt; Thiago scores the rebound.",
+      "goal3Locator": "Paragraph beginning Carvalho put the gloss (current rendered line 102)",
+      "goal3Paraphrase": "Schade sends a low cross; Acheampong slightly deflects it; Carvalho finishes near the far post."
+    },
+    {
+      "id": "chelsea-report-refresh",
+      "url": "https://www.chelseafc.com/en/news/article/match-report-brentford-3-0-chelsea",
+      "fetchedAtUtc": "2026-10-22T14:55:25.1932973Z",
+      "httpStatus": 200,
+      "bodyBytes": 151910,
+      "bodySha256": "8f8ef5451e89d57dd4b54ca7c5ac7ca2f139a9142c4dde236011e8f6586ff693",
+      "hashSemantics": "Invoke-WebRequest RawContentStream response body; full body not retained",
+      "goal2Locator": "Bees make sure; paragraph beginning But it was Brentford (current rendered line 38)",
+      "goal2Paraphrase": "Martinez saves Schade shot; Thiago converts the rebound.",
+      "goal3Locator": "Paragraph beginning Alonso brought Nicoll-Jazuli (current rendered line 40)",
+      "goal3Paraphrase": "Carvalho finishes at the far post after Schade cross is deflected."
+    }
+  ],
+  "roster": {
+    "path": "data/official-match-records/brentford-chelsea-2026-09-18.json",
+    "sha256": "c6dd8928c34d30b1d0a8f9f236e3e79cb01d846db190176250e503d689229691",
+    "meaning": "Exact fixture roster/shirt join; not recognition from model memory."
+  },
+  "media": {
+    "sha256": "87b511b61f3d48e410294e06bf71bbc3a88c7b7ca6a50b89e572808c3e82711f",
+    "durationSeconds": 5872.12,
+    "licenseStatus": "unknown",
+    "frames": [
+      {
+        "file": "media-05012.500.jpg",
+        "sha256": "350fc81af9386eef317152dd59dbf70d9cd750c2f3ad51da803e7d8bacc37f41",
+        "actualSourcePts": 5012.52,
+        "scope": "Native point only; no continuous named track or cut bridge."
+      },
+      {
+        "file": "media-05014.000.jpg",
+        "sha256": "23a25f75ab01c303bcb8f6233fc5f97d48704036d8aa86b8f29ad89df7e7ed21",
+        "actualSourcePts": 5014.0,
+        "scope": "Native point only; no continuous named track or cut bridge."
+      },
+      {
+        "file": "media-05016.500.jpg",
+        "sha256": "67a9a29a58c807cc7ba230ca7694cb8784eaf3ff494e7c148ec812450b28b3ac",
+        "actualSourcePts": 5016.52,
+        "scope": "Native point only; no continuous named track or cut bridge."
+      },
+      {
+        "file": "media-05021.000.jpg",
+        "sha256": "b75c284537c54dae3bb8ddfc209bbdae1a216e19d887f3942e43b8c32620561e",
+        "actualSourcePts": 5021.0,
+        "scope": "Native point only; no continuous named track or cut bridge."
+      },
+      {
+        "file": "media-05717.000.jpg",
+        "sha256": "943654672d8259cbb8f12d1685c69bfe48fdab8596573eee68443eb78fbc8558",
+        "actualSourcePts": 5717.0,
+        "scope": "Native point only; no continuous named track or cut bridge."
+      },
+      {
+        "file": "media-05718.000.jpg",
+        "sha256": "cfb80a2e737205b28a768c068bd7970b5b84687f67e2f111567eaa99aa768e69",
+        "actualSourcePts": 5718.0,
+        "scope": "Native point only; no continuous named track or cut bridge."
+      },
+      {
+        "file": "media-05727.000.jpg",
+        "sha256": "3630758d7fd68e8a23879e8aafda3c8106ffe20ca5ce4357c6a132b8282f8547",
+        "actualSourcePts": 5727.0,
+        "scope": "Native point only; no continuous named track or cut bridge."
+      },
+      {
+        "file": "media-05731.000.jpg",
+        "sha256": "af93e2e3b94bf129a0f09ff9607711bdd5da05a0af0a5cab55caf8cbd5150674",
+        "actualSourcePts": 5731.0,
+        "scope": "Native point only; no continuous named track or cut bridge."
+      },
+      {
+        "file": "media-05735.000.jpg",
+        "sha256": "762c06fac5e06625f34525364500fe281228a28a5d60bfe36589db0b852cc733",
+        "actualSourcePts": 5735.0,
+        "scope": "Native point only; no continuous named track or cut bridge."
+      }
+    ]
+  },
+  "claims": [
+    {
+      "goal": "goal-2",
+      "role": "release passer",
+      "player": "brentford:damsgaard",
+      "status": "confirmed_reported",
+      "sources": [
+        "brentford-report-refresh"
+      ],
+      "observedIdentity": false
+    },
+    {
+      "goal": "goal-2",
+      "role": "advancing attacker and shooter",
+      "player": "brentford:schade",
+      "status": "confirmed_reported_plus_observed_point_7",
+      "sources": [
+        "brentford-report-refresh",
+        "chelsea-report-refresh"
+      ],
+      "observedPointPts": [
+        5012.52,
+        5014.0
+      ]
+    },
+    {
+      "goal": "goal-2",
+      "role": "saving goalkeeper",
+      "player": "chelsea:martinez",
+      "status": "confirmed_reported",
+      "sources": [
+        "brentford-report-refresh",
+        "chelsea-report-refresh"
+      ],
+      "observedIdentity": false
+    },
+    {
+      "goal": "goal-2",
+      "role": "rebound scorer",
+      "player": "brentford:thiago",
+      "status": "confirmed_reported",
+      "sources": [
+        "brentford-report-refresh",
+        "chelsea-report-refresh"
+      ],
+      "observedPointPts": [
+        5021.0
+      ],
+      "pointMeaning": "Shorts9 in celebration only; no identity bridge across camera cut."
+    },
+    {
+      "goal": "goal-3",
+      "role": "thrower",
+      "player": "brentford:schade",
+      "status": "confirmed_observed_point_7_plus_fixture_roster",
+      "observedPointPts": [
+        5718.0
+      ]
+    },
+    {
+      "goal": "goal-3",
+      "role": "later ball carrier and crosser",
+      "player": "brentford:schade",
+      "status": "confirmed_reported_cross_plus_observed_point_7",
+      "sources": [
+        "brentford-report-refresh",
+        "chelsea-report-refresh"
+      ],
+      "observedPointPts": [
+        5727.0
+      ]
+    },
+    {
+      "goal": "goal-3",
+      "role": "slight deflection",
+      "player": "chelsea:acheampong",
+      "status": "confirmed_reported_single_source",
+      "sources": [
+        "brentford-report-refresh"
+      ],
+      "observedIdentity": false
+    },
+    {
+      "goal": "goal-3",
+      "role": "far-post scorer",
+      "player": "brentford:carvalho",
+      "status": "confirmed_reported",
+      "sources": [
+        "brentford-report-refresh",
+        "chelsea-report-refresh"
+      ],
+      "observedIdentity": false
+    },
+    {
+      "goal": "goal-3",
+      "role": "intermediate throw recipient or return passer",
+      "player": null,
+      "status": "unresolved",
+      "limitation": "Unresolved intermediate recipient/return passer; no identity assigned from machine transcription."
+    },
+    {
+      "goal": "both",
+      "role": "formal assist credit",
+      "player": null,
+      "status": "unresolved_not_awarded_in_inspected_entries",
+      "limitation": "Narrative shot/cross/rebound and last touch do not award a formal assist."
+    }
+  ],
+  "limits": [
+    "Fresh inspection of registered report URLs; response-body hashes identify that inspection, not the byte identity of prior report snapshots. Full response bodies were not retained.",
+    "Source-media PTS are evidence locators, not authored replay time. No exact contact second or continuous pixel identity is established.",
+    "Goal2 #7 points identify Schade at 5012.52/5014 only; shorts9 at5021 is celebration only and does not bridge the goal2 camera cut.",
+    "Goal3 #7 throw-in setup at5718 and separate ball-carrier point at5727 support Schade only at those points; intermediate recipient/return passer remains unknown.",
+    "Formal assists remain null for both inspected entries. Goal2 report-minute conflict remains80 versus83.",
+    "Runtime uses this portable curated receipt and archived JSON pins; no access to private video, audio or native frame files is required."
+  ]
+}

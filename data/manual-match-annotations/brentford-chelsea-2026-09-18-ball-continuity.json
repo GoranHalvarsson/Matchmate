@@ -1,0 +1,3477 @@
+{
+  "version": 1,
+  "kind": "reviewed_native_ball_continuity",
+  "fixtureId": "premier-league:2026-27:2026-09-18:brentford:chelsea",
+  "source": {
+    "url": "https://www.brentfordfc.com/en/video/0_2hoy7vw7?provider=stream",
+    "videoSha256": "87b511b61f3d48e410294e06bf71bbc3a88c7b7ca6a50b89e572808c3e82711f",
+    "personArtifact": {
+      "sha256": "27d9da0fa866b39d94a922085c07aac86aba2b9725842172446fead6dbaeb10c",
+      "bytes": 550466
+    },
+    "sparseBallArtifact": {
+      "sha256": "9b715612300936354839436d4cf4f0387933cd3df65cfe431e3a364428ba5378",
+      "bytes": 78830
+    },
+    "trialLedger": {
+      "sha256": "59efe2064d1afa4a5e447148aac9c76028ce8ff19b37c8eb8e8fa51af65bd281",
+      "bytes": 347010
+    },
+    "trialProtocol": {
+      "sha256": "c31352345efd8eb16632b2abb24c859990006df83d39d9fdeb95ebcf851d34cc",
+      "bytes": 4998
+    },
+    "groundReviewPolicy": {
+      "sha256": "820b257f1eaa06898d1c56e948805dfa6087128009bc9c078260f35af953a859",
+      "bytes": 1974
+    },
+    "manualAugmentation": {
+      "sha256": "22da8713a677b287261ae410babed3dc4075dda108ee740e5147df4cd9bd8ae5",
+      "bytes": 6113
+    }
+  },
+  "bounds": {
+    "start": 4980.6,
+    "end": 4982.76,
+    "step": 0.04,
+    "firstNativeIndex": 765,
+    "lastNativeIndex": 819
+  },
+  "policy": {
+    "position": "exact_native_only",
+    "hold": false,
+    "interpolation": false,
+    "knownThen": false,
+    "sourceAvailability": null,
+    "fieldModel": [
+      105,
+      68
+    ],
+    "dimensionsVerified": false,
+    "peopleInDetail": "hidden",
+    "events": false,
+    "precedence": "native_segment_over_sparse_at_exact_time"
+  },
+  "observations": [
+    {
+      "id": "continuity-ball-0765",
+      "nativeIndex": 765,
+      "time": 4980.6,
+      "pts": 63751680,
+      "screen": {
+        "x": 152.36732482910156,
+        "y": 288.47869873046875,
+        "radiusPx": 4
+      },
+      "pitch": {
+        "x": 13.65944375356118,
+        "y": 84.03362065475926,
+        "nativeGroundProxyPx": [
+          152.25051879882812,
+          292.2428283691406
+        ],
+        "local8pxSensitivityPercent": 1.4017836868390023
+      },
+      "method": "reviewed_bidirectional_track_current_box",
+      "height": "apparent_near_ground_height_unmeasured",
+      "sourceImage": {
+        "pixelSha256": "19e47b6d126f1662bc576e6353003d52ad376d7c4697c67ce7e59840cc43d32a",
+        "pngSha256": "8f551b4f90c5127ca5d2a134f3e34ccc4a7f3e488582239c95a4917a1c117533"
+      },
+      "camera": {
+        "nativeIndex": 765,
+        "projection": [
+          [
+            952.3495573290267,
+            -1045.2253813423804,
+            145.07013945448205,
+            69002.15511547297
+          ],
+          [
+            78.70154336223675,
+            118.3261430501835,
+            1349.5703440175803,
+            16529.021677702585
+          ],
+          [
+            -0.436492733415781,
+            -0.8437081686713184,
+            0.31245898897696955,
+            58.523917191960294
+          ]
+        ],
+        "normalizedCondition": 6.610137778908929,
+        "fitErrorPx": 1.9535684436975664,
+        "rawKeypoints": 19,
+        "visualReview": "approximate_native_field_overlay"
+      },
+      "support": {
+        "startNativeIndex": 765,
+        "endNativeIndexInclusive": 815,
+        "start": 4980.6,
+        "end": 4982.6,
+        "knownThen": false,
+        "usesLaterFrames": true
+      },
+      "manual": null
+    },
+    {
+      "id": "continuity-ball-0766",
+      "nativeIndex": 766,
+      "time": 4980.64,
+      "pts": 63752192,
+      "screen": {
+        "x": 150.93538665771484,
+        "y": 289.7911071777344,
+        "radiusPx": 4
+      },
+      "pitch": {
+        "x": 13.588266730433077,
+        "y": 84.16418094773897,
+        "nativeGroundProxyPx": [
+          150.97879028320312,
+          293.4320373535156
+        ],
+        "local8pxSensitivityPercent": 1.3854249069570093
+      },
+      "method": "reviewed_bidirectional_track_current_box",
+      "height": "apparent_near_ground_height_unmeasured",
+      "sourceImage": {
+        "pixelSha256": "3e64c218be407c0d045c1d017dc790ec5d35de0fb3d9e6f6067988f35f27bfb3",
+        "pngSha256": "65de899f5e47926ca946f4e4aa2ad5b7ba8af91d675c32dcb27ebe2ccdd7c86b"
+      },
+      "camera": {
+        "nativeIndex": 766,
+        "projection": [
+          [
+            943.4907858188326,
+            -1042.9564818258652,
+            152.65183308568805,
+            68679.94531722835
+          ],
+          [
+            75.89041980846618,
+            124.08224238757167,
+            1342.0521261699978,
+            16302.732726922955
+          ],
+          [
+            -0.4387124423920957,
+            -0.8409397742845404,
+            0.31678334696860005,
+            58.258041171943304
+          ]
+        ],
+        "normalizedCondition": 6.543268039317296,
+        "fitErrorPx": 2.432273375528243,
+        "rawKeypoints": 19,
+        "visualReview": "approximate_native_field_overlay"
+      },
+      "support": {
+        "startNativeIndex": 765,
+        "endNativeIndexInclusive": 815,
+        "start": 4980.6,
+        "end": 4982.6,
+        "knownThen": false,
+        "usesLaterFrames": true
+      },
+      "manual": null
+    },
+    {
+      "id": "continuity-ball-0767",
+      "nativeIndex": 767,
+      "time": 4980.68,
+      "pts": 63752704,
+      "screen": {
+        "x": 149.37759399414062,
+        "y": 290.88624572753906,
+        "radiusPx": 4
+      },
+      "pitch": {
+        "x": 13.757938894077624,
+        "y": 85.04252059422538,
+        "nativeGroundProxyPx": [
+          148.86720275878906,
+          294.654052734375
+        ],
+        "local8pxSensitivityPercent": 1.4063677681876774
+      },
+      "method": "reviewed_bidirectional_track_current_box",
+      "height": "apparent_near_ground_height_unmeasured",
+      "sourceImage": {
+        "pixelSha256": "a177fb718f70108aa2d07623ff64cf502927a50f8a053d5a704a8c515d3d67df",
+        "pngSha256": "449e0957ba5f0043391503673240eff721be564b9a154d0b70a46a4806c4e739"
+      },
+      "camera": {
+        "nativeIndex": 767,
+        "projection": [
+          [
+            973.4622601805287,
+            -1065.8036842143447,
+            151.78124993774523,
+            70954.2580270203
+          ],
+          [
+            76.96886197003458,
+            128.88510720481352,
+            1380.2507875531749,
+            16707.684637221544
+          ],
+          [
+            -0.44333893429949617,
+            -0.8404865956075231,
+            0.31150099829416716,
+            60.34232641049568
+          ]
+        ],
+        "normalizedCondition": 6.488353702198163,
+        "fitErrorPx": 1.8150318460552508,
+        "rawKeypoints": 19,
+        "visualReview": "approximate_native_field_overlay"
+      },
+      "support": {
+        "startNativeIndex": 765,
+        "endNativeIndexInclusive": 815,
+        "start": 4980.6,
+        "end": 4982.6,
+        "knownThen": false,
+        "usesLaterFrames": true
+      },
+      "manual": null
+    },
+    {
+      "id": "continuity-ball-0768",
+      "nativeIndex": 768,
+      "time": 4980.72,
+      "pts": 63753216,
+      "screen": {
+        "x": 148.28353118896484,
+        "y": 292.57777404785156,
+        "radiusPx": 4
+      },
+      "pitch": {
+        "x": 13.755606833958712,
+        "y": 85.1807139381334,
+        "nativeGroundProxyPx": [
+          147.9121322631836,
+          296.5340881347656
+        ],
+        "local8pxSensitivityPercent": 1.3753897126986387
+      },
+      "method": "reviewed_bidirectional_track_current_box",
+      "height": "apparent_near_ground_height_unmeasured",
+      "sourceImage": {
+        "pixelSha256": "2136f6026f498832d00652e1308b494bba86c306d2e448797b086bfd0585612d",
+        "pngSha256": "3b2bce4c18474509af440d5db8692619becc6f9ba0c15112b09a4d2c39b98544"
+      },
+      "camera": {
+        "nativeIndex": 768,
+        "projection": [
+          [
+            943.549562772118,
+            -1044.4116799559895,
+            154.06262581205883,
+            69014.24432340662
+          ],
+          [
+            71.25453323437128,
+            121.80320872803986,
+            1343.848055825196,
+            16077.998216843758
+          ],
+          [
+            -0.4403336541621383,
+            -0.8413079698579191,
+            0.313539746867546,
+            58.27044057141124
+          ]
+        ],
+        "normalizedCondition": 6.659752991483145,
+        "fitErrorPx": 1.18447261616403,
+        "rawKeypoints": 19,
+        "visualReview": "approximate_native_field_overlay"
+      },
+      "support": {
+        "startNativeIndex": 765,
+        "endNativeIndexInclusive": 815,
+        "start": 4980.6,
+        "end": 4982.6,
+        "knownThen": false,
+        "usesLaterFrames": true
+      },
+      "manual": null
+    },
+    {
+      "id": "continuity-ball-0769",
+      "nativeIndex": 769,
+      "time": 4980.76,
+      "pts": 63753728,
+      "screen": {
+        "x": 147.7139663696289,
+        "y": 293.6493835449219,
+        "radiusPx": 4
+      },
+      "pitch": {
+        "x": 13.782612181346341,
+        "y": 85.47343928759445,
+        "nativeGroundProxyPx": [
+          147.12269592285156,
+          297.2161560058594
+        ],
+        "local8pxSensitivityPercent": 1.3704392372154426
+      },
+      "method": "reviewed_bidirectional_track_current_box",
+      "height": "apparent_near_ground_height_unmeasured",
+      "sourceImage": {
+        "pixelSha256": "75548755336254f05c347cc5547e1497eb546f44369a44373e7e8a01648ab4e1",
+        "pngSha256": "3e9bfd10d6a4da4bb30443b79fbba0312e06b9f65060030c76b469c02c3c30f0"
+      },
+      "camera": {
+        "nativeIndex": 769,
+        "projection": [
+          [
+            957.747625760563,
+            -1058.7952812679289,
+            152.6006521131085,
+            70186.74949242266
+          ],
+          [
+            76.9607040535712,
+            127.31505353316163,
+            1364.0039767119451,
+            16471.842983108207
+          ],
+          [
+            -0.4437942523812035,
+            -0.8392586017821729,
+            0.3141522893248445,
+            59.27409522958239
+          ]
+        ],
+        "normalizedCondition": 6.524154560469345,
+        "fitErrorPx": 1.7106230255996888,
+        "rawKeypoints": 19,
+        "visualReview": "approximate_native_field_overlay"
+      },
+      "support": {
+        "startNativeIndex": 765,
+        "endNativeIndexInclusive": 815,
+        "start": 4980.6,
+        "end": 4982.6,
+        "knownThen": false,
+        "usesLaterFrames": true
+      },
+      "manual": null
+    },
+    {
+      "id": "continuity-ball-0770",
+      "nativeIndex": 770,
+      "time": 4980.8,
+      "pts": 63754240,
+      "screen": {
+        "x": 147.54521942138672,
+        "y": 293.90647888183594,
+        "radiusPx": 4
+      },
+      "pitch": {
+        "x": 13.776544951991966,
+        "y": 85.47408778542366,
+        "nativeGroundProxyPx": [
+          147.0487518310547,
+          297.1818542480469
+        ],
+        "local8pxSensitivityPercent": 1.3608524580657608
+      },
+      "method": "reviewed_bidirectional_track_current_box",
+      "height": "apparent_near_ground_height_unmeasured",
+      "sourceImage": {
+        "pixelSha256": "1f5ef526e4b0c7756413ad5578fc81f21db05c89ce04b2fac2e76e805d2d85ae",
+        "pngSha256": "9900b7146ac3b7d5de9956af6107ba02c0a3668ef4fdd2c9c5f265c16dd82013"
+      },
+      "camera": {
+        "nativeIndex": 770,
+        "projection": [
+          [
+            939.8283206564023,
+            -1049.563407392618,
+            154.2095973127772,
+            69157.93844458691
+          ],
+          [
+            74.78870078567252,
+            124.45070729596267,
+            1344.8360086036998,
+            16200.186064666186
+          ],
+          [
+            -0.44396277124230754,
+            -0.838452665469324,
+            0.31606041434864357,
+            58.38215163855756
+          ]
+        ],
+        "normalizedCondition": 6.5891549342943945,
+        "fitErrorPx": 1.8942800239360718,
+        "rawKeypoints": 19,
+        "visualReview": "approximate_native_field_overlay"
+      },
+      "support": {
+        "startNativeIndex": 765,
+        "endNativeIndexInclusive": 815,
+        "start": 4980.6,
+        "end": 4982.6,
+        "knownThen": false,
+        "usesLaterFrames": true
+      },
+      "manual": null
+    },
+    {
+      "id": "continuity-ball-0771",
+      "nativeIndex": 771,
+      "time": 4980.84,
+      "pts": 63754752,
+      "screen": {
+        "x": 147.34255981445312,
+        "y": 294.64918518066406,
+        "radiusPx": 4
+      },
+      "pitch": {
+        "x": 13.931342060975945,
+        "y": 85.86513819676352,
+        "nativeGroundProxyPx": [
+          147.2906723022461,
+          298.3677978515625
+        ],
+        "local8pxSensitivityPercent": 1.3506782380766136
+      },
+      "method": "reviewed_bidirectional_track_current_box",
+      "height": "apparent_near_ground_height_unmeasured",
+      "sourceImage": {
+        "pixelSha256": "b0be78927d7c74d93575e8d89c6048d99349ad1ae675987b652ff12defd0615e",
+        "pngSha256": "5a8f2d062d8f1c8a495413a1d3b94bf4532023bbc6736df1b184d3ac1c1fdb48"
+      },
+      "camera": {
+        "nativeIndex": 771,
+        "projection": [
+          [
+            939.8505196147025,
+            -1049.8723855422816,
+            152.85362958357175,
+            69273.53895159754
+          ],
+          [
+            76.01625312417187,
+            123.7913168991077,
+            1344.929922465288,
+            16217.094785285228
+          ],
+          [
+            -0.44384737572852906,
+            -0.8385242588256114,
+            0.3160325527850839,
+            58.463217069826925
+          ]
+        ],
+        "normalizedCondition": 6.602917674585227,
+        "fitErrorPx": 1.8093050204931533,
+        "rawKeypoints": 19,
+        "visualReview": "approximate_native_field_overlay"
+      },
+      "support": {
+        "startNativeIndex": 765,
+        "endNativeIndexInclusive": 815,
+        "start": 4980.6,
+        "end": 4982.6,
+        "knownThen": false,
+        "usesLaterFrames": true
+      },
+      "manual": null
+    },
+    {
+      "id": "continuity-ball-0772",
+      "nativeIndex": 772,
+      "time": 4980.88,
+      "pts": 63755264,
+      "screen": {
+        "x": 147.2631607055664,
+        "y": 295.39593505859375,
+        "radiusPx": 4
+      },
+      "pitch": {
+        "x": 14.101330904864689,
+        "y": 86.04266042443051,
+        "nativeGroundProxyPx": [
+          147.65410614013672,
+          299.59844970703125
+        ],
+        "local8pxSensitivityPercent": 1.3432275092741583
+      },
+      "method": "reviewed_bidirectional_track_current_box",
+      "height": "apparent_near_ground_height_unmeasured",
+      "sourceImage": {
+        "pixelSha256": "0619797b55e31506436d2bb14c3be828e90fb96e540e07c723f66efccff47457",
+        "pngSha256": "53da65cfb1dcf466f43a272b490b6155bbfdc359654e518b6dcd3632641c95e1"
+      },
+      "camera": {
+        "nativeIndex": 772,
+        "projection": [
+          [
+            933.3856991671353,
+            -1048.6452675763303,
+            154.7721544739569,
+            68870.59120105358
+          ],
+          [
+            71.6301331323911,
+            121.31824176514263,
+            1340.1474503437732,
+            15931.998883039974
+          ],
+          [
+            -0.44577907376088954,
+            -0.8381761396933923,
+            0.3142320420414924,
+            57.83021742126609
+          ]
+        ],
+        "normalizedCondition": 6.700453787313435,
+        "fitErrorPx": 2.3468817824822694,
+        "rawKeypoints": 19,
+        "visualReview": "approximate_native_field_overlay"
+      },
+      "support": {
+        "startNativeIndex": 765,
+        "endNativeIndexInclusive": 815,
+        "start": 4980.6,
+        "end": 4982.6,
+        "knownThen": false,
+        "usesLaterFrames": true
+      },
+      "manual": null
+    },
+    {
+      "id": "continuity-ball-0773",
+      "nativeIndex": 773,
+      "time": 4980.92,
+      "pts": 63755776,
+      "screen": {
+        "x": 147.26488494873047,
+        "y": 296.1250915527344,
+        "radiusPx": 4
+      },
+      "pitch": {
+        "x": 14.153131911062102,
+        "y": 86.69926181633792,
+        "nativeGroundProxyPx": [
+          147.77207946777344,
+          300.0776672363281
+        ],
+        "local8pxSensitivityPercent": 1.3452102672914592
+      },
+      "method": "reviewed_bidirectional_track_current_box",
+      "height": "apparent_near_ground_height_unmeasured",
+      "sourceImage": {
+        "pixelSha256": "ad3b6809d0c21a3d153d33fb01d887ea54cde504218cd91ddd3ef8a3943d73e5",
+        "pngSha256": "6b9047eb45f2adaec0ba144158d744b074ea321add142660ae8e158119120e14"
+      },
+      "camera": {
+        "nativeIndex": 773,
+        "projection": [
+          [
+            960.9698499030231,
+            -1067.112394211962,
+            146.76756764772904,
+            71085.07036381747
+          ],
+          [
+            85.40533553582004,
+            127.74147115068833,
+            1371.5482778330943,
+            16850.104611210467
+          ],
+          [
+            -0.44602073378333457,
+            -0.8376077536515919,
+            0.31540253020245373,
+            60.17842615156022
+          ]
+        ],
+        "normalizedCondition": 6.474758516196517,
+        "fitErrorPx": 2.027430843916853,
+        "rawKeypoints": 19,
+        "visualReview": "approximate_native_field_overlay"
+      },
+      "support": {
+        "startNativeIndex": 765,
+        "endNativeIndexInclusive": 815,
+        "start": 4980.6,
+        "end": 4982.6,
+        "knownThen": false,
+        "usesLaterFrames": true
+      },
+      "manual": null
+    },
+    {
+      "id": "continuity-ball-0774",
+      "nativeIndex": 774,
+      "time": 4980.96,
+      "pts": 63756288,
+      "screen": {
+        "x": 147.2554702758789,
+        "y": 296.3674774169922,
+        "radiusPx": 4
+      },
+      "pitch": {
+        "x": 14.114178835440585,
+        "y": 86.46560515852585,
+        "nativeGroundProxyPx": [
+          147.74463653564453,
+          300.0368347167969
+        ],
+        "local8pxSensitivityPercent": 1.3310247625097256
+      },
+      "method": "reviewed_bidirectional_track_current_box",
+      "height": "apparent_near_ground_height_unmeasured",
+      "sourceImage": {
+        "pixelSha256": "5a004466e1ffbfca19be2a8bf85af53f699ed3ea139e77386a931121fea42954",
+        "pngSha256": "c8b450bee7820c33e7e81fb64eae87c241de7ff36f771709f14126d75f116f2e"
+      },
+      "camera": {
+        "nativeIndex": 774,
+        "projection": [
+          [
+            937.7343342518077,
+            -1055.354275861411,
+            151.05382141910258,
+            69597.62051183767
+          ],
+          [
+            80.45239890965559,
+            124.96478098149534,
+            1347.1714075064415,
+            16370.850411803485
+          ],
+          [
+            -0.4468893474738144,
+            -0.8362858122091531,
+            0.31767271115427187,
+            58.68514715508454
+          ]
+        ],
+        "normalizedCondition": 6.561063116102925,
+        "fitErrorPx": 2.121519769218573,
+        "rawKeypoints": 19,
+        "visualReview": "approximate_native_field_overlay"
+      },
+      "support": {
+        "startNativeIndex": 765,
+        "endNativeIndexInclusive": 815,
+        "start": 4980.6,
+        "end": 4982.6,
+        "knownThen": false,
+        "usesLaterFrames": true
+      },
+      "manual": null
+    },
+    {
+      "id": "continuity-ball-0775",
+      "nativeIndex": 775,
+      "time": 4981.0,
+      "pts": 63756800,
+      "screen": {
+        "x": 147.2724380493164,
+        "y": 297.12220764160156,
+        "radiusPx": 4
+      },
+      "pitch": {
+        "x": 14.154747269628645,
+        "y": 86.58295816461442,
+        "nativeGroundProxyPx": [
+          147.69334411621094,
+          300.95928955078125
+        ],
+        "local8pxSensitivityPercent": 1.3111226998034973
+      },
+      "method": "reviewed_bidirectional_track_current_box",
+      "height": "apparent_near_ground_height_unmeasured",
+      "sourceImage": {
+        "pixelSha256": "3eb36372fe0dd532497a68ea4dad7ca203829c2715a629c63c46dd7dcc6418af",
+        "pngSha256": "6bcc77912a44d46774481e159c9a9eed24888055576b9726b97c4b5b1acf462d"
+      },
+      "camera": {
+        "nativeIndex": 775,
+        "projection": [
+          [
+            923.4505618096345,
+            -1041.3387011373698,
+            154.87939180144207,
+            68496.09131155706
+          ],
+          [
+            73.27188197049757,
+            121.1903128003978,
+            1327.4422759553884,
+            15708.483626518484
+          ],
+          [
+            -0.4441140124617718,
+            -0.8377967475047614,
+            0.3175836170295128,
+            57.17470571478561
+          ]
+        ],
+        "normalizedCondition": 6.731681579762629,
+        "fitErrorPx": 2.211009839133127,
+        "rawKeypoints": 19,
+        "visualReview": "approximate_native_field_overlay"
+      },
+      "support": {
+        "startNativeIndex": 765,
+        "endNativeIndexInclusive": 815,
+        "start": 4980.6,
+        "end": 4982.6,
+        "knownThen": false,
+        "usesLaterFrames": true
+      },
+      "manual": null
+    },
+    {
+      "id": "continuity-ball-0776",
+      "nativeIndex": 776,
+      "time": 4981.04,
+      "pts": 63757312,
+      "screen": {
+        "x": 147.27005767822266,
+        "y": 297.84239196777344,
+        "radiusPx": 4
+      },
+      "pitch": {
+        "x": 14.2260138740005,
+        "y": 87.09227767532009,
+        "nativeGroundProxyPx": [
+          147.74456024169922,
+          301.8278503417969
+        ],
+        "local8pxSensitivityPercent": 1.3339383285943784
+      },
+      "method": "reviewed_bidirectional_track_current_box",
+      "height": "apparent_near_ground_height_unmeasured",
+      "sourceImage": {
+        "pixelSha256": "ce2c5f241b0bf4ca226667d63cf7b6a6ec1fe7d2eb5274021581dce4971c27b7",
+        "pngSha256": "e3779220afb589ed4815a6ed40a66efd762ce9e8f4836152049c038d035d80f0"
+      },
+      "camera": {
+        "nativeIndex": 776,
+        "projection": [
+          [
+            961.4002813273709,
+            -1070.7908092583496,
+            157.02498704343415,
+            71364.96774228889
+          ],
+          [
+            77.72473631287207,
+            134.18653180101853,
+            1375.6878805647732,
+            16376.494908997438
+          ],
+          [
+            -0.4499329822360193,
+            -0.8353299691026058,
+            0.31588629950544106,
+            59.96698434252892
+          ]
+        ],
+        "normalizedCondition": 6.485225561290281,
+        "fitErrorPx": 2.1030104745142406,
+        "rawKeypoints": 19,
+        "visualReview": "approximate_native_field_overlay"
+      },
+      "support": {
+        "startNativeIndex": 765,
+        "endNativeIndexInclusive": 815,
+        "start": 4980.6,
+        "end": 4982.6,
+        "knownThen": false,
+        "usesLaterFrames": true
+      },
+      "manual": null
+    },
+    {
+      "id": "continuity-ball-0777",
+      "nativeIndex": 777,
+      "time": 4981.08,
+      "pts": 63757824,
+      "screen": {
+        "x": 146.98491668701172,
+        "y": 298.31919860839844,
+        "radiusPx": 4
+      },
+      "pitch": {
+        "x": 14.210646004899017,
+        "y": 87.00526812858548,
+        "nativeGroundProxyPx": [
+          147.677001953125,
+          302.6289978027344
+        ],
+        "local8pxSensitivityPercent": 1.3140187940785348
+      },
+      "method": "reviewed_bidirectional_track_current_box",
+      "height": "apparent_near_ground_height_unmeasured",
+      "sourceImage": {
+        "pixelSha256": "7dd77bcfcad38ab32812a7b2373628762bb07ab186d5244bed15df2b51690c0d",
+        "pngSha256": "d57074280cbacd55bec7c3771d597897437497e427cc555a07d0f712ed72b2cb"
+      },
+      "camera": {
+        "nativeIndex": 777,
+        "projection": [
+          [
+            939.2772845507504,
+            -1057.6594991456318,
+            156.93268511667435,
+            69955.36334432512
+          ],
+          [
+            76.43891235511751,
+            129.2353046854865,
+            1350.552712693868,
+            16104.583783210179
+          ],
+          [
+            -0.4488678959556919,
+            -0.8350302771833238,
+            0.31818555618923333,
+            58.61416625976557
+          ]
+        ],
+        "normalizedCondition": 6.563207690664592,
+        "fitErrorPx": 1.4646709824511377,
+        "rawKeypoints": 19,
+        "visualReview": "approximate_native_field_overlay"
+      },
+      "support": {
+        "startNativeIndex": 765,
+        "endNativeIndexInclusive": 815,
+        "start": 4980.6,
+        "end": 4982.6,
+        "knownThen": false,
+        "usesLaterFrames": true
+      },
+      "manual": null
+    },
+    {
+      "id": "continuity-ball-0778",
+      "nativeIndex": 778,
+      "time": 4981.12,
+      "pts": 63758336,
+      "screen": {
+        "x": 146.73831176757812,
+        "y": 298.80430603027344,
+        "radiusPx": 4
+      },
+      "pitch": {
+        "x": 14.312239920567782,
+        "y": 87.05243250652686,
+        "nativeGroundProxyPx": [
+          147.1384506225586,
+          303.571044921875
+        ],
+        "local8pxSensitivityPercent": 1.2852505220655832
+      },
+      "method": "reviewed_bidirectional_track_current_box",
+      "height": "apparent_near_ground_height_unmeasured",
+      "sourceImage": {
+        "pixelSha256": "9c265678d62087b5dee1e777bed8c00363858ae45a9e48f0938b030865c8a97a",
+        "pngSha256": "de23b7d87bec6fc770229b1edfabf87d11c382d9a85cf8775f7b9640c3fb351d"
+      },
+      "camera": {
+        "nativeIndex": 778,
+        "projection": [
+          [
+            913.8266847403803,
+            -1040.8513222439499,
+            157.16136097985887,
+            68170.60738157413
+          ],
+          [
+            72.51753610353266,
+            121.79007269205572,
+            1320.6372565154868,
+            15540.608631799705
+          ],
+          [
+            -0.4469610153172684,
+            -0.8356263589559032,
+            0.31930305198143094,
+            56.65509269482372
+          ]
+        ],
+        "normalizedCondition": 6.745967012383638,
+        "fitErrorPx": 1.9108501645664464,
+        "rawKeypoints": 19,
+        "visualReview": "approximate_native_field_overlay"
+      },
+      "support": {
+        "startNativeIndex": 765,
+        "endNativeIndexInclusive": 815,
+        "start": 4980.6,
+        "end": 4982.6,
+        "knownThen": false,
+        "usesLaterFrames": true
+      },
+      "manual": null
+    },
+    {
+      "id": "continuity-ball-0779",
+      "nativeIndex": 779,
+      "time": 4981.16,
+      "pts": 63758848,
+      "screen": {
+        "x": 146.54688262939453,
+        "y": 299.5635681152344,
+        "radiusPx": 4
+      },
+      "pitch": {
+        "x": 14.458443115196712,
+        "y": 87.40547452907842,
+        "nativeGroundProxyPx": [
+          147.20146942138672,
+          304.257568359375
+        ],
+        "local8pxSensitivityPercent": 1.2848322896350852
+      },
+      "method": "reviewed_bidirectional_track_current_box",
+      "height": "apparent_near_ground_height_unmeasured",
+      "sourceImage": {
+        "pixelSha256": "e7bdbd6b275367a66d590acd0303df67eb952f2cc00da74da2198826c0550caf",
+        "pngSha256": "f3dbc0a56925d7093d11be5d37e669c0d62a346fef7dfb6687ee047d1bc912c6"
+      },
+      "camera": {
+        "nativeIndex": 779,
+        "projection": [
+          [
+            918.2538404427976,
+            -1046.3520122743823,
+            157.47610972841588,
+            68628.76900152989
+          ],
+          [
+            72.92095493499161,
+            123.3024483770508,
+            1327.909791653554,
+            15595.735653535043
+          ],
+          [
+            -0.4489013566704032,
+            -0.8348259796551555,
+            0.3186740586748177,
+            57.10424737557412
+          ]
+        ],
+        "normalizedCondition": 6.730829587023493,
+        "fitErrorPx": 2.01508509520472,
+        "rawKeypoints": 19,
+        "visualReview": "approximate_native_field_overlay"
+      },
+      "support": {
+        "startNativeIndex": 765,
+        "endNativeIndexInclusive": 815,
+        "start": 4980.6,
+        "end": 4982.6,
+        "knownThen": false,
+        "usesLaterFrames": true
+      },
+      "manual": null
+    },
+    {
+      "id": "continuity-ball-0780",
+      "nativeIndex": 780,
+      "time": 4981.2,
+      "pts": 63759360,
+      "screen": {
+        "x": 146.28301239013672,
+        "y": 300.30731201171875,
+        "radiusPx": 4
+      },
+      "pitch": {
+        "x": 14.563601663175692,
+        "y": 87.81484600307805,
+        "nativeGroundProxyPx": [
+          147.1240463256836,
+          304.77386474609375
+        ],
+        "local8pxSensitivityPercent": 1.2835266091663937
+      },
+      "method": "reviewed_bidirectional_track_current_box",
+      "height": "apparent_near_ground_height_unmeasured",
+      "sourceImage": {
+        "pixelSha256": "ec0fca5d79260c65ab9638edc5fc2df5ea3a56221aafa7bd0d691818788078fb",
+        "pngSha256": "2bf4b3d717da240bf11cd725fbd3d9516209428c515017dbf83fd4ea3c9eae77"
+      },
+      "camera": {
+        "nativeIndex": 780,
+        "projection": [
+          [
+            938.661853953625,
+            -1060.9262911248172,
+            150.98887318904244,
+            70130.20176821973
+          ],
+          [
+            82.97801645021119,
+            127.19203248924761,
+            1351.816979754159,
+            16230.725480649457
+          ],
+          [
+            -0.4495047526224973,
+            -0.8344598067035048,
+            0.31878254087408414,
+            58.58806904777663
+          ]
+        ],
+        "normalizedCondition": 6.576520168917726,
+        "fitErrorPx": 1.9085881576707635,
+        "rawKeypoints": 19,
+        "visualReview": "approximate_native_field_overlay"
+      },
+      "support": {
+        "startNativeIndex": 765,
+        "endNativeIndexInclusive": 815,
+        "start": 4980.6,
+        "end": 4982.6,
+        "knownThen": false,
+        "usesLaterFrames": true
+      },
+      "manual": null
+    },
+    {
+      "id": "continuity-ball-0781",
+      "nativeIndex": 781,
+      "time": 4981.24,
+      "pts": 63759872,
+      "screen": {
+        "x": 145.76222229003906,
+        "y": 301.02947998046875,
+        "radiusPx": 4
+      },
+      "pitch": {
+        "x": 14.605878032077502,
+        "y": 88.15965776928579,
+        "nativeGroundProxyPx": [
+          145.92839813232422,
+          305.4533996582031
+        ],
+        "local8pxSensitivityPercent": 1.2841750468116748
+      },
+      "method": "reviewed_bidirectional_track_current_box",
+      "height": "apparent_near_ground_height_unmeasured",
+      "sourceImage": {
+        "pixelSha256": "0090cc3cf434ecd71d6c0e7f07a96af9c7fb22d1da2c9585b453cf5b2cac767a",
+        "pngSha256": "11a24dc7d8f75cea0f4dea383d733dddba0ef1366995ee3bcf79f0dd2e507ce6"
+      },
+      "camera": {
+        "nativeIndex": 781,
+        "projection": [
+          [
+            938.7035537388114,
+            -1063.8779607998722,
+            153.91965630881546,
+            70369.53654776268
+          ],
+          [
+            80.75135409523553,
+            128.98391737760386,
+            1354.458676278278,
+            16143.283512168666
+          ],
+          [
+            -0.45177522890122007,
+            -0.8333206704553798,
+            0.31855266871122934,
+            58.816489371384336
+          ]
+        ],
+        "normalizedCondition": 6.5810894487674725,
+        "fitErrorPx": 1.6455304277129137,
+        "rawKeypoints": 19,
+        "visualReview": "approximate_native_field_overlay"
+      },
+      "support": {
+        "startNativeIndex": 765,
+        "endNativeIndexInclusive": 815,
+        "start": 4980.6,
+        "end": 4982.6,
+        "knownThen": false,
+        "usesLaterFrames": true
+      },
+      "manual": null
+    },
+    {
+      "id": "continuity-ball-0782",
+      "nativeIndex": 782,
+      "time": 4981.28,
+      "pts": 63760384,
+      "screen": {
+        "x": 145.23664093017578,
+        "y": 301.521240234375,
+        "radiusPx": 4
+      },
+      "pitch": {
+        "x": 14.58464593432159,
+        "y": 88.30177928174652,
+        "nativeGroundProxyPx": [
+          145.474609375,
+          305.5120544433594
+        ],
+        "local8pxSensitivityPercent": 1.283111042035732
+      },
+      "method": "reviewed_bidirectional_track_current_box",
+      "height": "apparent_near_ground_height_unmeasured",
+      "sourceImage": {
+        "pixelSha256": "a816129aa792b42a38aae3881b439210e279cd7abeb0caa508105e0897e77dda",
+        "pngSha256": "be292c44aed35ae4c3356b294ba2bdc0d2c555c7b1dc5fe9a1c585d3a8aa75fb"
+      },
+      "camera": {
+        "nativeIndex": 782,
+        "projection": [
+          [
+            945.668336529756,
+            -1064.87598282352,
+            151.14816710130762,
+            70762.1129142746
+          ],
+          [
+            82.81850971743468,
+            128.44457669067916,
+            1359.691992730094,
+            16244.222720697546
+          ],
+          [
+            -0.44981706763270923,
+            -0.8347064150546277,
+            0.3176945173164973,
+            59.053210701681486
+          ]
+        ],
+        "normalizedCondition": 6.582573641644928,
+        "fitErrorPx": 2.08656016379144,
+        "rawKeypoints": 19,
+        "visualReview": "approximate_native_field_overlay"
+      },
+      "support": {
+        "startNativeIndex": 765,
+        "endNativeIndexInclusive": 815,
+        "start": 4980.6,
+        "end": 4982.6,
+        "knownThen": false,
+        "usesLaterFrames": true
+      },
+      "manual": null
+    },
+    {
+      "id": "continuity-ball-0783",
+      "nativeIndex": 783,
+      "time": 4981.32,
+      "pts": 63760896,
+      "screen": {
+        "x": 144.6109848022461,
+        "y": 302.45440673828125,
+        "radiusPx": 4
+      },
+      "pitch": {
+        "x": 14.650193573922813,
+        "y": 88.47876637181807,
+        "nativeGroundProxyPx": [
+          144.7978286743164,
+          306.6690673828125
+        ],
+        "local8pxSensitivityPercent": 1.275786893514883
+      },
+      "method": "reviewed_bidirectional_track_current_box",
+      "height": "apparent_near_ground_height_unmeasured",
+      "sourceImage": {
+        "pixelSha256": "294764ca19b0abcf4321e44966d3fd669835bc627d638c26b89be2bfe56328fd",
+        "pngSha256": "e11c5e54e0426dc835d91aae081134267558f0a0a4dc4b5470f5b8049cfdc7f4"
+      },
+      "camera": {
+        "nativeIndex": 783,
+        "projection": [
+          [
+            936.3441668470358,
+            -1062.1312710945263,
+            155.3378925754313,
+            70326.50622077798
+          ],
+          [
+            79.74194669766105,
+            129.5205354755014,
+            1351.6222658428378,
+            16049.626582749206
+          ],
+          [
+            -0.4517103527440931,
+            -0.8331116491578563,
+            0.31919075372147615,
+            58.767358658929304
+          ]
+        ],
+        "normalizedCondition": 6.591855340168457,
+        "fitErrorPx": 1.8371823214351974,
+        "rawKeypoints": 19,
+        "visualReview": "approximate_native_field_overlay"
+      },
+      "support": {
+        "startNativeIndex": 765,
+        "endNativeIndexInclusive": 815,
+        "start": 4980.6,
+        "end": 4982.6,
+        "knownThen": false,
+        "usesLaterFrames": true
+      },
+      "manual": null
+    },
+    {
+      "id": "continuity-ball-0784",
+      "nativeIndex": 784,
+      "time": 4981.36,
+      "pts": 63761408,
+      "screen": {
+        "x": 144.08641052246094,
+        "y": 302.98252868652344,
+        "radiusPx": 4
+      },
+      "pitch": {
+        "x": 14.640376224006815,
+        "y": 88.57616864316418,
+        "nativeGroundProxyPx": [
+          144.41712188720703,
+          306.93927001953125
+        ],
+        "local8pxSensitivityPercent": 1.2815843168181318
+      },
+      "method": "reviewed_bidirectional_track_current_box",
+      "height": "apparent_near_ground_height_unmeasured",
+      "sourceImage": {
+        "pixelSha256": "750e93ddafc5321e29e457509c84d53e0b55a23f9565586dfb056358faf8370e",
+        "pngSha256": "4f50ea7e05189a7018cc52c253dc9ac9535073dd4be0dbe7cbbb8cb8529ff2da"
+      },
+      "camera": {
+        "nativeIndex": 784,
+        "projection": [
+          [
+            953.1682395847293,
+            -1075.1694924891392,
+            156.77535814034826,
+            71520.70672857454
+          ],
+          [
+            82.37300034615481,
+            136.43284262002413,
+            1372.8519263638857,
+            16329.820668538547
+          ],
+          [
+            -0.45410763508767943,
+            -0.8317561008332098,
+            0.3193243562301661,
+            59.85663949255633
+          ]
+        ],
+        "normalizedCondition": 6.462710841816199,
+        "fitErrorPx": 2.051904154381156,
+        "rawKeypoints": 19,
+        "visualReview": "approximate_native_field_overlay"
+      },
+      "support": {
+        "startNativeIndex": 765,
+        "endNativeIndexInclusive": 815,
+        "start": 4980.6,
+        "end": 4982.6,
+        "knownThen": false,
+        "usesLaterFrames": true
+      },
+      "manual": null
+    },
+    {
+      "id": "continuity-ball-0785",
+      "nativeIndex": 785,
+      "time": 4981.4,
+      "pts": 63761920,
+      "screen": {
+        "x": 143.08292388916016,
+        "y": 303.47491455078125,
+        "radiusPx": 4
+      },
+      "pitch": {
+        "x": 14.659521124184005,
+        "y": 88.604973621569,
+        "nativeGroundProxyPx": [
+          143.41680145263672,
+          307.5262756347656
+        ],
+        "local8pxSensitivityPercent": 1.2647063176943545
+      },
+      "method": "reviewed_bidirectional_track_current_box",
+      "height": "apparent_near_ground_height_unmeasured",
+      "sourceImage": {
+        "pixelSha256": "6f7231c8ac5dd26aa27253caff53899c85ef72d7ca59ff195a0e4c7068e85609",
+        "pngSha256": "a590a0c0ad12f06f1f505476db3f15eca476b38558837c5392ba90b0a2cb8c8a"
+      },
+      "camera": {
+        "nativeIndex": 785,
+        "projection": [
+          [
+            936.1095534813986,
+            -1061.7743878115023,
+            158.18005486745216,
+            70270.84167646848
+          ],
+          [
+            78.05146203339078,
+            131.64136585477706,
+            1351.4027514252894,
+            15868.115668260774
+          ],
+          [
+            -0.4520572822294934,
+            -0.8326290152887705,
+            0.3199580230007318,
+            58.501433347581504
+          ]
+        ],
+        "normalizedCondition": 6.592195610232157,
+        "fitErrorPx": 1.6423926770003194,
+        "rawKeypoints": 19,
+        "visualReview": "approximate_native_field_overlay"
+      },
+      "support": {
+        "startNativeIndex": 765,
+        "endNativeIndexInclusive": 815,
+        "start": 4980.6,
+        "end": 4982.6,
+        "knownThen": false,
+        "usesLaterFrames": true
+      },
+      "manual": null
+    },
+    {
+      "id": "continuity-ball-0786",
+      "nativeIndex": 786,
+      "time": 4981.44,
+      "pts": 63762432,
+      "screen": {
+        "x": 142.3803482055664,
+        "y": 304.4920959472656,
+        "radiusPx": 4
+      },
+      "pitch": {
+        "x": 14.64511661637006,
+        "y": 88.68453672441667,
+        "nativeGroundProxyPx": [
+          142.4178695678711,
+          308.3617248535156
+        ],
+        "local8pxSensitivityPercent": 1.2453185147860286
+      },
+      "method": "reviewed_bidirectional_track_current_box",
+      "height": "apparent_near_ground_height_unmeasured",
+      "sourceImage": {
+        "pixelSha256": "e075fcf9b7bb020414856e652db534500b9b7854f3c01e6c0774a1bc51e82d07",
+        "pngSha256": "5f252b292200a5fe099c38fb694b4eab7cab3fccea51e144f34f776ccb4c5298"
+      },
+      "camera": {
+        "nativeIndex": 786,
+        "projection": [
+          [
+            916.9664868336409,
+            -1046.0875210789357,
+            159.33788758241744,
+            68961.682059636
+          ],
+          [
+            74.92914699910156,
+            127.16157236976375,
+            1326.5574844667553,
+            15466.79990013433
+          ],
+          [
+            -0.44900118297637037,
+            -0.8335005450936407,
+            0.3219856813810572,
+            57.24284255770825
+          ]
+        ],
+        "normalizedCondition": 6.7050454807604405,
+        "fitErrorPx": 1.9748216436095154,
+        "rawKeypoints": 19,
+        "visualReview": "approximate_native_field_overlay"
+      },
+      "support": {
+        "startNativeIndex": 765,
+        "endNativeIndexInclusive": 815,
+        "start": 4980.6,
+        "end": 4982.6,
+        "knownThen": false,
+        "usesLaterFrames": true
+      },
+      "manual": null
+    },
+    {
+      "id": "continuity-ball-0787",
+      "nativeIndex": 787,
+      "time": 4981.48,
+      "pts": 63762944,
+      "screen": {
+        "x": 141.55641174316406,
+        "y": 305.2424621582031,
+        "radiusPx": 4
+      },
+      "pitch": {
+        "x": 14.884489843542955,
+        "y": 89.22892462426117,
+        "nativeGroundProxyPx": [
+          141.70266723632812,
+          309.4102478027344
+        ],
+        "local8pxSensitivityPercent": 1.2661573215599637
+      },
+      "method": "reviewed_bidirectional_track_current_box",
+      "height": "apparent_near_ground_height_unmeasured",
+      "sourceImage": {
+        "pixelSha256": "8c0b75b428e32c90dc096b6e13d8cb52cd1e4d2b38e8baa5a807e19663a29009",
+        "pngSha256": "c204599fb3546b74eae32d4b76529d6ca9086f912981630fa85b2be85869894b"
+      },
+      "camera": {
+        "nativeIndex": 787,
+        "projection": [
+          [
+            951.2415226558275,
+            -1077.641552039687,
+            159.00001028744452,
+            71506.71474425723
+          ],
+          [
+            78.83946910530979,
+            135.85318104243166,
+            1373.9741641276719,
+            16066.343665640059
+          ],
+          [
+            -0.4567507519557186,
+            -0.8309618615800496,
+            0.3176179075356176,
+            59.56868747777466
+          ]
+        ],
+        "normalizedCondition": 6.536940599406578,
+        "fitErrorPx": 1.7267177480708478,
+        "rawKeypoints": 19,
+        "visualReview": "approximate_native_field_overlay"
+      },
+      "support": {
+        "startNativeIndex": 765,
+        "endNativeIndexInclusive": 815,
+        "start": 4980.6,
+        "end": 4982.6,
+        "knownThen": false,
+        "usesLaterFrames": true
+      },
+      "manual": null
+    },
+    {
+      "id": "continuity-ball-0788",
+      "nativeIndex": 788,
+      "time": 4981.52,
+      "pts": 63763456,
+      "screen": {
+        "x": 140.6502456665039,
+        "y": 305.9757537841797,
+        "radiusPx": 4
+      },
+      "pitch": {
+        "x": 14.883373928160657,
+        "y": 89.15734544537175,
+        "nativeGroundProxyPx": [
+          141.09746551513672,
+          310.1044921875
+        ],
+        "local8pxSensitivityPercent": 1.244757882198322
+      },
+      "method": "reviewed_bidirectional_track_current_box",
+      "height": "apparent_near_ground_height_unmeasured",
+      "sourceImage": {
+        "pixelSha256": "0bead2f76a597af2f2b55acbb5720bedee8caf23fb1ac229264237d1b8821aea",
+        "pngSha256": "7477a6bb93e15bf353f0d5b555283ca097e0485969e41629fd50b13ef7000205"
+      },
+      "camera": {
+        "nativeIndex": 788,
+        "projection": [
+          [
+            930.7024297677723,
+            -1063.4041845265558,
+            159.18268634683403,
+            70081.95364735094
+          ],
+          [
+            76.98733832370867,
+            131.0533988081597,
+            1349.183662988653,
+            15721.493325387964
+          ],
+          [
+            -0.454815582567327,
+            -0.8311929728638409,
+            0.31978278208138866,
+            58.15820405084462
+          ]
+        ],
+        "normalizedCondition": 6.631752540996635,
+        "fitErrorPx": 1.695258176776218,
+        "rawKeypoints": 19,
+        "visualReview": "approximate_native_field_overlay"
+      },
+      "support": {
+        "startNativeIndex": 765,
+        "endNativeIndexInclusive": 815,
+        "start": 4980.6,
+        "end": 4982.6,
+        "knownThen": false,
+        "usesLaterFrames": true
+      },
+      "manual": null
+    },
+    {
+      "id": "continuity-ball-0789",
+      "nativeIndex": 789,
+      "time": 4981.56,
+      "pts": 63763968,
+      "screen": {
+        "x": 139.9144744873047,
+        "y": 306.4666748046875,
+        "radiusPx": 4
+      },
+      "pitch": {
+        "x": 14.840840664042815,
+        "y": 89.3148095795596,
+        "nativeGroundProxyPx": [
+          140.10997009277344,
+          310.703857421875
+        ],
+        "local8pxSensitivityPercent": 1.234124752048735
+      },
+      "method": "reviewed_bidirectional_track_current_box",
+      "height": "apparent_near_ground_height_unmeasured",
+      "sourceImage": {
+        "pixelSha256": "0f9b7b12e604daa5e6d7f068fb9a21c56f0a646e0be7609030c3548ad18d08c5",
+        "pngSha256": "868c97c751acfbf24027d1ce8b3e2cfa016d414ba950323383a19e62155ec58f"
+      },
+      "camera": {
+        "nativeIndex": 789,
+        "projection": [
+          [
+            932.0281761934435,
+            -1062.5124064092574,
+            158.1062397719263,
+            70207.59018327612
+          ],
+          [
+            80.11101192688656,
+            132.59594864484407,
+            1348.9370846032477,
+            15810.503068191696
+          ],
+          [
+            -0.453369636544393,
+            -0.8312192382164926,
+            0.3217616364304465,
+            58.2612825350713
+          ]
+        ],
+        "normalizedCondition": 6.583839512585,
+        "fitErrorPx": 2.297181935366973,
+        "rawKeypoints": 19,
+        "visualReview": "approximate_native_field_overlay"
+      },
+      "support": {
+        "startNativeIndex": 765,
+        "endNativeIndexInclusive": 815,
+        "start": 4980.6,
+        "end": 4982.6,
+        "knownThen": false,
+        "usesLaterFrames": true
+      },
+      "manual": null
+    },
+    {
+      "id": "continuity-ball-0790",
+      "nativeIndex": 790,
+      "time": 4981.6,
+      "pts": 63764480,
+      "screen": {
+        "x": 138.8965835571289,
+        "y": 307.46302795410156,
+        "radiusPx": 4
+      },
+      "pitch": {
+        "x": 14.916400628875131,
+        "y": 89.88969188636023,
+        "nativeGroundProxyPx": [
+          139.3473892211914,
+          312.1089172363281
+        ],
+        "local8pxSensitivityPercent": 1.2532716223912392
+      },
+      "method": "reviewed_bidirectional_track_current_box",
+      "height": "apparent_near_ground_height_unmeasured",
+      "sourceImage": {
+        "pixelSha256": "b70cf7fe5358fe92408c403befd398952c2734ed290a317264ecc7db05a79cca",
+        "pngSha256": "bc73018aca012f8cc55abeeb6e3c9b8c23cd62b7eb02ef8653df56418facda56"
+      },
+      "camera": {
+        "nativeIndex": 790,
+        "projection": [
+          [
+            959.5436962006631,
+            -1078.8668641056363,
+            158.68053073040502,
+            72190.18114089083
+          ],
+          [
+            80.89264726908655,
+            138.64914219191314,
+            1380.2587153152444,
+            16193.22894069249
+          ],
+          [
+            -0.45475343251422135,
+            -0.831721752420182,
+            0.31849370820729717,
+            60.193775842111926
+          ]
+        ],
+        "normalizedCondition": 6.487301087092733,
+        "fitErrorPx": 1.7100241571110226,
+        "rawKeypoints": 19,
+        "visualReview": "approximate_native_field_overlay"
+      },
+      "support": {
+        "startNativeIndex": 765,
+        "endNativeIndexInclusive": 815,
+        "start": 4980.6,
+        "end": 4982.6,
+        "knownThen": false,
+        "usesLaterFrames": true
+      },
+      "manual": null
+    },
+    {
+      "id": "continuity-ball-0791",
+      "nativeIndex": 791,
+      "time": 4981.64,
+      "pts": 63764992,
+      "screen": {
+        "x": 137.9509048461914,
+        "y": 308.50013732910156,
+        "radiusPx": 4
+      },
+      "pitch": {
+        "x": 14.932858449611414,
+        "y": 89.99516793366547,
+        "nativeGroundProxyPx": [
+          138.41734313964844,
+          312.4924011230469
+        ],
+        "local8pxSensitivityPercent": 1.2414126107508383
+      },
+      "method": "reviewed_bidirectional_track_current_box",
+      "height": "apparent_near_ground_height_unmeasured",
+      "sourceImage": {
+        "pixelSha256": "2f77bdb9cf0ead25554f7bfd1e7650b9a4d351a231295c6fb0878b215755df2b",
+        "pngSha256": "96952facb45c749760cd3826de0c3a40ff43abef174cf8137873f58cd03e5e54"
+      },
+      "camera": {
+        "nativeIndex": 791,
+        "projection": [
+          [
+            953.8598856148782,
+            -1074.0812966242136,
+            155.31192216003052,
+            71785.6773653445
+          ],
+          [
+            83.45775309339287,
+            135.64103468502933,
+            1372.3270089400703,
+            16209.028244867699
+          ],
+          [
+            -0.45301306978641165,
+            -0.8323551274321452,
+            0.319318180566201,
+            59.79866699505462
+          ]
+        ],
+        "normalizedCondition": 6.513434670065166,
+        "fitErrorPx": 1.6178151030195242,
+        "rawKeypoints": 19,
+        "visualReview": "approximate_native_field_overlay"
+      },
+      "support": {
+        "startNativeIndex": 765,
+        "endNativeIndexInclusive": 815,
+        "start": 4980.6,
+        "end": 4982.6,
+        "knownThen": false,
+        "usesLaterFrames": true
+      },
+      "manual": null
+    },
+    {
+      "id": "continuity-ball-0792",
+      "nativeIndex": 792,
+      "time": 4981.68,
+      "pts": 63765504,
+      "screen": {
+        "x": 136.77898406982422,
+        "y": 309.09564208984375,
+        "radiusPx": 4
+      },
+      "pitch": {
+        "x": 14.920517363461375,
+        "y": 90.16344778308839,
+        "nativeGroundProxyPx": [
+          136.5050811767578,
+          312.9530944824219
+        ],
+        "local8pxSensitivityPercent": 1.2449955237291643
+      },
+      "method": "reviewed_bidirectional_track_current_box",
+      "height": "apparent_near_ground_height_unmeasured",
+      "sourceImage": {
+        "pixelSha256": "7032f7c0f2dcbfedba575b1c3bad9b00a2473f688d65eff01183280fd1d9234b",
+        "pngSha256": "9ef6dedbe87c1f24b545f6b6987191fb7735892de28a21dc123c6ce6759898ca"
+      },
+      "camera": {
+        "nativeIndex": 792,
+        "projection": [
+          [
+            960.3276330715821,
+            -1081.2018268719091,
+            155.71019158605284,
+            72349.46821824592
+          ],
+          [
+            85.571600451189,
+            139.01908864446753,
+            1381.9722903244008,
+            16431.465273950205
+          ],
+          [
+            -0.4549453089130733,
+            -0.8311109118933586,
+            0.31981153517310557,
+            60.506548777768835
+          ]
+        ],
+        "normalizedCondition": 6.433840076159747,
+        "fitErrorPx": 1.7055787892419545,
+        "rawKeypoints": 19,
+        "visualReview": "approximate_native_field_overlay"
+      },
+      "support": {
+        "startNativeIndex": 765,
+        "endNativeIndexInclusive": 815,
+        "start": 4980.6,
+        "end": 4982.6,
+        "knownThen": false,
+        "usesLaterFrames": true
+      },
+      "manual": null
+    },
+    {
+      "id": "continuity-ball-0793",
+      "nativeIndex": 793,
+      "time": 4981.72,
+      "pts": 63766016,
+      "screen": {
+        "x": 135.63485717773438,
+        "y": 309.98435974121094,
+        "radiusPx": 4
+      },
+      "pitch": {
+        "x": 14.976546602092172,
+        "y": 90.19798027685155,
+        "nativeGroundProxyPx": [
+          135.6058120727539,
+          313.5380554199219
+        ],
+        "local8pxSensitivityPercent": 1.2313321108980164
+      },
+      "method": "reviewed_bidirectional_track_current_box",
+      "height": "apparent_near_ground_height_unmeasured",
+      "sourceImage": {
+        "pixelSha256": "ec90a7febb8d3f1a5a8fc4c65b4719dc430dd6d469f378d77e99442cd9b3eab4",
+        "pngSha256": "cab6a2a3dd38db0760965151f3cca19d7dad32126fdb5720faac1ae68b7da979"
+      },
+      "camera": {
+        "nativeIndex": 793,
+        "projection": [
+          [
+            951.6286778949479,
+            -1075.2471175138762,
+            155.04956061925148,
+            71674.83784267622
+          ],
+          [
+            85.0356122351397,
+            136.26349977524836,
+            1371.5024877276032,
+            16252.240262590396
+          ],
+          [
+            -0.4540689572535149,
+            -0.83137236689925,
+            0.3203769180434891,
+            59.767879752730515
+          ]
+        ],
+        "normalizedCondition": 6.488094901798402,
+        "fitErrorPx": 1.77815573011843,
+        "rawKeypoints": 19,
+        "visualReview": "approximate_native_field_overlay"
+      },
+      "support": {
+        "startNativeIndex": 765,
+        "endNativeIndexInclusive": 815,
+        "start": 4980.6,
+        "end": 4982.6,
+        "knownThen": false,
+        "usesLaterFrames": true
+      },
+      "manual": null
+    },
+    {
+      "id": "continuity-ball-0794",
+      "nativeIndex": 794,
+      "time": 4981.76,
+      "pts": 63766528,
+      "screen": {
+        "x": 134.38967895507812,
+        "y": 310.705078125,
+        "radiusPx": 4
+      },
+      "pitch": {
+        "x": 15.039675398697261,
+        "y": 90.22040973014306,
+        "nativeGroundProxyPx": [
+          134.93260955810547,
+          314.70819091796875
+        ],
+        "local8pxSensitivityPercent": 1.2054554326029931
+      },
+      "method": "reviewed_bidirectional_track_current_box",
+      "height": "apparent_near_ground_height_unmeasured",
+      "sourceImage": {
+        "pixelSha256": "bf86b83cef2a0710455d931f7cf8504a5622adb41c0a391902fe1120cb1bad99",
+        "pngSha256": "c0418ea3bbd6555c83d56f1a5914c317389ca830c81110b62678914b54d6832e"
+      },
+      "camera": {
+        "nativeIndex": 794,
+        "projection": [
+          [
+            932.6960982283802,
+            -1059.1444829689203,
+            156.51588564172496,
+            70208.68789701322
+          ],
+          [
+            80.67721477191017,
+            131.2054574562333,
+            1346.6649861277701,
+            15707.562332383348
+          ],
+          [
+            -0.4509965595022921,
+            -0.8325617947354084,
+            0.3216254984668524,
+            58.11873150573557
+          ]
+        ],
+        "normalizedCondition": 6.631381127812879,
+        "fitErrorPx": 1.754398987986606,
+        "rawKeypoints": 19,
+        "visualReview": "approximate_native_field_overlay"
+      },
+      "support": {
+        "startNativeIndex": 765,
+        "endNativeIndexInclusive": 815,
+        "start": 4980.6,
+        "end": 4982.6,
+        "knownThen": false,
+        "usesLaterFrames": true
+      },
+      "manual": null
+    },
+    {
+      "id": "continuity-ball-0795",
+      "nativeIndex": 795,
+      "time": 4981.8,
+      "pts": 63767040,
+      "screen": {
+        "x": 133.10690307617188,
+        "y": 311.5171813964844,
+        "radiusPx": 4
+      },
+      "pitch": {
+        "x": 15.349683091334024,
+        "y": 90.65889408199294,
+        "nativeGroundProxyPx": [
+          133.1485137939453,
+          316.15753173828125
+        ],
+        "local8pxSensitivityPercent": 1.1971166208054722
+      },
+      "method": "reviewed_bidirectional_track_current_box",
+      "height": "apparent_near_ground_height_unmeasured",
+      "sourceImage": {
+        "pixelSha256": "164343e40ff94b87bea0b1cc00960ca0f3837584d192865ef3f31b16d0b231a2",
+        "pngSha256": "dc639fa221f8b38daa04f3d9c6791d2d3454dfbcfd7d9c1e12e1b76c0fbbe30f"
+      },
+      "camera": {
+        "nativeIndex": 795,
+        "projection": [
+          [
+            933.2171883110823,
+            -1065.0910932523002,
+            153.72243438852777,
+            70290.58198798672
+          ],
+          [
+            82.36530208009872,
+            129.1547112580929,
+            1351.4817652828503,
+            15785.468144106115
+          ],
+          [
+            -0.45381912444032746,
+            -0.8317041917986452,
+            0.3198692539722709,
+            58.22905456809298
+          ]
+        ],
+        "normalizedCondition": 6.660115651541929,
+        "fitErrorPx": 1.8220044890956921,
+        "rawKeypoints": 19,
+        "visualReview": "approximate_native_field_overlay"
+      },
+      "support": {
+        "startNativeIndex": 765,
+        "endNativeIndexInclusive": 815,
+        "start": 4980.6,
+        "end": 4982.6,
+        "knownThen": false,
+        "usesLaterFrames": true
+      },
+      "manual": null
+    },
+    {
+      "id": "continuity-ball-0796",
+      "nativeIndex": 796,
+      "time": 4981.84,
+      "pts": 63767552,
+      "screen": {
+        "x": 131.87139892578125,
+        "y": 312.5135040283203,
+        "radiusPx": 4
+      },
+      "pitch": {
+        "x": 15.336856578047225,
+        "y": 90.92622496989495,
+        "nativeGroundProxyPx": [
+          132.02767944335938,
+          316.67681884765625
+        ],
+        "local8pxSensitivityPercent": 1.1948573215497227
+      },
+      "method": "reviewed_bidirectional_track_current_box",
+      "height": "apparent_near_ground_height_unmeasured",
+      "sourceImage": {
+        "pixelSha256": "888e0ccba1871004e62d218916e14bd528e8f422cc5a15b7a86ec48f3bb6c61d",
+        "pngSha256": "83953934903ebc480b35ff99dbeffa305bd625de565ab01ad473ea464556dcc3"
+      },
+      "camera": {
+        "nativeIndex": 796,
+        "projection": [
+          [
+            935.06109206677,
+            -1063.3750599803277,
+            152.44895536295314,
+            70451.44259015548
+          ],
+          [
+            83.18181815145088,
+            128.5745063001639,
+            1351.2660099089335,
+            15819.807972528028
+          ],
+          [
+            -0.45206247394515164,
+            -0.8326784536258783,
+            0.31982200130354566,
+            58.414573456131144
+          ]
+        ],
+        "normalizedCondition": 6.669258075163001,
+        "fitErrorPx": 1.5212970123422926,
+        "rawKeypoints": 19,
+        "visualReview": "approximate_native_field_overlay"
+      },
+      "support": {
+        "startNativeIndex": 765,
+        "endNativeIndexInclusive": 815,
+        "start": 4980.6,
+        "end": 4982.6,
+        "knownThen": false,
+        "usesLaterFrames": true
+      },
+      "manual": null
+    },
+    {
+      "id": "continuity-ball-0797",
+      "nativeIndex": 797,
+      "time": 4981.88,
+      "pts": 63768064,
+      "screen": {
+        "x": 130.46514892578125,
+        "y": 313.0451202392578,
+        "radiusPx": 4
+      },
+      "pitch": {
+        "x": 15.393920614799036,
+        "y": 91.32890510776805,
+        "nativeGroundProxyPx": [
+          130.71391677856445,
+          317.1665954589844
+        ],
+        "local8pxSensitivityPercent": 1.200440597464246
+      },
+      "method": "reviewed_bidirectional_track_current_box",
+      "height": "apparent_near_ground_height_unmeasured",
+      "sourceImage": {
+        "pixelSha256": "c804a3fcfa92e193fa9538eb07ad8c14370d7bb76e51f00142604bd128e21634",
+        "pngSha256": "f206ce4a8bdf76c520554b55f6cbe94e0a0d695bbe607363ff7a11979c323c6a"
+      },
+      "camera": {
+        "nativeIndex": 797,
+        "projection": [
+          [
+            949.1422825718824,
+            -1072.7963202773885,
+            147.41891738375446,
+            71533.77806612916
+          ],
+          [
+            90.31063135753992,
+            130.7004420042369,
+            1367.2164199177707,
+            16340.693596020054
+          ],
+          [
+            -0.4519913515619509,
+            -0.8327468045420967,
+            0.3197445505995809,
+            59.735028976177716
+          ]
+        ],
+        "normalizedCondition": 6.5603618079688655,
+        "fitErrorPx": 1.4152405152346132,
+        "rawKeypoints": 19,
+        "visualReview": "approximate_native_field_overlay"
+      },
+      "support": {
+        "startNativeIndex": 765,
+        "endNativeIndexInclusive": 815,
+        "start": 4980.6,
+        "end": 4982.6,
+        "knownThen": false,
+        "usesLaterFrames": true
+      },
+      "manual": null
+    },
+    {
+      "id": "continuity-ball-0798",
+      "nativeIndex": 798,
+      "time": 4981.92,
+      "pts": 63768576,
+      "screen": {
+        "x": 129.20680236816406,
+        "y": 313.7740173339844,
+        "radiusPx": 4
+      },
+      "pitch": {
+        "x": 15.355933756399844,
+        "y": 91.19550723560735,
+        "nativeGroundProxyPx": [
+          129.30327224731445,
+          318.1238708496094
+        ],
+        "local8pxSensitivityPercent": 1.1795391327792442
+      },
+      "method": "reviewed_bidirectional_track_current_box",
+      "height": "apparent_near_ground_height_unmeasured",
+      "sourceImage": {
+        "pixelSha256": "2742fb0d91436fd497399120419392aea751e3168627f49e1ac634869b546dea",
+        "pngSha256": "47e5f2a2c02ed1d5fb177138ec075c27b0b3ee1cbd4bfa1438824c9a271eb99f"
+      },
+      "camera": {
+        "nativeIndex": 798,
+        "projection": [
+          [
+            931.9796091678014,
+            -1059.816984702169,
+            151.21015287848158,
+            70225.0412308529
+          ],
+          [
+            85.25308976420006,
+            128.26816890141592,
+            1346.0927645722022,
+            15830.842937650536
+          ],
+          [
+            -0.4504749558953094,
+            -0.8329011166964011,
+            0.32147790579914914,
+            58.25505916373912
+          ]
+        ],
+        "normalizedCondition": 6.65882840787996,
+        "fitErrorPx": 1.242439336859062,
+        "rawKeypoints": 19,
+        "visualReview": "approximate_native_field_overlay"
+      },
+      "support": {
+        "startNativeIndex": 765,
+        "endNativeIndexInclusive": 815,
+        "start": 4980.6,
+        "end": 4982.6,
+        "knownThen": false,
+        "usesLaterFrames": true
+      },
+      "manual": null
+    },
+    {
+      "id": "continuity-ball-0799",
+      "nativeIndex": 799,
+      "time": 4981.96,
+      "pts": 63769088,
+      "screen": {
+        "x": 127.99625396728516,
+        "y": 314.5204315185547,
+        "radiusPx": 4
+      },
+      "pitch": {
+        "x": 15.460436425272114,
+        "y": 91.52029525148812,
+        "nativeGroundProxyPx": [
+          128.2066421508789,
+          319.9537048339844
+        ],
+        "local8pxSensitivityPercent": 1.1687439713458037
+      },
+      "method": "reviewed_bidirectional_track_current_box",
+      "height": "apparent_near_ground_height_unmeasured",
+      "sourceImage": {
+        "pixelSha256": "bf58439d4e46845f6332bab54f9cd08ee9b10644f0a3daeacc6bd66443492895",
+        "pngSha256": "be9a45da8640ab3dd9316f8ef6e7e73194fd9618621cc8cb9635db440ad27fac"
+      },
+      "camera": {
+        "nativeIndex": 799,
+        "projection": [
+          [
+            938.0598325091784,
+            -1062.808081828976,
+            150.74042663126025,
+            70621.45928391266
+          ],
+          [
+            87.72853388757173,
+            130.85110612511338,
+            1352.2002946149955,
+            15943.63823449383
+          ],
+          [
+            -0.45005253573905196,
+            -0.8327724030978934,
+            0.3224016744891519,
+            58.624333841302885
+          ]
+        ],
+        "normalizedCondition": 6.602156724749554,
+        "fitErrorPx": 1.5722219385441445,
+        "rawKeypoints": 19,
+        "visualReview": "approximate_native_field_overlay"
+      },
+      "support": {
+        "startNativeIndex": 765,
+        "endNativeIndexInclusive": 815,
+        "start": 4980.6,
+        "end": 4982.6,
+        "knownThen": false,
+        "usesLaterFrames": true
+      },
+      "manual": null
+    },
+    {
+      "id": "continuity-ball-0800",
+      "nativeIndex": 800,
+      "time": 4982.0,
+      "pts": 63769600,
+      "screen": {
+        "x": 126.7304801940918,
+        "y": 315.13746643066406,
+        "radiusPx": 4
+      },
+      "pitch": {
+        "x": 15.402368745048095,
+        "y": 91.5330923949481,
+        "nativeGroundProxyPx": [
+          127.13942337036133,
+          320.27203369140625
+        ],
+        "local8pxSensitivityPercent": 1.1759083305862137
+      },
+      "method": "reviewed_bidirectional_track_current_box",
+      "height": "apparent_near_ground_height_unmeasured",
+      "sourceImage": {
+        "pixelSha256": "a0163fc0f3379992d10d187a3ad8b8d96e74c789bc66d4cd3334eefdf774152e",
+        "pngSha256": "00dc8ed5d9906efea58c79f7f9b54d5d75f049658ebb221a29befaec2a611680"
+      },
+      "camera": {
+        "nativeIndex": 800,
+        "projection": [
+          [
+            946.143566975556,
+            -1068.090713001272,
+            153.90583707346667,
+            71147.37441893334
+          ],
+          [
+            86.05611045630346,
+            134.810814990523,
+            1362.0340734463298,
+            15971.76352490422
+          ],
+          [
+            -0.4512946748519373,
+            -0.8322667305429935,
+            0.3219708149530953,
+            59.107161010438666
+          ]
+        ],
+        "normalizedCondition": 6.550649230766438,
+        "fitErrorPx": 1.6191009576481554,
+        "rawKeypoints": 19,
+        "visualReview": "approximate_native_field_overlay"
+      },
+      "support": {
+        "startNativeIndex": 765,
+        "endNativeIndexInclusive": 815,
+        "start": 4980.6,
+        "end": 4982.6,
+        "knownThen": false,
+        "usesLaterFrames": true
+      },
+      "manual": null
+    },
+    {
+      "id": "continuity-ball-0801",
+      "nativeIndex": 801,
+      "time": 4982.04,
+      "pts": 63770112,
+      "screen": {
+        "x": 125.45499420166016,
+        "y": 315.8643341064453,
+        "radiusPx": 4
+      },
+      "pitch": {
+        "x": 15.317985266046104,
+        "y": 91.52694712025436,
+        "nativeGroundProxyPx": [
+          125.60872268676758,
+          320.24713134765625
+        ],
+        "local8pxSensitivityPercent": 1.1750665526055126
+      },
+      "method": "reviewed_bidirectional_track_current_box",
+      "height": "apparent_near_ground_height_unmeasured",
+      "sourceImage": {
+        "pixelSha256": "2f4d42c01ed7e9f22f13be7714eeabe35ea28b0479b19379a867d838caa51883",
+        "pngSha256": "6c27c1478132279a7fc2707599007257946a61b67e1afdfb35a367beec2ac39a"
+      },
+      "camera": {
+        "nativeIndex": 801,
+        "projection": [
+          [
+            941.2767912846867,
+            -1064.3784665034743,
+            157.60886771884782,
+            70829.12899366731
+          ],
+          [
+            82.27447635596533,
+            135.43852885644452,
+            1356.3389651531268,
+            15731.522564724175
+          ],
+          [
+            -0.4514142045184317,
+            -0.8320231103370122,
+            0.32243256632064216,
+            58.76613530837687
+          ]
+        ],
+        "normalizedCondition": 6.581528812076938,
+        "fitErrorPx": 1.5334998723416948,
+        "rawKeypoints": 19,
+        "visualReview": "approximate_native_field_overlay"
+      },
+      "support": {
+        "startNativeIndex": 765,
+        "endNativeIndexInclusive": 815,
+        "start": 4980.6,
+        "end": 4982.6,
+        "knownThen": false,
+        "usesLaterFrames": true
+      },
+      "manual": null
+    },
+    {
+      "id": "continuity-ball-0802",
+      "nativeIndex": 802,
+      "time": 4982.08,
+      "pts": 63770624,
+      "screen": {
+        "x": 124.29728317260742,
+        "y": 316.61631774902344,
+        "radiusPx": 4
+      },
+      "pitch": {
+        "x": 15.3072345908814,
+        "y": 91.60386609750782,
+        "nativeGroundProxyPx": [
+          124.49821853637695,
+          320.33929443359375
+        ],
+        "local8pxSensitivityPercent": 1.1761029569728156
+      },
+      "method": "reviewed_bidirectional_track_current_box",
+      "height": "apparent_near_ground_height_unmeasured",
+      "sourceImage": {
+        "pixelSha256": "d3ae664f258a06a8b1dbf256d2f2220d9a1468a5e571c59820202741deac7fa5",
+        "pngSha256": "0465c79dfa648dc0818a49b797e4cf0f0b4fe85458f17e855e678dc8d96c5563"
+      },
+      "camera": {
+        "nativeIndex": 802,
+        "projection": [
+          [
+            942.2685350782995,
+            -1063.6365441074447,
+            158.63146194995372,
+            70833.44866281698
+          ],
+          [
+            80.04009300430342,
+            134.99450233989046,
+            1356.7426796300324,
+            15610.636256063579
+          ],
+          [
+            -0.4511084989000943,
+            -0.8326034360454924,
+            0.3213606082041527,
+            58.67394978522855
+          ]
+        ],
+        "normalizedCondition": 6.619232935451607,
+        "fitErrorPx": 1.3385050547527328,
+        "rawKeypoints": 19,
+        "visualReview": "approximate_native_field_overlay"
+      },
+      "support": {
+        "startNativeIndex": 765,
+        "endNativeIndexInclusive": 815,
+        "start": 4980.6,
+        "end": 4982.6,
+        "knownThen": false,
+        "usesLaterFrames": true
+      },
+      "manual": null
+    },
+    {
+      "id": "continuity-ball-0803",
+      "nativeIndex": 803,
+      "time": 4982.12,
+      "pts": 63771136,
+      "screen": {
+        "x": 122.81228256225586,
+        "y": 317.3698425292969,
+        "radiusPx": 4
+      },
+      "pitch": {
+        "x": 15.411847453104787,
+        "y": 91.53418763559876,
+        "nativeGroundProxyPx": [
+          123.0,
+          320.0
+        ],
+        "local8pxSensitivityPercent": 1.1620404326087488
+      },
+      "method": "manual_lower_edge_M803-1",
+      "height": "apparent_near_ground_height_unmeasured",
+      "sourceImage": {
+        "pixelSha256": "a0badf83a59ea6b8615b880075af569ca4585961ba5e0d207e8d2d4126a205b3",
+        "pngSha256": "4cf343eb75249c4af1231a29996756eecde08eebe1d92c50cd8ea5a20ca1fd05"
+      },
+      "camera": {
+        "nativeIndex": 803,
+        "projection": [
+          [
+            922.9919121516515,
+            -1056.3352741896103,
+            158.14764120215764,
+            69554.38672948498
+          ],
+          [
+            78.54902062915892,
+            129.76683993425044,
+            1338.2016202441566,
+            15315.75954733119
+          ],
+          [
+            -0.4526391435599787,
+            -0.8315088637032806,
+            0.32204163597300317,
+            57.44603560899766
+          ]
+        ],
+        "normalizedCondition": 6.7294146748642385,
+        "fitErrorPx": 1.3960606659886452,
+        "rawKeypoints": 19,
+        "visualReview": "approximate_native_field_overlay"
+      },
+      "support": {
+        "startNativeIndex": 765,
+        "endNativeIndexInclusive": 815,
+        "start": 4980.6,
+        "end": 4982.6,
+        "knownThen": false,
+        "usesLaterFrames": true
+      },
+      "manual": {
+        "revision": "M803-1",
+        "pixelUncertaintyRadius": 4,
+        "contextNativeIndices": [
+          801,
+          802,
+          803,
+          804,
+          805
+        ]
+      }
+    },
+    {
+      "id": "continuity-ball-0804",
+      "nativeIndex": 804,
+      "time": 4982.16,
+      "pts": 63771648,
+      "screen": {
+        "x": 122.35094833374023,
+        "y": 317.90843200683594,
+        "radiusPx": 4
+      },
+      "pitch": {
+        "x": 15.49712155621053,
+        "y": 91.76891749952851,
+        "nativeGroundProxyPx": [
+          123.05913162231445,
+          323.0033874511719
+        ],
+        "local8pxSensitivityPercent": 1.1526062116089966
+      },
+      "method": "reviewed_bidirectional_track_current_box",
+      "height": "apparent_near_ground_height_unmeasured",
+      "sourceImage": {
+        "pixelSha256": "99ad7603b88523770a3ada9bc03626e76da37036e2396e7f90846aab37cce38a",
+        "pngSha256": "12f85b0ae80777a4f17e5c0e80d8d2e05f426ea3282c861214f0ef20b57cac8c"
+      },
+      "camera": {
+        "nativeIndex": 804,
+        "projection": [
+          [
+            921.4835005062137,
+            -1055.122045742435,
+            161.68620079983438,
+            69556.62570371566
+          ],
+          [
+            77.06763054944678,
+            132.72530314938706,
+            1336.4226033973562,
+            15307.985263936143
+          ],
+          [
+            -0.4529003168963355,
+            -0.8307049859265969,
+            0.3237445432928427,
+            57.60648672396129
+          ]
+        ],
+        "normalizedCondition": 6.676087706370919,
+        "fitErrorPx": 1.1395933206048525,
+        "rawKeypoints": 19,
+        "visualReview": "approximate_native_field_overlay"
+      },
+      "support": {
+        "startNativeIndex": 765,
+        "endNativeIndexInclusive": 815,
+        "start": 4980.6,
+        "end": 4982.6,
+        "knownThen": false,
+        "usesLaterFrames": true
+      },
+      "manual": null
+    },
+    {
+      "id": "continuity-ball-0805",
+      "nativeIndex": 805,
+      "time": 4982.2,
+      "pts": 63772160,
+      "screen": {
+        "x": 122.26380920410156,
+        "y": 318.61070251464844,
+        "radiusPx": 4
+      },
+      "pitch": {
+        "x": 15.547007988658285,
+        "y": 92.23075846942102,
+        "nativeGroundProxyPx": [
+          122.6774673461914,
+          323.4008483886719
+        ],
+        "local8pxSensitivityPercent": 1.164491025680079
+      },
+      "method": "reviewed_bidirectional_track_current_box",
+      "height": "apparent_near_ground_height_unmeasured",
+      "sourceImage": {
+        "pixelSha256": "ab0ae4e3563bb27e8ce18ff427fc19b99e2f14c3cdf1261bb883ac515a087c08",
+        "pngSha256": "2054e50d353cb6d4a8585d3f3f0dec256e8d5398bac376aaf35e8c29a11e0ac3"
+      },
+      "camera": {
+        "nativeIndex": 805,
+        "projection": [
+          [
+            950.8015008163211,
+            -1073.7815953691274,
+            154.69696632316678,
+            71653.02122127103
+          ],
+          [
+            88.25878219360213,
+            138.472371175613,
+            1369.3141895431938,
+            16144.523159329772
+          ],
+          [
+            -0.45297106481476035,
+            -0.8308866250520488,
+            0.3231789454005291,
+            59.81832398327399
+          ]
+        ],
+        "normalizedCondition": 6.473338725768908,
+        "fitErrorPx": 1.558598671729405,
+        "rawKeypoints": 19,
+        "visualReview": "approximate_native_field_overlay"
+      },
+      "support": {
+        "startNativeIndex": 765,
+        "endNativeIndexInclusive": 815,
+        "start": 4980.6,
+        "end": 4982.6,
+        "knownThen": false,
+        "usesLaterFrames": true
+      },
+      "manual": null
+    },
+    {
+      "id": "continuity-ball-0806",
+      "nativeIndex": 806,
+      "time": 4982.24,
+      "pts": 63772672,
+      "screen": {
+        "x": 122.0223617553711,
+        "y": 319.35752868652344,
+        "radiusPx": 4
+      },
+      "pitch": {
+        "x": 15.65305147285099,
+        "y": 92.20391402476541,
+        "nativeGroundProxyPx": [
+          122.6082878112793,
+          323.7245178222656
+        ],
+        "local8pxSensitivityPercent": 1.1533479465065306
+      },
+      "method": "reviewed_bidirectional_track_current_box",
+      "height": "apparent_near_ground_height_unmeasured",
+      "sourceImage": {
+        "pixelSha256": "6235056b8a2a5a1c01e13be45d82e93775ebf6df1c10c205d5a966b6e5046faa",
+        "pngSha256": "b7af13e683919054fb9a620e1c2eef333befd14071d8aafc39c63a8fea664f13"
+      },
+      "camera": {
+        "nativeIndex": 806,
+        "projection": [
+          [
+            939.2580361444893,
+            -1066.02159616675,
+            155.19292330712278,
+            70733.05334121792
+          ],
+          [
+            83.74472035818123,
+            133.25739682162953,
+            1356.0773699922033,
+            15740.048776223837
+          ],
+          [
+            -0.45252867526509377,
+            -0.8317074957830144,
+            0.3216837570054889,
+            58.654449127238564
+          ]
+        ],
+        "normalizedCondition": 6.616903352487169,
+        "fitErrorPx": 1.645562966599312,
+        "rawKeypoints": 19,
+        "visualReview": "approximate_native_field_overlay"
+      },
+      "support": {
+        "startNativeIndex": 765,
+        "endNativeIndexInclusive": 815,
+        "start": 4980.6,
+        "end": 4982.6,
+        "knownThen": false,
+        "usesLaterFrames": true
+      },
+      "manual": null
+    },
+    {
+      "id": "continuity-ball-0807",
+      "nativeIndex": 807,
+      "time": 4982.28,
+      "pts": 63773184,
+      "screen": {
+        "x": 121.7763786315918,
+        "y": 319.8355255126953,
+        "radiusPx": 4
+      },
+      "pitch": {
+        "x": 15.539393124422451,
+        "y": 92.14284144411732,
+        "nativeGroundProxyPx": [
+          122.23841857910156,
+          324.01397705078125
+        ],
+        "local8pxSensitivityPercent": 1.1489057676182892
+      },
+      "method": "reviewed_bidirectional_track_current_box",
+      "height": "apparent_near_ground_height_unmeasured",
+      "sourceImage": {
+        "pixelSha256": "0ac8f2a0fabbd228f5b5f8ce4fdd63bd15b8528a8ae42bf6f4b893c94aea31b0",
+        "pngSha256": "48bc61c8909de966415de97656406620faf2f1768900141b98de44d8569b1ff9"
+      },
+      "camera": {
+        "nativeIndex": 807,
+        "projection": [
+          [
+            916.7000952257764,
+            -1054.0133860908293,
+            160.2166441314487,
+            69568.48315056285
+          ],
+          [
+            80.62421556244476,
+            133.047201045638,
+            1331.831383419541,
+            15522.626791451661
+          ],
+          [
+            -0.4530048976469754,
+            -0.829696058657471,
+            0.3261763525397137,
+            58.056309009936804
+          ]
+        ],
+        "normalizedCondition": 6.620755559028585,
+        "fitErrorPx": 1.5513538144484291,
+        "rawKeypoints": 19,
+        "visualReview": "approximate_native_field_overlay"
+      },
+      "support": {
+        "startNativeIndex": 765,
+        "endNativeIndexInclusive": 815,
+        "start": 4980.6,
+        "end": 4982.6,
+        "knownThen": false,
+        "usesLaterFrames": true
+      },
+      "manual": null
+    },
+    {
+      "id": "continuity-ball-0808",
+      "nativeIndex": 808,
+      "time": 4982.32,
+      "pts": 63773696,
+      "screen": {
+        "x": 121.26342391967773,
+        "y": 320.5346374511719,
+        "radiusPx": 4
+      },
+      "pitch": {
+        "x": 15.493323471677506,
+        "y": 91.99951476650972,
+        "nativeGroundProxyPx": [
+          121.3675308227539,
+          324.33941650390625
+        ],
+        "local8pxSensitivityPercent": 1.1313078966107213
+      },
+      "method": "reviewed_bidirectional_track_current_box",
+      "height": "apparent_near_ground_height_unmeasured",
+      "sourceImage": {
+        "pixelSha256": "505c36a62520aae75686c3a344e4e3396f46455bcbfa310b02424f66dfa089c1",
+        "pngSha256": "3aa144e68ef8d8ab568091374d040887d5618b6c6a9c69efb862b4e5a3e124b7"
+      },
+      "camera": {
+        "nativeIndex": 808,
+        "projection": [
+          [
+            894.0119356459196,
+            -1036.9339147977664,
+            160.56579077764178,
+            67973.45953676826
+          ],
+          [
+            77.63254287798075,
+            126.95887142769577,
+            1303.5142082675352,
+            15133.253418134822
+          ],
+          [
+            -0.45006040204666686,
+            -0.8304810152900965,
+            0.3282482562822275,
+            56.577368613164815
+          ]
+        ],
+        "normalizedCondition": 6.75178727806166,
+        "fitErrorPx": 1.6114982267377418,
+        "rawKeypoints": 19,
+        "visualReview": "approximate_native_field_overlay"
+      },
+      "support": {
+        "startNativeIndex": 765,
+        "endNativeIndexInclusive": 815,
+        "start": 4980.6,
+        "end": 4982.6,
+        "knownThen": false,
+        "usesLaterFrames": true
+      },
+      "manual": null
+    },
+    {
+      "id": "continuity-ball-0809",
+      "nativeIndex": 809,
+      "time": 4982.36,
+      "pts": 63774208,
+      "screen": {
+        "x": 120.77275848388672,
+        "y": 320.91905212402344,
+        "radiusPx": 4
+      },
+      "pitch": {
+        "x": 15.610148605527078,
+        "y": 92.52767155961278,
+        "nativeGroundProxyPx": [
+          120.80146789550781,
+          324.77069091796875
+        ],
+        "local8pxSensitivityPercent": 1.1476446725745308
+      },
+      "method": "reviewed_bidirectional_track_current_box",
+      "height": "apparent_near_ground_height_unmeasured",
+      "sourceImage": {
+        "pixelSha256": "0ccb4b23a89ce248b9d9ae2024241be92fa803d32ab65af9f1e43f7207f0eb18",
+        "pngSha256": "3fcdf20f2b98d0c00ba4026188fdf3bdeb0c2b6f235ef43ca1a98334e5b23680"
+      },
+      "camera": {
+        "nativeIndex": 809,
+        "projection": [
+          [
+            915.8550996093072,
+            -1048.7773076450585,
+            159.7791219751728,
+            69471.36426895787
+          ],
+          [
+            78.24177154264832,
+            130.34533924305111,
+            1327.4660410173328,
+            15377.61001277267
+          ],
+          [
+            -0.45047819470227124,
+            -0.8316146928406853,
+            0.3247866973095963,
+            58.039173594967394
+          ]
+        ],
+        "normalizedCondition": 6.703623274094689,
+        "fitErrorPx": 1.2940520759317526,
+        "rawKeypoints": 19,
+        "visualReview": "approximate_native_field_overlay"
+      },
+      "support": {
+        "startNativeIndex": 765,
+        "endNativeIndexInclusive": 815,
+        "start": 4980.6,
+        "end": 4982.6,
+        "knownThen": false,
+        "usesLaterFrames": true
+      },
+      "manual": null
+    },
+    {
+      "id": "continuity-ball-0810",
+      "nativeIndex": 810,
+      "time": 4982.4,
+      "pts": 63774720,
+      "screen": {
+        "x": 120.22502136230469,
+        "y": 321.51898193359375,
+        "radiusPx": 4
+      },
+      "pitch": {
+        "x": 15.734144447892584,
+        "y": 92.70980236786039,
+        "nativeGroundProxyPx": [
+          120.2775650024414,
+          325.93878173828125
+        ],
+        "local8pxSensitivityPercent": 1.1333728084118044
+      },
+      "method": "reviewed_bidirectional_track_current_box",
+      "height": "apparent_near_ground_height_unmeasured",
+      "sourceImage": {
+        "pixelSha256": "e75e94044ee3b9abbbb2f6c144dc8ca2d2a9f0f97bd221475fffecd91078eed4",
+        "pngSha256": "841f71306c1e0a51cd84c1baf2362b1566988bf1733ccf1fac352273447448ac"
+      },
+      "camera": {
+        "nativeIndex": 810,
+        "projection": [
+          [
+            906.2501603550285,
+            -1044.4669796380974,
+            156.98502714142643,
+            68912.02937198334
+          ],
+          [
+            80.35774535374833,
+            126.92188924524093,
+            1317.3087679950056,
+            15388.006160970795
+          ],
+          [
+            -0.45019064585393537,
+            -0.8313692303829943,
+            0.3258121930775525,
+            57.59798600959777
+          ]
+        ],
+        "normalizedCondition": 6.7383864478878905,
+        "fitErrorPx": 1.1507111233827851,
+        "rawKeypoints": 19,
+        "visualReview": "approximate_native_field_overlay"
+      },
+      "support": {
+        "startNativeIndex": 765,
+        "endNativeIndexInclusive": 815,
+        "start": 4980.6,
+        "end": 4982.6,
+        "knownThen": false,
+        "usesLaterFrames": true
+      },
+      "manual": null
+    },
+    {
+      "id": "continuity-ball-0811",
+      "nativeIndex": 811,
+      "time": 4982.44,
+      "pts": 63775232,
+      "screen": {
+        "x": 119.69798278808594,
+        "y": 322.0167236328125,
+        "radiusPx": 4
+      },
+      "pitch": {
+        "x": 15.736959020811566,
+        "y": 92.57524888461859,
+        "nativeGroundProxyPx": [
+          119.68647766113281,
+          326.297607421875
+        ],
+        "local8pxSensitivityPercent": 1.1233325934658278
+      },
+      "method": "reviewed_bidirectional_track_current_box",
+      "height": "apparent_near_ground_height_unmeasured",
+      "sourceImage": {
+        "pixelSha256": "7874268e7061e6c8a92896e0378b153eb27a4fff994e237685f0aaacb85860fe",
+        "pngSha256": "2d78b43b3a81c541208867793b52791bf8aadd083a3dbbd982fd8a98aa5c8849"
+      },
+      "camera": {
+        "nativeIndex": 811,
+        "projection": [
+          [
+            894.2152347596185,
+            -1037.7606358307971,
+            158.10984115118626,
+            68070.36462768269
+          ],
+          [
+            78.4851675397731,
+            124.62500204722902,
+            1304.1853520746104,
+            15179.28681355153
+          ],
+          [
+            -0.4501414827816794,
+            -0.8309539877875122,
+            0.3269374797406104,
+            56.786543048207314
+          ]
+        ],
+        "normalizedCondition": 6.7939740332155525,
+        "fitErrorPx": 1.5270799264543422,
+        "rawKeypoints": 20,
+        "visualReview": "approximate_native_field_overlay"
+      },
+      "support": {
+        "startNativeIndex": 765,
+        "endNativeIndexInclusive": 815,
+        "start": 4980.6,
+        "end": 4982.6,
+        "knownThen": false,
+        "usesLaterFrames": true
+      },
+      "manual": null
+    },
+    {
+      "id": "continuity-ball-0812",
+      "nativeIndex": 812,
+      "time": 4982.48,
+      "pts": 63775744,
+      "screen": {
+        "x": 119.07706451416016,
+        "y": 322.5574188232422,
+        "radiusPx": 4
+      },
+      "pitch": {
+        "x": 15.753984468725074,
+        "y": 92.67035724687925,
+        "nativeGroundProxyPx": [
+          119.26030349731445,
+          326.8452453613281
+        ],
+        "local8pxSensitivityPercent": 1.1229553927361942
+      },
+      "method": "reviewed_bidirectional_track_current_box",
+      "height": "apparent_near_ground_height_unmeasured",
+      "sourceImage": {
+        "pixelSha256": "b2ece95c442f6bdcbbc6ddd84dd782fb74800352611bd406b239fa3b3cfb4c03",
+        "pngSha256": "c99cbe7e89afd2747179ec39ebee044c540a346e2b3695d36a5899b1ae1cfb54"
+      },
+      "camera": {
+        "nativeIndex": 812,
+        "projection": [
+          [
+            894.9607062166422,
+            -1034.9923436419108,
+            160.11029483132057,
+            68002.35217792212
+          ],
+          [
+            74.25751852733805,
+            123.7082391636012,
+            1303.0752917945076,
+            14948.489740730418
+          ],
+          [
+            -0.44906766741613857,
+            -0.8322046925232703,
+            0.3252285040147582,
+            56.54780196894167
+          ]
+        ],
+        "normalizedCondition": 6.86858773444969,
+        "fitErrorPx": 1.9833411670357493,
+        "rawKeypoints": 20,
+        "visualReview": "approximate_native_field_overlay"
+      },
+      "support": {
+        "startNativeIndex": 765,
+        "endNativeIndexInclusive": 815,
+        "start": 4980.6,
+        "end": 4982.6,
+        "knownThen": false,
+        "usesLaterFrames": true
+      },
+      "manual": null
+    },
+    {
+      "id": "continuity-ball-0813",
+      "nativeIndex": 813,
+      "time": 4982.52,
+      "pts": 63776256,
+      "screen": {
+        "x": 118.69264221191406,
+        "y": 323.0178680419922,
+        "radiusPx": 4
+      },
+      "pitch": {
+        "x": 15.767859816902346,
+        "y": 93.03069552277628,
+        "nativeGroundProxyPx": [
+          118.96727752685547,
+          327.4189453125
+        ],
+        "local8pxSensitivityPercent": 1.1251114543071723
+      },
+      "method": "reviewed_bidirectional_track_current_box",
+      "height": "apparent_near_ground_height_unmeasured",
+      "sourceImage": {
+        "pixelSha256": "83e1c5c041db879cfccebfb139bb620e165cb30417bafc2402374124f3d911c0",
+        "pngSha256": "a64a14a0e087e9b3db8ec137b67299a04796047d0c237ae6f5846d3b9506cae1"
+      },
+      "camera": {
+        "nativeIndex": 813,
+        "projection": [
+          [
+            910.0590177157617,
+            -1044.289946568829,
+            155.49750352514894,
+            69170.70925118352
+          ],
+          [
+            82.43318772227975,
+            127.4851182623851,
+            1319.433475403981,
+            15478.571522862983
+          ],
+          [
+            -0.4485124876284432,
+            -0.8320790389850444,
+            0.32631429837362397,
+            57.84434263499673
+          ]
+        ],
+        "normalizedCondition": 6.715208766519333,
+        "fitErrorPx": 1.7135262421958979,
+        "rawKeypoints": 20,
+        "visualReview": "approximate_native_field_overlay"
+      },
+      "support": {
+        "startNativeIndex": 765,
+        "endNativeIndexInclusive": 815,
+        "start": 4980.6,
+        "end": 4982.6,
+        "knownThen": false,
+        "usesLaterFrames": true
+      },
+      "manual": null
+    },
+    {
+      "id": "continuity-ball-0814",
+      "nativeIndex": 814,
+      "time": 4982.56,
+      "pts": 63776768,
+      "screen": {
+        "x": 118.27357864379883,
+        "y": 323.4706268310547,
+        "radiusPx": 4
+      },
+      "pitch": {
+        "x": 15.890069108977068,
+        "y": 93.03510208084592,
+        "nativeGroundProxyPx": [
+          118.8125991821289,
+          328.2891540527344
+        ],
+        "local8pxSensitivityPercent": 1.1137953611462272
+      },
+      "method": "reviewed_bidirectional_track_current_box",
+      "height": "apparent_near_ground_height_unmeasured",
+      "sourceImage": {
+        "pixelSha256": "7919ccce250367f38371bbabcde10883b799f9fee0655bf08a450d8e421f7b54",
+        "pngSha256": "a3594b7a4a4c54e336024339961b4b3ce42a4abfe810310019de0c8953371d34"
+      },
+      "camera": {
+        "nativeIndex": 814,
+        "projection": [
+          [
+            885.216843020985,
+            -1031.0032323395144,
+            159.1090369762663,
+            67607.47873420222
+          ],
+          [
+            75.44696382421654,
+            121.71937667068838,
+            1293.2162846572444,
+            14977.946590273024
+          ],
+          [
+            -0.44930960940965714,
+            -0.8314638439378281,
+            0.32678548180155165,
+            56.48296145316064
+          ]
+        ],
+        "normalizedCondition": 6.884837288000489,
+        "fitErrorPx": 1.8861750625096612,
+        "rawKeypoints": 20,
+        "visualReview": "approximate_native_field_overlay"
+      },
+      "support": {
+        "startNativeIndex": 765,
+        "endNativeIndexInclusive": 815,
+        "start": 4980.6,
+        "end": 4982.6,
+        "knownThen": false,
+        "usesLaterFrames": true
+      },
+      "manual": null
+    },
+    {
+      "id": "continuity-ball-0815",
+      "nativeIndex": 815,
+      "time": 4982.6,
+      "pts": 63777280,
+      "screen": {
+        "x": 118.09478759765625,
+        "y": 323.8600311279297,
+        "radiusPx": 4
+      },
+      "pitch": {
+        "x": 15.875095642377252,
+        "y": 93.00453967371358,
+        "nativeGroundProxyPx": [
+          118.5000228881836,
+          328.4227600097656
+        ],
+        "local8pxSensitivityPercent": 1.1124821250760495
+      },
+      "method": "reviewed_bidirectional_track_current_box",
+      "height": "apparent_near_ground_height_unmeasured",
+      "sourceImage": {
+        "pixelSha256": "cc2e5734f8894b11170514e861d05cc9778d5707024e090b051b82901eef7042",
+        "pngSha256": "dce89a2698aaa7fb5a429254f0c23bf71b93756a10115f7e9a1ce658e47d075c"
+      },
+      "camera": {
+        "nativeIndex": 815,
+        "projection": [
+          [
+            882.4755338946485,
+            -1031.2122433308168,
+            161.16250081289277,
+            67508.84526608078
+          ],
+          [
+            75.48387897206761,
+            123.84191004906398,
+            1291.5589323437844,
+            14971.892739486948
+          ],
+          [
+            -0.4504542223211172,
+            -0.8301577164429391,
+            0.32852573631805826,
+            56.51500137365795
+          ]
+        ],
+        "normalizedCondition": 6.84113930720962,
+        "fitErrorPx": 2.098075473966005,
+        "rawKeypoints": 20,
+        "visualReview": "approximate_native_field_overlay"
+      },
+      "support": {
+        "startNativeIndex": 765,
+        "endNativeIndexInclusive": 835,
+        "start": 4980.6,
+        "end": 4983.4,
+        "knownThen": false,
+        "usesLaterFrames": true
+      },
+      "manual": null
+    },
+    {
+      "id": "continuity-ball-0816",
+      "nativeIndex": 816,
+      "time": 4982.64,
+      "pts": 63777792,
+      "screen": {
+        "x": 117.0072021484375,
+        "y": 324.03648376464844,
+        "radiusPx": 4
+      },
+      "pitch": {
+        "x": 15.877729538072646,
+        "y": 93.09908585579194,
+        "nativeGroundProxyPx": [
+          117.21672439575195,
+          328.8156433105469
+        ],
+        "local8pxSensitivityPercent": 1.1045487146709458
+      },
+      "method": "reviewed_bidirectional_track_current_box",
+      "height": "apparent_near_ground_height_unmeasured",
+      "sourceImage": {
+        "pixelSha256": "83b9c04fe6480812b4f37edf81694c7ef50b8f79b1a9c04023dfd736cead1608",
+        "pngSha256": "f385545586fc9d31bf1e2c1d137d6c3acea447eab3deffb0fb34422d2ef85245"
+      },
+      "camera": {
+        "nativeIndex": 816,
+        "projection": [
+          [
+            875.6682709933865,
+            -1027.0988425818036,
+            161.44137623236756,
+            67101.43025687046
+          ],
+          [
+            75.4604159475313,
+            122.94034004341749,
+            1283.7467311086962,
+            14882.802119211645
+          ],
+          [
+            -0.4500426402049009,
+            -0.829844048841989,
+            0.32987948799362576,
+            56.19347196107764
+          ]
+        ],
+        "normalizedCondition": 6.862748363244939,
+        "fitErrorPx": 2.2824350103112057,
+        "rawKeypoints": 20,
+        "visualReview": "approximate_native_field_overlay"
+      },
+      "support": {
+        "startNativeIndex": 815,
+        "endNativeIndexInclusive": 835,
+        "start": 4982.6,
+        "end": 4983.4,
+        "knownThen": false,
+        "usesLaterFrames": true
+      },
+      "manual": null
+    },
+    {
+      "id": "continuity-ball-0817",
+      "nativeIndex": 817,
+      "time": 4982.68,
+      "pts": 63778304,
+      "screen": {
+        "x": 117.09473419189453,
+        "y": 324.49806213378906,
+        "radiusPx": 4
+      },
+      "pitch": {
+        "x": 15.880395036909963,
+        "y": 93.07490977704809,
+        "nativeGroundProxyPx": [
+          117.07072830200195,
+          329.0947570800781
+        ],
+        "local8pxSensitivityPercent": 1.0935073086112983
+      },
+      "method": "reviewed_bidirectional_track_current_box",
+      "height": "apparent_near_ground_height_unmeasured",
+      "sourceImage": {
+        "pixelSha256": "c25447c5bdb1a04b88eabf93d359803c2c29d6dace760ce81dd79a0e4f17df50",
+        "pngSha256": "0d96b49244ca7219e26673ae681055f57ab91b2a895d2f30116887b37c95fe7a"
+      },
+      "camera": {
+        "nativeIndex": 817,
+        "projection": [
+          [
+            861.1877370663065,
+            -1016.4680129165588,
+            161.45362469451254,
+            66140.39684569695
+          ],
+          [
+            73.97982810084127,
+            119.06431260058464,
+            1265.817319830172,
+            14664.658159921863
+          ],
+          [
+            -0.448147498488068,
+            -0.8302586244210302,
+            0.3314127881862521,
+            55.3682531112453
+          ]
+        ],
+        "normalizedCondition": 6.951395816604079,
+        "fitErrorPx": 2.4108847640403552,
+        "rawKeypoints": 20,
+        "visualReview": "approximate_native_field_overlay"
+      },
+      "support": {
+        "startNativeIndex": 815,
+        "endNativeIndexInclusive": 835,
+        "start": 4982.6,
+        "end": 4983.4,
+        "knownThen": false,
+        "usesLaterFrames": true
+      },
+      "manual": null
+    },
+    {
+      "id": "continuity-ball-0818",
+      "nativeIndex": 818,
+      "time": 4982.72,
+      "pts": 63778816,
+      "screen": {
+        "x": 117.07543563842773,
+        "y": 324.98606872558594,
+        "radiusPx": 4
+      },
+      "pitch": {
+        "x": 15.991511653202725,
+        "y": 93.5284747481957,
+        "nativeGroundProxyPx": [
+          117.00008773803711,
+          329.3603820800781
+        ],
+        "local8pxSensitivityPercent": 1.1064855867097485
+      },
+      "method": "reviewed_bidirectional_track_current_box",
+      "height": "apparent_near_ground_height_unmeasured",
+      "sourceImage": {
+        "pixelSha256": "d9cd3719b0765c52c53daa78d47ccb98f2eca903299af65aa497374a6a93bfad",
+        "pngSha256": "ad7ad927b933f669b5ca17d12044fe793d0b4fb398e2404b58391e36c2aabc10"
+      },
+      "camera": {
+        "nativeIndex": 818,
+        "projection": [
+          [
+            877.802232820824,
+            -1027.5229337542892,
+            160.333250391933,
+            67395.00673131867
+          ],
+          [
+            76.28468671431303,
+            122.62171720408338,
+            1285.38533193759,
+            14959.03404312627
+          ],
+          [
+            -0.44942065686337207,
+            -0.8303120752279262,
+            0.3295495879457139,
+            56.6960350731523
+          ]
+        ],
+        "normalizedCondition": 6.8678397009374805,
+        "fitErrorPx": 2.2176565696844586,
+        "rawKeypoints": 20,
+        "visualReview": "approximate_native_field_overlay"
+      },
+      "support": {
+        "startNativeIndex": 815,
+        "endNativeIndexInclusive": 835,
+        "start": 4982.6,
+        "end": 4983.4,
+        "knownThen": false,
+        "usesLaterFrames": true
+      },
+      "manual": null
+    },
+    {
+      "id": "continuity-ball-0819",
+      "nativeIndex": 819,
+      "time": 4982.76,
+      "pts": 63779328,
+      "screen": {
+        "x": 116.91389465332031,
+        "y": 325.5084533691406,
+        "radiusPx": 4
+      },
+      "pitch": {
+        "x": 16.0320982492849,
+        "y": 93.50895487203967,
+        "nativeGroundProxyPx": [
+          116.20047760009766,
+          330.36846923828125
+        ],
+        "local8pxSensitivityPercent": 1.0969184490313513
+      },
+      "method": "reviewed_bidirectional_track_current_box",
+      "height": "apparent_near_ground_height_unmeasured",
+      "sourceImage": {
+        "pixelSha256": "84c90ad4e03a8d70f03dbcfc018e381b156b444dd2a80cf7a1a5e5c024319472",
+        "pngSha256": "af4d9d6dfca785a461cb1d78dec09b9195a273d52ccecda0e2560421f990cf78"
+      },
+      "camera": {
+        "nativeIndex": 819,
+        "projection": [
+          [
+            871.2304122012104,
+            -1024.6025178224786,
+            161.2495077383652,
+            66925.1455148419
+          ],
+          [
+            74.80639331696489,
+            121.35193716866348,
+            1278.888527309022,
+            14821.639532091145
+          ],
+          [
+            -0.449947572289095,
+            -0.8298988036634609,
+            0.32987142626954796,
+            56.16107868719371
+          ]
+        ],
+        "normalizedCondition": 6.90596291982376,
+        "fitErrorPx": 1.6602231288596325,
+        "rawKeypoints": 20,
+        "visualReview": "approximate_native_field_overlay"
+      },
+      "support": {
+        "startNativeIndex": 815,
+        "endNativeIndexInclusive": 835,
+        "start": 4982.6,
+        "end": 4983.4,
+        "knownThen": false,
+        "usesLaterFrames": true
+      },
+      "manual": null
+    }
+  ]
+}

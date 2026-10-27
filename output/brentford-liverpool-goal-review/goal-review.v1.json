@@ -1,0 +1,440 @@
+{
+  "version": 1,
+  "artifact_kind": "source_backed_goal_sequence_review",
+  "fixture_id": "premier-league:2026-27:2026-10-17:brentford:liverpool",
+  "purpose": "Reviewable ordered goal steps for coordinator mapping. No application import or authored geometry is performed by this investigation.",
+  "source_pins": {
+    "video-manifest.json": {
+      "file": "../brentford-liverpool-review/video-manifest.json",
+      "sha256": "fba135dabbe5764db234b36e92fdbf1abf647127c13c4223eddad282d9811b9f"
+    },
+    "asr-rev1/progress.json": {
+      "file": "../brentford-liverpool-review/asr-rev1/progress.json",
+      "sha256": "0e7a9271f8109e1f1d3c17650a9734007bdbd9baaacedec6b8fc77d25f91e24e"
+    },
+    "asr-rev1/transcript.json": {
+      "file": "../brentford-liverpool-review/asr-rev1/transcript.json",
+      "sha256": "9398c3c69e158efb610d96d4d3c56d30c9a7ff4e6dc04c14fe614f19722a73f0"
+    },
+    "sources/official-match-facts.json": {
+      "file": "../brentford-liverpool-review/sources/official-match-facts.json",
+      "sha256": "d5a15af25696db2cd0c983d1869f6950074f6371d7689a8610a3f198775532cf"
+    },
+    "source-video.mp4": {
+      "file": "../brentford-liverpool-review/source-video.mp4",
+      "sha256": "977b6e19022751eee0df7eac045f46a3840492077da02f278f02b72be0bb1123",
+      "bytes": 507022851
+    }
+  },
+  "sources": [
+    {
+      "id": "brentford-report",
+      "url": "https://www.brentfordfc.com/en/news/match-reports-brentford-1-liverpool-2-premier-league-17-11-2026",
+      "publisher": "Brentford FC",
+      "body_date": "2026-10-17",
+      "rechecked_on": "2026-10-26",
+      "locators": [
+        "Goal at44 paragraph (web extraction line78)",
+        "Equaliser at62 paragraph (line102)",
+        "Winner at70 paragraph (line104)"
+      ],
+      "available_at": null,
+      "source_use_status": "unknown",
+      "note": "URL month conflicts with body date; original URL retained. Article was read, not downloaded into the source package. Liverpool report refetch timed out; its prior receipt remains separate."
+    }
+  ],
+  "goals": [
+    {
+      "id": "goal-1",
+      "reported_minute": "44",
+      "scorer_id": "brentford:lewis-potter",
+      "official_assist_id": "brentford:thiago",
+      "reviewed_media_interval": [
+        2870.0,
+        2898.8
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "actor_id": "brentford:van-den-berg",
+          "receiver_id": "brentford:thiago",
+          "label": "Pass to Thiago",
+          "provenance": "reported",
+          "report_source": "brentford-report",
+          "report_locator": "Goal-at-44 paragraph: van den Berg supplies Thiago",
+          "pixel_support": {
+            "frames": [
+              {
+                "file": "goal-1/frame-0099.png",
+                "media_elapsed_seconds": 2889.6,
+                "source_pts_seconds": 2889.6,
+                "sha256": "156f345e34ae18b1745465a53130216bdbd8ffa420a064590da2f0505111a04c"
+              },
+              {
+                "file": "goal-1/frame-0101.png",
+                "media_elapsed_seconds": 2890.0,
+                "source_pts_seconds": 2890.0,
+                "sha256": "e9790b027d73e18ec908cdba5f1f7aeffb431c84bc86ffc8868cd2c5f9aedc58"
+              }
+            ],
+            "observed_pattern": "A recycled ball is played toward the attacker on the right; distant sender identity is not read from pixels",
+            "identity_qualification": "Named participants come from the attributed official report. These source frames support the action pattern, not a complete independent pixel-only named track/contact join."
+          },
+          "asr_segment_refs": [
+            "C0009:S0037"
+          ],
+          "available_at": null,
+          "match_clock": null,
+          "position": null
+        },
+        {
+          "order": 2,
+          "actor_id": "brentford:thiago",
+          "receiver_id": "brentford:lewis-potter",
+          "label": "Cross into the centre",
+          "provenance": "reported",
+          "report_source": "brentford-report",
+          "report_locator": "Goal-at-44 paragraph: Thiago lifts a cross into the central box",
+          "pixel_support": {
+            "frames": [
+              {
+                "file": "goal-1/frame-0118.png",
+                "media_elapsed_seconds": 2893.4,
+                "source_pts_seconds": 2893.4,
+                "sha256": "077a905e649654e0f9fa3cab79db6623f6776792a6a289a373379980dcb5b44e"
+              },
+              {
+                "file": "goal-1/frame-0124.png",
+                "media_elapsed_seconds": 2894.6,
+                "source_pts_seconds": 2894.6,
+                "sha256": "e5f72d6559b6d5d2239fec4782140d0a004ca1bfe8c596a605e64598b92f4ef3"
+              }
+            ],
+            "observed_pattern": "Right-side delivery arcs into the central goal area",
+            "identity_qualification": "Named participants come from the attributed official report. These source frames support the action pattern, not a complete independent pixel-only named track/contact join."
+          },
+          "asr_segment_refs": [
+            "C0009:S0037",
+            "C0009:S0038"
+          ],
+          "available_at": null,
+          "match_clock": null,
+          "position": null
+        },
+        {
+          "order": 3,
+          "actor_id": "brentford:lewis-potter",
+          "receiver_id": null,
+          "label": "Header past Alisson",
+          "provenance": "reported",
+          "report_source": "brentford-report",
+          "report_locator": "Goal-at-44 paragraph: Lewis-Potter meets the cross with a scoring header",
+          "pixel_support": {
+            "frames": [
+              {
+                "file": "goal-1/frame-0124.png",
+                "media_elapsed_seconds": 2894.6,
+                "source_pts_seconds": 2894.6,
+                "sha256": "e5f72d6559b6d5d2239fec4782140d0a004ca1bfe8c596a605e64598b92f4ef3"
+              },
+              {
+                "file": "goal-1/frame-0127.png",
+                "media_elapsed_seconds": 2895.2,
+                "source_pts_seconds": 2895.2,
+                "sha256": "a1d3f004c3236275081b1dd0909f1380ff8edd46814b4f1f887f33adfa5a2a68"
+              }
+            ],
+            "observed_pattern": "Central airborne attacker meets the incoming ball; subsequent ball/keeper movement is consistent with the reported headed goal",
+            "identity_qualification": "Named participants come from the attributed official report. These source frames support the action pattern, not a complete independent pixel-only named track/contact join."
+          },
+          "asr_segment_refs": [
+            "C0009:S0038",
+            "C0009:S0041",
+            "C0009:S0043"
+          ],
+          "available_at": null,
+          "match_clock": null,
+          "position": null
+        }
+      ],
+      "camera_scope": "Initial closeup switches to wide view between2870.6 and2870.8; wide attacking view appears continuous at0.2s sample cadence until the celebration cut between2897.2 and2897.4",
+      "optional_context_not_selected_as_core_steps": {
+        "provenance": "unprompted_machine_commentary",
+        "asr_segment_refs": [
+          "C0009:S0034",
+          "C0009:S0035",
+          "C0009:S0036"
+        ],
+        "summary": "ASR describes Kayode progressing, Thiago moving the ball toward Lewis-Potter and an Anthony shot being blocked before the recycle. Names/contacts in this longer chain are not independently established from the wide360p frames; retain it as attributed candidate context."
+      }
+    },
+    {
+      "id": "goal-2",
+      "reported_minute": "62",
+      "scorer_id": "liverpool:munoz",
+      "official_assist_id": "liverpool:wirtz",
+      "reviewed_media_interval": [
+        4594.0,
+        4609.8
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "actor_id": "liverpool:wirtz",
+          "receiver_id": "liverpool:munoz",
+          "label": "Pass into the right channel",
+          "provenance": "reported",
+          "report_source": "brentford-report",
+          "report_locator": "Equaliser-at-62 paragraph: Wirtz releases Muñoz on the right",
+          "pixel_support": {
+            "frames": [
+              {
+                "file": "goal-2/frame-0041.png",
+                "media_elapsed_seconds": 4602.0,
+                "source_pts_seconds": 4602.0,
+                "sha256": "973996a13ebaa9539764fced58d251d7e8c93c8f21c3d89786c99dc70dca534b"
+              },
+              {
+                "file": "goal-2/frame-0048.png",
+                "media_elapsed_seconds": 4603.4,
+                "source_pts_seconds": 4603.4,
+                "sha256": "aca90754e62c1ff646f6f75a8b38f519708ca16f1949567993a05a92278ae989"
+              }
+            ],
+            "observed_pattern": "Forward pass reaches a Liverpool attacker advancing down the right",
+            "identity_qualification": "Named participants come from the attributed official report. These source frames support the action pattern, not a complete independent pixel-only named track/contact join."
+          },
+          "asr_segment_refs": [
+            "C0015:S0016",
+            "C0015:S0017"
+          ],
+          "available_at": null,
+          "match_clock": null,
+          "position": null
+        },
+        {
+          "order": 2,
+          "actor_id": "liverpool:munoz",
+          "receiver_id": null,
+          "label": "Check inside",
+          "provenance": "reported",
+          "report_source": "brentford-report",
+          "report_locator": "Equaliser-at-62 paragraph: Muñoz changes direction inward",
+          "pixel_support": {
+            "frames": [
+              {
+                "file": "goal-2/frame-0063.png",
+                "media_elapsed_seconds": 4606.4,
+                "source_pts_seconds": 4606.4,
+                "sha256": "d9222ba34e801c4e19e151de10ae5ef9d1dff6f46f233937a4f77a6a2f2edfaa"
+              },
+              {
+                "file": "goal-2/frame-0068.png",
+                "media_elapsed_seconds": 4607.4,
+                "source_pts_seconds": 4607.4,
+                "sha256": "091db561e6a99e4e1dcece64d17b367005414122c58866780e425cee1a6894ee"
+              }
+            ],
+            "observed_pattern": "Attacker shifts inside the recovering defender before the shooting action",
+            "identity_qualification": "Named participants come from the attributed official report. These source frames support the action pattern, not a complete independent pixel-only named track/contact join."
+          },
+          "asr_segment_refs": [
+            "C0015:S0017",
+            "C0015:S0018"
+          ],
+          "available_at": null,
+          "match_clock": null,
+          "position": null
+        },
+        {
+          "order": 3,
+          "actor_id": "liverpool:munoz",
+          "receiver_id": null,
+          "label": "Left-footed finish into the bottom corner",
+          "provenance": "reported",
+          "report_source": "brentford-report",
+          "report_locator": "Equaliser-at-62 paragraph: left-footed low finish beyond Kelleher",
+          "pixel_support": {
+            "frames": [
+              {
+                "file": "goal-2/frame-0068.png",
+                "media_elapsed_seconds": 4607.4,
+                "source_pts_seconds": 4607.4,
+                "sha256": "091db561e6a99e4e1dcece64d17b367005414122c58866780e425cee1a6894ee"
+              },
+              {
+                "file": "goal-2/frame-0072.png",
+                "media_elapsed_seconds": 4608.2,
+                "source_pts_seconds": 4608.2,
+                "sha256": "7e42eff18f84ab5ffac4b337d1c7d24a257dfcff2cef84658791136711e7a97f"
+              }
+            ],
+            "observed_pattern": "Shot/keeper dive follows the inward movement; exact boot-ball and line-crossing instants remain unmeasured",
+            "identity_qualification": "Named participants come from the attributed official report. These source frames support the action pattern, not a complete independent pixel-only named track/contact join."
+          },
+          "asr_segment_refs": [
+            "C0015:S0018",
+            "C0015:S0024",
+            "C0015:S0026"
+          ],
+          "available_at": null,
+          "match_clock": null,
+          "position": null
+        }
+      ],
+      "camera_scope": "Wide view cuts to a closeup from4597.4 through4600.0, including visible RIO73, then returns wide at4600.2. Do not carry a named track across that cut. The goal-producing wide sequence from4600.2 through4609.6 appears continuous at0.2s cadence",
+      "optional_context_not_selected_as_core_steps": {
+        "provenance": "unprompted_machine_commentary",
+        "asr_segment_refs": [
+          "C0015:S0016"
+        ],
+        "summary": "ASR says Jacquet moves the ball to Wirtz before the assist. The additional named pass is not added to the core reported chain because the reviewed official paragraph begins with Wirtz and the distant initial player is not independently identified."
+      }
+    },
+    {
+      "id": "goal-3",
+      "reported_minute": "70",
+      "scorer_id": "liverpool:isak",
+      "official_assist_id": "liverpool:barcola",
+      "reviewed_media_interval": [
+        5076.0,
+        5088.8
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "actor_id": "liverpool:mac-allister",
+          "receiver_id": "liverpool:barcola",
+          "label": "Cross towards the back post",
+          "provenance": "reported",
+          "report_source": "brentford-report",
+          "report_locator": "Winner-at-70 paragraph: Mac Allister delivers the cross",
+          "pixel_support": {
+            "frames": [
+              {
+                "file": "goal-3/frame-0033.png",
+                "media_elapsed_seconds": 5082.4,
+                "source_pts_seconds": 5082.4,
+                "sha256": "4f45262c553062e841e09dde526e1639b11d93a1df11c3e4da46c4494b8c2c61"
+              },
+              {
+                "file": "goal-3/frame-0043.png",
+                "media_elapsed_seconds": 5084.4,
+                "source_pts_seconds": 5084.4,
+                "sha256": "7bd9bc57071f81cb15b06f52be74f8b00a60001470f16554f90dc32e88ed718d"
+              }
+            ],
+            "observed_pattern": "Lofted delivery from outside the box travels toward the far-side aerial contest",
+            "identity_qualification": "Named participants come from the attributed official report. These source frames support the action pattern, not a complete independent pixel-only named track/contact join."
+          },
+          "asr_segment_refs": [
+            "C0016:S0054",
+            "C0016:S0055",
+            "C0017:S0004"
+          ],
+          "available_at": null,
+          "match_clock": null,
+          "position": null
+        },
+        {
+          "order": 2,
+          "actor_id": "liverpool:barcola",
+          "receiver_id": "liverpool:isak",
+          "label": "Headed knock-down",
+          "provenance": "reported",
+          "report_source": "brentford-report",
+          "report_locator": "Winner-at-70 paragraph: Barcola heads down for Isak",
+          "pixel_support": {
+            "frames": [
+              {
+                "file": "goal-3/frame-0043.png",
+                "media_elapsed_seconds": 5084.4,
+                "source_pts_seconds": 5084.4,
+                "sha256": "7bd9bc57071f81cb15b06f52be74f8b00a60001470f16554f90dc32e88ed718d"
+              },
+              {
+                "file": "goal-3/frame-0047.png",
+                "media_elapsed_seconds": 5085.2,
+                "source_pts_seconds": 5085.2,
+                "sha256": "afb18904ec61eda72e70bed51cfdb16643af530413b6ee5644a728ec509cfb01"
+              }
+            ],
+            "observed_pattern": "Aerial redirection in the box is followed by the ball arriving near the close-range attacker",
+            "identity_qualification": "Named participants come from the attributed official report. These source frames support the action pattern, not a complete independent pixel-only named track/contact join."
+          },
+          "asr_segment_refs": [
+            "C0016:S0055"
+          ],
+          "available_at": null,
+          "match_clock": null,
+          "position": null
+        },
+        {
+          "order": 3,
+          "actor_id": "liverpool:isak",
+          "receiver_id": null,
+          "label": "Control and finish from close range",
+          "provenance": "reported",
+          "report_source": "brentford-report",
+          "report_locator": "Winner-at-70 paragraph: Isak takes a touch then drives home nearby",
+          "pixel_support": {
+            "frames": [
+              {
+                "file": "goal-3/frame-0047.png",
+                "media_elapsed_seconds": 5085.2,
+                "source_pts_seconds": 5085.2,
+                "sha256": "afb18904ec61eda72e70bed51cfdb16643af530413b6ee5644a728ec509cfb01"
+              },
+              {
+                "file": "goal-3/frame-0049.png",
+                "media_elapsed_seconds": 5085.6,
+                "source_pts_seconds": 5085.6,
+                "sha256": "f378bed332bb722b5bc8059da5315d92fb56f488b344fb1804ae57697ea67b9d"
+              },
+              {
+                "file": "goal-3/frame-0051.png",
+                "media_elapsed_seconds": 5086.0,
+                "source_pts_seconds": 5086.0,
+                "sha256": "25cea9eba313f37a4f28609b6986d18880006d2e2128b53fd274f13f9163f6d4"
+              }
+            ],
+            "observed_pattern": "Close-range control/shot passage follows the aerial redirection; the precise number/timing of all touches is not measured",
+            "identity_qualification": "Named participants come from the attributed official report. These source frames support the action pattern, not a complete independent pixel-only named track/contact join."
+          },
+          "asr_segment_refs": [
+            "C0016:S0056",
+            "C0017:S0010",
+            "C0017:S0011",
+            "C0017:S0012"
+          ],
+          "available_at": null,
+          "match_clock": null,
+          "position": null
+        }
+      ],
+      "camera_scope": "Wide view appears continuous at0.2s sample cadence throughout5076.0–5088.8, including cross, aerial redirection, control and scoring passage",
+      "optional_context_not_selected_as_core_steps": {
+        "provenance": "unprompted_machine_commentary",
+        "asr_segment_refs": [
+          "C0017:S0011",
+          "C0017:S0012"
+        ],
+        "summary": "ASR describes a left-footed swivel finish while off balance. The selected core keeps the official report's close-range control-and-finish description; no independently verified foot/biomechanical claim is added."
+      }
+    }
+  ],
+  "geometry": {
+    "pitch_coordinates": null,
+    "ball_paths": null,
+    "movement_timing": null,
+    "status": "not_extracted",
+    "rule": "Any later diagram coordinates, path shape, duration or interpolation must be separately labelled authored/generated; these factual steps cannot measure physical geometry."
+  },
+  "limits": [
+    "Media windows come from pinned source clocks/ASR, never authored replay release values2640/4440/4920.",
+    "Reported minutes retain minute precision. Exact scoring/contact seconds and earliest live availability remain unknown; no global clock mapping is added.",
+    "Named participants/actions are attributed official-report claims with sampled visual support. Distant360p pixels alone do not establish all names or exact contacts.",
+    "290 new stills at0.2s cadence were inspected through21 contact sheets;14 selected originals were inspected natively. This is sampled review, not full-rate continuous human viewing or direct listening.",
+    "Frozen source media/ASR/data were reused without changes. No ASR rerun, download, paid call, calibration, tracking or application edit occurred."
+  ]
+}

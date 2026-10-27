@@ -1,0 +1,4 @@
+.loading-status{display:inline-flex;align-items:center;gap:.55rem;color:var(--muted,#687563);font-size:.75rem;line-height:1.5}
+.loading-indicator{display:inline-block;width:.85rem;height:.85rem;flex:0 0 .85rem;border:2px solid #cbd5bd;border-top-color:#426b4b;border-radius:50%;animation:loading-turn 1s linear infinite}
+@keyframes loading-turn{to{transform:rotate(360deg)}}
+@media(prefers-reduced-motion:reduce){.loading-indicator{animation:none;border-top-color:#426b4b;border-right-color:#426b4b}}

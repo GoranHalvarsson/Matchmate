@@ -1,0 +1,3987 @@
+{
+  "observed_at": "2026-10-17",
+  "scope": "Own naming research notes; no app integration or complete historical name intervals. Only explicit selected-season usage is linked.",
+  "evidence": [
+    {
+      "evidence_id": "naming-1",
+      "ground_id": "stamford-bridge",
+      "name": "Stamford Bridge",
+      "name_kind": "official_unspecified",
+      "source_url": "https://www.chelseafc.com/en/stadium-history",
+      "locator": "primary-ground-1; Primary publisher text reviewed through web research; bounded paraphrase only, no full article retained.",
+      "basis": "Club history identifies Stamford Bridge as home since formation in 1905. Reused bounded primary note primary-ground-1.",
+      "evidence_kind": "retrospective_usage",
+      "subject_date": null,
+      "publication_date": null,
+      "applicable_seasons": [],
+      "effective_from": null,
+      "effective_precision": null,
+      "effective_to": null,
+      "observed_at": "2026-10-17",
+      "known_then": false,
+      "reuse_status": "Own bounded research note; publisher public-product, extraction and external-AI reuse not cleared. No raw article retained."
+    },
+    {
+      "evidence_id": "naming-2",
+      "ground_id": "craven-cottage",
+      "name": "Craven Cottage",
+      "name_kind": "official_unspecified",
+      "source_url": "https://www.fulhamfc.com/club/history/history-of-fulham-football-club",
+      "locator": "primary-ground-2; Primary publisher text reviewed through web research; bounded paraphrase only, no full article retained.",
+      "basis": "Club history identifies Craven Cottage home from 1896; temporary Loftus Road period must not be erased. Reused bounded primary note primary-ground-2.",
+      "evidence_kind": "retrospective_usage",
+      "subject_date": null,
+      "publication_date": null,
+      "applicable_seasons": [],
+      "effective_from": null,
+      "effective_precision": null,
+      "effective_to": null,
+      "observed_at": "2026-10-17",
+      "known_then": false,
+      "reuse_status": "Own bounded research note; publisher public-product, extraction and external-AI reuse not cleared. No raw article retained."
+    },
+    {
+      "evidence_id": "naming-3",
+      "ground_id": "mkm-stadium",
+      "name": "KCOM Stadium",
+      "name_kind": "official_unspecified",
+      "source_url": "https://tigerbase.hullcity.com/tigers-timeline.php?select_year=2010",
+      "locator": "primary-ground-3; Primary publisher text reviewed through web research; bounded paraphrase only, no full article retained.",
+      "basis": "Club historical timeline records KC to KCOM naming change on 4 April 2016; this is a naming event, not a ground move. Reused bounded primary note primary-ground-3.",
+      "evidence_kind": "retrospective_usage",
+      "subject_date": null,
+      "publication_date": null,
+      "applicable_seasons": [],
+      "effective_from": null,
+      "effective_precision": null,
+      "effective_to": null,
+      "observed_at": "2026-10-17",
+      "known_then": false,
+      "reuse_status": "Own bounded research note; publisher public-product, extraction and external-AI reuse not cleared. No raw article retained."
+    },
+    {
+      "evidence_id": "naming-4",
+      "ground_id": "portman-road",
+      "name": "Portman Road",
+      "name_kind": "official_unspecified",
+      "source_url": "https://www.itfc.co.uk/news/2026/june/19/2026-27-fixtures-announced/",
+      "locator": "primary-ground-4; Primary publisher text reviewed through web research; bounded paraphrase only, no full article retained.",
+      "basis": "2026/27 fixture announcement names Portman Road home fixtures; planned fixtures can change. Reused bounded primary note primary-ground-4.",
+      "evidence_kind": "planned_usage",
+      "subject_date": null,
+      "publication_date": null,
+      "applicable_seasons": [
+        "2026/27"
+      ],
+      "effective_from": null,
+      "effective_precision": null,
+      "effective_to": null,
+      "observed_at": "2026-10-17",
+      "known_then": false,
+      "reuse_status": "Own bounded research note; publisher public-product, extraction and external-AI reuse not cleared. No raw article retained."
+    },
+    {
+      "evidence_id": "naming-5",
+      "ground_id": "old-trafford",
+      "name": "Old Trafford",
+      "name_kind": "official_unspecified",
+      "source_url": "https://ir.manutd.com/company-information/history.aspx",
+      "locator": "primary-ground-6; Primary publisher text reviewed through web research; bounded paraphrase only, no full article retained.",
+      "basis": "Club history records Old Trafford move in 1910; wartime temporary use elsewhere prevents an unbroken all-history assertion. Reused bounded primary note primary-ground-6.",
+      "evidence_kind": "retrospective_usage",
+      "subject_date": null,
+      "publication_date": null,
+      "applicable_seasons": [],
+      "effective_from": null,
+      "effective_precision": null,
+      "effective_to": null,
+      "observed_at": "2026-10-17",
+      "known_then": false,
+      "reuse_status": "Own bounded research note; publisher public-product, extraction and external-AI reuse not cleared. No raw article retained."
+    },
+    {
+      "evidence_id": "naming-6",
+      "ground_id": "riverside-stadium",
+      "name": "Riverside Stadium",
+      "name_kind": "official_unspecified",
+      "source_url": "https://www.mfc.co.uk/news/2026/may/05/riverside-memories--liverpool--1998----with-mikkel-beck-and-craig-hignett/",
+      "locator": "primary-ground-7; Primary publisher text reviewed through web research; bounded paraphrase only, no full article retained.",
+      "basis": "Club retrospective records Riverside opening and home football in 1995; not a specific 2016/17 venue audit. Reused bounded primary note primary-ground-7.",
+      "evidence_kind": "retrospective_usage",
+      "subject_date": null,
+      "publication_date": null,
+      "applicable_seasons": [],
+      "effective_from": null,
+      "effective_precision": null,
+      "effective_to": null,
+      "observed_at": "2026-10-17",
+      "known_then": false,
+      "reuse_status": "Own bounded research note; publisher public-product, extraction and external-AI reuse not cleared. No raw article retained."
+    },
+    {
+      "evidence_id": "naming-7",
+      "ground_id": "carrow-road",
+      "name": "Carrow Road",
+      "name_kind": "official_unspecified",
+      "source_url": "https://www.canaries.co.uk/club/history",
+      "locator": "primary-ground-8; Primary publisher text reviewed through web research; bounded paraphrase only, no full article retained.",
+      "basis": "Club history records first League match at Carrow Road on 31 August 1935. Reused bounded primary note primary-ground-8.",
+      "evidence_kind": "retrospective_usage",
+      "subject_date": null,
+      "publication_date": null,
+      "applicable_seasons": [],
+      "effective_from": null,
+      "effective_precision": null,
+      "effective_to": null,
+      "observed_at": "2026-10-17",
+      "known_then": false,
+      "reuse_status": "Own bounded research note; publisher public-product, extraction and external-AI reuse not cleared. No raw article retained."
+    },
+    {
+      "evidence_id": "naming-8",
+      "ground_id": "city-ground",
+      "name": "City Ground",
+      "name_kind": "official_unspecified",
+      "source_url": "https://www.nottinghamforest.co.uk/club-information/history/club-information-history-of-nottingham-forest",
+      "locator": "primary-ground-9; Primary publisher text reviewed through web research; bounded paraphrase only, no full article retained.",
+      "basis": "Club history records City Ground move in 1898. Reused bounded primary note primary-ground-9.",
+      "evidence_kind": "retrospective_usage",
+      "subject_date": null,
+      "publication_date": null,
+      "applicable_seasons": [],
+      "effective_from": null,
+      "effective_precision": null,
+      "effective_to": null,
+      "observed_at": "2026-10-17",
+      "known_then": false,
+      "reuse_status": "Own bounded research note; publisher public-product, extraction and external-AI reuse not cleared. No raw article retained."
+    },
+    {
+      "evidence_id": "naming-9",
+      "ground_id": "st-mary-s-stadium",
+      "name": "St Mary’s Stadium",
+      "name_kind": "official_unspecified",
+      "source_url": "https://www.southamptonfc.com/en/history",
+      "locator": "primary-ground-10; Primary publisher text reviewed through web research; bounded paraphrase only, no full article retained.",
+      "basis": "Club history records a home Premier League match at St Marys on 25 August 2012; not a selected-season venue audit. Reused bounded primary note primary-ground-10.",
+      "evidence_kind": "retrospective_usage",
+      "subject_date": null,
+      "publication_date": null,
+      "applicable_seasons": [],
+      "effective_from": null,
+      "effective_precision": null,
+      "effective_to": null,
+      "observed_at": "2026-10-17",
+      "known_then": false,
+      "reuse_status": "Own bounded research note; publisher public-product, extraction and external-AI reuse not cleared. No raw article retained."
+    },
+    {
+      "evidence_id": "naming-10",
+      "ground_id": "stadium-of-light",
+      "name": "Stadium of Light",
+      "name_kind": "official_unspecified",
+      "source_url": "https://images.gc.safcservices.com/51146560-87bb-11ef-be35-a91a2fedf24c.pdf",
+      "locator": "primary-ground-12; Primary publisher text reviewed through web research; bounded paraphrase only, no full article retained.",
+      "basis": "Official visitor guide identifies Stadium of Light as home since 1997. Reused bounded primary note primary-ground-12.",
+      "evidence_kind": "retrospective_usage",
+      "subject_date": null,
+      "publication_date": null,
+      "applicable_seasons": [],
+      "effective_from": null,
+      "effective_precision": null,
+      "effective_to": null,
+      "observed_at": "2026-10-17",
+      "known_then": false,
+      "reuse_status": "Own bounded research note; publisher public-product, extraction and external-AI reuse not cleared. No raw article retained."
+    },
+    {
+      "evidence_id": "naming-11",
+      "ground_id": "liberty-stadium",
+      "name": "Liberty Stadium",
+      "name_kind": "official_unspecified",
+      "source_url": "https://www.swanseacity.com/news/ten-years-liberty-seventh-heaven",
+      "locator": "primary-ground-13; Primary publisher text reviewed through web research; bounded paraphrase only, no full article retained.",
+      "basis": "23 February 2016 retrospective identifies tenth season at Liberty Stadium. Current Swansea.com name is not a 2015 name. Reused bounded primary note primary-ground-13.",
+      "evidence_kind": "retrospective_usage",
+      "subject_date": null,
+      "publication_date": null,
+      "applicable_seasons": [
+        "2015/16"
+      ],
+      "effective_from": null,
+      "effective_precision": null,
+      "effective_to": null,
+      "observed_at": "2026-10-17",
+      "known_then": false,
+      "reuse_status": "Own bounded research note; publisher public-product, extraction and external-AI reuse not cleared. No raw article retained."
+    },
+    {
+      "evidence_id": "naming-12",
+      "ground_id": "vicarage-road",
+      "name": "Vicarage Road",
+      "name_kind": "official_unspecified",
+      "source_url": "https://cdn.wba.co.uk/sites/default/files/2023-09/Vicarage%20Road%20Guide.pdf.pdf",
+      "locator": "primary-ground-14; Primary publisher text reviewed through web research; bounded paraphrase only, no full article retained.",
+      "basis": "Visiting clubs guide identifies Vicarage Road as Watford home since 1922; publication is by West Bromwich Albion. Reused bounded primary note primary-ground-14.",
+      "evidence_kind": "retrospective_usage",
+      "subject_date": null,
+      "publication_date": null,
+      "applicable_seasons": [],
+      "effective_from": null,
+      "effective_precision": null,
+      "effective_to": null,
+      "observed_at": "2026-10-17",
+      "known_then": false,
+      "reuse_status": "Own bounded research note; publisher public-product, extraction and external-AI reuse not cleared. No raw article retained."
+    },
+    {
+      "evidence_id": "naming-13",
+      "ground_id": "the-hawthorns",
+      "name": "The Hawthorns",
+      "name_kind": "official_unspecified",
+      "source_url": "https://www.wba.co.uk/news/celebrating-120-years-hawthorns",
+      "locator": "primary-ground-15; Primary publisher text reviewed through web research; bounded paraphrase only, no full article retained.",
+      "basis": "3 September 2020 club retrospective identifies 120 years at The Hawthorns. Reused bounded primary note primary-ground-15.",
+      "evidence_kind": "retrospective_usage",
+      "subject_date": null,
+      "publication_date": null,
+      "applicable_seasons": [],
+      "effective_from": null,
+      "effective_precision": null,
+      "effective_to": null,
+      "observed_at": "2026-10-17",
+      "known_then": false,
+      "reuse_status": "Own bounded research note; publisher public-product, extraction and external-AI reuse not cleared. No raw article retained."
+    },
+    {
+      "evidence_id": "naming-14",
+      "ground_id": "brighton-community-stadium",
+      "name": "Amex",
+      "name_kind": "official_unspecified",
+      "source_url": "https://www.brightonandhovealbion.com/media-article/message-from-tony-bloom-ahead-of-our-125-anniversary-game",
+      "locator": "primary-ground-17; Primary publisher text reviewed through web research; bounded paraphrase only, no full article retained.",
+      "basis": "2026 anniversary message identifies permanent Amex home opened in 2011. Reused bounded primary note primary-ground-17.",
+      "evidence_kind": "retrospective_usage",
+      "subject_date": null,
+      "publication_date": null,
+      "applicable_seasons": [
+        "2026/27"
+      ],
+      "effective_from": null,
+      "effective_precision": null,
+      "effective_to": null,
+      "observed_at": "2026-10-17",
+      "known_then": false,
+      "reuse_status": "Own bounded research note; publisher public-product, extraction and external-AI reuse not cleared. No raw article retained."
+    },
+    {
+      "evidence_id": "naming-15",
+      "ground_id": "coventry-building-society-arena",
+      "name": "Coventry Building Society Arena",
+      "name_kind": "official_unspecified",
+      "source_url": "https://www.premierleague.com/en/clubs/9/coventry-city/directory",
+      "locator": "primary-ground-18; Primary publisher text reviewed through web research; bounded paraphrase only, no full article retained.",
+      "basis": "2026 club directory identifies Coventry Building Society Arena; this is observed current context, not full-season certainty. Reused bounded primary note primary-ground-18.",
+      "evidence_kind": "retrospective_usage",
+      "subject_date": null,
+      "publication_date": null,
+      "applicable_seasons": [
+        "2026/27"
+      ],
+      "effective_from": null,
+      "effective_precision": null,
+      "effective_to": null,
+      "observed_at": "2026-10-17",
+      "known_then": false,
+      "reuse_status": "Own bounded research note; publisher public-product, extraction and external-AI reuse not cleared. No raw article retained."
+    },
+    {
+      "evidence_id": "naming-16",
+      "ground_id": "dean-court",
+      "name": "Vitality Stadium",
+      "name_kind": "official_unspecified",
+      "source_url": "https://www.afcb.co.uk/news/2026/october/12/information---points-drop--brighton-h/",
+      "locator": "primary-ground-19; Primary publisher text reviewed through web research; bounded paraphrase only, no full article retained.",
+      "basis": "12 October 2026 club notice identifies planned 2 December 2026 home fixture at Vitality Stadium; historical context remains to corroborate. Reused bounded primary note primary-ground-19.",
+      "evidence_kind": "planned_usage",
+      "subject_date": null,
+      "publication_date": null,
+      "applicable_seasons": [
+        "2026/27"
+      ],
+      "effective_from": null,
+      "effective_precision": null,
+      "effective_to": null,
+      "observed_at": "2026-10-17",
+      "known_then": false,
+      "reuse_status": "Own bounded research note; publisher public-product, extraction and external-AI reuse not cleared. No raw article retained."
+    },
+    {
+      "evidence_id": "naming-17",
+      "ground_id": "turf-moor",
+      "name": "Turf Moor",
+      "name_kind": "official_unspecified",
+      "source_url": "https://historicengland.org.uk/images-books/photos/volume/FGE01/01/019",
+      "locator": "primary-ground-20; Primary publisher text reviewed through web research; bounded paraphrase only, no full article retained.",
+      "basis": "Historic England identifies Turf Moor as club home since 1883. Reused bounded primary note primary-ground-20.",
+      "evidence_kind": "retrospective_usage",
+      "subject_date": null,
+      "publication_date": null,
+      "applicable_seasons": [],
+      "effective_from": null,
+      "effective_precision": null,
+      "effective_to": null,
+      "observed_at": "2026-10-17",
+      "known_then": false,
+      "reuse_status": "Own bounded research note; publisher public-product, extraction and external-AI reuse not cleared. No raw article retained."
+    },
+    {
+      "evidence_id": "naming-18",
+      "ground_id": "boleyn-ground",
+      "name": "Boleyn Ground",
+      "name_kind": "official_unspecified",
+      "source_url": "https://www.whufc.com/en/the-club/history/greatest-matches/2016-west-ham-united-3-2-manchester-united",
+      "locator": "primary-ground-21; Primary publisher text reviewed through web research; bounded paraphrase only, no full article retained.",
+      "basis": "Club retrospective identifies final Boleyn Ground game on 10 May 2016. Reused bounded primary note primary-ground-21.",
+      "evidence_kind": "retrospective_usage",
+      "subject_date": null,
+      "publication_date": null,
+      "applicable_seasons": [
+        "2015/16"
+      ],
+      "effective_from": null,
+      "effective_precision": null,
+      "effective_to": null,
+      "observed_at": "2026-10-17",
+      "known_then": false,
+      "reuse_status": "Own bounded research note; publisher public-product, extraction and external-AI reuse not cleared. No raw article retained."
+    },
+    {
+      "evidence_id": "naming-19",
+      "ground_id": "london-stadium",
+      "name": "London Stadium",
+      "name_kind": "official_unspecified",
+      "source_url": "https://www.premierleague.com/en/news/75114",
+      "locator": "primary-ground-22; Primary publisher text reviewed through web research; bounded paraphrase only, no full article retained.",
+      "basis": "21 August 2016 first home league match at London Stadium; this establishes season context, not all fixture venues. Reused bounded primary note primary-ground-22.",
+      "evidence_kind": "retrospective_usage",
+      "subject_date": null,
+      "publication_date": null,
+      "applicable_seasons": [
+        "2016/17"
+      ],
+      "effective_from": null,
+      "effective_precision": null,
+      "effective_to": null,
+      "observed_at": "2026-10-17",
+      "known_then": false,
+      "reuse_status": "Own bounded research note; publisher public-product, extraction and external-AI reuse not cleared. No raw article retained."
+    },
+    {
+      "evidence_id": "naming-20",
+      "ground_id": "etihad-stadium",
+      "name": "Etihad Stadium",
+      "name_kind": "official_unspecified",
+      "source_url": "https://www.mancity.com/meta/media/eltniv3k/2016-mancity-annual-and-financial-report.pdf",
+      "locator": "primary-ground-23; Primary publisher excerpt surfaced in web research; no full document retained.",
+      "basis": "2015/16 annual report identifies expanded Etihad Stadium at August 2015 first home game. Reused bounded primary note primary-ground-23.",
+      "evidence_kind": "retrospective_usage",
+      "subject_date": null,
+      "publication_date": null,
+      "applicable_seasons": [
+        "2015/16"
+      ],
+      "effective_from": null,
+      "effective_precision": null,
+      "effective_to": null,
+      "observed_at": "2026-10-17",
+      "known_then": false,
+      "reuse_status": "Own bounded research note; publisher public-product, extraction and external-AI reuse not cleared. No raw article retained."
+    },
+    {
+      "evidence_id": "naming-21",
+      "ground_id": "etihad-stadium",
+      "name": "Etihad Stadium",
+      "name_kind": "official_unspecified",
+      "source_url": "https://live.mancity.com/news/first-team/first-team-news/2017/may/man-city-season-in-numbers",
+      "locator": "primary-ground-24; Primary publisher excerpt surfaced in web research; no full document retained.",
+      "basis": "2016/17 review discusses home appearances at Etihad Stadium. Reused bounded primary note primary-ground-24.",
+      "evidence_kind": "retrospective_usage",
+      "subject_date": null,
+      "publication_date": null,
+      "applicable_seasons": [
+        "2016/17"
+      ],
+      "effective_from": null,
+      "effective_precision": null,
+      "effective_to": null,
+      "observed_at": "2026-10-17",
+      "known_then": false,
+      "reuse_status": "Own bounded research note; publisher public-product, extraction and external-AI reuse not cleared. No raw article retained."
+    },
+    {
+      "evidence_id": "naming-22",
+      "ground_id": "city-ground",
+      "name": "City Ground",
+      "name_kind": "official_unspecified",
+      "source_url": "https://www.nottinghamforest.co.uk/news/2026/october/11/crystal-palace-report/",
+      "locator": "primary-ground-25; Primary publisher excerpt surfaced in web research; no full document retained.",
+      "basis": "11 October 2026 report identifies next home match with Arsenal at City Ground; planned future fixture context only. Reused bounded primary note primary-ground-25.",
+      "evidence_kind": "planned_usage",
+      "subject_date": null,
+      "publication_date": null,
+      "applicable_seasons": [
+        "2026/27"
+      ],
+      "effective_from": null,
+      "effective_precision": null,
+      "effective_to": null,
+      "observed_at": "2026-10-17",
+      "known_then": false,
+      "reuse_status": "Own bounded research note; publisher public-product, extraction and external-AI reuse not cleared. No raw article retained."
+    },
+    {
+      "evidence_id": "naming-23",
+      "ground_id": "dean-court",
+      "name": "Vitality Stadium",
+      "name_kind": "official_unspecified",
+      "source_url": "https://www.mancity.com/features/city-v-bournemouth-match-prog-july-20/",
+      "locator": "primary-ground-26; Primary publisher text reviewed in bounded research (City retrospective additionally reviewed by orchestrator); own paraphrase only.",
+      "basis": "Official opponent retrospective explicitly discusses 2015/16 meetings at Vitality and Etihad; venue context only. Reused bounded primary note primary-ground-26.",
+      "evidence_kind": "retrospective_usage",
+      "subject_date": null,
+      "publication_date": null,
+      "applicable_seasons": [
+        "2015/16"
+      ],
+      "effective_from": null,
+      "effective_precision": null,
+      "effective_to": null,
+      "observed_at": "2026-10-17",
+      "known_then": false,
+      "reuse_status": "Own bounded research note; publisher public-product, extraction and external-AI reuse not cleared. No raw article retained."
+    },
+    {
+      "evidence_id": "naming-24",
+      "ground_id": "dean-court",
+      "name": "Vitality Stadium",
+      "name_kind": "official_unspecified",
+      "source_url": "https://www.mancity.com/features/city-v-bournemouth-match-prog-july-20/",
+      "locator": "primary-ground-27; Primary publisher text reviewed in bounded research (City retrospective additionally reviewed by orchestrator); own paraphrase only.",
+      "basis": "Official opponent retrospective explicitly discusses 2016/17 meetings at Vitality and Etihad; venue context only. Reused bounded primary note primary-ground-27.",
+      "evidence_kind": "retrospective_usage",
+      "subject_date": null,
+      "publication_date": null,
+      "applicable_seasons": [
+        "2016/17"
+      ],
+      "effective_from": null,
+      "effective_precision": null,
+      "effective_to": null,
+      "observed_at": "2026-10-17",
+      "known_then": false,
+      "reuse_status": "Own bounded research note; publisher public-product, extraction and external-AI reuse not cleared. No raw article retained."
+    },
+    {
+      "evidence_id": "naming-25",
+      "ground_id": "etihad-stadium",
+      "name": "Etihad Stadium",
+      "name_kind": "official_unspecified",
+      "source_url": "https://www.premierleague.com/en/news/4675508/premier-league-fixture-schedulereleased-for-season-202627",
+      "locator": "primary-ground-28; Primary publisher text reviewed in bounded research (City retrospective additionally reviewed by orchestrator); own paraphrase only.",
+      "basis": "19 June 2026 opening schedule identifies City home opener at Etihad Stadium; planned context only. Reused bounded primary note primary-ground-28.",
+      "evidence_kind": "planned_usage",
+      "subject_date": null,
+      "publication_date": null,
+      "applicable_seasons": [
+        "2026/27"
+      ],
+      "effective_from": null,
+      "effective_precision": null,
+      "effective_to": null,
+      "observed_at": "2026-10-17",
+      "known_then": false,
+      "reuse_status": "Own bounded research note; publisher public-product, extraction and external-AI reuse not cleared. No raw article retained."
+    },
+    {
+      "evidence_id": "naming-26",
+      "ground_id": "mkm-stadium",
+      "name": "MKM Stadium",
+      "name_kind": "official_unspecified",
+      "source_url": "https://www.itfc.co.uk/matches/fixtures--results/",
+      "locator": "primary-ground-29; Primary publisher text reviewed in bounded research (City retrospective additionally reviewed by orchestrator); own paraphrase only.",
+      "basis": "Official opponent 2026/27 fixtures identify planned 31 October away match at Hull MKM Stadium; fixture can change. Reused bounded primary note primary-ground-29.",
+      "evidence_kind": "planned_usage",
+      "subject_date": null,
+      "publication_date": null,
+      "applicable_seasons": [
+        "2026/27"
+      ],
+      "effective_from": null,
+      "effective_precision": null,
+      "effective_to": null,
+      "observed_at": "2026-10-17",
+      "known_then": false,
+      "reuse_status": "Own bounded research note; publisher public-product, extraction and external-AI reuse not cleared. No raw article retained."
+    },
+    {
+      "evidence_id": "naming-27",
+      "ground_id": "carrow-road",
+      "name": "Carrow Road",
+      "name_kind": "official_unspecified",
+      "source_url": "https://www.mancity.com/news/first-team/match-report/2016/march/norwich-v-city-match-report-pl-12-march",
+      "locator": "primary-ground-30; Primary publisher text as specified in summary; own bounded paraphrase only.",
+      "basis": "12 March 2016 opponent match report identifies Carrow Road; full body independently reviewed by orchestrator. Reused bounded primary note primary-ground-30.",
+      "evidence_kind": "retrospective_usage",
+      "subject_date": null,
+      "publication_date": null,
+      "applicable_seasons": [
+        "2015/16"
+      ],
+      "effective_from": null,
+      "effective_precision": null,
+      "effective_to": null,
+      "observed_at": "2026-10-17",
+      "known_then": false,
+      "reuse_status": "Own bounded research note; publisher public-product, extraction and external-AI reuse not cleared. No raw article retained."
+    },
+    {
+      "evidence_id": "naming-28",
+      "ground_id": "st-mary-s-stadium",
+      "name": "St Mary’s",
+      "name_kind": "official_unspecified",
+      "source_url": "https://www.mancity.com/news/first-team/match-report/2016/may/southampton-v-city-may-1",
+      "locator": "primary-ground-31; Primary publisher text as specified in summary; own bounded paraphrase only.",
+      "basis": "1 May 2016 opponent match report identifies St Marys; full body independently reviewed by orchestrator. Reused bounded primary note primary-ground-31.",
+      "evidence_kind": "retrospective_usage",
+      "subject_date": null,
+      "publication_date": null,
+      "applicable_seasons": [
+        "2015/16"
+      ],
+      "effective_from": null,
+      "effective_precision": null,
+      "effective_to": null,
+      "observed_at": "2026-10-17",
+      "known_then": false,
+      "reuse_status": "Own bounded research note; publisher public-product, extraction and external-AI reuse not cleared. No raw article retained."
+    },
+    {
+      "evidence_id": "naming-29",
+      "ground_id": "old-trafford",
+      "name": "Old Trafford",
+      "name_kind": "official_unspecified",
+      "source_url": "https://www.mancity.com/news/mens/fixtures-202627-announced-premier-league-63917455",
+      "locator": "primary-ground-32; Primary publisher text as specified in summary; own bounded paraphrase only.",
+      "basis": "Opponent schedule identifies planned 12 September 2026 trip to Old Trafford; source reviewed by orchestrator, not a result guarantee. Reused bounded primary note primary-ground-32.",
+      "evidence_kind": "planned_usage",
+      "subject_date": null,
+      "publication_date": null,
+      "applicable_seasons": [
+        "2026/27"
+      ],
+      "effective_from": null,
+      "effective_precision": null,
+      "effective_to": null,
+      "observed_at": "2026-10-17",
+      "known_then": false,
+      "reuse_status": "Own bounded research note; publisher public-product, extraction and external-AI reuse not cleared. No raw article retained."
+    },
+    {
+      "evidence_id": "naming-30",
+      "ground_id": "old-trafford",
+      "name": "Old Trafford",
+      "name_kind": "official_unspecified",
+      "source_url": "https://www.mancity.com/news/first-team/match-report/2016/september/manchester-united-v-city-10-sept-pl",
+      "locator": "primary-ground-33; Primary publisher text as specified in summary; own bounded paraphrase only.",
+      "basis": "10 September 2016 opponent match report identifies Old Trafford; full body opened. Reused bounded primary note primary-ground-33.",
+      "evidence_kind": "retrospective_usage",
+      "subject_date": null,
+      "publication_date": null,
+      "applicable_seasons": [
+        "2016/17"
+      ],
+      "effective_from": null,
+      "effective_precision": null,
+      "effective_to": null,
+      "observed_at": "2026-10-17",
+      "known_then": false,
+      "reuse_status": "Own bounded research note; publisher public-product, extraction and external-AI reuse not cleared. No raw article retained."
+    },
+    {
+      "evidence_id": "naming-31",
+      "ground_id": "riverside-stadium",
+      "name": "Riverside Stadium",
+      "name_kind": "official_unspecified",
+      "source_url": "https://www.premierleague.com/en/news/387967/match-summary",
+      "locator": "primary-ground-34; Primary publisher text as specified in summary; own bounded paraphrase only.",
+      "basis": "13 May 2017 league report identifies Riverside Stadium; primary article excerpt reviewed. Reused bounded primary note primary-ground-34.",
+      "evidence_kind": "retrospective_usage",
+      "subject_date": null,
+      "publication_date": null,
+      "applicable_seasons": [
+        "2016/17"
+      ],
+      "effective_from": null,
+      "effective_precision": null,
+      "effective_to": null,
+      "observed_at": "2026-10-17",
+      "known_then": false,
+      "reuse_status": "Own bounded research note; publisher public-product, extraction and external-AI reuse not cleared. No raw article retained."
+    },
+    {
+      "evidence_id": "naming-32",
+      "ground_id": "st-mary-s-stadium",
+      "name": "St Mary’s",
+      "name_kind": "official_unspecified",
+      "source_url": "https://www.mancity.com/news/first-team/match-report/2017/april/southampton-v-man-city-premier-league-match-report-15-april",
+      "locator": "primary-ground-35; Primary publisher text as explicitly specified in summary; own bounded paraphrase only.",
+      "basis": "15 April 2017 opponent report identifies St Marys; full body reviewed by orchestrator. Reused bounded primary note primary-ground-35.",
+      "evidence_kind": "retrospective_usage",
+      "subject_date": null,
+      "publication_date": null,
+      "applicable_seasons": [
+        "2016/17"
+      ],
+      "effective_from": null,
+      "effective_precision": null,
+      "effective_to": null,
+      "observed_at": "2026-10-17",
+      "known_then": false,
+      "reuse_status": "Own bounded research note; publisher public-product, extraction and external-AI reuse not cleared. No raw article retained."
+    },
+    {
+      "evidence_id": "naming-33",
+      "ground_id": "mkm-stadium",
+      "name": "KCOM Stadium",
+      "name_kind": "official_unspecified",
+      "source_url": "https://www.mancity.com/news/first-team/first-team-news/2016/december/hull-v-man-city-tv-info",
+      "locator": "primary-ground-36; Primary publisher text as explicitly specified in summary; own bounded paraphrase only.",
+      "basis": "December 2016 opponent preview identifies Hull home results at KCOM this season; full body reviewed by orchestrator. Current ground entity label MKM is not its historical name. Reused bounded primary note primary-ground-36.",
+      "evidence_kind": "retrospective_usage",
+      "subject_date": null,
+      "publication_date": null,
+      "applicable_seasons": [
+        "2016/17"
+      ],
+      "effective_from": null,
+      "effective_precision": null,
+      "effective_to": null,
+      "observed_at": "2026-10-17",
+      "known_then": false,
+      "reuse_status": "Own bounded research note; publisher public-product, extraction and external-AI reuse not cleared. No raw article retained."
+    },
+    {
+      "evidence_id": "naming-34",
+      "ground_id": "old-trafford",
+      "name": "Old Trafford",
+      "name_kind": "official_unspecified",
+      "source_url": "https://www.mancity.com/news/first-team/match-report/2015/october/man-united-v-city-premier-league-25-oct",
+      "locator": "primary-ground-37; Primary publisher text as explicitly specified in summary; own bounded paraphrase only.",
+      "basis": "25 October 2015 opponent report identifies Old Trafford; full report text surfaced in search, direct opens timed out twice. Excerpt-level source inspection, not retained page capture. Reused bounded primary note primary-ground-37.",
+      "evidence_kind": "retrospective_usage",
+      "subject_date": null,
+      "publication_date": null,
+      "applicable_seasons": [
+        "2015/16"
+      ],
+      "effective_from": null,
+      "effective_precision": null,
+      "effective_to": null,
+      "observed_at": "2026-10-17",
+      "known_then": false,
+      "reuse_status": "Own bounded research note; publisher public-product, extraction and external-AI reuse not cleared. No raw article retained."
+    },
+    {
+      "evidence_id": "naming-35",
+      "ground_id": "craven-cottage",
+      "name": "Craven Cottage",
+      "name_kind": "official_unspecified",
+      "source_url": "https://www.chelseafc.com/en/news/article/match-report-fulham-chelsea-aug-26",
+      "locator": "primary-ground-38; Primary publisher text as explicitly specified in summary; own bounded paraphrase only.",
+      "basis": "August 2026 opponent report identifies Fulham home opening league match at Craven Cottage; full body reviewed by orchestrator. Reused bounded primary note primary-ground-38.",
+      "evidence_kind": "retrospective_usage",
+      "subject_date": null,
+      "publication_date": null,
+      "applicable_seasons": [
+        "2026/27"
+      ],
+      "effective_from": null,
+      "effective_precision": null,
+      "effective_to": null,
+      "observed_at": "2026-10-17",
+      "known_then": false,
+      "reuse_status": "Own bounded research note; publisher public-product, extraction and external-AI reuse not cleared. No raw article retained."
+    },
+    {
+      "evidence_id": "naming-36",
+      "ground_id": "liberty-stadium",
+      "name": "Liberty Stadium",
+      "name_kind": "official_unspecified",
+      "source_url": "https://www.swanseacity.com/news/05042017-1845-v-tottenham-hotspur",
+      "locator": "primary-ground-39; Full primary page opened; heading line12, displayed publication date line14 and ground identification line16 reviewed. Page publication timestamp differs from subject match date; neither establishes known-then availability.",
+      "basis": "Club match report heading identifies 5 April 2017 Swansea versus Tottenham; body explicitly identifies Liberty Stadium. This is 2016/17 match venue context, not all fixture venues. Reused bounded primary note primary-ground-39.",
+      "evidence_kind": "retrospective_usage",
+      "subject_date": null,
+      "publication_date": null,
+      "applicable_seasons": [
+        "2016/17"
+      ],
+      "effective_from": null,
+      "effective_precision": null,
+      "effective_to": null,
+      "observed_at": "2026-10-17",
+      "known_then": false,
+      "reuse_status": "Own bounded research note; publisher public-product, extraction and external-AI reuse not cleared. No raw article retained."
+    },
+    {
+      "evidence_id": "naming-37",
+      "ground_id": "brentford-community-stadium",
+      "name": "Gtech Community Stadium",
+      "name_kind": "commercial",
+      "source_url": "https://www.brentfordfc.com/en/news/gtech-announced-as-stadium-naming-rights-partner",
+      "locator": "Relevant named stadium passage",
+      "basis": "28 July 2022 announcement explicitly says naming rights transfer immediately.",
+      "evidence_kind": "naming_event",
+      "subject_date": null,
+      "publication_date": "2022-07-28",
+      "applicable_seasons": [],
+      "effective_from": "2022-07-28",
+      "effective_precision": "day",
+      "effective_to": null,
+      "observed_at": "2026-10-17",
+      "known_then": false,
+      "reuse_status": "Own bounded research note; publisher public-product, extraction and external-AI reuse not cleared. No raw article retained."
+    },
+    {
+      "evidence_id": "naming-38",
+      "ground_id": "liberty-stadium",
+      "name": "Swansea.com Stadium",
+      "name_kind": "commercial",
+      "source_url": "https://www.swanseacity.com/news/swanseacom-become-stadium-naming-rights-partner",
+      "locator": "Relevant named stadium passage",
+      "basis": "9 August 2021 publication explicitly says immediate effect.",
+      "evidence_kind": "naming_event",
+      "subject_date": null,
+      "publication_date": "2021-08-09",
+      "applicable_seasons": [],
+      "effective_from": "2021-08-09",
+      "effective_precision": "day",
+      "effective_to": null,
+      "observed_at": "2026-10-17",
+      "known_then": false,
+      "reuse_status": "Own bounded research note; publisher public-product, extraction and external-AI reuse not cleared. No raw article retained."
+    },
+    {
+      "evidence_id": "naming-39",
+      "ground_id": "mkm-stadium",
+      "name": "MKM Stadium",
+      "name_kind": "commercial",
+      "source_url": "https://mkm.com/blog/mkm-news/the-mkm-stadium-the-home-of-hull-city-and-hull-fc",
+      "locator": "Relevant named stadium passage",
+      "basis": "Naming sponsor announcement25 June 2021 says from today.",
+      "evidence_kind": "naming_event",
+      "subject_date": null,
+      "publication_date": "2021-06-25",
+      "applicable_seasons": [],
+      "effective_from": "2021-06-25",
+      "effective_precision": "day",
+      "effective_to": null,
+      "observed_at": "2026-10-17",
+      "known_then": false,
+      "reuse_status": "Own bounded research note; publisher public-product, extraction and external-AI reuse not cleared. No raw article retained."
+    },
+    {
+      "evidence_id": "naming-40",
+      "ground_id": "mkm-stadium",
+      "name": "KCOM Stadium",
+      "name_kind": "commercial",
+      "source_url": "https://tigerbase.hullcity.com/tigers-timeline.php?select_year=2010",
+      "locator": "Relevant named stadium passage",
+      "basis": "Club historical timeline explicitly records name change4 April 2016.",
+      "evidence_kind": "naming_event",
+      "subject_date": null,
+      "publication_date": null,
+      "applicable_seasons": [],
+      "effective_from": "2016-04-04",
+      "effective_precision": "day",
+      "effective_to": null,
+      "observed_at": "2026-10-17",
+      "known_then": false,
+      "reuse_status": "Own bounded research note; publisher public-product, extraction and external-AI reuse not cleared. No raw article retained."
+    },
+    {
+      "evidence_id": "naming-41",
+      "ground_id": "etihad-stadium",
+      "name": "Etihad Stadium",
+      "name_kind": "commercial",
+      "source_url": "https://www.mancity.com/news/club-news/club-news/archive/2011/july/8-july-manchester-city-and-etihad-partnership-announcement",
+      "locator": "Relevant named stadium passage",
+      "basis": "8 July 2011 club announcement says effective immediately.",
+      "evidence_kind": "naming_event",
+      "subject_date": null,
+      "publication_date": "2011-07-08",
+      "applicable_seasons": [],
+      "effective_from": "2011-07-08",
+      "effective_precision": "day",
+      "effective_to": null,
+      "observed_at": "2026-10-17",
+      "known_then": false,
+      "reuse_status": "Own bounded research note; publisher public-product, extraction and external-AI reuse not cleared. No raw article retained."
+    },
+    {
+      "evidence_id": "naming-42",
+      "ground_id": "dean-court",
+      "name": "Vitality Stadium",
+      "name_kind": "commercial",
+      "source_url": "https://www.vitality.co.uk/media/afc-bournemouth-announce-three-year-extension-with-vitality/",
+      "locator": "Relevant named stadium passage",
+      "basis": "26 June 2023 naming sponsor retrospective says ground named Vitality Stadium since 2015; no exact day.",
+      "evidence_kind": "naming_event",
+      "subject_date": null,
+      "publication_date": "2023-06-26",
+      "applicable_seasons": [],
+      "effective_from": "2015",
+      "effective_precision": "year",
+      "effective_to": null,
+      "observed_at": "2026-10-17",
+      "known_then": false,
+      "reuse_status": "Own bounded research note; publisher public-product, extraction and external-AI reuse not cleared. No raw article retained."
+    },
+    {
+      "evidence_id": "naming-43",
+      "ground_id": "leicester-city-stadium",
+      "name": "King Power Stadium",
+      "name_kind": "commercial",
+      "source_url": "https://www.lcfc.com/media-article/What-We-Do",
+      "locator": "Relevant named stadium passage",
+      "basis": "Club retrospective says renamed in 2011; no exact day established.",
+      "evidence_kind": "naming_event",
+      "subject_date": null,
+      "publication_date": null,
+      "applicable_seasons": [],
+      "effective_from": "2011",
+      "effective_precision": "year",
+      "effective_to": null,
+      "observed_at": "2026-10-17",
+      "known_then": false,
+      "reuse_status": "Own bounded research note; publisher public-product, extraction and external-AI reuse not cleared. No raw article retained."
+    },
+    {
+      "evidence_id": "naming-44",
+      "ground_id": "coventry-building-society-arena",
+      "name": "Coventry Building Society Arena",
+      "name_kind": "commercial",
+      "source_url": "https://images.gc.coventrycityfcservices.co.uk/e15ce7f0-ca1d-11f0-9a54-7f2ec289e97b.pdf",
+      "locator": "Relevant named stadium passage",
+      "basis": "Club 2025/26 guide says name became Coventry Building Society Arena in 2021; day/month not established.",
+      "evidence_kind": "naming_event",
+      "subject_date": null,
+      "publication_date": null,
+      "applicable_seasons": [],
+      "effective_from": "2021",
+      "effective_precision": "year",
+      "effective_to": null,
+      "observed_at": "2026-10-17",
+      "known_then": false,
+      "reuse_status": "Own bounded research note; publisher public-product, extraction and external-AI reuse not cleared. No raw article retained."
+    },
+    {
+      "evidence_id": "naming-45",
+      "ground_id": "britannia-stadium",
+      "name": "bet365 Stadium",
+      "name_kind": "commercial",
+      "source_url": "https://images.gc.stokecityfcservices.co.uk/017ac540-9e2f-11f0-864e-1f75353c4300.pdf",
+      "locator": "Relevant named stadium passage",
+      "basis": "Club published text says name changed from start of 2016/17 Premier League season; calendar day not established.",
+      "evidence_kind": "naming_event",
+      "subject_date": null,
+      "publication_date": null,
+      "applicable_seasons": [],
+      "effective_from": null,
+      "effective_precision": null,
+      "effective_to": null,
+      "observed_at": "2026-10-17",
+      "known_then": false,
+      "reuse_status": "Own bounded research note; publisher public-product, extraction and external-AI reuse not cleared. No raw article retained."
+    },
+    {
+      "evidence_id": "naming-46",
+      "ground_id": "villa-park",
+      "name": "Villa Park",
+      "name_kind": "directory_label",
+      "source_url": "https://editorial.uefa.com/resources/0224-0f842ac9bf08-281f7e5c371c-1000/first_division_clubs_in_europe_2015_16.pdf",
+      "locator": "Club Communication 2015/16, PDF page index 32; England club contact block",
+      "basis": "Printed seasonal directory name only; not proof of every fixture venue, commercial classification or continuous validity.",
+      "evidence_kind": "season_directory",
+      "subject_date": null,
+      "publication_date": null,
+      "applicable_seasons": [
+        "2015/16"
+      ],
+      "effective_from": null,
+      "effective_precision": null,
+      "effective_to": null,
+      "observed_at": "2026-10-17",
+      "known_then": false,
+      "reuse_status": "Own bounded research note; publisher public-product, extraction and external-AI reuse not cleared. No raw article retained."
+    },
+    {
+      "evidence_id": "naming-47",
+      "ground_id": "dean-court",
+      "name": "Vitality Stadium",
+      "name_kind": "directory_label",
+      "source_url": "https://editorial.uefa.com/resources/0224-0f842ac9bf08-281f7e5c371c-1000/first_division_clubs_in_europe_2015_16.pdf",
+      "locator": "Club Communication 2015/16, PDF page index 32; England club contact block",
+      "basis": "Printed seasonal directory name only; not proof of every fixture venue, commercial classification or continuous validity.",
+      "evidence_kind": "season_directory",
+      "subject_date": null,
+      "publication_date": null,
+      "applicable_seasons": [
+        "2015/16"
+      ],
+      "effective_from": null,
+      "effective_precision": null,
+      "effective_to": null,
+      "observed_at": "2026-10-17",
+      "known_then": false,
+      "reuse_status": "Own bounded research note; publisher public-product, extraction and external-AI reuse not cleared. No raw article retained."
+    },
+    {
+      "evidence_id": "naming-48",
+      "ground_id": "stamford-bridge",
+      "name": "Stamford Bridge",
+      "name_kind": "directory_label",
+      "source_url": "https://editorial.uefa.com/resources/0224-0f842ac9bf08-281f7e5c371c-1000/first_division_clubs_in_europe_2015_16.pdf",
+      "locator": "Club Communication 2015/16, PDF page index 32; England club contact block",
+      "basis": "Printed seasonal directory name only; not proof of every fixture venue, commercial classification or continuous validity.",
+      "evidence_kind": "season_directory",
+      "subject_date": null,
+      "publication_date": null,
+      "applicable_seasons": [
+        "2015/16"
+      ],
+      "effective_from": null,
+      "effective_precision": null,
+      "effective_to": null,
+      "observed_at": "2026-10-17",
+      "known_then": false,
+      "reuse_status": "Own bounded research note; publisher public-product, extraction and external-AI reuse not cleared. No raw article retained."
+    },
+    {
+      "evidence_id": "naming-49",
+      "ground_id": "selhurst-park",
+      "name": "Selhurst Park Stadium",
+      "name_kind": "directory_label",
+      "source_url": "https://editorial.uefa.com/resources/0224-0f842ac9bf08-281f7e5c371c-1000/first_division_clubs_in_europe_2015_16.pdf",
+      "locator": "Club Communication 2015/16, PDF page index 32; England club contact block",
+      "basis": "Printed seasonal directory name only; not proof of every fixture venue, commercial classification or continuous validity.",
+      "evidence_kind": "season_directory",
+      "subject_date": null,
+      "publication_date": null,
+      "applicable_seasons": [
+        "2015/16"
+      ],
+      "effective_from": null,
+      "effective_precision": null,
+      "effective_to": null,
+      "observed_at": "2026-10-17",
+      "known_then": false,
+      "reuse_status": "Own bounded research note; publisher public-product, extraction and external-AI reuse not cleared. No raw article retained."
+    },
+    {
+      "evidence_id": "naming-50",
+      "ground_id": "goodison-park",
+      "name": "Goodison Park",
+      "name_kind": "directory_label",
+      "source_url": "https://editorial.uefa.com/resources/0224-0f842ac9bf08-281f7e5c371c-1000/first_division_clubs_in_europe_2015_16.pdf",
+      "locator": "Club Communication 2015/16, PDF page index 32; England club contact block",
+      "basis": "Printed seasonal directory name only; not proof of every fixture venue, commercial classification or continuous validity.",
+      "evidence_kind": "season_directory",
+      "subject_date": null,
+      "publication_date": null,
+      "applicable_seasons": [
+        "2015/16"
+      ],
+      "effective_from": null,
+      "effective_precision": null,
+      "effective_to": null,
+      "observed_at": "2026-10-17",
+      "known_then": false,
+      "reuse_status": "Own bounded research note; publisher public-product, extraction and external-AI reuse not cleared. No raw article retained."
+    },
+    {
+      "evidence_id": "naming-51",
+      "ground_id": "leicester-city-stadium",
+      "name": "King Power Stadium",
+      "name_kind": "directory_label",
+      "source_url": "https://editorial.uefa.com/resources/0224-0f842ac9bf08-281f7e5c371c-1000/first_division_clubs_in_europe_2015_16.pdf",
+      "locator": "Club Communication 2015/16, PDF page index 32; England club contact block",
+      "basis": "Printed seasonal directory name only; not proof of every fixture venue, commercial classification or continuous validity.",
+      "evidence_kind": "season_directory",
+      "subject_date": null,
+      "publication_date": null,
+      "applicable_seasons": [
+        "2015/16"
+      ],
+      "effective_from": null,
+      "effective_precision": null,
+      "effective_to": null,
+      "observed_at": "2026-10-17",
+      "known_then": false,
+      "reuse_status": "Own bounded research note; publisher public-product, extraction and external-AI reuse not cleared. No raw article retained."
+    },
+    {
+      "evidence_id": "naming-52",
+      "ground_id": "etihad-stadium",
+      "name": "Etihad Stadium",
+      "name_kind": "directory_label",
+      "source_url": "https://editorial.uefa.com/resources/0224-0f842ac9bf08-281f7e5c371c-1000/first_division_clubs_in_europe_2015_16.pdf",
+      "locator": "Club Communication 2015/16, PDF page index 32; England club contact block",
+      "basis": "Printed seasonal directory name only; not proof of every fixture venue, commercial classification or continuous validity.",
+      "evidence_kind": "season_directory",
+      "subject_date": null,
+      "publication_date": null,
+      "applicable_seasons": [
+        "2015/16"
+      ],
+      "effective_from": null,
+      "effective_precision": null,
+      "effective_to": null,
+      "observed_at": "2026-10-17",
+      "known_then": false,
+      "reuse_status": "Own bounded research note; publisher public-product, extraction and external-AI reuse not cleared. No raw article retained."
+    },
+    {
+      "evidence_id": "naming-53",
+      "ground_id": "st-james-park",
+      "name": "St. James’ Park",
+      "name_kind": "directory_label",
+      "source_url": "https://editorial.uefa.com/resources/0224-0f842ac9bf08-281f7e5c371c-1000/first_division_clubs_in_europe_2015_16.pdf",
+      "locator": "Club Communication 2015/16, PDF page index 32; England club contact block",
+      "basis": "Printed seasonal directory name only; not proof of every fixture venue, commercial classification or continuous validity.",
+      "evidence_kind": "season_directory",
+      "subject_date": null,
+      "publication_date": null,
+      "applicable_seasons": [
+        "2015/16"
+      ],
+      "effective_from": null,
+      "effective_precision": null,
+      "effective_to": null,
+      "observed_at": "2026-10-17",
+      "known_then": false,
+      "reuse_status": "Own bounded research note; publisher public-product, extraction and external-AI reuse not cleared. No raw article retained."
+    },
+    {
+      "evidence_id": "naming-54",
+      "ground_id": "st-mary-s-stadium",
+      "name": "St. Mary’s Stadium",
+      "name_kind": "directory_label",
+      "source_url": "https://editorial.uefa.com/resources/0224-0f842ac9bf08-281f7e5c371c-1000/first_division_clubs_in_europe_2015_16.pdf",
+      "locator": "Club Communication 2015/16, PDF page index 32; England club contact block",
+      "basis": "Printed seasonal directory name only; not proof of every fixture venue, commercial classification or continuous validity.",
+      "evidence_kind": "season_directory",
+      "subject_date": null,
+      "publication_date": null,
+      "applicable_seasons": [
+        "2015/16"
+      ],
+      "effective_from": null,
+      "effective_precision": null,
+      "effective_to": null,
+      "observed_at": "2026-10-17",
+      "known_then": false,
+      "reuse_status": "Own bounded research note; publisher public-product, extraction and external-AI reuse not cleared. No raw article retained."
+    },
+    {
+      "evidence_id": "naming-55",
+      "ground_id": "stadium-of-light",
+      "name": "Stadium of Light",
+      "name_kind": "directory_label",
+      "source_url": "https://editorial.uefa.com/resources/0224-0f842ac9bf08-281f7e5c371c-1000/first_division_clubs_in_europe_2015_16.pdf",
+      "locator": "Club Communication 2015/16, PDF page index 32; England club contact block",
+      "basis": "Printed seasonal directory name only; not proof of every fixture venue, commercial classification or continuous validity.",
+      "evidence_kind": "season_directory",
+      "subject_date": null,
+      "publication_date": null,
+      "applicable_seasons": [
+        "2015/16"
+      ],
+      "effective_from": null,
+      "effective_precision": null,
+      "effective_to": null,
+      "observed_at": "2026-10-17",
+      "known_then": false,
+      "reuse_status": "Own bounded research note; publisher public-product, extraction and external-AI reuse not cleared. No raw article retained."
+    },
+    {
+      "evidence_id": "naming-56",
+      "ground_id": "liberty-stadium",
+      "name": "Liberty Stadium",
+      "name_kind": "directory_label",
+      "source_url": "https://editorial.uefa.com/resources/0224-0f842ac9bf08-281f7e5c371c-1000/first_division_clubs_in_europe_2015_16.pdf",
+      "locator": "Club Communication 2015/16, PDF page index 32; England club contact block",
+      "basis": "Printed seasonal directory name only; not proof of every fixture venue, commercial classification or continuous validity.",
+      "evidence_kind": "season_directory",
+      "subject_date": null,
+      "publication_date": null,
+      "applicable_seasons": [
+        "2015/16"
+      ],
+      "effective_from": null,
+      "effective_precision": null,
+      "effective_to": null,
+      "observed_at": "2026-10-17",
+      "known_then": false,
+      "reuse_status": "Own bounded research note; publisher public-product, extraction and external-AI reuse not cleared. No raw article retained."
+    },
+    {
+      "evidence_id": "naming-57",
+      "ground_id": "vicarage-road",
+      "name": "Vicarage Road Stadium",
+      "name_kind": "directory_label",
+      "source_url": "https://editorial.uefa.com/resources/0224-0f842ac9bf08-281f7e5c371c-1000/first_division_clubs_in_europe_2015_16.pdf",
+      "locator": "Club Communication 2015/16, PDF page index 32; England club contact block",
+      "basis": "Printed seasonal directory name only; not proof of every fixture venue, commercial classification or continuous validity.",
+      "evidence_kind": "season_directory",
+      "subject_date": null,
+      "publication_date": null,
+      "applicable_seasons": [
+        "2015/16"
+      ],
+      "effective_from": null,
+      "effective_precision": null,
+      "effective_to": null,
+      "observed_at": "2026-10-17",
+      "known_then": false,
+      "reuse_status": "Own bounded research note; publisher public-product, extraction and external-AI reuse not cleared. No raw article retained."
+    },
+    {
+      "evidence_id": "naming-58",
+      "ground_id": "the-hawthorns",
+      "name": "The Hawthorns",
+      "name_kind": "directory_label",
+      "source_url": "https://editorial.uefa.com/resources/0224-0f842ac9bf08-281f7e5c371c-1000/first_division_clubs_in_europe_2015_16.pdf",
+      "locator": "Club Communication 2015/16, PDF page index 32; England club contact block",
+      "basis": "Printed seasonal directory name only; not proof of every fixture venue, commercial classification or continuous validity.",
+      "evidence_kind": "season_directory",
+      "subject_date": null,
+      "publication_date": null,
+      "applicable_seasons": [
+        "2015/16"
+      ],
+      "effective_from": null,
+      "effective_precision": null,
+      "effective_to": null,
+      "observed_at": "2026-10-17",
+      "known_then": false,
+      "reuse_status": "Own bounded research note; publisher public-product, extraction and external-AI reuse not cleared. No raw article retained."
+    },
+    {
+      "evidence_id": "naming-59",
+      "ground_id": "boleyn-ground",
+      "name": "Boleyn Ground",
+      "name_kind": "directory_label",
+      "source_url": "https://editorial.uefa.com/resources/0224-0f842ac9bf08-281f7e5c371c-1000/first_division_clubs_in_europe_2015_16.pdf",
+      "locator": "Club Communication 2015/16, PDF page index 32; England club contact block",
+      "basis": "Printed seasonal directory name only; not proof of every fixture venue, commercial classification or continuous validity.",
+      "evidence_kind": "season_directory",
+      "subject_date": null,
+      "publication_date": null,
+      "applicable_seasons": [
+        "2015/16"
+      ],
+      "effective_from": null,
+      "effective_precision": null,
+      "effective_to": null,
+      "observed_at": "2026-10-17",
+      "known_then": false,
+      "reuse_status": "Own bounded research note; publisher public-product, extraction and external-AI reuse not cleared. No raw article retained."
+    },
+    {
+      "evidence_id": "naming-60",
+      "ground_id": "dean-court",
+      "name": "Vitality Stadium",
+      "name_kind": "directory_label",
+      "source_url": "https://editorial.uefa.com/resources/0230-0f842bc1b736-0cd37d37a157-1000/first_division_clubs_in_europe_2016_17.pdf",
+      "locator": "Club Communication 2016/17, PDF page index 32; England club contact block",
+      "basis": "Printed seasonal directory name only; not proof of every fixture venue, commercial classification or continuous validity.",
+      "evidence_kind": "season_directory",
+      "subject_date": null,
+      "publication_date": null,
+      "applicable_seasons": [
+        "2016/17"
+      ],
+      "effective_from": null,
+      "effective_precision": null,
+      "effective_to": null,
+      "observed_at": "2026-10-17",
+      "known_then": false,
+      "reuse_status": "Own bounded research note; publisher public-product, extraction and external-AI reuse not cleared. No raw article retained."
+    },
+    {
+      "evidence_id": "naming-61",
+      "ground_id": "stamford-bridge",
+      "name": "Stamford Bridge",
+      "name_kind": "directory_label",
+      "source_url": "https://editorial.uefa.com/resources/0230-0f842bc1b736-0cd37d37a157-1000/first_division_clubs_in_europe_2016_17.pdf",
+      "locator": "Club Communication 2016/17, PDF page index 32; England club contact block",
+      "basis": "Printed seasonal directory name only; not proof of every fixture venue, commercial classification or continuous validity.",
+      "evidence_kind": "season_directory",
+      "subject_date": null,
+      "publication_date": null,
+      "applicable_seasons": [
+        "2016/17"
+      ],
+      "effective_from": null,
+      "effective_precision": null,
+      "effective_to": null,
+      "observed_at": "2026-10-17",
+      "known_then": false,
+      "reuse_status": "Own bounded research note; publisher public-product, extraction and external-AI reuse not cleared. No raw article retained."
+    },
+    {
+      "evidence_id": "naming-62",
+      "ground_id": "selhurst-park",
+      "name": "Selhurst Park Stadium",
+      "name_kind": "directory_label",
+      "source_url": "https://editorial.uefa.com/resources/0230-0f842bc1b736-0cd37d37a157-1000/first_division_clubs_in_europe_2016_17.pdf",
+      "locator": "Club Communication 2016/17, PDF page index 32; England club contact block",
+      "basis": "Printed seasonal directory name only; not proof of every fixture venue, commercial classification or continuous validity.",
+      "evidence_kind": "season_directory",
+      "subject_date": null,
+      "publication_date": null,
+      "applicable_seasons": [
+        "2016/17"
+      ],
+      "effective_from": null,
+      "effective_precision": null,
+      "effective_to": null,
+      "observed_at": "2026-10-17",
+      "known_then": false,
+      "reuse_status": "Own bounded research note; publisher public-product, extraction and external-AI reuse not cleared. No raw article retained."
+    },
+    {
+      "evidence_id": "naming-63",
+      "ground_id": "goodison-park",
+      "name": "Goodison Park",
+      "name_kind": "directory_label",
+      "source_url": "https://editorial.uefa.com/resources/0230-0f842bc1b736-0cd37d37a157-1000/first_division_clubs_in_europe_2016_17.pdf",
+      "locator": "Club Communication 2016/17, PDF page index 32; England club contact block",
+      "basis": "Printed seasonal directory name only; not proof of every fixture venue, commercial classification or continuous validity.",
+      "evidence_kind": "season_directory",
+      "subject_date": null,
+      "publication_date": null,
+      "applicable_seasons": [
+        "2016/17"
+      ],
+      "effective_from": null,
+      "effective_precision": null,
+      "effective_to": null,
+      "observed_at": "2026-10-17",
+      "known_then": false,
+      "reuse_status": "Own bounded research note; publisher public-product, extraction and external-AI reuse not cleared. No raw article retained."
+    },
+    {
+      "evidence_id": "naming-64",
+      "ground_id": "leicester-city-stadium",
+      "name": "King Power Stadium",
+      "name_kind": "directory_label",
+      "source_url": "https://editorial.uefa.com/resources/0230-0f842bc1b736-0cd37d37a157-1000/first_division_clubs_in_europe_2016_17.pdf",
+      "locator": "Club Communication 2016/17, PDF page index 32; England club contact block",
+      "basis": "Printed seasonal directory name only; not proof of every fixture venue, commercial classification or continuous validity.",
+      "evidence_kind": "season_directory",
+      "subject_date": null,
+      "publication_date": null,
+      "applicable_seasons": [
+        "2016/17"
+      ],
+      "effective_from": null,
+      "effective_precision": null,
+      "effective_to": null,
+      "observed_at": "2026-10-17",
+      "known_then": false,
+      "reuse_status": "Own bounded research note; publisher public-product, extraction and external-AI reuse not cleared. No raw article retained."
+    },
+    {
+      "evidence_id": "naming-65",
+      "ground_id": "etihad-stadium",
+      "name": "Etihad Stadium",
+      "name_kind": "directory_label",
+      "source_url": "https://editorial.uefa.com/resources/0230-0f842bc1b736-0cd37d37a157-1000/first_division_clubs_in_europe_2016_17.pdf",
+      "locator": "Club Communication 2016/17, PDF page index 32; England club contact block",
+      "basis": "Printed seasonal directory name only; not proof of every fixture venue, commercial classification or continuous validity.",
+      "evidence_kind": "season_directory",
+      "subject_date": null,
+      "publication_date": null,
+      "applicable_seasons": [
+        "2016/17"
+      ],
+      "effective_from": null,
+      "effective_precision": null,
+      "effective_to": null,
+      "observed_at": "2026-10-17",
+      "known_then": false,
+      "reuse_status": "Own bounded research note; publisher public-product, extraction and external-AI reuse not cleared. No raw article retained."
+    },
+    {
+      "evidence_id": "naming-66",
+      "ground_id": "st-mary-s-stadium",
+      "name": "St. Mary’s Stadium",
+      "name_kind": "directory_label",
+      "source_url": "https://editorial.uefa.com/resources/0230-0f842bc1b736-0cd37d37a157-1000/first_division_clubs_in_europe_2016_17.pdf",
+      "locator": "Club Communication 2016/17, PDF page index 32; England club contact block",
+      "basis": "Printed seasonal directory name only; not proof of every fixture venue, commercial classification or continuous validity.",
+      "evidence_kind": "season_directory",
+      "subject_date": null,
+      "publication_date": null,
+      "applicable_seasons": [
+        "2016/17"
+      ],
+      "effective_from": null,
+      "effective_precision": null,
+      "effective_to": null,
+      "observed_at": "2026-10-17",
+      "known_then": false,
+      "reuse_status": "Own bounded research note; publisher public-product, extraction and external-AI reuse not cleared. No raw article retained."
+    },
+    {
+      "evidence_id": "naming-67",
+      "ground_id": "stadium-of-light",
+      "name": "Stadium of Light",
+      "name_kind": "directory_label",
+      "source_url": "https://editorial.uefa.com/resources/0230-0f842bc1b736-0cd37d37a157-1000/first_division_clubs_in_europe_2016_17.pdf",
+      "locator": "Club Communication 2016/17, PDF page index 32; England club contact block",
+      "basis": "Printed seasonal directory name only; not proof of every fixture venue, commercial classification or continuous validity.",
+      "evidence_kind": "season_directory",
+      "subject_date": null,
+      "publication_date": null,
+      "applicable_seasons": [
+        "2016/17"
+      ],
+      "effective_from": null,
+      "effective_precision": null,
+      "effective_to": null,
+      "observed_at": "2026-10-17",
+      "known_then": false,
+      "reuse_status": "Own bounded research note; publisher public-product, extraction and external-AI reuse not cleared. No raw article retained."
+    },
+    {
+      "evidence_id": "naming-68",
+      "ground_id": "liberty-stadium",
+      "name": "Liberty Stadium",
+      "name_kind": "directory_label",
+      "source_url": "https://editorial.uefa.com/resources/0230-0f842bc1b736-0cd37d37a157-1000/first_division_clubs_in_europe_2016_17.pdf",
+      "locator": "Club Communication 2016/17, PDF page index 32; England club contact block",
+      "basis": "Printed seasonal directory name only; not proof of every fixture venue, commercial classification or continuous validity.",
+      "evidence_kind": "season_directory",
+      "subject_date": null,
+      "publication_date": null,
+      "applicable_seasons": [
+        "2016/17"
+      ],
+      "effective_from": null,
+      "effective_precision": null,
+      "effective_to": null,
+      "observed_at": "2026-10-17",
+      "known_then": false,
+      "reuse_status": "Own bounded research note; publisher public-product, extraction and external-AI reuse not cleared. No raw article retained."
+    },
+    {
+      "evidence_id": "naming-69",
+      "ground_id": "vicarage-road",
+      "name": "Vicarage Road Stadium",
+      "name_kind": "directory_label",
+      "source_url": "https://editorial.uefa.com/resources/0230-0f842bc1b736-0cd37d37a157-1000/first_division_clubs_in_europe_2016_17.pdf",
+      "locator": "Club Communication 2016/17, PDF page index 32; England club contact block",
+      "basis": "Printed seasonal directory name only; not proof of every fixture venue, commercial classification or continuous validity.",
+      "evidence_kind": "season_directory",
+      "subject_date": null,
+      "publication_date": null,
+      "applicable_seasons": [
+        "2016/17"
+      ],
+      "effective_from": null,
+      "effective_precision": null,
+      "effective_to": null,
+      "observed_at": "2026-10-17",
+      "known_then": false,
+      "reuse_status": "Own bounded research note; publisher public-product, extraction and external-AI reuse not cleared. No raw article retained."
+    },
+    {
+      "evidence_id": "naming-70",
+      "ground_id": "the-hawthorns",
+      "name": "The Hawthorns",
+      "name_kind": "directory_label",
+      "source_url": "https://editorial.uefa.com/resources/0230-0f842bc1b736-0cd37d37a157-1000/first_division_clubs_in_europe_2016_17.pdf",
+      "locator": "Club Communication 2016/17, PDF page index 32; England club contact block",
+      "basis": "Printed seasonal directory name only; not proof of every fixture venue, commercial classification or continuous validity.",
+      "evidence_kind": "season_directory",
+      "subject_date": null,
+      "publication_date": null,
+      "applicable_seasons": [
+        "2016/17"
+      ],
+      "effective_from": null,
+      "effective_precision": null,
+      "effective_to": null,
+      "observed_at": "2026-10-17",
+      "known_then": false,
+      "reuse_status": "Own bounded research note; publisher public-product, extraction and external-AI reuse not cleared. No raw article retained."
+    },
+    {
+      "evidence_id": "naming-71",
+      "ground_id": "turf-moor",
+      "name": "Turf Moor",
+      "name_kind": "directory_label",
+      "source_url": "https://editorial.uefa.com/resources/0230-0f842bc1b736-0cd37d37a157-1000/first_division_clubs_in_europe_2016_17.pdf",
+      "locator": "Club Communication 2016/17, PDF page index 32; England club contact block",
+      "basis": "Printed seasonal directory name only; not proof of every fixture venue, commercial classification or continuous validity.",
+      "evidence_kind": "season_directory",
+      "subject_date": null,
+      "publication_date": null,
+      "applicable_seasons": [
+        "2016/17"
+      ],
+      "effective_from": null,
+      "effective_precision": null,
+      "effective_to": null,
+      "observed_at": "2026-10-17",
+      "known_then": false,
+      "reuse_status": "Own bounded research note; publisher public-product, extraction and external-AI reuse not cleared. No raw article retained."
+    },
+    {
+      "evidence_id": "naming-72",
+      "ground_id": "riverside-stadium",
+      "name": "Riverside Stadium",
+      "name_kind": "directory_label",
+      "source_url": "https://editorial.uefa.com/resources/0230-0f842bc1b736-0cd37d37a157-1000/first_division_clubs_in_europe_2016_17.pdf",
+      "locator": "Club Communication 2016/17, PDF page index 32; England club contact block",
+      "basis": "Printed seasonal directory name only; not proof of every fixture venue, commercial classification or continuous validity.",
+      "evidence_kind": "season_directory",
+      "subject_date": null,
+      "publication_date": null,
+      "applicable_seasons": [
+        "2016/17"
+      ],
+      "effective_from": null,
+      "effective_precision": null,
+      "effective_to": null,
+      "observed_at": "2026-10-17",
+      "known_then": false,
+      "reuse_status": "Own bounded research note; publisher public-product, extraction and external-AI reuse not cleared. No raw article retained."
+    },
+    {
+      "evidence_id": "naming-73",
+      "ground_id": "mkm-stadium",
+      "name": "KC Stadium",
+      "name_kind": "directory_label",
+      "source_url": "https://editorial.uefa.com/resources/0230-0f842bc1b736-0cd37d37a157-1000/first_division_clubs_in_europe_2016_17.pdf",
+      "locator": "Club Communication 2016/17, PDF page index 32; England club contact block",
+      "basis": "Printed seasonal directory name only; not proof of every fixture venue, commercial classification or continuous validity.",
+      "evidence_kind": "season_directory",
+      "subject_date": null,
+      "publication_date": null,
+      "applicable_seasons": [
+        "2016/17"
+      ],
+      "effective_from": null,
+      "effective_precision": null,
+      "effective_to": null,
+      "observed_at": "2026-10-17",
+      "known_then": false,
+      "reuse_status": "Own bounded research note; publisher public-product, extraction and external-AI reuse not cleared. No raw article retained."
+    },
+    {
+      "evidence_id": "naming-74",
+      "ground_id": "london-stadium",
+      "name": "The Stadium at The Queen Elizabeth Park",
+      "name_kind": "directory_label",
+      "source_url": "https://editorial.uefa.com/resources/0230-0f842bc1b736-0cd37d37a157-1000/first_division_clubs_in_europe_2016_17.pdf",
+      "locator": "Club Communication 2016/17, PDF page index 32; England club contact block",
+      "basis": "Printed seasonal directory name only; not proof of every fixture venue, commercial classification or continuous validity.",
+      "evidence_kind": "season_directory",
+      "subject_date": null,
+      "publication_date": null,
+      "applicable_seasons": [
+        "2016/17"
+      ],
+      "effective_from": null,
+      "effective_precision": null,
+      "effective_to": null,
+      "observed_at": "2026-10-17",
+      "known_then": false,
+      "reuse_status": "Own bounded research note; publisher public-product, extraction and external-AI reuse not cleared. No raw article retained."
+    },
+    {
+      "evidence_id": "naming-75",
+      "ground_id": "britannia-stadium",
+      "name": "Britannia Stadium",
+      "name_kind": "official_unspecified",
+      "source_url": "https://www.liverpoolfc.com/news/first-team/191024-coutinho-special-earns-three-points-at-stoke",
+      "locator": "Relevant named stadium passage",
+      "basis": "Opening match report explicitly uses Britannia Stadium.",
+      "evidence_kind": "dated_usage",
+      "subject_date": "2015-08-09",
+      "publication_date": null,
+      "applicable_seasons": [
+        "2015/16"
+      ],
+      "effective_from": null,
+      "effective_precision": null,
+      "effective_to": null,
+      "observed_at": "2026-10-17",
+      "known_then": false,
+      "reuse_status": "Own bounded research note; publisher public-product, extraction and external-AI reuse not cleared. No raw article retained."
+    },
+    {
+      "evidence_id": "naming-76",
+      "ground_id": "britannia-stadium",
+      "name": "bet365 Stadium",
+      "name_kind": "official_unspecified",
+      "source_url": "https://www.mancity.com/news/first-team/first-team-news/2016/august/stoke-v-city-premier-league-talking-points-post",
+      "locator": "Relevant named stadium passage",
+      "basis": "Post-match discussion explicitly names Bet365 Stadium after the 4-1 result; subject match date, publication date not displayed in inspected text.",
+      "evidence_kind": "dated_usage",
+      "subject_date": "2016-08-20",
+      "publication_date": null,
+      "applicable_seasons": [
+        "2016/17"
+      ],
+      "effective_from": null,
+      "effective_precision": null,
+      "effective_to": null,
+      "observed_at": "2026-10-17",
+      "known_then": false,
+      "reuse_status": "Own bounded research note; publisher public-product, extraction and external-AI reuse not cleared. No raw article retained."
+    },
+    {
+      "evidence_id": "naming-77",
+      "ground_id": "anfield",
+      "name": "Anfield",
+      "name_kind": "official_unspecified",
+      "source_url": "https://www.liverpoolfc.com/news/first-team/192058-benteke-bags-the-points-against-bournemouth",
+      "locator": "Relevant named stadium passage",
+      "basis": "Contemporary home match report explicitly names Anfield.",
+      "evidence_kind": "dated_usage",
+      "subject_date": "2015-08-17",
+      "publication_date": null,
+      "applicable_seasons": [
+        "2015/16"
+      ],
+      "effective_from": null,
+      "effective_precision": null,
+      "effective_to": null,
+      "observed_at": "2026-10-17",
+      "known_then": false,
+      "reuse_status": "Own bounded research note; publisher public-product, extraction and external-AI reuse not cleared. No raw article retained."
+    },
+    {
+      "evidence_id": "naming-78",
+      "ground_id": "anfield",
+      "name": "Anfield",
+      "name_kind": "official_unspecified",
+      "source_url": "https://www.liverpoolfc.com/news/first-team/235091-report-main-stand-opens-with-emphatic-victory-over-leicester",
+      "locator": "Relevant named stadium passage",
+      "basis": "Contemporary match report explicitly names Anfield.",
+      "evidence_kind": "dated_usage",
+      "subject_date": "2016-09-10",
+      "publication_date": null,
+      "applicable_seasons": [
+        "2016/17"
+      ],
+      "effective_from": null,
+      "effective_precision": null,
+      "effective_to": null,
+      "observed_at": "2026-10-17",
+      "known_then": false,
+      "reuse_status": "Own bounded research note; publisher public-product, extraction and external-AI reuse not cleared. No raw article retained."
+    },
+    {
+      "evidence_id": "naming-79",
+      "ground_id": "emirates-stadium",
+      "name": "Emirates Stadium",
+      "name_kind": "official_unspecified",
+      "source_url": "https://www.liverpoolfc.com/news/first-team/192515-reds-kept-out-in-emirates-stalemate",
+      "locator": "Relevant named stadium passage",
+      "basis": "Contemporary opponent report explicitly names Emirates Stadium.",
+      "evidence_kind": "dated_usage",
+      "subject_date": "2015-08-24",
+      "publication_date": null,
+      "applicable_seasons": [
+        "2015/16"
+      ],
+      "effective_from": null,
+      "effective_precision": null,
+      "effective_to": null,
+      "observed_at": "2026-10-17",
+      "known_then": false,
+      "reuse_status": "Own bounded research note; publisher public-product, extraction and external-AI reuse not cleared. No raw article retained."
+    },
+    {
+      "evidence_id": "naming-80",
+      "ground_id": "emirates-stadium",
+      "name": "Emirates Stadium",
+      "name_kind": "official_unspecified",
+      "source_url": "https://www.liverpoolfc.com/news/first-team/231729-match-report-reds-beat-arsenal-in-seven-goal-thriller",
+      "locator": "Relevant named stadium passage",
+      "basis": "Primary indexed report text explicitly names Emirates Stadium; direct web open returned 404, so excerpt-level inspection only.",
+      "evidence_kind": "dated_usage",
+      "subject_date": "2016-08-14",
+      "publication_date": null,
+      "applicable_seasons": [
+        "2016/17"
+      ],
+      "effective_from": null,
+      "effective_precision": null,
+      "effective_to": null,
+      "observed_at": "2026-10-17",
+      "known_then": false,
+      "reuse_status": "Own bounded research note; publisher public-product, extraction and external-AI reuse not cleared. No raw article retained."
+    },
+    {
+      "evidence_id": "naming-81",
+      "ground_id": "white-hart-lane",
+      "name": "White Hart Lane",
+      "name_kind": "official_unspecified",
+      "source_url": "https://www.tottenhamhotspur.com/news/1043089/spurs-0-0-liverpool-match-gallery",
+      "locator": "Relevant named stadium passage",
+      "basis": "Club match gallery introduction explicitly names White Hart Lane.",
+      "evidence_kind": "dated_usage",
+      "subject_date": "2015-10-17",
+      "publication_date": null,
+      "applicable_seasons": [
+        "2015/16"
+      ],
+      "effective_from": null,
+      "effective_precision": null,
+      "effective_to": null,
+      "observed_at": "2026-10-17",
+      "known_then": false,
+      "reuse_status": "Own bounded research note; publisher public-product, extraction and external-AI reuse not cleared. No raw article retained."
+    },
+    {
+      "evidence_id": "naming-82",
+      "ground_id": "white-hart-lane",
+      "name": "White Hart Lane",
+      "name_kind": "official_unspecified",
+      "source_url": "https://www.liverpoolfc.com/news/first-team/233496-report-liverpool-held-by-spurs-at-white-hart-lane",
+      "locator": "Relevant named stadium passage",
+      "basis": "Contemporary opponent report explicitly names White Hart Lane.",
+      "evidence_kind": "dated_usage",
+      "subject_date": "2016-08-27",
+      "publication_date": null,
+      "applicable_seasons": [
+        "2016/17"
+      ],
+      "effective_from": null,
+      "effective_precision": null,
+      "effective_to": null,
+      "observed_at": "2026-10-17",
+      "known_then": false,
+      "reuse_status": "Own bounded research note; publisher public-product, extraction and external-AI reuse not cleared. No raw article retained."
+    },
+    {
+      "evidence_id": "naming-83",
+      "ground_id": "elland-road",
+      "name": "Elland Road",
+      "name_kind": "official_unspecified",
+      "source_url": "https://www.leedsunited.com/en/news/west-stand-update-august-2026",
+      "locator": "Relevant named stadium passage",
+      "basis": "Club update explicitly names Elland Road ahead of first home Premier League match of 2026/27; planned context, not result verification.",
+      "evidence_kind": "planned_usage",
+      "subject_date": "2026-08-29",
+      "publication_date": null,
+      "applicable_seasons": [
+        "2026/27"
+      ],
+      "effective_from": null,
+      "effective_precision": null,
+      "effective_to": null,
+      "observed_at": "2026-10-17",
+      "known_then": false,
+      "reuse_status": "Own bounded research note; publisher public-product, extraction and external-AI reuse not cleared. No raw article retained."
+    },
+    {
+      "evidence_id": "naming-84",
+      "ground_id": "griffin-park",
+      "name": "Griffin Park",
+      "name_kind": "traditional",
+      "source_url": "https://www.brentfordfc.com/en/news/club-news-brentford-extends-partnership-with-asahi-uk-and-london-pride",
+      "locator": "Relevant named stadium passage",
+      "basis": "Club retrospective identifies home from 1904 to 2020 and explains brewery-related name origin.",
+      "evidence_kind": "retrospective_usage",
+      "subject_date": null,
+      "publication_date": "2025-08-07",
+      "applicable_seasons": [],
+      "effective_from": null,
+      "effective_precision": null,
+      "effective_to": null,
+      "observed_at": "2026-10-17",
+      "known_then": false,
+      "reuse_status": "Own bounded research note; publisher public-product, extraction and external-AI reuse not cleared. No raw article retained."
+    },
+    {
+      "evidence_id": "naming-85",
+      "ground_id": "brighton-community-stadium",
+      "name": "American Express Stadium",
+      "name_kind": "commercial",
+      "source_url": "https://www.brightonandhovealbion.com/american-express-partnership",
+      "locator": "Relevant named stadium passage",
+      "basis": "Club partnership page explicitly names stadium, nickname Amex and naming-rights relationship; sponsorship since 2011 does not establish exact rename day.",
+      "evidence_kind": "current_usage",
+      "subject_date": null,
+      "publication_date": null,
+      "applicable_seasons": [],
+      "effective_from": null,
+      "effective_precision": null,
+      "effective_to": null,
+      "observed_at": "2026-10-17",
+      "known_then": false,
+      "reuse_status": "Own bounded research note; publisher public-product, extraction and external-AI reuse not cleared. No raw article retained."
+    },
+    {
+      "evidence_id": "naming-86",
+      "ground_id": "hill-dickinson-stadium",
+      "name": "Hill Dickinson Stadium",
+      "name_kind": "commercial",
+      "source_url": "https://www.hilldickinson.com/our-view/news/hill-dickinson-announced-as-official-stadium-naming-rights-partner-for-new-everton-stadium/",
+      "locator": "Relevant named stadium passage",
+      "basis": "Sponsor announcement says new stadium will be named Hill Dickinson Stadium; announcement date not promoted to effective date.",
+      "evidence_kind": "naming_event",
+      "subject_date": null,
+      "publication_date": "2025-05-16",
+      "applicable_seasons": [],
+      "effective_from": null,
+      "effective_precision": null,
+      "effective_to": null,
+      "observed_at": "2026-10-17",
+      "known_then": false,
+      "reuse_status": "Own bounded research note; publisher public-product, extraction and external-AI reuse not cleared. No raw article retained."
+    },
+    {
+      "evidence_id": "naming-87",
+      "ground_id": "coventry-building-society-arena",
+      "name": "Coventry Building Society Arena",
+      "name_kind": "commercial",
+      "source_url": "https://www.coventrybuildingsocietyarena.co.uk/news/10-year-naming-rights-deal-begins-for-coventry-building-society-arena",
+      "locator": "Officially takes new name/from July 1; corroborating URL in supporting_sources",
+      "basis": "First source says 1 July/from today; second source explicitly dates deal effect to July 2021. Two-source date reconciliation; publication year is not supplied.",
+      "evidence_kind": "naming_event",
+      "subject_date": null,
+      "publication_date": null,
+      "applicable_seasons": [],
+      "effective_from": "2021-07-01",
+      "effective_precision": "day",
+      "effective_to": null,
+      "observed_at": "2026-10-17",
+      "known_then": false,
+      "reuse_status": "Own bounded research note; publisher public-product, extraction and external-AI reuse not cleared. No raw article retained.",
+      "supporting_sources": [
+        "https://www.coventrybuildingsocietyarena.co.uk/news/coventry-building-society-arena-to-attend-the-meeting-show-excel-london-on-its-own-stand"
+      ]
+    },
+    {
+      "evidence_id": "naming-88",
+      "ground_id": "tottenham-hotspur-stadium",
+      "name": "Tottenham Hotspur Stadium",
+      "name_kind": "official_unspecified",
+      "source_url": "https://www.tottenhamhotspur.com/news/1074158/fixtures-202627-the-schedule-is-here",
+      "locator": "supplement-40; Full relevant page/body independently inspected by orchestrator unless explicitly stated otherwise.",
+      "basis": "Club schedule published19Jun2026 identifies17Oct2026 planned Tottenham Hotspur Stadium fixture. Observation on same calendar date does not establish it happened.",
+      "evidence_kind": "planned_usage",
+      "subject_date": null,
+      "publication_date": null,
+      "applicable_seasons": [
+        "2026/27"
+      ],
+      "effective_from": null,
+      "effective_precision": null,
+      "effective_to": null,
+      "observed_at": "2026-10-17",
+      "known_then": false,
+      "reuse_status": "Own bounded research note; publisher public-product, extraction and external-AI reuse not cleared. No raw article retained."
+    },
+    {
+      "evidence_id": "naming-89",
+      "ground_id": "hill-dickinson-stadium",
+      "name": "Hill Dickinson Stadium",
+      "name_kind": "official_unspecified",
+      "source_url": "https://www.cpfc.co.uk/news/match-reports/match-report-highlights-everton-crystal-palace-august-2026/",
+      "locator": "supplement-39; Full relevant page/body independently inspected by orchestrator unless explicitly stated otherwise.",
+      "basis": "Opponent actual match report22Aug2026 identifies Hill Dickinson Stadium; historical Goodison association is not reused.",
+      "evidence_kind": "current_usage",
+      "subject_date": null,
+      "publication_date": null,
+      "applicable_seasons": [
+        "2026/27"
+      ],
+      "effective_from": null,
+      "effective_precision": null,
+      "effective_to": null,
+      "observed_at": "2026-10-17",
+      "known_then": false,
+      "reuse_status": "Own bounded research note; publisher public-product, extraction and external-AI reuse not cleared. No raw article retained."
+    },
+    {
+      "evidence_id": "naming-90",
+      "ground_id": "brentford-community-stadium",
+      "name": "Gtech Community Stadium",
+      "name_kind": "official_unspecified",
+      "source_url": "https://www.cpfc.co.uk/information/brentford-community-stadium-brentford/",
+      "locator": "supplement-22; Opened primary publisher page/PDF; inspected bounded relevant text.",
+      "basis": "Official visiting club stadium guide supplies address. Vantage London company correspondence is different and excluded.",
+      "evidence_kind": "current_usage",
+      "subject_date": null,
+      "publication_date": null,
+      "applicable_seasons": [],
+      "effective_from": null,
+      "effective_precision": null,
+      "effective_to": null,
+      "observed_at": "2026-10-17",
+      "known_then": false,
+      "reuse_status": "Own bounded research note; publisher public-product, extraction and external-AI reuse not cleared. No raw article retained."
+    },
+    {
+      "evidence_id": "naming-91",
+      "ground_id": "emirates-stadium",
+      "name": "Emirates Stadium",
+      "name_kind": "official_unspecified",
+      "source_url": "https://www.newcastleunited.com/en/matches/mens-team/fixtures",
+      "locator": "lines 286-298; season heading line 24",
+      "basis": "Official opponent fixtures page explicitly labels 2026/27 and prints this venue beside the dated planned fixture. Observation is 17 October 2026; subject date is planned, not actual completion or naming effective date.",
+      "evidence_kind": "planned_usage",
+      "subject_date": "2027-01-23",
+      "publication_date": null,
+      "applicable_seasons": [
+        "2026/27"
+      ],
+      "effective_from": null,
+      "effective_precision": null,
+      "effective_to": null,
+      "observed_at": "2026-10-17",
+      "known_then": false,
+      "reuse_status": "Own bounded research note; underlying public-product, automated extraction and external-AI reuse not cleared. No raw page retained."
+    },
+    {
+      "evidence_id": "naming-92",
+      "ground_id": "villa-park",
+      "name": "Villa Park",
+      "name_kind": "official_unspecified",
+      "source_url": "https://www.newcastleunited.com/en/matches/mens-team/fixtures",
+      "locator": "lines 505-516; season heading line 24",
+      "basis": "Official opponent fixtures page explicitly labels 2026/27 and prints this venue beside the dated planned fixture. Observation is 17 October 2026; subject date is planned, not actual completion or naming effective date.",
+      "evidence_kind": "planned_usage",
+      "subject_date": "2027-05-15",
+      "publication_date": null,
+      "applicable_seasons": [
+        "2026/27"
+      ],
+      "effective_from": null,
+      "effective_precision": null,
+      "effective_to": null,
+      "observed_at": "2026-10-17",
+      "known_then": false,
+      "reuse_status": "Own bounded research note; underlying public-product, automated extraction and external-AI reuse not cleared. No raw page retained."
+    },
+    {
+      "evidence_id": "naming-93",
+      "ground_id": "selhurst-park",
+      "name": "Selhurst Park",
+      "name_kind": "official_unspecified",
+      "source_url": "https://www.newcastleunited.com/en/matches/mens-team/fixtures",
+      "locator": "lines 54-65; season heading line 24",
+      "basis": "Official opponent fixtures page explicitly labels 2026/27 and prints this venue beside the dated planned fixture. Observation is 17 October 2026; subject date is planned, not actual completion or naming effective date.",
+      "evidence_kind": "planned_usage",
+      "subject_date": "2026-10-25",
+      "publication_date": null,
+      "applicable_seasons": [
+        "2026/27"
+      ],
+      "effective_from": null,
+      "effective_precision": null,
+      "effective_to": null,
+      "observed_at": "2026-10-17",
+      "known_then": false,
+      "reuse_status": "Own bounded research note; underlying public-product, automated extraction and external-AI reuse not cleared. No raw page retained."
+    },
+    {
+      "evidence_id": "naming-94",
+      "ground_id": "anfield",
+      "name": "Anfield",
+      "name_kind": "official_unspecified",
+      "source_url": "https://www.newcastleunited.com/en/matches/mens-team/fixtures",
+      "locator": "lines 427-439; season heading line 24",
+      "basis": "Official opponent fixtures page explicitly labels 2026/27 and prints this venue beside the dated planned fixture. Observation is 17 October 2026; subject date is planned, not actual completion or naming effective date.",
+      "evidence_kind": "planned_usage",
+      "subject_date": "2027-04-10",
+      "publication_date": null,
+      "applicable_seasons": [
+        "2026/27"
+      ],
+      "effective_from": null,
+      "effective_precision": null,
+      "effective_to": null,
+      "observed_at": "2026-10-17",
+      "known_then": false,
+      "reuse_status": "Own bounded research note; underlying public-product, automated extraction and external-AI reuse not cleared. No raw page retained."
+    },
+    {
+      "evidence_id": "naming-95",
+      "ground_id": "st-james-park",
+      "name": "St. James’ Park",
+      "name_kind": "official_unspecified",
+      "source_url": "https://www.newcastleunited.com/en/matches/mens-team/fixtures",
+      "locator": "lines 24,38-50; season heading line 24",
+      "basis": "Official opponent fixtures page explicitly labels 2026/27 and prints this venue beside the dated planned fixture. Observation is 17 October 2026; subject date is planned, not actual completion or naming effective date.",
+      "evidence_kind": "planned_usage",
+      "subject_date": "2026-10-17",
+      "publication_date": null,
+      "applicable_seasons": [
+        "2026/27"
+      ],
+      "effective_from": null,
+      "effective_precision": null,
+      "effective_to": null,
+      "observed_at": "2026-10-17",
+      "known_then": false,
+      "reuse_status": "Own bounded research note; underlying public-product, automated extraction and external-AI reuse not cleared. No raw page retained."
+    },
+    {
+      "evidence_id": "naming-96",
+      "ground_id": "stadium-of-light",
+      "name": "Stadium of Light",
+      "name_kind": "official_unspecified",
+      "source_url": "https://www.newcastleunited.com/en/matches/mens-team/fixtures",
+      "locator": "lines 474-486; season heading line 24",
+      "basis": "Official opponent fixtures page explicitly labels 2026/27 and prints this venue beside the dated planned fixture. Observation is 17 October 2026; subject date is planned, not actual completion or naming effective date.",
+      "evidence_kind": "planned_usage",
+      "subject_date": "2027-05-01",
+      "publication_date": null,
+      "applicable_seasons": [
+        "2026/27"
+      ],
+      "effective_from": null,
+      "effective_precision": null,
+      "effective_to": null,
+      "observed_at": "2026-10-17",
+      "known_then": false,
+      "reuse_status": "Own bounded research note; underlying public-product, automated extraction and external-AI reuse not cleared. No raw page retained."
+    },
+    {
+      "evidence_id": "naming-97",
+      "ground_id": "brentford-community-stadium",
+      "name": "Gtech Community Stadium",
+      "name_kind": "official_unspecified",
+      "source_url": "https://www.brentfordfc.com/en/news/first-team-2026-27-premier-league-fixture-list?type=news",
+      "locator": "Heading, displayed date and paragraphs lines 45-65",
+      "basis": "Club announcement explicitly names Gtech for opening weekend. Page displays 16 June 2026; retained as displayed, not silently corrected to league release date. Planned fixture usage only.",
+      "evidence_kind": "planned_usage",
+      "subject_date": "2026-08-22",
+      "publication_date": "2026-06-16",
+      "applicable_seasons": [
+        "2026/27"
+      ],
+      "effective_from": null,
+      "effective_precision": null,
+      "effective_to": null,
+      "observed_at": "2026-10-17",
+      "known_then": false,
+      "reuse_status": "Own bounded research note; underlying public-product, automated extraction and external-AI reuse not cleared. No raw page retained."
+    },
+    {
+      "evidence_id": "naming-98",
+      "ground_id": "stamford-bridge",
+      "name": "Stamford Bridge",
+      "name_kind": "official_unspecified",
+      "source_url": "https://www.chelseafc.com/en/news/article/chelseas-2026-27-premier-league-fixtures-announced",
+      "locator": "lines 11,16-17,68",
+      "basis": "Club fixture announcement explicitly names Stamford Bridge for Newcastle on 2 January 2027. Planned date as published; not overwritten by later opponent schedule (3 January). This is a naming claim, not a reconciled fixture update.",
+      "evidence_kind": "planned_usage",
+      "subject_date": "2027-01-02",
+      "publication_date": null,
+      "applicable_seasons": [
+        "2026/27"
+      ],
+      "effective_from": null,
+      "effective_precision": null,
+      "effective_to": null,
+      "observed_at": "2026-10-17",
+      "known_then": false,
+      "reuse_status": "Own bounded research note; underlying public-product, automated extraction and external-AI reuse not cleared. No raw page retained."
+    },
+    {
+      "evidence_id": "naming-99",
+      "ground_id": "brighton-community-stadium",
+      "name": "American Express Stadium",
+      "name_kind": "commercial",
+      "source_url": "https://www.brightonandhovealbion.com/media-article/New-names-for-a-new-season",
+      "locator": "lines 47-59,65-74",
+      "basis": "Club announcement explicitly gives rename from 1 August 2023. Publication is 26 June 2023; signage begins changing before the effective naming date.",
+      "evidence_kind": "naming_event",
+      "subject_date": null,
+      "publication_date": "2023-06-26",
+      "applicable_seasons": [],
+      "effective_from": "2023-08-01",
+      "effective_precision": "day",
+      "effective_to": null,
+      "observed_at": "2026-10-17",
+      "known_then": false,
+      "reuse_status": "Own bounded research note; underlying public-product, automated extraction and external-AI reuse not cleared. No raw page retained."
+    },
+    {
+      "evidence_id": "naming-100",
+      "ground_id": "liberty-stadium",
+      "name": "Liberty Stadium",
+      "name_kind": "official_unspecified",
+      "source_url": "https://www.swanseacity.com/news/swanseacom-become-stadium-naming-rights-partner",
+      "locator": "lines 14,20-21,30",
+      "basis": "Club retrospectively states Liberty name since shortly after opening in 2005, then immediate commercial title-sponsor change on 9 August 2021. Opening day is not the naming start day.",
+      "evidence_kind": "retrospective_usage",
+      "subject_date": null,
+      "publication_date": "2021-08-09",
+      "applicable_seasons": [],
+      "effective_from": null,
+      "effective_precision": null,
+      "effective_to": null,
+      "observed_at": "2026-10-17",
+      "known_then": false,
+      "reuse_status": "Own bounded research note; underlying public-product, automated extraction and external-AI reuse not cleared. No raw page retained.",
+      "period_assertion": {
+        "start": {
+          "value": "2005",
+          "precision": "year"
+        },
+        "asserted_through": {
+          "value": "2021-08-09",
+          "precision": "day"
+        },
+        "actual_end": null
+      }
+    },
+    {
+      "evidence_id": "naming-101",
+      "ground_id": "dean-court",
+      "name": "Vitality Stadium",
+      "name_kind": "official_unspecified",
+      "source_url": "https://www.vitality.co.uk/media/afc-bournemouth-announce-three-year-extension-with-vitality/",
+      "locator": "Naming passage line 247; publication date in article",
+      "basis": "Sponsor says named Vitality since 2015 and extension intended at least until summer 2026. Retrospective continuity through publication is an assertion; summer 2026 is a planned commitment, not observed end.",
+      "evidence_kind": "retrospective_usage",
+      "subject_date": null,
+      "publication_date": "2023-06-26",
+      "applicable_seasons": [],
+      "effective_from": null,
+      "effective_precision": null,
+      "effective_to": null,
+      "observed_at": "2026-10-17",
+      "known_then": false,
+      "reuse_status": "Own bounded research note; underlying public-product, automated extraction and external-AI reuse not cleared. No raw page retained.",
+      "period_assertion": {
+        "start": {
+          "value": "2015",
+          "precision": "year"
+        },
+        "asserted_through": {
+          "value": "2023-06-26",
+          "precision": "day"
+        },
+        "actual_end": null
+      }
+    },
+    {
+      "evidence_id": "naming-102",
+      "ground_id": "leicester-city-stadium",
+      "name": "King Power Stadium",
+      "name_kind": "official_unspecified",
+      "source_url": "https://shop.lcfc.com/en/leicester-city-king-power-retro-2011-12-away-shirt",
+      "locator": "Primary indexed product description; direct open unavailable",
+      "basis": "Official club shop indexed text identifies 30 July 2011 Real Madrid match as inaugural fixture at newly renamed King Power Stadium. Direct open returned 404; excerpt-level usage evidence only, not exact rename date.",
+      "evidence_kind": "retrospective_usage",
+      "subject_date": "2011-07-30",
+      "publication_date": null,
+      "applicable_seasons": [],
+      "effective_from": null,
+      "effective_precision": null,
+      "effective_to": null,
+      "observed_at": "2026-10-17",
+      "known_then": false,
+      "reuse_status": "Own bounded research note; underlying public-product, automated extraction and external-AI reuse not cleared. No raw page retained."
+    },
+    {
+      "evidence_id": "naming-103",
+      "ground_id": "emirates-stadium",
+      "name": "Emirates Stadium",
+      "name_kind": "official_unspecified",
+      "source_url": "https://www.arsenal.com/media/93457/download",
+      "locator": "Annual report stadium-development paragraph; primary indexed text",
+      "basis": "Official annual-report indexed text states new stadium officially named in October 2004. Direct open unavailable. Month-level naming evidence only; 5 October is not established by this inspection.",
+      "evidence_kind": "naming_event",
+      "subject_date": null,
+      "publication_date": null,
+      "applicable_seasons": [],
+      "effective_from": "2004-10",
+      "effective_precision": "month",
+      "effective_to": null,
+      "observed_at": "2026-10-17",
+      "known_then": false,
+      "reuse_status": "Own bounded research note; underlying public-product, automated extraction and external-AI reuse not cleared. No raw page retained."
+    },
+    {
+      "evidence_id": "naming-104",
+      "ground_id": "villa-park",
+      "name": "Aston Lower Grounds",
+      "name_kind": "official_unspecified",
+      "source_url": "https://www.avfc.co.uk/news/2022/april/15/gallery--villa-park-through-the-years/",
+      "locator": "Primary indexed gallery introduction; empty direct page",
+      "basis": "Official indexed retrospective says originally Aston Lower Grounds and home since 1897. Direct page is empty. No exact switch to Villa Park is established.",
+      "evidence_kind": "retrospective_usage",
+      "subject_date": null,
+      "publication_date": "2022-04-15",
+      "applicable_seasons": [],
+      "effective_from": null,
+      "effective_precision": null,
+      "effective_to": null,
+      "observed_at": "2026-10-17",
+      "known_then": false,
+      "reuse_status": "Own bounded research note; underlying public-product, automated extraction and external-AI reuse not cleared. No raw page retained."
+    },
+    {
+      "evidence_id": "naming-105",
+      "ground_id": "selhurst-park",
+      "name": "Selhurst Park",
+      "name_kind": "official_unspecified",
+      "source_url": "https://www.cpfc.co.uk/news/club/on-this-day-selhurst-park-formally-opened-1924/",
+      "locator": "lines 11-15",
+      "basis": "Club retrospective explicitly identifies first match at Selhurst Park on 30 August 1924. Opening-name usage, not a legal naming date or uninterrupted period.",
+      "evidence_kind": "retrospective_usage",
+      "subject_date": "1924-08-30",
+      "publication_date": "2024-08-30",
+      "applicable_seasons": [],
+      "effective_from": null,
+      "effective_precision": null,
+      "effective_to": null,
+      "observed_at": "2026-10-17",
+      "known_then": false,
+      "reuse_status": "Own bounded research note; underlying public-product, automated extraction and external-AI reuse not cleared. No raw page retained."
+    },
+    {
+      "evidence_id": "naming-106",
+      "ground_id": "stadium-of-light",
+      "name": "Stadium of Light",
+      "name_kind": "official_unspecified",
+      "source_url": "https://images.gc.safcservices.com/51146560-87bb-11ef-be35-a91a2fedf24c.pdf",
+      "locator": "PDF page 1, lines 13-20",
+      "basis": "Official 2024/25 guide credits former chairman Bob Murray and coal-mining heritage for the name; home since 1997. Exact naming ceremony day not supplied.",
+      "evidence_kind": "retrospective_usage",
+      "subject_date": null,
+      "publication_date": null,
+      "applicable_seasons": [],
+      "effective_from": null,
+      "effective_precision": null,
+      "effective_to": null,
+      "observed_at": "2026-10-17",
+      "known_then": false,
+      "reuse_status": "Own bounded research note; underlying public-product, automated extraction and external-AI reuse not cleared. No raw page retained."
+    },
+    {
+      "evidence_id": "naming-107",
+      "ground_id": "mkm-stadium",
+      "name": "Kingston Communications Stadium",
+      "name_kind": "commercial",
+      "source_url": "https://www.kcom.com/news/happy-20th-birthday-to-the-mkm-stadium/",
+      "locator": "lines 61-71",
+      "basis": "Former naming sponsor explicitly identifies initial name and opening fixture on 18 December 2002. This is opening-name usage, not an exact sponsorship-signing or effective naming start.",
+      "evidence_kind": "retrospective_usage",
+      "subject_date": "2002-12-18",
+      "publication_date": "2022-12-15",
+      "applicable_seasons": [],
+      "effective_from": null,
+      "effective_precision": null,
+      "effective_to": null,
+      "observed_at": "2026-10-17",
+      "known_then": false,
+      "reuse_status": "Own bounded research notes/citation only; underlying publisher public-product, extraction and external-AI reuse not cleared. No raw article retained."
+    },
+    {
+      "evidence_id": "naming-108",
+      "ground_id": "coventry-building-society-arena",
+      "name": "Ricoh Arena",
+      "name_kind": "commercial",
+      "source_url": "https://www.coventrybuildingsocietyarena.co.uk/news/coventry-building-society-arena-celebrates-20-years",
+      "locator": "lines 109-115",
+      "basis": "Venue operator explicitly identifies Ricoh name at first public event on 20 August 2005. Day/month displayed for article, publication year not silently inferred.",
+      "evidence_kind": "retrospective_usage",
+      "subject_date": "2005-08-20",
+      "publication_date": null,
+      "applicable_seasons": [],
+      "effective_from": null,
+      "effective_precision": null,
+      "effective_to": null,
+      "observed_at": "2026-10-17",
+      "known_then": false,
+      "reuse_status": "Own bounded research notes/citation only; underlying publisher public-product, extraction and external-AI reuse not cleared. No raw article retained."
+    },
+    {
+      "evidence_id": "naming-109",
+      "ground_id": "coventry-building-society-arena",
+      "name": "Ricoh Arena",
+      "name_kind": "commercial",
+      "source_url": "https://www.coventrybuildingsocietyarena.co.uk/news/wasps-group-agree-major-new-stadium-naming-rights-deal",
+      "locator": "lines 118-122; CBS 2021 context corroborated by naming-87",
+      "basis": "Venue operator describes CBS transition as first name change since opening in 2005. Supports retrospective commercial-name continuity to the 2021 transition context, corroborated by existing naming-87. Does not deny temporary Olympic clean-name usage.",
+      "evidence_kind": "retrospective_usage",
+      "subject_date": null,
+      "publication_date": null,
+      "applicable_seasons": [],
+      "effective_from": null,
+      "effective_precision": null,
+      "effective_to": null,
+      "observed_at": "2026-10-17",
+      "known_then": false,
+      "reuse_status": "Own bounded research notes/citation only; underlying publisher public-product, extraction and external-AI reuse not cleared. No raw article retained.",
+      "period_assertion": {
+        "start": {
+          "value": "2005",
+          "precision": "year"
+        },
+        "asserted_through": {
+          "value": "2021",
+          "precision": "year"
+        },
+        "actual_end": null
+      },
+      "supporting_evidence_ids": [
+        "naming-87",
+        "naming-108"
+      ]
+    },
+    {
+      "evidence_id": "naming-110",
+      "ground_id": "coventry-building-society-arena",
+      "name": "City of Coventry Stadium",
+      "name_kind": "official_unspecified",
+      "source_url": "https://assets.publishing.service.gov.uk/media/5a79017eed915d04220670da/City_of_Coventry_Stadium.pdf",
+      "locator": "PDF page 0 lines 4,15,17-26",
+      "basis": "Government Olympic Executive draft map uses this competition venue label. Map dated 26 October 2010 lists event-zone operational days 24 July–3 August and 8–9 August 2012. These are restriction/zone dates, not naming validity boundaries.",
+      "evidence_kind": "dated_usage",
+      "subject_date": "2010-10-26",
+      "publication_date": null,
+      "applicable_seasons": [],
+      "effective_from": null,
+      "effective_precision": null,
+      "effective_to": null,
+      "observed_at": "2026-10-17",
+      "known_then": false,
+      "reuse_status": "Own bounded research notes/citation only; underlying publisher public-product, extraction and external-AI reuse not cleared. No raw article retained."
+    },
+    {
+      "evidence_id": "naming-111",
+      "ground_id": "riverside-stadium",
+      "name": "Cellnet Riverside Stadium",
+      "name_kind": "official_unspecified",
+      "source_url": "https://find-and-update.company-information.service.gov.uk/company/01947851/charges",
+      "locator": "Deed of legal charge, lines 387-403",
+      "basis": "Government register particulars for legal charge created 20 April 1998, delivered 23 April, identify this name. Document use is not naming start; satisfaction on 18 January 2000 is not naming end.",
+      "evidence_kind": "dated_usage",
+      "subject_date": "1998-04-20",
+      "publication_date": null,
+      "applicable_seasons": [],
+      "effective_from": null,
+      "effective_precision": null,
+      "effective_to": null,
+      "observed_at": "2026-10-17",
+      "known_then": false,
+      "reuse_status": "Own bounded research notes/citation only; underlying publisher public-product, extraction and external-AI reuse not cleared. No raw article retained."
+    },
+    {
+      "evidence_id": "naming-112",
+      "ground_id": "riverside-stadium",
+      "name": "BT Cellnet Riverside Stadium",
+      "name_kind": "official_unspecified",
+      "source_url": "https://find-and-update.company-information.service.gov.uk/company/01947851/charges",
+      "locator": "Fixed and security document, lines 313-330",
+      "basis": "Government register particulars for security document created 23 December 1999, delivered 11 January 2000, identify this name. Filing may preserve older language; charge satisfaction on 7 January 2010 is not name cessation.",
+      "evidence_kind": "dated_usage",
+      "subject_date": "1999-12-23",
+      "publication_date": null,
+      "applicable_seasons": [],
+      "effective_from": null,
+      "effective_precision": null,
+      "effective_to": null,
+      "observed_at": "2026-10-17",
+      "known_then": false,
+      "reuse_status": "Own bounded research notes/citation only; underlying publisher public-product, extraction and external-AI reuse not cleared. No raw article retained."
+    },
+    {
+      "evidence_id": "naming-113",
+      "ground_id": "london-stadium",
+      "name": "London Stadium",
+      "name_kind": "official_unspecified",
+      "source_url": "https://www.whufc.com/en/the-club/history/stadiums/london-stadium-0",
+      "locator": "lines 31-40",
+      "basis": "Club retrospective explicitly names London Stadium for move in summer 2016 and first fixture on 4 August. This improves dated usage from first PL 21 August to earlier European fixture, but does not establish exact rename day.",
+      "evidence_kind": "retrospective_usage",
+      "subject_date": "2016-08-04",
+      "publication_date": null,
+      "applicable_seasons": [],
+      "effective_from": null,
+      "effective_precision": null,
+      "effective_to": null,
+      "observed_at": "2026-10-17",
+      "known_then": false,
+      "reuse_status": "Own bounded research notes/citation only; underlying publisher public-product, extraction and external-AI reuse not cleared. No raw article retained."
+    },
+    {
+      "evidence_id": "naming-114",
+      "ground_id": "brighton-community-stadium",
+      "name": "American Express Community Stadium",
+      "name_kind": "commercial",
+      "source_url": "https://www.brightonandhovealbion.com/media-article/a-moment-that-will-live-with-me-forever",
+      "locator": "lines 47-59",
+      "basis": "Club retrospective names former Community stadium and describes 6 August 2011 first league match, with opening 30 July mentioned separately. This is dated historical usage, not 22 June 2010 announcement verification.",
+      "evidence_kind": "retrospective_usage",
+      "subject_date": "2011-08-06",
+      "publication_date": "2024-08-06",
+      "applicable_seasons": [],
+      "effective_from": null,
+      "effective_precision": null,
+      "effective_to": null,
+      "observed_at": "2026-10-17",
+      "known_then": false,
+      "reuse_status": "Own bounded research notes/citation only; underlying publisher public-product, extraction and external-AI reuse not cleared. No raw article retained."
+    },
+    {
+      "evidence_id": "naming-115",
+      "ground_id": "hill-dickinson-stadium",
+      "name": "Hill Dickinson Stadium",
+      "name_kind": "commercial",
+      "source_url": "https://www.hilldickinsonstadium.com/news/2025/may/16/hill-dickinson-named-as-official-stadium-naming-rights-partner-/",
+      "locator": "Title/date and announcement paragraphs",
+      "basis": "Venue announcement by Everton on 16 May 2025 confirms future name and planned August opening. It does not say naming takes immediate effect; announcement remains distinct from effective day.",
+      "evidence_kind": "naming_event",
+      "subject_date": null,
+      "publication_date": "2025-05-16",
+      "applicable_seasons": [],
+      "effective_from": null,
+      "effective_precision": null,
+      "effective_to": null,
+      "observed_at": "2026-10-17",
+      "known_then": false,
+      "reuse_status": "Own bounded research notes/citation only; underlying publisher public-product, extraction and external-AI reuse not cleared. No raw article retained."
+    },
+    {
+      "evidence_id": "naming-116",
+      "ground_id": "liberty-stadium",
+      "name": "Liberty Stadium",
+      "name_kind": "official_unspecified",
+      "source_url": "https://www.ospreysrugby.com/news/ospreys-play-renamed-swanseacom-stadium",
+      "locator": "lines 19-20",
+      "basis": "Co-tenant announcement repeats name since shortly after 2005 opening. This corroborates year-level prior claim but appears to share announcement text, not independent original 2005 evidence. No exact October date confirmed.",
+      "evidence_kind": "retrospective_usage",
+      "subject_date": null,
+      "publication_date": null,
+      "applicable_seasons": [],
+      "effective_from": null,
+      "effective_precision": null,
+      "effective_to": null,
+      "observed_at": "2026-10-17",
+      "known_then": false,
+      "reuse_status": "Own bounded research notes/citation only; underlying publisher public-product, extraction and external-AI reuse not cleared. No raw article retained."
+    },
+    {
+      "evidence_id": "naming-117",
+      "ground_id": "leicester-city-stadium",
+      "name": "King Power Stadium",
+      "name_kind": "commercial",
+      "source_url": "https://www.lcfc.com/media-article/Links-With-The-Past%3A-Gifts-From-Spanish-Clubs",
+      "locator": "Real Madrid section, lines149-151; publication2Aug2022",
+      "basis": "Club historian John Hutchinson explicitly dates Walkers-to-King Power rename to 5 July 2011. This is a 2022 primary retrospective, not retrieval of the original 2011 announcement. Broad introductory use of modern name for 2002 is not historical naming evidence.",
+      "evidence_kind": "naming_event",
+      "source_type": "primary_retrospective",
+      "subject_date": null,
+      "publication_date": "2022-08-02",
+      "applicable_seasons": [],
+      "effective_from": "2011-07-05",
+      "effective_precision": "day",
+      "effective_to": null,
+      "observed_at": "2026-10-17",
+      "known_then": false,
+      "reuse_status": "Own bounded citation/note only; public-product, automated extraction and external-AI reuse not cleared. No raw publisher content retained."
+    },
+    {
+      "evidence_id": "naming-118",
+      "ground_id": "emirates-stadium",
+      "name": "Emirates Stadium",
+      "name_kind": "commercial",
+      "source_url": "https://cdn.ek.aero/downloads/ek/pdfs/report/2004-05-annual-report.pdf",
+      "locator": "PDF index39, printed44, lines1694-1705",
+      "basis": "Contemporary sponsor annual report says naming has immediate effect, without an announcement day. Combined with existing Arsenal October2004 evidence naming-103, corroborates month-level immediate effect only. Fifteen-year commitment is not observed end.",
+      "evidence_kind": "naming_event",
+      "source_type": "contemporary_primary_report",
+      "subject_date": null,
+      "publication_date": null,
+      "applicable_seasons": [],
+      "effective_from": "2004-10",
+      "effective_precision": "month",
+      "effective_to": null,
+      "observed_at": "2026-10-17",
+      "known_then": false,
+      "reuse_status": "Own bounded citation/note only; public-product, automated extraction and external-AI reuse not cleared. No raw publisher content retained.",
+      "supporting_evidence_ids": [
+        "naming-103"
+      ]
+    },
+    {
+      "evidence_id": "naming-119",
+      "ground_id": "coventry-building-society-arena",
+      "name": "Ricoh Arena",
+      "name_kind": "commercial",
+      "source_url": "https://www.ricoh.com/-/Media/Ricoh/Sites/com/IR/financial_data/annual_report/ar/07/ar00.pdf",
+      "locator": "PDF index21, printed21, lines1610-1614",
+      "basis": "Sponsor2007 annual report names Ricoh Arena and says doors opened August2005. Contemporary corporate corroboration, not original naming press release or exact naming start. Its league description is not imported as competition evidence.",
+      "evidence_kind": "retrospective_usage",
+      "source_type": "contemporary_primary_report",
+      "subject_date": null,
+      "publication_date": null,
+      "applicable_seasons": [],
+      "effective_from": null,
+      "effective_precision": null,
+      "effective_to": null,
+      "observed_at": "2026-10-17",
+      "known_then": false,
+      "reuse_status": "Own bounded citation/note only; public-product, automated extraction and external-AI reuse not cleared. No raw publisher content retained."
+    },
+    {
+      "evidence_id": "naming-120",
+      "ground_id": "liberty-stadium",
+      "name": "Liberty Stadium",
+      "name_kind": "commercial",
+      "source_url": "https://www.liverpoolfc.com/news/first-team/100477-12-preview-away-days",
+      "locator": "Page heading: 4 August 2011; Liberty Stadium section, lines 199–202.",
+      "basis": "Official opponent 2011 preview states Liberty Properties won naming rights in October 2005. Improves award precision to month, not exact 18 October or proof of immediate implementation. Not an original 2005 announcement. Club-published primary page, but an opponent retrospective and secondary to the Swansea naming transaction; not transaction-origin proof.",
+      "evidence_kind": "retrospective_usage",
+      "source_type": "primary_retrospective",
+      "subject_date": "2005-10",
+      "publication_date": "2011-08-04",
+      "applicable_seasons": [],
+      "effective_from": null,
+      "effective_precision": null,
+      "effective_to": null,
+      "observed_at": "2026-10-17",
+      "known_then": false,
+      "reuse_status": "Own bounded citation/note only; public-product, automated extraction and external-AI reuse not cleared. No raw publisher content retained.",
+      "subject_date_precision": "month"
+    }
+  ],
+  "ground_reviews": [
+    {
+      "ground_id": "selhurst-park",
+      "status": "primary_name_evidence",
+      "evidence_ids": [
+        "naming-49",
+        "naming-62",
+        "naming-93",
+        "naming-105"
+      ],
+      "research_note": "Reviewed existing primary ground/address/naming notes and selected-season directory/report evidence; current Wikidata label remains separate.",
+      "remaining_gap": "First named-match usage is 30 August 1924; legal naming start and any uninterrupted naming interval remain unestablished. Current planned 2026/27 usage is now explicit.",
+      "complete_intervals": false
+    },
+    {
+      "ground_id": "griffin-park",
+      "status": "primary_name_evidence",
+      "evidence_ids": [
+        "naming-84"
+      ],
+      "research_note": "Reviewed existing primary ground/address/naming notes and selected-season directory/report evidence; current Wikidata label remains separate.",
+      "remaining_gap": "Club retrospective explains brewery-related Griffin name and 1904–2020 home tenure. Home tenure does not independently date naming adoption or cessation after football use.",
+      "complete_intervals": false
+    },
+    {
+      "ground_id": "emirates-stadium",
+      "status": "primary_name_evidence",
+      "evidence_ids": [
+        "naming-79",
+        "naming-80",
+        "naming-91",
+        "naming-103",
+        "naming-118"
+      ],
+      "research_note": "Reviewed existing primary ground/address/naming notes and selected-season directory/report evidence; current Wikidata label remains separate.",
+      "remaining_gap": "Contemporary sponsor report corroborates immediate effect at existing October2004 month precision. Exact announcement/effective day remains unverified.",
+      "complete_intervals": false
+    },
+    {
+      "ground_id": "london-stadium",
+      "status": "primary_name_evidence",
+      "evidence_ids": [
+        "naming-19",
+        "naming-74",
+        "naming-113"
+      ],
+      "research_note": "Reviewed existing primary ground/address/naming notes and selected-season directory/report evidence; current Wikidata label remains separate.",
+      "remaining_gap": "Exact naming adoption day remains unknown; 4August2016 is explicit name usage, not start.",
+      "complete_intervals": false
+    },
+    {
+      "ground_id": "villa-park",
+      "status": "primary_name_evidence",
+      "evidence_ids": [
+        "naming-46",
+        "naming-92",
+        "naming-104"
+      ],
+      "research_note": "Reviewed existing primary ground/address/naming notes and selected-season directory/report evidence; current Wikidata label remains separate.",
+      "remaining_gap": "Primary indexed retrospective identifies original Aston Lower Grounds and 1897 move; exact adoption of Villa Park is unknown. Empty direct article is recorded, not treated as full-page inspection.",
+      "complete_intervals": false
+    },
+    {
+      "ground_id": "white-hart-lane",
+      "status": "primary_name_evidence",
+      "evidence_ids": [
+        "naming-81",
+        "naming-82"
+      ],
+      "research_note": "Reviewed existing primary ground/address/naming notes and selected-season directory/report evidence; current Wikidata label remains separate.",
+      "remaining_gap": "Contemporary 2015 and 2016 reports use White Hart Lane. Last game in May 2017 does not itself establish legal name cessation; original adoption and traditional/official distinction remain undated.",
+      "complete_intervals": false
+    },
+    {
+      "ground_id": "hill-dickinson-stadium",
+      "status": "primary_name_evidence",
+      "evidence_ids": [
+        "naming-86",
+        "naming-89",
+        "naming-115"
+      ],
+      "research_note": "Reviewed existing primary ground/address/naming notes and selected-season directory/report evidence; current Wikidata label remains separate.",
+      "remaining_gap": "Exact effective implementation day not stated;16May remains announcement, not automatically immediate effect.",
+      "complete_intervals": false
+    },
+    {
+      "ground_id": "boleyn-ground",
+      "status": "primary_name_evidence",
+      "evidence_ids": [
+        "naming-18",
+        "naming-59"
+      ],
+      "research_note": "Reviewed existing primary ground/address/naming notes and selected-season directory/report evidence; current Wikidata label remains separate.",
+      "remaining_gap": "Boleyn usage and final May 2016 match are supported; exact adoption and Upton Park alias period are not established. A locality/address is not automatically a stadium alias.",
+      "complete_intervals": false
+    },
+    {
+      "ground_id": "tottenham-hotspur-stadium",
+      "status": "primary_name_evidence",
+      "evidence_ids": [
+        "naming-88"
+      ],
+      "research_note": "Reviewed existing primary ground/address/naming notes and selected-season directory/report evidence; current Wikidata label remains separate.",
+      "remaining_gap": "2026/27 planned name usage supported; 2019 football opening is not automatically a legal naming start. No exclusive commercial/clean-name interval established.",
+      "complete_intervals": false
+    },
+    {
+      "ground_id": "dean-court",
+      "status": "primary_name_evidence",
+      "evidence_ids": [
+        "naming-16",
+        "naming-23",
+        "naming-24",
+        "naming-42",
+        "naming-47",
+        "naming-60",
+        "naming-101"
+      ],
+      "research_note": "Reviewed existing primary ground/address/naming notes and selected-season directory/report evidence; current Wikidata label remains separate.",
+      "remaining_gap": "Exact2015 announcement/effective day; announced summer2026 commitment not actual end.",
+      "complete_intervals": false
+    },
+    {
+      "ground_id": "brighton-community-stadium",
+      "status": "primary_name_evidence",
+      "evidence_ids": [
+        "naming-14",
+        "naming-85",
+        "naming-99",
+        "naming-114"
+      ],
+      "research_note": "Reviewed existing primary ground/address/naming notes and selected-season directory/report evidence; current Wikidata label remains separate.",
+      "remaining_gap": "2010 initial announcement/effective day not primary-confirmed;2011 usage does not bridge all intervening dates.",
+      "complete_intervals": false
+    },
+    {
+      "ground_id": "turf-moor",
+      "status": "primary_name_evidence",
+      "evidence_ids": [
+        "naming-17",
+        "naming-71"
+      ],
+      "research_note": "Reviewed existing primary ground/address/naming notes and selected-season directory/report evidence; current Wikidata label remains separate.",
+      "remaining_gap": "Historic England and seasonal directory establish Turf Moor usage/home history, not exact name adoption or a complete uninterrupted interval.",
+      "complete_intervals": false
+    },
+    {
+      "ground_id": "coventry-building-society-arena",
+      "status": "primary_name_evidence",
+      "evidence_ids": [
+        "naming-15",
+        "naming-44",
+        "naming-87",
+        "naming-108",
+        "naming-109",
+        "naming-110",
+        "naming-119"
+      ],
+      "research_note": "Reviewed existing primary ground/address/naming notes and selected-season directory/report evidence; current Wikidata label remains separate.",
+      "remaining_gap": "Ricoh naming contract start before/byopening unknown. CBS exact1July2021 retained. Olympic naming interval not established by zone dates.",
+      "complete_intervals": false
+    },
+    {
+      "ground_id": "goodison-park",
+      "status": "primary_name_evidence",
+      "evidence_ids": [
+        "naming-50",
+        "naming-63"
+      ],
+      "research_note": "Reviewed existing primary ground/address/naming notes and selected-season directory/report evidence; current Wikidata label remains separate.",
+      "remaining_gap": "Historical seasonal directory confirms Goodison Park. Everton moving in 2025 does not mean the ground name ended; exact name adoption and later name continuity remain unverified.",
+      "complete_intervals": false
+    },
+    {
+      "ground_id": "vicarage-road",
+      "status": "primary_name_evidence",
+      "evidence_ids": [
+        "naming-12",
+        "naming-57",
+        "naming-69"
+      ],
+      "research_note": "Reviewed existing primary ground/address/naming notes and selected-season directory/report evidence; current Wikidata label remains separate.",
+      "remaining_gap": "Visiting guide/home history and seasonal directory establish Vicarage Road usage. Opening/home-tenure year is not independently an exact naming date; Stadium suffix classification remains unresolved.",
+      "complete_intervals": false
+    },
+    {
+      "ground_id": "carrow-road",
+      "status": "primary_name_evidence",
+      "evidence_ids": [
+        "naming-7",
+        "naming-27"
+      ],
+      "research_note": "Reviewed existing primary ground/address/naming notes and selected-season directory/report evidence; current Wikidata label remains separate.",
+      "remaining_gap": "1935 first-match retrospective and 2016 actual report establish usage. Exact legal name adoption is not independently established by opening or postal street.",
+      "complete_intervals": false
+    },
+    {
+      "ground_id": "st-james-park",
+      "status": "primary_name_evidence",
+      "evidence_ids": [
+        "naming-53",
+        "naming-95"
+      ],
+      "research_note": "Reviewed existing primary ground/address/naming notes and selected-season directory/report evidence; current Wikidata label remains separate.",
+      "remaining_gap": "2009 adoption,2011 adoption and2012 restoration effective days; announcement/signage installation differ.",
+      "complete_intervals": false
+    },
+    {
+      "ground_id": "the-hawthorns",
+      "status": "primary_name_evidence",
+      "evidence_ids": [
+        "naming-13",
+        "naming-58",
+        "naming-70"
+      ],
+      "research_note": "Reviewed existing primary ground/address/naming notes and selected-season directory/report evidence; current Wikidata label remains separate.",
+      "remaining_gap": "Club 120-year retrospective and seasonal directory support name/home history; exact naming start and uninterrupted formal naming interval are not established.",
+      "complete_intervals": false
+    },
+    {
+      "ground_id": "craven-cottage",
+      "status": "primary_name_evidence",
+      "evidence_ids": [
+        "naming-2",
+        "naming-35"
+      ],
+      "research_note": "Reviewed existing primary ground/address/naming notes and selected-season directory/report evidence; current Wikidata label remains separate.",
+      "remaining_gap": "Club history and 2026 report support name. Temporary Loftus Road football use does not rename Craven Cottage; original adoption and full naming interval remain unestablished.",
+      "complete_intervals": false
+    },
+    {
+      "ground_id": "stadium-of-light",
+      "status": "primary_name_evidence",
+      "evidence_ids": [
+        "naming-10",
+        "naming-55",
+        "naming-67",
+        "naming-96",
+        "naming-106"
+      ],
+      "research_note": "Reviewed existing primary ground/address/naming notes and selected-season directory/report evidence; current Wikidata label remains separate.",
+      "remaining_gap": "Official guide explains Bob Murray/mining origin and 1997 home tenure, not precise naming ceremony date. 2026/27 planned usage now explicit; no inferred link to Benfica.",
+      "complete_intervals": false
+    },
+    {
+      "ground_id": "anfield",
+      "status": "primary_name_evidence",
+      "evidence_ids": [
+        "naming-77",
+        "naming-78",
+        "naming-94"
+      ],
+      "research_note": "Reviewed existing primary ground/address/naming notes and selected-season directory/report evidence; current Wikidata label remains separate.",
+      "remaining_gap": "Contemporary reports establish both historical seasons and official opponent schedule now establishes 2026/27 planned usage; no exact original naming adoption or legal interval established.",
+      "complete_intervals": false
+    },
+    {
+      "ground_id": "etihad-stadium",
+      "status": "primary_name_evidence",
+      "evidence_ids": [
+        "naming-20",
+        "naming-21",
+        "naming-25",
+        "naming-41",
+        "naming-52",
+        "naming-65"
+      ],
+      "research_note": "Reviewed existing primary ground/address/naming notes and selected-season directory/report evidence; current Wikidata label remains separate.",
+      "remaining_gap": "Immediate change 8 July 2011 supported by prior club announcement evidence. City of Manchester traditional/competition-clean overlap and actual commercial end remain unknown; contract duration is not expiry evidence.",
+      "complete_intervals": false
+    },
+    {
+      "ground_id": "britannia-stadium",
+      "status": "primary_name_evidence",
+      "evidence_ids": [
+        "naming-45",
+        "naming-75",
+        "naming-76"
+      ],
+      "research_note": "Reviewed existing primary ground/address/naming notes and selected-season directory/report evidence; current Wikidata label remains separate.",
+      "remaining_gap": "Exact effective day; primary basis remains season context.",
+      "complete_intervals": false
+    },
+    {
+      "ground_id": "st-mary-s-stadium",
+      "status": "primary_name_evidence",
+      "evidence_ids": [
+        "naming-9",
+        "naming-28",
+        "naming-32",
+        "naming-54",
+        "naming-66"
+      ],
+      "research_note": "Reviewed existing primary ground/address/naming notes and selected-season directory/report evidence; current Wikidata label remains separate.",
+      "remaining_gap": "Contemporary reports and directory support St Mary’s usage. Ground opening and spelling/suffix variations do not establish separate rename events; exact original naming day unknown.",
+      "complete_intervals": false
+    },
+    {
+      "ground_id": "liberty-stadium",
+      "status": "primary_name_evidence",
+      "evidence_ids": [
+        "naming-11",
+        "naming-36",
+        "naming-38",
+        "naming-56",
+        "naming-68",
+        "naming-100",
+        "naming-116",
+        "naming-120"
+      ],
+      "research_note": "Reviewed existing primary ground/address/naming notes and selected-season directory/report evidence; current Wikidata label remains separate.",
+      "remaining_gap": "Official opponent2011 preview places naming-rights award in October2005. Exact day and effective implementation remain unverified; opening is not naming start.",
+      "complete_intervals": false
+    },
+    {
+      "ground_id": "city-ground",
+      "status": "primary_name_evidence",
+      "evidence_ids": [
+        "naming-8",
+        "naming-22"
+      ],
+      "research_note": "Reviewed existing primary ground/address/naming notes and selected-season directory/report evidence; current Wikidata label remains separate.",
+      "remaining_gap": "Club history identifies 1898 move and current planned usage; move date is not exact naming adoption. Town Ground is a separate prior ground, not an assumed alias.",
+      "complete_intervals": false
+    },
+    {
+      "ground_id": "elland-road",
+      "status": "primary_name_evidence",
+      "evidence_ids": [
+        "naming-83"
+      ],
+      "research_note": "Reviewed existing primary ground/address/naming notes and selected-season directory/report evidence; current Wikidata label remains separate.",
+      "remaining_gap": "2026 update explicitly names Elland Road; no source in this bounded set establishes an exact original naming date or uninterrupted formal period.",
+      "complete_intervals": false
+    },
+    {
+      "ground_id": "portman-road",
+      "status": "primary_name_evidence",
+      "evidence_ids": [
+        "naming-4"
+      ],
+      "research_note": "Reviewed existing primary ground/address/naming notes and selected-season directory/report evidence; current Wikidata label remains separate.",
+      "remaining_gap": "Club schedule and ticket terms support Portman Road; no exact original naming date or complete formal period is established.",
+      "complete_intervals": false
+    },
+    {
+      "ground_id": "leicester-city-stadium",
+      "status": "primary_name_evidence",
+      "evidence_ids": [
+        "naming-43",
+        "naming-51",
+        "naming-64",
+        "naming-102",
+        "naming-117"
+      ],
+      "research_note": "Reviewed existing primary ground/address/naming notes and selected-season directory/report evidence; current Wikidata label remains separate.",
+      "remaining_gap": "Primary club historian retrospectively establishes rename5July2011. Original2011 announcement not recovered; actual end remains unknown.",
+      "complete_intervals": false
+    },
+    {
+      "ground_id": "mkm-stadium",
+      "status": "primary_name_evidence",
+      "evidence_ids": [
+        "naming-3",
+        "naming-26",
+        "naming-33",
+        "naming-39",
+        "naming-40",
+        "naming-73",
+        "naming-107"
+      ],
+      "research_note": "Reviewed existing primary ground/address/naming notes and selected-season directory/report evidence; current Wikidata label remains separate.",
+      "remaining_gap": "Exact initial naming agreement/effective day unknown; opening-name usage now dated. KC abbreviation not a separate inferred rename.",
+      "complete_intervals": false
+    },
+    {
+      "ground_id": "riverside-stadium",
+      "status": "primary_name_evidence",
+      "evidence_ids": [
+        "naming-6",
+        "naming-31",
+        "naming-72",
+        "naming-111",
+        "naming-112"
+      ],
+      "research_note": "Reviewed existing primary ground/address/naming notes and selected-season directory/report evidence; current Wikidata label remains separate.",
+      "remaining_gap": "Commercial adoption, Cellnet→BTCellnet and sponsor cessation days unknown. Charge release/satisfaction dates are not naming endpoints.",
+      "complete_intervals": false
+    },
+    {
+      "ground_id": "old-trafford",
+      "status": "primary_name_evidence",
+      "evidence_ids": [
+        "naming-5",
+        "naming-29",
+        "naming-30",
+        "naming-34"
+      ],
+      "research_note": "Reviewed existing primary ground/address/naming notes and selected-season directory/report evidence; current Wikidata label remains separate.",
+      "remaining_gap": "1910 move history and selected-season reports establish usage, not an exact naming start. Theatre of Dreams is not automatically an official commercial or competition-clean name.",
+      "complete_intervals": false
+    },
+    {
+      "ground_id": "stamford-bridge",
+      "status": "primary_name_evidence",
+      "evidence_ids": [
+        "naming-1",
+        "naming-48",
+        "naming-61",
+        "naming-98"
+      ],
+      "research_note": "Reviewed existing primary ground/address/naming notes and selected-season directory/report evidence; current Wikidata label remains separate.",
+      "remaining_gap": "Club history and current fixture announcement support name; 1877 stadium origin/1905 club formation do not independently establish exact naming date or uninterrupted name period.",
+      "complete_intervals": false
+    },
+    {
+      "ground_id": "brentford-community-stadium",
+      "status": "primary_name_evidence",
+      "evidence_ids": [
+        "naming-37",
+        "naming-90",
+        "naming-97"
+      ],
+      "research_note": "Reviewed existing primary ground/address/naming notes and selected-season directory/report evidence; current Wikidata label remains separate.",
+      "remaining_gap": "Immediate Gtech change 28 July 2022 supported; former Brentford Community Stadium was used until that transition. Stadium opening in 2020 is not automatically its naming start. Ten-year deal is planned, not actual end.",
+      "complete_intervals": false
+    }
+  ],
+  "season_contexts": [
+    {
+      "membership_id": "2015/16|bournemouth",
+      "season": "2015/16",
+      "ground_id": "dean-court",
+      "status": "supported_usage",
+      "evidence_ids": [
+        "naming-23",
+        "naming-47"
+      ],
+      "whole_season_interval_verified": false,
+      "gap_reason": null
+    },
+    {
+      "membership_id": "2015/16|arsenal",
+      "season": "2015/16",
+      "ground_id": "emirates-stadium",
+      "status": "supported_usage",
+      "evidence_ids": [
+        "naming-79"
+      ],
+      "whole_season_interval_verified": false,
+      "gap_reason": null
+    },
+    {
+      "membership_id": "2015/16|aston-villa",
+      "season": "2015/16",
+      "ground_id": "villa-park",
+      "status": "supported_usage",
+      "evidence_ids": [
+        "naming-46"
+      ],
+      "whole_season_interval_verified": false,
+      "gap_reason": null
+    },
+    {
+      "membership_id": "2015/16|chelsea",
+      "season": "2015/16",
+      "ground_id": "stamford-bridge",
+      "status": "supported_usage",
+      "evidence_ids": [
+        "naming-48"
+      ],
+      "whole_season_interval_verified": false,
+      "gap_reason": null
+    },
+    {
+      "membership_id": "2015/16|crystal-palace",
+      "season": "2015/16",
+      "ground_id": "selhurst-park",
+      "status": "supported_usage",
+      "evidence_ids": [
+        "naming-49"
+      ],
+      "whole_season_interval_verified": false,
+      "gap_reason": null
+    },
+    {
+      "membership_id": "2015/16|everton",
+      "season": "2015/16",
+      "ground_id": "goodison-park",
+      "status": "supported_usage",
+      "evidence_ids": [
+        "naming-50"
+      ],
+      "whole_season_interval_verified": false,
+      "gap_reason": null
+    },
+    {
+      "membership_id": "2015/16|leicester",
+      "season": "2015/16",
+      "ground_id": "leicester-city-stadium",
+      "status": "supported_usage",
+      "evidence_ids": [
+        "naming-51"
+      ],
+      "whole_season_interval_verified": false,
+      "gap_reason": null
+    },
+    {
+      "membership_id": "2015/16|liverpool",
+      "season": "2015/16",
+      "ground_id": "anfield",
+      "status": "supported_usage",
+      "evidence_ids": [
+        "naming-77"
+      ],
+      "whole_season_interval_verified": false,
+      "gap_reason": null
+    },
+    {
+      "membership_id": "2015/16|manchester-city",
+      "season": "2015/16",
+      "ground_id": "etihad-stadium",
+      "status": "supported_usage",
+      "evidence_ids": [
+        "naming-20",
+        "naming-52"
+      ],
+      "whole_season_interval_verified": false,
+      "gap_reason": null
+    },
+    {
+      "membership_id": "2015/16|manchester-united",
+      "season": "2015/16",
+      "ground_id": "old-trafford",
+      "status": "supported_usage",
+      "evidence_ids": [
+        "naming-34"
+      ],
+      "whole_season_interval_verified": false,
+      "gap_reason": null
+    },
+    {
+      "membership_id": "2015/16|newcastle",
+      "season": "2015/16",
+      "ground_id": "st-james-park",
+      "status": "supported_usage",
+      "evidence_ids": [
+        "naming-53"
+      ],
+      "whole_season_interval_verified": false,
+      "gap_reason": null
+    },
+    {
+      "membership_id": "2015/16|norwich",
+      "season": "2015/16",
+      "ground_id": "carrow-road",
+      "status": "supported_usage",
+      "evidence_ids": [
+        "naming-27"
+      ],
+      "whole_season_interval_verified": false,
+      "gap_reason": null
+    },
+    {
+      "membership_id": "2015/16|southampton",
+      "season": "2015/16",
+      "ground_id": "st-mary-s-stadium",
+      "status": "supported_usage",
+      "evidence_ids": [
+        "naming-28",
+        "naming-54"
+      ],
+      "whole_season_interval_verified": false,
+      "gap_reason": null
+    },
+    {
+      "membership_id": "2015/16|stoke",
+      "season": "2015/16",
+      "ground_id": "britannia-stadium",
+      "status": "supported_usage",
+      "evidence_ids": [
+        "naming-75"
+      ],
+      "whole_season_interval_verified": false,
+      "gap_reason": null
+    },
+    {
+      "membership_id": "2015/16|sunderland",
+      "season": "2015/16",
+      "ground_id": "stadium-of-light",
+      "status": "supported_usage",
+      "evidence_ids": [
+        "naming-55"
+      ],
+      "whole_season_interval_verified": false,
+      "gap_reason": null
+    },
+    {
+      "membership_id": "2015/16|swansea",
+      "season": "2015/16",
+      "ground_id": "liberty-stadium",
+      "status": "supported_usage",
+      "evidence_ids": [
+        "naming-11",
+        "naming-56"
+      ],
+      "whole_season_interval_verified": false,
+      "gap_reason": null
+    },
+    {
+      "membership_id": "2015/16|tottenham",
+      "season": "2015/16",
+      "ground_id": "white-hart-lane",
+      "status": "supported_usage",
+      "evidence_ids": [
+        "naming-81"
+      ],
+      "whole_season_interval_verified": false,
+      "gap_reason": null
+    },
+    {
+      "membership_id": "2015/16|watford",
+      "season": "2015/16",
+      "ground_id": "vicarage-road",
+      "status": "supported_usage",
+      "evidence_ids": [
+        "naming-57"
+      ],
+      "whole_season_interval_verified": false,
+      "gap_reason": null
+    },
+    {
+      "membership_id": "2015/16|west-brom",
+      "season": "2015/16",
+      "ground_id": "the-hawthorns",
+      "status": "supported_usage",
+      "evidence_ids": [
+        "naming-58"
+      ],
+      "whole_season_interval_verified": false,
+      "gap_reason": null
+    },
+    {
+      "membership_id": "2015/16|west-ham",
+      "season": "2015/16",
+      "ground_id": "boleyn-ground",
+      "status": "supported_usage",
+      "evidence_ids": [
+        "naming-18",
+        "naming-59"
+      ],
+      "whole_season_interval_verified": false,
+      "gap_reason": null
+    },
+    {
+      "membership_id": "2016/17|bournemouth",
+      "season": "2016/17",
+      "ground_id": "dean-court",
+      "status": "supported_usage",
+      "evidence_ids": [
+        "naming-24",
+        "naming-60"
+      ],
+      "whole_season_interval_verified": false,
+      "gap_reason": null
+    },
+    {
+      "membership_id": "2016/17|arsenal",
+      "season": "2016/17",
+      "ground_id": "emirates-stadium",
+      "status": "supported_usage",
+      "evidence_ids": [
+        "naming-80"
+      ],
+      "whole_season_interval_verified": false,
+      "gap_reason": null
+    },
+    {
+      "membership_id": "2016/17|burnley",
+      "season": "2016/17",
+      "ground_id": "turf-moor",
+      "status": "supported_usage",
+      "evidence_ids": [
+        "naming-71"
+      ],
+      "whole_season_interval_verified": false,
+      "gap_reason": null
+    },
+    {
+      "membership_id": "2016/17|chelsea",
+      "season": "2016/17",
+      "ground_id": "stamford-bridge",
+      "status": "supported_usage",
+      "evidence_ids": [
+        "naming-61"
+      ],
+      "whole_season_interval_verified": false,
+      "gap_reason": null
+    },
+    {
+      "membership_id": "2016/17|crystal-palace",
+      "season": "2016/17",
+      "ground_id": "selhurst-park",
+      "status": "supported_usage",
+      "evidence_ids": [
+        "naming-62"
+      ],
+      "whole_season_interval_verified": false,
+      "gap_reason": null
+    },
+    {
+      "membership_id": "2016/17|everton",
+      "season": "2016/17",
+      "ground_id": "goodison-park",
+      "status": "supported_usage",
+      "evidence_ids": [
+        "naming-63"
+      ],
+      "whole_season_interval_verified": false,
+      "gap_reason": null
+    },
+    {
+      "membership_id": "2016/17|hull",
+      "season": "2016/17",
+      "ground_id": "mkm-stadium",
+      "status": "supported_usage",
+      "evidence_ids": [
+        "naming-33",
+        "naming-73"
+      ],
+      "whole_season_interval_verified": false,
+      "gap_reason": null
+    },
+    {
+      "membership_id": "2016/17|leicester",
+      "season": "2016/17",
+      "ground_id": "leicester-city-stadium",
+      "status": "supported_usage",
+      "evidence_ids": [
+        "naming-64"
+      ],
+      "whole_season_interval_verified": false,
+      "gap_reason": null
+    },
+    {
+      "membership_id": "2016/17|liverpool",
+      "season": "2016/17",
+      "ground_id": "anfield",
+      "status": "supported_usage",
+      "evidence_ids": [
+        "naming-78"
+      ],
+      "whole_season_interval_verified": false,
+      "gap_reason": null
+    },
+    {
+      "membership_id": "2016/17|manchester-city",
+      "season": "2016/17",
+      "ground_id": "etihad-stadium",
+      "status": "supported_usage",
+      "evidence_ids": [
+        "naming-21",
+        "naming-65"
+      ],
+      "whole_season_interval_verified": false,
+      "gap_reason": null
+    },
+    {
+      "membership_id": "2016/17|manchester-united",
+      "season": "2016/17",
+      "ground_id": "old-trafford",
+      "status": "supported_usage",
+      "evidence_ids": [
+        "naming-30"
+      ],
+      "whole_season_interval_verified": false,
+      "gap_reason": null
+    },
+    {
+      "membership_id": "2016/17|middlesbrough",
+      "season": "2016/17",
+      "ground_id": "riverside-stadium",
+      "status": "supported_usage",
+      "evidence_ids": [
+        "naming-31",
+        "naming-72"
+      ],
+      "whole_season_interval_verified": false,
+      "gap_reason": null
+    },
+    {
+      "membership_id": "2016/17|southampton",
+      "season": "2016/17",
+      "ground_id": "st-mary-s-stadium",
+      "status": "supported_usage",
+      "evidence_ids": [
+        "naming-32",
+        "naming-66"
+      ],
+      "whole_season_interval_verified": false,
+      "gap_reason": null
+    },
+    {
+      "membership_id": "2016/17|stoke",
+      "season": "2016/17",
+      "ground_id": "britannia-stadium",
+      "status": "supported_usage",
+      "evidence_ids": [
+        "naming-76"
+      ],
+      "whole_season_interval_verified": false,
+      "gap_reason": null
+    },
+    {
+      "membership_id": "2016/17|sunderland",
+      "season": "2016/17",
+      "ground_id": "stadium-of-light",
+      "status": "supported_usage",
+      "evidence_ids": [
+        "naming-67"
+      ],
+      "whole_season_interval_verified": false,
+      "gap_reason": null
+    },
+    {
+      "membership_id": "2016/17|swansea",
+      "season": "2016/17",
+      "ground_id": "liberty-stadium",
+      "status": "supported_usage",
+      "evidence_ids": [
+        "naming-36",
+        "naming-68"
+      ],
+      "whole_season_interval_verified": false,
+      "gap_reason": null
+    },
+    {
+      "membership_id": "2016/17|tottenham",
+      "season": "2016/17",
+      "ground_id": "white-hart-lane",
+      "status": "supported_usage",
+      "evidence_ids": [
+        "naming-82"
+      ],
+      "whole_season_interval_verified": false,
+      "gap_reason": null
+    },
+    {
+      "membership_id": "2016/17|watford",
+      "season": "2016/17",
+      "ground_id": "vicarage-road",
+      "status": "supported_usage",
+      "evidence_ids": [
+        "naming-69"
+      ],
+      "whole_season_interval_verified": false,
+      "gap_reason": null
+    },
+    {
+      "membership_id": "2016/17|west-brom",
+      "season": "2016/17",
+      "ground_id": "the-hawthorns",
+      "status": "supported_usage",
+      "evidence_ids": [
+        "naming-70"
+      ],
+      "whole_season_interval_verified": false,
+      "gap_reason": null
+    },
+    {
+      "membership_id": "2016/17|west-ham",
+      "season": "2016/17",
+      "ground_id": "london-stadium",
+      "status": "supported_usage",
+      "evidence_ids": [
+        "naming-19",
+        "naming-74"
+      ],
+      "whole_season_interval_verified": false,
+      "gap_reason": null
+    },
+    {
+      "membership_id": "2026/27|bournemouth",
+      "season": "2026/27",
+      "ground_id": "dean-court",
+      "status": "supported_usage",
+      "evidence_ids": [
+        "naming-16"
+      ],
+      "whole_season_interval_verified": false,
+      "gap_reason": null
+    },
+    {
+      "membership_id": "2026/27|arsenal",
+      "season": "2026/27",
+      "ground_id": "emirates-stadium",
+      "status": "supported_usage",
+      "evidence_ids": [
+        "naming-91"
+      ],
+      "whole_season_interval_verified": false,
+      "gap_reason": null
+    },
+    {
+      "membership_id": "2026/27|aston-villa",
+      "season": "2026/27",
+      "ground_id": "villa-park",
+      "status": "supported_usage",
+      "evidence_ids": [
+        "naming-92"
+      ],
+      "whole_season_interval_verified": false,
+      "gap_reason": null
+    },
+    {
+      "membership_id": "2026/27|brentford",
+      "season": "2026/27",
+      "ground_id": "brentford-community-stadium",
+      "status": "supported_usage",
+      "evidence_ids": [
+        "naming-97"
+      ],
+      "whole_season_interval_verified": false,
+      "gap_reason": null
+    },
+    {
+      "membership_id": "2026/27|brighton",
+      "season": "2026/27",
+      "ground_id": "brighton-community-stadium",
+      "status": "supported_usage",
+      "evidence_ids": [
+        "naming-14"
+      ],
+      "whole_season_interval_verified": false,
+      "gap_reason": null
+    },
+    {
+      "membership_id": "2026/27|chelsea",
+      "season": "2026/27",
+      "ground_id": "stamford-bridge",
+      "status": "supported_usage",
+      "evidence_ids": [
+        "naming-98"
+      ],
+      "whole_season_interval_verified": false,
+      "gap_reason": null
+    },
+    {
+      "membership_id": "2026/27|coventry",
+      "season": "2026/27",
+      "ground_id": "coventry-building-society-arena",
+      "status": "supported_usage",
+      "evidence_ids": [
+        "naming-15"
+      ],
+      "whole_season_interval_verified": false,
+      "gap_reason": null
+    },
+    {
+      "membership_id": "2026/27|crystal-palace",
+      "season": "2026/27",
+      "ground_id": "selhurst-park",
+      "status": "supported_usage",
+      "evidence_ids": [
+        "naming-93"
+      ],
+      "whole_season_interval_verified": false,
+      "gap_reason": null
+    },
+    {
+      "membership_id": "2026/27|everton",
+      "season": "2026/27",
+      "ground_id": "hill-dickinson-stadium",
+      "status": "supported_usage",
+      "evidence_ids": [
+        "naming-89"
+      ],
+      "whole_season_interval_verified": false,
+      "gap_reason": null
+    },
+    {
+      "membership_id": "2026/27|fulham",
+      "season": "2026/27",
+      "ground_id": "craven-cottage",
+      "status": "supported_usage",
+      "evidence_ids": [
+        "naming-35"
+      ],
+      "whole_season_interval_verified": false,
+      "gap_reason": null
+    },
+    {
+      "membership_id": "2026/27|hull",
+      "season": "2026/27",
+      "ground_id": "mkm-stadium",
+      "status": "supported_usage",
+      "evidence_ids": [
+        "naming-26"
+      ],
+      "whole_season_interval_verified": false,
+      "gap_reason": null
+    },
+    {
+      "membership_id": "2026/27|ipswich",
+      "season": "2026/27",
+      "ground_id": "portman-road",
+      "status": "supported_usage",
+      "evidence_ids": [
+        "naming-4"
+      ],
+      "whole_season_interval_verified": false,
+      "gap_reason": null
+    },
+    {
+      "membership_id": "2026/27|leeds",
+      "season": "2026/27",
+      "ground_id": "elland-road",
+      "status": "supported_usage",
+      "evidence_ids": [
+        "naming-83"
+      ],
+      "whole_season_interval_verified": false,
+      "gap_reason": null
+    },
+    {
+      "membership_id": "2026/27|liverpool",
+      "season": "2026/27",
+      "ground_id": "anfield",
+      "status": "supported_usage",
+      "evidence_ids": [
+        "naming-94"
+      ],
+      "whole_season_interval_verified": false,
+      "gap_reason": null
+    },
+    {
+      "membership_id": "2026/27|manchester-city",
+      "season": "2026/27",
+      "ground_id": "etihad-stadium",
+      "status": "supported_usage",
+      "evidence_ids": [
+        "naming-25"
+      ],
+      "whole_season_interval_verified": false,
+      "gap_reason": null
+    },
+    {
+      "membership_id": "2026/27|manchester-united",
+      "season": "2026/27",
+      "ground_id": "old-trafford",
+      "status": "supported_usage",
+      "evidence_ids": [
+        "naming-29"
+      ],
+      "whole_season_interval_verified": false,
+      "gap_reason": null
+    },
+    {
+      "membership_id": "2026/27|newcastle",
+      "season": "2026/27",
+      "ground_id": "st-james-park",
+      "status": "supported_usage",
+      "evidence_ids": [
+        "naming-95"
+      ],
+      "whole_season_interval_verified": false,
+      "gap_reason": null
+    },
+    {
+      "membership_id": "2026/27|nottingham-forest",
+      "season": "2026/27",
+      "ground_id": "city-ground",
+      "status": "supported_usage",
+      "evidence_ids": [
+        "naming-22"
+      ],
+      "whole_season_interval_verified": false,
+      "gap_reason": null
+    },
+    {
+      "membership_id": "2026/27|sunderland",
+      "season": "2026/27",
+      "ground_id": "stadium-of-light",
+      "status": "supported_usage",
+      "evidence_ids": [
+        "naming-96"
+      ],
+      "whole_season_interval_verified": false,
+      "gap_reason": null
+    },
+    {
+      "membership_id": "2026/27|tottenham",
+      "season": "2026/27",
+      "ground_id": "tottenham-hotspur-stadium",
+      "status": "supported_usage",
+      "evidence_ids": [
+        "naming-88"
+      ],
+      "whole_season_interval_verified": false,
+      "gap_reason": null
+    }
+  ],
+  "counts": {
+    "grounds": 34,
+    "primary_ground_reviews": 34,
+    "season_contexts": 60,
+    "supported_season_contexts": 60,
+    "evidence_records": 120
+  },
+  "conflicts": [
+    {
+      "ground_id": "mkm-stadium",
+      "season": "2016/17",
+      "source_label": "KC Stadium",
+      "source_url": "https://editorial.uefa.com/resources/0230-0f842bc1b736-0cd37d37a157-1000/first_division_clubs_in_europe_2016_17.pdf",
+      "resolution": "Retain directory label as printed; contemporary December 2016 primary note primary-ground-36 uses KCOM and club timeline records 4 April 2016 rename. Prefer dated contemporary usage for selected context, not current MKM."
+    }
+  ],
+  "research_outcomes": [
+    {
+      "ground_id": "selhurst-park",
+      "reviewed_at": "2026-10-17",
+      "checked_evidence_ids": [
+        "naming-49",
+        "naming-62",
+        "naming-93",
+        "naming-105"
+      ],
+      "checked_scope": "Re-read bounded primary naming/ground notes and reviewed new targeted sources where relevant; not an exhaustive all-time search.",
+      "outcome": "First named-match usage is 30 August 1924; legal naming start and any uninterrupted naming interval remain unestablished. Current planned 2026/27 usage is now explicit."
+    },
+    {
+      "ground_id": "griffin-park",
+      "reviewed_at": "2026-10-17",
+      "checked_evidence_ids": [
+        "naming-84"
+      ],
+      "checked_scope": "Re-read bounded primary naming/ground notes and reviewed new targeted sources where relevant; not an exhaustive all-time search.",
+      "outcome": "Club retrospective explains brewery-related Griffin name and 1904–2020 home tenure. Home tenure does not independently date naming adoption or cessation after football use."
+    },
+    {
+      "ground_id": "emirates-stadium",
+      "reviewed_at": "2026-10-17",
+      "checked_evidence_ids": [
+        "naming-79",
+        "naming-80",
+        "naming-91",
+        "naming-103"
+      ],
+      "checked_scope": "Fresh targeted transition research; see naming-transition-research.json for search/access outcomes and selected-season impact.",
+      "outcome": "Contemporary sponsor report corroborates immediate effect at existing October2004 month precision. Exact announcement/effective day remains unverified."
+    },
+    {
+      "ground_id": "london-stadium",
+      "reviewed_at": "2026-10-17",
+      "checked_evidence_ids": [
+        "naming-19",
+        "naming-74",
+        "naming-113"
+      ],
+      "checked_scope": "Fresh targeted transition research; see naming-transition-research.json for search/access outcomes and selected-season impact.",
+      "outcome": "Exact naming adoption day remains unknown; 4August2016 is explicit name usage, not start."
+    },
+    {
+      "ground_id": "villa-park",
+      "reviewed_at": "2026-10-17",
+      "checked_evidence_ids": [
+        "naming-46",
+        "naming-92",
+        "naming-104"
+      ],
+      "checked_scope": "Re-read bounded primary naming/ground notes and reviewed new targeted sources where relevant; not an exhaustive all-time search.",
+      "outcome": "Primary indexed retrospective identifies original Aston Lower Grounds and 1897 move; exact adoption of Villa Park is unknown. Empty direct article is recorded, not treated as full-page inspection."
+    },
+    {
+      "ground_id": "white-hart-lane",
+      "reviewed_at": "2026-10-17",
+      "checked_evidence_ids": [
+        "naming-81",
+        "naming-82"
+      ],
+      "checked_scope": "Re-read bounded primary naming/ground notes and reviewed new targeted sources where relevant; not an exhaustive all-time search.",
+      "outcome": "Contemporary 2015 and 2016 reports use White Hart Lane. Last game in May 2017 does not itself establish legal name cessation; original adoption and traditional/official distinction remain undated."
+    },
+    {
+      "ground_id": "hill-dickinson-stadium",
+      "reviewed_at": "2026-10-17",
+      "checked_evidence_ids": [
+        "naming-86",
+        "naming-89",
+        "naming-115"
+      ],
+      "checked_scope": "Fresh targeted transition research; see naming-transition-research.json for search/access outcomes and selected-season impact.",
+      "outcome": "Exact effective implementation day not stated;16May remains announcement, not automatically immediate effect."
+    },
+    {
+      "ground_id": "boleyn-ground",
+      "reviewed_at": "2026-10-17",
+      "checked_evidence_ids": [
+        "naming-18",
+        "naming-59"
+      ],
+      "checked_scope": "Re-read bounded primary naming/ground notes and reviewed new targeted sources where relevant; not an exhaustive all-time search.",
+      "outcome": "Boleyn usage and final May 2016 match are supported; exact adoption and Upton Park alias period are not established. A locality/address is not automatically a stadium alias."
+    },
+    {
+      "ground_id": "tottenham-hotspur-stadium",
+      "reviewed_at": "2026-10-17",
+      "checked_evidence_ids": [
+        "naming-88"
+      ],
+      "checked_scope": "Re-read bounded primary naming/ground notes and reviewed new targeted sources where relevant; not an exhaustive all-time search.",
+      "outcome": "2026/27 planned name usage supported; 2019 football opening is not automatically a legal naming start. No exclusive commercial/clean-name interval established."
+    },
+    {
+      "ground_id": "dean-court",
+      "reviewed_at": "2026-10-17",
+      "checked_evidence_ids": [
+        "naming-16",
+        "naming-23",
+        "naming-24",
+        "naming-42",
+        "naming-47",
+        "naming-60",
+        "naming-101"
+      ],
+      "checked_scope": "Fresh targeted transition research; see naming-transition-research.json for search/access outcomes and selected-season impact.",
+      "outcome": "Exact2015 announcement/effective day; announced summer2026 commitment not actual end."
+    },
+    {
+      "ground_id": "brighton-community-stadium",
+      "reviewed_at": "2026-10-17",
+      "checked_evidence_ids": [
+        "naming-14",
+        "naming-85",
+        "naming-99",
+        "naming-114"
+      ],
+      "checked_scope": "Fresh targeted transition research; see naming-transition-research.json for search/access outcomes and selected-season impact.",
+      "outcome": "2010 initial announcement/effective day not primary-confirmed;2011 usage does not bridge all intervening dates."
+    },
+    {
+      "ground_id": "turf-moor",
+      "reviewed_at": "2026-10-17",
+      "checked_evidence_ids": [
+        "naming-17",
+        "naming-71"
+      ],
+      "checked_scope": "Re-read bounded primary naming/ground notes and reviewed new targeted sources where relevant; not an exhaustive all-time search.",
+      "outcome": "Historic England and seasonal directory establish Turf Moor usage/home history, not exact name adoption or a complete uninterrupted interval."
+    },
+    {
+      "ground_id": "coventry-building-society-arena",
+      "reviewed_at": "2026-10-17",
+      "checked_evidence_ids": [
+        "naming-15",
+        "naming-44",
+        "naming-87",
+        "naming-108",
+        "naming-109",
+        "naming-110"
+      ],
+      "checked_scope": "Fresh targeted transition research; see naming-transition-research.json for search/access outcomes and selected-season impact.",
+      "outcome": "Ricoh naming contract start before/byopening unknown. CBS exact1July2021 retained. Olympic naming interval not established by zone dates."
+    },
+    {
+      "ground_id": "goodison-park",
+      "reviewed_at": "2026-10-17",
+      "checked_evidence_ids": [
+        "naming-50",
+        "naming-63"
+      ],
+      "checked_scope": "Re-read bounded primary naming/ground notes and reviewed new targeted sources where relevant; not an exhaustive all-time search.",
+      "outcome": "Historical seasonal directory confirms Goodison Park. Everton moving in 2025 does not mean the ground name ended; exact name adoption and later name continuity remain unverified."
+    },
+    {
+      "ground_id": "vicarage-road",
+      "reviewed_at": "2026-10-17",
+      "checked_evidence_ids": [
+        "naming-12",
+        "naming-57",
+        "naming-69"
+      ],
+      "checked_scope": "Re-read bounded primary naming/ground notes and reviewed new targeted sources where relevant; not an exhaustive all-time search.",
+      "outcome": "Visiting guide/home history and seasonal directory establish Vicarage Road usage. Opening/home-tenure year is not independently an exact naming date; Stadium suffix classification remains unresolved."
+    },
+    {
+      "ground_id": "carrow-road",
+      "reviewed_at": "2026-10-17",
+      "checked_evidence_ids": [
+        "naming-7",
+        "naming-27"
+      ],
+      "checked_scope": "Re-read bounded primary naming/ground notes and reviewed new targeted sources where relevant; not an exhaustive all-time search.",
+      "outcome": "1935 first-match retrospective and 2016 actual report establish usage. Exact legal name adoption is not independently established by opening or postal street."
+    },
+    {
+      "ground_id": "st-james-park",
+      "reviewed_at": "2026-10-17",
+      "checked_evidence_ids": [
+        "naming-53",
+        "naming-95"
+      ],
+      "checked_scope": "Fresh targeted transition research; see naming-transition-research.json for search/access outcomes and selected-season impact.",
+      "outcome": "2009 adoption,2011 adoption and2012 restoration effective days; announcement/signage installation differ."
+    },
+    {
+      "ground_id": "the-hawthorns",
+      "reviewed_at": "2026-10-17",
+      "checked_evidence_ids": [
+        "naming-13",
+        "naming-58",
+        "naming-70"
+      ],
+      "checked_scope": "Re-read bounded primary naming/ground notes and reviewed new targeted sources where relevant; not an exhaustive all-time search.",
+      "outcome": "Club 120-year retrospective and seasonal directory support name/home history; exact naming start and uninterrupted formal naming interval are not established."
+    },
+    {
+      "ground_id": "craven-cottage",
+      "reviewed_at": "2026-10-17",
+      "checked_evidence_ids": [
+        "naming-2",
+        "naming-35"
+      ],
+      "checked_scope": "Re-read bounded primary naming/ground notes and reviewed new targeted sources where relevant; not an exhaustive all-time search.",
+      "outcome": "Club history and 2026 report support name. Temporary Loftus Road football use does not rename Craven Cottage; original adoption and full naming interval remain unestablished."
+    },
+    {
+      "ground_id": "stadium-of-light",
+      "reviewed_at": "2026-10-17",
+      "checked_evidence_ids": [
+        "naming-10",
+        "naming-55",
+        "naming-67",
+        "naming-96",
+        "naming-106"
+      ],
+      "checked_scope": "Re-read bounded primary naming/ground notes and reviewed new targeted sources where relevant; not an exhaustive all-time search.",
+      "outcome": "Official guide explains Bob Murray/mining origin and 1997 home tenure, not precise naming ceremony date. 2026/27 planned usage now explicit; no inferred link to Benfica."
+    },
+    {
+      "ground_id": "anfield",
+      "reviewed_at": "2026-10-17",
+      "checked_evidence_ids": [
+        "naming-77",
+        "naming-78",
+        "naming-94"
+      ],
+      "checked_scope": "Re-read bounded primary naming/ground notes and reviewed new targeted sources where relevant; not an exhaustive all-time search.",
+      "outcome": "Contemporary reports establish both historical seasons and official opponent schedule now establishes 2026/27 planned usage; no exact original naming adoption or legal interval established."
+    },
+    {
+      "ground_id": "etihad-stadium",
+      "reviewed_at": "2026-10-17",
+      "checked_evidence_ids": [
+        "naming-20",
+        "naming-21",
+        "naming-25",
+        "naming-41",
+        "naming-52",
+        "naming-65"
+      ],
+      "checked_scope": "Re-read bounded primary naming/ground notes and reviewed new targeted sources where relevant; not an exhaustive all-time search.",
+      "outcome": "Immediate change 8 July 2011 supported by prior club announcement evidence. City of Manchester traditional/competition-clean overlap and actual commercial end remain unknown; contract duration is not expiry evidence."
+    },
+    {
+      "ground_id": "britannia-stadium",
+      "reviewed_at": "2026-10-17",
+      "checked_evidence_ids": [
+        "naming-45",
+        "naming-75",
+        "naming-76"
+      ],
+      "checked_scope": "Fresh targeted transition research; see naming-transition-research.json for search/access outcomes and selected-season impact.",
+      "outcome": "Exact effective day; primary basis remains season context."
+    },
+    {
+      "ground_id": "st-mary-s-stadium",
+      "reviewed_at": "2026-10-17",
+      "checked_evidence_ids": [
+        "naming-9",
+        "naming-28",
+        "naming-32",
+        "naming-54",
+        "naming-66"
+      ],
+      "checked_scope": "Re-read bounded primary naming/ground notes and reviewed new targeted sources where relevant; not an exhaustive all-time search.",
+      "outcome": "Contemporary reports and directory support St Mary’s usage. Ground opening and spelling/suffix variations do not establish separate rename events; exact original naming day unknown."
+    },
+    {
+      "ground_id": "liberty-stadium",
+      "reviewed_at": "2026-10-17",
+      "checked_evidence_ids": [
+        "naming-11",
+        "naming-36",
+        "naming-38",
+        "naming-56",
+        "naming-68",
+        "naming-100",
+        "naming-116"
+      ],
+      "checked_scope": "Fresh targeted transition research; see naming-transition-research.json for search/access outcomes and selected-season impact.",
+      "outcome": "Official opponent2011 preview places naming-rights award in October2005. Exact day and effective implementation remain unverified; opening is not naming start."
+    },
+    {
+      "ground_id": "city-ground",
+      "reviewed_at": "2026-10-17",
+      "checked_evidence_ids": [
+        "naming-8",
+        "naming-22"
+      ],
+      "checked_scope": "Re-read bounded primary naming/ground notes and reviewed new targeted sources where relevant; not an exhaustive all-time search.",
+      "outcome": "Club history identifies 1898 move and current planned usage; move date is not exact naming adoption. Town Ground is a separate prior ground, not an assumed alias."
+    },
+    {
+      "ground_id": "elland-road",
+      "reviewed_at": "2026-10-17",
+      "checked_evidence_ids": [
+        "naming-83"
+      ],
+      "checked_scope": "Re-read bounded primary naming/ground notes and reviewed new targeted sources where relevant; not an exhaustive all-time search.",
+      "outcome": "2026 update explicitly names Elland Road; no source in this bounded set establishes an exact original naming date or uninterrupted formal period."
+    },
+    {
+      "ground_id": "portman-road",
+      "reviewed_at": "2026-10-17",
+      "checked_evidence_ids": [
+        "naming-4"
+      ],
+      "checked_scope": "Re-read bounded primary naming/ground notes and reviewed new targeted sources where relevant; not an exhaustive all-time search.",
+      "outcome": "Club schedule and ticket terms support Portman Road; no exact original naming date or complete formal period is established."
+    },
+    {
+      "ground_id": "leicester-city-stadium",
+      "reviewed_at": "2026-10-17",
+      "checked_evidence_ids": [
+        "naming-43",
+        "naming-51",
+        "naming-64",
+        "naming-102",
+        "naming-117"
+      ],
+      "checked_scope": "Original-source research pass: club historian retrospective naming-117 inspected; see original-announcement-research.json for exact target and provenance. Earlier transition checks remain historical evidence.",
+      "outcome": "Primary club historian retrospectively establishes rename on 5 July 2011. Original 2011 announcement not recovered; actual end remains unknown."
+    },
+    {
+      "ground_id": "mkm-stadium",
+      "reviewed_at": "2026-10-17",
+      "checked_evidence_ids": [
+        "naming-3",
+        "naming-26",
+        "naming-33",
+        "naming-39",
+        "naming-40",
+        "naming-73",
+        "naming-107"
+      ],
+      "checked_scope": "Fresh targeted transition research; see naming-transition-research.json for search/access outcomes and selected-season impact.",
+      "outcome": "Exact initial naming agreement/effective day unknown; opening-name usage now dated. KC abbreviation not a separate inferred rename."
+    },
+    {
+      "ground_id": "riverside-stadium",
+      "reviewed_at": "2026-10-17",
+      "checked_evidence_ids": [
+        "naming-6",
+        "naming-31",
+        "naming-72",
+        "naming-111",
+        "naming-112"
+      ],
+      "checked_scope": "Fresh targeted transition research; see naming-transition-research.json for search/access outcomes and selected-season impact.",
+      "outcome": "Commercial adoption, Cellnet→BTCellnet and sponsor cessation days unknown. Charge release/satisfaction dates are not naming endpoints."
+    },
+    {
+      "ground_id": "old-trafford",
+      "reviewed_at": "2026-10-17",
+      "checked_evidence_ids": [
+        "naming-5",
+        "naming-29",
+        "naming-30",
+        "naming-34"
+      ],
+      "checked_scope": "Re-read bounded primary naming/ground notes and reviewed new targeted sources where relevant; not an exhaustive all-time search.",
+      "outcome": "1910 move history and selected-season reports establish usage, not an exact naming start. Theatre of Dreams is not automatically an official commercial or competition-clean name."
+    },
+    {
+      "ground_id": "stamford-bridge",
+      "reviewed_at": "2026-10-17",
+      "checked_evidence_ids": [
+        "naming-1",
+        "naming-48",
+        "naming-61",
+        "naming-98"
+      ],
+      "checked_scope": "Re-read bounded primary naming/ground notes and reviewed new targeted sources where relevant; not an exhaustive all-time search.",
+      "outcome": "Club history and current fixture announcement support name; 1877 stadium origin/1905 club formation do not independently establish exact naming date or uninterrupted name period."
+    },
+    {
+      "ground_id": "brentford-community-stadium",
+      "reviewed_at": "2026-10-17",
+      "checked_evidence_ids": [
+        "naming-37",
+        "naming-90",
+        "naming-97"
+      ],
+      "checked_scope": "Re-read bounded primary naming/ground notes and reviewed new targeted sources where relevant; not an exhaustive all-time search.",
+      "outcome": "Immediate Gtech change 28 July 2022 supported; former Brentford Community Stadium was used until that transition. Stadium opening in 2020 is not automatically its naming start. Ten-year deal is planned, not actual end."
+    }
+  ]
+}

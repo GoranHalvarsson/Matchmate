@@ -1,0 +1,5 @@
+.sequence-path { fill:none; stroke:#f4e7ba; stroke-width:.35; stroke-dasharray:1.2 1; opacity:.55; pointer-events:none; }
+.corner-arc,.change { fill:none; stroke:#fff4cc; stroke-width:.45; }
+.head-contact { fill:#fff8de; stroke:#243a2c; stroke-width:.3; }
+.unknown-contact { fill:none; stroke:#fff4cc; stroke-width:.35; stroke-dasharray:.4 .4; }
+.booking { fill:#ffdc58; stroke:#5f501c; stroke-width:.25; }

@@ -1,0 +1,11 @@
+@using Matchmate.Web.Localization
+@* Each conversation owns one live announcer outside its busy transcript. *@
+<div class="chat-response-pending @(Compact ? "is-compact" : null)" aria-hidden="true" lang="@MatchLanguages.Code(Language)">
+    <span class="chat-response-dots"><span></span><span></span><span></span></span>
+    <span>@ConversationText.Get(Language, "ResponsePending")</span>
+</div>
+
+@code {
+    [Parameter] public MatchLanguage Language { get; set; }
+    [Parameter] public bool Compact { get; set; }
+}

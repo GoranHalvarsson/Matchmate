@@ -1,0 +1,804 @@
+{
+  "observed_on": "2026-10-17",
+  "pin": "4340d274572876239c154c90bc507a9b3250a656",
+  "match_id": 1874553,
+  "match_date_time": "2024-11-23T06:00:00Z",
+  "competition": {
+    "id": 870,
+    "competition": {
+      "id": 61,
+      "area": "AUS",
+      "name": "A-League",
+      "gender": "male",
+      "age_group": "adult"
+    },
+    "season": {
+      "id": 95,
+      "start_year": 2024,
+      "end_year": 2025,
+      "name": "2024/2025"
+    },
+    "name": "AUS - A-League - 2024/2025"
+  },
+  "selection": "First-half 01:00–04:00 inclusive, chosen after actual event prefix inspection to cover multiple dynamic categories within the byte cap; not chosen for official goals/incidents.",
+  "coordinate_semantics": "tracking metres, pitch-centre origin; 105x68 metadata. Bounds flags retained, not clipped or automatically classified as errors.",
+  "home_team_side": [
+    "left_to_right",
+    "right_to_left"
+  ],
+  "tracking": {
+    "selected_period": 1,
+    "requested_clock_seconds_inclusive": [
+      60.0,
+      240.0
+    ],
+    "frames": 1801,
+    "first_last_frame": [
+      610,
+      2410
+    ],
+    "first_last_clock_seconds": [
+      60.0,
+      240.0
+    ],
+    "missing_expected_frame_ids": [],
+    "duplicate_frame_ids": [],
+    "nonmonotonic_frame_transitions": 0,
+    "nonmonotonic_clock_transitions": 0,
+    "clock_step_seconds_distribution": {
+      "0.1": 1800
+    },
+    "frame_div_10_minus_clock_seconds_distribution": {
+      "1.0": 1801
+    },
+    "player_count_distribution": {
+      "22": 1453,
+      "0": 348
+    },
+    "finite_player_xy_count_distribution": {
+      "22": 1453,
+      "0": 348
+    },
+    "missing_nonfinite_player_xy": [],
+    "unknown_player_ids": [],
+    "zero_player_frame_ranges_inclusive": [
+      [
+        1769,
+        1908
+      ],
+      [
+        1998,
+        2205
+      ]
+    ],
+    "zero_player_clock_ranges_seconds_inclusive": [
+      [
+        175.9,
+        189.8
+      ],
+      [
+        198.8,
+        219.5
+      ]
+    ],
+    "gap_duration_convention": "Inclusive first/last empty sample clocks; endpoints span excludes the final 0.1-second slot. Slot count/10 is sampled coverage, not an exact real-world missing-duration claim.",
+    "zero_player_sampled_slots": 348,
+    "duplicate_player_id_frames": [],
+    "unique_player_ids": 22,
+    "player_frames_present": {
+      "23925": 1453,
+      "26766": 1453,
+      "42513": 1453,
+      "50949": 1453,
+      "50959": 1453,
+      "50966": 1453,
+      "50968": 1453,
+      "50973": 1453,
+      "50994": 1453,
+      "50999": 1453,
+      "51002": 1453,
+      "51005": 1453,
+      "51050": 1453,
+      "69111": 1453,
+      "287934": 1453,
+      "560893": 1453,
+      "560983": 1453,
+      "560986": 1453,
+      "795537": 1453,
+      "797295": 1453,
+      "808608": 1453,
+      "809759": 1453
+    },
+    "player_observations_by_team": {
+      "1802": 15983,
+      "866": 15983
+    },
+    "per_frame_roster_team_counts_distribution": {
+      "{\"1802\": 11, \"866\": 11}": 1453,
+      "{}": 348
+    },
+    "source_identity_continuity": "source IDs and roster team membership only; not independent identity/accuracy proof",
+    "player_detection_flags": {
+      "False": 15992,
+      "True": 15974
+    },
+    "ball_detection_flags_when_xy_present": {
+      "False": 275,
+      "True": 1178
+    },
+    "ball_missing_xy_frame_ranges_inclusive": [
+      [
+        1769,
+        1908
+      ],
+      [
+        1998,
+        2205
+      ]
+    ],
+    "outside_nominal_pitch_player_observations": 301,
+    "coordinate_range": {
+      "x": [
+        -53.7,
+        49.21
+      ],
+      "y": [
+        -34.47,
+        37.06
+      ]
+    }
+  },
+  "events": {
+    "prefix_rows": 1000,
+    "prefix_first_last_start_frame": [
+      29,
+      11870
+    ],
+    "prefix_nonmonotonic_start_transitions": 0,
+    "overlapping_rows": 145,
+    "fully_contained_rows": 145,
+    "partial_boundary_event_ids": [],
+    "category_counts": {
+      "player_possession": 31,
+      "passing_option": 69,
+      "on_ball_engagement": 29,
+      "off_ball_run": 16
+    },
+    "same_start_frame_groups": 34,
+    "endpoint_clock_residual_seconds_distribution": {
+      "0.0": 273,
+      "-0.1": 1,
+      "-0.6": 1,
+      "-1.2": 2,
+      "-0.9": 1,
+      "-2.5": 1,
+      "-2.1": 2,
+      "-0.4": 1,
+      "-0.3": 1,
+      "-0.7": 1,
+      "-0.2": 1,
+      "-1.7": 1,
+      "-0.8": 1,
+      "-4.0": 3
+    },
+    "endpoint_residuals_by_edge_and_category": {
+      "start": {
+        "off_ball_run": {
+          "0.0": 16
+        },
+        "on_ball_engagement": {
+          "0.0": 12,
+          "-0.1": 1,
+          "-0.6": 1,
+          "-1.2": 2,
+          "-0.9": 1,
+          "-2.5": 1,
+          "-2.1": 2,
+          "-0.4": 1,
+          "-0.3": 1,
+          "-0.7": 1,
+          "-0.2": 1,
+          "-1.7": 1,
+          "-0.8": 1,
+          "-4.0": 3
+        },
+        "passing_option": {
+          "0.0": 69
+        },
+        "player_possession": {
+          "0.0": 31
+        }
+      },
+      "end": {
+        "off_ball_run": {
+          "0.0": 16
+        },
+        "on_ball_engagement": {
+          "0.0": 29
+        },
+        "passing_option": {
+          "0.0": 69
+        },
+        "player_possession": {
+          "0.0": 31
+        }
+      }
+    },
+    "physical_start_comparison": {
+      "rows_with_field": 29,
+      "outside_passage": 0,
+      "clock_residual_seconds_distribution": {
+        "0.0": 29
+      },
+      "original_nonzero_start_residuals_zero_at_physical_start": 17,
+      "meaning": "Measured candidate field basis only, not a universal category rule or correction of source fields. Specification PDF was inaccessible via web tool; semantic intent not independently established."
+    },
+    "largest_nonzero_endpoint_time_residual_examples": [
+      {
+        "event_id": "9_35",
+        "event_type": "on_ball_engagement",
+        "edge": "start",
+        "frame": 1672,
+        "event_clock_seconds": 162.2,
+        "tracking_clock_seconds": 166.2,
+        "residual_seconds_event_minus_tracking": -4.0,
+        "physical_start": {
+          "frame": 1632,
+          "event_clock_seconds": 162.2,
+          "tracking_frame_in_passage": true,
+          "clock_residual_seconds": 0.0,
+          "identity_joins": {
+            "player_id": {
+              "id": 287934,
+              "roster_join": true,
+              "in_endpoint_frame": true
+            },
+            "player_in_possession_id": {
+              "id": 560893,
+              "roster_join": true,
+              "in_endpoint_frame": true
+            },
+            "player_targeted_id": {
+              "id": 560893,
+              "roster_join": true,
+              "in_endpoint_frame": true
+            }
+          }
+        }
+      },
+      {
+        "event_id": "9_39",
+        "event_type": "on_ball_engagement",
+        "edge": "start",
+        "frame": 2316,
+        "event_clock_seconds": 226.6,
+        "tracking_clock_seconds": 230.6,
+        "residual_seconds_event_minus_tracking": -4.0,
+        "physical_start": {
+          "frame": 2276,
+          "event_clock_seconds": 226.6,
+          "tracking_frame_in_passage": true,
+          "clock_residual_seconds": 0.0,
+          "identity_joins": {
+            "player_id": {
+              "id": 50994,
+              "roster_join": true,
+              "in_endpoint_frame": true
+            },
+            "player_in_possession_id": {
+              "id": 51005,
+              "roster_join": true,
+              "in_endpoint_frame": true
+            },
+            "player_targeted_id": {
+              "id": 51005,
+              "roster_join": true,
+              "in_endpoint_frame": true
+            }
+          }
+        }
+      },
+      {
+        "event_id": "9_40",
+        "event_type": "on_ball_engagement",
+        "edge": "start",
+        "frame": 2316,
+        "event_clock_seconds": 226.6,
+        "tracking_clock_seconds": 230.6,
+        "residual_seconds_event_minus_tracking": -4.0,
+        "physical_start": {
+          "frame": 2276,
+          "event_clock_seconds": 226.6,
+          "tracking_frame_in_passage": true,
+          "clock_residual_seconds": 0.0,
+          "identity_joins": {
+            "player_id": {
+              "id": 287934,
+              "roster_join": true,
+              "in_endpoint_frame": true
+            },
+            "player_in_possession_id": {
+              "id": 51005,
+              "roster_join": true,
+              "in_endpoint_frame": true
+            },
+            "player_targeted_id": {
+              "id": 51005,
+              "roster_join": true,
+              "in_endpoint_frame": true
+            }
+          }
+        }
+      },
+      {
+        "event_id": "9_21",
+        "event_type": "on_ball_engagement",
+        "edge": "start",
+        "frame": 932,
+        "event_clock_seconds": 89.7,
+        "tracking_clock_seconds": 92.2,
+        "residual_seconds_event_minus_tracking": -2.5,
+        "physical_start": {
+          "frame": 907,
+          "event_clock_seconds": 89.7,
+          "tracking_frame_in_passage": true,
+          "clock_residual_seconds": 0.0,
+          "identity_joins": {
+            "player_id": {
+              "id": 51002,
+              "roster_join": true,
+              "in_endpoint_frame": true
+            },
+            "player_in_possession_id": {
+              "id": 51005,
+              "roster_join": true,
+              "in_endpoint_frame": true
+            },
+            "player_targeted_id": {
+              "id": 51005,
+              "roster_join": true,
+              "in_endpoint_frame": true
+            }
+          }
+        }
+      }
+    ],
+    "endpoints_outside_selected_passage": 0,
+    "unknown_endpoint_roster_ids": [],
+    "identity_endpoint_checks_where_frame_present": 630,
+    "identity_not_in_present_endpoint_frame": 0,
+    "examples_selection": "first complete event per alphabetical category, then earliest additional targeted player possessions, up to six",
+    "examples": [
+      {
+        "event_id": "1_7",
+        "event_type_id": "1",
+        "event_type": "off_ball_run",
+        "event_subtype_id": "8",
+        "event_subtype": "run_ahead_of_the_ball",
+        "partial_boundary": false,
+        "start": {
+          "frame": 749,
+          "event_clock_seconds": 73.9,
+          "tracking_frame_in_passage": true,
+          "clock_residual_seconds": 0.0,
+          "identity_joins": {
+            "player_id": {
+              "id": 50959,
+              "roster_join": true,
+              "in_endpoint_frame": true
+            },
+            "player_in_possession_id": {
+              "id": 42513,
+              "roster_join": true,
+              "in_endpoint_frame": true
+            }
+          }
+        },
+        "end": {
+          "frame": 757,
+          "event_clock_seconds": 74.7,
+          "tracking_frame_in_passage": true,
+          "clock_residual_seconds": 0.0,
+          "identity_joins": {
+            "player_id": {
+              "id": 50959,
+              "roster_join": true,
+              "in_endpoint_frame": true
+            },
+            "player_in_possession_id": {
+              "id": 42513,
+              "roster_join": true,
+              "in_endpoint_frame": true
+            }
+          }
+        },
+        "physical_start": null,
+        "name_evidence": {
+          "50959": {
+            "source_printed_public_name": "Stefan Mauk",
+            "team_id": 866,
+            "shirt": 6,
+            "locator": "match metadata players[id=50959]"
+          },
+          "42513": {
+            "source_printed_public_name": "Zach Clough",
+            "team_id": 866,
+            "shirt": 10,
+            "locator": "match metadata players[id=42513]"
+          }
+        }
+      },
+      {
+        "event_id": "9_13",
+        "event_type_id": "9",
+        "event_type": "on_ball_engagement",
+        "event_subtype_id": "12",
+        "event_subtype": "pressure",
+        "partial_boundary": false,
+        "start": {
+          "frame": 696,
+          "event_clock_seconds": 68.6,
+          "tracking_frame_in_passage": true,
+          "clock_residual_seconds": 0.0,
+          "identity_joins": {
+            "player_id": {
+              "id": 795537,
+              "roster_join": true,
+              "in_endpoint_frame": true
+            },
+            "player_in_possession_id": {
+              "id": 809759,
+              "roster_join": true,
+              "in_endpoint_frame": true
+            },
+            "player_targeted_id": {
+              "id": 809759,
+              "roster_join": true,
+              "in_endpoint_frame": true
+            }
+          }
+        },
+        "end": {
+          "frame": 702,
+          "event_clock_seconds": 69.2,
+          "tracking_frame_in_passage": true,
+          "clock_residual_seconds": 0.0,
+          "identity_joins": {
+            "player_id": {
+              "id": 795537,
+              "roster_join": true,
+              "in_endpoint_frame": true
+            },
+            "player_in_possession_id": {
+              "id": 809759,
+              "roster_join": true,
+              "in_endpoint_frame": true
+            },
+            "player_targeted_id": {
+              "id": 809759,
+              "roster_join": true,
+              "in_endpoint_frame": true
+            }
+          }
+        },
+        "physical_start": {
+          "frame": 696,
+          "event_clock_seconds": 68.6,
+          "tracking_frame_in_passage": true,
+          "clock_residual_seconds": 0.0,
+          "identity_joins": {
+            "player_id": {
+              "id": 795537,
+              "roster_join": true,
+              "in_endpoint_frame": true
+            },
+            "player_in_possession_id": {
+              "id": 809759,
+              "roster_join": true,
+              "in_endpoint_frame": true
+            },
+            "player_targeted_id": {
+              "id": 809759,
+              "roster_join": true,
+              "in_endpoint_frame": true
+            }
+          }
+        },
+        "name_evidence": {
+          "795537": {
+            "source_printed_public_name": "Thomas Waddingham",
+            "team_id": 1802,
+            "shirt": 16,
+            "locator": "match metadata players[id=795537]"
+          },
+          "809759": {
+            "source_printed_public_name": "Panagiotis Kikianis",
+            "team_id": 866,
+            "shirt": 51,
+            "locator": "match metadata players[id=809759]"
+          }
+        }
+      },
+      {
+        "event_id": "7_23",
+        "event_type_id": "7",
+        "event_type": "passing_option",
+        "event_subtype_id": "",
+        "event_subtype": "",
+        "partial_boundary": false,
+        "start": {
+          "frame": 628,
+          "event_clock_seconds": 61.8,
+          "tracking_frame_in_passage": true,
+          "clock_residual_seconds": 0.0,
+          "identity_joins": {
+            "player_id": {
+              "id": 809759,
+              "roster_join": true,
+              "in_endpoint_frame": true
+            },
+            "player_in_possession_id": {
+              "id": 26766,
+              "roster_join": true,
+              "in_endpoint_frame": true
+            }
+          }
+        },
+        "end": {
+          "frame": 633,
+          "event_clock_seconds": 62.3,
+          "tracking_frame_in_passage": true,
+          "clock_residual_seconds": 0.0,
+          "identity_joins": {
+            "player_id": {
+              "id": 809759,
+              "roster_join": true,
+              "in_endpoint_frame": true
+            },
+            "player_in_possession_id": {
+              "id": 26766,
+              "roster_join": true,
+              "in_endpoint_frame": true
+            }
+          }
+        },
+        "physical_start": null,
+        "name_evidence": {
+          "809759": {
+            "source_printed_public_name": "Panagiotis Kikianis",
+            "team_id": 866,
+            "shirt": 51,
+            "locator": "match metadata players[id=809759]"
+          },
+          "26766": {
+            "source_printed_public_name": "Bart Vriends",
+            "team_id": 866,
+            "shirt": 3,
+            "locator": "match metadata players[id=26766]"
+          }
+        }
+      },
+      {
+        "event_id": "8_11",
+        "event_type_id": "8",
+        "event_type": "player_possession",
+        "event_subtype_id": "",
+        "event_subtype": "",
+        "partial_boundary": false,
+        "start": {
+          "frame": 628,
+          "event_clock_seconds": 61.8,
+          "tracking_frame_in_passage": true,
+          "clock_residual_seconds": 0.0,
+          "identity_joins": {
+            "player_id": {
+              "id": 26766,
+              "roster_join": true,
+              "in_endpoint_frame": true
+            },
+            "player_targeted_id": {
+              "id": 809759,
+              "roster_join": true,
+              "in_endpoint_frame": true
+            }
+          }
+        },
+        "end": {
+          "frame": 662,
+          "event_clock_seconds": 65.2,
+          "tracking_frame_in_passage": true,
+          "clock_residual_seconds": 0.0,
+          "identity_joins": {
+            "player_id": {
+              "id": 26766,
+              "roster_join": true,
+              "in_endpoint_frame": true
+            },
+            "player_targeted_id": {
+              "id": 809759,
+              "roster_join": true,
+              "in_endpoint_frame": true
+            }
+          }
+        },
+        "physical_start": null,
+        "name_evidence": {
+          "26766": {
+            "source_printed_public_name": "Bart Vriends",
+            "team_id": 866,
+            "shirt": 3,
+            "locator": "match metadata players[id=26766]"
+          },
+          "809759": {
+            "source_printed_public_name": "Panagiotis Kikianis",
+            "team_id": 866,
+            "shirt": 51,
+            "locator": "match metadata players[id=809759]"
+          }
+        }
+      },
+      {
+        "event_id": "8_12",
+        "event_type_id": "8",
+        "event_type": "player_possession",
+        "event_subtype_id": "",
+        "event_subtype": "",
+        "partial_boundary": false,
+        "start": {
+          "frame": 677,
+          "event_clock_seconds": 66.7,
+          "tracking_frame_in_passage": true,
+          "clock_residual_seconds": 0.0,
+          "identity_joins": {
+            "player_id": {
+              "id": 809759,
+              "roster_join": true,
+              "in_endpoint_frame": true
+            },
+            "player_targeted_id": {
+              "id": 26766,
+              "roster_join": true,
+              "in_endpoint_frame": true
+            }
+          }
+        },
+        "end": {
+          "frame": 702,
+          "event_clock_seconds": 69.2,
+          "tracking_frame_in_passage": true,
+          "clock_residual_seconds": 0.0,
+          "identity_joins": {
+            "player_id": {
+              "id": 809759,
+              "roster_join": true,
+              "in_endpoint_frame": true
+            },
+            "player_targeted_id": {
+              "id": 26766,
+              "roster_join": true,
+              "in_endpoint_frame": true
+            }
+          }
+        },
+        "physical_start": null,
+        "name_evidence": {
+          "809759": {
+            "source_printed_public_name": "Panagiotis Kikianis",
+            "team_id": 866,
+            "shirt": 51,
+            "locator": "match metadata players[id=809759]"
+          },
+          "26766": {
+            "source_printed_public_name": "Bart Vriends",
+            "team_id": 866,
+            "shirt": 3,
+            "locator": "match metadata players[id=26766]"
+          }
+        }
+      },
+      {
+        "event_id": "8_13",
+        "event_type_id": "8",
+        "event_type": "player_possession",
+        "event_subtype_id": "",
+        "event_subtype": "",
+        "partial_boundary": false,
+        "start": {
+          "frame": 719,
+          "event_clock_seconds": 70.9,
+          "tracking_frame_in_passage": true,
+          "clock_residual_seconds": 0.0,
+          "identity_joins": {
+            "player_id": {
+              "id": 26766,
+              "roster_join": true,
+              "in_endpoint_frame": true
+            },
+            "player_targeted_id": {
+              "id": 42513,
+              "roster_join": true,
+              "in_endpoint_frame": true
+            }
+          }
+        },
+        "end": {
+          "frame": 738,
+          "event_clock_seconds": 72.8,
+          "tracking_frame_in_passage": true,
+          "clock_residual_seconds": 0.0,
+          "identity_joins": {
+            "player_id": {
+              "id": 26766,
+              "roster_join": true,
+              "in_endpoint_frame": true
+            },
+            "player_targeted_id": {
+              "id": 42513,
+              "roster_join": true,
+              "in_endpoint_frame": true
+            }
+          }
+        },
+        "physical_start": null,
+        "name_evidence": {
+          "26766": {
+            "source_printed_public_name": "Bart Vriends",
+            "team_id": 866,
+            "shirt": 3,
+            "locator": "match metadata players[id=26766]"
+          },
+          "42513": {
+            "source_printed_public_name": "Zach Clough",
+            "team_id": 866,
+            "shirt": 10,
+            "locator": "match metadata players[id=42513]"
+          }
+        }
+      }
+    ],
+    "limits": "Only first 1000 CSV rows inspected. Overlap counts are not a certified complete interval/event feed. Same-frame events retained independently by match-local event_id. Targeted player is not proof of receipt or official pass completion. No event/tracking spatial comparison: CSV x/y requires source-specific scaling."
+  },
+  "receipts": [
+    {
+      "url": "https://raw.githubusercontent.com/SkillCorner/opendata/4340d274572876239c154c90bc507a9b3250a656/data/matches/1874553/1874553_match.json",
+      "resolved_url": "https://raw.githubusercontent.com/SkillCorner/opendata/4340d274572876239c154c90bc507a9b3250a656/data/matches/1874553/1874553_match.json",
+      "status": 200,
+      "scope": "whole small response",
+      "bytes_hashed": 33730,
+      "sha256": "e6974e402779d8be44e75bf88ef2a3acfd4d025b87b3fc57f518fa826a645ad8",
+      "hash_semantics": "exact parser-returned bytes; prefix is not whole LFS object"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/SkillCorner/opendata/4340d274572876239c154c90bc507a9b3250a656/data/matches/1874553/1874553_tracking_extrapolated.jsonl",
+      "resolved_url": "https://raw.githubusercontent.com/SkillCorner/opendata/4340d274572876239c154c90bc507a9b3250a656/data/matches/1874553/1874553_tracking_extrapolated.jsonl",
+      "status": 200,
+      "scope": "whole small response",
+      "bytes_hashed": 133,
+      "sha256": "deb9af1b3d17b7eb59df6296cee4c42532342d87c59d33e381aeb3fd44a5f15b",
+      "hash_semantics": "exact parser-returned bytes; prefix is not whole LFS object"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/SkillCorner/opendata/4340d274572876239c154c90bc507a9b3250a656/data/matches/1874553/1874553_dynamic_events.csv",
+      "resolved_url": "https://raw.githubusercontent.com/SkillCorner/opendata/4340d274572876239c154c90bc507a9b3250a656/data/matches/1874553/1874553_dynamic_events.csv",
+      "status": 200,
+      "scope": "first 1001 complete lines only",
+      "bytes_hashed": 966956,
+      "sha256": "77e658496ccf7cf1e08c930fc45e56ac9e8545d558bb7ea326c85a062b1021f8",
+      "hash_semantics": "exact parser-returned bytes; prefix is not whole LFS object"
+    },
+    {
+      "url": "https://media.githubusercontent.com/media/SkillCorner/opendata/4340d274572876239c154c90bc507a9b3250a656/data/matches/1874553/1874553_tracking_extrapolated.jsonl",
+      "resolved_url": "https://media.githubusercontent.com/media/SkillCorner/opendata/4340d274572876239c154c90bc507a9b3250a656/data/matches/1874553/1874553_tracking_extrapolated.jsonl",
+      "status": 200,
+      "scope": "first 2411 complete lines only",
+      "bytes_hashed": 4058011,
+      "sha256": "172e0c1ab68fb515b93fabbdbc99c4d9cb8d7991c71550a82d5d6fd3d9659ff8",
+      "hash_semantics": "exact parser-returned bytes; prefix is not whole LFS object"
+    }
+  ],
+  "parser_bytes_total": 5058830,
+  "parser_byte_cap": 20000000,
+  "raw_retained": false,
+  "application_imported": false,
+  "limits": "Source-generated broadcast estimates, not tracking ground truth or independent public identity validation. No live/PL feed, whole-match coverage or product dataset selection. Initial null frames lie before this selected interval."
+}

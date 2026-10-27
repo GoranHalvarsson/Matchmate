@@ -1,0 +1,15 @@
+# 2026/27 Premier League snapshot
+
+User-approved result cutoff: **20 September 2026**. Retrieved **23 October 2026 UTC**. This is a pinned community reference, not a live feed or an automatically refreshed current table.
+
+`en.1.json` and `LICENSE.md` retain the original bytes from OpenFootball football.json commit `e6744429ee395bc86f247348c6184bb08d4eb361`. `manifest.json` preserves the URLs, retrieval time, source hashes, licence, cutoff and limitations. The file contains 380 scheduled home/away fixtures and 50 scored results from 21 August through 20 September. Five 0–0 results use the source's alternate `score: [0, 0]` form; the other results use `score.ft`. The 330 unscored fixtures are excluded from tables, played-date playback, form and result links. Missing scores never become 0–0 results.
+
+`club-context.json` joins all 20 source team names to existing stable club IDs from the reference foundation. Grounds use its reviewed 2026/27 context, including Hill Dickinson Stadium, Tottenham Hotspur Stadium and MKM Stadium. These are club context, not verified venues for individual fixtures. Ground naming periods and all-season associations remain evidence-limited. Shared clubs retain their existing illustrated map placement; new clubs use town-level illustration units and the London inset. These are not surveyed coordinates.
+
+All 20 current crest paths use original competition badge PNGs from the official Premier League badge service. `crest-sources.json` records each club identifier, URL, retrieval time, original byte length, PNG dimensions and SHA-256. A labelled contact sheet was inspected by the implementation worker and coordinator; all club mappings were approved. These are current competition badges, including Liverpool's LiverBird mark, not claims about exact kit embroidery or historical corporate artwork. No logos were generated or redrawn. The existing historical assets remain unchanged.
+
+Badge artwork remains copyright/trademark material with no Matchmate reuse licence established. Official hosting establishes provenance and competition identity, not publication/commercial-use clearance or endorsement. It is **not CC0**, and those unresolved rights are separate from the results licence.
+
+Generate the original v1 bundle with the existing exporter if absent, then run `node tools/export-current-league-reference.cjs`. The new exporter validates pinned inputs and writes an immutable `.local/league-reference-v2/league-reference.json`; it never writes v1 or the prototype. An existing different v2 output is an explicit conflict, not an overwrite. It may accept a separate output directory for deterministic verification. Source updates require a separately reviewed snapshot and version strategy.
+
+OpenFootball publishes this file under CC0-1.0. It is community maintained, not an official Premier League feed. Retaining the licence is not a claim of official verification, completeness outside the pinned file, or clearance of third-party trademarks. No official raw feed, scores beyond the accepted cutoff, events, scorers, lineups, points deductions or verified fixture venues are supplied.

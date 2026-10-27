@@ -1,0 +1,79 @@
+{
+  "schema_version": "1.0",
+  "media": {
+    "sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+    "duration_seconds": 120,
+    "pts_origin_seconds": 5,
+    "origin": "synthetic_test",
+    "license_status": "unknown"
+  },
+  "sources": [
+    {"id":"F10","kind":"frame","locator":"synthetic fixture frame at elapsed 10","available_at":{"period":"1H","seconds":0}},
+    {"id":"F20","kind":"frame","locator":"synthetic fixture frame at elapsed 20","available_at":{"period":"1H","seconds":10}},
+    {"id":"CAL","kind":"calibration","locator":"synthetic calibration receipt","scope_media_interval":[20,20],"available_at":{"period":"1H","seconds":10}},
+    {"id":"REP","kind":"report","locator":"synthetic retrospective report","available_at":null},
+    {"id":"PLAN","kind":"generation_plan","locator":"synthetic illustration seed/config receipt","available_at":null},
+    {"id":"ASR","kind":"transcript","locator":"synthetic machine transcript C0000:S0000; no audio exists","available_at":null},
+    {"id":"ROSTER","kind":"roster","locator":"synthetic fixture-date roster stand-in; not an official record","available_at":null}
+  ],
+  "records": [
+    {
+      "id":"clock-1","kind":"clock_anchor","provenance":"observed","source_refs":["F10"],
+      "media_interval":[10,10],"match_clock":{"period":"1H","seconds":0},"reported_minute":null,
+      "available_at":{"period":"1H","seconds":0},"subject":null,"position":null,
+      "scope_media_interval":[10,30],"clock_uncertainty_seconds":1,
+      "note":"Synthetic reviewed continuous section; not a real football observation."
+    },
+    {
+      "id":"identity-1","kind":"identity","provenance":"observed","source_refs":["F20"],
+      "media_interval":[20,20],"match_clock":null,"reported_minute":null,"available_at":{"period":"1H","seconds":10},
+      "subject":{"track_id":"shot1-personA","player_id":"synthetic-player-1","identity_refs":[]},
+      "position":null,"note":"Synthetic readable-shirt point; scope is only this instant."
+    },
+    {
+      "id":"person-point","kind":"position","provenance":"estimated","source_refs":["F20","CAL"],
+      "media_interval":[20,20],"match_clock":{"period":"1H","seconds":10},"clock_anchor_ref":"clock-1",
+      "reported_minute":null,"available_at":{"period":"1H","seconds":10},
+      "subject":{"track_id":"shot1-personA","player_id":"synthetic-player-1","identity_refs":["identity-1"]},
+      "position":{"space":"pitch_normalized","x":0.4,"y":0.6,"height":null,"vertical_state":"ground_supported","calibration_refs":["CAL"]},
+      "note":"Synthetic uncertain foot proxy on an assumed field plane."
+    },
+    {
+      "id":"ball-screen","kind":"position","provenance":"observed","source_refs":["F20"],
+      "media_interval":[20,20],"match_clock":null,"reported_minute":null,"available_at":null,
+      "subject":{"track_id":"ball","player_id":null,"identity_refs":[]},
+      "position":{"space":"screen_normalized","x":0.55,"y":0.2,"height":null,"vertical_state":"airborne","calibration_refs":[]},
+      "note":"Synthetic screen-only ball, height and ground location unknown."
+    },
+    {
+      "id":"reported-goal","kind":"event","provenance":"reported","source_refs":["REP"],
+      "media_interval":null,"match_clock":null,"reported_minute":"90+4","available_at":null,
+      "subject":null,"position":null,"note":"Synthetic report claim; no exact contact second."
+    },
+    {
+      "id":"gap-1","kind":"gap","provenance":"unknown","source_refs":[],
+      "media_interval":[30,40],"match_clock":null,"reported_minute":null,"available_at":null,
+      "subject":{"track_id":"shot1-personA","player_id":null,"identity_refs":[]},
+      "position":null,"note":"Synthetic camera cut; no held or interpolated position."
+    },
+    {
+      "id":"illustration-point","kind":"position","provenance":"generated","source_refs":["PLAN"],
+      "media_interval":null,"match_clock":null,"reported_minute":null,"available_at":null,
+      "subject":{"track_id":"generated:slot-1","player_id":"synthetic-player-1","identity_refs":["roster-slot-1"]},
+      "position":{"space":"pitch_normalized","x":0.2,"y":0.8,"height":null,"vertical_state":"unknown","calibration_refs":[]},
+      "note":"Synthetic authored point; roster assignment does not identify any observed tracklet. Never actual tracking or football facts."
+    },
+    {
+      "id":"commentary-1","kind":"transcript","provenance":"reported","source_refs":["ASR"],
+      "media_interval":[18,21],"match_clock":null,"reported_minute":null,"available_at":null,
+      "subject":null,"position":null,
+      "note":"Synthetic raw ASR text: Player One finds space. A speech-recognition candidate, not proof of a football action or identity."
+    },
+    {
+      "id":"roster-slot-1","kind":"identity","provenance":"reported","source_refs":["ROSTER"],
+      "media_interval":null,"match_clock":null,"reported_minute":null,"available_at":null,
+      "subject":{"track_id":"generated:slot-1","player_id":"synthetic-player-1","identity_refs":[]},
+      "position":null,"note":"Synthetic Player One assigned to an illustrated slot only. This roster stand-in does not establish a visual identity or appearance."
+    }
+  ]
+}

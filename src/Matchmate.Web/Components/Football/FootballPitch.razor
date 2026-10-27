@@ -1,0 +1,120 @@
+@using Matchmate.Web.Localization
+@using Matchmate.Contracts
+@using Matchmate.Core
+@using Matchmate.Web.Experience
+@{ var presentation = MatchPitchPresenter.Project(View, Sequences, SequenceIndexAvailable, MaskGoalWindow, Language); var shown = AwaitingSequenceIndex ? Array.Empty<MatchSequenceProjection>() : Sequences;
+var generated = ExperiencePresentation.Generated(View.Dataset);
+var phase = $"{presentation.GeneratedLayout}/{MaskGoalWindow}/{AwaitingSequenceIndex}/{presentation.Sequence?.RecordId}/{presentation.Sequence?.Scope}/{presentation.ActiveStep?.Id}";
+var motion = _motion.Observe(View, presentation, Playing, MotionEpoch, PlaybackStepMs, phase, System.Diagnostics.Stopwatch.GetTimestamp() * 1000d / System.Diagnostics.Stopwatch.Frequency); }
+<div class="pitch-wrap"><svg class="pitch" data-motion-duration="@motion.DurationMs" viewBox="@($"3 3 {Number(Fixture.Pitch.LengthM + 6)} {Number(Fixture.Pitch.WidthM + 6)}")" role="group" aria-label="@(T(generated || presentation.GeneratedLayout ? "PitchGeneratedLabel" : "PitchObservedLabel"))">
+<defs><pattern id="recording-pitch-stripes" x="6" y="6" width="@Number(Fixture.Pitch.LengthM / 5)" height="@Number(Fixture.Pitch.WidthM)" patternUnits="userSpaceOnUse"><rect width="@Number(Fixture.Pitch.LengthM / 5)" height="@Number(Fixture.Pitch.WidthM)" fill="#416c3d"/><rect width="@Number(Fixture.Pitch.LengthM / 10)" height="@Number(Fixture.Pitch.WidthM)" fill="#487343"/></pattern></defs>
+<rect class="field" x="6" y="6" width="@Number(Fixture.Pitch.LengthM)" height="@Number(Fixture.Pitch.WidthM)"/>
+<g class="markings"><rect x="6" y="6" width="@Number(Fixture.Pitch.LengthM)" height="@Number(Fixture.Pitch.WidthM)"/><path d="@($"M{Number(Fixture.Pitch.LengthM / 2 + 6)} 6V{Number(Fixture.Pitch.WidthM + 6)}")"/><circle cx="@Number(Fixture.Pitch.LengthM / 2 + 6)" cy="@Number(Fixture.Pitch.WidthM / 2 + 6)" r="9.15"/>
+<rect x="6" y="@Number(6 + (Fixture.Pitch.WidthM - PenaltyWidth) / 2)" width="@Number(PenaltyDepth)" height="@Number(PenaltyWidth)"/><rect x="@Number(6 + Fixture.Pitch.LengthM - PenaltyDepth)" y="@Number(6 + (Fixture.Pitch.WidthM - PenaltyWidth) / 2)" width="@Number(PenaltyDepth)" height="@Number(PenaltyWidth)"/>
+<rect x="6" y="@Number(6 + (Fixture.Pitch.WidthM - GoalWidth) / 2)" width="5.5" height="@Number(GoalWidth)"/><rect x="@Number(Fixture.Pitch.LengthM + .5)" y="@Number(6 + (Fixture.Pitch.WidthM - GoalWidth) / 2)" width="5.5" height="@Number(GoalWidth)"/>
+<path d="@($"M{Number(6 + PenaltyDepth)} {Number(CentreY - 7.31)}A9.15 9.15 0 0 1 {Number(6 + PenaltyDepth)} {Number(CentreY + 7.31)} M{Number(6 + Fixture.Pitch.LengthM - PenaltyDepth)} {Number(CentreY - 7.31)}A9.15 9.15 0 0 0 {Number(6 + Fixture.Pitch.LengthM - PenaltyDepth)} {Number(CentreY + 7.31)}")"/>
+<circle class="pitch-spot" cx="17" cy="@Number(CentreY)" r=".18"/><circle class="pitch-spot" cx="@Number(Fixture.Pitch.LengthM - 5)" cy="@Number(CentreY)" r=".18"/><circle class="pitch-spot" cx="@Number(Fixture.Pitch.LengthM / 2 + 6)" cy="@Number(CentreY)" r=".18"/></g>
+@if (presentation.Frame is { } frame) {
+@foreach (var position in frame.Players.Where(p => p.Availability == "present")) {
+var person = View.Dataset.People.FirstOrDefault(p => p.PersonId == position.SubjectId);
+var translated = GeneratedPitchMotion.Generated(View, position); var x = translated ? 0 : position.XM!.Value + 6; var y = translated ? 0 : position.YM!.Value + 6;
+<g @key="(position.SubjectId, position.SlotId)" transform="@(translated ? $"translate({Number(position.XM!.Value + 6)} {Number(position.YM!.Value + 6)})" : null)" class="@(MarkerClass(position, person) + (translated ? " generated-marker" : "") + (motion.Players.Contains((position.SubjectId, position.SlotId)) ? " pitch-motion" : ""))" role="button" tabindex="@(InteractionDisabled ? -1 : 0)" aria-disabled="@ExperiencePresentation.Pressed(InteractionDisabled)" aria-pressed="@ExperiencePresentation.Pressed(SelectedPerson == position.SubjectId)" aria-label="@T("PlayerPositionLabel", person?.Name ?? T("UnspecifiedPlayer"), ReplayText.Value(Language, position.Method), ReplayText.Value(Language, position.Quality))" @onclick="() => SelectPlayerAsync(position.SubjectId)" @onkeydown="e => SelectKeyAsync(e, position.SubjectId)"><title>@person?.Name · @ReplayText.Value(Language, position.Method) · @ReplayText.Value(Language, position.Quality)</title>
+<circle class="marker-hit" cx="@Number(x)" cy="@Number(y)" r="1.7" vector-effect="non-scaling-stroke"/>
+@if (SelectedPerson == position.SubjectId) { <circle class="selection-ring" cx="@Number(x)" cy="@Number(y)" r="2.45" vector-effect="non-scaling-stroke"/> }
+@if (shown.Any(s => s.Sequence.Steps.Any(step => step.ActorId == position.SubjectId || step.RelatedActorId == position.SubjectId))) { <circle class="event-ring" cx="@Number(x)" cy="@Number(y)" r="2.8"/> }
+@if (position.Method == "unknown") { <rect x="@Number(x - 1.7)" y="@Number(y - 1.7)" width="3.4" height="3.4" vector-effect="non-scaling-stroke"/> }
+else { <circle class="player-dot" cx="@Number(x)" cy="@Number(y)" r="1.7" vector-effect="non-scaling-stroke"/> }
+<text x="@Number(x)" y="@Number(y + .65)">@person?.Shirt</text></g>
+}
+@if (frame.Ball.Availability == "present") { var translatedBall = GeneratedPitchMotion.Generated(View, frame.Ball); <g class="@(motion.Ball ? "pitch-motion" : null)" transform="@(translatedBall ? $"translate({Number(frame.Ball.XM!.Value + 6)} {Number(frame.Ball.YM!.Value + 6)})" : null)"><circle class="@("ball " + QualityClass(frame.Ball.Method) + (translatedBall ? " generated-ball" : ""))" cx="@Number(translatedBall ? 0 : frame.Ball.XM!.Value + 6)" cy="@Number(translatedBall ? 0 : frame.Ball.YM!.Value + 6)" r=".75"><title>@T("BallDetails", ReplayText.Value(Language, frame.Ball.Method), ReplayText.Value(Language, frame.Ball.Quality))</title></circle></g> }
+}
+@if (shown.Length > 0) { <MatchSequenceSchematic Scenes="shown" Dataset="View.Dataset" Presentation="presentation"/> }
+</svg>
+@foreach (var dismissal in shown.Where(s => s.Sequence.Steps is [{ Kind: "red_card" }])) {
+    var step = dismissal.Sequence.Steps[0];
+    @if (View.Events.SingleOrDefault(r => r.RecordId == dismissal.RecordId)?.Payload is MatchEventPayload { EventKind: "red_card" } card && card.PersonId == step.ActorId) {
+        var note = SourceNoteText.Get(step.Kind, step.Text, step.Uncertainty, Language);
+        <div class="dismissal-annotation" role="note" aria-label="@T("KindRedCard")" data-card-record="@dismissal.RecordId"><span class="dismissal-card" aria-hidden="true"></span><div><strong>@ExperiencePresentation.Person(View.Dataset, step.ActorId, Language)</strong><span>@ReplayText.Value(Language, card.Decision)</span><small>@T("DismissalAnnotationNote")</small>
+            @if (note.IsFallback) { <small class="source-note-fallback">@T("SourceNoteOriginalEnglish")</small> }
+            <small lang="@note.LanguageCode">@note.Text</small>
+            @if (note.IsTranslated) { <details class="source-note-originals"><summary>@T("ShowOriginalSourceNotes")</summary><small class="source-note-original" lang="en">@step.Text</small>
+                @if (step.Uncertainty is { Length: > 0 } originalUncertainty) { <small class="source-note-original" lang="en">@originalUncertainty</small> }
+            </details> }
+        </div></div>
+    }
+}
+@if (!View.Dataset.Closed && (View.Frame is null || View.TrackingGap)) { <div class="pitch-message"><strong>@T("PreparingMoment")</strong><LoadingStatus Text="@T("PositionsStillLoading")"/></div> }
+else if (View.TrackingGap) { <div class="pitch-message"><strong>@T("TrackingGap")</strong><span>@ReplayText.Coverage(Language, View)</span></div> }
+</div>
+@if (presentation.Caption.Length > 0) {
+<div class="sequence-note" role="status">
+@if (presentation.Sequence is { } scene) { <strong>@(T(scene.Scope == "retrospective_selected_goal" ? "SelectedGoal" : "KindReportedEvent"))@(scene.ReportedClock is { } reported ? " · " + reported + "′" : "")@(scene.Sequence.Steps.LastOrDefault(s => s.Kind is "reported_finish" or "header_finish" or "rebound_finish")?.ActorId is { } scorer ? " · " + ExperiencePresentation.Person(View.Dataset, scorer, Language) : "") · </strong> }
+<span>@presentation.Caption</span>
+@if (presentation.ActiveStep is { Uncertainty.Length: > 0 } activeStep) {
+    var note = SourceNoteText.Get(activeStep.Kind, activeStep.Text, activeStep.Uncertainty, Language);
+    <span class="source-annotation-label">@T("SourceNotes")</span>
+    @if (note.IsFallback) { <small class="source-note-fallback">@T("SourceNoteOriginalEnglish")</small> }
+    <small lang="@note.LanguageCode">@note.Uncertainty</small>
+    @if (note.IsTranslated) { <details class="source-note-originals"><summary>@T("ShowOriginalSourceNotes")</summary><small class="source-note-original" lang="en">@activeStep.Uncertainty</small></details> }
+}
+</div> }
+@if (shown.Length > 0) {
+<details class="sequence-details"><summary>@T("SequenceEvidenceLimits")</summary><p>@T("SequenceLimits")</p>
+<p class="source-annotation-label">@T("SourceNotes")</p>
+@foreach (var scene in shown) {
+var notes = scene.Sequence.Steps.Select(step => SourceNoteText.Get(step.Kind, step.Text, step.Uncertainty, Language)).ToArray();
+@if (scene.Scope == "completed_possession") { <p>@T("CompletedInterval", ExperiencePresentation.Clock(scene.IntervalStartMs!.Value), ExperiencePresentation.Clock(scene.IntervalEndMs!.Value))</p> }
+<ol class="semantic-steps" data-sequence-id="@scene.Sequence.Id" data-scope="@scene.Scope">
+@for (var i = 0; i < scene.Sequence.Steps.Length; i++) {
+var step = scene.Sequence.Steps[i]; var note = notes[i];
+<li data-step-id="@step.Id" data-step-kind="@step.Kind"><span>@MatchPitchPresenter.Label(step.Kind, Language)@(step.ActorId is null ? "" : " · " + ExperiencePresentation.Person(View.Dataset, step.ActorId, Language))@(step.RelatedActorId is null ? "" : " → " + ExperiencePresentation.Person(View.Dataset, step.RelatedActorId, Language))</span>
+    @if (note.IsFallback) { <small class="source-note-fallback">@T("SourceNoteOriginalEnglish")</small> }
+    <small lang="@note.LanguageCode">@note.Text</small>
+</li>
+}
+</ol>
+@foreach (var qualification in SourceNoteText.Qualifications(notes)) {
+    <p class="source-note-qualification"><strong>@T("SourceNoteSteps", string.Join(", ", qualification.Steps))</strong>
+        @if (qualification.IsFallback) { <small class="source-note-fallback">@T("SourceNoteOriginalEnglish")</small> }
+        <span lang="@qualification.LanguageCode">@qualification.Text</span>
+    </p>
+}
+@if (notes.Any(note => note.IsTranslated)) {
+    var originals = scene.Sequence.Steps.Select(step => SourceNoteText.Get(step.Kind, step.Text, step.Uncertainty, MatchLanguage.English)).ToArray();
+    <details class="source-note-originals"><summary>@T("ShowOriginalSourceNotes")</summary><ol class="semantic-steps original-steps">
+        @for (var i = 0; i < scene.Sequence.Steps.Length; i++) { <li @key="scene.Sequence.Steps[i].Id"><small class="source-note-original" lang="en">@originals[i].Text</small></li> }
+    </ol>
+    @foreach (var qualification in SourceNoteText.Qualifications(originals)) {
+        <p class="source-note-qualification"><strong>@T("SourceNoteSteps", string.Join(", ", qualification.Steps))</strong><span class="source-note-original" lang="en">@qualification.Text</span></p>
+    }
+    </details>
+}
+}
+</details> }
+<div class="legend"><span><i class="team-key home"></i>@Fixture.Home.Name <i class="team-key away"></i>@Fixture.Away.Name</span><span>@(T(generated ? "GeneratedMotionLegend" : presentation.GeneratedLayout ? "IllustrativeLegend" : "ObservationLegend"))</span><span>@T("BallLegend", presentation.Frame?.Ball.Method is { } method ? ReplayText.Value(Language, method) : T("NoSample"), ReplayText.Value(Language, presentation.Frame?.Ball.Availability ?? "missing"))</span></div>
+@code {
+    [CascadingParameter] public MatchLanguage Language { get; set; }
+    private string T(string key, params object?[] args) => ReplayText.Get(Language, key, args);
+[Parameter, EditorRequired] public FootballView View { get; set; } = default!;
+[Parameter] public string? SelectedPerson { get; set; }
+[Parameter] public EventCallback<string> Select { get; set; }
+[Parameter] public MatchSequenceProjection[] Sequences { get; set; } = [];
+[Parameter] public bool MaskGoalWindow { get; set; }
+[Parameter] public bool SequenceIndexAvailable { get; set; } = true;
+[Parameter] public bool InteractionDisabled { get; set; }
+[Parameter] public bool Playing { get; set; }
+[Parameter] public long MotionEpoch { get; set; }
+[Parameter] public int PlaybackStepMs { get; set; } = 100;
+private readonly GeneratedPitchMotion _motion = new();
+private bool AwaitingSequenceIndex => !SequenceIndexAvailable && View.Dataset.Manifest.Capabilities.Contains("shared-event-sequences-v1");
+private FixturePayload Fixture => View.Dataset.Fixture!;
+private double PenaltyWidth => Math.Min(40.32, Fixture.Pitch.WidthM * .8);
+private double PenaltyDepth => Math.Min(16.5, Fixture.Pitch.LengthM / 4);
+private double GoalWidth => Math.Min(18.32, Fixture.Pitch.WidthM * .5);
+private double CentreY => Fixture.Pitch.WidthM / 2 + 6;
+private static string Number(double value) => ExperiencePresentation.Number(value);
+private static string QualityClass(string method) => method == "observed" ? "detected" : method is "estimated" or "generated" ? "estimated" : "unknown";
+private string MarkerClass(FootballObservation observation, SquadPerson? person) => $"marker {(person?.TeamId == Fixture.Home.Id ? "home" : "away")} {QualityClass(observation.Method)} {(SelectedPerson == observation.SubjectId ? "focused" : "")}";
+private Task SelectPlayerAsync(string person) => InteractionDisabled ? Task.CompletedTask : Select.InvokeAsync(person);
+private Task SelectKeyAsync(KeyboardEventArgs e, string person) => e.Key is "Enter" or " " ? SelectPlayerAsync(person) : Task.CompletedTask;
+}

@@ -1,0 +1,63 @@
+# Bounded manual Premier League annotations
+
+## Official reference is a separate layer — 2026-10-18
+
+The approved [official match import](../official-match-records/README.md) adds named rosters, reported events, final summary statistics and context through a separate pinned projection. It does not alter any manual annotation, reconstruction, timeline or goal-passage artifact, join named players to anonymous estimates, or convert reported minutes into source seconds. Its first-goal action links the estimated video passage; finish/contact and exact goal time have not been verified or reconstructed. See [data and sources](../../public-docs/DATA-AND-SOURCES.md) for broader source boundaries.
+
+## Separate first-goal pitch passage — implemented 2026-10-17
+
+The [separate goal-passage artifact](brentford-chelsea-2026-09-18-goal-passage.json) is approved for this bounded scope. Twenty-four manually estimated layouts cover five sparse corner frames and nineteen wide frames at 0.2-second spacing, inside source 3708–3719. Source video is reused locally; all 38 new stills retain decoded PTS/JPEG receipts. Clock strings are read separately from source frames. The existing annotation/reconstruction/timeline files and their strict policies remain unchanged.
+
+Sixteen anonymous shot-local tracklets are not a full XI or a distinct-player count. Four ambiguous crowd tracks stop after 3715.6; no cross-cut or hidden identity is inferred. Layout uses visible body bases plus goal/box/touchline landmarks, with broad normalized uncertainty and no calibration/metres. Five independent exact-frame ball observations include source-pixel locations for the two wide aerial points; airborne schematic placement is an apparent projection with height/ground position unknown. No held/interpolated ball, contact/flight, named scorer/assist or goal second follows. Three short facts wait for their final supporting frame IDs. Runtime receives the bounded artifact plus an artifact receipt, without raw media/paths/report/transcript text.
+
+The [pitch mode](../../prototypes/first-experience/README.md) supplies stable roster selection, sampled 1× playback, scrubbing/frame stepping and finite questions. Builder tests pass; browser and independent review are pending. Detailed method and source receipts are retained locally.
+
+## Separate full-match candidate timeline — implemented 2026-10-17
+
+The separate [timeline JSON](brentford-chelsea-2026-09-18-timeline.json) and [projection receipt](brentford-chelsea-2026-09-18-timeline-receipt.json) are approved for this bounded scope. All27 full-review candidate passages retain IDs, short paraphrases, original review status, explicit uncertainty, media intervals and scoped ASR/context/visual IDs/times. They exclude raw commentary words, media/frame paths, stream URLs and written report facts/conflicts. Per-ID excerpt/readability edits and three deliberate visual-scope extensions are audited in the receipt. This leaves the original first-goal research and reconstruction artifacts/models unchanged.
+
+Availability is the maximum interval/speech/context/scoped-visual end; unknown dependencies withhold the passage. All27 currently resolve. The ledger/audio endpoint5872.04644 defines this timeline, separately from video5872.12. No football-clock fit, current score, incident totals, identity paths or positions are inferred. The [prototype](../../prototypes/first-experience/README.md) supplies deterministic completed-passage stepping and finite local answers, with replay/history/candidate labels and nearby uncertainty. It does not supply full tracking, live data, AI or report facts.
+
+`node data/manual-match-annotations/project-full-match-timeline.cjs --check` validates pinned receipt/model offline. With original ignored research present, add `--source output/full-match-review --check` to reproduce the exact artifact/receipt against pinned hashes. Normal portable builds read only the pinned artifact. Local method and verification records attribute coordinator initial 100/100 tests and 309 links, independent REV-1 38/38 affected tests and exact projection/portable checks, desktop/mobile dogfood and independent actual F-16/F-17 keyboard/lifecycle closure. No findings remain for this bounded prototype. Physical touch, screen-reader speech, production/authentication/localization/live data and source-use/submission/publication clearance remain unverified separately.
+
+## Separate estimated reconstruction — implemented 2026-10-17
+
+The user-approved [reconstruction artifact](brentford-chelsea-2026-09-18-reconstruction.json) is separate from the unchanged first-goal annotations below. Seven newly reviewed paused frames R01–R07 cover DOM clip **3715–3718s / 01:01:55–01:01:58**, with burned-in labels 60:22–60:25 and captured 0–0. These are seven sampled frames in one wide camera view, not continuous or frame-complete review. The player's transport text remained stale at 01:01:45; DOM receipts supply clip time.
+
+Only anonymous **Brentford shirt 27** near the near-side penalty-area edge and the sole green **Chelsea goalkeeper** near the goalmouth are represented. No name join, ball, contact, scorer action or other participant path is inferred. The coordinator and builder inspected all seven images before accepting these broad placements. Normalized layout axes put the goal at left, far touchline at top and near touchline at bottom; these are manually placed schematic estimates, with no calibration or metric coordinates. Radius 8 denotes a broad region in schematic percentage units, not metres or statistical confidence.
+
+This bounded reconstruction permits linear interpolation only between adjacent half-second points for the same approved anonymous participant/shot inside 3715–3718. It uses a neighbouring future frame and is explicitly retrospective, not known-then or an observed running path. No position carries outside support, through cuts or unknown identity/visibility. Captured clocks/score exist only at exact reviewed frames. The pure prototype model validates the separate runtime projection; screenshot paths remain here, while runtime receives hashes/bytes and DOM metadata only. Original JSON/model/validators and their stricter coarse-only policies remain unchanged.
+
+Local verification receipts are retained separately. Source-use/submission/publication boundaries remain separate; no video/audio file was downloaded and no screenshot is embedded in runtime.
+
+## Current separate runtime adapter — 2026-10-17
+
+The user-approved **Brentford–Chelsea · Recorded annotations** prototype route is complete and verified locally. The research JSON remains byte-unchanged and is not directly treated as application input: a strict allowlisted adapter excludes raw report claims, notes and media. Capture stepping, exact-point coarse neutral regions, unknown gap readouts and finite cursor/player-bound questions are implemented separately from the original A-League/fictional routes. All 74 prototype Node tests, 10 source Python tests, both source validators, syntax checks and portable parity pass. The coordinator verified actual modular/portable browser flows and desktop/mobile layouts; Sol independently reviewed the screenshots and code with no remaining findings, closing F-13 through REV-1. Detailed verification receipts are retained locally. The 16 sampled captures cover about 23 seconds, without continuous review, exact contact times, measured tracking or live evidence. Production, physical touch hardware and screen-reader speech remain unverified. No source acquisition or publication. Earlier package-only/proposal statements below retain their original artifact scope.
+
+2026-10-17. **Created locally; independent review and preservation gates passed.** This package is `local_manual_annotations_not_application_input`. It adds no app route, replay integration, free-text AI, live feed or measured tracking. The user approved this first-goal review with labelled coarse estimates and gaps; it does not authorize a complete PL position reconstruction.
+
+[Annotation JSON](brentford-chelsea-2026-09-18-first-goal.json) covers Brentford–Chelsea, 18 September 2026, PL `2645236`. It records only the 16 independently source-reviewed paused screenshots E01–E16: DOM clip **3707.22–3730s / 01:01:47.22–01:02:10**, approximately 23 seconds, displayed match labels **60:14–60:37**. Evidence is sorted by actual clip time; E01 was captured out of order. These are sampled keyframes, not continuous or frame-complete review. No video/audio file is retained. Screenshot pointers/hashes/bytes and original capture metadata receipts refer to ignored `output/` evidence; no media is embedded here.
+
+The official [replay](https://www.brentfordfc.com/en/video/0_2hoy7vw7?provider=stream) was accessible in the coordinator's public browser session. DOM clip timestamps and displayed second-precision match clocks remain separate. No universal clock fit, exact goal/kick/header/line-crossing second, speed or metric coordinates are inferred.
+
+| Layer | Retained evidence and limit |
+|---|---|
+| Prior report claims | Anthony 61′, header/very close range/following a corner and explicit Schuster assist; linked to the unchanged [prior pack](../match-enrichment/brentford-chelsea-2026-09-18.json) and [registry](../match-enrichment/sources.json). These are static retrospective claims, never released as cursor facts or newly verified touches |
+| Video observations | Goalmouth crowding; obscured anonymous raised-arms actor; corner setup with a grounded ball by the flag/arc; wide goalmouth/reactions; legible jerseys; anonymous celebration; first **captured** 1–0 at E16/3730. Actual kick/assist/finish/crossing contacts are not defensible from these samples. The obscured close-up is not classified as a throw-in |
+| Point-only position estimates | Anthony near the goalmouth at E02/3707.22, E03/3708 and E01/3717.22; Damsgaard at the corner boundary at E07/3712. Names join same-capture legible team/shirt to prior lineup/name sources. Zones are coarse visible landmark estimates with uncertainty, not x/y, metres, calibrated tracking or ground truth |
+| Unknowns | E14's readable 19 lacks field geometry for a position; E15 stays anonymous without a readable number. Schuster's 44 is not independently legible on a touch actor. Other/off-camera/occluded and all unsampled positions remain unknown; no face recognition, held positions, interpolation, cross-cut identity or inferred full XI presence |
+
+Camera changes are bounded between 3708–3709, 3714–3715 and 3718–3719; a group-shot transition lies within 3720–3730 with intervening shots unknown. All 15 intervals between adjacent keyframes remain unreviewed movement gaps. No path or position persists through them.
+
+`eligible_observations(package, clip_seconds)` is a tiny offline research projection: a video observation appears only at its last supporting capture, with no epsilon. This is a retrospective projection policy, not arrival or known-then evidence. It excludes report claims and free-form review notes and returns explicit allowlisted fields. `position_at(package, clip_seconds, player_id)` returns a coarse estimate only at the exact reviewed point; every other cursor returns unknown. These helpers are not APIs or application adapters.
+
+```powershell
+python -B data/manual-match-annotations/validate_annotations.py
+python -B -m unittest discover -s data/manual-match-annotations -p 'test_annotations.py' -v
+# Explicit local screenshot/receipt verification; no network:
+python -B data/manual-match-annotations/validate_annotations.py --verify-evidence
+```
+
+Default validation requires the JSON and existing prior-research dependencies, not ignored screenshots. The explicit evidence test skips if images are absent; `--verify-evidence` remains strict when requested. The coordinator and independent reviewer each passed all ten focused tests with zero skips, including real hash/capture checks, exact availability boundaries, report exclusion, jersey/name evidence, fake precision, unsampled positions, gap/cut integrity and tampering. Removing the observation cutoff or allowing position carry-forward makes meaningful assertions fail. The prior app's 64 Node/16 Python checks were not rerun: there is no app change. Existing source-use/submission/publication limits remain; nothing was published or downloaded as a video file.
+
+Independent review is clean; coordinator and reviewer each confirmed all 314 preexisting data/prototype files unchanged. With review complete, a separately approved next step could integrate clearly labelled PL annotations into the prototype. That integration is not implemented here.

@@ -1,0 +1,1122 @@
+{
+  "entities": {
+    "Q10626": {
+      "pageid": 12052,
+      "ns": 0,
+      "title": "Q10626",
+      "lastrevid": 2517793983,
+      "modified": "2026-07-15T15:33:18Z",
+      "type": "item",
+      "id": "Q10626",
+      "labels": {
+        "en": {
+          "language": "en",
+          "value": "Vicarage Road"
+        }
+      },
+      "descriptions": {
+        "en": {
+          "language": "en",
+          "value": "Association football stadium in Watford, Hertfordshire, England, home to Watford F.C."
+        }
+      },
+      "claims": {
+        "P373": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P373",
+              "hash": "1e51e6f6232875bc530965c9f62d9ffaab8e4398",
+              "datavalue": {
+                "value": "Vicarage Road",
+                "type": "string"
+              },
+              "datatype": "string"
+            },
+            "type": "statement",
+            "id": "q10626$F4712D77-7287-4685-AF17-C58C7C5DE9B2",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "9a24f7c0208b05d6be97077d855671d1dfdbc0dd",
+                "snaks": {
+                  "P143": [
+                    {
+                      "snaktype": "value",
+                      "property": "P143",
+                      "hash": "d38375ffe6fe142663ff55cd783aa4df4301d83d",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 48183,
+                          "id": "Q48183"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P143"
+                ]
+              }
+            ]
+          }
+        ],
+        "P18": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P18",
+              "hash": "7d61d7ef14cccd09bf7a8579faaf4ce7c5521147",
+              "datavalue": {
+                "value": "Vicarage Road 2015.jpg",
+                "type": "string"
+              },
+              "datatype": "commonsMedia"
+            },
+            "type": "statement",
+            "id": "q10626$3CA9EB0E-4C46-4186-949C-CD90C1602B16",
+            "rank": "normal"
+          }
+        ],
+        "P625": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P625",
+              "hash": "8ec538e30b6a716d1ab0dcbcab3d16d970662e00",
+              "datavalue": {
+                "value": {
+                  "latitude": 51.649928,
+                  "longitude": -0.401606,
+                  "altitude": null,
+                  "precision": 1e-05,
+                  "globe": "http://www.wikidata.org/entity/Q2"
+                },
+                "type": "globecoordinate"
+              },
+              "datatype": "globe-coordinate"
+            },
+            "type": "statement",
+            "id": "q10626$E1765455-9607-4A7C-8C28-C8E5275E007B",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "732ec1c90a6f0694c7db9a71bf09fe7f2b674172",
+                "snaks": {
+                  "P143": [
+                    {
+                      "snaktype": "value",
+                      "property": "P143",
+                      "hash": "9123b0de1cc9c3954366ba797d598e4e1ea4146f",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 10000,
+                          "id": "Q10000"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P143"
+                ]
+              }
+            ]
+          }
+        ],
+        "P17": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P17",
+              "hash": "a44880420787fb348836dc51d3babc5227c4ef7e",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 145,
+                  "id": "Q145"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q10626$F1C982C0-8004-400F-A799-AB44CFC711E8",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "fa278ebfc458360e5aed63d5058cca83c46134f1",
+                "snaks": {
+                  "P143": [
+                    {
+                      "snaktype": "value",
+                      "property": "P143",
+                      "hash": "e4f6d9441d0600513c4533c672b5ab472dc73694",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 328,
+                          "id": "Q328"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P143"
+                ]
+              }
+            ]
+          }
+        ],
+        "P646": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P646",
+              "hash": "462ce73a881012c06b18cf9d1841a8bcc4ab713c",
+              "datavalue": {
+                "value": "/m/08d6nj",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q10626$7AAE35E5-46A2-497F-BCE4-1172FB92BFD9",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "2b00cb481cddcac7623114367489b5c194901c4a",
+                "snaks": {
+                  "P248": [
+                    {
+                      "snaktype": "value",
+                      "property": "P248",
+                      "hash": "a94b740202b097dd33355e0e6c00e54b9395e5e0",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 15241312,
+                          "id": "Q15241312"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ],
+                  "P577": [
+                    {
+                      "snaktype": "value",
+                      "property": "P577",
+                      "hash": "fde79ecb015112d2f29229ccc1ec514ed3e71fa2",
+                      "datavalue": {
+                        "value": {
+                          "time": "+2013-10-28T00:00:00Z",
+                          "timezone": 0,
+                          "before": 0,
+                          "after": 0,
+                          "precision": 11,
+                          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                        },
+                        "type": "time"
+                      },
+                      "datatype": "time"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P248",
+                  "P577"
+                ]
+              }
+            ]
+          }
+        ],
+        "P466": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P466",
+              "hash": "9e42ab18c6427f0f99069561762b00e5c78142eb",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 2714,
+                  "id": "Q2714"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q10626$B08D8E82-C097-4A1D-8EDB-A3A279254E8B",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "fa278ebfc458360e5aed63d5058cca83c46134f1",
+                "snaks": {
+                  "P143": [
+                    {
+                      "snaktype": "value",
+                      "property": "P143",
+                      "hash": "e4f6d9441d0600513c4533c672b5ab472dc73694",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 328,
+                          "id": "Q328"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P143"
+                ]
+              }
+            ]
+          }
+        ],
+        "P1083": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P1083",
+              "hash": "dcd84742a8c348176d3e61827afa2a0652d04674",
+              "datavalue": {
+                "value": {
+                  "amount": "+22000",
+                  "unit": "1"
+                },
+                "type": "quantity"
+              },
+              "datatype": "quantity"
+            },
+            "type": "statement",
+            "id": "Q10626$4415668E-528D-4DBB-B09B-6C18AD8D418D",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "fa278ebfc458360e5aed63d5058cca83c46134f1",
+                "snaks": {
+                  "P143": [
+                    {
+                      "snaktype": "value",
+                      "property": "P143",
+                      "hash": "e4f6d9441d0600513c4533c672b5ab472dc73694",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 328,
+                          "id": "Q328"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P143"
+                ]
+              }
+            ]
+          }
+        ],
+        "P131": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P131",
+              "hash": "47c8fa209c67f86fbe54886cf5cc200bccd82731",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 2598,
+                  "id": "Q2598"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q10626$C794F273-E45A-43F0-ABFC-14554B3691B1",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "fa278ebfc458360e5aed63d5058cca83c46134f1",
+                "snaks": {
+                  "P143": [
+                    {
+                      "snaktype": "value",
+                      "property": "P143",
+                      "hash": "e4f6d9441d0600513c4533c672b5ab472dc73694",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 328,
+                          "id": "Q328"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P143"
+                ]
+              }
+            ]
+          }
+        ],
+        "P127": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P127",
+              "hash": "8eafe85db49e430f9090f095febc7e3a0635eaf8",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 2714,
+                  "id": "Q2714"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q10626$AB42BA64-7932-40C3-8FD6-EEEFE402C81C",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "fa278ebfc458360e5aed63d5058cca83c46134f1",
+                "snaks": {
+                  "P143": [
+                    {
+                      "snaktype": "value",
+                      "property": "P143",
+                      "hash": "e4f6d9441d0600513c4533c672b5ab472dc73694",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 328,
+                          "id": "Q328"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P143"
+                ]
+              }
+            ]
+          }
+        ],
+        "P31": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P31",
+              "hash": "a2cb9ea692bc81efccddb68809a778e595f32b34",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 483110,
+                  "id": "Q483110"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q10626$0DCBE935-B08D-4A5F-8911-1EC58E9913CC",
+            "rank": "normal"
+          }
+        ],
+        "P1566": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P1566",
+              "hash": "62f573e3238fe12aa4841e4d34b8f281f696d142",
+              "datavalue": {
+                "value": "6288544",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q10626$5D0AB388-1CB2-48D3-8C64-1D6FA3BA3940",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "88694a0f4d1486770c269f7db16a1982f74da69d",
+                "snaks": {
+                  "P248": [
+                    {
+                      "snaktype": "value",
+                      "property": "P248",
+                      "hash": "1b3ef912a2bd61e18dd43abd184337eb010b2e96",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 830106,
+                          "id": "Q830106"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P248"
+                ]
+              }
+            ]
+          }
+        ],
+        "P641": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P641",
+              "hash": "adb877228d79e68544dbe13ac61ae941a075f3a4",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 5849,
+                  "id": "Q5849"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q10626$07AE4AB0-A8DF-4FD3-8FA4-B7C4857E4E73",
+            "rank": "normal"
+          }
+        ],
+        "P462": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P462",
+              "hash": "d5a8fa97fe490f1eada7543e61b16a73cc88ddd9",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 943,
+                  "id": "Q943"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q10626$3dd48adc-4acb-2fd1-cd4a-c75813275e39",
+            "rank": "normal"
+          },
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P462",
+              "hash": "d764eafaefe32ab8774f38f77cfcc0404ddd7243",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 3142,
+                  "id": "Q3142"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q10626$0977f6c2-4363-21f6-2ca1-43cf9be4fb89",
+            "rank": "normal"
+          },
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P462",
+              "hash": "4af9c81cc458bf6b99699673fd9268b43ad0c4d4",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 23445,
+                  "id": "Q23445"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q10626$77955dca-4cf9-6ae8-cf7e-e039c6a6e6cd",
+            "rank": "normal"
+          }
+        ],
+        "P2581": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P2581",
+              "hash": "f4296489d8f76a1605c15e36ec5077055778d43e",
+              "datavalue": {
+                "value": "02290088n",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q10626$553E6E19-21E5-4711-B8D0-820CAAA14444",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "248ac337a217a5f5eed7139a82a4e60931611af0",
+                "snaks": {
+                  "P248": [
+                    {
+                      "snaktype": "value",
+                      "property": "P248",
+                      "hash": "25b816aab41db18565946259c950aed6de05dd1e",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 4837690,
+                          "id": "Q4837690"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P248"
+                ]
+              }
+            ]
+          }
+        ],
+        "P5288": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P5288",
+              "hash": "18f51bba731b655a305d233f40ebc84353ecfd59",
+              "datavalue": {
+                "value": "eng/vicarage_road",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q10626$e747f2c9-4397-40fc-2128-a8a82c38e08f",
+            "rank": "normal"
+          }
+        ],
+        "P5432": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P5432",
+              "hash": "61152c9bd33481bacf28fce48b6dd1311b6168c1",
+              "datavalue": {
+                "value": "13d2198d",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q10626$17EFBB8A-DD3C-448B-AB63-5BA52116352C",
+            "rank": "normal"
+          }
+        ],
+        "P1619": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P1619",
+              "hash": "da4c6a964cea720d129caa79694bd86ec94e70c5",
+              "datavalue": {
+                "value": {
+                  "time": "+1922-08-30T00:00:00Z",
+                  "timezone": 0,
+                  "before": 0,
+                  "after": 0,
+                  "precision": 11,
+                  "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                },
+                "type": "time"
+              },
+              "datatype": "time"
+            },
+            "type": "statement",
+            "id": "Q10626$41100B5F-D777-41C5-A5B7-DFE6A66BE4F7",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "ba457b76e42df214170ba3098e299932fb5d6b42",
+                "snaks": {
+                  "P143": [
+                    {
+                      "snaktype": "value",
+                      "property": "P143",
+                      "hash": "390e3b73e7cd926978cab220968d0e3451cfb814",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 199698,
+                          "id": "Q199698"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ],
+                  "P4656": [
+                    {
+                      "snaktype": "value",
+                      "property": "P4656",
+                      "hash": "c0937a998d5061a0eaa27f40fc23dbf96386a96d",
+                      "datavalue": {
+                        "value": "https://uk.wikipedia.org/w/index.php?title=Вікерейдж_Роуд&oldid=21552164",
+                        "type": "string"
+                      },
+                      "datatype": "url"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P143",
+                  "P4656"
+                ]
+              }
+            ]
+          }
+        ],
+        "P856": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P856",
+              "hash": "3795dec6394d152d6344b2b115c38fe4d36ae480",
+              "datavalue": {
+                "value": "https://www.watfordfc.com/matches/visiting-vicarage-road",
+                "type": "string"
+              },
+              "datatype": "url"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P407": [
+                {
+                  "snaktype": "value",
+                  "property": "P407",
+                  "hash": "daf1c4fcb58181b02dff9cc89deb084004ddae4b",
+                  "datavalue": {
+                    "value": {
+                      "entity-type": "item",
+                      "numeric-id": 1860,
+                      "id": "Q1860"
+                    },
+                    "type": "wikibase-entityid"
+                  },
+                  "datatype": "wikibase-item"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P407"
+            ],
+            "id": "Q10626$0f09a564-4c99-992e-2231-55d2d2835f17",
+            "rank": "normal"
+          }
+        ],
+        "P1705": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P1705",
+              "hash": "9833eed86c62af56622870a579e20ab0b52a1f08",
+              "datavalue": {
+                "value": {
+                  "text": "Vicarage Road",
+                  "language": "en"
+                },
+                "type": "monolingualtext"
+              },
+              "datatype": "monolingualtext"
+            },
+            "type": "statement",
+            "id": "Q10626$047a26fb-4cfd-4a39-d4fb-fbe874086273",
+            "rank": "normal"
+          }
+        ],
+        "P7959": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P7959",
+              "hash": "7f4352c261af147c5f9252f70884759f2a4d8daf",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 67532100,
+                  "id": "Q67532100"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q10626$4a2ae8c8-04ee-4c75-bf97-1b607e63183b",
+            "rank": "normal"
+          }
+        ],
+        "P571": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P571",
+              "hash": "51b760062c35d828aa817b95777ea0830b3c21ba",
+              "datavalue": {
+                "value": {
+                  "time": "+1922-00-00T00:00:00Z",
+                  "timezone": 0,
+                  "before": 0,
+                  "after": 0,
+                  "precision": 9,
+                  "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                },
+                "type": "time"
+              },
+              "datatype": "time"
+            },
+            "type": "statement",
+            "id": "Q10626$2921306c-4752-c8a1-a531-09a7fe8b84a4",
+            "rank": "normal"
+          }
+        ],
+        "P7938": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P7938",
+              "hash": "2d5a90f9b1f9f52710e803143daa3746526cd794",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 11003,
+                  "id": "Q11003"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P3831": [
+                {
+                  "snaktype": "value",
+                  "property": "P3831",
+                  "hash": "92b2a9bac12fb8e82c56dfef41567be36eeb563f",
+                  "datavalue": {
+                    "value": {
+                      "entity-type": "item",
+                      "numeric-id": 27971968,
+                      "id": "Q27971968"
+                    },
+                    "type": "wikibase-entityid"
+                  },
+                  "datatype": "wikibase-item"
+                }
+              ],
+              "P585": [
+                {
+                  "snaktype": "value",
+                  "property": "P585",
+                  "hash": "a6be46f7ad0a963928c79e954c6bebb458ccd2d8",
+                  "datavalue": {
+                    "value": {
+                      "time": "+2024-07-01T00:00:00Z",
+                      "timezone": 0,
+                      "before": 0,
+                      "after": 0,
+                      "precision": 10,
+                      "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                    },
+                    "type": "time"
+                  },
+                  "datatype": "time"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P3831",
+              "P585"
+            ],
+            "id": "Q10626$8951B728-139A-4126-8379-623597FA5F18",
+            "rank": "normal"
+          }
+        ],
+        "P1617": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P1617",
+              "hash": "3e1d2aa9cc3ad6adba1a144282d8c1df8d028c70",
+              "datavalue": {
+                "value": "43dce539-3f8c-4a49-b12f-4cda2f6d8b4f",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q10626$61cce89c-4fdb-3715-62b2-9507b535a69b",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "8582d8416671f1f2567247201bac753552435ca5",
+                "snaks": {
+                  "P248": [
+                    {
+                      "snaktype": "value",
+                      "property": "P248",
+                      "hash": "ea55dc6ac5c3ab77c77d4ae7979e3276d0d4cd20",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 18336371,
+                          "id": "Q18336371"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P248"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "sitelinks": {
+        "arwiki": {
+          "site": "arwiki",
+          "title": "فيكارج رود",
+          "badges": []
+        },
+        "bhwiki": {
+          "site": "bhwiki",
+          "title": "विकारेज रोड",
+          "badges": []
+        },
+        "bswiki": {
+          "site": "bswiki",
+          "title": "Vicarage Road",
+          "badges": []
+        },
+        "commonswiki": {
+          "site": "commonswiki",
+          "title": "Category:Vicarage Road",
+          "badges": []
+        },
+        "cswiki": {
+          "site": "cswiki",
+          "title": "Vicarage Road",
+          "badges": []
+        },
+        "dawiki": {
+          "site": "dawiki",
+          "title": "Vicarage Road",
+          "badges": []
+        },
+        "dewiki": {
+          "site": "dewiki",
+          "title": "Vicarage Road",
+          "badges": []
+        },
+        "enwiki": {
+          "site": "enwiki",
+          "title": "Vicarage Road",
+          "badges": []
+        },
+        "eswiki": {
+          "site": "eswiki",
+          "title": "Vicarage Road",
+          "badges": []
+        },
+        "euwiki": {
+          "site": "euwiki",
+          "title": "Vicarage Road",
+          "badges": []
+        },
+        "fawiki": {
+          "site": "fawiki",
+          "title": "ورزشگاه ویکاریج رود",
+          "badges": []
+        },
+        "fiwiki": {
+          "site": "fiwiki",
+          "title": "Vicarage Road",
+          "badges": []
+        },
+        "frwiki": {
+          "site": "frwiki",
+          "title": "Vicarage Road",
+          "badges": []
+        },
+        "hewiki": {
+          "site": "hewiki",
+          "title": "ויקארג' רואד",
+          "badges": []
+        },
+        "hifwiki": {
+          "site": "hifwiki",
+          "title": "Vicarage Road",
+          "badges": []
+        },
+        "huwiki": {
+          "site": "huwiki",
+          "title": "Vicarage Road",
+          "badges": []
+        },
+        "hywiki": {
+          "site": "hywiki",
+          "title": "Վիկարիջ Ռոուդ",
+          "badges": []
+        },
+        "idwiki": {
+          "site": "idwiki",
+          "title": "Vicarage Road",
+          "badges": []
+        },
+        "iswiki": {
+          "site": "iswiki",
+          "title": "Vicarage Road",
+          "badges": []
+        },
+        "itwiki": {
+          "site": "itwiki",
+          "title": "Vicarage Road",
+          "badges": []
+        },
+        "jawiki": {
+          "site": "jawiki",
+          "title": "ヴィカレージ・ロード",
+          "badges": []
+        },
+        "kowiki": {
+          "site": "kowiki",
+          "title": "비커리지 로드",
+          "badges": []
+        },
+        "lvwiki": {
+          "site": "lvwiki",
+          "title": "Vicarage Road",
+          "badges": []
+        },
+        "maiwiki": {
+          "site": "maiwiki",
+          "title": "विकारेज रोड",
+          "badges": []
+        },
+        "mkwiki": {
+          "site": "mkwiki",
+          "title": "Викариџ Роуд",
+          "badges": []
+        },
+        "nlwiki": {
+          "site": "nlwiki",
+          "title": "Vicarage Road",
+          "badges": []
+        },
+        "nowiki": {
+          "site": "nowiki",
+          "title": "Vicarage Road",
+          "badges": []
+        },
+        "pawiki": {
+          "site": "pawiki",
+          "title": "ਵਿਕਾਰਾਗ ਰੋਡ",
+          "badges": []
+        },
+        "plwiki": {
+          "site": "plwiki",
+          "title": "Vicarage Road",
+          "badges": []
+        },
+        "ptwiki": {
+          "site": "ptwiki",
+          "title": "Vicarage Road",
+          "badges": []
+        },
+        "rowiki": {
+          "site": "rowiki",
+          "title": "Vicarage Road",
+          "badges": []
+        },
+        "ruwiki": {
+          "site": "ruwiki",
+          "title": "Викаридж Роуд",
+          "badges": []
+        },
+        "simplewiki": {
+          "site": "simplewiki",
+          "title": "Vicarage Road",
+          "badges": []
+        },
+        "svwiki": {
+          "site": "svwiki",
+          "title": "Vicarage Road",
+          "badges": []
+        },
+        "thwiki": {
+          "site": "thwiki",
+          "title": "วิคาริจโรด",
+          "badges": []
+        },
+        "trwiki": {
+          "site": "trwiki",
+          "title": "Vicarage Road",
+          "badges": []
+        },
+        "ukwiki": {
+          "site": "ukwiki",
+          "title": "Вікерейдж Роуд",
+          "badges": []
+        },
+        "zh_yuewiki": {
+          "site": "zh_yuewiki",
+          "title": "維卡拉格路運動場",
+          "badges": []
+        },
+        "zhwiki": {
+          "site": "zhwiki",
+          "title": "維卡拉格路體育場",
+          "badges": []
+        }
+      }
+    }
+  }
+}

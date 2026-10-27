@@ -1,0 +1,36 @@
+.generated-distance-note { padding: 10px 0; border-block: 1px solid var(--line); margin-bottom: 12px; }
+.generated-distance-note strong, .generated-distance-note small { display: block; font-size: 11px; }
+.generated-distance-note small { color: var(--muted); margin-top: 3px; }
+.generated-distance-note p { font-size: 10px; line-height: 1.5; color: var(--muted); margin: 6px 0 0; }
+.players-card .team-roster { width: 100%; table-layout: fixed; border-collapse: collapse; margin-top: 18px; font-size: 12px; }
+.team-roster caption { text-align: left; font-size: 12px; font-weight: 600; color: var(--ink); margin-bottom: 8px; }
+.team-roster th { text-align: left; font-weight: 500; color: var(--muted); font-size: 10px; padding: 4px 0; }
+.team-roster td { padding: 0; border-bottom: 1px solid var(--line); vertical-align: middle; }
+.team-roster .distance-column { width: 92px; text-align: right; font-variant-numeric: tabular-nums; }
+.team-roster .observation-column { width: 30%; text-align: right; font-size: 9px; color: var(--muted); overflow-wrap: anywhere; }
+.players-card .team-roster .roster-person { display: grid; grid-template-columns: 25px minmax(0, 1fr); align-items: center; gap: 8px; width: 100%; min-height: 48px; padding: 7px 8px 7px 0; border: 0; background: transparent; text-align: left; font-size: 12px; }
+.roster-person .roster-shirt { min-width: 20px; font-weight: 500; color: #fff; text-align: center; }
+.roster-identity { min-width: 0; line-height: 1.4; overflow-wrap: anywhere; }
+.roster-role, .off-pitch { display: block; font-size: 10px; color: var(--muted); margin-top: 2px; }
+.team-roster tr.selected { background: #e8edda; }
+.players-card .team-roster .distance-sort { padding: 6px 0 6px 4px; min-height: 44px; border: 0; background: transparent; color: var(--ink); font-size: 10px; text-align: right; line-height: 1.4; }
+.players-card .team-roster .generated-distance-value { display: block; padding-left: 8px; font-size: 12px; color: var(--ink); white-space: nowrap; }
+.players-card .selected-player { margin: 0 0 16px; padding: 12px; border: 0; background: #edf0e1; border-radius: 9px; }
+.selected-player-heading { display: grid; grid-template-columns: 24px minmax(0, 1fr); align-items: center; gap: 9px; }
+.selected-player-heading .selected-shirt { color: #fff; }
+.players-card .selected-player .eyebrow { font-size: 9px; line-height: 1.4; margin: 0 0 3px; }
+.players-card .selected-player h3 { font: 400 21px/1.2 Georgia, serif; margin: 0; overflow-wrap: anywhere; }
+.players-card .selected-player .selected-role { font-size: 11px; line-height: 1.4; margin: 7px 0; }
+.players-card .selected-generated-distance { font-size: 12px; line-height: 1.5; margin: 0 0 3px; font-variant-numeric: tabular-nums; }
+.players-card .selected-distance-qualification { font-size: 10px; line-height: 1.4; color: var(--muted); margin: 0; }
+.players-card .selected-player-details { margin: 7px 0 0; padding: 0; border: 0; }
+.players-card .selected-player-details summary { min-height: 32px; display: list-item; cursor: pointer; font-size: 10px; line-height: 1.5; padding: 5px 0; color: var(--ink); }
+.players-card .selected-player-details p { font-size: 10px; line-height: 1.5; margin: 6px 0; }
+.roster-source-note { font-size: 10px; color: var(--muted); margin: 0 0 18px; }
+.selected-player .role-source { line-height: 1.6; }
+.role-source ::deep a { overflow-wrap: anywhere; }
+@media (max-width: 760px) {
+    .players-card .selected-player-details summary { min-height: 44px; }
+    .players-card .team-roster { font-size: 12px; }
+    .team-roster .distance-column { width: 86px; }
+}

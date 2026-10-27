@@ -1,0 +1,117 @@
+{
+  "entities": {
+    "Q139964079": {
+      "pageid": 133412575,
+      "ns": 0,
+      "title": "Q139964079",
+      "lastrevid": 2529454801,
+      "modified": "2026-08-10T03:23:59Z",
+      "type": "item",
+      "id": "Q139964079",
+      "labels": {
+        "en": {
+          "language": "en",
+          "value": "2026–27 Aston Villa F.C. season"
+        }
+      },
+      "claims": {
+        "P5138": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P5138",
+              "hash": "cd97b894063bcc4d6ee9a70fba4e4ab9dec5fe80",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 18711,
+                  "id": "Q18711"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q139964079$17A34D81-8C89-4CAA-A64C-54C8FA449102",
+            "rank": "normal"
+          }
+        ],
+        "P31": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P31",
+              "hash": "9ddb403180b684facfb50183c3b3a99ce0b171d1",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 26887310,
+                  "id": "Q26887310"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q139964079$D3CD2678-7838-4E35-963B-D0D273BF92EE",
+            "rank": "normal"
+          }
+        ],
+        "P641": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P641",
+              "hash": "1624e15e061523279bc14bb6497168e45caacb32",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 2736,
+                  "id": "Q2736"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q139964079$AA7898AD-B2B4-439A-94D4-18728130DDAE",
+            "rank": "normal"
+          }
+        ],
+        "P2348": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P2348",
+              "hash": "33dc124fb8ec0bedb17f94adfe80c432678d5a4d",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 53389812,
+                  "id": "Q53389812"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q139964079$2da9a70f-412c-c008-978f-b6c070954886",
+            "rank": "normal"
+          }
+        ]
+      },
+      "sitelinks": {
+        "enwiki": {
+          "site": "enwiki",
+          "title": "2026–27 Aston Villa F.C. season",
+          "badges": []
+        },
+        "itwiki": {
+          "site": "itwiki",
+          "title": "Aston Villa Football Club 2026-2027",
+          "badges": []
+        }
+      }
+    }
+  }
+}

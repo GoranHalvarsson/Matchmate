@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <ItemGroup><ProjectReference Include="../Matchmate.Core/Matchmate.Core.csproj" /></ItemGroup>
+  <ItemGroup>
+    <InternalsVisibleTo Include="Matchmate.ReplayPublisher" />
+    <PackageReference Include="Azure.Identity" Version="1.21.0" />
+    <PackageReference Include="Azure.Storage.Blobs" Version="12.30.1" />
+    <PackageReference Include="Azure.Messaging.EventHubs.Processor" Version="5.12.2" />
+    <PackageReference Include="Microsoft.Azure.Cosmos" Version="3.63.2" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.4" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="../../data/match-enrichment/brentford-chelsea-2026-09-18-player-briefs-v2.json" LogicalName="Matchmate.PlayerBriefs.v1.json" />
+    <EmbeddedResource Include="../../data/generated-replay-distance/brentford-full-v5-distance-v2.gz" LogicalName="Matchmate.GeneratedDistance.v1.gz" />
+    <EmbeddedResource Include="../../data/generated-replay-distance/liverpool-actions-v1-distance-v1.gz" LogicalName="Matchmate.GeneratedDistance.Liverpool.v1.gz" />
+  </ItemGroup>
+</Project>

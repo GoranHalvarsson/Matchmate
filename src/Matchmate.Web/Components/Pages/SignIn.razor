@@ -1,0 +1,22 @@
+@page "/account/sign-in"
+@attribute [AllowAnonymous]
+@using Matchmate.Web.Localization
+@inject MatchLanguageState LanguageState
+
+<PageTitle>@T("SignInTitle")</PageTitle>
+<main class="account-page">
+    <a href="/" class="brand">matchmate<span>●</span></a>
+    <section class="account-card">
+        <p class="eyebrow">@T("FootballTagline")</p>
+        <h1>@T("SignInHeading")</h1>
+        <p>@T("SignInDescription")</p>
+        <a class="primary-link" href="@LoginUrl" data-enhance-nav="false">@T("SignInEmail")</a>
+        <p class="muted">@T("SelectedTesters")</p>
+    </section>
+</main>
+
+@code {
+    private string T(string key) => ShellText.Get(LanguageState.Language, key);
+    [SupplyParameterFromQuery(Name = "returnUrl")] public string? ReturnUrl { get; set; }
+    private string LoginUrl => "/auth/login?returnUrl=" + Uri.EscapeDataString(ExternalIdAuthentication.SafeReturnUrl(ReturnUrl));
+}

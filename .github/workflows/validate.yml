@@ -1,0 +1,42 @@
+name: Validate Matchmate source
+
+on:
+  pull_request:
+    branches: [main]
+  workflow_call:
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    env:
+      DOTNET_CLI_TELEMETRY_OPTOUT: 1
+      FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
+    steps:
+      - uses: actions/checkout@v6
+        with:
+          persist-credentials: false
+      - uses: actions/setup-node@v6
+        with:
+          node-version: 24
+      - uses: actions/setup-dotnet@v6
+        with:
+          dotnet-version: 11.0.100-rc.2.26504.105
+      - name: Verify release rules, application and app-only infrastructure
+        shell: bash
+        run: |
+          set -euo pipefail
+          node --test .github/scripts/*.test.mjs
+          dotnet build Matchmate.slnx --configuration Release
+          dotnet test tests/Matchmate.Tests/Matchmate.Tests.csproj --configuration Release --no-build --filter '(FullyQualifiedName~WebAuthenticationTests|FullyQualifiedName~HostedRuntimeTests|FullyQualifiedName~ApiServiceAuthenticationTests|FullyQualifiedName~ReplayPipelineTests|FullyQualifiedName~DatasetSelectionTests|FullyQualifiedName~DatasetApiTests|FullyQualifiedName~SharedFootballTests|FullyQualifiedName~SharedFootballUiTests|FullyQualifiedName~CanonicalCloudTests|FullyQualifiedName~LeagueReferenceTests|FullyQualifiedName~LeagueUiTests|FullyQualifiedName~CurrentSeasonTests|FullyQualifiedName~LeagueChat)&FullyQualifiedName!~All208OriginalSnapshotsAnd4160ClubFactsMatchPinnedPocAndPeriodContext&RequiresLocalData!=true'
+          az bicep build --file infra/container-apps/apps.bicep --stdout > /dev/null
+          az bicep build --file infra/container-apps/foundation.bicep --stdout > /dev/null
+          az bicep build --file infra/container-apps/pipeline-access.bicep --stdout > /dev/null
+          az bicep build --file infra/azure-foundation/registry.bicep --stdout > /dev/null
+          az bicep build --file infra/azure-foundation/registry-access.bicep --stdout > /dev/null
+      - name: Build API container image
+        run: docker build --file src/Matchmate.Api/Dockerfile --tag matchmate-api:ci .
+      - name: Build Worker container image
+        run: docker build --file src/Matchmate.Worker/Dockerfile --tag matchmate-worker:ci .

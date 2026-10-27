@@ -1,0 +1,4281 @@
+{
+  "entities": {
+    "Q18716": {
+      "pageid": 21784,
+      "ns": 0,
+      "title": "Q18716",
+      "lastrevid": 2553220284,
+      "modified": "2026-10-04T23:00:45Z",
+      "type": "item",
+      "id": "Q18716",
+      "labels": {
+        "en": {
+          "language": "en",
+          "value": "Newcastle United F.C."
+        }
+      },
+      "descriptions": {
+        "en": {
+          "language": "en",
+          "value": "association football club in Newcastle upon Tyne, England"
+        }
+      },
+      "claims": {
+        "P31": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P31",
+              "hash": "de95c192b6d83336c7c4d98d15b566a0ca33065a",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 476028,
+                  "id": "Q476028"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "q18716$6C6786FE-B5FB-4068-BD46-B52E38636CA4",
+            "rank": "normal"
+          }
+        ],
+        "P118": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P118",
+              "hash": "b4fb0b181cefa4245c5e830ecb6770103af6002d",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 9448,
+                  "id": "Q9448"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P580": [
+                {
+                  "snaktype": "value",
+                  "property": "P580",
+                  "hash": "154b581c43d72b52e77b5c1e92455e4eafe99a97",
+                  "datavalue": {
+                    "value": {
+                      "time": "+2017-00-00T00:00:00Z",
+                      "timezone": 0,
+                      "before": 0,
+                      "after": 0,
+                      "precision": 9,
+                      "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                    },
+                    "type": "time"
+                  },
+                  "datatype": "time"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P580"
+            ],
+            "id": "q18716$0E76B2A7-A9DC-4E8D-A9F5-B1B93282B5C6",
+            "rank": "normal"
+          }
+        ],
+        "P115": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P115",
+              "hash": "1976451cf980803cb82f779ddb6b2802e6660adf",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 191774,
+                  "id": "Q191774"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "q18716$BF093771-1F0E-4847-88EB-715BB3CBDF71",
+            "rank": "normal"
+          }
+        ],
+        "P286": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P286",
+              "hash": "801d06087dabbb442b8f857e40d6f99a357e39df",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 144048,
+                  "id": "Q144048"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P580": [
+                {
+                  "snaktype": "value",
+                  "property": "P580",
+                  "hash": "951a4f50f51f43b1f7ed0d6212f74672d28c41ac",
+                  "datavalue": {
+                    "value": {
+                      "time": "+2016-03-11T00:00:00Z",
+                      "timezone": 0,
+                      "before": 0,
+                      "after": 0,
+                      "precision": 11,
+                      "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                    },
+                    "type": "time"
+                  },
+                  "datatype": "time"
+                }
+              ],
+              "P582": [
+                {
+                  "snaktype": "value",
+                  "property": "P582",
+                  "hash": "3fb3fc6d028836a65a0444e451e8fbf9427a5582",
+                  "datavalue": {
+                    "value": {
+                      "time": "+2019-06-30T00:00:00Z",
+                      "timezone": 0,
+                      "before": 0,
+                      "after": 0,
+                      "precision": 11,
+                      "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                    },
+                    "type": "time"
+                  },
+                  "datatype": "time"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P580",
+              "P582"
+            ],
+            "id": "q18716$EDA4E5D9-9745-4F9E-9168-7FA56ACF6B88",
+            "rank": "normal"
+          },
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P286",
+              "hash": "b6df9194d04763c7a4bf362bc74e70fa7f81e8c2",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 331904,
+                  "id": "Q331904"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P580": [
+                {
+                  "snaktype": "value",
+                  "property": "P580",
+                  "hash": "af5b59c6939052bae269db854bd1447a334c7cbb",
+                  "datavalue": {
+                    "value": {
+                      "time": "+2019-07-17T00:00:00Z",
+                      "timezone": 0,
+                      "before": 0,
+                      "after": 0,
+                      "precision": 11,
+                      "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                    },
+                    "type": "time"
+                  },
+                  "datatype": "time"
+                }
+              ],
+              "P582": [
+                {
+                  "snaktype": "value",
+                  "property": "P582",
+                  "hash": "7d88d2f7f1b92862374724e11977ca7b6434177e",
+                  "datavalue": {
+                    "value": {
+                      "time": "+2021-10-20T00:00:00Z",
+                      "timezone": 0,
+                      "before": 0,
+                      "after": 0,
+                      "precision": 11,
+                      "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                    },
+                    "type": "time"
+                  },
+                  "datatype": "time"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P580",
+              "P582"
+            ],
+            "id": "Q18716$69dec13a-478f-9d13-8e86-99956ccc0e26",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "870901dbc94fe46e3b21d0fd0d301fd74970d7b1",
+                "snaks": {
+                  "P854": [
+                    {
+                      "snaktype": "value",
+                      "property": "P854",
+                      "hash": "2a099ec26706b8686a35af27f2886f88c9222a75",
+                      "datavalue": {
+                        "value": "https://www.transfermarkt.com/newcastle-united/mitarbeiterhistorie/verein/762",
+                        "type": "string"
+                      },
+                      "datatype": "url"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P854"
+                ]
+              }
+            ]
+          },
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P286",
+              "hash": "f44b9ff8e0954742e52ea5064e0c11615a5b298d",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 5336135,
+                  "id": "Q5336135"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P580": [
+                {
+                  "snaktype": "value",
+                  "property": "P580",
+                  "hash": "5baad23b5147d92f67fecd7f9a424e0915545224",
+                  "datavalue": {
+                    "value": {
+                      "time": "+2021-11-08T00:00:00Z",
+                      "timezone": 0,
+                      "before": 0,
+                      "after": 0,
+                      "precision": 11,
+                      "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                    },
+                    "type": "time"
+                  },
+                  "datatype": "time"
+                }
+              ],
+              "P582": [
+                {
+                  "snaktype": "value",
+                  "property": "P582",
+                  "hash": "6a99c32c403ba51e86c44b3cbb17e4fb1dc51c21",
+                  "datavalue": {
+                    "value": {
+                      "time": "+2026-07-30T00:00:00Z",
+                      "timezone": 0,
+                      "before": 0,
+                      "after": 0,
+                      "precision": 11,
+                      "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                    },
+                    "type": "time"
+                  },
+                  "datatype": "time"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P580",
+              "P582"
+            ],
+            "id": "Q18716$4c2df970-4a22-a5fd-9fa1-d2bd37be7833",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "870901dbc94fe46e3b21d0fd0d301fd74970d7b1",
+                "snaks": {
+                  "P854": [
+                    {
+                      "snaktype": "value",
+                      "property": "P854",
+                      "hash": "2a099ec26706b8686a35af27f2886f88c9222a75",
+                      "datavalue": {
+                        "value": "https://www.transfermarkt.com/newcastle-united/mitarbeiterhistorie/verein/762",
+                        "type": "string"
+                      },
+                      "datatype": "url"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P854"
+                ]
+              }
+            ]
+          },
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P286",
+              "hash": "c82a8c65e461f8d72c3726a17dd11fadd1dfe2ef",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 690028,
+                  "id": "Q690028"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P580": [
+                {
+                  "snaktype": "value",
+                  "property": "P580",
+                  "hash": "f71abc8ccc0515d1717a2a2fc1052b379fbdd2bf",
+                  "datavalue": {
+                    "value": {
+                      "time": "+2026-08-05T00:00:00Z",
+                      "timezone": 0,
+                      "before": 0,
+                      "after": 0,
+                      "precision": 11,
+                      "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                    },
+                    "type": "time"
+                  },
+                  "datatype": "time"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P580"
+            ],
+            "id": "Q18716$279d7fcb-4753-4336-7ac4-e413c3428925",
+            "rank": "preferred",
+            "references": [
+              {
+                "hash": "c64442666806b71e777fbab7c2a69efdadd8d20c",
+                "snaks": {
+                  "P854": [
+                    {
+                      "snaktype": "value",
+                      "property": "P854",
+                      "hash": "de6ca1eb62f67b76be7bb17071e1df406b6f1002",
+                      "datavalue": {
+                        "value": "https://www.newcastleunited.com/en/news/newcastle-united-appoint-matthias-jaissle-as-the-clubs-new-head-coach",
+                        "type": "string"
+                      },
+                      "datatype": "url"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P854"
+                ]
+              }
+            ]
+          }
+        ],
+        "P373": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P373",
+              "hash": "e030f3a94d1c4287db13ef122b7f920548025c40",
+              "datavalue": {
+                "value": "Newcastle United FC",
+                "type": "string"
+              },
+              "datatype": "string"
+            },
+            "type": "statement",
+            "id": "q18716$4B28F387-9A2D-4820-BB45-E8276FA58F0C",
+            "rank": "normal"
+          }
+        ],
+        "P856": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P856",
+              "hash": "90d3580633ac03c43f16c9c931408c18326e2b66",
+              "datavalue": {
+                "value": "https://www.nufc.co.uk/",
+                "type": "string"
+              },
+              "datatype": "url"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P407": [
+                {
+                  "snaktype": "value",
+                  "property": "P407",
+                  "hash": "daf1c4fcb58181b02dff9cc89deb084004ddae4b",
+                  "datavalue": {
+                    "value": {
+                      "entity-type": "item",
+                      "numeric-id": 1860,
+                      "id": "Q1860"
+                    },
+                    "type": "wikibase-entityid"
+                  },
+                  "datatype": "wikibase-item"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P407"
+            ],
+            "id": "Q18716$EEB31903-DE3A-480A-A14B-87A4A57FE898",
+            "rank": "deprecated",
+            "references": [
+              {
+                "hash": "fa278ebfc458360e5aed63d5058cca83c46134f1",
+                "snaks": {
+                  "P143": [
+                    {
+                      "snaktype": "value",
+                      "property": "P143",
+                      "hash": "e4f6d9441d0600513c4533c672b5ab472dc73694",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 328,
+                          "id": "Q328"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P143"
+                ]
+              }
+            ]
+          },
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P856",
+              "hash": "231bdf70b4f7fde1808fe39bb91bbcbbffe6c020",
+              "datavalue": {
+                "value": "https://www.newcastleunited.com/",
+                "type": "string"
+              },
+              "datatype": "url"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P407": [
+                {
+                  "snaktype": "value",
+                  "property": "P407",
+                  "hash": "daf1c4fcb58181b02dff9cc89deb084004ddae4b",
+                  "datavalue": {
+                    "value": {
+                      "entity-type": "item",
+                      "numeric-id": 1860,
+                      "id": "Q1860"
+                    },
+                    "type": "wikibase-entityid"
+                  },
+                  "datatype": "wikibase-item"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P407"
+            ],
+            "id": "Q18716$b94fbaaa-4810-f641-ca6b-233ebeedab15",
+            "rank": "normal"
+          }
+        ],
+        "P910": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P910",
+              "hash": "93cfd33ef475dded1242be5a56db141cbcc40516",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 6284953,
+                  "id": "Q6284953"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q18716$B8728CC1-08E4-410C-AA92-57A9FF63A545",
+            "rank": "normal"
+          }
+        ],
+        "P646": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P646",
+              "hash": "266f08541fad49366f6bb9c4477a131079ff7e0f",
+              "datavalue": {
+                "value": "/m/0fvly",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q18716$3A132799-0177-4709-B662-7444F9BDEF21",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "2b00cb481cddcac7623114367489b5c194901c4a",
+                "snaks": {
+                  "P248": [
+                    {
+                      "snaktype": "value",
+                      "property": "P248",
+                      "hash": "a94b740202b097dd33355e0e6c00e54b9395e5e0",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 15241312,
+                          "id": "Q15241312"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ],
+                  "P577": [
+                    {
+                      "snaktype": "value",
+                      "property": "P577",
+                      "hash": "fde79ecb015112d2f29229ccc1ec514ed3e71fa2",
+                      "datavalue": {
+                        "value": {
+                          "time": "+2013-10-28T00:00:00Z",
+                          "timezone": 0,
+                          "before": 0,
+                          "after": 0,
+                          "precision": 11,
+                          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                        },
+                        "type": "time"
+                      },
+                      "datatype": "time"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P248",
+                  "P577"
+                ]
+              }
+            ]
+          }
+        ],
+        "P641": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P641",
+              "hash": "1624e15e061523279bc14bb6497168e45caacb32",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 2736,
+                  "id": "Q2736"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q18716$4D987992-646F-4803-8672-B80F6E02DE2D",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "fa278ebfc458360e5aed63d5058cca83c46134f1",
+                "snaks": {
+                  "P143": [
+                    {
+                      "snaktype": "value",
+                      "property": "P143",
+                      "hash": "e4f6d9441d0600513c4533c672b5ab472dc73694",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 328,
+                          "id": "Q328"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P143"
+                ]
+              }
+            ]
+          }
+        ],
+        "P1344": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P1344",
+              "hash": "08f682784add6c5291eaecbec093b0291f26a71a",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 4484486,
+                  "id": "Q4484486"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P1351": [
+                {
+                  "snaktype": "value",
+                  "property": "P1351",
+                  "hash": "ac4c4ffaa0e76ee138c0841fb113a36bc5959280",
+                  "datavalue": {
+                    "value": {
+                      "amount": "+2",
+                      "unit": "1"
+                    },
+                    "type": "quantity"
+                  },
+                  "datatype": "quantity"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P1351"
+            ],
+            "id": "Q18716$497D1789-256E-4CD4-99CB-3131663034BA",
+            "rank": "normal"
+          },
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P1344",
+              "hash": "82235a033cffa31733fd7a8fce1e2273782f2a5b",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 4484492,
+                  "id": "Q4484492"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P1351": [
+                {
+                  "snaktype": "value",
+                  "property": "P1351",
+                  "hash": "a5ae9e70a8e44bd529c394ae84eeb95720c749f5",
+                  "datavalue": {
+                    "value": {
+                      "amount": "+1",
+                      "unit": "1"
+                    },
+                    "type": "quantity"
+                  },
+                  "datatype": "quantity"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P1351"
+            ],
+            "id": "Q18716$5491CA67-7FA8-440C-8513-1C0D89D64968",
+            "rank": "normal"
+          },
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P1344",
+              "hash": "58403cfe3680f8d1e0c1df895d295d01fdec77e9",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 4558369,
+                  "id": "Q4558369"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q18716$3ED0F623-6E8F-440B-A772-9BE0BB9945E7",
+            "rank": "normal"
+          },
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P1344",
+              "hash": "cac665c841e64dcef5d63588a206d0536bb3c2d6",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 4558514,
+                  "id": "Q4558514"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q18716$3531012C-ED09-4253-8E8E-E70B9EC06C00",
+            "rank": "normal"
+          },
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P1344",
+              "hash": "3242b82151c8008c78ce8e4394e737e7c166a544",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 4558845,
+                  "id": "Q4558845"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q18716$16D90D15-1AFF-4C24-841A-4838600B3F24",
+            "rank": "normal"
+          },
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P1344",
+              "hash": "71011e4a8deafca4f703157186eef0bcaac3f73a",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 4559167,
+                  "id": "Q4559167"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q18716$5B52859F-0E59-4D2E-84E0-1AFCA5C46944",
+            "rank": "normal"
+          },
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P1344",
+              "hash": "7e9d28602c1ca8b6f22062a365d29a859666b26f",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 4559327,
+                  "id": "Q4559327"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q18716$1CFDB25F-8431-4103-ACD6-065D62984493",
+            "rank": "normal"
+          },
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P1344",
+              "hash": "952882785133712fbe4b7e41ef1c1a2cb3cb6221",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 4561532,
+                  "id": "Q4561532"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q18716$0C02FD18-07A0-46B7-9BE1-FFA8254150CC",
+            "rank": "normal"
+          },
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P1344",
+              "hash": "c9d0d6fb158b7e978a3a122e5860fc3971b275e7",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 4563218,
+                  "id": "Q4563218"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P1351": [
+                {
+                  "snaktype": "value",
+                  "property": "P1351",
+                  "hash": "ac4c4ffaa0e76ee138c0841fb113a36bc5959280",
+                  "datavalue": {
+                    "value": {
+                      "amount": "+2",
+                      "unit": "1"
+                    },
+                    "type": "quantity"
+                  },
+                  "datatype": "quantity"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P1351"
+            ],
+            "id": "Q18716$27A10A5D-27BE-4C0C-8DDB-42A301DEF50A",
+            "rank": "normal"
+          },
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P1344",
+              "hash": "62e070cdd7439ad9cb89903ced33ca0726d35ba4",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 4567139,
+                  "id": "Q4567139"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P1351": [
+                {
+                  "snaktype": "value",
+                  "property": "P1351",
+                  "hash": "ac4c4ffaa0e76ee138c0841fb113a36bc5959280",
+                  "datavalue": {
+                    "value": {
+                      "amount": "+2",
+                      "unit": "1"
+                    },
+                    "type": "quantity"
+                  },
+                  "datatype": "quantity"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P1351"
+            ],
+            "id": "Q18716$760D4204-A79A-4A25-90C5-3190AF61B9E2",
+            "rank": "normal"
+          }
+        ],
+        "P214": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P214",
+              "hash": "9c4ecf1745db402f9d4fd294e497ea97b18db244",
+              "datavalue": {
+                "value": "131312625",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q18716$2D02E08A-5E05-4726-9BC1-0A0BF310B5FA",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "94cd09bdd3373d7b8eb4e3cc26e524afe7466ff7",
+                "snaks": {
+                  "P248": [
+                    {
+                      "snaktype": "value",
+                      "property": "P248",
+                      "hash": "6b7d4330c4aac4caec4ede9de0311ce273f88ecd",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 54919,
+                          "id": "Q54919"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ],
+                  "P813": [
+                    {
+                      "snaktype": "value",
+                      "property": "P813",
+                      "hash": "bf4494cf3e2345d75aa355a5847a72d38ca6c55d",
+                      "datavalue": {
+                        "value": {
+                          "time": "+2015-08-02T00:00:00Z",
+                          "timezone": 0,
+                          "before": 0,
+                          "after": 0,
+                          "precision": 11,
+                          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                        },
+                        "type": "time"
+                      },
+                      "datatype": "time"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P248",
+                  "P813"
+                ]
+              }
+            ]
+          }
+        ],
+        "P571": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P571",
+              "hash": "d33896170238ed0d48ff1267ffa9d72b0392a9de",
+              "datavalue": {
+                "value": {
+                  "time": "+1892-12-09T00:00:00Z",
+                  "timezone": 0,
+                  "before": 0,
+                  "after": 0,
+                  "precision": 11,
+                  "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                },
+                "type": "time"
+              },
+              "datatype": "time"
+            },
+            "type": "statement",
+            "id": "Q18716$61D2ED3B-9B63-462D-B243-5DCB7E44A4F3",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "fa278ebfc458360e5aed63d5058cca83c46134f1",
+                "snaks": {
+                  "P143": [
+                    {
+                      "snaktype": "value",
+                      "property": "P143",
+                      "hash": "e4f6d9441d0600513c4533c672b5ab472dc73694",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 328,
+                          "id": "Q328"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P143"
+                ]
+              }
+            ]
+          }
+        ],
+        "P2002": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P2002",
+              "hash": "e15c1fd0dc55cd4f513bf337aa635ac8237171ca",
+              "datavalue": {
+                "value": "nufc",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P585": [
+                {
+                  "snaktype": "value",
+                  "property": "P585",
+                  "hash": "56cc037272f9f69be746b8e68d238413c936dea5",
+                  "datavalue": {
+                    "value": {
+                      "time": "+2020-04-22T00:00:00Z",
+                      "timezone": 0,
+                      "before": 0,
+                      "after": 0,
+                      "precision": 11,
+                      "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                    },
+                    "type": "time"
+                  },
+                  "datatype": "time"
+                }
+              ],
+              "P6552": [
+                {
+                  "snaktype": "value",
+                  "property": "P6552",
+                  "hash": "070a7b388baceda54240b158ab93ad79692cf1cd",
+                  "datavalue": {
+                    "value": "35758259",
+                    "type": "string"
+                  },
+                  "datatype": "external-id"
+                }
+              ],
+              "P1552": [
+                {
+                  "snaktype": "value",
+                  "property": "P1552",
+                  "hash": "62f0039d240f7eeba6c6908a0d8807a6188324a1",
+                  "datavalue": {
+                    "value": {
+                      "entity-type": "item",
+                      "numeric-id": 28378282,
+                      "id": "Q28378282"
+                    },
+                    "type": "wikibase-entityid"
+                  },
+                  "datatype": "wikibase-item"
+                }
+              ],
+              "P3744": [
+                {
+                  "snaktype": "value",
+                  "property": "P3744",
+                  "hash": "3bc90ff03df1b6c3e2e9807548c9de7f6f995bdd",
+                  "datavalue": {
+                    "value": {
+                      "amount": "+1544477",
+                      "unit": "1"
+                    },
+                    "type": "quantity"
+                  },
+                  "datatype": "quantity"
+                }
+              ],
+              "P580": [
+                {
+                  "snaktype": "value",
+                  "property": "P580",
+                  "hash": "abedc6b17f94104b9a39acc0162b3e72fbc2ecb2",
+                  "datavalue": {
+                    "value": {
+                      "time": "+2009-04-27T00:00:00Z",
+                      "timezone": 0,
+                      "before": 0,
+                      "after": 0,
+                      "precision": 11,
+                      "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                    },
+                    "type": "time"
+                  },
+                  "datatype": "time"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P585",
+              "P6552",
+              "P1552",
+              "P3744",
+              "P580"
+            ],
+            "id": "Q18716$8CEB24D5-D898-4B60-9255-2DE28CDA2C8F",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "288ab581e7d2d02995a26dfa8b091d96e78457fc",
+                "snaks": {
+                  "P143": [
+                    {
+                      "snaktype": "value",
+                      "property": "P143",
+                      "hash": "6a164248fc96bfa583bbb495cb63ae6401ec203c",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 206855,
+                          "id": "Q206855"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P143"
+                ]
+              }
+            ]
+          },
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P2002",
+              "hash": "9ac23e02b09d869d4e8ec489bd9dfe0716c38af9",
+              "datavalue": {
+                "value": "NUFC",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q18716$F2A036D4-2BBB-44A7-BA83-D3E0B2F5ACDA",
+            "rank": "normal"
+          }
+        ],
+        "P2013": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P2013",
+              "hash": "96155ebfdfad896f713bfb9cfc4a7406a501e154",
+              "datavalue": {
+                "value": "newcastleunited",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q18716$56B2F4F4-97BB-4077-B210-1F6D9DB2B4D4",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "288ab581e7d2d02995a26dfa8b091d96e78457fc",
+                "snaks": {
+                  "P143": [
+                    {
+                      "snaktype": "value",
+                      "property": "P143",
+                      "hash": "6a164248fc96bfa583bbb495cb63ae6401ec203c",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 206855,
+                          "id": "Q206855"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P143"
+                ]
+              }
+            ]
+          }
+        ],
+        "P131": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P131",
+              "hash": "9d8eca6cf37fead3e74874ff914c1c56f0b109a1",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 1425428,
+                  "id": "Q1425428"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q18716$c5e12b94-4d75-e01d-ade7-d5d9272f989e",
+            "rank": "normal"
+          }
+        ],
+        "P2003": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P2003",
+              "hash": "c68acbc0f954c695b33ce2fa97c5b64a0f3331b1",
+              "datavalue": {
+                "value": "nufc",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q18716$51FE77FA-3F3B-4977-9357-6A954D1E8909",
+            "rank": "normal"
+          }
+        ],
+        "P2397": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P2397",
+              "hash": "7b3a4932918c6c5ac2e74e9cb52ede95412db61d",
+              "datavalue": {
+                "value": "UCywGl_BPp9QhD0uAcP2HsJw",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P1810": [
+                {
+                  "snaktype": "value",
+                  "property": "P1810",
+                  "hash": "69d309bb345a7ba336a236e1fdffb53a14ca088f",
+                  "datavalue": {
+                    "value": "Newcastle United",
+                    "type": "string"
+                  },
+                  "datatype": "string"
+                }
+              ],
+              "P580": [
+                {
+                  "snaktype": "value",
+                  "property": "P580",
+                  "hash": "b468a0f4f16a72c9c9a9a005d107e6b80a29e4a2",
+                  "datavalue": {
+                    "value": {
+                      "time": "+2011-06-23T00:00:00Z",
+                      "timezone": 0,
+                      "before": 0,
+                      "after": 0,
+                      "precision": 11,
+                      "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                    },
+                    "type": "time"
+                  },
+                  "datatype": "time"
+                }
+              ],
+              "P3744": [
+                {
+                  "snaktype": "value",
+                  "property": "P3744",
+                  "hash": "4ab881b96dbd2151a5eb78e83949c1944abc17cc",
+                  "datavalue": {
+                    "value": {
+                      "amount": "+106000",
+                      "unit": "1"
+                    },
+                    "type": "quantity"
+                  },
+                  "datatype": "quantity"
+                }
+              ],
+              "P3740": [
+                {
+                  "snaktype": "value",
+                  "property": "P3740",
+                  "hash": "033f75df708b430081bd69d9676d211d4ecbefc0",
+                  "datavalue": {
+                    "value": {
+                      "amount": "+451",
+                      "unit": "1"
+                    },
+                    "type": "quantity"
+                  },
+                  "datatype": "quantity"
+                }
+              ],
+              "P5436": [
+                {
+                  "snaktype": "value",
+                  "property": "P5436",
+                  "hash": "6213247a1261bee605411d041a83bff248e4b7f7",
+                  "datavalue": {
+                    "value": {
+                      "amount": "+14411393",
+                      "unit": "1"
+                    },
+                    "type": "quantity"
+                  },
+                  "datatype": "quantity"
+                }
+              ],
+              "P585": [
+                {
+                  "snaktype": "value",
+                  "property": "P585",
+                  "hash": "6f95493d1f047ea5e0c1c6bffe08d6e93d80e55b",
+                  "datavalue": {
+                    "value": {
+                      "time": "+2020-12-06T00:00:00Z",
+                      "timezone": 0,
+                      "before": 0,
+                      "after": 0,
+                      "precision": 11,
+                      "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                    },
+                    "type": "time"
+                  },
+                  "datatype": "time"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P1810",
+              "P580",
+              "P3744",
+              "P3740",
+              "P5436",
+              "P585"
+            ],
+            "id": "Q18716$859EB704-BDEE-4050-AE24-F6BE9468DC9A",
+            "rank": "normal"
+          }
+        ],
+        "P1448": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P1448",
+              "hash": "d7abbd3c1847a0ae870af322d2fe00c87ee66f34",
+              "datavalue": {
+                "value": {
+                  "text": "Newcastle United Football Club",
+                  "language": "en"
+                },
+                "type": "monolingualtext"
+              },
+              "datatype": "monolingualtext"
+            },
+            "type": "statement",
+            "id": "Q18716$d7ef7d2d-4b19-5d20-202c-186754bbd30c",
+            "rank": "normal"
+          }
+        ],
+        "P17": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P17",
+              "hash": "a44880420787fb348836dc51d3babc5227c4ef7e",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 145,
+                  "id": "Q145"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q18716$4392E861-88B8-445B-BD9A-D91838F2570E",
+            "rank": "normal"
+          }
+        ],
+        "P3417": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P3417",
+              "hash": "8bebf2d8fb09ef26bb9f19b21d6d44bf65a3897c",
+              "datavalue": {
+                "value": "Newcastle-United-F-C",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q18716$F64BF11F-9C2F-4A0F-BF59-E687AA90D55B",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "3b0a5bb3c1f955edce73740124f7d935698092ad",
+                "snaks": {
+                  "P248": [
+                    {
+                      "snaktype": "value",
+                      "property": "P248",
+                      "hash": "3ac9682e789a3a3791d4fd088b265ea03abef101",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 51711,
+                          "id": "Q51711"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P248"
+                ]
+              }
+            ]
+          }
+        ],
+        "P213": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P213",
+              "hash": "253197ae381bd95c1bd0f187966adf71d72dc117",
+              "datavalue": {
+                "value": "0000000089972033",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q18716$20465549-8708-4EA8-A3BC-0ADAD0426EE5",
+            "rank": "normal"
+          }
+        ],
+        "P2581": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P2581",
+              "hash": "539107cf0f56f29cda4a68e5e307c1efeda96c28",
+              "datavalue": {
+                "value": "03392079n",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q18716$128E6394-ACFD-49DA-92FC-9F6A6B93CCAE",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "248ac337a217a5f5eed7139a82a4e60931611af0",
+                "snaks": {
+                  "P248": [
+                    {
+                      "snaktype": "value",
+                      "property": "P248",
+                      "hash": "25b816aab41db18565946259c950aed6de05dd1e",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 4837690,
+                          "id": "Q4837690"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P248"
+                ]
+              }
+            ]
+          }
+        ],
+        "P2184": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P2184",
+              "hash": "de5f2300729a2cc7e59cd6295aa4840ff469ba5f",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 4923660,
+                  "id": "Q4923660"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q18716$25b65beb-451e-f926-b696-4be50e1dbfaf",
+            "rank": "normal"
+          }
+        ],
+        "P4342": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P4342",
+              "hash": "3270e88fe3104d39932deba9c0271095a271ac2a",
+              "datavalue": {
+                "value": "Newcastle_United",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P4390": [
+                {
+                  "snaktype": "value",
+                  "property": "P4390",
+                  "hash": "1a4df62914ea9afca349bd5fb5d8efd5832d83fa",
+                  "datavalue": {
+                    "value": {
+                      "entity-type": "item",
+                      "numeric-id": 39893449,
+                      "id": "Q39893449"
+                    },
+                    "type": "wikibase-entityid"
+                  },
+                  "datatype": "wikibase-item"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P4390"
+            ],
+            "id": "Q18716$CB027177-D4BC-4FDC-A703-FE611FF71DA5",
+            "rank": "normal"
+          }
+        ],
+        "P6112": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P6112",
+              "hash": "b0c44caa2e613f8ce963b184ca393521ddab8690",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 7133202,
+                  "id": "Q7133202"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q18716$DEA4D978-B1AD-48ED-B3B1-092078DF2CB1",
+            "rank": "normal"
+          }
+        ],
+        "P6364": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P6364",
+              "hash": "fce0c04be4f00432bc95d8e793b2aa2d0bf6cf1e",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 23444,
+                  "id": "Q23444"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q18716$1102AAA2-4F8A-4617-A6FE-2C266A585FD3",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "d4bd87b862b12d99d26e86472d44f26858dee639",
+                "snaks": {
+                  "P143": [
+                    {
+                      "snaktype": "value",
+                      "property": "P143",
+                      "hash": "f30cbd35620c4ea6d0633aaf0210a8916130469b",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 8447,
+                          "id": "Q8447"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P143"
+                ]
+              }
+            ]
+          },
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P6364",
+              "hash": "d2f4f8bd8bee8754e4d8d0aa1d249d5c3c580e70",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 23445,
+                  "id": "Q23445"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q18716$8A3F9650-42C2-4EC2-8789-28EE1C7427C9",
+            "rank": "normal"
+          }
+        ],
+        "P244": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P244",
+              "hash": "ebc0712b921ee70f52fa2391bc23781e5b334bd7",
+              "datavalue": {
+                "value": "n00085656",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q18716$785AD071-1031-47B1-874F-76B3D27DAFE4",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "14fa5898ac764e0660517aa07ea0bbba505f262b",
+                "snaks": {
+                  "P248": [
+                    {
+                      "snaktype": "value",
+                      "property": "P248",
+                      "hash": "6b7d4330c4aac4caec4ede9de0311ce273f88ecd",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 54919,
+                          "id": "Q54919"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ],
+                  "P813": [
+                    {
+                      "snaktype": "value",
+                      "property": "P813",
+                      "hash": "e0d08f96012770600b942d5e8563b2a3499cba8e",
+                      "datavalue": {
+                        "value": {
+                          "time": "+2019-03-06T00:00:00Z",
+                          "timezone": 0,
+                          "before": 0,
+                          "after": 0,
+                          "precision": 11,
+                          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                        },
+                        "type": "time"
+                      },
+                      "datatype": "time"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P248",
+                  "P813"
+                ]
+              }
+            ]
+          }
+        ],
+        "P859": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P859",
+              "hash": "894927c7aab746d0d138a1fef7c0e17dcc0b097f",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 4921801,
+                  "id": "Q4921801"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q18716$8363891a-459b-01ff-49cd-a8cfe79bec8b",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "fa278ebfc458360e5aed63d5058cca83c46134f1",
+                "snaks": {
+                  "P143": [
+                    {
+                      "snaktype": "value",
+                      "property": "P143",
+                      "hash": "e4f6d9441d0600513c4533c672b5ab472dc73694",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 328,
+                          "id": "Q328"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P143"
+                ]
+              },
+              {
+                "hash": "4599521ca107b44769f09b6190344dceb24873f7",
+                "snaks": {
+                  "P854": [
+                    {
+                      "snaktype": "value",
+                      "property": "P854",
+                      "hash": "266a2d30dd04343100369dfd0cb5cd743d41d655",
+                      "datavalue": {
+                        "value": "http://www.slate.fr/story/179964/publicite-parieurs-anglais-premier-league-football-beaucoup",
+                        "type": "string"
+                      },
+                      "datatype": "url"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P854"
+                ]
+              }
+            ]
+          }
+        ],
+        "P7223": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P7223",
+              "hash": "3feacb490ab0e4e8ea2cf79101f43afe34b7c92a",
+              "datavalue": {
+                "value": "762",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q18716$8b102b91-4832-9b9a-6a0c-e4e431997d5e",
+            "rank": "normal"
+          }
+        ],
+        "P7287": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P7287",
+              "hash": "8897dbccc6605092bc01eb6d888d5d6819489c3a",
+              "datavalue": {
+                "value": "newcastle-united",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q18716$983a97a3-4c27-f382-3edd-011e424f44c8",
+            "rank": "normal"
+          }
+        ],
+        "P6131": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P6131",
+              "hash": "65ef1d9d59ec71853b321222fbc2277e9da8ffe9",
+              "datavalue": {
+                "value": "664",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q18716$183b8f1b-46d4-ea53-ea11-c7ec7a00a684",
+            "rank": "normal"
+          }
+        ],
+        "P7280": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P7280",
+              "hash": "a4c44e49c3b490236109eff69120c6035322dda4",
+              "datavalue": {
+                "value": "89",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q18716$7dd1bf18-4482-270e-b251-0841629f3bbe",
+            "rank": "normal"
+          }
+        ],
+        "P7361": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P7361",
+              "hash": "3bb632be0abd4ca9c238db7649fbc6405495bd65",
+              "datavalue": {
+                "value": "59324",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q18716$6127bb86-482a-99eb-6473-49140842b69d",
+            "rank": "normal"
+          }
+        ],
+        "P7454": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P7454",
+              "hash": "2366cb4e2b1888d5dabe8796a1280835d8c9e7dc",
+              "datavalue": {
+                "value": "1823",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q18716$ab36f792-4e6e-7a58-d3b9-8b8207792383",
+            "rank": "normal"
+          }
+        ],
+        "P159": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P159",
+              "hash": "2dc60d7b21476688de2f3f066fd861e02d8c925d",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 1425428,
+                  "id": "Q1425428"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q18716$B1111BA1-7882-4807-B85B-934888925267",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "ffbbfd6a29e17c048292c696f6191ab664e0535b",
+                "snaks": {
+                  "P143": [
+                    {
+                      "snaktype": "value",
+                      "property": "P143",
+                      "hash": "b7f8bea3bb10c237323eb448dc4798948923bd5c",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 11921,
+                          "id": "Q11921"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ],
+                  "P4656": [
+                    {
+                      "snaktype": "value",
+                      "property": "P4656",
+                      "hash": "1b7ae48878a0fb5569ba2e065a922c149c71c0a8",
+                      "datavalue": {
+                        "value": "https://pt.wikipedia.org/w/index.php?title=Newcastle_United_Football_Club&oldid=56618671",
+                        "type": "string"
+                      },
+                      "datatype": "url"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P143",
+                  "P4656"
+                ]
+              }
+            ]
+          }
+        ],
+        "P8672": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P8672",
+              "hash": "b422334585e56b46ed5b9667741fdc589219f207",
+              "datavalue": {
+                "value": "731226180674670592",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P1810": [
+                {
+                  "snaktype": "value",
+                  "property": "P1810",
+                  "hash": "a955f988c6578c0dee3ed6b7e63c621b144d604c",
+                  "datavalue": {
+                    "value": "Newcastle United FC",
+                    "type": "string"
+                  },
+                  "datatype": "string"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P1810"
+            ],
+            "id": "Q18716$6F986FF5-5066-4AF2-BF2C-73D92F3C0FCF",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "751960851fa235edaddbc9b689395740c56c71e1",
+                "snaks": {
+                  "P1065": [
+                    {
+                      "snaktype": "value",
+                      "property": "P1065",
+                      "hash": "cd432ccb4c173858e960ad05696c85162d5669ba",
+                      "datavalue": {
+                        "value": "https://web.archive.org/web/20210221120801/https://twitter.com/i/api/1.1/onboarding/task.json?flow_name=topics_selector",
+                        "type": "string"
+                      },
+                      "datatype": "url"
+                    }
+                  ],
+                  "P2960": [
+                    {
+                      "snaktype": "value",
+                      "property": "P2960",
+                      "hash": "2f6cd8fdfa49e076c77e12f032eca37d5dbd8aea",
+                      "datavalue": {
+                        "value": {
+                          "time": "+2021-02-21T00:00:00Z",
+                          "timezone": 0,
+                          "before": 0,
+                          "after": 0,
+                          "precision": 11,
+                          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                        },
+                        "type": "time"
+                      },
+                      "datatype": "time"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P1065",
+                  "P2960"
+                ]
+              }
+            ]
+          }
+        ],
+        "P4527": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P4527",
+              "hash": "54c7b555cc337110916dd7fd4edb3c21aa1ed5bc",
+              "datavalue": {
+                "value": "452899",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P1810": [
+                {
+                  "snaktype": "value",
+                  "property": "P1810",
+                  "hash": "a955f988c6578c0dee3ed6b7e63c621b144d604c",
+                  "datavalue": {
+                    "value": "Newcastle United FC",
+                    "type": "string"
+                  },
+                  "datatype": "string"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P1810"
+            ],
+            "id": "Q18716$52a07c80-4b59-5ec9-37ea-4f1c5878f90a",
+            "rank": "normal"
+          }
+        ],
+        "P8687": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P8687",
+              "hash": "6436ca3c2b0f806423509718b8232f2186fbff60",
+              "datavalue": {
+                "value": {
+                  "amount": "+2078198",
+                  "unit": "1"
+                },
+                "type": "quantity"
+              },
+              "datatype": "quantity"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P6552": [
+                {
+                  "snaktype": "value",
+                  "property": "P6552",
+                  "hash": "070a7b388baceda54240b158ab93ad79692cf1cd",
+                  "datavalue": {
+                    "value": "35758259",
+                    "type": "string"
+                  },
+                  "datatype": "external-id"
+                }
+              ],
+              "P585": [
+                {
+                  "snaktype": "value",
+                  "property": "P585",
+                  "hash": "8788833693bc80463067714109d5721249e8bf03",
+                  "datavalue": {
+                    "value": {
+                      "time": "+2022-02-21T00:00:00Z",
+                      "timezone": 0,
+                      "before": 0,
+                      "after": 0,
+                      "precision": 11,
+                      "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                    },
+                    "type": "time"
+                  },
+                  "datatype": "time"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P6552",
+              "P585"
+            ],
+            "id": "Q18716$7121c56f-4f64-4086-9659-e8959669ff94",
+            "rank": "normal"
+          },
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P8687",
+              "hash": "a94cfbf7449874466596062ec626b4954ab39b16",
+              "datavalue": {
+                "value": {
+                  "amount": "+190000",
+                  "unit": "1",
+                  "upperBound": "+190999",
+                  "lowerBound": "+190000"
+                },
+                "type": "quantity"
+              },
+              "datatype": "quantity"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P2397": [
+                {
+                  "snaktype": "value",
+                  "property": "P2397",
+                  "hash": "7b3a4932918c6c5ac2e74e9cb52ede95412db61d",
+                  "datavalue": {
+                    "value": "UCywGl_BPp9QhD0uAcP2HsJw",
+                    "type": "string"
+                  },
+                  "datatype": "external-id"
+                }
+              ],
+              "P585": [
+                {
+                  "snaktype": "value",
+                  "property": "P585",
+                  "hash": "fb92b691ce0bacd457f1eac1c95ea87882b8e41c",
+                  "datavalue": {
+                    "value": {
+                      "time": "+2022-03-17T00:00:00Z",
+                      "timezone": 0,
+                      "before": 0,
+                      "after": 0,
+                      "precision": 11,
+                      "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                    },
+                    "type": "time"
+                  },
+                  "datatype": "time"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P2397",
+              "P585"
+            ],
+            "id": "Q18716$fe71ae58-d5d9-447a-aa56-df73a53c8dea",
+            "rank": "normal"
+          },
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P8687",
+              "hash": "3e194282eb17efc1363afd208a3b793d21dfa641",
+              "datavalue": {
+                "value": {
+                  "amount": "+2465130",
+                  "unit": "1"
+                },
+                "type": "quantity"
+              },
+              "datatype": "quantity"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P6552": [
+                {
+                  "snaktype": "value",
+                  "property": "P6552",
+                  "hash": "070a7b388baceda54240b158ab93ad79692cf1cd",
+                  "datavalue": {
+                    "value": "35758259",
+                    "type": "string"
+                  },
+                  "datatype": "external-id"
+                }
+              ],
+              "P585": [
+                {
+                  "snaktype": "value",
+                  "property": "P585",
+                  "hash": "7015a28b74f0bc6d975b84e8d3c90aecbc88eef8",
+                  "datavalue": {
+                    "value": {
+                      "time": "+2023-02-03T00:00:00Z",
+                      "timezone": 0,
+                      "before": 0,
+                      "after": 0,
+                      "precision": 11,
+                      "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                    },
+                    "type": "time"
+                  },
+                  "datatype": "time"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P6552",
+              "P585"
+            ],
+            "id": "Q18716$bf7868ab-2df6-4401-a759-161009380d97",
+            "rank": "preferred"
+          },
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P8687",
+              "hash": "516e88359aafd5c0a4ed3dcfe3abc719ebeae35f",
+              "datavalue": {
+                "value": {
+                  "amount": "+355000",
+                  "unit": "1",
+                  "upperBound": "+355999",
+                  "lowerBound": "+355000"
+                },
+                "type": "quantity"
+              },
+              "datatype": "quantity"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P2397": [
+                {
+                  "snaktype": "value",
+                  "property": "P2397",
+                  "hash": "7b3a4932918c6c5ac2e74e9cb52ede95412db61d",
+                  "datavalue": {
+                    "value": "UCywGl_BPp9QhD0uAcP2HsJw",
+                    "type": "string"
+                  },
+                  "datatype": "external-id"
+                }
+              ],
+              "P585": [
+                {
+                  "snaktype": "value",
+                  "property": "P585",
+                  "hash": "20483c6f3caf2de1c166cfb8006d2414c35eb990",
+                  "datavalue": {
+                    "value": {
+                      "time": "+2023-02-17T00:00:00Z",
+                      "timezone": 0,
+                      "before": 0,
+                      "after": 0,
+                      "precision": 11,
+                      "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                    },
+                    "type": "time"
+                  },
+                  "datatype": "time"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P2397",
+              "P585"
+            ],
+            "id": "Q18716$7f495860-cfc7-4116-804b-f8d20ac31492",
+            "rank": "normal"
+          },
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P8687",
+              "hash": "0915f50b3305608f8789b69efa7f884f0b262c54",
+              "datavalue": {
+                "value": {
+                  "amount": "+431000",
+                  "unit": "1",
+                  "upperBound": "+431999",
+                  "lowerBound": "+431000"
+                },
+                "type": "quantity"
+              },
+              "datatype": "quantity"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P2397": [
+                {
+                  "snaktype": "value",
+                  "property": "P2397",
+                  "hash": "7b3a4932918c6c5ac2e74e9cb52ede95412db61d",
+                  "datavalue": {
+                    "value": "UCywGl_BPp9QhD0uAcP2HsJw",
+                    "type": "string"
+                  },
+                  "datatype": "external-id"
+                }
+              ],
+              "P585": [
+                {
+                  "snaktype": "value",
+                  "property": "P585",
+                  "hash": "9d64e8af0848e60ef457a2cc2e3dfdf54af0f5a3",
+                  "datavalue": {
+                    "value": {
+                      "time": "+2023-05-31T00:00:00Z",
+                      "timezone": 0,
+                      "before": 0,
+                      "after": 0,
+                      "precision": 11,
+                      "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                    },
+                    "type": "time"
+                  },
+                  "datatype": "time"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P2397",
+              "P585"
+            ],
+            "id": "Q18716$761b9637-b026-4158-9162-6e9a29e6efb0",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "671e7e50e0904a7e6a4c274c56d5af1407ab40d5",
+                "snaks": {
+                  "P813": [
+                    {
+                      "snaktype": "value",
+                      "property": "P813",
+                      "hash": "d6b6438d2a93e2106850d8b5dccbf532771237a1",
+                      "datavalue": {
+                        "value": {
+                          "time": "+2023-05-31T00:00:00Z",
+                          "timezone": 0,
+                          "before": 0,
+                          "after": 0,
+                          "precision": 11,
+                          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                        },
+                        "type": "time"
+                      },
+                      "datatype": "time"
+                    }
+                  ],
+                  "P248": [
+                    {
+                      "snaktype": "value",
+                      "property": "P248",
+                      "hash": "e6e6374525f7d680f01ff599745f367fb1369b87",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 8056784,
+                          "id": "Q8056784"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P813",
+                  "P248"
+                ]
+              }
+            ]
+          },
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P8687",
+              "hash": "05a2c6981eefbe3cf2436a38b3e1925ce6a76e9b",
+              "datavalue": {
+                "value": {
+                  "amount": "+602000",
+                  "unit": "1",
+                  "upperBound": "+602999",
+                  "lowerBound": "+602000"
+                },
+                "type": "quantity"
+              },
+              "datatype": "quantity"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P2397": [
+                {
+                  "snaktype": "value",
+                  "property": "P2397",
+                  "hash": "7b3a4932918c6c5ac2e74e9cb52ede95412db61d",
+                  "datavalue": {
+                    "value": "UCywGl_BPp9QhD0uAcP2HsJw",
+                    "type": "string"
+                  },
+                  "datatype": "external-id"
+                }
+              ],
+              "P585": [
+                {
+                  "snaktype": "value",
+                  "property": "P585",
+                  "hash": "a0fe151aa4548f4cb32f90cad64cf3bd09515171",
+                  "datavalue": {
+                    "value": {
+                      "time": "+2024-01-13T00:00:00Z",
+                      "timezone": 0,
+                      "before": 0,
+                      "after": 0,
+                      "precision": 11,
+                      "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                    },
+                    "type": "time"
+                  },
+                  "datatype": "time"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P2397",
+              "P585"
+            ],
+            "id": "Q18716$a641b82a-cfe2-452e-b2b7-8d29a3b9e552",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "92c34dd71e56924ecc36a7e64d7bbd103b67029b",
+                "snaks": {
+                  "P813": [
+                    {
+                      "snaktype": "value",
+                      "property": "P813",
+                      "hash": "3ca1d8c5a6ce77b9f8132d86be9ef2e51f3ec61a",
+                      "datavalue": {
+                        "value": {
+                          "time": "+2024-01-13T00:00:00Z",
+                          "timezone": 0,
+                          "before": 0,
+                          "after": 0,
+                          "precision": 11,
+                          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                        },
+                        "type": "time"
+                      },
+                      "datatype": "time"
+                    }
+                  ],
+                  "P248": [
+                    {
+                      "snaktype": "value",
+                      "property": "P248",
+                      "hash": "e6e6374525f7d680f01ff599745f367fb1369b87",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 8056784,
+                          "id": "Q8056784"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P813",
+                  "P248"
+                ]
+              }
+            ]
+          },
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P8687",
+              "hash": "baccb5f521014975ac889013185051b6f1a66b86",
+              "datavalue": {
+                "value": {
+                  "amount": "+751000",
+                  "unit": "1",
+                  "upperBound": "+751999",
+                  "lowerBound": "+751000"
+                },
+                "type": "quantity"
+              },
+              "datatype": "quantity"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P2397": [
+                {
+                  "snaktype": "value",
+                  "property": "P2397",
+                  "hash": "7b3a4932918c6c5ac2e74e9cb52ede95412db61d",
+                  "datavalue": {
+                    "value": "UCywGl_BPp9QhD0uAcP2HsJw",
+                    "type": "string"
+                  },
+                  "datatype": "external-id"
+                }
+              ],
+              "P585": [
+                {
+                  "snaktype": "value",
+                  "property": "P585",
+                  "hash": "36b0e09725e7299df44079b2c5169bf4995bd544",
+                  "datavalue": {
+                    "value": {
+                      "time": "+2025-02-01T00:00:00Z",
+                      "timezone": 0,
+                      "before": 0,
+                      "after": 0,
+                      "precision": 11,
+                      "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                    },
+                    "type": "time"
+                  },
+                  "datatype": "time"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P2397",
+              "P585"
+            ],
+            "id": "Q18716$308800b2-17f5-413d-9111-6e72541fd28d",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "4f7208379b8e4d46239fc87d79e4534a304ba096",
+                "snaks": {
+                  "P813": [
+                    {
+                      "snaktype": "value",
+                      "property": "P813",
+                      "hash": "9ba8f07731c89538a72b8214584055c9f5daf974",
+                      "datavalue": {
+                        "value": {
+                          "time": "+2025-02-01T00:00:00Z",
+                          "timezone": 0,
+                          "before": 0,
+                          "after": 0,
+                          "precision": 11,
+                          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                        },
+                        "type": "time"
+                      },
+                      "datatype": "time"
+                    }
+                  ],
+                  "P248": [
+                    {
+                      "snaktype": "value",
+                      "property": "P248",
+                      "hash": "e6e6374525f7d680f01ff599745f367fb1369b87",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 8056784,
+                          "id": "Q8056784"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P813",
+                  "P248"
+                ]
+              }
+            ]
+          },
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P8687",
+              "hash": "86f89426eaddfc895ced770eba86a949576f4659",
+              "datavalue": {
+                "value": {
+                  "amount": "+829000",
+                  "unit": "1",
+                  "upperBound": "+829999",
+                  "lowerBound": "+829000"
+                },
+                "type": "quantity"
+              },
+              "datatype": "quantity"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P2397": [
+                {
+                  "snaktype": "value",
+                  "property": "P2397",
+                  "hash": "7b3a4932918c6c5ac2e74e9cb52ede95412db61d",
+                  "datavalue": {
+                    "value": "UCywGl_BPp9QhD0uAcP2HsJw",
+                    "type": "string"
+                  },
+                  "datatype": "external-id"
+                }
+              ],
+              "P585": [
+                {
+                  "snaktype": "value",
+                  "property": "P585",
+                  "hash": "d3c08e77e17e74d42732d57840f2f93fd6c77a71",
+                  "datavalue": {
+                    "value": {
+                      "time": "+2025-05-25T00:00:00Z",
+                      "timezone": 0,
+                      "before": 0,
+                      "after": 0,
+                      "precision": 11,
+                      "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                    },
+                    "type": "time"
+                  },
+                  "datatype": "time"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P2397",
+              "P585"
+            ],
+            "id": "Q18716$721ef22c-15ba-4dd3-ae98-4f31f58d50b1",
+            "rank": "preferred",
+            "references": [
+              {
+                "hash": "10c2c643ceb35f2a24ecaf6afb5695844597d53f",
+                "snaks": {
+                  "P813": [
+                    {
+                      "snaktype": "value",
+                      "property": "P813",
+                      "hash": "8b11122afba7d49cd63eb414ee188bb3901c087c",
+                      "datavalue": {
+                        "value": {
+                          "time": "+2025-05-25T00:00:00Z",
+                          "timezone": 0,
+                          "before": 0,
+                          "after": 0,
+                          "precision": 11,
+                          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                        },
+                        "type": "time"
+                      },
+                      "datatype": "time"
+                    }
+                  ],
+                  "P248": [
+                    {
+                      "snaktype": "value",
+                      "property": "P248",
+                      "hash": "e6e6374525f7d680f01ff599745f367fb1369b87",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 8056784,
+                          "id": "Q8056784"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P813",
+                  "P248"
+                ]
+              }
+            ]
+          }
+        ],
+        "P3500": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P3500",
+              "hash": "318cc991d6e754288155777d15ef50fa602a9b75",
+              "datavalue": {
+                "value": "228113",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P1810": [
+                {
+                  "snaktype": "value",
+                  "property": "P1810",
+                  "hash": "cb40b431607bfceb187bc9722ebcbdce994dd7fb",
+                  "datavalue": {
+                    "value": "Newcastle United Football Club",
+                    "type": "string"
+                  },
+                  "datatype": "string"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P1810"
+            ],
+            "id": "Q18716$E7F19195-CDB0-45F7-9AC9-CDE59E97EF21",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "2834ac5da275724a6354a73d2d2a89ae956042a9",
+                "snaks": {
+                  "P248": [
+                    {
+                      "snaktype": "value",
+                      "property": "P248",
+                      "hash": "654ac97d41e766b6860b1b7acd87f11a6b00c4f9",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 64159407,
+                          "id": "Q64159407"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P248"
+                ]
+              }
+            ]
+          }
+        ],
+        "P7085": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P7085",
+              "hash": "08a4a1f7fa83757894ffbb1dff5f8f9317d053a7",
+              "datavalue": {
+                "value": "nufc",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q18716$b36490f0-4643-3597-7617-f78b7cd9f6aa",
+            "rank": "normal"
+          }
+        ],
+        "P1424": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P1424",
+              "hash": "3cc04c48fcad56aaea346fc7c90a11bb7ef733f3",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 11008822,
+                  "id": "Q11008822"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P3831": [
+                {
+                  "snaktype": "value",
+                  "property": "P3831",
+                  "hash": "cd874a9f13f6d83cf7142fcf1a11f81cdcbcd674",
+                  "datavalue": {
+                    "value": {
+                      "entity-type": "item",
+                      "numeric-id": 11753321,
+                      "id": "Q11753321"
+                    },
+                    "type": "wikibase-entityid"
+                  },
+                  "datatype": "wikibase-item"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P3831"
+            ],
+            "id": "Q18716$b49061d4-40e5-71a1-3310-5c378e80f080",
+            "rank": "normal"
+          },
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P1424",
+              "hash": "1f7cdd96f4d50183311d516fd24eedc9a21e1f68",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 10974049,
+                  "id": "Q10974049"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P3831": [
+                {
+                  "snaktype": "value",
+                  "property": "P3831",
+                  "hash": "49b0ad1ad4953dd2e0153bb9c031bc30abef9c25",
+                  "datavalue": {
+                    "value": {
+                      "entity-type": "item",
+                      "numeric-id": 115707333,
+                      "id": "Q115707333"
+                    },
+                    "type": "wikibase-entityid"
+                  },
+                  "datatype": "wikibase-item"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P3831"
+            ],
+            "id": "Q18716$d98fb254-3504-4e54-8f1c-82d4be60faba",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "6f11efcd43a386994596a5f09f42bdc8903e381b",
+                "snaks": {
+                  "P3452": [
+                    {
+                      "snaktype": "value",
+                      "property": "P3452",
+                      "hash": "c8b292268326965dd10423bb823b24d48d61c680",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 10974049,
+                          "id": "Q10974049"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P3452"
+                ]
+              }
+            ]
+          }
+        ],
+        "P7351": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P7351",
+              "hash": "db3ada15f23451f2c51460e99077353f51d66391",
+              "datavalue": {
+                "value": "42",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q18716$53b3e8d1-47f9-6933-c199-4f74bf04729c",
+            "rank": "normal"
+          }
+        ],
+        "P8642": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P8642",
+              "hash": "c8d2b2f064cab784724659e0a4c40ae83b8aa9e4",
+              "datavalue": {
+                "value": "b2b47a98",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q18716$b7fb6709-45a7-314f-8b4b-1abab526ac17",
+            "rank": "normal"
+          }
+        ],
+        "P6262": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P6262",
+              "hash": "9da660f3b7c7d1ccd148836a282364503cca9535",
+              "datavalue": {
+                "value": "football:Newcastle_United_F.C.",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P407": [
+                {
+                  "snaktype": "value",
+                  "property": "P407",
+                  "hash": "daf1c4fcb58181b02dff9cc89deb084004ddae4b",
+                  "datavalue": {
+                    "value": {
+                      "entity-type": "item",
+                      "numeric-id": 1860,
+                      "id": "Q1860"
+                    },
+                    "type": "wikibase-entityid"
+                  },
+                  "datatype": "wikibase-item"
+                }
+              ],
+              "P1810": [
+                {
+                  "snaktype": "value",
+                  "property": "P1810",
+                  "hash": "a955f988c6578c0dee3ed6b7e63c621b144d604c",
+                  "datavalue": {
+                    "value": "Newcastle United FC",
+                    "type": "string"
+                  },
+                  "datatype": "string"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P407",
+              "P1810"
+            ],
+            "id": "Q18716$ccc5af10-437c-f5ea-f1de-c2e666ed41ce",
+            "rank": "normal"
+          }
+        ],
+        "P488": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P488",
+              "hash": "de6b260dcee75f10e177fc6489e52fdb4d273841",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 64853380,
+                  "id": "Q64853380"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q18716$fad98576-49ad-e763-bc15-a3aed84f63dd",
+            "rank": "normal"
+          }
+        ],
+        "P8737": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P8737",
+              "hash": "efea48938614e5936e0accea4241626496bc7c31",
+              "datavalue": {
+                "value": "4",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q18716$2833778b-4204-8cfe-cee5-e14bb3724655",
+            "rank": "normal"
+          }
+        ],
+        "P1705": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P1705",
+              "hash": "c17f672abc51dfbcc253f25f64272670859d7bae",
+              "datavalue": {
+                "value": {
+                  "text": "Newcastle United F.C.",
+                  "language": "en"
+                },
+                "type": "monolingualtext"
+              },
+              "datatype": "monolingualtext"
+            },
+            "type": "statement",
+            "id": "Q18716$5d2324e6-4254-53c7-85a3-0446b86a5452",
+            "rank": "normal"
+          }
+        ],
+        "P7502": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P7502",
+              "hash": "edf75946d6ff0247000fdb6b943499620d04753c",
+              "datavalue": {
+                "value": "Newcastle_United_F.C.-JKX68",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q18716$A08A0692-20D3-4EF7-8EDB-B227B0390FFC",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "ce72ee2e0cbf596d34af5172bad7016f2f55d465",
+                "snaks": {
+                  "P813": [
+                    {
+                      "snaktype": "value",
+                      "property": "P813",
+                      "hash": "849bf31a75ee81eef52deceed6ee34b2f429e12c",
+                      "datavalue": {
+                        "value": {
+                          "time": "+2022-09-10T00:00:00Z",
+                          "timezone": 0,
+                          "before": 0,
+                          "after": 0,
+                          "precision": 11,
+                          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                        },
+                        "type": "time"
+                      },
+                      "datatype": "time"
+                    }
+                  ],
+                  "P854": [
+                    {
+                      "snaktype": "value",
+                      "property": "P854",
+                      "hash": "bed009aa5800c21f030a332590a8225892bf242f",
+                      "datavalue": {
+                        "value": "https://golden.com/wiki/Newcastle_United_F.C.-JKX68",
+                        "type": "string"
+                      },
+                      "datatype": "url"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P813",
+                  "P854"
+                ]
+              }
+            ]
+          }
+        ],
+        "P1449": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P1449",
+              "hash": "126f198cebae2266425b555172966e300ac5ceb6",
+              "datavalue": {
+                "value": {
+                  "text": "The Magpies",
+                  "language": "en"
+                },
+                "type": "monolingualtext"
+              },
+              "datatype": "monolingualtext"
+            },
+            "type": "statement",
+            "id": "Q18716$8bc1de7c-48e8-4e1a-408f-d5ddee46f4a1",
+            "rank": "normal"
+          }
+        ],
+        "P11196": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P11196",
+              "hash": "f055d123f34a1df6cca446287998c68a20cb0b77",
+              "datavalue": {
+                "value": "纽卡斯尔",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P3740": [
+                {
+                  "snaktype": "value",
+                  "property": "P3740",
+                  "hash": "8599cf0f4fd381a7e349f33eaf0c311b2f01bec9",
+                  "datavalue": {
+                    "value": {
+                      "amount": "+1219844",
+                      "unit": "1"
+                    },
+                    "type": "quantity"
+                  },
+                  "datatype": "quantity"
+                }
+              ],
+              "P585": [
+                {
+                  "snaktype": "value",
+                  "property": "P585",
+                  "hash": "0ada413c2c8e64e657b54fa1c8fa0b7583442815",
+                  "datavalue": {
+                    "value": {
+                      "time": "+2023-03-18T00:00:00Z",
+                      "timezone": 0,
+                      "before": 0,
+                      "after": 0,
+                      "precision": 11,
+                      "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                    },
+                    "type": "time"
+                  },
+                  "datatype": "time"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P3740",
+              "P585"
+            ],
+            "id": "Q18716$FE8EFAA4-7C74-4E6E-A29F-C74912F692B4",
+            "rank": "normal"
+          }
+        ],
+        "P2088": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P2088",
+              "hash": "543f2f73c3e25b7ecf98a7a703fe190308aaa804",
+              "datavalue": {
+                "value": "newcastle-united-football-club",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q18716$32783D0E-16E2-4985-9E19-45B5B1E9F375",
+            "rank": "normal"
+          }
+        ],
+        "P1617": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P1617",
+              "hash": "8eddf06dbca9048d6a6deaf06c3a379eff3b4737",
+              "datavalue": {
+                "value": "34032412-5e2a-324d-bb3e-d0d4b16df2d4",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q18716$84ab7211-451b-c827-a59b-5a649a21d0b0",
+            "rank": "normal"
+          }
+        ],
+        "P18": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P18",
+              "hash": "dbd06ef0df53f16f689c89901a9bf064fdf0b18d",
+              "datavalue": {
+                "value": "Newcastle United vs Watford, 19 September 2015 (01).JPG",
+                "type": "string"
+              },
+              "datatype": "commonsMedia"
+            },
+            "type": "statement",
+            "id": "Q18716$7BF6F51B-118E-475C-BF24-572A13B1E78D",
+            "rank": "normal"
+          },
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P18",
+              "hash": "5abe8520439e66d681d05ee6b1f8330ecd472ccc",
+              "datavalue": {
+                "value": "Newcastle vs Chelsea 28 Nov 2010 - 1.jpg",
+                "type": "string"
+              },
+              "datatype": "commonsMedia"
+            },
+            "type": "statement",
+            "id": "Q18716$B6DF215C-DC8B-4904-98C1-9D0630AE1669",
+            "rank": "normal"
+          },
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P18",
+              "hash": "e5788026fb5fb74075ab481bb1003763c6d9e0a1",
+              "datavalue": {
+                "value": "East Stand.JPG",
+                "type": "string"
+              },
+              "datatype": "commonsMedia"
+            },
+            "type": "statement",
+            "id": "Q18716$52655361-A6C2-4998-A7D9-5A88FB368589",
+            "rank": "normal"
+          },
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P18",
+              "hash": "4a5b1e8c56193c4ba577ca6a2f39b150638609b4",
+              "datavalue": {
+                "value": "Stade St James Park Tribune Sud Newcastle Tyne 2.jpg",
+                "type": "string"
+              },
+              "datatype": "commonsMedia"
+            },
+            "type": "statement",
+            "id": "Q18716$8071FD59-99AA-413C-B68C-6619E072D697",
+            "rank": "normal"
+          },
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P18",
+              "hash": "d6b9f93c4b211a18ad81385098b20dea234a2ed5",
+              "datavalue": {
+                "value": "Newcastle United v Zulte Waragem, 2007 (2).JPG",
+                "type": "string"
+              },
+              "datatype": "commonsMedia"
+            },
+            "type": "statement",
+            "id": "Q18716$305C68B3-CFA2-4533-9F23-77B8467F201D",
+            "rank": "normal"
+          },
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P18",
+              "hash": "d1d4096232b3ce06e01197f32c20982166096331",
+              "datavalue": {
+                "value": "St James Park Newcastle view from the south.jpg",
+                "type": "string"
+              },
+              "datatype": "commonsMedia"
+            },
+            "type": "statement",
+            "id": "Q18716$3CC802ED-B090-4457-AAE3-5E7CBEBAEB6D",
+            "rank": "normal"
+          }
+        ],
+        "P7854": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P7854",
+              "hash": "31a32975a24a764241e7ac6c294975165cc0304a",
+              "datavalue": {
+                "value": "320",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q18716$1cb21734-4687-0776-c173-ca2f3aef1983",
+            "rank": "normal"
+          }
+        ],
+        "P12416": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P12416",
+              "hash": "d795a9a0fb7a020c9401433dae322bb7650a53ca",
+              "datavalue": {
+                "value": "50000517",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q18716$bd4a3ec6-4d47-f98c-89f0-794fcf5bf215",
+            "rank": "normal"
+          }
+        ],
+        "P41": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P41",
+              "hash": "268b895f8891d5c91783e9748f867c16441217af",
+              "datavalue": {
+                "value": "600px Scudo Giallo con Nero e Bianco (Strisce).png",
+                "type": "string"
+              },
+              "datatype": "commonsMedia"
+            },
+            "type": "statement",
+            "id": "Q18716$9dbdec18-4346-4460-870e-97cdaa5fa16e",
+            "rank": "normal"
+          }
+        ],
+        "P9346": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P9346",
+              "hash": "88b5429b9493dbf3c5391513241ccc4de12610b5",
+              "datavalue": {
+                "value": "newcastle",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q18716$6B49596A-06B9-4A67-B731-9BFC3CA337F5",
+            "rank": "normal"
+          }
+        ],
+        "P2561": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P2561",
+              "hash": "d9674a73af6834b7c7064a296d230e8fe723fd0f",
+              "datavalue": {
+                "value": {
+                  "text": "Newcastle United",
+                  "language": "en"
+                },
+                "type": "monolingualtext"
+              },
+              "datatype": "monolingualtext"
+            },
+            "type": "statement",
+            "id": "Q18716$f1271787-4369-545f-c245-44f261717786",
+            "rank": "normal"
+          },
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P2561",
+              "hash": "d524deef31a46b4cd6e73d9613df8ad5e2e3ae3a",
+              "datavalue": {
+                "value": {
+                  "text": "Newcastle United",
+                  "language": "cy"
+                },
+                "type": "monolingualtext"
+              },
+              "datatype": "monolingualtext"
+            },
+            "type": "statement",
+            "id": "Q18716$82658350-4bf3-f78c-39c1-78fa37f6287a",
+            "rank": "normal"
+          },
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P2561",
+              "hash": "c603b06bca0bdcff7b915fafc3e9083894bf538f",
+              "datavalue": {
+                "value": {
+                  "text": "An Caisteal Nuadh",
+                  "language": "gd"
+                },
+                "type": "monolingualtext"
+              },
+              "datatype": "monolingualtext"
+            },
+            "type": "statement",
+            "id": "Q18716$73390e47-41a0-89ec-f588-4b07972f6608",
+            "rank": "normal"
+          }
+        ],
+        "P12361": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P12361",
+              "hash": "82fc847e6613a5d69af704acc91d0239bb7d87fc",
+              "datavalue": {
+                "value": "newcastleunited.com",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P12409": [
+                {
+                  "snaktype": "value",
+                  "property": "P12409",
+                  "hash": "4a6e1ab0e10e4a5e94df2252959655c555cef200",
+                  "datavalue": {
+                    "value": "did:plc:lim2lg7owxl6o6r7fnjs7bwn",
+                    "type": "string"
+                  },
+                  "datatype": "external-id"
+                }
+              ],
+              "P580": [
+                {
+                  "snaktype": "value",
+                  "property": "P580",
+                  "hash": "d0732820572590d9183ed79c60e03e48870c3b1a",
+                  "datavalue": {
+                    "value": {
+                      "time": "+2024-08-31T00:00:00Z",
+                      "timezone": 0,
+                      "before": 0,
+                      "after": 0,
+                      "precision": 11,
+                      "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                    },
+                    "type": "time"
+                  },
+                  "datatype": "time"
+                }
+              ],
+              "P1552": [
+                {
+                  "snaktype": "value",
+                  "property": "P1552",
+                  "hash": "62f0039d240f7eeba6c6908a0d8807a6188324a1",
+                  "datavalue": {
+                    "value": {
+                      "entity-type": "item",
+                      "numeric-id": 28378282,
+                      "id": "Q28378282"
+                    },
+                    "type": "wikibase-entityid"
+                  },
+                  "datatype": "wikibase-item"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P12409",
+              "P580",
+              "P1552"
+            ],
+            "id": "Q18716$95e5059d-417d-15d0-ee5e-a5a8ed1d21b7",
+            "rank": "normal"
+          }
+        ],
+        "P13591": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P13591",
+              "hash": "091c733ea75fce927ff4e3a1b7e23a2d8506477a",
+              "datavalue": {
+                "value": "group/71416d2a-0cd2-4273-8d2d-d2188ae0457c",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q18716$622841FA-B393-4DAD-A12F-19A49EAA8634",
+            "rank": "normal"
+          }
+        ],
+        "P3279": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P3279",
+              "hash": "1447af6ea82169ac648c03b6fc8a199f5f7dfc75",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 483583,
+                  "id": "Q483583"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P1351": [
+                {
+                  "snaktype": "value",
+                  "property": "P1351",
+                  "hash": "3a00fb580f667bbba8f1f7eb3f799e5b8ebf3c79",
+                  "datavalue": {
+                    "value": {
+                      "amount": "+206",
+                      "unit": "1"
+                    },
+                    "type": "quantity"
+                  },
+                  "datatype": "quantity"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P1351"
+            ],
+            "id": "Q18716$b729f223-4e84-ebea-b6f2-9ad2f030ce23",
+            "rank": "normal"
+          },
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P3279",
+              "hash": "6882152579491e20d9331a58ad0a6be38f92d2f7",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 107359823,
+                  "id": "Q107359823"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P1350": [
+                {
+                  "snaktype": "value",
+                  "property": "P1350",
+                  "hash": "e7f8495df4aceb437171cc276a22ea3d14484504",
+                  "datavalue": {
+                    "value": {
+                      "amount": "+496",
+                      "unit": "1"
+                    },
+                    "type": "quantity"
+                  },
+                  "datatype": "quantity"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P1350"
+            ],
+            "id": "Q18716$001da146-4f16-fd96-f677-2814ef8b61e2",
+            "rank": "normal"
+          }
+        ],
+        "P3106": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P3106",
+              "hash": "6c4aa4d52132b7308a4dedcbdbe73030e997c740",
+              "datavalue": {
+                "value": "football/newcastleunited",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q18716$BD710DC8-C1A1-4F20-92E7-F9431BD1F6A2",
+            "rank": "normal"
+          }
+        ],
+        "P8309": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P8309",
+              "hash": "75eb6529bed303f3e88fb0bd4fc24b4f01ba9c78",
+              "datavalue": {
+                "value": "18-138873",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q18716$13e00a46-491c-e7b8-329d-4dbf6e5374d2",
+            "rank": "normal"
+          }
+        ],
+        "P11892": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P11892",
+              "hash": "91e0103383d4abbbcc6e20e22abb46778b405808",
+              "datavalue": {
+                "value": "nufc",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q18716$95601775-6059-4F44-9906-C56793F9856F",
+            "rank": "normal"
+          }
+        ],
+        "P12749": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P12749",
+              "hash": "d5f53d7d56a182db154154476bda226a19d6be75",
+              "datavalue": {
+                "value": "Q160467",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q18716$6D958192-1C5D-4CCB-B918-1B10DC842B88",
+            "rank": "normal"
+          }
+        ],
+        "P345": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P345",
+              "hash": "35682b3e026a6b9aa2f27de01029533ccdee209c",
+              "datavalue": {
+                "value": "nm5306219",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q18716$26b9cf5f-44c1-5462-adda-3dd4113090d3",
+            "rank": "normal"
+          }
+        ],
+        "P3984": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P3984",
+              "hash": "1528657646b94d210797aeeed9bc7e603a8f48ab",
+              "datavalue": {
+                "value": "NUFC",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q18716$D150BD03-B9B7-48A7-AA63-8E48AE0AFBDD",
+            "rank": "normal"
+          }
+        ],
+        "P13772": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P13772",
+              "hash": "3ec37930885e54ecb426d5d172de5e5cbbb4c6dd",
+              "datavalue": {
+                "value": "newcastle-united-football-club",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q18716$1E010DD7-DA0F-40D4-9437-FA8EA3FB5AD0",
+            "rank": "normal"
+          }
+        ],
+        "P227": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P227",
+              "hash": "4071ad71e89d3b894b93c0f6fb1531af6cc9d726",
+              "datavalue": {
+                "value": "4257697-0",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q18716$9B67F0B3-9CAC-430B-9D1C-CAF23BDA2863",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "dff07e3ba5f1c42c9c205801803e8eb4a6942c8e",
+                "snaks": {
+                  "P143": [
+                    {
+                      "snaktype": "value",
+                      "property": "P143",
+                      "hash": "d38375ffe6fe142663ff55cd783aa4df4301d83d",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 48183,
+                          "id": "Q48183"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ],
+                  "P813": [
+                    {
+                      "snaktype": "value",
+                      "property": "P813",
+                      "hash": "36d558700354b596f79376aa110f264256571b6d",
+                      "datavalue": {
+                        "value": {
+                          "time": "+2026-09-27T00:00:00Z",
+                          "timezone": 0,
+                          "before": 0,
+                          "after": 0,
+                          "precision": 11,
+                          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                        },
+                        "type": "time"
+                      },
+                      "datatype": "time"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P143",
+                  "P813"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "sitelinks": {
+        "afwiki": {
+          "site": "afwiki",
+          "title": "Newcastle United FC",
+          "badges": []
+        },
+        "amwiki": {
+          "site": "amwiki",
+          "title": "ኒውካስል ዩናይትድ",
+          "badges": []
+        },
+        "anwiki": {
+          "site": "anwiki",
+          "title": "Newcastle United Football Club",
+          "badges": []
+        },
+        "arwiki": {
+          "site": "arwiki",
+          "title": "نيوكاسل يونايتد",
+          "badges": []
+        },
+        "arzwiki": {
+          "site": "arzwiki",
+          "title": "نيوكاسل يونايتد",
+          "badges": []
+        },
+        "azbwiki": {
+          "site": "azbwiki",
+          "title": "نیوکاسل یونایتد فوتبال کولوبو",
+          "badges": []
+        },
+        "azwiki": {
+          "site": "azwiki",
+          "title": "Nyukasl Yunayted FK",
+          "badges": []
+        },
+        "banwiki": {
+          "site": "banwiki",
+          "title": "Newcastle United F.C.",
+          "badges": []
+        },
+        "be_x_oldwiki": {
+          "site": "be_x_oldwiki",
+          "title": "Ньюкасл Юнайтэд",
+          "badges": []
+        },
+        "bewiki": {
+          "site": "bewiki",
+          "title": "ФК Ньюкасл Юнайтэд",
+          "badges": []
+        },
+        "bgwiki": {
+          "site": "bgwiki",
+          "title": "ФК Нюкасъл Юнайтед",
+          "badges": []
+        },
+        "bhwiki": {
+          "site": "bhwiki",
+          "title": "न्यूकैसल युनाइटेड फुटबॉल क्लब",
+          "badges": []
+        },
+        "bnwiki": {
+          "site": "bnwiki",
+          "title": "নিউক্যাসেল ইউনাইটেড ফুটবল ক্লাব",
+          "badges": []
+        },
+        "bswiki": {
+          "site": "bswiki",
+          "title": "Newcastle United FC",
+          "badges": []
+        },
+        "cawiki": {
+          "site": "cawiki",
+          "title": "Newcastle United Football Club",
+          "badges": []
+        },
+        "ckbwiki": {
+          "site": "ckbwiki",
+          "title": "یانەی تۆپی پێی نیوکاسڵ یونایتد",
+          "badges": []
+        },
+        "cswiki": {
+          "site": "cswiki",
+          "title": "Newcastle United FC",
+          "badges": []
+        },
+        "cvwiki": {
+          "site": "cvwiki",
+          "title": "Ньюкасл Юнайтед ФК",
+          "badges": []
+        },
+        "cywiki": {
+          "site": "cywiki",
+          "title": "Newcastle United F.C.",
+          "badges": []
+        },
+        "dawiki": {
+          "site": "dawiki",
+          "title": "Newcastle United F.C.",
+          "badges": []
+        },
+        "dewiki": {
+          "site": "dewiki",
+          "title": "Newcastle United",
+          "badges": []
+        },
+        "dewikinews": {
+          "site": "dewikinews",
+          "title": "Kategorie:Newcastle United F.C.",
+          "badges": []
+        },
+        "diqwiki": {
+          "site": "diqwiki",
+          "title": "Newcastle United FC",
+          "badges": []
+        },
+        "elwiki": {
+          "site": "elwiki",
+          "title": "Νιούκασλ Γιουνάιτεντ",
+          "badges": []
+        },
+        "enwiki": {
+          "site": "enwiki",
+          "title": "Newcastle United F.C.",
+          "badges": []
+        },
+        "enwikinews": {
+          "site": "enwikinews",
+          "title": "Category:Newcastle United F.C.",
+          "badges": []
+        },
+        "eowiki": {
+          "site": "eowiki",
+          "title": "Newcastle United",
+          "badges": []
+        },
+        "eswiki": {
+          "site": "eswiki",
+          "title": "Newcastle United Football Club",
+          "badges": []
+        },
+        "etwiki": {
+          "site": "etwiki",
+          "title": "Newcastle United FC",
+          "badges": []
+        },
+        "euwiki": {
+          "site": "euwiki",
+          "title": "Newcastle United Football Club",
+          "badges": []
+        },
+        "fawiki": {
+          "site": "fawiki",
+          "title": "باشگاه فوتبال نیوکسل یونایتد",
+          "badges": []
+        },
+        "fiwiki": {
+          "site": "fiwiki",
+          "title": "Newcastle United FC",
+          "badges": []
+        },
+        "fowiki": {
+          "site": "fowiki",
+          "title": "Newcastle United F.C.",
+          "badges": []
+        },
+        "frwiki": {
+          "site": "frwiki",
+          "title": "Newcastle United Football Club",
+          "badges": []
+        },
+        "gawiki": {
+          "site": "gawiki",
+          "title": "Newcastle United Football Club",
+          "badges": []
+        },
+        "glwiki": {
+          "site": "glwiki",
+          "title": "Newcastle United F.C.",
+          "badges": []
+        },
+        "guwiki": {
+          "site": "guwiki",
+          "title": "ન્યૂકેસલ યુનાઇટેડ ફૂટબોલ ક્લબ",
+          "badges": []
+        },
+        "hawiki": {
+          "site": "hawiki",
+          "title": "Newcastle United FC",
+          "badges": []
+        },
+        "hewiki": {
+          "site": "hewiki",
+          "title": "ניוקאסל יונייטד",
+          "badges": []
+        },
+        "hifwiki": {
+          "site": "hifwiki",
+          "title": "Newcastle United Football Club",
+          "badges": []
+        },
+        "hiwiki": {
+          "site": "hiwiki",
+          "title": "न्यूकैसल युनाइटेड एफ़॰सी॰",
+          "badges": []
+        },
+        "hrwiki": {
+          "site": "hrwiki",
+          "title": "Newcastle United F.C.",
+          "badges": []
+        },
+        "huwiki": {
+          "site": "huwiki",
+          "title": "Newcastle United FC",
+          "badges": []
+        },
+        "hywiki": {
+          "site": "hywiki",
+          "title": "Նյուքասլ Յունայթեդ",
+          "badges": []
+        },
+        "idwiki": {
+          "site": "idwiki",
+          "title": "Newcastle United F.C.",
+          "badges": []
+        },
+        "iowiki": {
+          "site": "iowiki",
+          "title": "Newcastle United FC",
+          "badges": []
+        },
+        "iswiki": {
+          "site": "iswiki",
+          "title": "Newcastle United F.C.",
+          "badges": []
+        },
+        "itwiki": {
+          "site": "itwiki",
+          "title": "Newcastle United Football Club",
+          "badges": []
+        },
+        "jawiki": {
+          "site": "jawiki",
+          "title": "ニューカッスル・ユナイテッドFC",
+          "badges": []
+        },
+        "jvwiki": {
+          "site": "jvwiki",
+          "title": "Newcastle United F.C.",
+          "badges": []
+        },
+        "kawiki": {
+          "site": "kawiki",
+          "title": "ნიუკასლ იუნაიტედი (საფეხბურთო კლუბი)",
+          "badges": []
+        },
+        "kkwiki": {
+          "site": "kkwiki",
+          "title": "Ньюкасл Юнайтед",
+          "badges": []
+        },
+        "kncwiki": {
+          "site": "kncwiki",
+          "title": "Newcastle United F.C",
+          "badges": []
+        },
+        "kowiki": {
+          "site": "kowiki",
+          "title": "뉴캐슬 유나이티드 FC",
+          "badges": [
+            "Q17437796"
+          ]
+        },
+        "kuwiki": {
+          "site": "kuwiki",
+          "title": "Newcastle United",
+          "badges": []
+        },
+        "lbwiki": {
+          "site": "lbwiki",
+          "title": "Newcastle United FC",
+          "badges": []
+        },
+        "lowiki": {
+          "site": "lowiki",
+          "title": "ສະໂມສອນບານເຕະນິວຄາສເຊິນ ຢູໄນເຕັດ",
+          "badges": []
+        },
+        "ltwiki": {
+          "site": "ltwiki",
+          "title": "Newcastle United FC",
+          "badges": []
+        },
+        "lvwiki": {
+          "site": "lvwiki",
+          "title": "Newcastle United FC",
+          "badges": []
+        },
+        "maiwiki": {
+          "site": "maiwiki",
+          "title": "न्युक्यासल युनाइटेड फुटबल क्लब",
+          "badges": []
+        },
+        "minwiki": {
+          "site": "minwiki",
+          "title": "Newcastle United F.C.",
+          "badges": []
+        },
+        "mkwiki": {
+          "site": "mkwiki",
+          "title": "ФК Њукасл Јунајтед",
+          "badges": []
+        },
+        "mlwiki": {
+          "site": "mlwiki",
+          "title": "ന്യൂകാസിൽ യുണൈറ്റഡ് എഫ്.സി.",
+          "badges": []
+        },
+        "mnwiki": {
+          "site": "mnwiki",
+          "title": "Ньюкасл Юнайтед",
+          "badges": []
+        },
+        "mrwiki": {
+          "site": "mrwiki",
+          "title": "न्यूकॅसल युनायटेड एफ.सी.",
+          "badges": []
+        },
+        "mswiki": {
+          "site": "mswiki",
+          "title": "Newcastle United F.C.",
+          "badges": []
+        },
+        "mywiki": {
+          "site": "mywiki",
+          "title": "နယူးကာဆယ် ယူနိုက်တက်",
+          "badges": []
+        },
+        "mznwiki": {
+          "site": "mznwiki",
+          "title": "نیوکاسل یونایتد",
+          "badges": []
+        },
+        "newiki": {
+          "site": "newiki",
+          "title": "न्युक्यासल युनाइटेड फुटबल क्लब",
+          "badges": []
+        },
+        "nlwiki": {
+          "site": "nlwiki",
+          "title": "Newcastle United FC",
+          "badges": []
+        },
+        "nnwiki": {
+          "site": "nnwiki",
+          "title": "Newcastle United",
+          "badges": []
+        },
+        "nowiki": {
+          "site": "nowiki",
+          "title": "Newcastle United FC",
+          "badges": []
+        },
+        "pawiki": {
+          "site": "pawiki",
+          "title": "ਨਿਊਕੈਸਲ ਯੂਨਾਈਟਡ ਫੁੱਟਬਾਲ ਕਲੱਬ",
+          "badges": []
+        },
+        "plwiki": {
+          "site": "plwiki",
+          "title": "Newcastle United F.C.",
+          "badges": []
+        },
+        "ptwiki": {
+          "site": "ptwiki",
+          "title": "Newcastle United Football Club",
+          "badges": []
+        },
+        "rowiki": {
+          "site": "rowiki",
+          "title": "Newcastle United FC",
+          "badges": []
+        },
+        "ruwiki": {
+          "site": "ruwiki",
+          "title": "Ньюкасл Юнайтед",
+          "badges": []
+        },
+        "ruwikinews": {
+          "site": "ruwikinews",
+          "title": "Категория:Ньюкасл Юнайтед",
+          "badges": []
+        },
+        "scowiki": {
+          "site": "scowiki",
+          "title": "Newcastle United F.C.",
+          "badges": []
+        },
+        "shwiki": {
+          "site": "shwiki",
+          "title": "Newcastle United F.C.",
+          "badges": []
+        },
+        "simplewiki": {
+          "site": "simplewiki",
+          "title": "Newcastle United F.C.",
+          "badges": []
+        },
+        "skwiki": {
+          "site": "skwiki",
+          "title": "Newcastle United FC",
+          "badges": []
+        },
+        "slwiki": {
+          "site": "slwiki",
+          "title": "Newcastle United F.C.",
+          "badges": []
+        },
+        "sqwiki": {
+          "site": "sqwiki",
+          "title": "Newcastle United F.C.",
+          "badges": []
+        },
+        "srwiki": {
+          "site": "srwiki",
+          "title": "ФК Њукасл јунајтед",
+          "badges": []
+        },
+        "svwiki": {
+          "site": "svwiki",
+          "title": "Newcastle United FC",
+          "badges": []
+        },
+        "swwiki": {
+          "site": "swwiki",
+          "title": "Newcastle United",
+          "badges": []
+        },
+        "tgwiki": {
+          "site": "tgwiki",
+          "title": "Нюкасл Юнайтед (бошгоҳи футбол)",
+          "badges": []
+        },
+        "thwiki": {
+          "site": "thwiki",
+          "title": "สโมสรฟุตบอลนิวคาสเซิลยูไนเต็ด",
+          "badges": []
+        },
+        "trwiki": {
+          "site": "trwiki",
+          "title": "Newcastle United FC",
+          "badges": []
+        },
+        "ukwiki": {
+          "site": "ukwiki",
+          "title": "Ньюкасл Юнайтед",
+          "badges": []
+        },
+        "ukwikinews": {
+          "site": "ukwikinews",
+          "title": "Категорія:ФК «Ньюкасл Юнайтед»",
+          "badges": []
+        },
+        "uzwiki": {
+          "site": "uzwiki",
+          "title": "Newcastle United F.C.",
+          "badges": []
+        },
+        "viwiki": {
+          "site": "viwiki",
+          "title": "Newcastle United F.C.",
+          "badges": []
+        },
+        "wuuwiki": {
+          "site": "wuuwiki",
+          "title": "纽卡斯尔联足球俱乐部",
+          "badges": []
+        },
+        "zh_yuewiki": {
+          "site": "zh_yuewiki",
+          "title": "紐卡素足球會",
+          "badges": []
+        },
+        "zhwiki": {
+          "site": "zhwiki",
+          "title": "纽卡斯尔联足球俱乐部",
+          "badges": []
+        }
+      }
+    }
+  }
+}

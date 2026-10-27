@@ -1,0 +1,22 @@
+.experience-header{flex-wrap:wrap}
+.experience-header ::deep .replay-language{flex:0 0 125px}
+.experience-header .session-bar{min-width:0;flex-wrap:wrap}
+.experience-header .session-bar button{min-height:44px}
+.mobile-navigation{display:none}
+@media(max-width:760px){
+    .experience-header{position:relative;flex-wrap:nowrap;gap:8px;padding:12px 16px;min-height:68px}
+    .experience-header .experience-brand{display:inline-flex;align-items:center;flex:1 1 auto;min-width:0;min-height:44px;font-size:24px;white-space:nowrap}
+    .experience-header .brand-tagline,.experience-header .explore-link,.experience-header .session-bar{display:none}
+    .experience-header ::deep .replay-language{flex:0 0 125px;margin-left:auto}
+    .mobile-navigation{display:block;position:relative;flex:0 0 44px}
+    .mobile-navigation>summary{display:flex;align-items:center;justify-content:center;width:44px;min-height:44px;list-style:none;border:1px solid var(--line);border-radius:50%;cursor:pointer}
+    .mobile-navigation>summary::-webkit-details-marker{display:none}
+    .mobile-navigation>summary svg{width:20px;height:20px}
+    .mobile-navigation>summary:focus-visible{outline:3px solid var(--olive);outline-offset:3px}
+    .mobile-navigation[open]>summary{background:#e9eedf}
+    .mobile-navigation-panel{position:absolute;right:0;top:calc(100% + 10px);z-index:20;width:min(285px,calc(100vw - 32px));padding:10px 14px;background:var(--white);border:1px solid var(--line);border-radius:10px;box-shadow:0 10px 25px #203e3518;font-size:13px}
+    .mobile-navigation-panel>a{display:flex;align-items:center;min-height:44px;text-decoration:none}
+    .mobile-account{display:grid;gap:8px;border-top:1px solid var(--line);padding-top:12px;margin-top:6px}
+    .mobile-account>span{font-size:11px;color:var(--muted)}
+    .mobile-account button{min-height:44px;width:100%;text-align:left;font-size:13px}
+}

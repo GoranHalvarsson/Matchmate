@@ -1,0 +1,166 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Matchmate review bundle v0.3.0",
+  "description": "Small synthetic review bundle. Structure validation does not establish snapshot/query correctness.",
+  "type": "object",
+  "properties": {
+    "schema_version": {
+      "const": "0.3.0"
+    },
+    "dataset_id": {
+      "$ref": "common.schema.json#/$defs/record_id"
+    },
+    "description": {
+      "type": "string",
+      "minLength": 1
+    },
+    "sources": {
+      "type": "array",
+      "items": {
+        "$ref": "common.schema.json#/$defs/source"
+      }
+    },
+    "records": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "oneOf": [
+          {
+            "$ref": "clubs-competitions.schema.json#/$defs/club"
+          },
+          {
+            "$ref": "people.schema.json#/$defs/person"
+          },
+          {
+            "$ref": "people.schema.json#/$defs/affiliation"
+          },
+          {
+            "$ref": "people.schema.json#/$defs/player_profile"
+          },
+          {
+            "$ref": "venues.schema.json#/$defs/stadium"
+          },
+          {
+            "$ref": "venues.schema.json#/$defs/club_stadium"
+          },
+          {
+            "$ref": "venues.schema.json#/$defs/pitch"
+          },
+          {
+            "$ref": "venues.schema.json#/$defs/pitch_configuration"
+          },
+          {
+            "$ref": "clubs-competitions.schema.json#/$defs/ruleset"
+          },
+          {
+            "$ref": "clubs-competitions.schema.json#/$defs/competition_season"
+          },
+          {
+            "$ref": "fixtures.schema.json#/$defs/fixture"
+          },
+          {
+            "$ref": "fixtures.schema.json#/$defs/period"
+          },
+          {
+            "$ref": "fixtures.schema.json#/$defs/participant"
+          },
+          {
+            "$ref": "fixtures.schema.json#/$defs/participation_interval"
+          },
+          {
+            "$ref": "fixtures.schema.json#/$defs/attacking_direction"
+          },
+          {
+            "$ref": "transfers-finance.schema.json#/$defs/transfer"
+          },
+          {
+            "$ref": "transfers-finance.schema.json#/$defs/financial_term"
+          },
+          {
+            "$ref": "transfers-finance.schema.json#/$defs/payment"
+          },
+          {
+            "$ref": "balls.schema.json#/$defs/ball_model"
+          },
+          {
+            "$ref": "balls.schema.json#/$defs/physical_ball"
+          },
+          {
+            "$ref": "balls.schema.json#/$defs/ball_use"
+          },
+          {
+            "$ref": "match-events.schema.json#/$defs/match_event"
+          },
+          {
+            "$ref": "tracking.schema.json#/$defs/tracking_sample"
+          },
+          {
+            "$ref": "context.schema.json#/$defs/context_observation"
+          },
+          {
+            "$ref": "context.schema.json#/$defs/tactical_assessment"
+          },
+          {
+            "$ref": "coverage.schema.json#/$defs/coverage"
+          },
+          {
+            "$ref": "coverage.schema.json#/$defs/stat_baseline"
+          },
+          {
+            "$ref": "clubs-competitions.schema.json#/$defs/competition"
+          },
+          {
+            "$ref": "clubs-competitions.schema.json#/$defs/season_membership"
+          },
+          {
+            "$ref": "club-ecosystem.schema.json#/$defs/supporter_group"
+          },
+          {
+            "$ref": "club-ecosystem.schema.json#/$defs/public_contact_channel"
+          },
+          {
+            "$ref": "club-ecosystem.schema.json#/$defs/supporter_group_recognition"
+          },
+          {
+            "$ref": "club-ecosystem.schema.json#/$defs/academy"
+          },
+          {
+            "$ref": "club-ecosystem.schema.json#/$defs/team_programme"
+          },
+          {
+            "$ref": "club-ecosystem.schema.json#/$defs/facility"
+          },
+          {
+            "$ref": "club-ecosystem.schema.json#/$defs/facility_use"
+          },
+          {
+            "$ref": "club-ecosystem.schema.json#/$defs/support_department"
+          },
+          {
+            "$ref": "club-ecosystem.schema.json#/$defs/staff_appointment"
+          },
+          {
+            "$ref": "club-ecosystem.schema.json#/$defs/coaching_staff_relationship"
+          },
+          {
+            "$ref": "club-ecosystem.schema.json#/$defs/match_staff_assignment"
+          },
+          {
+            "$ref": "club-ecosystem.schema.json#/$defs/attendance_observation"
+          },
+          {
+            "$ref": "club-ecosystem.schema.json#/$defs/match_capacity"
+          }
+        ]
+      }
+    }
+  },
+  "required": [
+    "schema_version",
+    "dataset_id",
+    "description",
+    "sources",
+    "records"
+  ],
+  "additionalProperties": false
+}

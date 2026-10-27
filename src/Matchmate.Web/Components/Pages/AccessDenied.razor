@@ -1,0 +1,8 @@
+@page "/account/denied"
+@attribute [AllowAnonymous]
+@using Matchmate.Web.Localization
+@inject MatchLanguageState LanguageState
+
+<PageTitle>@T("AccessTitle")</PageTitle>
+<main class="account-page"><section class="account-card"><p class="eyebrow">@T("Preview")</p><h1>@T("AccessHeading")</h1><p>@T("AccessDescription")</p><a href="/account/sign-in" data-enhance-nav="false">@T("ReturnSignIn")</a></section></main>
+@code { private string T(string key) => ShellText.Get(LanguageState.Language, key); }

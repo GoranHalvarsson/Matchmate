@@ -1,0 +1,158 @@
+{
+  "entities": {
+    "Q139971188": {
+      "pageid": 133419493,
+      "ns": 0,
+      "title": "Q139971188",
+      "lastrevid": 2529914505,
+      "modified": "2026-08-11T06:40:42Z",
+      "type": "item",
+      "id": "Q139971188",
+      "labels": {
+        "en": {
+          "language": "en",
+          "value": "2026–27 Liverpool F.C. season"
+        }
+      },
+      "claims": {
+        "P5138": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P5138",
+              "hash": "dbd8f17cda4fe4cd617e04b777c53c27d9ed43a0",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 1130849,
+                  "id": "Q1130849"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q139971188$70A94556-DC24-41C3-9D7C-9C62F7A98359",
+            "rank": "normal"
+          }
+        ],
+        "P2348": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P2348",
+              "hash": "33dc124fb8ec0bedb17f94adfe80c432678d5a4d",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 53389812,
+                  "id": "Q53389812"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q139971188$40ba074c-4c66-ab2c-c10c-1a9597a1b395",
+            "rank": "normal"
+          }
+        ],
+        "P641": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P641",
+              "hash": "1624e15e061523279bc14bb6497168e45caacb32",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 2736,
+                  "id": "Q2736"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q139971188$6945b864-4e5d-4d3d-29c4-3501fc5a4671",
+            "rank": "normal"
+          }
+        ],
+        "P31": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P31",
+              "hash": "9ddb403180b684facfb50183c3b3a99ce0b171d1",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 26887310,
+                  "id": "Q26887310"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q139971188$57d0af9d-481b-fbda-7f07-ebb523915ac8",
+            "rank": "normal"
+          }
+        ],
+        "P155": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P155",
+              "hash": "fbfbed45a80ae53ddfe8ca78b9fe75fd072d5c1a",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 134396269,
+                  "id": "Q134396269"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q139971188$c6dc3efd-443f-8535-5110-370d988d145c",
+            "rank": "normal"
+          }
+        ]
+      },
+      "sitelinks": {
+        "enwiki": {
+          "site": "enwiki",
+          "title": "2026–27 Liverpool F.C. season",
+          "badges": []
+        },
+        "frwiki": {
+          "site": "frwiki",
+          "title": "Saison 2026-2027 du Liverpool FC",
+          "badges": []
+        },
+        "huwiki": {
+          "site": "huwiki",
+          "title": "A Liverpool FC 2026–2027-es szezonja",
+          "badges": []
+        },
+        "itwiki": {
+          "site": "itwiki",
+          "title": "Liverpool Football Club 2026-2027",
+          "badges": []
+        },
+        "ruwiki": {
+          "site": "ruwiki",
+          "title": "ФК «Ливерпуль» в сезоне 2026/2027",
+          "badges": []
+        },
+        "thwiki": {
+          "site": "thwiki",
+          "title": "สโมสรฟุตบอลลิเวอร์พูลในฤดูกาล 2026–27",
+          "badges": []
+        }
+      }
+    }
+  }
+}

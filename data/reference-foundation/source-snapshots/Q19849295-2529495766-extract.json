@@ -1,0 +1,353 @@
+{
+  "entities": {
+    "Q19849295": {
+      "pageid": 21451100,
+      "ns": 0,
+      "title": "Q19849295",
+      "lastrevid": 2529495766,
+      "modified": "2026-08-10T06:08:03Z",
+      "type": "item",
+      "id": "Q19849295",
+      "labels": {
+        "en": {
+          "language": "en",
+          "value": "2015–16 Manchester United F.C. season"
+        }
+      },
+      "claims": {
+        "P641": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P641",
+              "hash": "1624e15e061523279bc14bb6497168e45caacb32",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 2736,
+                  "id": "Q2736"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q19849295$DAB0FBCF-CDB8-4BBF-8B26-4D8DDCFEBC98",
+            "rank": "normal"
+          }
+        ],
+        "P17": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P17",
+              "hash": "a44880420787fb348836dc51d3babc5227c4ef7e",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 145,
+                  "id": "Q145"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q19849295$0E51F097-69C9-4C24-9F33-0C55752FCCF9",
+            "rank": "normal"
+          }
+        ],
+        "P155": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P155",
+              "hash": "7002d36146e463583e6d716dba87186cdae34404",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 16726285,
+                  "id": "Q16726285"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q19849295$836ff247-4a8a-37b3-0f51-ca21e464b293",
+            "rank": "normal"
+          }
+        ],
+        "P156": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P156",
+              "hash": "856cece571f94cbefa77849102ce9f61072f459e",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 23914529,
+                  "id": "Q23914529"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q19849295$9694063d-4eaa-6aac-3b9a-c2bb2a58dace",
+            "rank": "normal"
+          }
+        ],
+        "P31": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P31",
+              "hash": "9ddb403180b684facfb50183c3b3a99ce0b171d1",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 26887310,
+                  "id": "Q26887310"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q19849295$1D9E8903-4D4F-4DD1-AAAD-3374EAC10F4E",
+            "rank": "normal"
+          }
+        ],
+        "P5138": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P5138",
+              "hash": "2940a2da89df84caa829430a5ca0b91fd645e57d",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 18656,
+                  "id": "Q18656"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q19849295$46E93458-41A4-46B9-8D1A-B0B98306B381",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "fa278ebfc458360e5aed63d5058cca83c46134f1",
+                "snaks": {
+                  "P143": [
+                    {
+                      "snaktype": "value",
+                      "property": "P143",
+                      "hash": "e4f6d9441d0600513c4533c672b5ab472dc73694",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 328,
+                          "id": "Q328"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P143"
+                ]
+              }
+            ]
+          }
+        ],
+        "P2348": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P2348",
+              "hash": "aa2170c45da73f28c5e261a9d37f3a75ef9799c5",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 53386085,
+                  "id": "Q53386085"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q19849295$5D461764-C947-495F-82AE-6F1CBD0D936F",
+            "rank": "normal"
+          }
+        ],
+        "P5249": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P5249",
+              "hash": "91666b0753da655b6048c4e1f9f893e4297a0935",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 19346732,
+                  "id": "Q19346732"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q19849295$512AE52A-52FF-4DF2-9C4D-05817D3DACD6",
+            "rank": "normal"
+          },
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P5249",
+              "hash": "18146c34e085e17b146c29ee6497bd958d12843b",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 20119002,
+                  "id": "Q20119002"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q19849295$de426bdb-4b1c-3443-50e5-b61b3bec4938",
+            "rank": "normal"
+          }
+        ],
+        "P18": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P18",
+              "hash": "c810a36506be4558644497ca2fef0abef9d93269",
+              "datavalue": {
+                "value": "Cskamu 15.jpg",
+                "type": "string"
+              },
+              "datatype": "commonsMedia"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P2096": [
+                {
+                  "snaktype": "value",
+                  "property": "P2096",
+                  "hash": "6a96d57b10e5dcd24150215fd90fa68a57e45d3c",
+                  "datavalue": {
+                    "value": {
+                      "text": "«Юнайтед» перед матчем с ЦСКА в Химках",
+                      "language": "ru"
+                    },
+                    "type": "monolingualtext"
+                  },
+                  "datatype": "monolingualtext"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P2096"
+            ],
+            "id": "Q19849295$F16DF714-D57B-4A58-84ED-19D06F2388D2",
+            "rank": "normal"
+          }
+        ]
+      },
+      "sitelinks": {
+        "arwiki": {
+          "site": "arwiki",
+          "title": "مانشستر يونايتد موسم 2015–16",
+          "badges": []
+        },
+        "bgwiki": {
+          "site": "bgwiki",
+          "title": "ФК „Манчестър Юнайтед“ през сезон 2015/16",
+          "badges": []
+        },
+        "enwiki": {
+          "site": "enwiki",
+          "title": "2015–16 Manchester United F.C. season",
+          "badges": []
+        },
+        "eswiki": {
+          "site": "eswiki",
+          "title": "Anexo:Temporada 2015-16 del Manchester United Football Club",
+          "badges": []
+        },
+        "frwiki": {
+          "site": "frwiki",
+          "title": "Saison 2015-2016 de Manchester United",
+          "badges": []
+        },
+        "huwiki": {
+          "site": "huwiki",
+          "title": "A Manchester United FC 2015–2016-os szezonja",
+          "badges": []
+        },
+        "hywiki": {
+          "site": "hywiki",
+          "title": "Մանչեսթեր Յունայթեդը 2016/17 մրցաշրջանում",
+          "badges": []
+        },
+        "idwiki": {
+          "site": "idwiki",
+          "title": "Manchester United F.C. musim 2015–2016",
+          "badges": []
+        },
+        "itwiki": {
+          "site": "itwiki",
+          "title": "Manchester United Football Club 2015-2016",
+          "badges": []
+        },
+        "nlwiki": {
+          "site": "nlwiki",
+          "title": "Manchester United FC in het seizoen 2015/16",
+          "badges": []
+        },
+        "nowiki": {
+          "site": "nowiki",
+          "title": "Manchester United FC i 2015–16",
+          "badges": []
+        },
+        "ruwiki": {
+          "site": "ruwiki",
+          "title": "ФК «Манчестер Юнайтед» в сезоне 2015/2016",
+          "badges": []
+        },
+        "thwiki": {
+          "site": "thwiki",
+          "title": "สโมสรฟุตบอลแมนเชสเตอร์ยูไนเต็ดในฤดูกาล 2015–16",
+          "badges": []
+        },
+        "trwiki": {
+          "site": "trwiki",
+          "title": "Manchester United FC 2015-16 sezonu",
+          "badges": []
+        },
+        "viwiki": {
+          "site": "viwiki",
+          "title": "Manchester United F.C. mùa giải 2015–16",
+          "badges": []
+        },
+        "zhwiki": {
+          "site": "zhwiki",
+          "title": "2015年至2016年曼聯足球俱樂部賽季",
+          "badges": []
+        }
+      }
+    }
+  }
+}

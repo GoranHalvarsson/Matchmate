@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <data name="Question.result" xml:space="preserve"><value>Berätta om det här resultatet.</value></data>
+  <data name="Question.form" xml:space="preserve"><value>Jämför lagens form före matchen.</value></data>
+  <data name="Question.table" xml:space="preserve"><value>Vad ändrades i tabellen?</value></data>
+  <data name="Question.meetings" xml:space="preserve"><value>Hade de här lagen mötts tidigare?</value></data>
+  <data name="Title.result" xml:space="preserve"><value>Resultatet</value></data>
+  <data name="Title.form" xml:space="preserve"><value>Före matchen</value></data>
+  <data name="Title.table" xml:space="preserve"><value>Tabellen</value></data>
+  <data name="Title.meetings" xml:space="preserve"><value>Tidigare möten</value></data>
+  <data name="Source.Result" xml:space="preserve"><value>{0}, {1}: {2} {3}–{4} {5}, slutresultat.</value></data>
+  <data name="Source.Snapshot" xml:space="preserve"><value>Ögonblicksbild av pågående säsong: resultat till och med {0}; hämtad {1}. Ingen automatisk uppdatering.</value></data>
+  <data name="Source.FormScope" xml:space="preserve"><value>Säsong {0}, strikt före {1}, med högst de 5 senaste resultaten per klubb.</value></data>
+  <data name="Source.Form" xml:space="preserve"><value>{0}: {1} tidigare resultat i urvalet; {2} vinster, {3} oavgjorda, {4} förluster; {5} poäng, {6} gjorda och {7} insläppta mål.</value></data>
+  <data name="Source.NoForm" xml:space="preserve"><value>{0}: inga tidigare resultat i urvalet; det här är inte en fullständig historik.</value></data>
+  <data name="Source.EmptyForm" xml:space="preserve"><value>Det finns inga tidigare inlästa resultat för {0} eller {1} i säsongen {2}, strikt före {3}. Jag kan inte jämföra formen från urvalet; det betyder inte att lagen aldrig hade spelat.</value></data>
+  <data name="Source.Table" xml:space="preserve"><value>{0}: {1}, {2} poäng efter {3} matcher; poängförändring {4}. {5}</value></data>
+  <data name="Source.Movement" xml:space="preserve"><value>Placeringsförändring {0} (positivt betyder vunna platser).</value></data>
+  <data name="Source.NoMovement" xml:space="preserve"><value>Placeringen från föregående speldatum saknas.</value></data>
+  <data name="Source.TableScope" xml:space="preserve"><value>Vid slutet av {0}: alla dagens resultat räknas tillsammans. Förändringar jämför med föregående speldatum och orsakas inte enbart av den här matchen.</value></data>
+  <data name="Source.Rank" xml:space="preserve"><value>plats {0}</value></data>
+  <data name="Source.SharedRank" xml:space="preserve"><value>delad plats {0}</value></data>
+  <data name="Source.Unranked" xml:space="preserve"><value>utan placering</value></data>
+  <data name="Source.Meetings" xml:space="preserve"><value>Strikt före {0}: {1} tidigare möten från inlästa säsonger (högst de 8 senaste). {2} Det här är inte en fullständig inbördes historik.</value></data>
+  <data name="Source.NoMeetings" xml:space="preserve"><value>Inga i det här inlästa urvalet.</value></data>
+  <data name="Source.Compact" xml:space="preserve"><value>Se Faktaunderlag för alla förberedda uppgifter.</value></data>
+  <data name="Source.Home" xml:space="preserve"><value>Hemmalaget</value></data>
+  <data name="Source.Away" xml:space="preserve"><value>Bortalaget</value></data>
+  <data name="Source.Recovery" xml:space="preserve"><value>Jag kunde inte ge ett verifierat AI-svar. Här är matchens fakta.
+
+</value></data>
+  <data name="Feedback.Source" xml:space="preserve"><value>Välj en av de tillgängliga föreslagna frågorna.</value></data>
+  <data name="Feedback.Input" xml:space="preserve"><value>Ställ en fråga på högst 1 000 tecken om den här matchen.</value></data>
+  <data name="Feedback.SignIn" xml:space="preserve"><value>Logga in med ditt testkonto för att chatta.</value></data>
+  <data name="Feedback.Disconnected" xml:space="preserve"><value>AI-chatten är inte ansluten just nu. Du kan fortfarande utforska matchens fakta nedan.</value></data>
+  <data name="Feedback.Clarify" xml:space="preserve"><value>Förtydliga vilket lag eller resultat du menar, eller välj en föreslagen fråga.</value></data>
+  <data name="Feedback.Routing" xml:space="preserve"><value>Jag kunde inte koppla frågan till rätt underlag just nu. Försök igen.</value></data>
+  <data name="Feedback.Unsupported" xml:space="preserve"><value>Jag kan utforska resultat, form före matchen, tabellplaceringar, tidigare möten och säsongens arenauppgifter. Spelardetaljer, målhändelser och taktiskt underlag saknas.</value></data>
+  <data name="Feedback.Unavailable" xml:space="preserve"><value>Jag kunde inte verifiera ett svar om den här matchen. Försök igen.</value></data>
+  <data name="Feedback.Cancelled" xml:space="preserve"><value>Svaret avbröts eller sammanhanget ändrades. Inget svar lades till.</value></data>
+  <data name="Feedback.Stale" xml:space="preserve"><value>Matchen eller inloggningen ändrades. Svaret lades inte till.</value></data>
+  <data name="Narrator.Goals" xml:space="preserve"><value>For supported totals use full prepared club name followed by 'gjorde N mål i den här matchen.' for fixture or 'gjorde N mål i det tidigare resultaturvalet.' for earlier_results. Copy N and cite the exact goal fact. Keep these sentences separate. For unavailable details use 'Inga målskyttar eller målmekanismer finns i underlaget.'</value></data>
+</root>

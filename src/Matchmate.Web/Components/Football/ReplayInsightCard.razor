@@ -1,0 +1,21 @@
+@using Matchmate.Web.Localization
+@using Matchmate.Web.Experience
+@using Matchmate.Web.Chat
+@if (Insight is { } card)
+{
+    <section class="replay-insight" aria-label="@T(card.IsReported ? "ReportedInsight" : "GeneratedInsight")" data-insight="@card.CategoryKey">
+        <p class="insight-scope">@T(card.IsReported ? "ReportedInsightScope" : "InsightScope", card.Clock, ReplayText.Audience(Language, AudienceMode))</p>
+        <h2>@card.Headline</h2>
+        <p class="insight-body">@card.Body</p>
+        @if (card.ControlNote is { } note) { <p class="insight-note">@note</p> }
+        <button type="button" disabled="@Disabled" @onclick="() => OnAsk.InvokeAsync(card.Action)">@T("AskAboutThis") <span aria-hidden="true">↗</span></button>
+    </section>
+}
+@code {
+    [CascadingParameter] public MatchLanguage Language { get; set; }
+    private string T(string key, params object?[] args) => ReplayText.Get(Language, key, args);
+    [Parameter] public ReplayInsight? Insight { get; set; }
+    [Parameter] public bool Disabled { get; set; }
+    [Parameter] public MatchAudienceMode AudienceMode { get; set; }
+    [Parameter] public EventCallback<ReplayInsightAction> OnAsk { get; set; }
+}

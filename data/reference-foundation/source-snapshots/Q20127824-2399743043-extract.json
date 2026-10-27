@@ -1,0 +1,240 @@
+{
+  "entities": {
+    "Q20127824": {
+      "pageid": 21801415,
+      "ns": 0,
+      "title": "Q20127824",
+      "lastrevid": 2399743043,
+      "modified": "2025-09-02T21:07:15Z",
+      "type": "item",
+      "id": "Q20127824",
+      "labels": {
+        "en": {
+          "language": "en",
+          "value": "2015–16 Sunderland A.F.C. season"
+        }
+      },
+      "claims": {
+        "P31": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P31",
+              "hash": "9ddb403180b684facfb50183c3b3a99ce0b171d1",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 26887310,
+                  "id": "Q26887310"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q20127824$FDD8D6A8-6475-4794-95B8-DAF50D0A1876",
+            "rank": "normal"
+          }
+        ],
+        "P641": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P641",
+              "hash": "1624e15e061523279bc14bb6497168e45caacb32",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 2736,
+                  "id": "Q2736"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q20127824$5732355D-3A39-4DF5-A162-57F3017D5651",
+            "rank": "normal"
+          }
+        ],
+        "P5138": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P5138",
+              "hash": "81f8387225a674fabe23d911e910c95ab831367a",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 18739,
+                  "id": "Q18739"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q20127824$810B3390-BF41-4046-964F-4998BDD0747F",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "fa278ebfc458360e5aed63d5058cca83c46134f1",
+                "snaks": {
+                  "P143": [
+                    {
+                      "snaktype": "value",
+                      "property": "P143",
+                      "hash": "e4f6d9441d0600513c4533c672b5ab472dc73694",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 328,
+                          "id": "Q328"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P143"
+                ]
+              }
+            ]
+          }
+        ],
+        "P2348": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P2348",
+              "hash": "aa2170c45da73f28c5e261a9d37f3a75ef9799c5",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 53386085,
+                  "id": "Q53386085"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q20127824$0371E06E-7F9C-4493-9CBE-F8CBB59DB879",
+            "rank": "normal"
+          }
+        ],
+        "P17": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P17",
+              "hash": "a44880420787fb348836dc51d3babc5227c4ef7e",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 145,
+                  "id": "Q145"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q20127824$291AFC4F-0B57-408A-8D9E-6AE589025F96",
+            "rank": "normal"
+          }
+        ],
+        "P155": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P155",
+              "hash": "27640bd583d1b44321af7d0742b4bb9fa448174a",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 17016225,
+                  "id": "Q17016225"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q20127824$9356831A-F9EB-4C2E-969B-E796AB71D554",
+            "rank": "normal"
+          }
+        ],
+        "P156": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P156",
+              "hash": "b4d08f99a0f547f0cf8c7e2346342aa5000816bb",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 25108721,
+                  "id": "Q25108721"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q20127824$ED04A7E5-2B6D-40B2-A634-4010C2E2E8F5",
+            "rank": "normal"
+          }
+        ],
+        "P2671": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P2671",
+              "hash": "5656064073c17e1ca3a3a50bdcc88177cca59206",
+              "datavalue": {
+                "value": "/g/11btzyn6s9",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q20127824$79D96E58-411E-4E5D-8FBD-11426294CAA1",
+            "rank": "normal"
+          }
+        ],
+        "P18": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P18",
+              "hash": "cdc83b537d273c944ad4017a9f10d71473230113",
+              "datavalue": {
+                "value": "Sunderland 3 Chelsea 2 (8).jpg",
+                "type": "string"
+              },
+              "datatype": "commonsMedia"
+            },
+            "type": "statement",
+            "id": "Q20127824$2DB78806-E464-49B7-9D7E-EBBAE724F411",
+            "rank": "normal"
+          }
+        ]
+      },
+      "sitelinks": {
+        "enwiki": {
+          "site": "enwiki",
+          "title": "2015–16 Sunderland A.F.C. season",
+          "badges": []
+        },
+        "nlwiki": {
+          "site": "nlwiki",
+          "title": "Sunderland AFC in het seizoen 2015/16",
+          "badges": []
+        }
+      }
+    }
+  }
+}

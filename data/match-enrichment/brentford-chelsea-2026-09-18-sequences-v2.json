@@ -1,0 +1,428 @@
+{
+  "version": 2,
+  "fixtureId": "fixture-pl-2645236",
+  "policy": "shared-event-sequence-v2",
+  "presentation": "Semantic order is evidence-backed. Offsets and geometry are authored illustration, not contact times or measured trajectories. Only explicitly selected goals may reveal a pre-release sequence; other goal windows are masked without facts. Possessions wait for completion.",
+  "sources": [
+    {
+      "path": "data/official-match-records/brentford-chelsea-2026-09-18.json",
+      "sha256": "c6dd8928c34d30b1d0a8f9f236e3e79cb01d846db190176250e503d689229691"
+    },
+    {
+      "path": "data/match-enrichment/brentford-chelsea-2026-09-18-event-context-v2.json",
+      "sha256": "c030821a66653600053f539cffc81b3fdf7d7020e944275e24e469aa014e36fd"
+    }
+  ],
+  "associationPolicy": "Explicit accepted goal participant review and exact official event IDs only. Report claims and native point identities remain separate; no timestamp/name heuristic, cut bridge or formal assist inference. All 27 unaligned source-media passages remain unused.",
+  "events": [
+    {
+      "recordId": "goal-1",
+      "version": 1,
+      "id": "sequence-goal-1",
+      "presentationLeadInMs": 60000,
+      "presentationTailMs": 15000,
+      "steps": [
+        {
+          "id": "corner",
+          "kind": "corner",
+          "actorId": "brentford:damsgaard",
+          "relatedActorId": null,
+          "presentationOffsetMs": -15000,
+          "text": "Reported Damsgaard corner kick.",
+          "evidenceIds": [
+            "club-sequence"
+          ],
+          "uncertainty": "Reported sequence; actual delivery time and trajectory are unknown."
+        },
+        {
+          "id": "assist",
+          "kind": "headed_assist",
+          "actorId": "brentford:schuster",
+          "relatedActorId": null,
+          "presentationOffsetMs": -6000,
+          "text": "Reported Schuster header across goal.",
+          "evidenceIds": [
+            "reported",
+            "club-sequence",
+            "goal-review"
+          ],
+          "uncertainty": "Wide review does not independently identify the intermediate actor or contact."
+        },
+        {
+          "id": "finish",
+          "kind": "header_finish",
+          "actorId": "brentford:anthony",
+          "relatedActorId": null,
+          "presentationOffsetMs": 0,
+          "text": "Reported Anthony header from very close range.",
+          "evidenceIds": [
+            "reported"
+          ],
+          "uncertainty": "Schematic contacts and positions illustrate the report, not measured movement."
+        }
+      ]
+    },
+    {
+      "recordId": "sub-5",
+      "version": 1,
+      "id": "sequence-sub-5",
+      "presentationLeadInMs": 0,
+      "presentationTailMs": 15000,
+      "steps": [
+        {
+          "id": "change",
+          "kind": "substitution",
+          "actorId": "brentford:kayode",
+          "relatedActorId": "brentford:hickey",
+          "presentationOffsetMs": 0,
+          "text": "Reported outgoing and incoming player transition.",
+          "evidenceIds": [
+            "reported"
+          ],
+          "uncertainty": "Same-minute substitutions share a release; exact within-group order and running paths are unknown."
+        }
+      ]
+    },
+    {
+      "recordId": "sub-6",
+      "version": 1,
+      "id": "sequence-sub-6",
+      "presentationLeadInMs": 0,
+      "presentationTailMs": 15000,
+      "steps": [
+        {
+          "id": "change",
+          "kind": "substitution",
+          "actorId": "brentford:yarmoliuk",
+          "relatedActorId": "brentford:sangare",
+          "presentationOffsetMs": 0,
+          "text": "Reported outgoing and incoming player transition.",
+          "evidenceIds": [
+            "reported"
+          ],
+          "uncertainty": "Same-minute substitutions share a release; exact within-group order and running paths are unknown."
+        }
+      ]
+    },
+    {
+      "recordId": "sub-1",
+      "version": 1,
+      "id": "sequence-sub-1",
+      "presentationLeadInMs": 0,
+      "presentationTailMs": 15000,
+      "steps": [
+        {
+          "id": "change",
+          "kind": "substitution",
+          "actorId": "chelsea:fofana",
+          "relatedActorId": "chelsea:acheampong",
+          "presentationOffsetMs": 0,
+          "text": "Reported outgoing and incoming player transition.",
+          "evidenceIds": [
+            "reported"
+          ],
+          "uncertainty": "Same-minute substitutions share a release; exact within-group order and running paths are unknown."
+        }
+      ]
+    },
+    {
+      "recordId": "sub-2",
+      "version": 1,
+      "id": "sequence-sub-2",
+      "presentationLeadInMs": 0,
+      "presentationTailMs": 15000,
+      "steps": [
+        {
+          "id": "change",
+          "kind": "substitution",
+          "actorId": "chelsea:welbeck",
+          "relatedActorId": "chelsea:quenda",
+          "presentationOffsetMs": 0,
+          "text": "Reported outgoing and incoming player transition.",
+          "evidenceIds": [
+            "reported"
+          ],
+          "uncertainty": "Same-minute substitutions share a release; exact within-group order and running paths are unknown."
+        }
+      ]
+    },
+    {
+      "recordId": "sub-7",
+      "version": 1,
+      "id": "sequence-sub-7",
+      "presentationLeadInMs": 0,
+      "presentationTailMs": 15000,
+      "steps": [
+        {
+          "id": "change",
+          "kind": "substitution",
+          "actorId": "brentford:lewis-potter",
+          "relatedActorId": "brentford:diouf",
+          "presentationOffsetMs": 0,
+          "text": "Reported outgoing and incoming player transition.",
+          "evidenceIds": [
+            "reported"
+          ],
+          "uncertainty": "Same-minute substitutions share a release; exact within-group order and running paths are unknown."
+        }
+      ]
+    },
+    {
+      "recordId": "sub-8",
+      "version": 1,
+      "id": "sequence-sub-8",
+      "presentationLeadInMs": 0,
+      "presentationTailMs": 15000,
+      "steps": [
+        {
+          "id": "change",
+          "kind": "substitution",
+          "actorId": "brentford:anthony",
+          "relatedActorId": "brentford:ouattara",
+          "presentationOffsetMs": 0,
+          "text": "Reported outgoing and incoming player transition.",
+          "evidenceIds": [
+            "reported"
+          ],
+          "uncertainty": "Same-minute substitutions share a release; exact within-group order and running paths are unknown."
+        }
+      ]
+    },
+    {
+      "recordId": "goal-2",
+      "version": 1,
+      "id": "sequence-goal-2",
+      "presentationLeadInMs": 60000,
+      "presentationTailMs": 15000,
+      "steps": [
+        {
+          "id": "release",
+          "kind": "release_pass",
+          "actorId": "brentford:damsgaard",
+          "relatedActorId": "brentford:schade",
+          "presentationOffsetMs": -15000,
+          "text": "Brentford report: Damsgaard releases Schade.",
+          "evidenceIds": [
+            "participant-brentford"
+          ],
+          "uncertainty": "Release passer is attributed to Brentford; timing and geometry remain illustrative."
+        },
+        {
+          "id": "shot",
+          "kind": "shot",
+          "actorId": "brentford:schade",
+          "relatedActorId": null,
+          "presentationOffsetMs": -9000,
+          "text": "Both club reports: Schade shoots.",
+          "evidenceIds": [
+            "participant-brentford",
+            "participant-chelsea"
+          ],
+          "uncertainty": "Native identity points do not independently establish a continuous named path or shot contact."
+        },
+        {
+          "id": "save",
+          "kind": "save",
+          "actorId": "chelsea:martinez",
+          "relatedActorId": null,
+          "presentationOffsetMs": -4000,
+          "text": "Both club reports: Martinez saves Schade's attempt.",
+          "evidenceIds": [
+            "participant-brentford",
+            "participant-chelsea"
+          ],
+          "uncertainty": "Reported save; sampled wide footage does not independently verify this contact."
+        },
+        {
+          "id": "finish",
+          "kind": "rebound_finish",
+          "actorId": "brentford:thiago",
+          "relatedActorId": null,
+          "presentationOffsetMs": 0,
+          "text": "Both club reports: Thiago scores the rebound.",
+          "evidenceIds": [
+            "participant-brentford",
+            "participant-chelsea"
+          ],
+          "uncertainty": "Formal assist remains uncredited. Selected report minute83 differs from retained Brentford minute80."
+        }
+      ]
+    },
+    {
+      "recordId": "card-1",
+      "version": 1,
+      "id": "sequence-card-1",
+      "presentationLeadInMs": 0,
+      "presentationTailMs": 15000,
+      "steps": [
+        {
+          "id": "booking",
+          "kind": "booking",
+          "actorId": "brentford:thiago",
+          "relatedActorId": null,
+          "presentationOffsetMs": 0,
+          "text": "Reported booking: excessive celebration.",
+          "evidenceIds": [
+            "reported"
+          ],
+          "uncertainty": "No tackle, referee position or exact booking second is reconstructed."
+        }
+      ]
+    },
+    {
+      "recordId": "card-2",
+      "version": 1,
+      "id": "sequence-card-2",
+      "presentationLeadInMs": 0,
+      "presentationTailMs": 15000,
+      "steps": [
+        {
+          "id": "booking",
+          "kind": "booking",
+          "actorId": "brentford:sangare",
+          "relatedActorId": null,
+          "presentationOffsetMs": 0,
+          "text": "Reported booking: bad foul.",
+          "evidenceIds": [
+            "reported"
+          ],
+          "uncertainty": "No tackle, referee position or exact booking second is reconstructed."
+        }
+      ]
+    },
+    {
+      "recordId": "sub-3",
+      "version": 1,
+      "id": "sequence-sub-3",
+      "presentationLeadInMs": 0,
+      "presentationTailMs": 15000,
+      "steps": [
+        {
+          "id": "change",
+          "kind": "substitution",
+          "actorId": "chelsea:barco",
+          "relatedActorId": "chelsea:nicoll-jazuli",
+          "presentationOffsetMs": 0,
+          "text": "Reported outgoing and incoming player transition.",
+          "evidenceIds": [
+            "reported"
+          ],
+          "uncertainty": "Same-minute substitutions share a release; exact within-group order and running paths are unknown."
+        }
+      ]
+    },
+    {
+      "recordId": "sub-4",
+      "version": 1,
+      "id": "sequence-sub-4",
+      "presentationLeadInMs": 0,
+      "presentationTailMs": 15000,
+      "steps": [
+        {
+          "id": "change",
+          "kind": "substitution",
+          "actorId": "chelsea:neto",
+          "relatedActorId": "chelsea:estevao",
+          "presentationOffsetMs": 0,
+          "text": "Reported outgoing and incoming player transition.",
+          "evidenceIds": [
+            "reported"
+          ],
+          "uncertainty": "Same-minute substitutions share a release; exact within-group order and running paths are unknown."
+        }
+      ]
+    },
+    {
+      "recordId": "sub-9",
+      "version": 1,
+      "id": "sequence-sub-9",
+      "presentationLeadInMs": 0,
+      "presentationTailMs": 15000,
+      "steps": [
+        {
+          "id": "change",
+          "kind": "substitution",
+          "actorId": "brentford:damsgaard",
+          "relatedActorId": "brentford:carvalho",
+          "presentationOffsetMs": 0,
+          "text": "Reported outgoing and incoming player transition.",
+          "evidenceIds": [
+            "reported"
+          ],
+          "uncertainty": "Same-minute substitutions share a release; exact within-group order and running paths are unknown."
+        }
+      ]
+    },
+    {
+      "recordId": "goal-3",
+      "version": 1,
+      "id": "sequence-goal-3",
+      "presentationLeadInMs": 60000,
+      "presentationTailMs": 15000,
+      "steps": [
+        {
+          "id": "throw",
+          "kind": "throw_in",
+          "actorId": "brentford:schade",
+          "relatedActorId": null,
+          "presentationOffsetMs": -15000,
+          "text": "Native point and exact-fixture roster: Schade at throw-in setup.",
+          "evidenceIds": [
+            "participant-point"
+          ],
+          "uncertainty": "Point-scoped identity; exact release contact and authored timing are not visually established."
+        },
+        {
+          "id": "area",
+          "kind": "into_area",
+          "actorId": "brentford:schade",
+          "relatedActorId": null,
+          "presentationOffsetMs": -11000,
+          "text": "Separate native point and roster: Schade is the later ball carrier.",
+          "evidenceIds": [
+            "participant-point"
+          ],
+          "uncertainty": "Intermediate throw recipient/return passer is unresolved; these separate points do not establish a continuous named path."
+        },
+        {
+          "id": "cross",
+          "kind": "cross",
+          "actorId": "brentford:schade",
+          "relatedActorId": null,
+          "presentationOffsetMs": -7000,
+          "text": "Both club reports: Schade crosses.",
+          "evidenceIds": [
+            "participant-brentford",
+            "participant-chelsea"
+          ],
+          "uncertainty": "Reported cross, not independently verified pixel contact."
+        },
+        {
+          "id": "deflection",
+          "kind": "deflection",
+          "actorId": "chelsea:acheampong",
+          "relatedActorId": null,
+          "presentationOffsetMs": -3000,
+          "text": "Brentford report alone: slight Acheampong deflection.",
+          "evidenceIds": [
+            "participant-brentford"
+          ],
+          "uncertainty": "Single-source report attribution; sampled native frames do not independently verify the actor/contact."
+        },
+        {
+          "id": "finish",
+          "kind": "reported_finish",
+          "actorId": "brentford:carvalho",
+          "relatedActorId": null,
+          "presentationOffsetMs": 0,
+          "text": "Both club reports: Carvalho finishes at the far post.",
+          "evidenceIds": [
+            "participant-brentford",
+            "participant-chelsea"
+          ],
+          "uncertainty": "Formal assist remains uncredited; exact contacts and a continuous named path are not established."
+        }
+      ]
+    }
+  ]
+}

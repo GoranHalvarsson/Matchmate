@@ -1,0 +1,139 @@
+{
+  "observed_at": "2026-10-17",
+  "purpose": "Separate real-source review collection, not executable contract records or prototype input.",
+  "counts": {
+    "clubs": 30,
+    "memberships": 60,
+    "grounds": 34,
+    "ground_associations": 66,
+    "membership_ground_links": 60,
+    "dated_ground_gaps": 0,
+    "wikidata_identified_clubs": 30,
+    "club_lookup_rate_limits": 0,
+    "club_lookup_unresolved": 0,
+    "sources": 145,
+    "primary_ground_notes": 39
+  },
+  "source_team_sets": {
+    "openfootball-2015-16": [
+      "AFC Bournemouth",
+      "Arsenal FC",
+      "Aston Villa",
+      "Chelsea FC",
+      "Crystal Palace",
+      "Everton FC",
+      "Leicester City",
+      "Liverpool FC",
+      "Manchester City",
+      "Manchester United",
+      "Newcastle United",
+      "Norwich City",
+      "Southampton FC",
+      "Stoke City",
+      "Sunderland AFC",
+      "Swansea City",
+      "Tottenham Hotspur",
+      "Watford FC",
+      "West Bromwich Albion",
+      "West Ham United"
+    ],
+    "openfootball-2016-17": [
+      "AFC Bournemouth",
+      "Arsenal FC",
+      "Burnley FC",
+      "Chelsea FC",
+      "Crystal Palace",
+      "Everton FC",
+      "Hull City",
+      "Leicester City",
+      "Liverpool FC",
+      "Manchester City",
+      "Manchester United",
+      "Middlesbrough FC",
+      "Southampton FC",
+      "Stoke City",
+      "Sunderland AFC",
+      "Swansea City",
+      "Tottenham Hotspur",
+      "Watford FC",
+      "West Bromwich Albion",
+      "West Ham United"
+    ],
+    "openfootball-2026-27": [
+      "AFC Bournemouth",
+      "Arsenal FC",
+      "Aston Villa FC",
+      "Brentford FC",
+      "Brighton & Hove Albion FC",
+      "Chelsea FC",
+      "Coventry City FC",
+      "Crystal Palace FC",
+      "Everton FC",
+      "Fulham FC",
+      "Hull City AFC",
+      "Ipswich Town FC",
+      "Leeds United FC",
+      "Liverpool FC",
+      "Manchester City FC",
+      "Manchester United FC",
+      "Newcastle United FC",
+      "Nottingham Forest FC",
+      "Sunderland AFC",
+      "Tottenham Hotspur FC"
+    ]
+  },
+  "unchanged_prototype_checkpoints": [
+    {
+      "path": "prototypes/first-experience/preview.html",
+      "sha256": "ef424fa98700d846be681b26163e2861f1727f614e8d0d384bd316a1057d6775",
+      "bytes": 7452306
+    },
+    {
+      "path": "prototypes/first-experience/assets/seasons/2015-16.json",
+      "sha256": "4d8ab70f5d2c29231320be7404310bc1b0fbc6e6be0284e5ee667f581406fead",
+      "bytes": 113631
+    },
+    {
+      "path": "prototypes/first-experience/assets/seasons/2016-17.json",
+      "sha256": "9c8cdb27355678ab81aacbbabc34a08d00b399aacc28ef4b733da4954a344f17",
+      "bytes": 113759
+    }
+  ],
+  "license_checkpoint": {
+    "path": "source-snapshots/england-CC0-LICENSE.md",
+    "sha256": "36ffd9dc085d529a7e60e1276d73ae5a030b020313e6c5408593a6ae2af39673"
+  },
+  "not_imported": [
+    "normalized fixtures",
+    "scores",
+    "lineups",
+    "events",
+    "private profiles",
+    "synthetic schema records",
+    "prototype or map changes"
+  ],
+  "extension_note": "Finite pass: search API rate-limited after early successes; retry once, then stopped. Missing research distinguished from undated observed claims. Source qualifier year precision preserved; no imputed month/day.",
+  "count_semantics": "membership_ground_links includes dated structured claims and explicitly separate primary context notes; dated_ground_gaps is legacy field name counting missing context links, NOT missing full executable historical intervals.",
+  "supplemental_counts": {
+    "address_reviews": 20,
+    "named_street_evidence": 19,
+    "published_postal_without_street": 1,
+    "club_base_reviews": 30,
+    "primary_football_identity_distinctions": 1,
+    "ground_naming_reviews": 34,
+    "primary_naming_events": 9,
+    "grounds_with_primary_naming_events": 8,
+    "primary_source_metadata_notes": 45,
+    "individual_venue_cases": 7,
+    "pl_fixture_denominator": 1140
+  },
+  "venue_audit_2016_17_counts": {
+    "catalogue_rows": 380,
+    "exact_date_team_score_matches": 380,
+    "blank_venues": 0,
+    "missing_or_extra_fixtures": 0,
+    "primary_actual_cases": 3,
+    "primary_actual_unchecked": 377,
+    "conflicting_overlaps": 0
+  }
+}

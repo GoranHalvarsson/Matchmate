@@ -1,0 +1,239 @@
+{
+  "version": 1,
+  "kind": "generated_whole_match_illustration",
+  "fixtureId": "premier-league:2026-27:2026-09-18:brentford:chelsea",
+  "source": {
+    "official": {
+      "sha256": "c6dd8928c34d30b1d0a8f9f236e3e79cb01d846db190176250e503d689229691",
+      "bytes": 40420
+    },
+    "url": "https://www.premierleague.com/en/match/2645236/brentford-vs-chelsea/"
+  },
+  "policy": {
+    "movement": "deterministic_authored",
+    "measured": false,
+    "evidenceCoordinatesImported": false,
+    "knownThen": false,
+    "factCutoff": "end_of_reported_minute",
+    "eventStageSecond": 60,
+    "individualSlots": "authored_not_verified_roles",
+    "mediaClockMapping": null
+  },
+  "periods": [
+    {
+      "id": 1,
+      "regulationSeconds": 2700,
+      "illustrativeAddedSeconds": 120
+    },
+    {
+      "id": 2,
+      "regulationSeconds": 2700,
+      "illustrativeAddedSeconds": 360
+    }
+  ],
+  "seed": 2645236,
+  "pitch": [
+    105,
+    68
+  ],
+  "slots": [
+    {
+      "id": "brentford-0",
+      "playerId": "brentford:kelleher",
+      "label": "Goalkeeper slot",
+      "base": [
+        6,
+        34
+      ]
+    },
+    {
+      "id": "brentford-1",
+      "playerId": "brentford:kayode",
+      "label": "Slot 2",
+      "base": [
+        25,
+        9
+      ]
+    },
+    {
+      "id": "brentford-2",
+      "playerId": "brentford:schuster",
+      "label": "Slot 3",
+      "base": [
+        22,
+        27
+      ]
+    },
+    {
+      "id": "brentford-3",
+      "playerId": "brentford:ajer",
+      "label": "Slot 4",
+      "base": [
+        22,
+        42
+      ]
+    },
+    {
+      "id": "brentford-4",
+      "playerId": "brentford:lewis-potter",
+      "label": "Slot 5",
+      "base": [
+        25,
+        59
+      ]
+    },
+    {
+      "id": "brentford-5",
+      "playerId": "brentford:yarmoliuk",
+      "label": "Slot 6",
+      "base": [
+        41,
+        24
+      ]
+    },
+    {
+      "id": "brentford-6",
+      "playerId": "brentford:janelt",
+      "label": "Slot 7",
+      "base": [
+        41,
+        44
+      ]
+    },
+    {
+      "id": "brentford-7",
+      "playerId": "brentford:anthony",
+      "label": "Slot 8",
+      "base": [
+        61,
+        11
+      ]
+    },
+    {
+      "id": "brentford-8",
+      "playerId": "brentford:damsgaard",
+      "label": "Slot 9",
+      "base": [
+        59,
+        34
+      ]
+    },
+    {
+      "id": "brentford-9",
+      "playerId": "brentford:schade",
+      "label": "Slot 10",
+      "base": [
+        61,
+        57
+      ]
+    },
+    {
+      "id": "brentford-10",
+      "playerId": "brentford:thiago",
+      "label": "Slot 11",
+      "base": [
+        77,
+        34
+      ]
+    },
+    {
+      "id": "chelsea-0",
+      "playerId": "chelsea:martinez",
+      "label": "Goalkeeper slot",
+      "base": [
+        6,
+        34
+      ]
+    },
+    {
+      "id": "chelsea-1",
+      "playerId": "chelsea:fofana",
+      "label": "Slot 2",
+      "base": [
+        23,
+        17
+      ]
+    },
+    {
+      "id": "chelsea-2",
+      "playerId": "chelsea:lacroix",
+      "label": "Slot 3",
+      "base": [
+        21,
+        34
+      ]
+    },
+    {
+      "id": "chelsea-3",
+      "playerId": "chelsea:colwill",
+      "label": "Slot 4",
+      "base": [
+        23,
+        51
+      ]
+    },
+    {
+      "id": "chelsea-4",
+      "playerId": "chelsea:neto",
+      "label": "Slot 5",
+      "base": [
+        44,
+        8
+      ]
+    },
+    {
+      "id": "chelsea-5",
+      "playerId": "chelsea:henderson",
+      "label": "Slot 6",
+      "base": [
+        41,
+        25
+      ]
+    },
+    {
+      "id": "chelsea-6",
+      "playerId": "chelsea:barco",
+      "label": "Slot 7",
+      "base": [
+        41,
+        43
+      ]
+    },
+    {
+      "id": "chelsea-7",
+      "playerId": "chelsea:chavarria",
+      "label": "Slot 8",
+      "base": [
+        44,
+        60
+      ]
+    },
+    {
+      "id": "chelsea-8",
+      "playerId": "chelsea:palmer",
+      "label": "Slot 9",
+      "base": [
+        63,
+        24
+      ]
+    },
+    {
+      "id": "chelsea-9",
+      "playerId": "chelsea:rogers",
+      "label": "Slot 10",
+      "base": [
+        63,
+        44
+      ]
+    },
+    {
+      "id": "chelsea-10",
+      "playerId": "chelsea:welbeck",
+      "label": "Slot 11",
+      "base": [
+        78,
+        34
+      ]
+    }
+  ]
+}

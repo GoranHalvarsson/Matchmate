@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms</value></resheader>
+  <data name="PageTitle" xml:space="preserve"><value>Matchmate · Premier League</value></data>
+  <data name="LeagueInPlace" xml:space="preserve"><value>Premier League</value></data>
+  <data name="SeasonHeading" xml:space="preserve"><value>Säsongen,</value></data>
+  <data name="DayByDay" xml:space="preserve"><value>dag för dag.</value></data>
+  <data name="IntroFirst" xml:space="preserve"><value>Följ en säsong genom dess klubbar, städer och arenor.</value></data>
+  <data name="IntroSecond" xml:space="preserve"><value>Välj en klubb. Se var den hör hemma. Ställ en fråga.</value></data>
+  <data name="FeaturedMatch" xml:space="preserve"><value>Matchupplevelse i realtid · Förhandsvisning</value></data>
+  <data name="FeaturedHeadline" xml:space="preserve"><value>Ett samtal med matchen – medan den pågår.</value></data>
+  <data name="FeaturedInvitation" xml:space="preserve"><value>Utforska två reprisdemon som visar hur Matchmate skulle kunna hjälpa dig att följa en match i realtid. Följ spelet, pausa och fråga vad som förändrats.</value></data>
+  <data name="FeaturedCompetition" xml:space="preserve"><value>Premier League · 2026/27</value></data>
+  <data name="ReplayDemo" xml:space="preserve"><value>Reprisdemo</value></data>
+  <data name="ExploreLiverpoolMatch" xml:space="preserve"><value>Utforska repris: Brentford–Liverpool</value></data>
+  <data name="ExploreChelseaMatch" xml:space="preserve"><value>Utforska repris: Brentford–Chelsea</value></data>
+  <data name="FeaturedProvenance" xml:space="preserve"><value>Förberedda repriser med rapporterade matchfakta och genererade rörelser. Reprisens genererade statistik beskriver illustrationen, inte den verkliga matchen. Liverapportering skulle kräva ett licensierat dataflöde.</value></data>
+  <data name="BehindReplay" xml:space="preserve"><value>Bakom reprisen</value></data>
+  <data name="RecordedTrackingSample" xml:space="preserve"><value>Inspelat exempel med positionsdata</value></data>
+  <data name="RecordedSampleInvitation" xml:space="preserve"><value>Utforska ett inspelat exempel med positionsdata från Brisbane Roar–Adelaide United.</value></data>
+  <data name="RecordedSampleLimit" xml:space="preserve"><value>Exemplet innehåller uppskattade positioner och luckor.</value></data>
+  <data name="ExploreRecordedSample" xml:space="preserve"><value>Utforska det inspelade exemplet</value></data>
+  <data name="AuthoredReconstruction" xml:space="preserve"><value>Illustrerad matchrepris</value></data>
+  <data name="AustralianSample" xml:space="preserve"><value>Inspelat australiskt exempel</value></data>
+  <data name="ExploreTracking" xml:space="preserve"><value>Utforska verkliga positionsdata</value></data>
+  <data name="CatalogSummary" xml:space="preserve"><value>{0} klubbar · {1} inlästa säsonger · Välj en klubb</value></data>
+  <data name="HideMap" xml:space="preserve"><value>Dölj karta</value></data>
+  <data name="ShowMap" xml:space="preserve"><value>Visa karta</value></data>
+  <data name="RetryUpdate" xml:space="preserve"><value>Försök uppdatera igen</value></data>
+  <data name="Freshness" xml:space="preserve"><value>Hämtat {0} UTC · Sparad ögonblicksbild från communityn · Inga automatiska uppdateringar.</value></data>
+  <data name="CalculationTitle" xml:space="preserve"><value>Så beräknas säsongen</value></data>
+  <data name="CalculationNote" xml:space="preserve"><value>{0} färdigspelade resultat av {1} planerade matcher i denna säsongsreferens ({2}). {3}. Poäng, målskillnad och gjorda mål beräknas från sparade communityunderhållna resultat. Resultat från samma dag läggs in tillsammans; matcher utan resultat och poängavdrag är uteslutna. Arenor följer klubbens granskade säsongsreferens, inte verifierade matcharenor. Klubbmärken har säsongsspecifik utformning med separata upphovs- och varumärkesrättigheter. Detta visar inte vad som var känt då och är ingen direktsänd repris.</value></data>
+  <data name="Ongoing" xml:space="preserve"><value>pågående</value></data>
+  <data name="Complete" xml:space="preserve"><value>Slutförd</value></data>
+  <data name="CompleteStatus" xml:space="preserve"><value>slutförd</value></data>
+  <data name="FindingSeason" xml:space="preserve"><value>Hämtar säsongen…</value></data>
+  <data name="SeasonUnavailable" xml:space="preserve"><value>Säsongen är inte tillgänglig än.</value></data>
+  <data name="TryAgain" xml:space="preserve"><value>Försök igen</value></data>
+  <data name="UnknownDate" xml:space="preserve"><value>Okänt datum</value></data>
+  <data name="BeforeFirstMatch" xml:space="preserve"><value>Före första matchen</value></data>
+  <data name="ResultsThrough" xml:space="preserve"><value>Resultat till och med {0}</value></data>
+  <data name="CompleteResults" xml:space="preserve"><value>Fullständiga resultat för {0}</value></data>
+  <data name="StatusLoadingCatalog" xml:space="preserve"><value>Laddar den privata referenskatalogen…</value></data>
+  <data name="StatusShowing" xml:space="preserve"><value>Visar {0} · {1}{2}</value></data>
+  <data name="ChooseClubSuffix" xml:space="preserve"><value> · välj en klubb</value></data>
+  <data name="StatusUpdating" xml:space="preserve"><value>Uppdaterar ditt val. Visar {0}, {1} tills det är klart.</value></data>
+  <data name="StatusLoadingSeason" xml:space="preserve"><value>Laddar säsongen och speldagen…</value></data>
+  <data name="StatusUpdateFailed" xml:space="preserve"><value>Uppdateringen kunde inte laddas. Visar fortfarande {0}, {1}{2}</value></data>
+  <data name="StatusUnavailable" xml:space="preserve"><value>Referens-API:et är otillgängligt eller datumet är ogiltigt. Kallstarter kan ta mer än tio sekunder; försök igen när det är klart.</value></data>
+  <data name="Season" xml:space="preserve"><value>Säsong</value></data>
+  <data name="SearchSeasons" xml:space="preserve"><value>Sök säsonger</value></data>
+  <data name="SearchSeasonsPlaceholder" xml:space="preserve"><value>Sök säsonger…</value></data>
+  <data name="OngoingSnapshot" xml:space="preserve"><value>Pågående ögonblicksbild</value></data>
+  <data name="NoMatchingSeasons" xml:space="preserve"><value>Inga matchande säsonger.</value></data>
+  <data name="OngoingEndDate" xml:space="preserve"><value>Pågående ögonblicksbild · slutet av speldagen</value></data>
+  <data name="RetrospectiveEndDate" xml:space="preserve"><value>Retrospektivt · slutet av speldagen</value></data>
+  <data name="EndOfDay" xml:space="preserve"><value> · Dagens slut</value></data>
+  <data name="PlaybackSummary" xml:space="preserve"><value>{0} / {1} matcher · {2} / {3} speldagar</value></data>
+  <data name="PreviousPlayedDate" xml:space="preserve"><value>Föregående speldag</value></data>
+  <data name="NextPlayedDate" xml:space="preserve"><value>Nästa speldag</value></data>
+  <data name="Pause" xml:space="preserve"><value>Ⅱ Pausa</value></data>
+  <data name="ReplayFromStart" xml:space="preserve"><value>↻ Spela om från början</value></data>
+  <data name="PlaySeason" xml:space="preserve"><value>▶ Spela säsongen</value></data>
+  <data name="Speed" xml:space="preserve"><value>Hastighet</value></data>
+  <data name="OneStep" xml:space="preserve"><value>Ett steg = en speldag</value></data>
+  <data name="SnapshotRange" xml:space="preserve"><value>Säsongens ögonblicksbild vid dagens slut</value></data>
+  <data name="PlaybackNote" xml:space="preserve"><value>Alla resultat från en speldag läggs in tillsammans. Nutida korrigerade resultat, inte en repris i realtid eller av vad som var känt då.</value></data>
+  <data name="ScrollableStandings" xml:space="preserve"><value>Tabell för Premier League, rullningsbar</value></data>
+  <data name="StandingsCaption" xml:space="preserve"><value>Beräknad tabell för Premier League enbart från resultat vid valt dagslut</value></data>
+  <data name="ColumnPosition" xml:space="preserve"><value>Pl</value></data>
+  <data name="ColumnClub" xml:space="preserve"><value>Klubb</value></data>
+  <data name="ColumnPlayed" xml:space="preserve"><value>S</value></data>
+  <data name="ColumnWon" xml:space="preserve"><value>V</value></data>
+  <data name="ColumnDrawn" xml:space="preserve"><value>O</value></data>
+  <data name="ColumnLost" xml:space="preserve"><value>F</value></data>
+  <data name="ColumnDifference" xml:space="preserve"><value>MS</value></data>
+  <data name="ColumnPoints" xml:space="preserve"><value>P</value></data>
+  <data name="StandingsRule" xml:space="preserve"><value>Poäng → målskillnad → gjorda mål. Lika resultat delar placering (=); alfabetisk ordning sorterar bara namn vid lika. Inga poängjusteringar anges.</value></data>
+  <data name="YourPlace" xml:space="preserve"><value>Din plats i Premier League</value></data>
+  <data name="Position" xml:space="preserve"><value>Placering</value></data>
+  <data name="Points" xml:space="preserve"><value>Poäng</value></data>
+  <data name="Played" xml:space="preserve"><value>Spelade</value></data>
+  <data name="ClubDateChange" xml:space="preserve"><value>{0} · +{1} poäng den här dagen. {2}</value></data>
+  <data name="NoPreviousRank" xml:space="preserve"><value>Ingen placering för föregående speldag.</value></data>
+  <data name="RankUp" xml:space="preserve"><value>Upp {0} jämfört med föregående speldag.</value></data>
+  <data name="RankDown" xml:space="preserve"><value>Ned {0} jämfört med föregående speldag.</value></data>
+  <data name="RankUnchanged" xml:space="preserve"><value>Oförändrad placering jämfört med föregående speldag.</value></data>
+  <data name="PlayedOnDate" xml:space="preserve"><value>Spelad den här dagen</value></data>
+  <data name="LatestBeforeDate" xml:space="preserve"><value>Senaste matchen före den här dagen</value></data>
+  <data name="FullTime" xml:space="preserve"><value>Slutresultat</value></data>
+  <data name="ExploreMatch" xml:space="preserve"><value>Utforska matchen ↗</value></data>
+  <data name="NoCompletedMatch" xml:space="preserve"><value>Ingen färdigspelad match vid den här tidpunkten.</value></data>
+  <data name="TalkGround" xml:space="preserve"><value>Prata med arenan</value></data>
+  <data name="GroundReference" xml:space="preserve"><value>{0} · referens för {1}</value></data>
+  <data name="GroundMapNote" xml:space="preserve"><value>Den illustrerade kartan visar klubben, inte en inmätt arenaposition.</value></data>
+  <data name="RecentResults" xml:space="preserve"><value>Senaste resultaten</value></data>
+  <data name="ChooseClub" xml:space="preserve"><value>Välj en klubb</value></data>
+  <data name="TeamTown" xml:space="preserve"><value>Ett lag. En stad. En plats att börja.</value></data>
+  <data name="SelectClub" xml:space="preserve"><value>Välj en klubb i tabellen eller på kartan.</value></data>
+  <data name="NoEarlierResults" xml:space="preserve"><value>Inga tidigare resultat den här säsongen.</value></data>
+  <data name="FootballInPlace" xml:space="preserve"><value>Fotbollen, på kartan</value></data>
+  <data name="ChooseCrest" xml:space="preserve"><value>Välj ett klubbmärke att utforska</value></data>
+  <data name="MapTitle" xml:space="preserve"><value>En illustrerad fotbollsresa genom Storbritannien</value></data>
+  <data name="MapDescription" xml:space="preserve"><value>Klubbarnas orter, inte skalenligt. London och Watford förstoras i en separat infälld karta. Välj en namngiven klubbmarkör eller använd listan.</value></data>
+  <data name="Scotland" xml:space="preserve"><value>SKOTTLAND</value></data>
+  <data name="Northern" xml:space="preserve"><value>NORD-</value></data>
+  <data name="Ireland" xml:space="preserve"><value>IRLAND</value></data>
+  <data name="Wales" xml:space="preserve"><value>WALES</value></data>
+  <data name="England" xml:space="preserve"><value>ENGLAND</value></data>
+  <data name="IrishSea" xml:space="preserve"><value>IRLÄNDSKA SJÖN</value></data>
+  <data name="NorthSea" xml:space="preserve"><value>NORDSJÖN</value></data>
+  <data name="LondonLink" xml:space="preserve"><value>London ↗</value></data>
+  <data name="LondonWatford" xml:space="preserve"><value>LONDON OCH WATFORD</value></data>
+  <data name="MapScale" xml:space="preserve"><value>Illustrerade platser · inte skalenligt</value></data>
+  <data name="SourceDetailUnavailable" xml:space="preserve"><value>Källdetaljer saknas för det här svaret.</value></data>
+  <data name="Unranked" xml:space="preserve"><value>Oplacerad</value></data>
+  <data name="SharedPosition" xml:space="preserve"><value>Delad {0}</value></data>
+</root>

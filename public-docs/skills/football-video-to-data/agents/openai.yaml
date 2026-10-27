@@ -1,0 +1,4 @@
+interface:
+  display_name: "Football Video to Data"
+  short_description: "Extract football evidence and optional replay plans"
+  default_prompt: "Use $football-video-to-data to analyze this football video and preserve evidence, timing, identities, and gaps."

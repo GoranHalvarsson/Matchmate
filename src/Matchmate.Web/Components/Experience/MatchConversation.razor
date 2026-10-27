@@ -1,0 +1,293 @@
+@using Matchmate.Web.Localization
+@using Matchmate.Web.Chat
+@using Matchmate.Web.Experience
+@using Microsoft.JSInterop
+@inject MatchChatSession Session
+@inject MatchChatDiagnostics Diagnostics
+@inject IJSRuntime JS
+@implements IDisposable
+@implements IAsyncDisposable
+<div class="@(PitchSide ? "match-conversation-workspace" : "match-conversation-standalone") @(PitchSide && _conversationOpen ? "conversation-is-open" : null)">
+<div class="sr-only" role="status" aria-live="polite" aria-atomic="true" lang="@MatchLanguages.Code(Language)">@(_pending ? ConversationText.Get(Language, "ResponsePending") : Status)</div>
+@if (PitchSide) {
+    <section class="chat-entry" aria-label="@T("ChatLabel")">
+        <div class="chat-entry-heading"><p class="eyebrow">@T("WorkspaceEyebrow")</p><h2>@T("ChatHeading")</h2></div>
+        <p class="chat-workspace-context"><span>@FixtureLabel</span><span>@ContextLabel</span>@if (HasSelectedPlayer) { <span>@Title</span> }@if (Context?.SelectedEvent is { } entrySelected) { <span>@SelectionLabel(entrySelected, Language) · @entrySelected.ReportedClock</span> }</p>
+        @if (Context is not null && !Updating && !_pending && Session.Turns.Count == 0) { <p class="chat-entry-intro">@T("WorkspaceIntro")</p> }
+        @Composer
+        @if (Context?.SelectedPassage is null) {
+        <div class="chat-quick-questions" aria-label="@T("SourceQuestions")">
+            <button type="button" @onclick="() => SendAsync(MatchSourceQuestionId.Summary)" disabled="@(Context is null || Updating || _pending)">@T("WorkspaceExplainMoment")</button>
+            <button type="button" class="chat-compare-teams" @onclick="SendChartAsync" disabled="@(Context is null || Updating || _pending)">@ChatText.Get(Language, "Chart.CompareTeams")</button>
+            @if (HasSelectedPlayer) { <button type="button" @onclick="() => SendAsync(MatchSourceQuestionId.Player)" disabled="@(Context is null || Updating || _pending)">@T("WorkspaceAskPlayer", Title)</button> }
+        </div>
+        } else { <div class="chat-quick-questions"><p class="chat-workspace-context">@T("StorySelectedScope")</p><button type="button" @onclick="ClearSelectedPassageAsync" disabled="@(Updating || _pending)">@T("StoryBackMatch")</button></div> }
+        @if (_pending) { <div class="chat-entry-pending"><ChatResponsePending Language="Language" Compact="true"/><button type="button" @onclick="Cancel">@T("Cancel")</button></div> }
+        else if (Updating || _notice.Length > 0 || !Session.Configured) { <p class="chat-entry-status">@Status</p> }
+    </section>
+    <div class="replay-pitch-slot">@PitchContent</div>
+}
+<aside class="@(PitchSide ? "replay-side-pane" : null)">
+@if (PitchSide) {
+    <nav class="workspace-switch" aria-label="@T("WorkspacePaneLabel")">
+        <button type="button" aria-pressed="@ExperiencePresentation.Pressed(!_conversationOpen)" aria-controls="match-players-panel" @onclick="ShowPlayers">@T("RosterPlayers")</button>
+        <button type="button" aria-pressed="@ExperiencePresentation.Pressed(_conversationOpen)" aria-controls="match-conversation-panel" @onclick="ShowConversation">@T("WorkspaceConversation")@if (Session.Turns.Count > 0) { <span class="conversation-count">@Session.Turns.Count</span> }</button>
+    </nav>
+    <section id="match-players-panel" class="replay-roster-pane" aria-label="@T("PlayersLabel")" hidden="@_conversationOpen">@RosterContent</section>
+}
+<section id="match-conversation-panel" @ref="_conversationPanel" class="match-chat-paper" aria-label="@T("ChatLabel")" tabindex="-1" hidden="@(PitchSide && !_conversationOpen)">
+    <header><div><p class="eyebrow">@T("ChatEyebrow")</p><h2>@T(PitchSide ? "WorkspaceConversation" : "ChatHeading")</h2>@if (!PitchSide) { <p>@ContextLabel@if (HasSelectedPlayer) { <span> · @Title</span> }</p> }</div><button type="button" @onclick="Reset">@T("NewChat")</button></header>
+    @if (Context?.SelectedEvent is { } selected) { <div class="chat-selected-goal"><p><strong>@SelectionLabel(selected, Language)</strong> @T("SelectionClock", T(selected.Kind == "completed_possession" ? "Interval" : "Reported"), selected.ReportedClock, ExperiencePresentation.Clock(selected.ReleaseCursorMs))<small>@T(selected.Kind == "goal" ? "GoalSelectionNote" : "EventSelectionNote")</small></p><button type="button" @onclick="ClearSelectedEventAsync" disabled="@Updating">@T("BackReplayMoment")</button></div> }
+    @if (Context?.SelectedPassage is { } passage) { <div class="chat-selected-goal"><p><strong>@T("StorySelected")</strong> @T("StoryReplayInterval", ExperiencePresentation.Clock(passage.StartCursorMs), ExperiencePresentation.Clock(passage.EndCursorMs))<small>@T("StorySelectedScope")</small></p><button type="button" @onclick="ClearSelectedPassageAsync" disabled="@Updating">@T("StoryBackMatch")</button></div> }
+    <div @ref="_thread" tabindex="0" class="chat-thread @(Session.Turns.Any(t => t.EventVisual is not null || t.StatisticsChart is not null) ? "chat-thread-visual" : null)" role="log" aria-label="@T("ChatThread")" aria-live="polite" aria-busy="@_pending">
+        @if (Context is null) { <p class="chat-empty">@T("ChatWaiting")</p> }
+        else if (Session.Turns.Count == 0 && !_pending) {
+            @if (PitchSide && !Updating) {
+                <div class="chat-welcome"><h3>@T("WorkspaceWelcomeHeading")</h3><p>@(Context.SelectedPassage is not null ? T("StoryWelcome") : Context.SelectedEvent is not null ? T("WorkspaceWelcomeEvent") : HasSelectedPlayer ? T("WorkspaceWelcomePlayer", Title) : T("WorkspaceWelcomeMatch", string.IsNullOrWhiteSpace(FixtureLabel) ? T("ThisMatch") : FixtureLabel))</p><p>@T("WorkspaceEmpty")</p></div>
+            }
+            else { <p class="chat-empty">@T(PitchSide ? "ChatUpdating" : "ChatEmpty")</p> }
+        }
+        @foreach (var turn in Session.Turns) {
+            <article class="chat-turn @(turn.Outcome == MatchChatOutcome.Answered ? null : "chat-feedback")" @key="turn.Id" data-turn-id="@turn.Id.ToString("N")" lang="@MatchLanguages.Code(turn.Language)">
+                <p class="chat-question"><strong>@ReplayText.Get(turn.Language, "You")</strong> @turn.Question</p>
+                <small>@ReplayText.Get(turn.Language, "AskedAt", ExperiencePresentation.Clock(turn.Context.Query.CursorMs), turn.SubjectName ?? ReplayText.Get(turn.Language, "ThisMatch"), ReplayText.Audience(turn.Language, turn.AudienceMode), MatchLanguages.Name(turn.Language))</small>
+                <p class="chat-answer"><strong>@(turn.Outcome != MatchChatOutcome.Answered ? FeedbackLabel(turn.Outcome, turn.Language) : ReplayText.Get(turn.Language, turn.EvidenceOnly ? "SourceAnswer" : "MatchmateAi"))</strong> @turn.Answer</p>
+                @if (turn.Context.SelectedEvent is { } askedSelection) { <small>@ReplayText.Get(turn.Language, "SelectionWhenAsked", askedSelection.ReportedClock, ExperiencePresentation.Clock(askedSelection.ReleaseCursorMs))</small> }
+                @if (turn.Outcome == MatchChatOutcome.Answered && turn.Context.SelectedPassage is null) { <small class="chat-answer-scope">@(turn.SelectedEventScope && turn.Context.SelectedEvent is { } goal ? ReplayText.Get(turn.Language, "AnswerSelectionScope", SelectionLabel(goal, turn.Language), goal.ReportedClock, ExperiencePresentation.Clock(goal.ReleaseCursorMs), ReplayText.Get(turn.Language, goal.Kind == "goal" ? "Retrospective" : "EligibleEvent")) : ReplayText.Get(turn.Language, "ReplayMomentScope", ExperiencePresentation.Clock(turn.Context.Query.CursorMs)))</small> }
+                @if (turn.Context.SelectedPassage is { } askedPassage) { <small class="chat-answer-scope">@ReplayText.Get(turn.Language, "StoryReplayInterval", ExperiencePresentation.Clock(askedPassage.StartCursorMs), ExperiencePresentation.Clock(askedPassage.EndCursorMs)) · @ReplayText.Get(turn.Language, "StoryGenerated")</small> }
+                @if (turn.EventVisual is { } visual) { <CascadingValue Value="turn.Language"><EventSequenceDiagram Visual="visual" TurnId="turn.Id" Disabled="@(Updating || _pending)" OnShowOnPitch="OnShowOnPitch"/></CascadingValue> }
+                @if (turn.StatisticsChart is { } chart) { <MatchStatisticsChart Chart="chart" TurnId="turn.Id" Language="turn.Language"/> }
+                @if (turn.Evidence.Length > 0) { <details><summary>@ReplayText.Get(turn.Language, "SupportingEvidence", string.Join(", ", turn.Evidence.Select(e => "[" + e.Id + "]")))</summary>@foreach (var evidence in turn.Evidence) { <p><strong>[@evidence.Id] @ReplayText.Get(turn.Language, "EvidenceTool", evidence.Tool)</strong></p><pre lang="en">@evidence.Text</pre> }</details> }
+            </article>
+        }
+        @if (_pending) { <article class="chat-turn chat-pending-turn" lang="@MatchLanguages.Code(Language)"><p class="chat-question"><strong>@T("You")</strong> @_submittedQuestion</p><ChatResponsePending Language="Language"/></article> }
+    </div>
+    @if (Context?.SelectedPassage is null) {
+    <div class="chat-suggestions" aria-label="@T("SourceQuestions")">
+        @if (!PitchSide) { <button type="button" class="chat-compare-teams" @onclick="SendChartAsync" disabled="@(Context is null || Updating || _pending)">@ChatText.Get(Language, "Chart.CompareTeams")</button> }
+        @foreach (var suggestion in MatchSourceQuestions.All) {
+            <button type="button" @key="suggestion.Id" @onclick="() => SendAsync(suggestion.Id)" disabled="@(Context is null || Updating || _pending || suggestion.Id == MatchSourceQuestionId.Positions && !SnapshotReady)">@MatchSourceQuestions.DisplayQuestion(suggestion.Id, Language)</button>
+        }
+    </div>
+    }
+    @if (Context?.SelectedEvent is not null && Session.Configured) { <div class="chat-suggestions" aria-label="@T("EventQuestions")"><button type="button" @onclick="ShowEventAsync" disabled="@(Updating || _pending)">@VisualQuestion</button></div> }
+    @if (!PitchSide) { @if (_pending) { <div class="chat-composer-pending"><ChatResponsePending Language="Language" Compact="true"/><button type="button" @onclick="Cancel">@T("Cancel")</button></div> } @Composer }
+    <p class="chat-notice">@Status</p><small class="chat-disclosure">@T("ChatDisclosure")</small>
+</section>
+</aside>
+</div>
+@code {
+    [Parameter] public bool PitchSide { get; set; }
+    [Parameter] public RenderFragment? PitchContent { get; set; }
+    [Parameter] public RenderFragment? RosterContent { get; set; }
+    [Parameter] public string FixtureLabel { get; set; } = "";
+    private bool HasSelectedPlayer => Context?.Query.SubjectId is not null && Title != "this match" && Title != T("ThisMatch");
+    private bool _conversationOpen, _focusPanel;
+    private ElementReference _conversationPanel, _thread;
+    private ThreadScrollInterop? _threadScroll;
+    private (long Intent, Guid TurnId)? _revealTurn;
+    private bool _interopDisposed;
+    private void ShowPlayers() { _conversationOpen = false; _focusPanel = false; }
+    private void ShowConversation() { _conversationOpen = true; _focusPanel = true; }
+    private RenderFragment Composer => @<form @onsubmit="SubmitAsync" @onsubmit:preventDefault><label class="sr-only" for="match-chat-input">@T("AskMatch")</label><textarea id="match-chat-input" @ref="_questionInput" @bind="_question" @bind:event="oninput" maxlength="1000" rows="@(PitchSide ? 1 : 2)" placeholder="@T(Session.AwaitingClarification ? "ClarifyPlaceholder" : "AskPlaceholder")" readonly="@_pending" disabled="@(Context is null || Updating)"></textarea><button type="submit" disabled="@(Context is null || Updating || _pending)">@(_pending ? ConversationText.Get(Language, "Responding") : T("AskMatchmate"))</button></form>;
+    [Parameter] public MatchLanguage Language { get; set; }
+    private string T(string key, params object?[] args) => ReplayText.Get(Language, key, args);
+    private MatchLanguage _lastLanguage;
+    [Parameter] public MatchChatContext? Context { get; set; }
+    [Parameter] public string ContextLabel { get; set; } = "Choose a ready replay moment.";
+    [Parameter] public string Title { get; set; } = "this match";
+    [Parameter] public EventCallback OnAsking { get; set; }
+    [Parameter] public EventCallback OnClearSelectedEvent { get; set; }
+    [Parameter] public EventCallback OnClearSelectedPassage { get; set; }
+    [Parameter] public EventCallback<MatchEventVisualAction> OnShowOnPitch { get; set; }
+    [Parameter] public bool Updating { get; set; }
+    [Parameter] public bool SnapshotReady { get; set; } = true;
+    [Parameter] public MatchAudienceMode AudienceMode { get; set; }
+    [Parameter] public ReplayInsightPreparation? PreparedInsight { get; set; }
+    [Parameter] public ReplayRecapPreparation? PreparedRecap { get; set; }
+    [Parameter] public ReplayStoryPreparation? PreparedPassage { get; set; }
+    [Parameter] public long EventSelectionVersion { get; set; }
+    [CascadingParameter] public Task<AuthenticationState>? Authentication { get; set; }
+    private MatchChatContext? _last;
+    private Task<AuthenticationState>? _lastAuthentication;
+    private string? _domain;
+    private CancellationTokenSource? _request;
+    private string _question = "", _notice = "", _submittedQuestion = "";
+    private bool _pending, _disposed, _lastUpdating, _snapshotPending;
+    private long _intent;
+    private Guid? _lastPreparation;
+    private Guid? _lastRecapPreparation;
+    private Guid? _lastPassagePreparation;
+    private long _lastEventSelectionVersion;
+    private MatchChatContext? _focusPreparation;
+    private ElementReference _questionInput;
+    private MatchAudienceMode _lastAudienceMode;
+    private string Status => Updating ? T("ChatUpdating") : _notice.Length > 0 ? _notice : T(Context?.SelectedPassage is not null ? "StoryReady" : !Session.Configured ? "ChatDisconnected" : "ChatReady");
+    private static string FeedbackLabel(MatchChatOutcome outcome, MatchLanguage language) => outcome == MatchChatOutcome.Answered ? "Matchmate" : ReplayText.Get(language, outcome switch { MatchChatOutcome.Clarify => "FeedbackClarify", MatchChatOutcome.Unsupported => "FeedbackUnsupported", _ => "FeedbackUnavailable" });
+    protected override void OnParametersSet()
+    {
+        if (!SnapshotReady && _snapshotPending && _pending) { _intent++; _request?.Cancel(); Session.Cancel(); _pending = false; _submittedQuestion = ""; }
+        if (Updating && !_lastUpdating) { _intent++; _request?.Cancel(); if (_pending) Session.Cancel(); _pending = false; _submittedQuestion = ""; }
+        _lastUpdating = Updating;
+        var domain = Context is null ? null : $"{Context.Query.DatasetId}/{Context.Query.DatasetVersion}/{Context.Query.StreamId}/{Context.Query.FixtureId}";
+        if (_lastAuthentication != Authentication || domain is not null && _domain is not null && _domain != domain)
+        { _intent++; _request?.Cancel(); _pending = false; _question = ""; _notice = ""; _submittedQuestion = ""; }
+        _lastAuthentication = Authentication; if (domain is not null) _domain = domain;
+        if (_last != Context) { _intent++; _request?.Cancel(); _pending = false; _notice = ""; _submittedQuestion = ""; _last = Context; }
+        Session.SetContext(Context);
+        var language = MatchLanguages.Normalize(Language);
+        if (_lastLanguage != language)
+        {
+            var wasPending = _pending;
+            _intent++; _request?.Cancel(); _pending = false; _submittedQuestion = ""; _focusPreparation = null;
+            _lastLanguage = language;
+            _notice = T("LanguageChanged", MatchLanguages.Name(language), T(wasPending ? "PendingCancelledDraft" : "EarlierLanguageKept"));
+        }
+        Session.SetLanguage(language);
+        var audience = MatchAudiencePresentation.Normalize(AudienceMode);
+        if (_lastAudienceMode != audience)
+        {
+            var wasPending = _pending;
+            _intent++; _request?.Cancel(); _pending = false; _submittedQuestion = ""; _focusPreparation = null;
+            _lastAudienceMode = audience;
+            _notice = T("AudienceChanged", ReplayText.Audience(Language, audience), T(wasPending ? "PendingCancelledDraft" : "EarlierStyleKept"));
+        }
+        Session.SetAudienceMode(audience);
+        if (_lastEventSelectionVersion != EventSelectionVersion)
+        {
+            _lastEventSelectionVersion = EventSelectionVersion;
+            if (PitchSide) _conversationOpen = true;
+        }
+        if (PreparedInsight is { } prepared && _lastPreparation != prepared.Id)
+        {
+            _lastPreparation = prepared.Id;
+            if (!_disposed && !Updating && Context is { } context && prepared.Context == context
+                && prepared.Action.HeadSequence == context.HeadSequence && prepared.Action.Query == (context.Query with { SubjectId = prepared.Action.Query.SubjectId })
+                && Enum.IsDefined(prepared.Action.Kind))
+            {
+                _conversationOpen = true;
+                if (_pending || !string.IsNullOrWhiteSpace(_question)) _notice = T("DraftKept");
+                else { _question = ReplayInsight.Question(prepared.Action.Kind, language); _notice = T("QuestionReady"); _focusPreparation = context; }
+            }
+        }
+        if (PreparedRecap is { } recap && _lastRecapPreparation != recap.Id)
+        {
+            _lastRecapPreparation = recap.Id;
+            if (!_disposed && !Updating && Context is { SelectedEvent: null } context && recap.Context == context
+                && context.Query.SubjectId is null && recap.Action.HeadSequence == context.HeadSequence
+                && recap.Action.Query == context.Query && Enum.IsDefined(recap.Action.Boundary.Kind)
+                && recap.Action.Query.CursorMs == recap.Action.Boundary.EvidenceCursorMs)
+            {
+                _conversationOpen = true;
+                if (_pending || !string.IsNullOrWhiteSpace(_question)) _notice = T("DraftKept");
+                else { _question = ReplayRecap.Question(recap.Action, language); _notice = T("QuestionReady"); _focusPreparation = context; }
+            }
+        }
+        if (PreparedPassage is { } preparedPassage && _lastPassagePreparation != preparedPassage.Id)
+        {
+            _lastPassagePreparation = preparedPassage.Id;
+            if (!_disposed && !Updating && Context is { SelectedEvent: null, SelectedPassage: { } selectedPassage } passageContext
+                && preparedPassage.Context == passageContext && passageContext.Query.SubjectId is null
+                && preparedPassage.Action.HeadSequence == passageContext.HeadSequence && preparedPassage.Action.Query == passageContext.Query
+                && preparedPassage.Action.Passage == selectedPassage && ReplayStory.ValidLocator(selectedPassage)
+                && passageContext.Query.CursorMs >= selectedPassage.EndCursorMs)
+            {
+                _conversationOpen = true;
+                if (_pending || !string.IsNullOrWhiteSpace(_question)) _notice = T("DraftKept");
+                else { _question = ReplayText.Get(language, "StoryPreparedQuestion"); _notice = T("QuestionReady"); _focusPreparation = passageContext; }
+            }
+        }
+    }
+    protected override async Task OnAfterRenderAsync(bool firstRender)
+    {
+        if (_disposed) return;
+        _threadScroll ??= new(JS);
+        if (await _threadScroll.InitializeAsync() && !_disposed)
+        {
+            string? reveal = null;
+            if (_revealTurn is { } turn)
+            {
+                if (turn.Intent != _intent) _revealTurn = null;
+                else if (!PitchSide || _conversationOpen) { reveal = turn.TurnId.ToString("N"); _revealTurn = null; }
+            }
+            await _threadScroll.UpdateAsync(_thread, _intent, _pending, reveal);
+        }
+        if (_disposed) return;
+        if (_focusPreparation is { } context)
+        {
+            _focusPreparation = null; _focusPanel = false;
+            if (!Updating && !_pending && Context == context) await _questionInput.FocusAsync(preventScroll: true);
+        }
+        else if (_focusPanel)
+        {
+            _focusPanel = false;
+            if (PitchSide && _conversationOpen) await _conversationPanel.FocusAsync(preventScroll: true);
+        }
+    }
+    private string VisualQuestion => T(Context?.SelectedEvent?.Kind switch { "goal" => "VisualGoalQuestion", "substitution" => "VisualSubstitutionQuestion", "yellow_card" => "VisualBookingQuestion", "red_card" => "VisualRedCardQuestion", _ => "VisualPossessionQuestion" });
+    private static string SelectionLabel(MatchSelectedEvent selection, MatchLanguage language) => ReplayText.Get(language, selection.Kind switch { "goal" => "SelectedGoal", "substitution" => "SelectedSubstitution", "yellow_card" => "SelectedBooking", "red_card" => "SelectedDismissal", _ => "SelectedPossession" });
+    private Task ShowEventAsync() { _question = VisualQuestion; return SendAsync(null); }
+    private Task SubmitAsync() => SendAsync(null);
+    private Task SendAsync(MatchSourceQuestionId? source) => SendCoreAsync(source, compareTeams: false);
+    private Task SendChartAsync() => SendCoreAsync(MatchSourceQuestionId.ReplayStatistics, compareTeams: true);
+    private async Task SendCoreAsync(MatchSourceQuestionId? source, bool compareTeams)
+    {
+        if (Context is not { } context || Updating || _pending || source is null && string.IsNullOrWhiteSpace(_question)) return;
+        var snapshotQuestion = context.SelectedPassage is null && (source == MatchSourceQuestionId.Positions || source is null && MatchSourceQuestions.Exact(_question)?.Id == MatchSourceQuestionId.Positions);
+        if (snapshotQuestion && !SnapshotReady) return;
+        _conversationOpen = true;
+        if (source is { } id) _question = compareTeams ? ChatText.Get(Language, "Chart.CompareTeams") : MatchSourceQuestions.DisplayQuestion(id, Language);
+        var question = _question; var language = MatchLanguages.Normalize(Language); var audience = MatchAudiencePresentation.Normalize(AudienceMode);
+        using var trace = Diagnostics?.BeginRequest();
+        using var timing = Diagnostics?.Measure(MatchChatTimingStage.ComponentTotal);
+        var intent = ++_intent; _pending = true; _snapshotPending = snapshotQuestion; _submittedQuestion = question; _notice = ""; _request?.Cancel(); _request?.Dispose(); _request = new(); var token = _request.Token;
+        try
+        {
+            using (var beforeSession = Diagnostics?.Measure(MatchChatTimingStage.BeforeSession))
+            { await OnAsking.InvokeAsync(); beforeSession?.Complete(MatchChatTimingOutcome.Success); }
+            if (_disposed || Updating || snapshotQuestion && !SnapshotReady || intent != _intent || Context != context || audience != MatchAudiencePresentation.Normalize(AudienceMode) || language != MatchLanguages.Normalize(Language)) { timing?.Complete(MatchChatTimingOutcome.Stale); return; }
+            var result = compareTeams ? await Session.AskStatisticsChartAsync(context, token)
+                : source is { } selected ? await Session.AskSourceAsync(context, selected, token) : await Session.AskAsync(context, question, token);
+            if (_disposed || Updating || snapshotQuestion && !SnapshotReady || intent != _intent || Context != context || audience != MatchAudiencePresentation.Normalize(AudienceMode) || language != MatchLanguages.Normalize(Language)) { timing?.Complete(MatchChatTimingOutcome.Stale); return; }
+            using var commit = Diagnostics?.Measure(MatchChatTimingStage.UiCommit);
+            _notice = result.Accepted && result.Outcome != MatchChatOutcome.Answered ? "" : result.Message;
+            if (result.Accepted) { _question = ""; if (Session.Turns.LastOrDefault() is { } turn) _revealTurn = (intent, turn.Id); }
+            commit?.Complete(MatchChatTimingOutcome.Success); timing?.Complete(result.Outcome);
+        }
+        finally { if (intent == _intent) { _pending = false; _submittedQuestion = ""; } }
+    }
+    private void Cancel() { _intent++; _request?.Cancel(); Session.Cancel(); _pending = false; _submittedQuestion = ""; _notice = T("ReplyCancelled"); }
+    private void Reset() { Cancel(); Session.NewChat(); _question = ""; _notice = T("NewChatNotice"); }
+    private async Task ClearSelectedPassageAsync() { Cancel(); await OnClearSelectedPassage.InvokeAsync(); _notice = ""; }
+    private async Task ClearSelectedEventAsync() { Cancel(); await OnClearSelectedEvent.InvokeAsync(); _notice = ""; }
+    public void Dispose() { if (_disposed) return; _disposed = true; _intent++; _request?.Cancel(); _request?.Dispose(); _submittedQuestion = ""; Session.NewChat(); }
+    public async ValueTask DisposeAsync()
+    {
+        Dispose();
+        if (_interopDisposed) return; _interopDisposed = true;
+        if (_threadScroll is not null) await _threadScroll.DisposeAsync();
+    }
+    // Reuse the existing element-scoped transcript utility; it never scrolls the page.
+    private sealed class ThreadScrollInterop(IJSRuntime js) : IAsyncDisposable
+    {
+        private const string ModulePath = "./Components/Experience/LeagueConversation.razor.js";
+        private const string ImportMethod = "import", UpdateMethod = "updateThread";
+        private Task<IJSObjectReference>? _module;
+        public async Task<bool> InitializeAsync()
+        {
+            try { await (_module ??= js.InvokeAsync<IJSObjectReference>(ImportMethod, ModulePath).AsTask()); return true; }
+            catch (JSDisconnectedException) { return false; }
+        }
+        public async ValueTask UpdateAsync(ElementReference thread, long intent, bool pending, string? revealTurn)
+        {
+            try { if (_module is not null) await (await _module).InvokeVoidAsync(UpdateMethod, thread, intent, pending, revealTurn); }
+            catch (JSDisconnectedException) { }
+        }
+        public async ValueTask DisposeAsync()
+        {
+            if (_module is null) return;
+            try { await (await _module).DisposeAsync(); }
+            catch (JSDisconnectedException) { }
+        }
+    }
+}

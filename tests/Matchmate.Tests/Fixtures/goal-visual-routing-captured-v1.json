@@ -1,0 +1,422 @@
+{
+  "metadata": {
+    "kind": "captured-response regression, not fresh inference or heldout evaluation",
+    "decision": "D099",
+    "sourceResult": {
+      "path": ".azure/goal-visual-routing-results.json",
+      "sha256": "f7792ed09938a3453cc3d0aa319492da7696e6b5b0149f0377101e6de3eae58d",
+      "originalDecisionCalls": 12,
+      "originalCorrect": 10,
+      "total": 12
+    },
+    "sourceFixture": {
+      "path": ".azure/goal-visual-routing-acceptance-v1.json",
+      "sha256": "c96620748678c6a00242be1cb52ed6e5fc9db7a90940dd3941c3d85fc13e209c"
+    },
+    "minimumProbability": 0.8,
+    "minimumMargin": 0.2,
+    "newInferenceCalls": 0
+  },
+  "cases": [
+    {
+      "id": "GV-01",
+      "question": "Show me how this goal happened",
+      "expected": "selected_goal_event",
+      "category": "goal-visual",
+      "mandatory": true,
+      "context": {
+        "Query": {
+          "DatasetId": "brentford-existing-illustration",
+          "DatasetVersion": "brent-v05-1ac75316aa4aee548a212a59874354ab57e9a6dd0aead1a48f0a4badcc310a62",
+          "StreamId": "run-brentford-v05-1ac75316aa4a",
+          "FixtureId": "fixture-pl-2645236",
+          "CursorMs": 3780000,
+          "KnowledgeMode": "retrospective_replay",
+          "PresentationPolicyId": "existing-authored-minute-end",
+          "PresentationPolicyRevision": 1,
+          "ApplicationSequence": 4,
+          "KnowledgeAsOfUtc": null,
+          "SubjectId": null,
+          "EffectiveDate": null
+        },
+        "HeadSequence": 4,
+        "SelectedGoal": {
+          "RecordId": "goal-1",
+          "ReleaseCursorMs": 3780000,
+          "ReportedClock": "61"
+        }
+      },
+      "originalStatus": "Selected",
+      "originalChosen": "selected_goal_event",
+      "httpStatus": 200,
+      "responseBody": "{\r\n          \"model\": \"microsoft-decision-1\",\r\n          \"answers\": {\r\n            \"workflow\": {\r\n              \"choice\": \"selected_goal_event\",\r\n              \"confidence\": 0.9983747104387004,\r\n              \"probabilities\": {\r\n                \"clarify\": 0.00017929755197719076,\r\n                \"coverage_and_limits\": 0.00013963707388262207,\r\n                \"current_match_events\": 0.0004301124677068645,\r\n                \"current_match_moment\": 0.00013963707388262207,\r\n                \"current_match_summary\": 0.00015822953426087135,\r\n                \"named_player_context\": 0.0001232292851873903,\r\n                \"other_live_matches_stats\": 0.0001232292851873903,\r\n                \"selected_goal_event\": 0.9985372393948303,\r\n                \"selected_player_context\": 0.0000846941665423685,\r\n                \"unsupported\": 0.0000846941665423685\r\n              },\r\n              \"type\": \"choice\"\r\n            }\r\n          },\r\n          \"usage\": {\r\n            \"input_tokens\": 1506,\r\n            \"output_tokens\": 1\r\n          }\r\n        }",
+      "responseBodySha256": "3da950262e47419d76cb057f10ca82594e17767c2c118f1ae7a6aa9f8cf837ad"
+    },
+    {
+      "id": "GV-02",
+      "question": "Can you draw the build-up to the selected goal?",
+      "expected": "selected_goal_event",
+      "category": "goal-visual",
+      "mandatory": false,
+      "context": {
+        "Query": {
+          "DatasetId": "brentford-existing-illustration",
+          "DatasetVersion": "brent-v05-1ac75316aa4aee548a212a59874354ab57e9a6dd0aead1a48f0a4badcc310a62",
+          "StreamId": "run-brentford-v05-1ac75316aa4a",
+          "FixtureId": "fixture-pl-2645236",
+          "CursorMs": 3780000,
+          "KnowledgeMode": "retrospective_replay",
+          "PresentationPolicyId": "existing-authored-minute-end",
+          "PresentationPolicyRevision": 1,
+          "ApplicationSequence": 4,
+          "KnowledgeAsOfUtc": null,
+          "SubjectId": null,
+          "EffectiveDate": null
+        },
+        "HeadSequence": 4,
+        "SelectedGoal": {
+          "RecordId": "goal-1",
+          "ReleaseCursorMs": 3780000,
+          "ReportedClock": "61"
+        }
+      },
+      "originalStatus": "Selected",
+      "originalChosen": "selected_goal_event",
+      "httpStatus": 200,
+      "responseBody": "{\r\n          \"model\": \"microsoft-decision-1\",\r\n          \"answers\": {\r\n            \"workflow\": {\r\n              \"choice\": \"selected_goal_event\",\r\n              \"confidence\": 0.997489753090529,\r\n              \"probabilities\": {\r\n                \"clarify\": 0.000295375812158985,\r\n                \"coverage_and_limits\": 0.0002606682393287135,\r\n                \"current_match_events\": 0.0006253108974189537,\r\n                \"current_match_moment\": 0.00020300862891104647,\r\n                \"current_match_summary\": 0.0002300389138097697,\r\n                \"named_player_context\": 0.00017915448621194405,\r\n                \"other_live_matches_stats\": 0.00020300862891104647,\r\n                \"selected_goal_event\": 0.9977407777814762,\r\n                \"selected_player_context\": 0.0001395256541526172,\r\n                \"unsupported\": 0.00012313095762077418\r\n              },\r\n              \"type\": \"choice\"\r\n            }\r\n          },\r\n          \"usage\": {\r\n            \"input_tokens\": 1511,\r\n            \"output_tokens\": 1\r\n          }\r\n        }",
+      "responseBodySha256": "3e726f8e25fb4c338b54c85e975ac62a82044e59123e63da8f98e05ba576b327"
+    },
+    {
+      "id": "GV-03",
+      "question": "Give me a visual explanation of that goal.",
+      "expected": "selected_goal_event",
+      "category": "goal-visual",
+      "mandatory": false,
+      "context": {
+        "Query": {
+          "DatasetId": "brentford-existing-illustration",
+          "DatasetVersion": "brent-v05-1ac75316aa4aee548a212a59874354ab57e9a6dd0aead1a48f0a4badcc310a62",
+          "StreamId": "run-brentford-v05-1ac75316aa4a",
+          "FixtureId": "fixture-pl-2645236",
+          "CursorMs": 3780000,
+          "KnowledgeMode": "retrospective_replay",
+          "PresentationPolicyId": "existing-authored-minute-end",
+          "PresentationPolicyRevision": 1,
+          "ApplicationSequence": 4,
+          "KnowledgeAsOfUtc": null,
+          "SubjectId": "person-pl-reference-brentford-kayode",
+          "EffectiveDate": null
+        },
+        "HeadSequence": 4,
+        "SelectedGoal": {
+          "RecordId": "goal-1",
+          "ReleaseCursorMs": 3780000,
+          "ReportedClock": "61"
+        }
+      },
+      "originalStatus": "Selected",
+      "originalChosen": "selected_goal_event",
+      "httpStatus": 200,
+      "responseBody": "{\r\n          \"model\": \"microsoft-decision-1\",\r\n          \"answers\": {\r\n            \"workflow\": {\r\n              \"choice\": \"selected_goal_event\",\r\n              \"confidence\": 0.9956401686430792,\r\n              \"probabilities\": {\r\n                \"clarify\": 0.00037863739323694233,\r\n                \"coverage_and_limits\": 0.000294882957741861,\r\n                \"current_match_events\": 0.0016969350668913001,\r\n                \"current_match_moment\": 0.000294882957741861,\r\n                \"current_match_summary\": 0.000294882957741861,\r\n                \"named_player_context\": 0.00026023329683217653,\r\n                \"other_live_matches_stats\": 0.000294882957741861,\r\n                \"selected_goal_event\": 0.9960761517787713,\r\n                \"selected_player_context\": 0.00022965507840377338,\r\n                \"unsupported\": 0.00017885555489718358\r\n              },\r\n              \"type\": \"choice\"\r\n            }\r\n          },\r\n          \"usage\": {\r\n            \"input_tokens\": 1516,\r\n            \"output_tokens\": 1\r\n          }\r\n        }",
+      "responseBodySha256": "2f8c3dcb3b1d6adb48f387024ce6e486f7b583026d6e43cc7d168c16514304f0"
+    },
+    {
+      "id": "GV-04",
+      "question": "Sketch the sequence for this goal, showing who was involved.",
+      "expected": "selected_goal_event",
+      "category": "goal-visual",
+      "mandatory": false,
+      "context": {
+        "Query": {
+          "DatasetId": "brentford-existing-illustration",
+          "DatasetVersion": "brent-v05-1ac75316aa4aee548a212a59874354ab57e9a6dd0aead1a48f0a4badcc310a62",
+          "StreamId": "run-brentford-v05-1ac75316aa4a",
+          "FixtureId": "fixture-pl-2645236",
+          "CursorMs": 3780000,
+          "KnowledgeMode": "retrospective_replay",
+          "PresentationPolicyId": "existing-authored-minute-end",
+          "PresentationPolicyRevision": 1,
+          "ApplicationSequence": 4,
+          "KnowledgeAsOfUtc": null,
+          "SubjectId": "person-pl-reference-brentford-kayode",
+          "EffectiveDate": null
+        },
+        "HeadSequence": 4,
+        "SelectedGoal": {
+          "RecordId": "goal-1",
+          "ReleaseCursorMs": 3780000,
+          "ReportedClock": "61"
+        }
+      },
+      "originalStatus": "Selected",
+      "originalChosen": "selected_goal_event",
+      "httpStatus": 200,
+      "responseBody": "{\r\n          \"model\": \"microsoft-decision-1\",\r\n          \"answers\": {\r\n            \"workflow\": {\r\n              \"choice\": \"selected_goal_event\",\r\n              \"confidence\": 0.9951362526263738,\r\n              \"probabilities\": {\r\n                \"clarify\": 0.00042885702835278566,\r\n                \"coverage_and_limits\": 0.0002601149363292146,\r\n                \"current_match_events\": 0.0013209726445091684,\r\n                \"current_match_moment\": 0.0002947488377210256,\r\n                \"current_match_summary\": 0.00033399418950682516,\r\n                \"named_player_context\": 0.0006239832943519776,\r\n                \"other_live_matches_stats\": 0.00033399418950682516,\r\n                \"selected_goal_event\": 0.9956226273637364,\r\n                \"selected_player_context\": 0.0004859586782647951,\r\n                \"unsupported\": 0.0002947488377210256\r\n              },\r\n              \"type\": \"choice\"\r\n            }\r\n          },\r\n          \"usage\": {\r\n            \"input_tokens\": 1519,\r\n            \"output_tokens\": 1\r\n          }\r\n        }",
+      "responseBodySha256": "d874697272d2875426862b37e4872ca030c06260d031b6ec35d79659fedb5864"
+    },
+    {
+      "id": "GV-05",
+      "question": "Show the corner and headers that led to this goal.",
+      "expected": "selected_goal_event",
+      "category": "goal-visual",
+      "mandatory": false,
+      "context": {
+        "Query": {
+          "DatasetId": "brentford-existing-illustration",
+          "DatasetVersion": "brent-v05-1ac75316aa4aee548a212a59874354ab57e9a6dd0aead1a48f0a4badcc310a62",
+          "StreamId": "run-brentford-v05-1ac75316aa4a",
+          "FixtureId": "fixture-pl-2645236",
+          "CursorMs": 3780000,
+          "KnowledgeMode": "retrospective_replay",
+          "PresentationPolicyId": "existing-authored-minute-end",
+          "PresentationPolicyRevision": 1,
+          "ApplicationSequence": 4,
+          "KnowledgeAsOfUtc": null,
+          "SubjectId": null,
+          "EffectiveDate": null
+        },
+        "HeadSequence": 4,
+        "SelectedGoal": {
+          "RecordId": "goal-1",
+          "ReleaseCursorMs": 3780000,
+          "ReportedClock": "61"
+        }
+      },
+      "originalStatus": "Selected",
+      "originalChosen": "selected_goal_event",
+      "httpStatus": 200,
+      "responseBody": "{\r\n          \"model\": \"microsoft-decision-1\",\r\n          \"answers\": {\r\n            \"workflow\": {\r\n              \"choice\": \"selected_goal_event\",\r\n              \"confidence\": 0.9848552613416535,\r\n              \"probabilities\": {\r\n                \"clarify\": 0.00042487147572779007,\r\n                \"coverage_and_limits\": 0.0002576974535865059,\r\n                \"current_match_events\": 0.010957579780139148,\r\n                \"current_match_moment\": 0.00048144245547316494,\r\n                \"current_match_summary\": 0.00029200947089080945,\r\n                \"named_player_context\": 0.0002576974535865059,\r\n                \"other_live_matches_stats\": 0.0003749477613263208,\r\n                \"selected_goal_event\": 0.9863697352074882,\r\n                \"selected_player_context\": 0.00029200947089080945,\r\n                \"unsupported\": 0.00029200947089080945\r\n              },\r\n              \"type\": \"choice\"\r\n            }\r\n          },\r\n          \"usage\": {\r\n            \"input_tokens\": 1510,\r\n            \"output_tokens\": 1\r\n          }\r\n        }",
+      "responseBodySha256": "2b30307208f12ff45d343845505970f670bca4a5ae72550f77778664de00828c"
+    },
+    {
+      "id": "GV-06",
+      "question": "Can I see the actions behind this goal on a diagram?",
+      "expected": "selected_goal_event",
+      "category": "goal-visual",
+      "mandatory": false,
+      "context": {
+        "Query": {
+          "DatasetId": "brentford-existing-illustration",
+          "DatasetVersion": "brent-v05-1ac75316aa4aee548a212a59874354ab57e9a6dd0aead1a48f0a4badcc310a62",
+          "StreamId": "run-brentford-v05-1ac75316aa4a",
+          "FixtureId": "fixture-pl-2645236",
+          "CursorMs": 3780000,
+          "KnowledgeMode": "retrospective_replay",
+          "PresentationPolicyId": "existing-authored-minute-end",
+          "PresentationPolicyRevision": 1,
+          "ApplicationSequence": 4,
+          "KnowledgeAsOfUtc": null,
+          "SubjectId": null,
+          "EffectiveDate": null
+        },
+        "HeadSequence": 4,
+        "SelectedGoal": {
+          "RecordId": "goal-1",
+          "ReleaseCursorMs": 3780000,
+          "ReportedClock": "61"
+        }
+      },
+      "originalStatus": "Selected",
+      "originalChosen": "selected_goal_event",
+      "httpStatus": 200,
+      "responseBody": "{\r\n          \"model\": \"microsoft-decision-1\",\r\n          \"answers\": {\r\n            \"workflow\": {\r\n              \"choice\": \"selected_goal_event\",\r\n              \"confidence\": 0.9970697222857776,\r\n              \"probabilities\": {\r\n                \"clarify\": 0.0003345779182002653,\r\n                \"coverage_and_limits\": 0.00026056954469276706,\r\n                \"current_match_events\": 0.000802610701877561,\r\n                \"current_match_moment\": 0.00022995181609924522,\r\n                \"current_match_summary\": 0.00026056954469276706,\r\n                \"named_player_context\": 0.0002029317654512864,\r\n                \"other_live_matches_stats\": 0.00022995181609924522,\r\n                \"selected_goal_event\": 0.9973627500571999,\r\n                \"selected_player_context\": 0.00015804341784352453,\r\n                \"unsupported\": 0.00015804341784352453\r\n              },\r\n              \"type\": \"choice\"\r\n            }\r\n          },\r\n          \"usage\": {\r\n            \"input_tokens\": 1512,\r\n            \"output_tokens\": 1\r\n          }\r\n        }",
+      "responseBodySha256": "d8da91feb4da1cca9290273bfcf070008c67bfc04973f18dd53fbce4aa3c4bc7"
+    },
+    {
+      "id": "GV-07",
+      "question": "Why did Chelsea concede this goal?",
+      "expected": "selected_goal_event",
+      "category": "ordinary-goal-control",
+      "mandatory": false,
+      "context": {
+        "Query": {
+          "DatasetId": "brentford-existing-illustration",
+          "DatasetVersion": "brent-v05-1ac75316aa4aee548a212a59874354ab57e9a6dd0aead1a48f0a4badcc310a62",
+          "StreamId": "run-brentford-v05-1ac75316aa4a",
+          "FixtureId": "fixture-pl-2645236",
+          "CursorMs": 3780000,
+          "KnowledgeMode": "retrospective_replay",
+          "PresentationPolicyId": "existing-authored-minute-end",
+          "PresentationPolicyRevision": 1,
+          "ApplicationSequence": 4,
+          "KnowledgeAsOfUtc": null,
+          "SubjectId": null,
+          "EffectiveDate": null
+        },
+        "HeadSequence": 4,
+        "SelectedGoal": {
+          "RecordId": "goal-1",
+          "ReleaseCursorMs": 3780000,
+          "ReportedClock": "61"
+        }
+      },
+      "originalStatus": "Selected",
+      "originalChosen": "selected_goal_event",
+      "httpStatus": 200,
+      "responseBody": "{\r\n          \"model\": \"microsoft-decision-1\",\r\n          \"answers\": {\r\n            \"workflow\": {\r\n              \"choice\": \"selected_goal_event\",\r\n              \"confidence\": 0.9961866640840089,\r\n              \"probabilities\": {\r\n                \"clarify\": 0.00029502868166775053,\r\n                \"coverage_and_limits\": 0.00022976856831136836,\r\n                \"current_match_events\": 0.0014982792734956462,\r\n                \"current_match_moment\": 0.00033431129424215663,\r\n                \"current_match_summary\": 0.0002603618977454064,\r\n                \"named_player_context\": 0.0002027700498460796,\r\n                \"other_live_matches_stats\": 0.00022976856831136836,\r\n                \"selected_goal_event\": 0.996567997675608,\r\n                \"selected_player_context\": 0.0002027700498460796,\r\n                \"unsupported\": 0.00017894394092608925\r\n              },\r\n              \"type\": \"choice\"\r\n            }\r\n          },\r\n          \"usage\": {\r\n            \"input_tokens\": 1507,\r\n            \"output_tokens\": 1\r\n          }\r\n        }",
+      "responseBodySha256": "17134a6588d88513a591ca99890288bfd5c056e710bbf6512ca1e31e5df232f3"
+    },
+    {
+      "id": "GV-08",
+      "question": "Show me how this goal happened",
+      "expected": "clarify",
+      "category": "no-selection-safety",
+      "mandatory": true,
+      "context": {
+        "Query": {
+          "DatasetId": "brentford-existing-illustration",
+          "DatasetVersion": "brent-v05-1ac75316aa4aee548a212a59874354ab57e9a6dd0aead1a48f0a4badcc310a62",
+          "StreamId": "run-brentford-v05-1ac75316aa4a",
+          "FixtureId": "fixture-pl-2645236",
+          "CursorMs": 3780000,
+          "KnowledgeMode": "retrospective_replay",
+          "PresentationPolicyId": "existing-authored-minute-end",
+          "PresentationPolicyRevision": 1,
+          "ApplicationSequence": 4,
+          "KnowledgeAsOfUtc": null,
+          "SubjectId": null,
+          "EffectiveDate": null
+        },
+        "HeadSequence": 4,
+        "SelectedGoal": null
+      },
+      "originalStatus": "Selected",
+      "originalChosen": "current_match_moment",
+      "httpStatus": 200,
+      "responseBody": "{\r\n          \"model\": \"microsoft-decision-1\",\r\n          \"answers\": {\r\n            \"workflow\": {\r\n              \"choice\": \"current_match_moment\",\r\n              \"confidence\": 0.9581346424496172,\r\n              \"probabilities\": {\r\n                \"clarify\": 0.0006834158596935779,\r\n                \"coverage_and_limits\": 0.0006031123793567709,\r\n                \"current_match_events\": 0.029059581810174026,\r\n                \"current_match_moment\": 0.9623211782046555,\r\n                \"current_match_summary\": 0.001126762264610616,\r\n                \"named_player_context\": 0.0003228226397981255,\r\n                \"other_live_matches_stats\": 0.0006031123793567709,\r\n                \"selected_goal_event\": 0.00393278673501742,\r\n                \"selected_player_context\": 0.00046970439332311137,\r\n                \"unsupported\": 0.0008775233340140574\r\n              },\r\n              \"type\": \"choice\"\r\n            }\r\n          },\r\n          \"usage\": {\r\n            \"input_tokens\": 1481,\r\n            \"output_tokens\": 1\r\n          }\r\n        }",
+      "responseBodySha256": "a1cafe78ba708915987e07b11af7fa849887076731da105242b10cb7d023e8e9"
+    },
+    {
+      "id": "GV-09",
+      "question": "Draw a diagram of the goal I am asking about.",
+      "expected": "clarify",
+      "category": "no-selection-safety",
+      "mandatory": true,
+      "context": {
+        "Query": {
+          "DatasetId": "brentford-existing-illustration",
+          "DatasetVersion": "brent-v05-1ac75316aa4aee548a212a59874354ab57e9a6dd0aead1a48f0a4badcc310a62",
+          "StreamId": "run-brentford-v05-1ac75316aa4a",
+          "FixtureId": "fixture-pl-2645236",
+          "CursorMs": 3780000,
+          "KnowledgeMode": "retrospective_replay",
+          "PresentationPolicyId": "existing-authored-minute-end",
+          "PresentationPolicyRevision": 1,
+          "ApplicationSequence": 4,
+          "KnowledgeAsOfUtc": null,
+          "SubjectId": "person-pl-reference-brentford-kayode",
+          "EffectiveDate": null
+        },
+        "HeadSequence": 4,
+        "SelectedGoal": null
+      },
+      "originalStatus": "Selected",
+      "originalChosen": "current_match_moment",
+      "httpStatus": 200,
+      "responseBody": "{\r\n          \"model\": \"microsoft-decision-1\",\r\n          \"answers\": {\r\n            \"workflow\": {\r\n              \"choice\": \"current_match_moment\",\r\n              \"confidence\": 0.8371324069098627,\r\n              \"probabilities\": {\r\n                \"clarify\": 0.00348772917748355,\r\n                \"coverage_and_limits\": 0.003952114922181519,\r\n                \"current_match_events\": 0.11549772802188596,\r\n                \"current_match_moment\": 0.8534191662188764,\r\n                \"current_match_summary\": 0.0027162462145651754,\r\n                \"named_player_context\": 0.0011322998829477423,\r\n                \"other_live_matches_stats\": 0.0016474866084621592,\r\n                \"selected_goal_event\": 0.008366627355913476,\r\n                \"selected_player_context\": 0.0023970788710108997,\r\n                \"unsupported\": 0.007383522726673185\r\n              },\r\n              \"type\": \"choice\"\r\n            }\r\n          },\r\n          \"usage\": {\r\n            \"input_tokens\": 1493,\r\n            \"output_tokens\": 1\r\n          }\r\n        }",
+      "responseBodySha256": "fad206bfde3ef7789c41c4872243f1016a40f382687ce5511a673cc6ab3714cf"
+    },
+    {
+      "id": "GV-10",
+      "question": "What has happened so far?",
+      "expected": "current_match_summary",
+      "category": "current-clock-control",
+      "mandatory": true,
+      "context": {
+        "Query": {
+          "DatasetId": "brentford-existing-illustration",
+          "DatasetVersion": "brent-v05-1ac75316aa4aee548a212a59874354ab57e9a6dd0aead1a48f0a4badcc310a62",
+          "StreamId": "run-brentford-v05-1ac75316aa4a",
+          "FixtureId": "fixture-pl-2645236",
+          "CursorMs": 3780000,
+          "KnowledgeMode": "retrospective_replay",
+          "PresentationPolicyId": "existing-authored-minute-end",
+          "PresentationPolicyRevision": 1,
+          "ApplicationSequence": 4,
+          "KnowledgeAsOfUtc": null,
+          "SubjectId": null,
+          "EffectiveDate": null
+        },
+        "HeadSequence": 4,
+        "SelectedGoal": {
+          "RecordId": "goal-1",
+          "ReleaseCursorMs": 3780000,
+          "ReportedClock": "61"
+        }
+      },
+      "originalStatus": "Selected",
+      "originalChosen": "current_match_summary",
+      "httpStatus": 200,
+      "responseBody": "{\r\n          \"model\": \"microsoft-decision-1\",\r\n          \"answers\": {\r\n            \"workflow\": {\r\n              \"choice\": \"current_match_summary\",\r\n              \"confidence\": 0.9921101473011215,\r\n              \"probabilities\": {\r\n                \"clarify\": 0.00022892273357939347,\r\n                \"coverage_and_limits\": 0.0002020236033150133,\r\n                \"current_match_events\": 0.0009054069749272079,\r\n                \"current_match_moment\": 0.0007990188509517494,\r\n                \"current_match_summary\": 0.9928991325710094,\r\n                \"named_player_context\": 0.00048462943079059486,\r\n                \"other_live_matches_stats\": 0.00042768397157403557,\r\n                \"selected_goal_event\": 0.0035809540513045347,\r\n                \"selected_player_context\": 0.00029394260837357753,\r\n                \"unsupported\": 0.00017828520417447822\r\n              },\r\n              \"type\": \"choice\"\r\n            }\r\n          },\r\n          \"usage\": {\r\n            \"input_tokens\": 1506,\r\n            \"output_tokens\": 1\r\n          }\r\n        }",
+      "responseBodySha256": "f2c238b50fb5bc5a04ad23fae81edbfcbc3455c667c91780624d783498e436f5"
+    },
+    {
+      "id": "GV-11",
+      "question": "How did Danny Welbeck play in this match?",
+      "expected": "named_player_context",
+      "category": "named-player-control",
+      "mandatory": true,
+      "context": {
+        "Query": {
+          "DatasetId": "brentford-existing-illustration",
+          "DatasetVersion": "brent-v05-1ac75316aa4aee548a212a59874354ab57e9a6dd0aead1a48f0a4badcc310a62",
+          "StreamId": "run-brentford-v05-1ac75316aa4a",
+          "FixtureId": "fixture-pl-2645236",
+          "CursorMs": 3780000,
+          "KnowledgeMode": "retrospective_replay",
+          "PresentationPolicyId": "existing-authored-minute-end",
+          "PresentationPolicyRevision": 1,
+          "ApplicationSequence": 4,
+          "KnowledgeAsOfUtc": null,
+          "SubjectId": "person-pl-reference-brentford-kayode",
+          "EffectiveDate": null
+        },
+        "HeadSequence": 4,
+        "SelectedGoal": {
+          "RecordId": "goal-1",
+          "ReleaseCursorMs": 3780000,
+          "ReportedClock": "61"
+        }
+      },
+      "originalStatus": "Selected",
+      "originalChosen": "named_player_context",
+      "httpStatus": 200,
+      "responseBody": "{\r\n          \"model\": \"microsoft-decision-1\",\r\n          \"answers\": {\r\n            \"workflow\": {\r\n              \"choice\": \"named_player_context\",\r\n              \"confidence\": 0.9825409711784714,\r\n              \"probabilities\": {\r\n                \"clarify\": 0.004558153254417261,\r\n                \"coverage_and_limits\": 0.00037415600361636074,\r\n                \"current_match_events\": 0.000699015441205262,\r\n                \"current_match_moment\": 0.0004804258184497177,\r\n                \"current_match_summary\": 0.0007920882658715676,\r\n                \"named_player_context\": 0.9842868740606243,\r\n                \"other_live_matches_stats\": 0.0007920882658715676,\r\n                \"selected_goal_event\": 0.002153119139654319,\r\n                \"selected_player_context\": 0.00516506430908444,\r\n                \"unsupported\": 0.000699015441205262\r\n              },\r\n              \"type\": \"choice\"\r\n            }\r\n          },\r\n          \"usage\": {\r\n            \"input_tokens\": 1518,\r\n            \"output_tokens\": 1\r\n          }\r\n        }",
+      "responseBodySha256": "1c20e08e5cc28a1f7ffdb62f85b4866925b51018fae0d53c03412b7a78b60dc2"
+    },
+    {
+      "id": "GV-12",
+      "question": "Are these player positions measured?",
+      "expected": "coverage_and_limits",
+      "category": "coverage-control",
+      "mandatory": false,
+      "context": {
+        "Query": {
+          "DatasetId": "brentford-existing-illustration",
+          "DatasetVersion": "brent-v05-1ac75316aa4aee548a212a59874354ab57e9a6dd0aead1a48f0a4badcc310a62",
+          "StreamId": "run-brentford-v05-1ac75316aa4a",
+          "FixtureId": "fixture-pl-2645236",
+          "CursorMs": 3780000,
+          "KnowledgeMode": "retrospective_replay",
+          "PresentationPolicyId": "existing-authored-minute-end",
+          "PresentationPolicyRevision": 1,
+          "ApplicationSequence": 4,
+          "KnowledgeAsOfUtc": null,
+          "SubjectId": null,
+          "EffectiveDate": null
+        },
+        "HeadSequence": 4,
+        "SelectedGoal": {
+          "RecordId": "goal-1",
+          "ReleaseCursorMs": 3780000,
+          "ReportedClock": "61"
+        }
+      },
+      "originalStatus": "Selected",
+      "originalChosen": "coverage_and_limits",
+      "httpStatus": 200,
+      "responseBody": "{\r\n          \"model\": \"microsoft-decision-1\",\r\n          \"answers\": {\r\n            \"workflow\": {\r\n              \"choice\": \"coverage_and_limits\",\r\n              \"confidence\": 0.9927260708741888,\r\n              \"probabilities\": {\r\n                \"clarify\": 0.0013180945633302758,\r\n                \"coverage_and_limits\": 0.9934534637867699,\r\n                \"current_match_events\": 0.00042792265219680065,\r\n                \"current_match_moment\": 0.0006226237850669956,\r\n                \"current_match_summary\": 0.00037764041510946167,\r\n                \"named_player_context\": 0.0006226237850669956,\r\n                \"other_live_matches_stats\": 0.00037764041510946167,\r\n                \"selected_goal_event\": 0.001692466920914004,\r\n                \"selected_player_context\": 0.00048489989136905816,\r\n                \"unsupported\": 0.0006226237850669956\r\n              },\r\n              \"type\": \"choice\"\r\n            }\r\n          },\r\n          \"usage\": {\r\n            \"input_tokens\": 1506,\r\n            \"output_tokens\": 1\r\n          }\r\n        }",
+      "responseBodySha256": "00b3687f4f62bff626a9d202c05166c9b465335735e53d07df55c74f35a3c392"
+    }
+  ]
+}

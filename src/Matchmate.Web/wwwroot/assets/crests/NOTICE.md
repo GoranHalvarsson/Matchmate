@@ -1,0 +1,1 @@
+Original POC crest artwork copied unchanged. See manifest.json for individual sources and period variants. Club copyright/trademarks remain with their owners; no endorsement or general reuse clearance is asserted. Images are rendered as images, never injected SVG markup.

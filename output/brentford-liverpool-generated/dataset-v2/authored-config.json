@@ -1,0 +1,48 @@
+{
+  "version": 1,
+  "kind": "generated_whole_match_illustration",
+  "fixtureId": "premier-league:2026-27:2026-10-17:brentford:liverpool",
+  "seed": 2645256,
+  "source": {
+    "path": "../brentford-liverpool-review/sources/official-match-facts.json",
+    "sha256": "d5a15af25696db2cd0c983d1869f6950074f6371d7689a8610a3f198775532cf",
+    "bytes": 47154
+  },
+  "timeline": {
+    "firstHalfSeconds": 3360,
+    "halftimeTransitionSeconds": 60,
+    "secondHalfSeconds": 3120,
+    "eventStaging": "end_of_reported_minute_except_explicit_halftime",
+    "halftimeSubstitutionStage": "halftime_entry",
+    "sourceMediaMapping": null,
+    "exactWhistleTimes": false
+  },
+  "pitchMetres": [105, 68],
+  "restartStaging": {
+    "firstHalfTakerId": "brentford:jensen",
+    "secondHalfTakerId": "liverpool:wirtz",
+    "transitionSeconds": 60,
+    "actualKickoffTeamsKnown": false,
+    "provenance": "generated"
+  },
+  "motion": {
+    "playerSpeedLimitMetresPerSecond": 4.5,
+    "ballSpeedLimitMetresPerSecond": 35,
+    "substitutionApproachSeconds": 48,
+    "substitutionReturnSeconds": 48,
+    "dismissalExitSeconds": 32,
+    "goalApproachSeconds": 42,
+    "goalRecoverySeconds": 42
+  },
+  "export": {"sampleHertz": 5, "chunkSeconds": 300, "criticalBoundaryEpsilonSeconds": 0.000001},
+  "policy": {
+    "positions": "generated",
+    "movement": "deterministic_authored",
+    "individualSlots": "authored_not_verified_roles",
+    "measured": false,
+    "knownThen": false,
+    "actualStatisticsFromMovement": false,
+    "sourceFactsStoredSeparately": true,
+    "mediaClockMapping": null
+  }
+}

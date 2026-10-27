@@ -1,0 +1,2434 @@
+[
+  {
+    "club_id": "arsenal",
+    "name": "Arsenal",
+    "source_aliases": [
+      "Arsenal FC"
+    ],
+    "wikidata_id": "Q9617",
+    "locality": null,
+    "address": null,
+    "region": null,
+    "location_status": "Direct source administrative/country candidates only; football home town and legal postal address remain unverified.",
+    "identity_lookup_status": "identified_football_club",
+    "identity_lookup_note": "Retained entity revision; P31 football club, or Chelsea P31 mens team with captured P279 football-club subtype.",
+    "identity_search_source": null,
+    "identity_source_id": "wikidata-Q9617",
+    "source_english_label": "Arsenal F.C.",
+    "source_english_description": "association football club in London, England",
+    "instance_of_ids": [
+      "Q476028"
+    ],
+    "official_website_claims": [
+      {
+        "value": "https://www.arsenal.com/",
+        "claim_id": "Q9617$52CB32C8-25E3-4336-9721-937C7EC05369",
+        "source_id": "wikidata-Q9617",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {
+          "P407": [
+            {
+              "snaktype": "value",
+              "property": "P407",
+              "hash": "daf1c4fcb58181b02dff9cc89deb084004ddae4b",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 1860,
+                  "id": "Q1860"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            }
+          ]
+        },
+        "label": null
+      }
+    ],
+    "locality_candidates": [],
+    "country_candidates": [
+      {
+        "value": {
+          "entity-type": "item",
+          "numeric-id": 145,
+          "id": "Q145"
+        },
+        "claim_id": "Q9617$9905E4FE-6AC2-455C-A6F4-F692478CB023",
+        "source_id": "wikidata-Q9617",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "label": "United Kingdom",
+        "label_source_id": "wikidata-bulk-2"
+      }
+    ]
+  },
+  {
+    "club_id": "aston-villa",
+    "name": "Aston Villa",
+    "source_aliases": [
+      "Aston Villa",
+      "Aston Villa FC"
+    ],
+    "wikidata_id": "Q18711",
+    "locality": null,
+    "address": null,
+    "region": null,
+    "location_status": "Direct source administrative/country candidates only; football home town and legal postal address remain unverified.",
+    "identity_lookup_status": "identified_football_club",
+    "identity_lookup_note": "Retained entity revision; P31 football club, or Chelsea P31 mens team with captured P279 football-club subtype.",
+    "identity_search_source": null,
+    "identity_source_id": "wikidata-Q18711",
+    "source_english_label": "Aston Villa F.C.",
+    "source_english_description": "association football club in Birmingham, England",
+    "instance_of_ids": [
+      "Q476028"
+    ],
+    "official_website_claims": [
+      {
+        "value": "https://www.avfc.co.uk/",
+        "claim_id": "Q18711$B0B889FC-6207-4CBC-8BBE-FC754D7A3245",
+        "source_id": "wikidata-Q18711",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {
+          "P407": [
+            {
+              "snaktype": "value",
+              "property": "P407",
+              "hash": "daf1c4fcb58181b02dff9cc89deb084004ddae4b",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 1860,
+                  "id": "Q1860"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            }
+          ]
+        },
+        "label": null
+      }
+    ],
+    "locality_candidates": [],
+    "country_candidates": [
+      {
+        "value": {
+          "entity-type": "item",
+          "numeric-id": 145,
+          "id": "Q145"
+        },
+        "claim_id": "Q18711$48FE7FBB-8519-4A4C-A32E-8E8093DDCBD7",
+        "source_id": "wikidata-Q18711",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "label": "United Kingdom",
+        "label_source_id": "wikidata-bulk-2"
+      }
+    ]
+  },
+  {
+    "club_id": "bournemouth",
+    "name": "AFC Bournemouth",
+    "source_aliases": [
+      "AFC Bournemouth"
+    ],
+    "wikidata_id": "Q19568",
+    "locality": null,
+    "address": null,
+    "region": null,
+    "location_status": "Direct source administrative/country candidates only; football home town and legal postal address remain unverified.",
+    "identity_lookup_status": "identified_football_club",
+    "identity_lookup_note": "Retained entity revision; P31 football club, or Chelsea P31 mens team with captured P279 football-club subtype.",
+    "identity_search_source": null,
+    "identity_source_id": "wikidata-Q19568",
+    "source_english_label": "AFC Bournemouth",
+    "source_english_description": "association football club in Bournemouth, England",
+    "instance_of_ids": [
+      "Q476028"
+    ],
+    "official_website_claims": [
+      {
+        "value": "https://www.afcb.co.uk/",
+        "claim_id": "Q19568$54C4772C-4662-42AB-83C6-2784C3C7779E",
+        "source_id": "wikidata-Q19568",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {
+          "P407": [
+            {
+              "snaktype": "value",
+              "property": "P407",
+              "hash": "daf1c4fcb58181b02dff9cc89deb084004ddae4b",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 1860,
+                  "id": "Q1860"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            }
+          ]
+        },
+        "label": null
+      }
+    ],
+    "locality_candidates": [
+      {
+        "value": {
+          "entity-type": "item",
+          "numeric-id": 170478,
+          "id": "Q170478"
+        },
+        "claim_id": "Q19568$d5679707-4dae-5755-2003-e3cacdf94cae",
+        "source_id": "wikidata-Q19568",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "label": "Bournemouth",
+        "label_source_id": "wikidata-bulk-2"
+      }
+    ],
+    "country_candidates": [
+      {
+        "value": {
+          "entity-type": "item",
+          "numeric-id": 145,
+          "id": "Q145"
+        },
+        "claim_id": "Q19568$9A44763B-3859-4011-B0CE-F1A8B4F866B0",
+        "source_id": "wikidata-Q19568",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "label": "United Kingdom",
+        "label_source_id": "wikidata-bulk-2"
+      }
+    ]
+  },
+  {
+    "club_id": "brentford",
+    "name": "Brentford",
+    "source_aliases": [
+      "Brentford FC"
+    ],
+    "wikidata_id": "Q19571",
+    "locality": null,
+    "address": null,
+    "region": null,
+    "location_status": "Direct source administrative/country candidates only; football home town and legal postal address remain unverified.",
+    "identity_lookup_status": "identified_football_club",
+    "identity_lookup_note": "Retained entity revision; P31 football club, or Chelsea P31 mens team with captured P279 football-club subtype.",
+    "identity_search_source": null,
+    "identity_source_id": "wikidata-Q19571",
+    "source_english_label": "Brentford F.C.",
+    "source_english_description": "association football club in London, England",
+    "instance_of_ids": [
+      "Q476028"
+    ],
+    "official_website_claims": [
+      {
+        "value": "https://www.brentfordfc.com/",
+        "claim_id": "Q19571$9CE099BC-44CA-4795-9D21-1EF2CB6BDCCB",
+        "source_id": "wikidata-Q19571",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {
+          "P407": [
+            {
+              "snaktype": "value",
+              "property": "P407",
+              "hash": "daf1c4fcb58181b02dff9cc89deb084004ddae4b",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 1860,
+                  "id": "Q1860"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            }
+          ]
+        },
+        "label": null
+      }
+    ],
+    "locality_candidates": [],
+    "country_candidates": [
+      {
+        "value": {
+          "entity-type": "item",
+          "numeric-id": 145,
+          "id": "Q145"
+        },
+        "claim_id": "Q19571$D450DDD6-FD74-4810-99DB-C7DA4D6E3D05",
+        "source_id": "wikidata-Q19571",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "label": "United Kingdom",
+        "label_source_id": "wikidata-bulk-2"
+      }
+    ]
+  },
+  {
+    "club_id": "brighton",
+    "name": "Brighton & Hove Albion",
+    "source_aliases": [
+      "Brighton & Hove Albion FC"
+    ],
+    "wikidata_id": "Q19453",
+    "locality": null,
+    "address": null,
+    "region": null,
+    "location_status": "Direct source administrative/country candidates only; football home town and legal postal address remain unverified.",
+    "identity_lookup_status": "identified_football_club",
+    "identity_lookup_note": "Retained entity revision; P31 football club, or Chelsea P31 mens team with captured P279 football-club subtype.",
+    "identity_search_source": null,
+    "identity_source_id": "wikidata-Q19453",
+    "source_english_label": "Brighton & Hove Albion F.C.",
+    "source_english_description": "football club in Brighton & Hove, England",
+    "instance_of_ids": [
+      "Q476028",
+      "Q20639856"
+    ],
+    "official_website_claims": [
+      {
+        "value": "https://www.brightonandhovealbion.com/",
+        "claim_id": "Q19453$b175d7df-4d5f-5e89-0c92-5bae026fce9f",
+        "source_id": "wikidata-Q19453",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {
+          "P407": [
+            {
+              "snaktype": "value",
+              "property": "P407",
+              "hash": "daf1c4fcb58181b02dff9cc89deb084004ddae4b",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 1860,
+                  "id": "Q1860"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            }
+          ]
+        },
+        "label": null
+      }
+    ],
+    "locality_candidates": [],
+    "country_candidates": [
+      {
+        "value": {
+          "entity-type": "item",
+          "numeric-id": 145,
+          "id": "Q145"
+        },
+        "claim_id": "Q19453$AB74A9DB-023D-4649-8BFA-98CBBD0B3FA2",
+        "source_id": "wikidata-Q19453",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "label": "United Kingdom",
+        "label_source_id": "wikidata-bulk-2"
+      }
+    ]
+  },
+  {
+    "club_id": "burnley",
+    "name": "Burnley",
+    "source_aliases": [
+      "Burnley FC"
+    ],
+    "wikidata_id": "Q19458",
+    "locality": null,
+    "address": null,
+    "region": null,
+    "location_status": "Direct source administrative/country candidates only; football home town and legal postal address remain unverified.",
+    "identity_lookup_status": "identified_football_club",
+    "identity_lookup_note": "Retained entity revision; P31 football club, or Chelsea P31 mens team with captured P279 football-club subtype.",
+    "identity_search_source": null,
+    "identity_source_id": "wikidata-Q19458",
+    "source_english_label": "Burnley F.C.",
+    "source_english_description": "association football club in Burnley, England",
+    "instance_of_ids": [
+      "Q476028"
+    ],
+    "official_website_claims": [
+      {
+        "value": "http://www.burnleyfootballclub.com/",
+        "claim_id": "Q19458$6a38e962-4b9b-9b71-709b-d312173747b1",
+        "source_id": "wikidata-Q19458",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {
+          "P407": [
+            {
+              "snaktype": "value",
+              "property": "P407",
+              "hash": "daf1c4fcb58181b02dff9cc89deb084004ddae4b",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 1860,
+                  "id": "Q1860"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            }
+          ]
+        },
+        "label": null
+      }
+    ],
+    "locality_candidates": [
+      {
+        "value": {
+          "entity-type": "item",
+          "numeric-id": 209096,
+          "id": "Q209096"
+        },
+        "claim_id": "Q19458$35b176e1-4f0f-ee80-a1e0-dff16498d812",
+        "source_id": "wikidata-Q19458",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "label": "Burnley",
+        "label_source_id": "wikidata-bulk-2"
+      }
+    ],
+    "country_candidates": [
+      {
+        "value": {
+          "entity-type": "item",
+          "numeric-id": 145,
+          "id": "Q145"
+        },
+        "claim_id": "Q19458$D0C2C21E-355B-48B8-ABE9-DF4E93F5526F",
+        "source_id": "wikidata-Q19458",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {},
+        "label": "United Kingdom",
+        "label_source_id": "wikidata-bulk-2"
+      }
+    ]
+  },
+  {
+    "club_id": "chelsea",
+    "name": "Chelsea",
+    "source_aliases": [
+      "Chelsea FC"
+    ],
+    "wikidata_id": "Q9616",
+    "locality": null,
+    "address": null,
+    "region": null,
+    "location_status": "Direct source administrative/country candidates only; football home town and legal postal address remain unverified.",
+    "identity_lookup_status": "identified_football_club",
+    "identity_lookup_note": "Retained entity revision; P31 football club, or Chelsea P31 mens team with captured P279 football-club subtype.",
+    "identity_search_source": null,
+    "identity_source_id": "wikidata-Q9616",
+    "source_english_label": "Chelsea F.C.",
+    "source_english_description": "association football club in London, England",
+    "instance_of_ids": [
+      "Q103229495"
+    ],
+    "official_website_claims": [
+      {
+        "value": "https://www.chelseafc.com/",
+        "claim_id": "Q9616$42865AC0-1A33-476D-A575-E99F3C29AFF9",
+        "source_id": "wikidata-Q9616",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {
+          "P407": [
+            {
+              "snaktype": "value",
+              "property": "P407",
+              "hash": "daf1c4fcb58181b02dff9cc89deb084004ddae4b",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 1860,
+                  "id": "Q1860"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            }
+          ]
+        },
+        "label": null
+      }
+    ],
+    "locality_candidates": [],
+    "country_candidates": [
+      {
+        "value": {
+          "entity-type": "item",
+          "numeric-id": 145,
+          "id": "Q145"
+        },
+        "claim_id": "Q9616$C07F389B-7272-44EA-BC66-118E10B88A52",
+        "source_id": "wikidata-Q9616",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "label": "United Kingdom",
+        "label_source_id": "wikidata-bulk-2"
+      }
+    ]
+  },
+  {
+    "club_id": "coventry",
+    "name": "Coventry City",
+    "source_aliases": [
+      "Coventry City FC"
+    ],
+    "wikidata_id": "Q19580",
+    "locality": null,
+    "address": null,
+    "region": null,
+    "location_status": "Direct source administrative/country candidates only; football home town and legal postal address remain unverified.",
+    "identity_lookup_status": "identified_football_club",
+    "identity_lookup_note": "Retained entity revision; P31 football club, or Chelsea P31 mens team with captured P279 football-club subtype.",
+    "identity_search_source": null,
+    "identity_source_id": "wikidata-Q19580",
+    "source_english_label": "Coventry City F.C.",
+    "source_english_description": "association football club in Coventry, England",
+    "instance_of_ids": [
+      "Q476028"
+    ],
+    "official_website_claims": [
+      {
+        "value": "https://www.ccfc.co.uk/",
+        "claim_id": "Q19580$4DBC27BE-6589-4145-B39B-2BF14DDFDDBE",
+        "source_id": "wikidata-Q19580",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {
+          "P407": [
+            {
+              "snaktype": "value",
+              "property": "P407",
+              "hash": "daf1c4fcb58181b02dff9cc89deb084004ddae4b",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 1860,
+                  "id": "Q1860"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            }
+          ]
+        },
+        "label": null
+      }
+    ],
+    "locality_candidates": [],
+    "country_candidates": [
+      {
+        "value": {
+          "entity-type": "item",
+          "numeric-id": 145,
+          "id": "Q145"
+        },
+        "claim_id": "Q19580$BF324B98-2C89-4065-A019-75A690DA49F7",
+        "source_id": "wikidata-Q19580",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "label": "United Kingdom",
+        "label_source_id": "wikidata-bulk-2"
+      }
+    ]
+  },
+  {
+    "club_id": "crystal-palace",
+    "name": "Crystal Palace",
+    "source_aliases": [
+      "Crystal Palace",
+      "Crystal Palace FC"
+    ],
+    "wikidata_id": "Q19467",
+    "locality": null,
+    "address": null,
+    "region": null,
+    "location_status": "Direct source administrative/country candidates only; football home town and legal postal address remain unverified.",
+    "identity_lookup_status": "identified_football_club",
+    "identity_lookup_note": "Retained entity revision; P31 football club, or Chelsea P31 mens team with captured P279 football-club subtype.",
+    "identity_search_source": null,
+    "identity_source_id": "wikidata-Q19467",
+    "source_english_label": "Crystal Palace F.C.",
+    "source_english_description": "association football club in London, England",
+    "instance_of_ids": [
+      "Q476028"
+    ],
+    "official_website_claims": [
+      {
+        "value": "https://www.cpfc.co.uk/",
+        "claim_id": "Q19467$E84B1BC4-DB87-4292-91D1-82A4D217A4AE",
+        "source_id": "wikidata-Q19467",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {
+          "P407": [
+            {
+              "snaktype": "value",
+              "property": "P407",
+              "hash": "daf1c4fcb58181b02dff9cc89deb084004ddae4b",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 1860,
+                  "id": "Q1860"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            }
+          ]
+        },
+        "label": null
+      }
+    ],
+    "locality_candidates": [
+      {
+        "value": {
+          "entity-type": "item",
+          "numeric-id": 84,
+          "id": "Q84"
+        },
+        "claim_id": "Q19467$97361116-438c-9417-5839-65df3eb00913",
+        "source_id": "wikidata-Q19467",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "label": "London",
+        "label_source_id": "wikidata-bulk-3"
+      }
+    ],
+    "country_candidates": [
+      {
+        "value": {
+          "entity-type": "item",
+          "numeric-id": 145,
+          "id": "Q145"
+        },
+        "claim_id": "Q19467$57ABCD90-4B50-48C9-ACCE-4C2CDCB65642",
+        "source_id": "wikidata-Q19467",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "label": "United Kingdom",
+        "label_source_id": "wikidata-bulk-2"
+      }
+    ]
+  },
+  {
+    "club_id": "everton",
+    "name": "Everton",
+    "source_aliases": [
+      "Everton FC"
+    ],
+    "wikidata_id": "Q5794",
+    "locality": null,
+    "address": null,
+    "region": null,
+    "location_status": "Direct source administrative/country candidates only; football home town and legal postal address remain unverified.",
+    "identity_lookup_status": "identified_football_club",
+    "identity_lookup_note": "Retained entity revision; P31 football club, or Chelsea P31 mens team with captured P279 football-club subtype.",
+    "identity_search_source": null,
+    "identity_source_id": "wikidata-Q5794",
+    "source_english_label": "Everton F.C.",
+    "source_english_description": "association football club in Liverpool, England",
+    "instance_of_ids": [
+      "Q476028"
+    ],
+    "official_website_claims": [
+      {
+        "value": "http://www.evertonfc.com/",
+        "claim_id": "Q5794$7F52A111-B442-4B1B-94D4-3927E6E0D084",
+        "source_id": "wikidata-Q5794",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {
+          "P407": [
+            {
+              "snaktype": "value",
+              "property": "P407",
+              "hash": "daf1c4fcb58181b02dff9cc89deb084004ddae4b",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 1860,
+                  "id": "Q1860"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            }
+          ]
+        },
+        "label": null
+      }
+    ],
+    "locality_candidates": [
+      {
+        "value": {
+          "entity-type": "item",
+          "numeric-id": 24826,
+          "id": "Q24826"
+        },
+        "claim_id": "Q5794$32707f44-41be-b805-4632-4025a257196f",
+        "source_id": "wikidata-Q5794",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "label": "Liverpool",
+        "label_source_id": "wikidata-bulk-2"
+      }
+    ],
+    "country_candidates": [
+      {
+        "value": {
+          "entity-type": "item",
+          "numeric-id": 145,
+          "id": "Q145"
+        },
+        "claim_id": "Q5794$F3911286-5DC4-4016-A5AF-1447BB938A88",
+        "source_id": "wikidata-Q5794",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "label": "United Kingdom",
+        "label_source_id": "wikidata-bulk-2"
+      }
+    ]
+  },
+  {
+    "club_id": "fulham",
+    "name": "Fulham",
+    "source_aliases": [
+      "Fulham FC"
+    ],
+    "wikidata_id": "Q18708",
+    "locality": null,
+    "address": null,
+    "region": null,
+    "location_status": "Direct source administrative/country candidates only; football home town and legal postal address remain unverified.",
+    "identity_lookup_status": "identified_football_club",
+    "identity_lookup_note": "Retained entity revision; P31 football club, or Chelsea P31 mens team with captured P279 football-club subtype.",
+    "identity_search_source": null,
+    "identity_source_id": "wikidata-Q18708",
+    "source_english_label": "Fulham F.C.",
+    "source_english_description": "association football club in London, England",
+    "instance_of_ids": [
+      "Q476028"
+    ],
+    "official_website_claims": [
+      {
+        "value": "https://www.fulhamfc.com/",
+        "claim_id": "Q18708$828225F6-F72A-48E5-BBEB-BEFB58AED34E",
+        "source_id": "wikidata-Q18708",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {
+          "P407": [
+            {
+              "snaktype": "value",
+              "property": "P407",
+              "hash": "daf1c4fcb58181b02dff9cc89deb084004ddae4b",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 1860,
+                  "id": "Q1860"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            }
+          ]
+        },
+        "label": null
+      }
+    ],
+    "locality_candidates": [],
+    "country_candidates": [
+      {
+        "value": {
+          "entity-type": "item",
+          "numeric-id": 145,
+          "id": "Q145"
+        },
+        "claim_id": "Q18708$C1282B68-A14B-40C0-B953-459FEB95359B",
+        "source_id": "wikidata-Q18708",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "label": "United Kingdom",
+        "label_source_id": "wikidata-bulk-2"
+      }
+    ]
+  },
+  {
+    "club_id": "hull",
+    "name": "Hull City",
+    "source_aliases": [
+      "Hull City",
+      "Hull City AFC"
+    ],
+    "wikidata_id": "Q19477",
+    "locality": null,
+    "address": null,
+    "region": null,
+    "location_status": "Direct source administrative/country candidates only; football home town and legal postal address remain unverified.",
+    "identity_lookup_status": "identified_football_club",
+    "identity_lookup_note": "Retained entity revision; P31 football club, or Chelsea P31 mens team with captured P279 football-club subtype.",
+    "identity_search_source": null,
+    "identity_source_id": "wikidata-Q19477",
+    "source_english_label": "Hull City A.F.C.",
+    "source_english_description": "association football club in Hull, England",
+    "instance_of_ids": [
+      "Q476028"
+    ],
+    "official_website_claims": [
+      {
+        "value": "https://www.wearehullcity.co.uk/",
+        "claim_id": "Q19477$6d040849-4568-a868-cba6-d8ff155ead2a",
+        "source_id": "wikidata-Q19477",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {
+          "P407": [
+            {
+              "snaktype": "value",
+              "property": "P407",
+              "hash": "daf1c4fcb58181b02dff9cc89deb084004ddae4b",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 1860,
+                  "id": "Q1860"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            }
+          ]
+        },
+        "label": null
+      }
+    ],
+    "locality_candidates": [],
+    "country_candidates": [
+      {
+        "value": {
+          "entity-type": "item",
+          "numeric-id": 145,
+          "id": "Q145"
+        },
+        "claim_id": "Q19477$F28B6297-FCAC-4D5C-BD9A-8BD8636198E9",
+        "source_id": "wikidata-Q19477",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "label": "United Kingdom",
+        "label_source_id": "wikidata-bulk-2"
+      }
+    ]
+  },
+  {
+    "club_id": "ipswich",
+    "name": "Ipswich Town",
+    "source_aliases": [
+      "Ipswich Town FC"
+    ],
+    "wikidata_id": "Q9653",
+    "locality": null,
+    "address": null,
+    "region": null,
+    "location_status": "Direct source administrative/country candidates only; football home town and legal postal address remain unverified.",
+    "identity_lookup_status": "identified_football_club",
+    "identity_lookup_note": "Retained entity revision; P31 football club, or Chelsea P31 mens team with captured P279 football-club subtype.",
+    "identity_search_source": null,
+    "identity_source_id": "wikidata-Q9653",
+    "source_english_label": "Ipswich Town F.C.",
+    "source_english_description": "association football club in Ipswich, England",
+    "instance_of_ids": [
+      "Q476028"
+    ],
+    "official_website_claims": [
+      {
+        "value": "http://www.itfc.co.uk/",
+        "claim_id": "Q9653$3944bd0e-4944-85db-9e52-e064ee08a798",
+        "source_id": "wikidata-Q9653",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {
+          "P407": [
+            {
+              "snaktype": "value",
+              "property": "P407",
+              "hash": "daf1c4fcb58181b02dff9cc89deb084004ddae4b",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 1860,
+                  "id": "Q1860"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            }
+          ]
+        },
+        "label": null
+      }
+    ],
+    "locality_candidates": [],
+    "country_candidates": [
+      {
+        "value": {
+          "entity-type": "item",
+          "numeric-id": 145,
+          "id": "Q145"
+        },
+        "claim_id": "Q9653$BA0A580A-1124-40A0-A9BA-BB28AFE12066",
+        "source_id": "wikidata-Q9653",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "label": "United Kingdom",
+        "label_source_id": "wikidata-bulk-2"
+      }
+    ]
+  },
+  {
+    "club_id": "leeds",
+    "name": "Leeds United",
+    "source_aliases": [
+      "Leeds United FC"
+    ],
+    "wikidata_id": "Q1128631",
+    "locality": null,
+    "address": null,
+    "region": null,
+    "location_status": "Direct source administrative/country candidates only; football home town and legal postal address remain unverified.",
+    "identity_lookup_status": "identified_football_club",
+    "identity_lookup_note": "Retained entity revision; P31 football club, or Chelsea P31 mens team with captured P279 football-club subtype.",
+    "identity_search_source": null,
+    "identity_source_id": "wikidata-Q1128631",
+    "source_english_label": "Leeds United F.C.",
+    "source_english_description": "association football club in Leeds, England",
+    "instance_of_ids": [
+      "Q476028"
+    ],
+    "official_website_claims": [
+      {
+        "value": "https://www.leedsunited.com/",
+        "claim_id": "Q1128631$c326aa99-4496-2bb3-4849-aed83bffa55f",
+        "source_id": "wikidata-Q1128631",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {
+          "P407": [
+            {
+              "snaktype": "value",
+              "property": "P407",
+              "hash": "daf1c4fcb58181b02dff9cc89deb084004ddae4b",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 1860,
+                  "id": "Q1860"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            }
+          ]
+        },
+        "label": null
+      }
+    ],
+    "locality_candidates": [],
+    "country_candidates": [
+      {
+        "value": {
+          "entity-type": "item",
+          "numeric-id": 145,
+          "id": "Q145"
+        },
+        "claim_id": "Q1128631$77DBFE08-1FEA-4849-ACA6-959C97BB0976",
+        "source_id": "wikidata-Q1128631",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "label": "United Kingdom",
+        "label_source_id": "wikidata-bulk-2"
+      }
+    ]
+  },
+  {
+    "club_id": "leicester",
+    "name": "Leicester City",
+    "source_aliases": [
+      "Leicester City"
+    ],
+    "wikidata_id": "Q19481",
+    "locality": null,
+    "address": null,
+    "region": null,
+    "location_status": "Direct source administrative/country candidates only; football home town and legal postal address remain unverified.",
+    "identity_lookup_status": "identified_football_club",
+    "identity_lookup_note": "Retained entity revision; P31 football club, or Chelsea P31 mens team with captured P279 football-club subtype.",
+    "identity_search_source": null,
+    "identity_source_id": "wikidata-Q19481",
+    "source_english_label": "Leicester City F.C.",
+    "source_english_description": "association football club in Leicester, England",
+    "instance_of_ids": [
+      "Q476028"
+    ],
+    "official_website_claims": [
+      {
+        "value": "https://www.lcfc.com",
+        "claim_id": "Q19481$DACDB464-D834-45D6-ACE4-BD90112D1962",
+        "source_id": "wikidata-Q19481",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {
+          "P407": [
+            {
+              "snaktype": "value",
+              "property": "P407",
+              "hash": "daf1c4fcb58181b02dff9cc89deb084004ddae4b",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 1860,
+                  "id": "Q1860"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            }
+          ]
+        },
+        "label": null
+      }
+    ],
+    "locality_candidates": [],
+    "country_candidates": [
+      {
+        "value": {
+          "entity-type": "item",
+          "numeric-id": 145,
+          "id": "Q145"
+        },
+        "claim_id": "Q19481$971F8F7B-F0B6-4E2B-8771-5B1B9AF60867",
+        "source_id": "wikidata-Q19481",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "label": "United Kingdom",
+        "label_source_id": "wikidata-bulk-2"
+      }
+    ]
+  },
+  {
+    "club_id": "liverpool",
+    "name": "Liverpool",
+    "source_aliases": [
+      "Liverpool FC"
+    ],
+    "wikidata_id": "Q1130849",
+    "locality": null,
+    "address": null,
+    "region": null,
+    "location_status": "Direct source administrative/country candidates only; football home town and legal postal address remain unverified.",
+    "identity_lookup_status": "identified_football_club",
+    "identity_lookup_note": "Retained entity revision; P31 football club, or Chelsea P31 mens team with captured P279 football-club subtype.",
+    "identity_search_source": null,
+    "identity_source_id": "wikidata-Q1130849",
+    "source_english_label": "Liverpool F.C.",
+    "source_english_description": "association football club in Liverpool, England",
+    "instance_of_ids": [
+      "Q476028"
+    ],
+    "official_website_claims": [
+      {
+        "value": "https://www.liverpoolfc.com",
+        "claim_id": "Q1130849$D1A50F37-71D0-40E9-A561-603387037699",
+        "source_id": "wikidata-Q1130849",
+        "rank": "preferred",
+        "reference_count": 0,
+        "qualifiers": {
+          "P407": [
+            {
+              "snaktype": "value",
+              "property": "P407",
+              "hash": "daf1c4fcb58181b02dff9cc89deb084004ddae4b",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 1860,
+                  "id": "Q1860"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            }
+          ]
+        },
+        "label": null
+      },
+      {
+        "value": "https://www.liverpoolfc.com/de",
+        "claim_id": "Q1130849$2a49add3-4b2c-8ece-c1d5-576f6ab81de2",
+        "source_id": "wikidata-Q1130849",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {
+          "P407": [
+            {
+              "snaktype": "value",
+              "property": "P407",
+              "hash": "46bfd327b830f66f7061ea92d1be430c135fa91f",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 188,
+                  "id": "Q188"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            }
+          ]
+        },
+        "label": null
+      },
+      {
+        "value": "https://www.liverpoolfc.com/es",
+        "claim_id": "Q1130849$b69b89b5-4620-4c51-6c02-345f7b7a541e",
+        "source_id": "wikidata-Q1130849",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {
+          "P407": [
+            {
+              "snaktype": "value",
+              "property": "P407",
+              "hash": "ffe70325d10cfc55f0dca807ed80ca0b5b97c472",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 1321,
+                  "id": "Q1321"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            }
+          ]
+        },
+        "label": null
+      },
+      {
+        "value": "https://www.liverpoolfc.com/fr",
+        "claim_id": "Q1130849$ae81b603-4485-b430-968e-b12c98faf435",
+        "source_id": "wikidata-Q1130849",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {
+          "P407": [
+            {
+              "snaktype": "value",
+              "property": "P407",
+              "hash": "d197d0a5efa4b4c23a302a829dd3ef43684fe002",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 150,
+                  "id": "Q150"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            }
+          ]
+        },
+        "label": null
+      },
+      {
+        "value": "https://www.liverpoolfc.com/id",
+        "claim_id": "Q1130849$f27753cd-4410-ade9-aabd-cec27919a3ca",
+        "source_id": "wikidata-Q1130849",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {
+          "P407": [
+            {
+              "snaktype": "value",
+              "property": "P407",
+              "hash": "6ee010c7b2795948bd497acfe407f2c0503c0a8b",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 9240,
+                  "id": "Q9240"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            }
+          ]
+        },
+        "label": null
+      },
+      {
+        "value": "https://www.liverpoolfc.com/it",
+        "claim_id": "Q1130849$b5d717ad-400b-6e0d-29a3-7190c1a748ac",
+        "source_id": "wikidata-Q1130849",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {
+          "P407": [
+            {
+              "snaktype": "value",
+              "property": "P407",
+              "hash": "2ab2e485ce235a18142330fa1873a5bba7115d23",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 652,
+                  "id": "Q652"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            }
+          ]
+        },
+        "label": null
+      },
+      {
+        "value": "https://www.liverpoolfc.com/ja",
+        "claim_id": "Q1130849$69a4b744-445b-3a69-25f6-0c3539338848",
+        "source_id": "wikidata-Q1130849",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {
+          "P407": [
+            {
+              "snaktype": "value",
+              "property": "P407",
+              "hash": "d858d1b9f6e6e383f38dfbe706d102f056c07312",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 5287,
+                  "id": "Q5287"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            }
+          ]
+        },
+        "label": null
+      },
+      {
+        "value": "https://www.liverpoolfc.com/pt",
+        "claim_id": "Q1130849$dfcd7ac1-41ff-388d-f402-9bcfce75809c",
+        "source_id": "wikidata-Q1130849",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {
+          "P407": [
+            {
+              "snaktype": "value",
+              "property": "P407",
+              "hash": "d3341820d45f6bb2097e8460656f7cd8fea3cf2a",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 5146,
+                  "id": "Q5146"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            }
+          ]
+        },
+        "label": null
+      },
+      {
+        "value": "https://www.liverpoolfc.com/th",
+        "claim_id": "Q1130849$9f84f9f4-4f7e-da26-f0ba-cf64e9ab2de3",
+        "source_id": "wikidata-Q1130849",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {
+          "P407": [
+            {
+              "snaktype": "value",
+              "property": "P407",
+              "hash": "8c313cf850c6e371c45c4680e2ca50572d2ae46c",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 9217,
+                  "id": "Q9217"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            }
+          ]
+        },
+        "label": null
+      }
+    ],
+    "locality_candidates": [],
+    "country_candidates": [
+      {
+        "value": {
+          "entity-type": "item",
+          "numeric-id": 145,
+          "id": "Q145"
+        },
+        "claim_id": "Q1130849$38394081-CC02-4E7E-B3BD-0758D58BF0D2",
+        "source_id": "wikidata-Q1130849",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "label": "United Kingdom",
+        "label_source_id": "wikidata-bulk-2"
+      }
+    ]
+  },
+  {
+    "club_id": "manchester-city",
+    "name": "Manchester City",
+    "source_aliases": [
+      "Manchester City",
+      "Manchester City FC"
+    ],
+    "wikidata_id": "Q50602",
+    "locality": null,
+    "address": null,
+    "region": null,
+    "location_status": "Direct source administrative/country candidates only; football home town and legal postal address remain unverified.",
+    "identity_lookup_status": "identified_football_club",
+    "identity_lookup_note": "Retained entity revision; P31 football club, or Chelsea P31 mens team with captured P279 football-club subtype.",
+    "identity_search_source": null,
+    "identity_source_id": "wikidata-Q50602",
+    "source_english_label": "Manchester City F.C.",
+    "source_english_description": "association football club in Manchester, England",
+    "instance_of_ids": [
+      "Q476028"
+    ],
+    "official_website_claims": [
+      {
+        "value": "https://mancity.com",
+        "claim_id": "Q50602$F7009315-B192-4839-97B3-CAB3093BF80C",
+        "source_id": "wikidata-Q50602",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {
+          "P407": [
+            {
+              "snaktype": "value",
+              "property": "P407",
+              "hash": "c757ac6da9712097bc0871742564687f009a3f64",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 20923490,
+                  "id": "Q20923490"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            }
+          ]
+        },
+        "label": null
+      }
+    ],
+    "locality_candidates": [],
+    "country_candidates": [
+      {
+        "value": {
+          "entity-type": "item",
+          "numeric-id": 145,
+          "id": "Q145"
+        },
+        "claim_id": "Q50602$D56661A3-9526-409C-BA4B-5D93D32D5385",
+        "source_id": "wikidata-Q50602",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "label": "United Kingdom",
+        "label_source_id": "wikidata-bulk-2"
+      }
+    ]
+  },
+  {
+    "club_id": "manchester-united",
+    "name": "Manchester United",
+    "source_aliases": [
+      "Manchester United",
+      "Manchester United FC"
+    ],
+    "wikidata_id": "Q18656",
+    "locality": null,
+    "address": null,
+    "region": null,
+    "location_status": "Direct source administrative/country candidates only; football home town and legal postal address remain unverified.",
+    "identity_lookup_status": "identified_football_club",
+    "identity_lookup_note": "Retained entity revision; P31 football club, or Chelsea P31 mens team with captured P279 football-club subtype.",
+    "identity_search_source": null,
+    "identity_source_id": "wikidata-Q18656",
+    "source_english_label": "Manchester United F.C.",
+    "source_english_description": "association football club in Manchester, England",
+    "instance_of_ids": [
+      "Q476028",
+      "Q4830453",
+      "Q103229495",
+      "Q891723"
+    ],
+    "official_website_claims": [
+      {
+        "value": "https://www.manutd.com",
+        "claim_id": "Q18656$cf2cfd36-48f1-061a-b3ee-2222718ba9be",
+        "source_id": "wikidata-Q18656",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {
+          "P407": [
+            {
+              "snaktype": "value",
+              "property": "P407",
+              "hash": "daf1c4fcb58181b02dff9cc89deb084004ddae4b",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 1860,
+                  "id": "Q1860"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            }
+          ]
+        },
+        "label": null
+      },
+      {
+        "value": "https://www.manutd.com/zh",
+        "claim_id": "Q18656$bd6af9e4-4668-35f0-eb15-6838e2ca6511",
+        "source_id": "wikidata-Q18656",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {
+          "P407": [
+            {
+              "snaktype": "value",
+              "property": "P407",
+              "hash": "3b33ca235f16338704ecefe35d73712fbf0377a5",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 7850,
+                  "id": "Q7850"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            }
+          ]
+        },
+        "label": null
+      },
+      {
+        "value": "https://www.manutd.com/ko",
+        "claim_id": "Q18656$dde51cfe-4554-fc03-7c2c-2e939380bef9",
+        "source_id": "wikidata-Q18656",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {
+          "P407": [
+            {
+              "snaktype": "value",
+              "property": "P407",
+              "hash": "a10335a425d19169dd856e0a5f71735853eab0ab",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 9176,
+                  "id": "Q9176"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            }
+          ]
+        },
+        "label": null
+      },
+      {
+        "value": "https://www.manutd.com/ar",
+        "claim_id": "Q18656$e65d4ae5-4454-3929-38b4-0b47d59deeb2",
+        "source_id": "wikidata-Q18656",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {
+          "P407": [
+            {
+              "snaktype": "value",
+              "property": "P407",
+              "hash": "1b1356fe89ad919c93fbcf2b7754a7a6ae114093",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 13955,
+                  "id": "Q13955"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            }
+          ]
+        },
+        "label": null
+      }
+    ],
+    "locality_candidates": [],
+    "country_candidates": [
+      {
+        "value": {
+          "entity-type": "item",
+          "numeric-id": 145,
+          "id": "Q145"
+        },
+        "claim_id": "Q18656$DEEA7E9B-00D3-4938-8B83-46D53D7DDD51",
+        "source_id": "wikidata-Q18656",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "label": "United Kingdom",
+        "label_source_id": "wikidata-bulk-2"
+      }
+    ]
+  },
+  {
+    "club_id": "middlesbrough",
+    "name": "Middlesbrough",
+    "source_aliases": [
+      "Middlesbrough FC"
+    ],
+    "wikidata_id": "Q18661",
+    "locality": null,
+    "address": null,
+    "region": null,
+    "location_status": "Direct source administrative/country candidates only; football home town and legal postal address remain unverified.",
+    "identity_lookup_status": "identified_football_club",
+    "identity_lookup_note": "Retained entity revision; P31 football club, or Chelsea P31 mens team with captured P279 football-club subtype.",
+    "identity_search_source": null,
+    "identity_source_id": "wikidata-Q18661",
+    "source_english_label": "Middlesbrough F.C.",
+    "source_english_description": "association football club in Middlesbrough, England",
+    "instance_of_ids": [
+      "Q476028"
+    ],
+    "official_website_claims": [
+      {
+        "value": "https://www.mfc.co.uk/",
+        "claim_id": "Q18661$359d2045-46c1-a617-6dda-43e978eac999",
+        "source_id": "wikidata-Q18661",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {
+          "P407": [
+            {
+              "snaktype": "value",
+              "property": "P407",
+              "hash": "daf1c4fcb58181b02dff9cc89deb084004ddae4b",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 1860,
+                  "id": "Q1860"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            }
+          ]
+        },
+        "label": null
+      }
+    ],
+    "locality_candidates": [],
+    "country_candidates": [
+      {
+        "value": {
+          "entity-type": "item",
+          "numeric-id": 145,
+          "id": "Q145"
+        },
+        "claim_id": "Q18661$6CF0DF0D-DC42-4941-85FD-22B069D6B2FF",
+        "source_id": "wikidata-Q18661",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "label": "United Kingdom",
+        "label_source_id": "wikidata-bulk-2"
+      }
+    ]
+  },
+  {
+    "club_id": "newcastle",
+    "name": "Newcastle United",
+    "source_aliases": [
+      "Newcastle United",
+      "Newcastle United FC"
+    ],
+    "wikidata_id": "Q18716",
+    "locality": null,
+    "address": null,
+    "region": null,
+    "location_status": "Direct source administrative/country candidates only; football home town and legal postal address remain unverified.",
+    "identity_lookup_status": "identified_football_club",
+    "identity_lookup_note": "Retained entity revision; P31 football club, or Chelsea P31 mens team with captured P279 football-club subtype.",
+    "identity_search_source": null,
+    "identity_source_id": "wikidata-Q18716",
+    "source_english_label": "Newcastle United F.C.",
+    "source_english_description": "association football club in Newcastle upon Tyne, England",
+    "instance_of_ids": [
+      "Q476028"
+    ],
+    "official_website_claims": [
+      {
+        "value": "https://www.nufc.co.uk/",
+        "claim_id": "Q18716$EEB31903-DE3A-480A-A14B-87A4A57FE898",
+        "source_id": "wikidata-Q18716",
+        "rank": "deprecated",
+        "reference_count": 1,
+        "qualifiers": {
+          "P407": [
+            {
+              "snaktype": "value",
+              "property": "P407",
+              "hash": "daf1c4fcb58181b02dff9cc89deb084004ddae4b",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 1860,
+                  "id": "Q1860"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            }
+          ]
+        },
+        "label": null
+      },
+      {
+        "value": "https://www.newcastleunited.com/",
+        "claim_id": "Q18716$b94fbaaa-4810-f641-ca6b-233ebeedab15",
+        "source_id": "wikidata-Q18716",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {
+          "P407": [
+            {
+              "snaktype": "value",
+              "property": "P407",
+              "hash": "daf1c4fcb58181b02dff9cc89deb084004ddae4b",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 1860,
+                  "id": "Q1860"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            }
+          ]
+        },
+        "label": null
+      }
+    ],
+    "locality_candidates": [
+      {
+        "value": {
+          "entity-type": "item",
+          "numeric-id": 1425428,
+          "id": "Q1425428"
+        },
+        "claim_id": "Q18716$c5e12b94-4d75-e01d-ade7-d5d9272f989e",
+        "source_id": "wikidata-Q18716",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "label": "Newcastle upon Tyne",
+        "label_source_id": "wikidata-bulk-2"
+      }
+    ],
+    "country_candidates": [
+      {
+        "value": {
+          "entity-type": "item",
+          "numeric-id": 145,
+          "id": "Q145"
+        },
+        "claim_id": "Q18716$4392E861-88B8-445B-BD9A-D91838F2570E",
+        "source_id": "wikidata-Q18716",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "label": "United Kingdom",
+        "label_source_id": "wikidata-bulk-2"
+      }
+    ]
+  },
+  {
+    "club_id": "norwich",
+    "name": "Norwich City",
+    "source_aliases": [
+      "Norwich City"
+    ],
+    "wikidata_id": "Q18721",
+    "locality": null,
+    "address": null,
+    "region": null,
+    "location_status": "Direct source administrative/country candidates only; football home town and legal postal address remain unverified.",
+    "identity_lookup_status": "identified_football_club",
+    "identity_lookup_note": "Retained entity revision; P31 football club, or Chelsea P31 mens team with captured P279 football-club subtype.",
+    "identity_search_source": null,
+    "identity_source_id": "wikidata-Q18721",
+    "source_english_label": "Norwich City F.C.",
+    "source_english_description": "association football club in Norwich, England",
+    "instance_of_ids": [
+      "Q476028"
+    ],
+    "official_website_claims": [
+      {
+        "value": "https://www.canaries.co.uk/",
+        "claim_id": "Q18721$880bb728-4a41-7967-bec7-9c4029713662",
+        "source_id": "wikidata-Q18721",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {
+          "P407": [
+            {
+              "snaktype": "value",
+              "property": "P407",
+              "hash": "daf1c4fcb58181b02dff9cc89deb084004ddae4b",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 1860,
+                  "id": "Q1860"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            }
+          ]
+        },
+        "label": null
+      }
+    ],
+    "locality_candidates": [],
+    "country_candidates": [
+      {
+        "value": {
+          "entity-type": "item",
+          "numeric-id": 145,
+          "id": "Q145"
+        },
+        "claim_id": "Q18721$E3BDA1C6-A229-4E64-8860-9747A6018C14",
+        "source_id": "wikidata-Q18721",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "label": "United Kingdom",
+        "label_source_id": "wikidata-bulk-2"
+      }
+    ]
+  },
+  {
+    "club_id": "nottingham-forest",
+    "name": "Nottingham Forest",
+    "source_aliases": [
+      "Nottingham Forest FC"
+    ],
+    "wikidata_id": "Q19490",
+    "locality": null,
+    "address": null,
+    "region": null,
+    "location_status": "Direct source administrative/country candidates only; football home town and legal postal address remain unverified.",
+    "identity_lookup_status": "identified_football_club",
+    "identity_lookup_note": "Retained entity revision; P31 football club, or Chelsea P31 mens team with captured P279 football-club subtype.",
+    "identity_search_source": null,
+    "identity_source_id": "wikidata-Q19490",
+    "source_english_label": "Nottingham Forest F.C.",
+    "source_english_description": "association football club in West Bridgford, England",
+    "instance_of_ids": [
+      "Q476028"
+    ],
+    "official_website_claims": [
+      {
+        "value": "https://nottinghamforest.co.uk",
+        "claim_id": "Q19490$596925dd-4bca-f459-7953-419406e80831",
+        "source_id": "wikidata-Q19490",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {
+          "P407": [
+            {
+              "snaktype": "value",
+              "property": "P407",
+              "hash": "daf1c4fcb58181b02dff9cc89deb084004ddae4b",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 1860,
+                  "id": "Q1860"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            }
+          ]
+        },
+        "label": null
+      }
+    ],
+    "locality_candidates": [],
+    "country_candidates": [
+      {
+        "value": {
+          "entity-type": "item",
+          "numeric-id": 145,
+          "id": "Q145"
+        },
+        "claim_id": "Q19490$427D9A4D-A6E4-4F10-BC6A-D1EE6576757F",
+        "source_id": "wikidata-Q19490",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "label": "United Kingdom",
+        "label_source_id": "wikidata-bulk-2"
+      }
+    ]
+  },
+  {
+    "club_id": "southampton",
+    "name": "Southampton",
+    "source_aliases": [
+      "Southampton FC"
+    ],
+    "wikidata_id": "Q18732",
+    "locality": null,
+    "address": null,
+    "region": null,
+    "location_status": "Direct source administrative/country candidates only; football home town and legal postal address remain unverified.",
+    "identity_lookup_status": "identified_football_club",
+    "identity_lookup_note": "Retained entity revision; P31 football club, or Chelsea P31 mens team with captured P279 football-club subtype.",
+    "identity_search_source": null,
+    "identity_source_id": "wikidata-Q18732",
+    "source_english_label": "Southampton F.C.",
+    "source_english_description": "association football club in Southampton, England",
+    "instance_of_ids": [
+      "Q476028"
+    ],
+    "official_website_claims": [
+      {
+        "value": "http://www.saintsfc.co.uk",
+        "claim_id": "Q18732$7A7D8362-B372-4004-8222-C250E95C5D3F",
+        "source_id": "wikidata-Q18732",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {
+          "P407": [
+            {
+              "snaktype": "value",
+              "property": "P407",
+              "hash": "daf1c4fcb58181b02dff9cc89deb084004ddae4b",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 1860,
+                  "id": "Q1860"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            }
+          ],
+          "P1001": [
+            {
+              "snaktype": "value",
+              "property": "P1001",
+              "hash": "82f548a7c7fa548608344f46f7f9a0afafd20709",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 145,
+                  "id": "Q145"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            }
+          ]
+        },
+        "label": null
+      },
+      {
+        "value": "https://www.southamptonfc.com",
+        "claim_id": "Q18732$894a07b5-442e-0812-1f64-2874278e44d2",
+        "source_id": "wikidata-Q18732",
+        "rank": "preferred",
+        "reference_count": 0,
+        "qualifiers": {},
+        "label": null
+      }
+    ],
+    "locality_candidates": [],
+    "country_candidates": [
+      {
+        "value": {
+          "entity-type": "item",
+          "numeric-id": 145,
+          "id": "Q145"
+        },
+        "claim_id": "Q18732$43C761FA-B03A-4F56-8D9A-979D81314537",
+        "source_id": "wikidata-Q18732",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "label": "United Kingdom",
+        "label_source_id": "wikidata-bulk-2"
+      }
+    ]
+  },
+  {
+    "club_id": "stoke",
+    "name": "Stoke City",
+    "source_aliases": [
+      "Stoke City"
+    ],
+    "wikidata_id": "Q18736",
+    "locality": null,
+    "address": null,
+    "region": null,
+    "location_status": "Direct source administrative/country candidates only; football home town and legal postal address remain unverified.",
+    "identity_lookup_status": "identified_football_club",
+    "identity_lookup_note": "Retained entity revision; P31 football club, or Chelsea P31 mens team with captured P279 football-club subtype.",
+    "identity_search_source": null,
+    "identity_source_id": "wikidata-Q18736",
+    "source_english_label": "Stoke City F.C.",
+    "source_english_description": "association football club in Stoke-on-Trent, England",
+    "instance_of_ids": [
+      "Q476028"
+    ],
+    "official_website_claims": [
+      {
+        "value": "https://www.stokecityfc.com/",
+        "claim_id": "Q18736$BDAECFF3-CC09-4169-A00A-09627B9556AD",
+        "source_id": "wikidata-Q18736",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {
+          "P407": [
+            {
+              "snaktype": "value",
+              "property": "P407",
+              "hash": "daf1c4fcb58181b02dff9cc89deb084004ddae4b",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 1860,
+                  "id": "Q1860"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            }
+          ]
+        },
+        "label": null
+      }
+    ],
+    "locality_candidates": [],
+    "country_candidates": [
+      {
+        "value": {
+          "entity-type": "item",
+          "numeric-id": 145,
+          "id": "Q145"
+        },
+        "claim_id": "Q18736$A0D24BB0-12B6-4B68-B846-A314A8DAC39A",
+        "source_id": "wikidata-Q18736",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "label": "United Kingdom",
+        "label_source_id": "wikidata-bulk-2"
+      }
+    ]
+  },
+  {
+    "club_id": "sunderland",
+    "name": "Sunderland",
+    "source_aliases": [
+      "Sunderland AFC"
+    ],
+    "wikidata_id": "Q18739",
+    "locality": null,
+    "address": null,
+    "region": null,
+    "location_status": "Direct source administrative/country candidates only; football home town and legal postal address remain unverified.",
+    "identity_lookup_status": "identified_football_club",
+    "identity_lookup_note": "Retained entity revision; P31 football club, or Chelsea P31 mens team with captured P279 football-club subtype.",
+    "identity_search_source": null,
+    "identity_source_id": "wikidata-Q18739",
+    "source_english_label": "Sunderland A.F.C.",
+    "source_english_description": "association football club in Sunderland, England",
+    "instance_of_ids": [
+      "Q476028"
+    ],
+    "official_website_claims": [
+      {
+        "value": "https://www.safc.com/",
+        "claim_id": "Q18739$86B90A56-3DF5-42A3-B46E-F1C96AF713BE",
+        "source_id": "wikidata-Q18739",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {
+          "P407": [
+            {
+              "snaktype": "value",
+              "property": "P407",
+              "hash": "daf1c4fcb58181b02dff9cc89deb084004ddae4b",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 1860,
+                  "id": "Q1860"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            }
+          ]
+        },
+        "label": null
+      }
+    ],
+    "locality_candidates": [],
+    "country_candidates": [
+      {
+        "value": {
+          "entity-type": "item",
+          "numeric-id": 145,
+          "id": "Q145"
+        },
+        "claim_id": "Q18739$180533BB-4D89-4AD6-BE6A-E8A5793B98FC",
+        "source_id": "wikidata-Q18739",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "label": "United Kingdom",
+        "label_source_id": "wikidata-bulk-2"
+      }
+    ]
+  },
+  {
+    "club_id": "swansea",
+    "name": "Swansea City",
+    "source_aliases": [
+      "Swansea City"
+    ],
+    "wikidata_id": "Q18659",
+    "locality": null,
+    "address": null,
+    "region": null,
+    "location_status": "Direct source administrative/country candidates only; football home town and legal postal address remain unverified.",
+    "identity_lookup_status": "identified_football_club",
+    "identity_lookup_note": "Retained entity revision; P31 football club, or Chelsea P31 mens team with captured P279 football-club subtype.",
+    "identity_search_source": null,
+    "identity_source_id": "wikidata-Q18659",
+    "source_english_label": "Swansea City A.F.C.",
+    "source_english_description": "association football club in Swansea, Wales",
+    "instance_of_ids": [
+      "Q476028"
+    ],
+    "official_website_claims": [
+      {
+        "value": "https://www.swanseacity.com/",
+        "claim_id": "Q18659$BCB9B1FF-84CB-4C8A-A707-CCE52BFF6665",
+        "source_id": "wikidata-Q18659",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {
+          "P407": [
+            {
+              "snaktype": "value",
+              "property": "P407",
+              "hash": "daf1c4fcb58181b02dff9cc89deb084004ddae4b",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 1860,
+                  "id": "Q1860"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            }
+          ]
+        },
+        "label": null
+      }
+    ],
+    "locality_candidates": [],
+    "country_candidates": [
+      {
+        "value": {
+          "entity-type": "item",
+          "numeric-id": 145,
+          "id": "Q145"
+        },
+        "claim_id": "Q18659$70693C52-FE9D-4ABA-993B-A37E99DFE10D",
+        "source_id": "wikidata-Q18659",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "label": "United Kingdom",
+        "label_source_id": "wikidata-bulk-2"
+      }
+    ]
+  },
+  {
+    "club_id": "tottenham",
+    "name": "Tottenham Hotspur",
+    "source_aliases": [
+      "Tottenham Hotspur",
+      "Tottenham Hotspur FC"
+    ],
+    "wikidata_id": "Q18741",
+    "locality": null,
+    "address": null,
+    "region": null,
+    "location_status": "Direct source administrative/country candidates only; football home town and legal postal address remain unverified.",
+    "identity_lookup_status": "identified_football_club",
+    "identity_lookup_note": "Retained entity revision; P31 football club, or Chelsea P31 mens team with captured P279 football-club subtype.",
+    "identity_search_source": null,
+    "identity_source_id": "wikidata-Q18741",
+    "source_english_label": "Tottenham Hotspur F.C.",
+    "source_english_description": "association football club in London, England",
+    "instance_of_ids": [
+      "Q476028"
+    ],
+    "official_website_claims": [
+      {
+        "value": "https://www.tottenhamhotspur.com/",
+        "claim_id": "Q18741$b6191526-475d-b1ee-cd1a-932ca9ad8a7a",
+        "source_id": "wikidata-Q18741",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {
+          "P407": [
+            {
+              "snaktype": "value",
+              "property": "P407",
+              "hash": "daf1c4fcb58181b02dff9cc89deb084004ddae4b",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 1860,
+                  "id": "Q1860"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            {
+              "snaktype": "value",
+              "property": "P407",
+              "hash": "a10335a425d19169dd856e0a5f71735853eab0ab",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 9176,
+                  "id": "Q9176"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            }
+          ]
+        },
+        "label": null
+      }
+    ],
+    "locality_candidates": [],
+    "country_candidates": [
+      {
+        "value": {
+          "entity-type": "item",
+          "numeric-id": 145,
+          "id": "Q145"
+        },
+        "claim_id": "Q18741$70465644-CD17-4984-90FD-8996C50B41F8",
+        "source_id": "wikidata-Q18741",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "label": "United Kingdom",
+        "label_source_id": "wikidata-bulk-2"
+      }
+    ]
+  },
+  {
+    "club_id": "watford",
+    "name": "Watford",
+    "source_aliases": [
+      "Watford FC"
+    ],
+    "wikidata_id": "Q2714",
+    "locality": null,
+    "address": null,
+    "region": null,
+    "location_status": "Direct source administrative/country candidates only; football home town and legal postal address remain unverified.",
+    "identity_lookup_status": "identified_football_club",
+    "identity_lookup_note": "Retained entity revision; P31 football club, or Chelsea P31 mens team with captured P279 football-club subtype.",
+    "identity_search_source": null,
+    "identity_source_id": "wikidata-Q2714",
+    "source_english_label": "Watford F.C.",
+    "source_english_description": "association football club in Watford, England",
+    "instance_of_ids": [
+      "Q476028"
+    ],
+    "official_website_claims": [
+      {
+        "value": "https://www.watfordfc.com/",
+        "claim_id": "Q2714$a61ba3a1-4aa3-1a97-d418-827ea92040ad",
+        "source_id": "wikidata-Q2714",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {
+          "P407": [
+            {
+              "snaktype": "value",
+              "property": "P407",
+              "hash": "daf1c4fcb58181b02dff9cc89deb084004ddae4b",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 1860,
+                  "id": "Q1860"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            }
+          ]
+        },
+        "label": null
+      }
+    ],
+    "locality_candidates": [
+      {
+        "value": {
+          "entity-type": "item",
+          "numeric-id": 2598,
+          "id": "Q2598"
+        },
+        "claim_id": "Q2714$3b6a7096-4f31-927a-8d7a-e3a449ad77b9",
+        "source_id": "wikidata-Q2714",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "label": "Watford",
+        "label_source_id": "wikidata-bulk-2"
+      }
+    ],
+    "country_candidates": [
+      {
+        "value": {
+          "entity-type": "item",
+          "numeric-id": 145,
+          "id": "Q145"
+        },
+        "claim_id": "Q2714$EF5E59ED-70C3-4FEB-901B-5A31EAA2B2CA",
+        "source_id": "wikidata-Q2714",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "label": "United Kingdom",
+        "label_source_id": "wikidata-bulk-2"
+      }
+    ]
+  },
+  {
+    "club_id": "west-brom",
+    "name": "West Bromwich Albion",
+    "source_aliases": [
+      "West Bromwich Albion"
+    ],
+    "wikidata_id": "Q18744",
+    "locality": null,
+    "address": null,
+    "region": null,
+    "location_status": "Direct source administrative/country candidates only; football home town and legal postal address remain unverified.",
+    "identity_lookup_status": "identified_football_club",
+    "identity_lookup_note": "Retained entity revision; P31 football club, or Chelsea P31 mens team with captured P279 football-club subtype.",
+    "identity_search_source": null,
+    "identity_source_id": "wikidata-Q18744",
+    "source_english_label": "West Bromwich Albion F.C.",
+    "source_english_description": "association football club in West Bromwich, England",
+    "instance_of_ids": [
+      "Q476028"
+    ],
+    "official_website_claims": [
+      {
+        "value": "https://www.wba.co.uk/",
+        "claim_id": "Q18744$45F00EAB-B898-4425-945C-D67AE7763EF5",
+        "source_id": "wikidata-Q18744",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {
+          "P407": [
+            {
+              "snaktype": "value",
+              "property": "P407",
+              "hash": "daf1c4fcb58181b02dff9cc89deb084004ddae4b",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 1860,
+                  "id": "Q1860"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            }
+          ]
+        },
+        "label": null
+      }
+    ],
+    "locality_candidates": [],
+    "country_candidates": [
+      {
+        "value": {
+          "entity-type": "item",
+          "numeric-id": 145,
+          "id": "Q145"
+        },
+        "claim_id": "Q18744$8599C3CD-F4B0-4C67-8E24-3937B22822C0",
+        "source_id": "wikidata-Q18744",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "label": "United Kingdom",
+        "label_source_id": "wikidata-bulk-2"
+      }
+    ]
+  },
+  {
+    "club_id": "west-ham",
+    "name": "West Ham United",
+    "source_aliases": [
+      "West Ham United"
+    ],
+    "wikidata_id": "Q18747",
+    "locality": null,
+    "address": null,
+    "region": null,
+    "location_status": "Direct source administrative/country candidates only; football home town and legal postal address remain unverified.",
+    "identity_lookup_status": "identified_football_club",
+    "identity_lookup_note": "Retained entity revision; P31 football club, or Chelsea P31 mens team with captured P279 football-club subtype.",
+    "identity_search_source": null,
+    "identity_source_id": "wikidata-Q18747",
+    "source_english_label": "West Ham United F.C.",
+    "source_english_description": "association football club in London, England",
+    "instance_of_ids": [
+      "Q476028"
+    ],
+    "official_website_claims": [
+      {
+        "value": "http://www.whufc.com/",
+        "claim_id": "Q18747$20EC29F2-8B02-499B-9D02-261C1ECBFA79",
+        "source_id": "wikidata-Q18747",
+        "rank": "normal",
+        "reference_count": 1,
+        "qualifiers": {
+          "P407": [
+            {
+              "snaktype": "value",
+              "property": "P407",
+              "hash": "daf1c4fcb58181b02dff9cc89deb084004ddae4b",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 1860,
+                  "id": "Q1860"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            }
+          ]
+        },
+        "label": null
+      }
+    ],
+    "locality_candidates": [],
+    "country_candidates": [
+      {
+        "value": {
+          "entity-type": "item",
+          "numeric-id": 145,
+          "id": "Q145"
+        },
+        "claim_id": "Q18747$8B63C214-1C24-409E-8A45-35872A2C4D04",
+        "source_id": "wikidata-Q18747",
+        "rank": "normal",
+        "reference_count": 0,
+        "qualifiers": {},
+        "label": "United Kingdom",
+        "label_source_id": "wikidata-bulk-2"
+      }
+    ]
+  }
+]

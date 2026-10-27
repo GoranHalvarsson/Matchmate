@@ -1,0 +1,247 @@
+{
+  "observed_at": "2026-10-17",
+  "season": "2016/17",
+  "source_url": "https://www.bdfutbol.com/en/t/teng2016-17.html",
+  "evidence_level": "third_party_fixture_catalogue_not_380_primary_reports",
+  "access_method": "Six successful standard web tool find windows on the same public season page. Direct HTTP requests returned 403 and were not retried or bypassed. No alternate endpoints, spoofing or paid API used.",
+  "source_terms_note": "Official BDFutbol data-service page advertises authenticated paid API access. No open licence or product/public/external-AI reuse permission established. Direct primary llms/robots policy access returned 403; unverified third-party policy summaries are not treated as definitive terms.",
+  "source_terms_url": "https://www.bdfutbol.com/en/c/api2.html",
+  "retention": "Aggregate counts, aliases, observation hashes and method only. No source response text, raw HTML, 380 parsed/canonical fixture rows or row-level venue export retained.",
+  "meaning": "All 380 actual-result catalogue rows have explicit venue labels and match the existing played-date/team/score set. No alternate home venue identity detected within this catalogue; not universal no-exception proof and not an exact historical-name audit.",
+  "venue_aliases": {
+    "Kingston Communications Stadium": "mkm-stadium",
+    "Turf Moor": "turf-moor",
+    "Selhurst Park": "selhurst-park",
+    "Goodison Park": "goodison-park",
+    "Riverside": "riverside-stadium",
+    "St Mary's Stadium": "st-mary-s-stadium",
+    "Etihad Stadium": "etihad-stadium",
+    "Vitality Stadium": "dean-court",
+    "Emirates Stadium": "emirates-stadium",
+    "Stamford Bridge": "stamford-bridge",
+    "Old Trafford": "old-trafford",
+    "Bet365 Stadium": "britannia-stadium",
+    "Liberty Stadium": "liberty-stadium",
+    "White Hart Lane": "white-hart-lane",
+    "Vicarage Road": "vicarage-road",
+    "The Hawthorns": "the-hawthorns",
+    "King Power Stadium": "leicester-city-stadium",
+    "Stadium of Light": "stadium-of-light",
+    "London Stadium": "london-stadium",
+    "Anfield": "anfield"
+  },
+  "rows": 380,
+  "uniqueRows": 380,
+  "duplicates": 0,
+  "blankVenues": 0,
+  "exactJoined": 380,
+  "missing": [],
+  "extra": [],
+  "scoreMismatches": 0,
+  "homeClubs": 20,
+  "venuesByHomeClub": {
+    "Hull City": {
+      "count": 19,
+      "venues": {
+        "Kingston Communications Stadium": 19
+      }
+    },
+    "Burnley FC": {
+      "count": 19,
+      "venues": {
+        "Turf Moor": 19
+      }
+    },
+    "Crystal Palace": {
+      "count": 19,
+      "venues": {
+        "Selhurst Park": 19
+      }
+    },
+    "Everton FC": {
+      "count": 19,
+      "venues": {
+        "Goodison Park": 19
+      }
+    },
+    "Middlesbrough FC": {
+      "count": 19,
+      "venues": {
+        "Riverside": 19
+      }
+    },
+    "Southampton FC": {
+      "count": 19,
+      "venues": {
+        "St Mary's Stadium": 19
+      }
+    },
+    "Manchester City": {
+      "count": 19,
+      "venues": {
+        "Etihad Stadium": 19
+      }
+    },
+    "AFC Bournemouth": {
+      "count": 19,
+      "venues": {
+        "Vitality Stadium": 19
+      }
+    },
+    "Arsenal FC": {
+      "count": 19,
+      "venues": {
+        "Emirates Stadium": 19
+      }
+    },
+    "Chelsea FC": {
+      "count": 19,
+      "venues": {
+        "Stamford Bridge": 19
+      }
+    },
+    "Manchester United": {
+      "count": 19,
+      "venues": {
+        "Old Trafford": 19
+      }
+    },
+    "Stoke City": {
+      "count": 19,
+      "venues": {
+        "Bet365 Stadium": 19
+      }
+    },
+    "Swansea City": {
+      "count": 19,
+      "venues": {
+        "Liberty Stadium": 19
+      }
+    },
+    "Tottenham Hotspur": {
+      "count": 19,
+      "venues": {
+        "White Hart Lane": 19
+      }
+    },
+    "Watford FC": {
+      "count": 19,
+      "venues": {
+        "Vicarage Road": 19
+      }
+    },
+    "West Bromwich Albion": {
+      "count": 19,
+      "venues": {
+        "The Hawthorns": 19
+      }
+    },
+    "Leicester City": {
+      "count": 19,
+      "venues": {
+        "King Power Stadium": 19
+      }
+    },
+    "Sunderland AFC": {
+      "count": 19,
+      "venues": {
+        "Stadium of Light": 19
+      }
+    },
+    "West Ham United": {
+      "count": 19,
+      "venues": {
+        "London Stadium": 19
+      }
+    },
+    "Liverpool FC": {
+      "count": 19,
+      "venues": {
+        "Anfield": 19
+      }
+    }
+  },
+  "teamAliasMap": {
+    "Arsenal": "Arsenal FC",
+    "Bournemouth": "AFC Bournemouth",
+    "Burnley": "Burnley FC",
+    "Chelsea": "Chelsea FC",
+    "Crystal Palace": "Crystal Palace",
+    "Everton": "Everton FC",
+    "Hull City": "Hull City",
+    "Leicester": "Leicester City",
+    "Liverpool": "Liverpool FC",
+    "Manchester City": "Manchester City",
+    "Manchester United": "Manchester United",
+    "Middlesbrough": "Middlesbrough FC",
+    "Southampton": "Southampton FC",
+    "Stoke City": "Stoke City",
+    "Sunderland": "Sunderland AFC",
+    "Swansea": "Swansea City",
+    "Tottenham": "Tottenham Hotspur",
+    "Watford": "Watford FC",
+    "West Bromwich Albion": "West Bromwich Albion",
+    "West Ham": "West Ham United"
+  },
+  "dates": [
+    "2016-08-13",
+    "2017-05-21"
+  ],
+  "windows": [
+    {
+      "pattern": "Round 1",
+      "sha256": "95e9a57a0d167956fbf11d03aa40eb81da5af8ffdcf0bac6ab126756713139f0",
+      "parsed_match_rows": 60,
+      "web_response_characters": 18366
+    },
+    {
+      "pattern": "Round 7",
+      "sha256": "64e604b78464596b43997317dd912521ef09bf39ae19b528ddaf9ed72ec1a7ad",
+      "parsed_match_rows": 119,
+      "web_response_characters": 20112
+    },
+    {
+      "pattern": "Round 14",
+      "sha256": "67fdc56a001cbd118ca310f69ea216f25195e99144059ecdc6538e2de11cfb1f",
+      "parsed_match_rows": 119,
+      "web_response_characters": 20179
+    },
+    {
+      "pattern": "Round 20",
+      "sha256": "c04a2090d93b3d35eae46c397be6aa2e346b90eee8120419027b107043777c23",
+      "parsed_match_rows": 119,
+      "web_response_characters": 20250
+    },
+    {
+      "pattern": "Round 30",
+      "sha256": "75a466a7fd9e44e4b6afaacc11ba9e6af54c774871d8d2b979a4c47cf5d9e56c",
+      "parsed_match_rows": 119,
+      "web_response_characters": 20247
+    },
+    {
+      "pattern": "Round 35",
+      "sha256": "9fa52cd5a1ff467ee8240bbf60bb4067d5b8bf62ebb28b8fc576e02d9468cb24",
+      "parsed_match_rows": 85,
+      "web_response_characters": 19422
+    }
+  ],
+  "web_text_sha256": "7fcc012164113906cf44fe93278bcd5b729b9ec6274e7b82a1e3168193a4f236",
+  "web_text_hash_protocol": "UTF-8 concatenation in listed window order: WINDOW <pattern>\\n + exact tool response string + \\n; web-returned text, not origin HTML.",
+  "overlapping_repeats": 241,
+  "conflicting_repeats": 0,
+  "duplicate_fixture_keys_with_different_source_lines": 0,
+  "canonical_extracted_rows_sha256": "7bf70b015f1c2421e2a0258fc45e7899abcdbd8bb4101d1de666f65663f01781",
+  "canonical_hash_protocol": "Sort by date|normalized home|normalized away lexicographically; each line compact UTF-8 JSON with keys away,date,home,score,venue in alphabetical order, followed by LF. No raw or canonical fixture rows retained.",
+  "joined_fixture_keys_sha256": "2278786eec2e62af41ca310c5ff442a442a1b9808ac5e98f832036ef20e3e33b",
+  "local_source_path": "prototypes/first-experience/assets/seasons/2016-17.json",
+  "local_source_sha256": "9c8cdb27355678ab81aacbbabc34a08d00b399aacc28ef4b733da4954a344f17",
+  "saved_parser_replay": {
+    "method": "Persisted audit_venue_catalogue.py run through UTF-8 stdin on six freshly returned standard-web windows, no saved source inputs.",
+    "exit_code": 0,
+    "exact_joined": 380,
+    "canonical_hash_matches_original_capture": true,
+    "fixture_key_hash_matches_original_capture": true,
+    "snapshot_distinction": "Original capture web-response hashes describe the initial six response strings. Fresh parser verification reproduced canonical-row and key hashes; no claim the fresh tool wrapper text has the same snapshot hash.",
+    "input_discarded": true
+  }
+}

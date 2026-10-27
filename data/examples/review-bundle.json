@@ -1,0 +1,1584 @@
+{
+  "schema_version": "0.3.0",
+  "dataset_id": "review-synthetic-v1",
+  "description": "Authored synthetic review records; incomplete scenario, not a complete replay or data service.",
+  "sources": [
+    {
+      "source_id": "source-synthetic-v1",
+      "title": "Matchmate authored review examples",
+      "origin": "synthetic_authoring",
+      "locator": "wiki/DATA-SCENARIO.md",
+      "retrieved_at": "2026-10-15T00:00:00Z",
+      "usage": "synthetic_project_example"
+    }
+  ],
+  "records": [
+    {
+      "record_id": "club-harbour",
+      "revision_id": "club-harbour-v1",
+      "supersedes_revision_id": null,
+      "kind": "club",
+      "source_id": "source-synthetic-v1",
+      "provenance": "synthetic",
+      "claim_status": "authored",
+      "valid_from": "2025-01-01T00:00:00Z",
+      "valid_to": null,
+      "recorded_at": "2026-10-15T00:00:00Z",
+      "published_at": null,
+      "synthetic_released_at": "2025-01-01T00:00:00Z",
+      "payload": {
+        "name": "Harbour FC",
+        "aliases": [],
+        "location": null
+      }
+    },
+    {
+      "record_id": "club-riverside",
+      "revision_id": "club-riverside-v1",
+      "supersedes_revision_id": null,
+      "kind": "club",
+      "source_id": "source-synthetic-v1",
+      "provenance": "synthetic",
+      "claim_status": "authored",
+      "valid_from": "2025-01-01T00:00:00Z",
+      "valid_to": null,
+      "recorded_at": "2026-10-15T00:00:00Z",
+      "published_at": null,
+      "synthetic_released_at": "2025-01-01T00:00:00Z",
+      "payload": {
+        "name": "Riverside FC",
+        "aliases": [],
+        "location": null
+      }
+    },
+    {
+      "record_id": "player-h6",
+      "revision_id": "player-h6-v1",
+      "supersedes_revision_id": null,
+      "kind": "person",
+      "source_id": "source-synthetic-v1",
+      "provenance": "synthetic",
+      "claim_status": "authored",
+      "valid_from": "2025-01-01T00:00:00Z",
+      "valid_to": null,
+      "recorded_at": "2026-10-15T00:00:00Z",
+      "published_at": null,
+      "synthetic_released_at": "2025-01-01T00:00:00Z",
+      "payload": {
+        "name": "Alex Reed",
+        "aliases": [],
+        "birth_date": "2000-03-01"
+      }
+    },
+    {
+      "record_id": "player-h7",
+      "revision_id": "player-h7-v1",
+      "supersedes_revision_id": null,
+      "kind": "person",
+      "source_id": "source-synthetic-v1",
+      "provenance": "synthetic",
+      "claim_status": "authored",
+      "valid_from": "2025-01-01T00:00:00Z",
+      "valid_to": null,
+      "recorded_at": "2026-10-15T00:00:00Z",
+      "published_at": null,
+      "synthetic_released_at": "2025-01-01T00:00:00Z",
+      "payload": {
+        "name": "Morgan Lane",
+        "aliases": [],
+        "birth_date": null
+      }
+    },
+    {
+      "record_id": "player-h8",
+      "revision_id": "player-h8-v1",
+      "supersedes_revision_id": null,
+      "kind": "person",
+      "source_id": "source-synthetic-v1",
+      "provenance": "synthetic",
+      "claim_status": "authored",
+      "valid_from": "2025-01-01T00:00:00Z",
+      "valid_to": null,
+      "recorded_at": "2026-10-15T00:00:00Z",
+      "published_at": null,
+      "synthetic_released_at": "2025-01-01T00:00:00Z",
+      "payload": {
+        "name": "Jamie Vale",
+        "aliases": [],
+        "birth_date": null
+      }
+    },
+    {
+      "record_id": "player-h18",
+      "revision_id": "player-h18-v1",
+      "supersedes_revision_id": null,
+      "kind": "person",
+      "source_id": "source-synthetic-v1",
+      "provenance": "synthetic",
+      "claim_status": "authored",
+      "valid_from": "2025-01-01T00:00:00Z",
+      "valid_to": null,
+      "recorded_at": "2026-10-15T00:00:00Z",
+      "published_at": null,
+      "synthetic_released_at": "2025-01-01T00:00:00Z",
+      "payload": {
+        "name": "Sam Park",
+        "aliases": [],
+        "birth_date": null
+      }
+    },
+    {
+      "record_id": "player-r4",
+      "revision_id": "player-r4-v1",
+      "supersedes_revision_id": null,
+      "kind": "person",
+      "source_id": "source-synthetic-v1",
+      "provenance": "synthetic",
+      "claim_status": "authored",
+      "valid_from": "2025-01-01T00:00:00Z",
+      "valid_to": null,
+      "recorded_at": "2026-10-15T00:00:00Z",
+      "published_at": null,
+      "synthetic_released_at": "2025-01-01T00:00:00Z",
+      "payload": {
+        "name": "Taylor Brook",
+        "aliases": [],
+        "birth_date": null
+      }
+    },
+    {
+      "record_id": "coach-h1",
+      "revision_id": "coach-h1-v1",
+      "supersedes_revision_id": null,
+      "kind": "person",
+      "source_id": "source-synthetic-v1",
+      "provenance": "synthetic",
+      "claim_status": "authored",
+      "valid_from": "2025-01-01T00:00:00Z",
+      "valid_to": null,
+      "recorded_at": "2026-10-15T00:00:00Z",
+      "published_at": null,
+      "synthetic_released_at": "2025-01-01T00:00:00Z",
+      "payload": {
+        "name": "Robin Ellis",
+        "aliases": [],
+        "birth_date": null
+      }
+    },
+    {
+      "record_id": "coach-h2",
+      "revision_id": "coach-h2-v1",
+      "supersedes_revision_id": null,
+      "kind": "person",
+      "source_id": "source-synthetic-v1",
+      "provenance": "synthetic",
+      "claim_status": "authored",
+      "valid_from": "2025-01-01T00:00:00Z",
+      "valid_to": null,
+      "recorded_at": "2026-10-15T00:00:00Z",
+      "published_at": null,
+      "synthetic_released_at": "2025-01-01T00:00:00Z",
+      "payload": {
+        "name": "Casey West",
+        "aliases": [],
+        "birth_date": null
+      }
+    },
+    {
+      "record_id": "official-r1",
+      "revision_id": "official-r1-v1",
+      "supersedes_revision_id": null,
+      "kind": "person",
+      "source_id": "source-synthetic-v1",
+      "provenance": "synthetic",
+      "claim_status": "authored",
+      "valid_from": "2025-01-01T00:00:00Z",
+      "valid_to": null,
+      "recorded_at": "2026-10-15T00:00:00Z",
+      "published_at": null,
+      "synthetic_released_at": "2025-01-01T00:00:00Z",
+      "payload": {
+        "name": "Mira Vale",
+        "aliases": [],
+        "birth_date": null
+      }
+    },
+    {
+      "record_id": "affiliation-h6-harbour",
+      "revision_id": "affiliation-h6-harbour-v1",
+      "supersedes_revision_id": null,
+      "kind": "affiliation",
+      "source_id": "source-synthetic-v1",
+      "provenance": "synthetic",
+      "claim_status": "authored",
+      "valid_from": "2025-01-01T00:00:00Z",
+      "valid_to": null,
+      "recorded_at": "2026-10-15T00:00:00Z",
+      "published_at": null,
+      "synthetic_released_at": "2025-01-01T00:00:00Z",
+      "payload": {
+        "person_id": "player-h6",
+        "club_id": "club-harbour",
+        "role": "player",
+        "appointment_type": "permanent",
+        "shirt_number": 6
+      }
+    },
+    {
+      "record_id": "affiliation-h6-harbour",
+      "revision_id": "affiliation-h6-harbour-v2",
+      "supersedes_revision_id": "affiliation-h6-harbour-v1",
+      "kind": "affiliation",
+      "source_id": "source-synthetic-v1",
+      "provenance": "synthetic",
+      "claim_status": "authored",
+      "valid_from": "2025-01-01T00:00:00Z",
+      "valid_to": "2026-07-01T00:00:00Z",
+      "recorded_at": "2026-10-15T00:00:00Z",
+      "published_at": null,
+      "synthetic_released_at": "2026-06-15T00:00:00Z",
+      "payload": {
+        "person_id": "player-h6",
+        "club_id": "club-harbour",
+        "role": "player",
+        "appointment_type": "permanent",
+        "shirt_number": 6
+      }
+    },
+    {
+      "record_id": "affiliation-h6-riverside",
+      "revision_id": "affiliation-h6-riverside-v1",
+      "supersedes_revision_id": null,
+      "kind": "affiliation",
+      "source_id": "source-synthetic-v1",
+      "provenance": "synthetic",
+      "claim_status": "authored",
+      "valid_from": "2026-07-01T00:00:00Z",
+      "valid_to": null,
+      "recorded_at": "2026-10-15T00:00:00Z",
+      "published_at": null,
+      "synthetic_released_at": "2026-06-15T00:00:00Z",
+      "payload": {
+        "person_id": "player-h6",
+        "club_id": "club-riverside",
+        "role": "player",
+        "appointment_type": "permanent",
+        "shirt_number": null
+      }
+    },
+    {
+      "record_id": "profile-h6",
+      "revision_id": "profile-h6-v1",
+      "supersedes_revision_id": null,
+      "kind": "player_profile",
+      "source_id": "source-synthetic-v1",
+      "provenance": "synthetic",
+      "claim_status": "authored",
+      "valid_from": "2025-01-01T00:00:00Z",
+      "valid_to": null,
+      "recorded_at": "2026-10-15T00:00:00Z",
+      "published_at": null,
+      "synthetic_released_at": "2025-01-01T00:00:00Z",
+      "payload": {
+        "person_id": "player-h6",
+        "preferred_foot": "right",
+        "positions": [
+          "central_midfielder"
+        ]
+      }
+    },
+    {
+      "record_id": "appointment-h1",
+      "revision_id": "appointment-h1-v1",
+      "supersedes_revision_id": null,
+      "kind": "affiliation",
+      "source_id": "source-synthetic-v1",
+      "provenance": "synthetic",
+      "claim_status": "authored",
+      "valid_from": "2025-01-01T00:00:00Z",
+      "valid_to": null,
+      "recorded_at": "2026-10-15T00:00:00Z",
+      "published_at": null,
+      "synthetic_released_at": "2025-01-01T00:00:00Z",
+      "payload": {
+        "person_id": "coach-h1",
+        "club_id": "club-harbour",
+        "role": "head_coach",
+        "appointment_type": "permanent",
+        "shirt_number": null
+      }
+    },
+    {
+      "record_id": "stadium-lantern",
+      "revision_id": "stadium-lantern-v1",
+      "supersedes_revision_id": null,
+      "kind": "stadium",
+      "source_id": "source-synthetic-v1",
+      "provenance": "synthetic",
+      "claim_status": "authored",
+      "valid_from": "2025-01-01T00:00:00Z",
+      "valid_to": null,
+      "recorded_at": "2026-10-15T00:00:00Z",
+      "published_at": null,
+      "synthetic_released_at": "2025-01-01T00:00:00Z",
+      "payload": {
+        "name": "The Lantern",
+        "time_zone": "Europe/London",
+        "latitude": 51.5,
+        "longitude": -0.1,
+        "capacity": null,
+        "address": null
+      }
+    },
+    {
+      "record_id": "home-harbour",
+      "revision_id": "home-harbour-v1",
+      "supersedes_revision_id": null,
+      "kind": "club_stadium",
+      "source_id": "source-synthetic-v1",
+      "provenance": "synthetic",
+      "claim_status": "authored",
+      "valid_from": "2025-01-01T00:00:00Z",
+      "valid_to": null,
+      "recorded_at": "2026-10-15T00:00:00Z",
+      "published_at": null,
+      "synthetic_released_at": "2025-01-01T00:00:00Z",
+      "payload": {
+        "club_id": "club-harbour",
+        "stadium_id": "stadium-lantern",
+        "use": "home"
+      }
+    },
+    {
+      "record_id": "pitch-lantern",
+      "revision_id": "pitch-lantern-v1",
+      "supersedes_revision_id": null,
+      "kind": "pitch",
+      "source_id": "source-synthetic-v1",
+      "provenance": "synthetic",
+      "claim_status": "authored",
+      "valid_from": "2025-01-01T00:00:00Z",
+      "valid_to": null,
+      "recorded_at": "2026-10-15T00:00:00Z",
+      "published_at": null,
+      "synthetic_released_at": "2025-01-01T00:00:00Z",
+      "payload": {
+        "stadium_id": "stadium-lantern",
+        "name": "Main pitch"
+      }
+    },
+    {
+      "record_id": "pitch-config-2025",
+      "revision_id": "pitch-config-2025-v1",
+      "supersedes_revision_id": null,
+      "kind": "pitch_configuration",
+      "source_id": "source-synthetic-v1",
+      "provenance": "synthetic",
+      "claim_status": "authored",
+      "valid_from": "2025-01-01T00:00:00Z",
+      "valid_to": null,
+      "recorded_at": "2026-10-15T00:00:00Z",
+      "published_at": null,
+      "synthetic_released_at": "2025-01-01T00:00:00Z",
+      "payload": {
+        "pitch_id": "pitch-lantern",
+        "length_m": 105,
+        "width_m": 68,
+        "surface": "hybrid",
+        "positive_x_bearing_degrees": null,
+        "coordinate_origin": "fixed_corner"
+      }
+    },
+    {
+      "record_id": "rules-demo",
+      "revision_id": "rules-demo-v1",
+      "supersedes_revision_id": null,
+      "kind": "ruleset",
+      "source_id": "source-synthetic-v1",
+      "provenance": "synthetic",
+      "claim_status": "authored",
+      "valid_from": "2025-01-01T00:00:00Z",
+      "valid_to": null,
+      "recorded_at": "2026-10-15T00:00:00Z",
+      "published_at": null,
+      "synthetic_released_at": "2025-01-01T00:00:00Z",
+      "payload": {
+        "name": "Fictional exhibition rules, incomplete review example",
+        "substitutions_max": null,
+        "extra_time_allowed": null,
+        "shootout_allowed": null,
+        "discipline_rules_status": "unknown"
+      }
+    },
+    {
+      "record_id": "competition-demo-2025",
+      "revision_id": "competition-demo-2025-v1",
+      "supersedes_revision_id": null,
+      "kind": "competition_season",
+      "source_id": "source-synthetic-v1",
+      "provenance": "synthetic",
+      "claim_status": "authored",
+      "valid_from": "2025-01-01T00:00:00Z",
+      "valid_to": null,
+      "recorded_at": "2026-10-15T00:00:00Z",
+      "published_at": null,
+      "synthetic_released_at": "2025-01-01T00:00:00Z",
+      "payload": {
+        "name": "Fictional exhibition",
+        "season": "2025",
+        "ruleset_id": "rules-demo",
+        "competition_id": "competition-exhibition",
+        "start_date": "2025-01-01",
+        "end_date": "2025-12-31",
+        "membership_coverage": "partial"
+      }
+    },
+    {
+      "record_id": "fixture-history-001",
+      "revision_id": "fixture-history-001-v1",
+      "supersedes_revision_id": null,
+      "kind": "fixture",
+      "source_id": "source-synthetic-v1",
+      "provenance": "synthetic",
+      "claim_status": "authored",
+      "valid_from": "2025-01-01T00:00:00Z",
+      "valid_to": null,
+      "recorded_at": "2026-10-15T00:00:00Z",
+      "published_at": null,
+      "synthetic_released_at": "2025-01-01T00:00:00Z",
+      "payload": {
+        "competition_season_id": "competition-demo-2025",
+        "home_club_id": "club-harbour",
+        "away_club_id": "club-riverside",
+        "stadium_id": "stadium-lantern",
+        "pitch_id": "pitch-lantern",
+        "scheduled_kickoff": "2025-10-18T14:00:00Z",
+        "actual_kickoff": null,
+        "status": "scheduled",
+        "stage": "friendly"
+      }
+    },
+    {
+      "record_id": "fixture-upcoming-001",
+      "revision_id": "fixture-upcoming-001-v1",
+      "supersedes_revision_id": null,
+      "kind": "fixture",
+      "source_id": "source-synthetic-v1",
+      "provenance": "synthetic",
+      "claim_status": "authored",
+      "valid_from": "2025-01-01T00:00:00Z",
+      "valid_to": null,
+      "recorded_at": "2026-10-15T00:00:00Z",
+      "published_at": null,
+      "synthetic_released_at": "2025-01-01T00:00:00Z",
+      "payload": {
+        "competition_season_id": "competition-demo-2025",
+        "home_club_id": "club-harbour",
+        "away_club_id": "club-riverside",
+        "stadium_id": "stadium-lantern",
+        "pitch_id": "pitch-lantern",
+        "scheduled_kickoff": "2025-10-25T14:00:00Z",
+        "actual_kickoff": null,
+        "status": "scheduled",
+        "stage": "friendly"
+      }
+    },
+    {
+      "record_id": "fixture-history-001",
+      "revision_id": "fixture-history-001-v2",
+      "supersedes_revision_id": "fixture-history-001-v1",
+      "kind": "fixture",
+      "source_id": "source-synthetic-v1",
+      "provenance": "synthetic",
+      "claim_status": "authored",
+      "valid_from": "2025-10-18T14:00:00Z",
+      "valid_to": null,
+      "recorded_at": "2026-10-15T00:00:00Z",
+      "published_at": null,
+      "synthetic_released_at": "2025-10-18T14:00:00Z",
+      "payload": {
+        "competition_season_id": "competition-demo-2025",
+        "home_club_id": "club-harbour",
+        "away_club_id": "club-riverside",
+        "stadium_id": "stadium-lantern",
+        "pitch_id": "pitch-lantern",
+        "scheduled_kickoff": "2025-10-18T14:00:00Z",
+        "actual_kickoff": "2025-10-18T14:00:00Z",
+        "status": "in_progress",
+        "stage": "friendly"
+      }
+    },
+    {
+      "record_id": "period-history-second",
+      "revision_id": "period-history-second-v1",
+      "supersedes_revision_id": null,
+      "kind": "period",
+      "source_id": "source-synthetic-v1",
+      "provenance": "synthetic",
+      "claim_status": "authored",
+      "valid_from": "2025-10-18T15:02:00Z",
+      "valid_to": null,
+      "recorded_at": "2026-10-15T00:00:00Z",
+      "published_at": null,
+      "synthetic_released_at": "2025-10-18T15:02:00Z",
+      "payload": {
+        "fixture_id": "fixture-history-001",
+        "period_type": "second_half",
+        "started_at": "2025-10-18T15:02:00Z",
+        "ended_at": null,
+        "display_base_minutes": 45,
+        "clock_runs_during_interruptions": true
+      }
+    },
+    {
+      "record_id": "participant-player-h6",
+      "revision_id": "participant-player-h6-v1",
+      "supersedes_revision_id": null,
+      "kind": "participant",
+      "source_id": "source-synthetic-v1",
+      "provenance": "synthetic",
+      "claim_status": "authored",
+      "valid_from": "2025-01-01T00:00:00Z",
+      "valid_to": null,
+      "recorded_at": "2026-10-15T00:00:00Z",
+      "published_at": null,
+      "synthetic_released_at": "2025-01-01T00:00:00Z",
+      "payload": {
+        "fixture_id": "fixture-history-001",
+        "person_id": "player-h6",
+        "club_id": "club-harbour",
+        "role": "player",
+        "shirt_number": 6,
+        "selection": "starter",
+        "position": null
+      }
+    },
+    {
+      "record_id": "participant-player-h7",
+      "revision_id": "participant-player-h7-v1",
+      "supersedes_revision_id": null,
+      "kind": "participant",
+      "source_id": "source-synthetic-v1",
+      "provenance": "synthetic",
+      "claim_status": "authored",
+      "valid_from": "2025-01-01T00:00:00Z",
+      "valid_to": null,
+      "recorded_at": "2026-10-15T00:00:00Z",
+      "published_at": null,
+      "synthetic_released_at": "2025-01-01T00:00:00Z",
+      "payload": {
+        "fixture_id": "fixture-history-001",
+        "person_id": "player-h7",
+        "club_id": "club-harbour",
+        "role": "player",
+        "shirt_number": 7,
+        "selection": "starter",
+        "position": null
+      }
+    },
+    {
+      "record_id": "participant-player-h8",
+      "revision_id": "participant-player-h8-v1",
+      "supersedes_revision_id": null,
+      "kind": "participant",
+      "source_id": "source-synthetic-v1",
+      "provenance": "synthetic",
+      "claim_status": "authored",
+      "valid_from": "2025-01-01T00:00:00Z",
+      "valid_to": null,
+      "recorded_at": "2026-10-15T00:00:00Z",
+      "published_at": null,
+      "synthetic_released_at": "2025-01-01T00:00:00Z",
+      "payload": {
+        "fixture_id": "fixture-history-001",
+        "person_id": "player-h8",
+        "club_id": "club-harbour",
+        "role": "player",
+        "shirt_number": 8,
+        "selection": "starter",
+        "position": null
+      }
+    },
+    {
+      "record_id": "participant-player-h18",
+      "revision_id": "participant-player-h18-v1",
+      "supersedes_revision_id": null,
+      "kind": "participant",
+      "source_id": "source-synthetic-v1",
+      "provenance": "synthetic",
+      "claim_status": "authored",
+      "valid_from": "2025-01-01T00:00:00Z",
+      "valid_to": null,
+      "recorded_at": "2026-10-15T00:00:00Z",
+      "published_at": null,
+      "synthetic_released_at": "2025-01-01T00:00:00Z",
+      "payload": {
+        "fixture_id": "fixture-history-001",
+        "person_id": "player-h18",
+        "club_id": "club-harbour",
+        "role": "player",
+        "shirt_number": 18,
+        "selection": "substitute",
+        "position": null
+      }
+    },
+    {
+      "record_id": "participant-player-r4",
+      "revision_id": "participant-player-r4-v1",
+      "supersedes_revision_id": null,
+      "kind": "participant",
+      "source_id": "source-synthetic-v1",
+      "provenance": "synthetic",
+      "claim_status": "authored",
+      "valid_from": "2025-01-01T00:00:00Z",
+      "valid_to": null,
+      "recorded_at": "2026-10-15T00:00:00Z",
+      "published_at": null,
+      "synthetic_released_at": "2025-01-01T00:00:00Z",
+      "payload": {
+        "fixture_id": "fixture-history-001",
+        "person_id": "player-r4",
+        "club_id": "club-riverside",
+        "role": "player",
+        "shirt_number": 4,
+        "selection": "starter",
+        "position": null
+      }
+    },
+    {
+      "record_id": "participant-official-r1",
+      "revision_id": "participant-official-r1-v1",
+      "supersedes_revision_id": null,
+      "kind": "participant",
+      "source_id": "source-synthetic-v1",
+      "provenance": "synthetic",
+      "claim_status": "authored",
+      "valid_from": "2025-01-01T00:00:00Z",
+      "valid_to": null,
+      "recorded_at": "2026-10-15T00:00:00Z",
+      "published_at": null,
+      "synthetic_released_at": "2025-01-01T00:00:00Z",
+      "payload": {
+        "fixture_id": "fixture-history-001",
+        "person_id": "official-r1",
+        "club_id": null,
+        "role": "referee",
+        "shirt_number": null,
+        "selection": "official",
+        "position": null
+      }
+    },
+    {
+      "record_id": "participant-coach-h1",
+      "revision_id": "participant-coach-h1-v1",
+      "supersedes_revision_id": null,
+      "kind": "participant",
+      "source_id": "source-synthetic-v1",
+      "provenance": "synthetic",
+      "claim_status": "authored",
+      "valid_from": "2025-01-01T00:00:00Z",
+      "valid_to": null,
+      "recorded_at": "2026-10-15T00:00:00Z",
+      "published_at": null,
+      "synthetic_released_at": "2025-01-01T00:00:00Z",
+      "payload": {
+        "fixture_id": "fixture-history-001",
+        "person_id": "coach-h1",
+        "club_id": "club-harbour",
+        "role": "head_coach",
+        "shirt_number": null,
+        "selection": "staff",
+        "position": null
+      }
+    },
+    {
+      "record_id": "transfer-h6-2026",
+      "revision_id": "transfer-h6-2026-v1",
+      "supersedes_revision_id": null,
+      "kind": "transfer",
+      "source_id": "source-synthetic-v1",
+      "provenance": "synthetic",
+      "claim_status": "authored",
+      "valid_from": "2026-06-15T00:00:00Z",
+      "valid_to": null,
+      "recorded_at": "2026-10-15T00:00:00Z",
+      "published_at": null,
+      "synthetic_released_at": "2026-06-15T00:00:00Z",
+      "payload": {
+        "person_id": "player-h6",
+        "from_club_id": "club-harbour",
+        "to_club_id": "club-riverside",
+        "transfer_type": "permanent",
+        "announced_at": "2026-06-15T00:00:00Z",
+        "effective_at": "2026-07-01T00:00:00Z",
+        "registered_at": null
+      }
+    },
+    {
+      "record_id": "fee-h6-base",
+      "revision_id": "fee-h6-base-v1",
+      "supersedes_revision_id": null,
+      "kind": "financial_term",
+      "source_id": "source-synthetic-v1",
+      "provenance": "synthetic",
+      "claim_status": "authored",
+      "valid_from": "2026-06-15T00:00:00Z",
+      "valid_to": null,
+      "recorded_at": "2026-10-15T00:00:00Z",
+      "published_at": null,
+      "synthetic_released_at": "2026-06-15T00:00:00Z",
+      "payload": {
+        "transfer_id": "transfer-h6-2026",
+        "component": "guaranteed_fee",
+        "disclosure": "confirmed",
+        "money": {
+          "currency": "GBP",
+          "amount_minor": 200000000,
+          "minor_unit_digits": 2
+        },
+        "percentage": null,
+        "condition": null
+      }
+    },
+    {
+      "record_id": "fee-h6-bonus",
+      "revision_id": "fee-h6-bonus-v1",
+      "supersedes_revision_id": null,
+      "kind": "financial_term",
+      "source_id": "source-synthetic-v1",
+      "provenance": "synthetic",
+      "claim_status": "authored",
+      "valid_from": "2026-06-15T00:00:00Z",
+      "valid_to": null,
+      "recorded_at": "2026-10-15T00:00:00Z",
+      "published_at": null,
+      "synthetic_released_at": "2026-06-15T00:00:00Z",
+      "payload": {
+        "transfer_id": "transfer-h6-2026",
+        "component": "conditional_add_on",
+        "disclosure": "confirmed",
+        "money": {
+          "currency": "GBP",
+          "amount_minor": 50000000,
+          "minor_unit_digits": 2
+        },
+        "percentage": null,
+        "condition": "Fictional appearance condition; fulfilment unknown"
+      }
+    },
+    {
+      "record_id": "ball-model-demo",
+      "revision_id": "ball-model-demo-v1",
+      "supersedes_revision_id": null,
+      "kind": "ball_model",
+      "source_id": "source-synthetic-v1",
+      "provenance": "synthetic",
+      "claim_status": "authored",
+      "valid_from": "2025-01-01T00:00:00Z",
+      "valid_to": null,
+      "recorded_at": "2026-10-15T00:00:00Z",
+      "published_at": null,
+      "synthetic_released_at": "2025-01-01T00:00:00Z",
+      "payload": {
+        "manufacturer": "Fictional Matchmate equipment",
+        "model": "Demo One",
+        "edition": "2025"
+      }
+    },
+    {
+      "record_id": "event-p1",
+      "revision_id": "event-p1-v1",
+      "supersedes_revision_id": null,
+      "kind": "match_event",
+      "source_id": "source-synthetic-v1",
+      "provenance": "synthetic",
+      "claim_status": "authored",
+      "valid_from": "2025-10-18T15:19:00Z",
+      "valid_to": null,
+      "recorded_at": "2026-10-15T00:00:00Z",
+      "published_at": null,
+      "synthetic_released_at": "2025-10-18T15:19:00Z",
+      "payload": {
+        "fixture_id": "fixture-history-001",
+        "clock": {
+          "period_id": "period-history-second",
+          "elapsed_ms": 1020000,
+          "sequence": 0
+        },
+        "event_type": "pass_released",
+        "details": {
+          "player_id": "player-h6",
+          "team_id": "club-harbour",
+          "recipient_id": "player-h7",
+          "start_position": {
+            "x_m": 30,
+            "y_m": 34,
+            "z_m": null
+          },
+          "intended_end_position": {
+            "x_m": 40,
+            "y_m": 42,
+            "z_m": null
+          }
+        }
+      }
+    },
+    {
+      "record_id": "event-p1-resolution",
+      "revision_id": "event-p1-resolution-v1",
+      "supersedes_revision_id": null,
+      "kind": "match_event",
+      "source_id": "source-synthetic-v1",
+      "provenance": "synthetic",
+      "claim_status": "authored",
+      "valid_from": "2025-10-18T15:19:02Z",
+      "valid_to": null,
+      "recorded_at": "2026-10-15T00:00:00Z",
+      "published_at": null,
+      "synthetic_released_at": "2025-10-18T15:19:02Z",
+      "payload": {
+        "fixture_id": "fixture-history-001",
+        "clock": {
+          "period_id": "period-history-second",
+          "elapsed_ms": 1022000,
+          "sequence": 0
+        },
+        "event_type": "pass_resolved",
+        "details": {
+          "pass_event_id": "event-p1",
+          "outcome": "completed",
+          "recipient_id": "player-h7"
+        }
+      }
+    },
+    {
+      "record_id": "event-g1",
+      "revision_id": "event-g1-v1",
+      "supersedes_revision_id": null,
+      "kind": "match_event",
+      "source_id": "source-synthetic-v1",
+      "provenance": "synthetic",
+      "claim_status": "authored",
+      "valid_from": "2025-10-18T15:20:30Z",
+      "valid_to": null,
+      "recorded_at": "2026-10-15T00:00:00Z",
+      "published_at": null,
+      "synthetic_released_at": "2025-10-18T15:20:30Z",
+      "payload": {
+        "fixture_id": "fixture-history-001",
+        "clock": {
+          "period_id": "period-history-second",
+          "elapsed_ms": 1110000,
+          "sequence": 0
+        },
+        "event_type": "goal",
+        "details": {
+          "team_id": "club-harbour",
+          "scorer_id": "player-h7",
+          "decision": "confirmed",
+          "own_goal": false
+        }
+      }
+    },
+    {
+      "record_id": "event-g1",
+      "revision_id": "event-g1-v2",
+      "supersedes_revision_id": "event-g1-v1",
+      "kind": "match_event",
+      "source_id": "source-synthetic-v1",
+      "provenance": "synthetic",
+      "claim_status": "authored",
+      "valid_from": "2025-10-18T15:20:30Z",
+      "valid_to": null,
+      "recorded_at": "2026-10-15T00:00:00Z",
+      "published_at": null,
+      "synthetic_released_at": "2025-10-18T15:20:40Z",
+      "payload": {
+        "fixture_id": "fixture-history-001",
+        "clock": {
+          "period_id": "period-history-second",
+          "elapsed_ms": 1110000,
+          "sequence": 0
+        },
+        "event_type": "goal",
+        "details": {
+          "team_id": "club-harbour",
+          "scorer_id": "player-h8",
+          "decision": "confirmed",
+          "own_goal": false
+        }
+      }
+    },
+    {
+      "record_id": "track-h6-0",
+      "revision_id": "track-h6-0-v1",
+      "supersedes_revision_id": null,
+      "kind": "tracking_sample",
+      "source_id": "source-synthetic-v1",
+      "provenance": "synthetic",
+      "claim_status": "authored",
+      "valid_from": "2025-10-18T15:19:00Z",
+      "valid_to": null,
+      "recorded_at": "2026-10-15T00:00:00Z",
+      "published_at": null,
+      "synthetic_released_at": "2025-10-18T15:19:00Z",
+      "payload": {
+        "fixture_id": "fixture-history-001",
+        "clock": {
+          "period_id": "period-history-second",
+          "elapsed_ms": 1020000,
+          "sequence": 0
+        },
+        "pitch_configuration_id": "pitch-config-2025",
+        "subject": {
+          "type": "person",
+          "person_id": "player-h6"
+        },
+        "position": {
+          "x_m": 30,
+          "y_m": 34,
+          "z_m": null
+        },
+        "method": "synthetic",
+        "quality": "usable"
+      }
+    },
+    {
+      "record_id": "track-h6-1",
+      "revision_id": "track-h6-1-v1",
+      "supersedes_revision_id": null,
+      "kind": "tracking_sample",
+      "source_id": "source-synthetic-v1",
+      "provenance": "synthetic",
+      "claim_status": "authored",
+      "valid_from": "2025-10-18T15:19:01Z",
+      "valid_to": null,
+      "recorded_at": "2026-10-15T00:00:00Z",
+      "published_at": null,
+      "synthetic_released_at": "2025-10-18T15:19:01Z",
+      "payload": {
+        "fixture_id": "fixture-history-001",
+        "clock": {
+          "period_id": "period-history-second",
+          "elapsed_ms": 1021000,
+          "sequence": 0
+        },
+        "pitch_configuration_id": "pitch-config-2025",
+        "subject": {
+          "type": "person",
+          "person_id": "player-h6"
+        },
+        "position": {
+          "x_m": 33,
+          "y_m": 38,
+          "z_m": null
+        },
+        "method": "synthetic",
+        "quality": "usable"
+      }
+    },
+    {
+      "record_id": "track-h6-2",
+      "revision_id": "track-h6-2-v1",
+      "supersedes_revision_id": null,
+      "kind": "tracking_sample",
+      "source_id": "source-synthetic-v1",
+      "provenance": "synthetic",
+      "claim_status": "authored",
+      "valid_from": "2025-10-18T15:19:02Z",
+      "valid_to": null,
+      "recorded_at": "2026-10-15T00:00:00Z",
+      "published_at": null,
+      "synthetic_released_at": "2025-10-18T15:19:02Z",
+      "payload": {
+        "fixture_id": "fixture-history-001",
+        "clock": {
+          "period_id": "period-history-second",
+          "elapsed_ms": 1022000,
+          "sequence": 0
+        },
+        "pitch_configuration_id": "pitch-config-2025",
+        "subject": {
+          "type": "person",
+          "person_id": "player-h6"
+        },
+        "position": {
+          "x_m": 36,
+          "y_m": 42,
+          "z_m": null
+        },
+        "method": "synthetic",
+        "quality": "usable"
+      }
+    },
+    {
+      "record_id": "weather-1519",
+      "revision_id": "weather-1519-v1",
+      "supersedes_revision_id": null,
+      "kind": "context_observation",
+      "source_id": "source-synthetic-v1",
+      "provenance": "synthetic",
+      "claim_status": "authored",
+      "valid_from": "2025-10-18T15:19:00Z",
+      "valid_to": null,
+      "recorded_at": "2026-10-15T00:00:00Z",
+      "published_at": null,
+      "synthetic_released_at": "2025-10-18T15:19:00Z",
+      "payload": {
+        "fixture_id": "fixture-history-001",
+        "category": "weather",
+        "subject_ids": [
+          "stadium-lantern"
+        ],
+        "description": "Synthetic stadium observation: light rain; onset unknown.",
+        "measurement": {
+          "metric": "air-temperature",
+          "value": 12,
+          "unit": "degC"
+        }
+      }
+    },
+    {
+      "record_id": "coverage-participants",
+      "revision_id": "coverage-participants-v1",
+      "supersedes_revision_id": null,
+      "kind": "coverage",
+      "source_id": "source-synthetic-v1",
+      "provenance": "synthetic",
+      "claim_status": "authored",
+      "valid_from": "2025-01-01T00:00:00Z",
+      "valid_to": null,
+      "recorded_at": "2026-10-15T00:00:00Z",
+      "published_at": null,
+      "synthetic_released_at": "2025-01-01T00:00:00Z",
+      "payload": {
+        "fixture_id": "fixture-history-001",
+        "domain": "participants",
+        "subject_ids": [],
+        "status": "partial",
+        "start": null,
+        "end": null,
+        "sampling_interval_ms": null,
+        "description": "Five players and two staff/official identities only; not a full lineup."
+      }
+    },
+    {
+      "record_id": "coverage-events",
+      "revision_id": "coverage-events-v1",
+      "supersedes_revision_id": null,
+      "kind": "coverage",
+      "source_id": "source-synthetic-v1",
+      "provenance": "synthetic",
+      "claim_status": "authored",
+      "valid_from": "2025-01-01T00:00:00Z",
+      "valid_to": null,
+      "recorded_at": "2026-10-15T00:00:00Z",
+      "published_at": null,
+      "synthetic_released_at": "2025-01-01T00:00:00Z",
+      "payload": {
+        "fixture_id": "fixture-history-001",
+        "domain": "events",
+        "subject_ids": [],
+        "status": "partial",
+        "start": null,
+        "end": null,
+        "sampling_interval_ms": null,
+        "description": "Two pass records and goal revisions only; no full score reconstruction."
+      }
+    },
+    {
+      "record_id": "coverage-tracking",
+      "revision_id": "coverage-tracking-v1",
+      "supersedes_revision_id": null,
+      "kind": "coverage",
+      "source_id": "source-synthetic-v1",
+      "provenance": "synthetic",
+      "claim_status": "authored",
+      "valid_from": "2025-01-01T00:00:00Z",
+      "valid_to": null,
+      "recorded_at": "2026-10-15T00:00:00Z",
+      "published_at": null,
+      "synthetic_released_at": "2025-01-01T00:00:00Z",
+      "payload": {
+        "fixture_id": "fixture-history-001",
+        "domain": "tracking",
+        "subject_ids": [
+          "player-h6"
+        ],
+        "status": "partial",
+        "start": {
+          "period_id": "period-history-second",
+          "elapsed_ms": 1020000,
+          "sequence": 0
+        },
+        "end": {
+          "period_id": "period-history-second",
+          "elapsed_ms": 1022000,
+          "sequence": 0
+        },
+        "sampling_interval_ms": 1000,
+        "description": "H6 only for two seconds; no other-player or ball tracking."
+      }
+    },
+    {
+      "record_id": "coverage-referee-tracking",
+      "revision_id": "coverage-referee-tracking-v1",
+      "supersedes_revision_id": null,
+      "kind": "coverage",
+      "source_id": "source-synthetic-v1",
+      "provenance": "synthetic",
+      "claim_status": "authored",
+      "valid_from": "2025-01-01T00:00:00Z",
+      "valid_to": null,
+      "recorded_at": "2026-10-15T00:00:00Z",
+      "published_at": null,
+      "synthetic_released_at": "2025-01-01T00:00:00Z",
+      "payload": {
+        "fixture_id": "fixture-history-001",
+        "domain": "referee_tracking",
+        "subject_ids": [],
+        "status": "not_collected",
+        "start": null,
+        "end": null,
+        "sampling_interval_ms": null,
+        "description": "Identity only; no coordinates."
+      }
+    },
+    {
+      "record_id": "coverage-physical-balls",
+      "revision_id": "coverage-physical-balls-v1",
+      "supersedes_revision_id": null,
+      "kind": "coverage",
+      "source_id": "source-synthetic-v1",
+      "provenance": "synthetic",
+      "claim_status": "authored",
+      "valid_from": "2025-01-01T00:00:00Z",
+      "valid_to": null,
+      "recorded_at": "2026-10-15T00:00:00Z",
+      "published_at": null,
+      "synthetic_released_at": "2025-01-01T00:00:00Z",
+      "payload": {
+        "fixture_id": "fixture-history-001",
+        "domain": "physical_balls",
+        "subject_ids": [],
+        "status": "unknown",
+        "start": null,
+        "end": null,
+        "sampling_interval_ms": null,
+        "description": "Model only; individual ball identity and replacement history absent."
+      }
+    },
+    {
+      "record_id": "coverage-travel",
+      "revision_id": "coverage-travel-v1",
+      "supersedes_revision_id": null,
+      "kind": "coverage",
+      "source_id": "source-synthetic-v1",
+      "provenance": "synthetic",
+      "claim_status": "authored",
+      "valid_from": "2025-01-01T00:00:00Z",
+      "valid_to": null,
+      "recorded_at": "2026-10-15T00:00:00Z",
+      "published_at": null,
+      "synthetic_released_at": "2025-01-01T00:00:00Z",
+      "payload": {
+        "fixture_id": "fixture-history-001",
+        "domain": "travel",
+        "subject_ids": [],
+        "status": "unknown",
+        "start": null,
+        "end": null,
+        "sampling_interval_ms": null,
+        "description": "No source supporting team arrival or delays."
+      }
+    },
+    {
+      "record_id": "competition-exhibition",
+      "revision_id": "competition-exhibition-v1",
+      "supersedes_revision_id": null,
+      "kind": "competition",
+      "source_id": "source-synthetic-v1",
+      "provenance": "synthetic",
+      "claim_status": "authored",
+      "valid_from": "2022-01-01T00:00:00Z",
+      "valid_to": null,
+      "recorded_at": "2026-10-15T00:00:00Z",
+      "published_at": null,
+      "synthetic_released_at": "2022-01-01T00:00:00Z",
+      "payload": {
+        "name": "Fictional exhibition",
+        "country_code": "GB",
+        "time_zone": "Europe/London"
+      }
+    },
+    {
+      "record_id": "membership-demo-harbour",
+      "revision_id": "membership-demo-harbour-v1",
+      "supersedes_revision_id": null,
+      "kind": "season_membership",
+      "source_id": "source-synthetic-v1",
+      "provenance": "synthetic",
+      "claim_status": "authored",
+      "valid_from": "2025-01-01T00:00:00Z",
+      "valid_to": null,
+      "recorded_at": "2026-10-15T00:00:00Z",
+      "published_at": null,
+      "synthetic_released_at": "2025-01-01T00:00:00Z",
+      "payload": {
+        "competition_season_id": "competition-demo-2025",
+        "club_id": "club-harbour",
+        "status": "participating"
+      }
+    },
+    {
+      "record_id": "membership-demo-riverside",
+      "revision_id": "membership-demo-riverside-v1",
+      "supersedes_revision_id": null,
+      "kind": "season_membership",
+      "source_id": "source-synthetic-v1",
+      "provenance": "synthetic",
+      "claim_status": "authored",
+      "valid_from": "2025-01-01T00:00:00Z",
+      "valid_to": null,
+      "recorded_at": "2026-10-15T00:00:00Z",
+      "published_at": null,
+      "synthetic_released_at": "2025-01-01T00:00:00Z",
+      "payload": {
+        "competition_season_id": "competition-demo-2025",
+        "club_id": "club-riverside",
+        "status": "participating"
+      }
+    },
+    {
+      "record_id": "supporter-group-harbour",
+      "revision_id": "supporter-group-harbour-v1",
+      "supersedes_revision_id": null,
+      "kind": "supporter_group",
+      "source_id": "source-synthetic-v1",
+      "provenance": "synthetic",
+      "claim_status": "authored",
+      "valid_from": "2025-01-01T00:00:00Z",
+      "valid_to": null,
+      "recorded_at": "2026-10-15T00:00:00Z",
+      "published_at": null,
+      "synthetic_released_at": "2025-01-01T00:00:00Z",
+      "payload": {
+        "name": "Harbour Supporters (fictional)",
+        "aliases": ["HS"],
+        "club_ids": ["club-harbour"],
+        "locality": null,
+        "scope": "local",
+        "independence_status": "independent"
+      }
+    },
+    {
+      "record_id": "contact-supporter-group-harbour-web",
+      "revision_id": "contact-supporter-group-harbour-web-v1",
+      "supersedes_revision_id": null,
+      "kind": "public_contact_channel",
+      "source_id": "source-synthetic-v1",
+      "provenance": "synthetic",
+      "claim_status": "authored",
+      "valid_from": "2025-01-01T00:00:00Z",
+      "valid_to": null,
+      "recorded_at": "2026-10-15T00:00:00Z",
+      "published_at": null,
+      "synthetic_released_at": "2025-01-01T00:00:00Z",
+      "payload": {
+        "owner": {
+          "owner_kind": "supporter_group",
+          "supporter_group_id": "supporter-group-harbour"
+        },
+        "channel_type": "website",
+        "purpose": "supporter_services",
+        "value": "https://harbour-supporters.example.test",
+        "language": "en",
+        "last_checked_at": "2025-01-01T00:00:00Z"
+      }
+    },
+    {
+      "record_id": "recognition-harbour-supporters",
+      "revision_id": "recognition-harbour-supporters-v1",
+      "supersedes_revision_id": null,
+      "kind": "supporter_group_recognition",
+      "source_id": "source-synthetic-v1",
+      "provenance": "synthetic",
+      "claim_status": "authored",
+      "valid_from": "2025-01-01T00:00:00Z",
+      "valid_to": null,
+      "recorded_at": "2026-10-15T00:00:00Z",
+      "published_at": null,
+      "synthetic_released_at": "2025-01-01T00:00:00Z",
+      "payload": {
+        "supporter_group_id": "supporter-group-harbour",
+        "recogniser": {
+          "recogniser_kind": "club",
+          "club_id": "club-harbour"
+        },
+        "recognition_status": "recognised"
+      }
+    },
+    {
+      "record_id": "academy-harbour",
+      "revision_id": "academy-harbour-v1",
+      "supersedes_revision_id": null,
+      "kind": "academy",
+      "source_id": "source-synthetic-v1",
+      "provenance": "synthetic",
+      "claim_status": "authored",
+      "valid_from": "2025-01-01T00:00:00Z",
+      "valid_to": null,
+      "recorded_at": "2026-10-15T00:00:00Z",
+      "published_at": null,
+      "synthetic_released_at": "2025-01-01T00:00:00Z",
+      "payload": {
+        "club_id": "club-harbour",
+        "name": "Harbour Academy (fictional)",
+        "aliases": [],
+        "status": "active",
+        "programme_scope": "Development programmes documented only in this synthetic bundle.",
+        "accreditation": null,
+        "accreditation_issuer": null
+      }
+    },
+    {
+      "record_id": "team-harbour-first",
+      "revision_id": "team-harbour-first-v1",
+      "supersedes_revision_id": null,
+      "kind": "team_programme",
+      "source_id": "source-synthetic-v1",
+      "provenance": "synthetic",
+      "claim_status": "authored",
+      "valid_from": "2025-01-01T00:00:00Z",
+      "valid_to": null,
+      "recorded_at": "2026-10-15T00:00:00Z",
+      "published_at": null,
+      "synthetic_released_at": "2025-01-01T00:00:00Z",
+      "payload": {
+        "club_id": "club-harbour",
+        "academy_id": null,
+        "name": "Harbour First Team (fictional)",
+        "category": "first_team",
+        "age_band_designation": null
+      }
+    },
+    {
+      "record_id": "facility-harbour-training",
+      "revision_id": "facility-harbour-training-v1",
+      "supersedes_revision_id": null,
+      "kind": "facility",
+      "source_id": "source-synthetic-v1",
+      "provenance": "synthetic",
+      "claim_status": "authored",
+      "valid_from": "2025-01-01T00:00:00Z",
+      "valid_to": null,
+      "recorded_at": "2026-10-15T00:00:00Z",
+      "published_at": null,
+      "synthetic_released_at": "2025-01-01T00:00:00Z",
+      "payload": {
+        "name": "Harbour Training Campus (fictional)",
+        "aliases": [],
+        "facility_type": "training_campus",
+        "operating_club_id": "club-harbour",
+        "stadium_id": null,
+        "parent_facility_id": null,
+        "address": null,
+        "locality": null
+      }
+    },
+    {
+      "record_id": "facility-use-harbour-academy",
+      "revision_id": "facility-use-harbour-academy-v1",
+      "supersedes_revision_id": null,
+      "kind": "facility_use",
+      "source_id": "source-synthetic-v1",
+      "provenance": "synthetic",
+      "claim_status": "authored",
+      "valid_from": "2025-01-01T00:00:00Z",
+      "valid_to": null,
+      "recorded_at": "2026-10-15T00:00:00Z",
+      "published_at": null,
+      "synthetic_released_at": "2025-01-01T00:00:00Z",
+      "payload": {
+        "scope": {
+          "scope_kind": "academy",
+          "academy_id": "academy-harbour"
+        },
+        "facility_id": "facility-harbour-training",
+        "use_type": "training"
+      }
+    },
+    {
+      "record_id": "department-harbour-performance",
+      "revision_id": "department-harbour-performance-v1",
+      "supersedes_revision_id": null,
+      "kind": "support_department",
+      "source_id": "source-synthetic-v1",
+      "provenance": "synthetic",
+      "claim_status": "authored",
+      "valid_from": "2025-01-01T00:00:00Z",
+      "valid_to": null,
+      "recorded_at": "2026-10-15T00:00:00Z",
+      "published_at": null,
+      "synthetic_released_at": "2025-01-01T00:00:00Z",
+      "payload": {
+        "scope": {
+          "scope_kind": "club",
+          "club_id": "club-harbour"
+        },
+        "name": "Performance Support (fictional)",
+        "function": "performance",
+        "reports_to_department_id": null
+      }
+    },
+    {
+      "record_id": "staff-appointment-h1-head",
+      "revision_id": "staff-appointment-h1-head-v1",
+      "supersedes_revision_id": null,
+      "kind": "staff_appointment",
+      "source_id": "source-synthetic-v1",
+      "provenance": "synthetic",
+      "claim_status": "authored",
+      "valid_from": "2025-01-01T00:00:00Z",
+      "valid_to": null,
+      "recorded_at": "2026-10-15T00:00:00Z",
+      "published_at": null,
+      "synthetic_released_at": "2025-01-01T00:00:00Z",
+      "payload": {
+        "person_id": "coach-h1",
+        "club_id": "club-harbour",
+        "scope": {
+          "scope_kind": "team_programme",
+          "team_programme_id": "team-harbour-first"
+        },
+        "source_job_title": "Head Coach (fictional)",
+        "normalized_role": "head_coach",
+        "responsibilities": [],
+        "announced_at": null,
+        "employment_status": "employee"
+      }
+    },
+    {
+      "record_id": "staff-appointment-h2-assistant",
+      "revision_id": "staff-appointment-h2-assistant-v1",
+      "supersedes_revision_id": null,
+      "kind": "staff_appointment",
+      "source_id": "source-synthetic-v1",
+      "provenance": "synthetic",
+      "claim_status": "authored",
+      "valid_from": "2025-01-01T00:00:00Z",
+      "valid_to": null,
+      "recorded_at": "2026-10-15T00:00:00Z",
+      "published_at": null,
+      "synthetic_released_at": "2025-01-01T00:00:00Z",
+      "payload": {
+        "person_id": "coach-h2",
+        "club_id": "club-harbour",
+        "scope": {
+          "scope_kind": "team_programme",
+          "team_programme_id": "team-harbour-first"
+        },
+        "source_job_title": "Assistant Coach (fictional)",
+        "normalized_role": "assistant_coach",
+        "responsibilities": [],
+        "announced_at": null,
+        "employment_status": "employee"
+      }
+    },
+    {
+      "record_id": "coaching-relationship-h2-h1",
+      "revision_id": "coaching-relationship-h2-h1-v1",
+      "supersedes_revision_id": null,
+      "kind": "coaching_staff_relationship",
+      "source_id": "source-synthetic-v1",
+      "provenance": "synthetic",
+      "claim_status": "authored",
+      "valid_from": "2025-01-01T00:00:00Z",
+      "valid_to": null,
+      "recorded_at": "2026-10-15T00:00:00Z",
+      "published_at": null,
+      "synthetic_released_at": "2025-01-01T00:00:00Z",
+      "payload": {
+        "staff_appointment_id": "staff-appointment-h2-assistant",
+        "lead_staff_appointment_id": "staff-appointment-h1-head",
+        "scope": {
+          "scope_kind": "team_programme",
+          "team_programme_id": "team-harbour-first"
+        },
+        "relationship_type": "coaching_team_member"
+      }
+    },
+    {
+      "record_id": "match-staff-h1-history",
+      "revision_id": "match-staff-h1-history-v1",
+      "supersedes_revision_id": null,
+      "kind": "match_staff_assignment",
+      "source_id": "source-synthetic-v1",
+      "provenance": "synthetic",
+      "claim_status": "authored",
+      "valid_from": "2025-10-18T15:00:00Z",
+      "valid_to": null,
+      "recorded_at": "2026-10-15T00:00:00Z",
+      "published_at": null,
+      "synthetic_released_at": "2025-10-18T15:00:00Z",
+      "payload": {
+        "fixture_id": "fixture-history-001",
+        "subject": {
+          "subject_type": "person",
+          "person_id": "coach-h1"
+        },
+        "staff_appointment_id": "staff-appointment-h1-head",
+        "club_id": "club-harbour",
+        "role": "Head coach (fictional)",
+        "technical_area_assignment": "home_bench"
+      }
+    },
+    {
+      "record_id": "attendance-history-total",
+      "revision_id": "attendance-history-total-v1",
+      "supersedes_revision_id": null,
+      "kind": "attendance_observation",
+      "source_id": "source-synthetic-v1",
+      "provenance": "synthetic",
+      "claim_status": "authored",
+      "valid_from": "2025-10-18T15:00:00Z",
+      "valid_to": null,
+      "recorded_at": "2026-10-15T00:00:00Z",
+      "published_at": null,
+      "synthetic_released_at": "2025-10-18T15:00:00Z",
+      "payload": {
+        "fixture_id": "fixture-history-001",
+        "population_scope": "total",
+        "measure": "reported_attendance",
+        "count_status": "reported",
+        "count": 12000,
+        "counting_basis": "turnstile",
+        "reported_at": "2025-10-18T17:00:00Z",
+        "retrieved_at": "2025-10-18T17:00:00Z"
+      }
+    },
+    {
+      "record_id": "capacity-history",
+      "revision_id": "capacity-history-v1",
+      "supersedes_revision_id": null,
+      "kind": "match_capacity",
+      "source_id": "source-synthetic-v1",
+      "provenance": "synthetic",
+      "claim_status": "authored",
+      "valid_from": "2025-10-18T15:00:00Z",
+      "valid_to": null,
+      "recorded_at": "2026-10-15T00:00:00Z",
+      "published_at": null,
+      "synthetic_released_at": "2025-10-18T15:00:00Z",
+      "payload": {
+        "fixture_id": "fixture-history-001",
+        "capacity_status": "reported",
+        "available_capacity": 15000,
+        "basis": "reported",
+        "restrictions": [],
+        "reported_at": "2025-10-18T14:00:00Z",
+        "retrieved_at": "2025-10-18T14:00:00Z"
+      }
+    }
+  ]
+}

@@ -1,0 +1,264 @@
+{
+  "entities": {
+    "Q103229495": {
+      "pageid": 99290545,
+      "ns": 0,
+      "title": "Q103229495",
+      "lastrevid": 2546276565,
+      "modified": "2026-09-15T16:44:11Z",
+      "type": "item",
+      "id": "Q103229495",
+      "labels": {
+        "en": {
+          "language": "en",
+          "value": "men's association football team"
+        }
+      },
+      "descriptions": {
+        "en": {
+          "language": "en",
+          "value": "men sports team that plays association football"
+        }
+      },
+      "claims": {
+        "P279": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P279",
+              "hash": "fc68a53b020f04d1e7e7895d2cb28336f8191e09",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 15944511,
+                  "id": "Q15944511"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q103229495$18a743f4-4b91-0084-18d2-970ee76aed92",
+            "rank": "normal"
+          },
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P279",
+              "hash": "70bb7eb1acfce112f3096fd88e40705f9fa7597c",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 22808963,
+                  "id": "Q22808963"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q103229495$6da1caed-4f4f-ab86-84c3-df3551008942",
+            "rank": "normal"
+          },
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P279",
+              "hash": "b4cc5006396e66e1beb8745537c49a485040f5bc",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 476028,
+                  "id": "Q476028"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q103229495$d4c43b6a-4eda-13e9-d27b-30ea4a59f6cc",
+            "rank": "normal"
+          }
+        ],
+        "P18": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P18",
+              "hash": "53dbeebfbd3694e33d0ee56daa30f9425615a0be",
+              "datavalue": {
+                "value": "France WC2018 final.jpg",
+                "type": "string"
+              },
+              "datatype": "commonsMedia"
+            },
+            "type": "statement",
+            "id": "Q103229495$dc1aad61-40f5-ff5b-1ec2-6b583ad7e16b",
+            "rank": "normal"
+          }
+        ],
+        "P641": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P641",
+              "hash": "1624e15e061523279bc14bb6497168e45caacb32",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 2736,
+                  "id": "Q2736"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q103229495$972594ce-4405-8261-5614-577d50833069",
+            "rank": "normal"
+          }
+        ],
+        "P1963": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P1963",
+              "hash": "6e799b374e7038205e7b40db7caad9f126d94359",
+              "datavalue": {
+                "value": {
+                  "entity-type": "property",
+                  "numeric-id": 749,
+                  "id": "P749"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-property"
+            },
+            "type": "statement",
+            "id": "Q103229495$c443b95b-4fd7-3ac2-a75d-f430efdda6a4",
+            "rank": "normal"
+          }
+        ],
+        "P1889": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P1889",
+              "hash": "ab471d9c5c911ca45a9b02e29ab8ad55ca632267",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 15944511,
+                  "id": "Q15944511"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q103229495$e3642728-423b-4dc0-e293-691873f62938",
+            "rank": "normal"
+          },
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P1889",
+              "hash": "83fd861271654c67fa2025577df53e12913745a3",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 103231176,
+                  "id": "Q103231176"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q103229495$b14e5819-4bf4-91aa-1813-aae581900643",
+            "rank": "normal"
+          },
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P1889",
+              "hash": "dfa9c089c3cf243d80f5518d2da27120850a2a1f",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 28140340,
+                  "id": "Q28140340"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q103229495$9f205583-4161-2bf9-2560-8cbf9c562d4b",
+            "rank": "normal"
+          }
+        ],
+        "P461": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P461",
+              "hash": "0e5b57bd1221a8eac11a470262d20d03f667805f",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 28140340,
+                  "id": "Q28140340"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P1013": [
+                {
+                  "snaktype": "value",
+                  "property": "P1013",
+                  "hash": "f915e330a72835fd365a928ed1248d12d43391ba",
+                  "datavalue": {
+                    "value": {
+                      "entity-type": "item",
+                      "numeric-id": 5530970,
+                      "id": "Q5530970"
+                    },
+                    "type": "wikibase-entityid"
+                  },
+                  "datatype": "wikibase-item"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P1013"
+            ],
+            "id": "Q103229495$EAC5AA63-D9F6-49F9-A6B4-165DCC25DD97",
+            "rank": "normal"
+          }
+        ],
+        "P13295": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P13295",
+              "hash": "ded8f5ee0ffaf1ed37d6f3a85aabdfdfc614c0bf",
+              "datavalue": {
+                "value": "3861955",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q103229495$8E616C16-1D7E-4D69-8A14-643F6DDB1494",
+            "rank": "normal"
+          }
+        ]
+      },
+      "sitelinks": {}
+    }
+  }
+}

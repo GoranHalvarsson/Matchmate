@@ -1,0 +1,1310 @@
+{
+  "decision": "D098",
+  "status": "coordinator_approved_implementation_input_independent_gate_separate",
+  "reviewDate": "2026-10-23",
+  "participantCount": 31,
+  "remainingParticipantCount": 30,
+  "expectedNewObservationCount": 54,
+  "expectedV2ObservationCount": 57,
+  "sourceVideoSha256": "87b511b61f3d48e410294e06bf71bbc3a88c7b7ca6a50b89e572808c3e82711f",
+  "inputs": [
+    {
+      "path": "output/player-performance-review/remaining-v2/report-review.json",
+      "sha256": "8d67d9aa92ed034a3aa57a7a4e8278b3d876f7b52bcdbad608f25abeba2c454d"
+    },
+    {
+      "path": "output/player-performance-review/remaining-v2/visual-review.json",
+      "sha256": "7e99225ac3d06514ff06660390c2db2b5e3d6f79261a43699ae63c0ba6e13515"
+    },
+    {
+      "path": "output/player-performance-review/remaining-v2/participant-review.json",
+      "sha256": "696b4b1bf40ffde77815822d180f24de1842840c98851cece93c4150380539c0"
+    }
+  ],
+  "reportRows": [
+    {
+      "id": "rp-01",
+      "phase": "1H",
+      "reportedMinute": "9 (Brentford) / 10 (Chelsea)",
+      "text": "Chavarria delivered; Welbeck set up Neto's saved shot; Kelleher saved.",
+      "sources": [
+        "chelsea",
+        "brentford"
+      ],
+      "locator": "Chelsea Bright beginning first paragraph, line18; Brentford first chance paragraph, line61",
+      "players": [
+        "chelsea:chavarria",
+        "chelsea:welbeck",
+        "chelsea:neto",
+        "brentford:kelleher"
+      ],
+      "qualification": "One reported chance, not multiple incidents, a formal goal assist or a complete action total. Danny's existing exact observation remains unchanged."
+    },
+    {
+      "id": "rp-02",
+      "phase": "1H",
+      "reportedMinute": null,
+      "text": "Rogers shot from the rebound.",
+      "sources": [
+        "brentford"
+      ],
+      "locator": "Paragraph immediately after first chance, line62",
+      "players": [
+        "chelsea:rogers"
+      ],
+      "qualification": "Source describes an unsuccessful effort; no player total or exact minute supplied."
+    },
+    {
+      "id": "rp-03",
+      "phase": "1H",
+      "reportedMinute": null,
+      "text": "Kayode's throw reached Lewis-Potter, whose volley Palmer blocked.",
+      "sources": [
+        "brentford"
+      ],
+      "locator": "Midway first-half long-throw paragraph, line64",
+      "players": [
+        "brentford:kayode",
+        "brentford:lewis-potter",
+        "chelsea:palmer"
+      ],
+      "qualification": "Named roles are attributed to the report; exact minute/contact times remain unknown."
+    },
+    {
+      "id": "rp-04",
+      "phase": "1H",
+      "reportedMinute": null,
+      "text": "Kelleher held Rogers's free-kick after Damsgaard conceded it.",
+      "sources": [
+        "brentford"
+      ],
+      "locator": "Free-kick paragraph before Thiago hold-up, line66",
+      "players": [
+        "brentford:kelleher",
+        "chelsea:rogers",
+        "brentford:damsgaard"
+      ],
+      "qualification": "No inferred foul intent, card, formal defensive error or shot total."
+    },
+    {
+      "id": "rp-05",
+      "phase": "1H",
+      "reportedMinute": null,
+      "text": "Thiago held up Damsgaard's pass under Colwill's pressure; Martinez saved Yarmoliuk's shot.",
+      "sources": [
+        "brentford"
+      ],
+      "locator": "Thiago hold-up and Yarmoliuk effort paragraph, line67",
+      "players": [
+        "brentford:damsgaard",
+        "brentford:thiago",
+        "chelsea:colwill",
+        "brentford:yarmoliuk",
+        "chelsea:martinez"
+      ],
+      "qualification": "Pressure and the reported attacking sequence do not establish an assignment, measured duel or individual blame."
+    },
+    {
+      "id": "rp-06",
+      "phase": "1H",
+      "reportedMinute": null,
+      "text": "Lewis-Potter fed Damsgaard, who shot over.",
+      "sources": [
+        "brentford"
+      ],
+      "locator": "Lewis-Potter short-pass paragraph, line69",
+      "players": [
+        "brentford:lewis-potter",
+        "brentford:damsgaard"
+      ],
+      "qualification": "A selected reported example; no total or formal assist."
+    },
+    {
+      "id": "rp-07",
+      "phase": "1H",
+      "reportedMinute": null,
+      "text": "Chavarria supplied Rogers; Schuster blocked his shot.",
+      "sources": [
+        "chelsea",
+        "brentford"
+      ],
+      "locator": "Chelsea Bright beginning central Rogers attempt, line21; Brentford cutback paragraph, line71",
+      "players": [
+        "chelsea:chavarria",
+        "chelsea:rogers",
+        "brentford:schuster"
+      ],
+      "qualification": "Delivery, attempt and block are reported; no exact minute or complete statistics."
+    },
+    {
+      "id": "rp-08",
+      "phase": "1H",
+      "reportedMinute": null,
+      "text": "Janelt's shot was blocked; Thiago supplied Lewis-Potter, whose shot Martinez saved.",
+      "sources": [
+        "brentford"
+      ],
+      "locator": "Last first-half action paragraph, line72",
+      "players": [
+        "brentford:janelt",
+        "brentford:thiago",
+        "brentford:lewis-potter",
+        "chelsea:martinez"
+      ],
+      "qualification": "The blocker is not named; do not assign that block to a roster player."
+    },
+    {
+      "id": "rp-09",
+      "phase": "2H",
+      "reportedMinute": null,
+      "text": "Schade and Thiago linked to Yarmoliuk's cross; Anthony headed against the bar, offside.",
+      "sources": [
+        "brentford"
+      ],
+      "locator": "First action after the break, line88",
+      "players": [
+        "brentford:schade",
+        "brentford:thiago",
+        "brentford:yarmoliuk",
+        "brentford:anthony"
+      ],
+      "qualification": "An attributed offside passage, not a goal or exact contact time. Chelsea separately reports a goalkeeper touch; preserve that source distinction."
+    },
+    {
+      "id": "rp-10",
+      "phase": "2H",
+      "reportedMinute": null,
+      "text": "Janelt combined with Damsgaard, whose cross narrowly evaded Anthony.",
+      "sources": [
+        "brentford"
+      ],
+      "locator": "Combination and low-cross paragraph, line90",
+      "players": [
+        "brentford:janelt",
+        "brentford:damsgaard",
+        "brentford:anthony"
+      ],
+      "qualification": "No completed assist, missed assignment, player movement metric or invented timestamp."
+    },
+    {
+      "id": "rp-11",
+      "phase": "2H",
+      "reportedMinute": null,
+      "text": "Fofana headed clear before Thiago's volley went over.",
+      "sources": [
+        "brentford"
+      ],
+      "locator": "Damsgaard turn and Fofana aerial clearance paragraph, line91",
+      "players": [
+        "chelsea:fofana",
+        "brentford:thiago"
+      ],
+      "qualification": "Selected reported defensive/attacking contributions; no aerial-duel total or blame."
+    },
+    {
+      "id": "rp-12",
+      "phase": "2H",
+      "reportedMinute": null,
+      "text": "Brentford attributes an untimed second-half effort to Neto.",
+      "sources": [
+        "brentford"
+      ],
+      "locator": "Neto effort before the opening goal, line93",
+      "players": [
+        "chelsea:neto"
+      ],
+      "qualification": "Brentford names Neto; Chelsea describes a similarly placed pre-goal counter through Chavarria. Whether these accounts concern the same attack is unresolved. Preserve attributed identity disagreement; do not count two attempts or treat either intermediate actor as independently verified."
+    },
+    {
+      "id": "rp-13",
+      "phase": "2H",
+      "reportedMinute": null,
+      "text": "Chelsea attributes a counter-attack pass and wide effort to Martinez and Chavarria.",
+      "sources": [
+        "chelsea"
+      ],
+      "locator": "Counter-attack after Anthony offside header, line29",
+      "players": [
+        "chelsea:martinez",
+        "chelsea:chavarria"
+      ],
+      "qualification": "Chelsea names Chavarria; Brentford names Neto in a similarly placed pre-goal effort. Whether these are the same attack is unresolved. Do not add them as two attempts or infer a measured pass length, intended role or verified actor mapping. ASR commentary remains a locator, not independent confirmation."
+    },
+    {
+      "id": "rp-14",
+      "phase": "2H",
+      "reportedMinute": "61",
+      "text": "Damsgaard's corner, Schuster's headed return, Anthony's close-range header.",
+      "sources": [
+        "chelsea",
+        "brentford"
+      ],
+      "locator": "Chelsea opening-goal paragraph, line30; Brentford opening-goal paragraph, line94",
+      "players": [
+        "brentford:damsgaard",
+        "brentford:schuster",
+        "brentford:anthony"
+      ],
+      "runtimeDisposition": "Existing accepted goal1 sequence already supplies these player roles; do not create another goal or replace its time."
+    },
+    {
+      "id": "rp-15",
+      "phase": "2H",
+      "reportedMinute": null,
+      "text": "Henderson's corner passed Kelleher; Chelsea did not convert.",
+      "sources": [
+        "chelsea"
+      ],
+      "locator": "Chelsea corner shortly after the opening goal, line32",
+      "players": [
+        "chelsea:henderson",
+        "brentford:kelleher"
+      ],
+      "qualification": "Chelsea says the keeper missed the delivery; this alone does not establish culpability, a goal or an exact minute."
+    },
+    {
+      "id": "rp-16",
+      "phase": "2H",
+      "reportedMinute": "68 (Brentford)",
+      "text": "Schuster contacted a corner; Colwill could not turn the loose ball goalward.",
+      "sources": [
+        "brentford"
+      ],
+      "locator": "Corner chance reported at68, line96",
+      "players": [
+        "brentford:schuster",
+        "chelsea:colwill"
+      ],
+      "qualification": "Do not silently equate this contact with the differently described untimed Chelsea corner or infer a measured reaction speed."
+    },
+    {
+      "id": "rp-17",
+      "phase": "2H",
+      "reportedMinute": null,
+      "text": "Palmer turned Sangare; his deflected shot went behind.",
+      "sources": [
+        "brentford"
+      ],
+      "locator": "Palmer turn inside the area after the corner paragraph, line97",
+      "players": [
+        "chelsea:palmer",
+        "brentford:sangare"
+      ],
+      "qualification": "The report names Sangare as the nearby opponent, not the player who deflected the shot."
+    },
+    {
+      "id": "rp-18",
+      "phase": "2H",
+      "reportedMinute": null,
+      "text": "Barco had a penalty appeal rejected amid blocked attempts.",
+      "sources": [
+        "chelsea"
+      ],
+      "locator": "Corner-pressure paragraph, line35",
+      "players": [
+        "chelsea:barco"
+      ],
+      "qualification": "Reported appeal/outcome, not proof of a foul, referee error, VAR intervention or Barco's individual shot total."
+    },
+    {
+      "id": "rp-19",
+      "phase": "2H",
+      "reportedMinute": "80 (Brentford) / 83 (official event)",
+      "text": "Damsgaard released Schade; Martinez saved; Thiago scored the rebound.",
+      "sources": [
+        "brentford"
+      ],
+      "locator": "Second-goal paragraph, line99; Chelsea save/rebound corroboration, line38",
+      "players": [
+        "brentford:damsgaard",
+        "brentford:schade",
+        "chelsea:martinez",
+        "brentford:thiago"
+      ],
+      "runtimeDisposition": "Existing accepted goal2 sequence supplies these roles. Chelsea does not name the releasing passer. Preserve80/83report distinction and the original event release."
+    },
+    {
+      "id": "rp-20",
+      "phase": "2H",
+      "reportedMinute": "90+4 (official event)",
+      "text": "Schade crossed for Carvalho's far-post finish; Brentford alone names Acheampong's slight deflection.",
+      "sources": [
+        "chelsea",
+        "brentford"
+      ],
+      "locator": "Chelsea final-goal paragraph, line40; Brentford final-goal paragraph, line102",
+      "players": [
+        "brentford:schade",
+        "brentford:carvalho",
+        "chelsea:acheampong"
+      ],
+      "runtimeDisposition": "Existing accepted goal3 sequence supplies these roles. The deflection remains single-source/unverified and is not a formal assist or individual-blame finding."
+    },
+    {
+      "id": "rp-21",
+      "phase": "2H",
+      "reportedMinute": "87 (official substitution)",
+      "text": "Nicoll-Jazuli made his senior debut as a late substitute.",
+      "sources": [
+        "chelsea"
+      ],
+      "locator": "Late debut paragraph, line40; official outgoingBarco/incomingNicoll-Jazuli substitution",
+      "players": [
+        "chelsea:nicoll-jazuli"
+      ],
+      "qualification": "Participation/context, not a performance rating, exact playing-time total or verified on-ball contribution."
+    },
+    {
+      "id": "rp-22",
+      "phase": "2H",
+      "reportedMinute": null,
+      "text": "Martinez touched Anthony's header onto the bar, with offside flagged.",
+      "sources": [
+        "chelsea"
+      ],
+      "locator": "Early second-half offside header paragraph, line27",
+      "players": [
+        "chelsea:martinez",
+        "brentford:anthony"
+      ],
+      "qualification": "Chelsea's goalkeeper-touch account remains reported; not independently established by Brentford's crossbar description or a generated replay."
+    }
+  ],
+  "visualRows": [
+    {
+      "id": "vp-ouattara-01",
+      "personId": "person-pl-reference-brentford-ouattara",
+      "frame": "media-05481.png",
+      "frameSha256": "53aaf1cc169fb37496c3fbe16cd65b6b87faa1890a4ff99e406b09116de0115a",
+      "receiptSha256": "49ceeeec4e8e12e6900cc0aa0f7b43f3237e262f9e437a42356d554321fb37b1",
+      "mediaSeconds": 5481,
+      "displayedClock": "89:48",
+      "period": "2H",
+      "periodLocalMs": 2688000,
+      "conservativeEligibleAfterMs": 2700000,
+      "method": "observed",
+      "claimStatus": "confirmed",
+      "text": "Brentford11 faces a Chelsea player with the ball near the touchline.",
+      "qualification": "Readable shirt11 at this point only; no completed tackle, interception, recovery or outcome is established.",
+      "identityScope": "Single native frame only;fixture roster/shirt lookup",
+      "sourceAvailableAtUtc": null
+    },
+    {
+      "id": "vp-diouf-01",
+      "personId": "person-pl-reference-brentford-diouf",
+      "frame": "media-05308.png",
+      "frameSha256": "99608c3f7baa71a238168a6f1ea997fd0729043c438a6a1e2adb7d4e0bc060ef",
+      "receiptSha256": "934eab7e56528d1bae393088f6ef42ee802e24f1dd40361e941b387bab048242",
+      "mediaSeconds": 5308,
+      "displayedClock": "86:55",
+      "period": "2H",
+      "periodLocalMs": 2515000,
+      "conservativeEligibleAfterMs": 2520000,
+      "method": "observed",
+      "claimStatus": "confirmed",
+      "text": "Brentford25 is outside Chelsea penalty area alongside Chelsea41 during the attack.",
+      "qualification": "Readable shirt25 at this point only; no previous delivery, pass, run duration or defensive assignment is identified.",
+      "identityScope": "Single native frame only;fixture roster/shirt lookup",
+      "sourceAvailableAtUtc": null
+    },
+    {
+      "id": "vp-nicoll-jazuli-01",
+      "personId": "person-pl-reference-chelsea-nicoll-jazuli",
+      "frame": "media-05308.png",
+      "frameSha256": "99608c3f7baa71a238168a6f1ea997fd0729043c438a6a1e2adb7d4e0bc060ef",
+      "receiptSha256": "934eab7e56528d1bae393088f6ef42ee802e24f1dd40361e941b387bab048242",
+      "mediaSeconds": 5308,
+      "displayedClock": "86:55",
+      "period": "2H",
+      "periodLocalMs": 2515000,
+      "conservativeEligibleAfterMs": 2520000,
+      "method": "observed",
+      "claimStatus": "confirmed",
+      "text": "Chelsea32 is inside his own penalty area during a Brentford attack.",
+      "qualification": "Readable shirt32 at this point only; no preceding contact, marking assignment or defensive outcome is established.",
+      "identityScope": "Single native frame only;fixture roster/shirt lookup",
+      "sourceAvailableAtUtc": null
+    },
+    {
+      "id": "vp-estevao-01",
+      "personId": "person-pl-reference-chelsea-estevao",
+      "frame": "media-05308.png",
+      "frameSha256": "99608c3f7baa71a238168a6f1ea997fd0729043c438a6a1e2adb7d4e0bc060ef",
+      "receiptSha256": "934eab7e56528d1bae393088f6ef42ee802e24f1dd40361e941b387bab048242",
+      "mediaSeconds": 5308,
+      "displayedClock": "86:55",
+      "period": "2H",
+      "periodLocalMs": 2515000,
+      "conservativeEligibleAfterMs": 2520000,
+      "method": "observed",
+      "claimStatus": "confirmed",
+      "text": "Chelsea41 is outside his own penalty area alongside Brentford25.",
+      "qualification": "Readable shirt41 at this point only; this does not identify a late corner taker or any previous contact.",
+      "identityScope": "Single native frame only;fixture roster/shirt lookup",
+      "sourceAvailableAtUtc": null
+    },
+    {
+      "id": "vp-quenda-01",
+      "personId": "person-pl-reference-chelsea-quenda",
+      "frame": "media-04850.png",
+      "frameSha256": "0979540ba26031cda8178a0096e938ec4c9c339df912c2f4b976f3a3911ed08b",
+      "receiptSha256": "f9c3fb2b64a0685325bca7145ae693fb58032f026692a5866c36cd6dd7ffa753",
+      "mediaSeconds": 4850,
+      "displayedClock": "79:17",
+      "period": "2H",
+      "periodLocalMs": 2057000,
+      "conservativeEligibleAfterMs": 2100000,
+      "method": "observed",
+      "claimStatus": "confirmed",
+      "text": "The broadcast close-up reads G.QUENDA23.",
+      "qualification": "Identity and presence only. The camera cut does not identify Quenda as the player making the preceding wide delivery.",
+      "identityScope": "Single native frame only;fixture roster/shirt lookup",
+      "sourceAvailableAtUtc": null
+    },
+    {
+      "id": "vp-barco-01",
+      "personId": "person-pl-reference-chelsea-barco",
+      "frame": "media-04640.png",
+      "frameSha256": "46a8419baef8102bc8d6da375d394dc56824ef688a20cfd9599b521fa3d56ee5",
+      "receiptSha256": "fffce8a0ec21b8686c987e5fa39a462ba9fdc1da733b8189d2c26a26c9618f4c",
+      "mediaSeconds": 4640,
+      "displayedClock": "75:47",
+      "period": "2H",
+      "periodLocalMs": 1847000,
+      "conservativeEligibleAfterMs": 1860000,
+      "method": "observed",
+      "claimStatus": "confirmed",
+      "text": "Readable BARCO4 is lying on the pitch.",
+      "qualification": "No injury, cause, foul, penalty, intent or bridge to the preceding contact is established.",
+      "identityScope": "Single native frame only;fixture roster/shirt lookup",
+      "sourceAvailableAtUtc": null
+    },
+    {
+      "id": "vp-lacroix-01",
+      "personId": "person-pl-reference-chelsea-lacroix",
+      "frame": "media-05624.png",
+      "frameSha256": "548f97bc8c8d72ee4b0067cb2f35e087f5d08b47b0451f506c9fef3364d67cc6",
+      "receiptSha256": "21fa28040647ad08fdd0a839aa8b032fe8710cc2902ccc64b5b4c90c8a517598",
+      "mediaSeconds": 5624,
+      "displayedClock": "92:11",
+      "period": "2H",
+      "periodLocalMs": 2831000,
+      "conservativeEligibleAfterMs": 2880000,
+      "method": "observed",
+      "claimStatus": "confirmed",
+      "text": "Readable LACROIX5 appears in close-up beside a Brentford player.",
+      "qualification": "A point identity only. The preceding header, contact and its outcome are not established; the broadcast shows added time +5.",
+      "identityScope": "Single native frame only;fixture roster/shirt lookup",
+      "sourceAvailableAtUtc": null
+    },
+    {
+      "id": "vp-henderson-01",
+      "personId": "person-pl-reference-chelsea-henderson",
+      "frame": "media-04840.png",
+      "frameSha256": "8c1a935fc8f22da5cac8d8f4e9485c50cdd2fe7f4e4b4cd4dcb262f72fec2cfd",
+      "receiptSha256": "f2bfaaceb16d4eeb469030593f0e44ab484d888ffa289ecbc9d1203592039538",
+      "mediaSeconds": 4840,
+      "displayedClock": "79:07",
+      "period": "2H",
+      "periodLocalMs": 2047000,
+      "conservativeEligibleAfterMs": 2100000,
+      "method": "observed",
+      "claimStatus": "confirmed",
+      "text": "Chelsea14 is outside the image-left side of Brentford penalty area while the ball is farther left.",
+      "qualification": "Readable shirt14 at this point only; no pass receipt, delivery or intended-recipient role is established.",
+      "identityScope": "Single native frame only;fixture roster/shirt lookup",
+      "sourceAvailableAtUtc": null
+    }
+  ],
+  "participants": [
+    {
+      "personId": "person-pl-reference-brentford-kelleher",
+      "sourcePlayerId": "brentford:kelleher",
+      "name": "Caoimhín Kelleher",
+      "team": "brentford",
+      "shirt": 1,
+      "participation": "starter",
+      "dannyBaselineRetained": false,
+      "reportedClaimIds": [
+        "rp-01",
+        "rp-04",
+        "rp-15"
+      ],
+      "existingEventIds": [],
+      "transcriptSearch": "Full existing975segment transcript searched by read-only source specialist;ASR candidates are not accepted facts",
+      "nativeReview": "Existing accepted visual reviews and46targeted native samples inspected;identity/contact gaps retained",
+      "coverageDisposition": "additional_sparse_reported_or_observed_evidence",
+      "reportedPerformanceClaimIds": [
+        "rp-01",
+        "rp-04",
+        "rp-15"
+      ],
+      "nativeObservationIds": [],
+      "newObservationCount": 3
+    },
+    {
+      "personId": "person-pl-reference-brentford-kayode",
+      "sourcePlayerId": "brentford:kayode",
+      "name": "Michael Kayode",
+      "team": "brentford",
+      "shirt": 33,
+      "participation": "starter",
+      "dannyBaselineRetained": false,
+      "reportedClaimIds": [
+        "rp-03"
+      ],
+      "existingEventIds": [
+        "sub-5"
+      ],
+      "transcriptSearch": "Full existing975segment transcript searched by read-only source specialist;ASR candidates are not accepted facts",
+      "nativeReview": "Existing accepted visual reviews and46targeted native samples inspected;identity/contact gaps retained",
+      "coverageDisposition": "additional_sparse_reported_or_observed_evidence",
+      "reportedPerformanceClaimIds": [
+        "rp-03"
+      ],
+      "nativeObservationIds": [],
+      "newObservationCount": 1
+    },
+    {
+      "personId": "person-pl-reference-brentford-schuster",
+      "sourcePlayerId": "brentford:schuster",
+      "name": "Jannik Schuster",
+      "team": "brentford",
+      "shirt": 44,
+      "participation": "starter",
+      "dannyBaselineRetained": false,
+      "reportedClaimIds": [
+        "rp-07",
+        "rp-14",
+        "rp-16"
+      ],
+      "existingEventIds": [
+        "goal-1"
+      ],
+      "transcriptSearch": "Full existing975segment transcript searched by read-only source specialist;ASR candidates are not accepted facts",
+      "nativeReview": "Existing accepted visual reviews and46targeted native samples inspected;identity/contact gaps retained",
+      "coverageDisposition": "additional_sparse_reported_or_observed_evidence",
+      "reportedPerformanceClaimIds": [
+        "rp-07",
+        "rp-16"
+      ],
+      "nativeObservationIds": [],
+      "newObservationCount": 2
+    },
+    {
+      "personId": "person-pl-reference-brentford-ajer",
+      "sourcePlayerId": "brentford:ajer",
+      "name": "Kristoffer Ajer",
+      "team": "brentford",
+      "shirt": 20,
+      "participation": "starter",
+      "dannyBaselineRetained": false,
+      "reportedClaimIds": [],
+      "existingEventIds": [],
+      "transcriptSearch": "Full existing975segment transcript searched by read-only source specialist;ASR candidates are not accepted facts",
+      "nativeReview": "Existing accepted visual reviews and46targeted native samples inspected;identity/contact gaps retained",
+      "coverageDisposition": "participation_only_no_accepted_performance_action",
+      "reportedPerformanceClaimIds": [],
+      "nativeObservationIds": [],
+      "newObservationCount": 0
+    },
+    {
+      "personId": "person-pl-reference-brentford-lewis-potter",
+      "sourcePlayerId": "brentford:lewis-potter",
+      "name": "Keane Lewis-Potter",
+      "team": "brentford",
+      "shirt": 23,
+      "participation": "starter",
+      "dannyBaselineRetained": false,
+      "reportedClaimIds": [
+        "rp-03",
+        "rp-06",
+        "rp-08"
+      ],
+      "existingEventIds": [
+        "sub-7"
+      ],
+      "transcriptSearch": "Full existing975segment transcript searched by read-only source specialist;ASR candidates are not accepted facts",
+      "nativeReview": "Existing accepted visual reviews and46targeted native samples inspected;identity/contact gaps retained",
+      "coverageDisposition": "additional_sparse_reported_or_observed_evidence",
+      "reportedPerformanceClaimIds": [
+        "rp-03",
+        "rp-06",
+        "rp-08"
+      ],
+      "nativeObservationIds": [],
+      "newObservationCount": 3
+    },
+    {
+      "personId": "person-pl-reference-brentford-yarmoliuk",
+      "sourcePlayerId": "brentford:yarmoliuk",
+      "name": "Yehor Yarmoliuk",
+      "team": "brentford",
+      "shirt": 6,
+      "participation": "starter",
+      "dannyBaselineRetained": false,
+      "reportedClaimIds": [
+        "rp-05",
+        "rp-09"
+      ],
+      "existingEventIds": [
+        "sub-6"
+      ],
+      "transcriptSearch": "Full existing975segment transcript searched by read-only source specialist;ASR candidates are not accepted facts",
+      "nativeReview": "Existing accepted visual reviews and46targeted native samples inspected;identity/contact gaps retained",
+      "coverageDisposition": "additional_sparse_reported_or_observed_evidence",
+      "reportedPerformanceClaimIds": [
+        "rp-05",
+        "rp-09"
+      ],
+      "nativeObservationIds": [],
+      "newObservationCount": 2
+    },
+    {
+      "personId": "person-pl-reference-brentford-janelt",
+      "sourcePlayerId": "brentford:janelt",
+      "name": "Vitaly Janelt",
+      "team": "brentford",
+      "shirt": 27,
+      "participation": "starter",
+      "dannyBaselineRetained": false,
+      "reportedClaimIds": [
+        "rp-08",
+        "rp-10"
+      ],
+      "existingEventIds": [],
+      "transcriptSearch": "Full existing975segment transcript searched by read-only source specialist;ASR candidates are not accepted facts",
+      "nativeReview": "Existing accepted visual reviews and46targeted native samples inspected;identity/contact gaps retained",
+      "coverageDisposition": "additional_sparse_reported_or_observed_evidence",
+      "reportedPerformanceClaimIds": [
+        "rp-08",
+        "rp-10"
+      ],
+      "nativeObservationIds": [],
+      "newObservationCount": 2
+    },
+    {
+      "personId": "person-pl-reference-brentford-anthony",
+      "sourcePlayerId": "brentford:anthony",
+      "name": "Jaidon Anthony",
+      "team": "brentford",
+      "shirt": 19,
+      "participation": "starter",
+      "dannyBaselineRetained": false,
+      "reportedClaimIds": [
+        "rp-09",
+        "rp-10",
+        "rp-14",
+        "rp-22"
+      ],
+      "existingEventIds": [
+        "goal-1",
+        "sub-8"
+      ],
+      "transcriptSearch": "Full existing975segment transcript searched by read-only source specialist;ASR candidates are not accepted facts",
+      "nativeReview": "Existing accepted visual reviews and46targeted native samples inspected;identity/contact gaps retained",
+      "coverageDisposition": "additional_sparse_reported_or_observed_evidence",
+      "reportedPerformanceClaimIds": [
+        "rp-09",
+        "rp-10",
+        "rp-22"
+      ],
+      "nativeObservationIds": [],
+      "newObservationCount": 3
+    },
+    {
+      "personId": "person-pl-reference-brentford-damsgaard",
+      "sourcePlayerId": "brentford:damsgaard",
+      "name": "Mikkel Damsgaard",
+      "team": "brentford",
+      "shirt": 24,
+      "participation": "starter",
+      "dannyBaselineRetained": false,
+      "reportedClaimIds": [
+        "rp-04",
+        "rp-05",
+        "rp-06",
+        "rp-10",
+        "rp-14",
+        "rp-19"
+      ],
+      "existingEventIds": [
+        "sub-9"
+      ],
+      "transcriptSearch": "Full existing975segment transcript searched by read-only source specialist;ASR candidates are not accepted facts",
+      "nativeReview": "Existing accepted visual reviews and46targeted native samples inspected;identity/contact gaps retained",
+      "coverageDisposition": "additional_sparse_reported_or_observed_evidence",
+      "reportedPerformanceClaimIds": [
+        "rp-04",
+        "rp-05",
+        "rp-06",
+        "rp-10"
+      ],
+      "nativeObservationIds": [],
+      "newObservationCount": 4
+    },
+    {
+      "personId": "person-pl-reference-brentford-schade",
+      "sourcePlayerId": "brentford:schade",
+      "name": "Kevin Schade",
+      "team": "brentford",
+      "shirt": 7,
+      "participation": "starter",
+      "dannyBaselineRetained": false,
+      "reportedClaimIds": [
+        "rp-09",
+        "rp-19",
+        "rp-20"
+      ],
+      "existingEventIds": [],
+      "transcriptSearch": "Full existing975segment transcript searched by read-only source specialist;ASR candidates are not accepted facts",
+      "nativeReview": "Existing accepted visual reviews and46targeted native samples inspected;identity/contact gaps retained",
+      "coverageDisposition": "additional_sparse_reported_or_observed_evidence",
+      "reportedPerformanceClaimIds": [
+        "rp-09"
+      ],
+      "nativeObservationIds": [],
+      "newObservationCount": 1
+    },
+    {
+      "personId": "person-pl-reference-brentford-thiago",
+      "sourcePlayerId": "brentford:thiago",
+      "name": "Igor Thiago",
+      "team": "brentford",
+      "shirt": 9,
+      "participation": "starter",
+      "dannyBaselineRetained": false,
+      "reportedClaimIds": [
+        "rp-05",
+        "rp-08",
+        "rp-09",
+        "rp-11",
+        "rp-19"
+      ],
+      "existingEventIds": [
+        "goal-2",
+        "card-1"
+      ],
+      "transcriptSearch": "Full existing975segment transcript searched by read-only source specialist;ASR candidates are not accepted facts",
+      "nativeReview": "Existing accepted visual reviews and46targeted native samples inspected;identity/contact gaps retained",
+      "coverageDisposition": "additional_sparse_reported_or_observed_evidence",
+      "reportedPerformanceClaimIds": [
+        "rp-05",
+        "rp-08",
+        "rp-09",
+        "rp-11"
+      ],
+      "nativeObservationIds": [],
+      "newObservationCount": 4
+    },
+    {
+      "personId": "person-pl-reference-brentford-hickey",
+      "sourcePlayerId": "brentford:hickey",
+      "name": "Aaron Hickey",
+      "team": "brentford",
+      "shirt": 2,
+      "participation": "substitute_used",
+      "dannyBaselineRetained": false,
+      "reportedClaimIds": [],
+      "existingEventIds": [
+        "sub-5"
+      ],
+      "transcriptSearch": "Full existing975segment transcript searched by read-only source specialist;ASR candidates are not accepted facts",
+      "nativeReview": "Existing accepted visual reviews and46targeted native samples inspected;identity/contact gaps retained",
+      "coverageDisposition": "participation_only_no_accepted_performance_action",
+      "reportedPerformanceClaimIds": [],
+      "nativeObservationIds": [],
+      "newObservationCount": 0
+    },
+    {
+      "personId": "person-pl-reference-brentford-ouattara",
+      "sourcePlayerId": "brentford:ouattara",
+      "name": "Dango Ouattara",
+      "team": "brentford",
+      "shirt": 11,
+      "participation": "substitute_used",
+      "dannyBaselineRetained": false,
+      "reportedClaimIds": [],
+      "existingEventIds": [
+        "sub-8"
+      ],
+      "transcriptSearch": "Full existing975segment transcript searched by read-only source specialist;ASR candidates are not accepted facts",
+      "nativeReview": "Existing accepted visual reviews and46targeted native samples inspected;identity/contact gaps retained",
+      "coverageDisposition": "additional_sparse_reported_or_observed_evidence",
+      "reportedPerformanceClaimIds": [],
+      "nativeObservationIds": [
+        "vp-ouattara-01"
+      ],
+      "newObservationCount": 1
+    },
+    {
+      "personId": "person-pl-reference-brentford-carvalho",
+      "sourcePlayerId": "brentford:carvalho",
+      "name": "Fábio Carvalho",
+      "team": "brentford",
+      "shirt": 14,
+      "participation": "substitute_used",
+      "dannyBaselineRetained": false,
+      "reportedClaimIds": [
+        "rp-20"
+      ],
+      "existingEventIds": [
+        "sub-9",
+        "goal-3"
+      ],
+      "transcriptSearch": "Full existing975segment transcript searched by read-only source specialist;ASR candidates are not accepted facts",
+      "nativeReview": "Existing accepted visual reviews and46targeted native samples inspected;identity/contact gaps retained",
+      "coverageDisposition": "existing_reported_goal_sequence_contribution",
+      "reportedPerformanceClaimIds": [],
+      "nativeObservationIds": [],
+      "newObservationCount": 0
+    },
+    {
+      "personId": "person-pl-reference-brentford-sangare",
+      "sourcePlayerId": "brentford:sangare",
+      "name": "Mamadou Sangaré",
+      "team": "brentford",
+      "shirt": 18,
+      "participation": "substitute_used",
+      "dannyBaselineRetained": false,
+      "reportedClaimIds": [
+        "rp-17"
+      ],
+      "existingEventIds": [
+        "sub-6",
+        "card-2"
+      ],
+      "transcriptSearch": "Full existing975segment transcript searched by read-only source specialist;ASR candidates are not accepted facts",
+      "nativeReview": "Existing accepted visual reviews and46targeted native samples inspected;identity/contact gaps retained",
+      "coverageDisposition": "additional_sparse_reported_or_observed_evidence",
+      "reportedPerformanceClaimIds": [
+        "rp-17"
+      ],
+      "nativeObservationIds": [],
+      "newObservationCount": 1
+    },
+    {
+      "personId": "person-pl-reference-brentford-diouf",
+      "sourcePlayerId": "brentford:diouf",
+      "name": "El Hadji Malick Diouf",
+      "team": "brentford",
+      "shirt": 25,
+      "participation": "substitute_used",
+      "dannyBaselineRetained": false,
+      "reportedClaimIds": [],
+      "existingEventIds": [
+        "sub-7"
+      ],
+      "transcriptSearch": "Full existing975segment transcript searched by read-only source specialist;ASR candidates are not accepted facts",
+      "nativeReview": "Existing accepted visual reviews and46targeted native samples inspected;identity/contact gaps retained",
+      "coverageDisposition": "additional_sparse_reported_or_observed_evidence",
+      "reportedPerformanceClaimIds": [],
+      "nativeObservationIds": [
+        "vp-diouf-01"
+      ],
+      "newObservationCount": 1
+    },
+    {
+      "personId": "person-pl-reference-chelsea-martinez",
+      "sourcePlayerId": "chelsea:martinez",
+      "name": "Emiliano Martinez",
+      "team": "chelsea",
+      "shirt": 1,
+      "participation": "starter",
+      "dannyBaselineRetained": false,
+      "reportedClaimIds": [
+        "rp-05",
+        "rp-08",
+        "rp-13",
+        "rp-19",
+        "rp-22"
+      ],
+      "existingEventIds": [],
+      "transcriptSearch": "Full existing975segment transcript searched by read-only source specialist;ASR candidates are not accepted facts",
+      "nativeReview": "Existing accepted visual reviews and46targeted native samples inspected;identity/contact gaps retained",
+      "coverageDisposition": "additional_sparse_reported_or_observed_evidence",
+      "reportedPerformanceClaimIds": [
+        "rp-05",
+        "rp-08",
+        "rp-13",
+        "rp-22"
+      ],
+      "nativeObservationIds": [],
+      "newObservationCount": 4
+    },
+    {
+      "personId": "person-pl-reference-chelsea-fofana",
+      "sourcePlayerId": "chelsea:fofana",
+      "name": "Wesley Fofana",
+      "team": "chelsea",
+      "shirt": 3,
+      "participation": "starter",
+      "dannyBaselineRetained": false,
+      "reportedClaimIds": [
+        "rp-11"
+      ],
+      "existingEventIds": [
+        "sub-1"
+      ],
+      "transcriptSearch": "Full existing975segment transcript searched by read-only source specialist;ASR candidates are not accepted facts",
+      "nativeReview": "Existing accepted visual reviews and46targeted native samples inspected;identity/contact gaps retained",
+      "coverageDisposition": "additional_sparse_reported_or_observed_evidence",
+      "reportedPerformanceClaimIds": [
+        "rp-11"
+      ],
+      "nativeObservationIds": [],
+      "newObservationCount": 1
+    },
+    {
+      "personId": "person-pl-reference-chelsea-lacroix",
+      "sourcePlayerId": "chelsea:lacroix",
+      "name": "Maxence Lacroix",
+      "team": "chelsea",
+      "shirt": 5,
+      "participation": "starter",
+      "dannyBaselineRetained": false,
+      "reportedClaimIds": [],
+      "existingEventIds": [],
+      "transcriptSearch": "Full existing975segment transcript searched by read-only source specialist;ASR candidates are not accepted facts",
+      "nativeReview": "Existing accepted visual reviews and46targeted native samples inspected;identity/contact gaps retained",
+      "coverageDisposition": "additional_sparse_reported_or_observed_evidence",
+      "reportedPerformanceClaimIds": [],
+      "nativeObservationIds": [
+        "vp-lacroix-01"
+      ],
+      "newObservationCount": 1
+    },
+    {
+      "personId": "person-pl-reference-chelsea-colwill",
+      "sourcePlayerId": "chelsea:colwill",
+      "name": "Levi Colwill",
+      "team": "chelsea",
+      "shirt": 6,
+      "participation": "starter",
+      "dannyBaselineRetained": false,
+      "reportedClaimIds": [
+        "rp-05",
+        "rp-16"
+      ],
+      "existingEventIds": [],
+      "transcriptSearch": "Full existing975segment transcript searched by read-only source specialist;ASR candidates are not accepted facts",
+      "nativeReview": "Existing accepted visual reviews and46targeted native samples inspected;identity/contact gaps retained",
+      "coverageDisposition": "additional_sparse_reported_or_observed_evidence",
+      "reportedPerformanceClaimIds": [
+        "rp-05",
+        "rp-16"
+      ],
+      "nativeObservationIds": [],
+      "newObservationCount": 2
+    },
+    {
+      "personId": "person-pl-reference-chelsea-neto",
+      "sourcePlayerId": "chelsea:neto",
+      "name": "Pedro Neto",
+      "team": "chelsea",
+      "shirt": 7,
+      "participation": "starter",
+      "dannyBaselineRetained": false,
+      "reportedClaimIds": [
+        "rp-01",
+        "rp-12"
+      ],
+      "existingEventIds": [
+        "sub-4"
+      ],
+      "transcriptSearch": "Full existing975segment transcript searched by read-only source specialist;ASR candidates are not accepted facts",
+      "nativeReview": "Existing accepted visual reviews and46targeted native samples inspected;identity/contact gaps retained",
+      "coverageDisposition": "additional_sparse_reported_or_observed_evidence",
+      "reportedPerformanceClaimIds": [
+        "rp-01",
+        "rp-12"
+      ],
+      "nativeObservationIds": [],
+      "newObservationCount": 2
+    },
+    {
+      "personId": "person-pl-reference-chelsea-henderson",
+      "sourcePlayerId": "chelsea:henderson",
+      "name": "Jordan Henderson",
+      "team": "chelsea",
+      "shirt": 14,
+      "participation": "starter",
+      "dannyBaselineRetained": false,
+      "reportedClaimIds": [
+        "rp-15"
+      ],
+      "existingEventIds": [],
+      "transcriptSearch": "Full existing975segment transcript searched by read-only source specialist;ASR candidates are not accepted facts",
+      "nativeReview": "Existing accepted visual reviews and46targeted native samples inspected;identity/contact gaps retained",
+      "coverageDisposition": "additional_sparse_reported_or_observed_evidence",
+      "reportedPerformanceClaimIds": [
+        "rp-15"
+      ],
+      "nativeObservationIds": [
+        "vp-henderson-01"
+      ],
+      "newObservationCount": 2
+    },
+    {
+      "personId": "person-pl-reference-chelsea-barco",
+      "sourcePlayerId": "chelsea:barco",
+      "name": "Valentin Barco",
+      "team": "chelsea",
+      "shirt": 4,
+      "participation": "starter",
+      "dannyBaselineRetained": false,
+      "reportedClaimIds": [
+        "rp-18"
+      ],
+      "existingEventIds": [
+        "sub-3"
+      ],
+      "transcriptSearch": "Full existing975segment transcript searched by read-only source specialist;ASR candidates are not accepted facts",
+      "nativeReview": "Existing accepted visual reviews and46targeted native samples inspected;identity/contact gaps retained",
+      "coverageDisposition": "additional_sparse_reported_or_observed_evidence",
+      "reportedPerformanceClaimIds": [
+        "rp-18"
+      ],
+      "nativeObservationIds": [
+        "vp-barco-01"
+      ],
+      "newObservationCount": 2
+    },
+    {
+      "personId": "person-pl-reference-chelsea-chavarria",
+      "sourcePlayerId": "chelsea:chavarria",
+      "name": "Pep Chavarria",
+      "team": "chelsea",
+      "shirt": 29,
+      "participation": "starter",
+      "dannyBaselineRetained": false,
+      "reportedClaimIds": [
+        "rp-01",
+        "rp-07",
+        "rp-13"
+      ],
+      "existingEventIds": [],
+      "transcriptSearch": "Full existing975segment transcript searched by read-only source specialist;ASR candidates are not accepted facts",
+      "nativeReview": "Existing accepted visual reviews and46targeted native samples inspected;identity/contact gaps retained",
+      "coverageDisposition": "additional_sparse_reported_or_observed_evidence",
+      "reportedPerformanceClaimIds": [
+        "rp-01",
+        "rp-07",
+        "rp-13"
+      ],
+      "nativeObservationIds": [],
+      "newObservationCount": 3
+    },
+    {
+      "personId": "person-pl-reference-chelsea-palmer",
+      "sourcePlayerId": "chelsea:palmer",
+      "name": "Cole Palmer",
+      "team": "chelsea",
+      "shirt": 10,
+      "participation": "starter",
+      "dannyBaselineRetained": false,
+      "reportedClaimIds": [
+        "rp-03",
+        "rp-17"
+      ],
+      "existingEventIds": [],
+      "transcriptSearch": "Full existing975segment transcript searched by read-only source specialist;ASR candidates are not accepted facts",
+      "nativeReview": "Existing accepted visual reviews and46targeted native samples inspected;identity/contact gaps retained",
+      "coverageDisposition": "additional_sparse_reported_or_observed_evidence",
+      "reportedPerformanceClaimIds": [
+        "rp-03",
+        "rp-17"
+      ],
+      "nativeObservationIds": [],
+      "newObservationCount": 2
+    },
+    {
+      "personId": "person-pl-reference-chelsea-rogers",
+      "sourcePlayerId": "chelsea:rogers",
+      "name": "Morgan Rogers",
+      "team": "chelsea",
+      "shirt": 17,
+      "participation": "starter",
+      "dannyBaselineRetained": false,
+      "reportedClaimIds": [
+        "rp-02",
+        "rp-04",
+        "rp-07"
+      ],
+      "existingEventIds": [],
+      "transcriptSearch": "Full existing975segment transcript searched by read-only source specialist;ASR candidates are not accepted facts",
+      "nativeReview": "Existing accepted visual reviews and46targeted native samples inspected;identity/contact gaps retained",
+      "coverageDisposition": "additional_sparse_reported_or_observed_evidence",
+      "reportedPerformanceClaimIds": [
+        "rp-02",
+        "rp-04",
+        "rp-07"
+      ],
+      "nativeObservationIds": [],
+      "newObservationCount": 3
+    },
+    {
+      "personId": "person-pl-reference-chelsea-welbeck",
+      "sourcePlayerId": "chelsea:welbeck",
+      "name": "Danny Welbeck",
+      "team": "chelsea",
+      "shirt": 18,
+      "participation": "starter",
+      "dannyBaselineRetained": true,
+      "reportedClaimIds": [
+        "rp-01"
+      ],
+      "existingEventIds": [
+        "sub-2"
+      ],
+      "transcriptSearch": "Full existing975segment transcript searched by read-only source specialist;ASR candidates are not accepted facts",
+      "nativeReview": "Existing accepted visual reviews and46targeted native samples inspected;identity/contact gaps retained",
+      "coverageDisposition": "danny_three_observations_retained",
+      "reportedPerformanceClaimIds": [
+        "rp-01"
+      ],
+      "nativeObservationIds": [],
+      "newObservationCount": 0
+    },
+    {
+      "personId": "person-pl-reference-chelsea-quenda",
+      "sourcePlayerId": "chelsea:quenda",
+      "name": "Geovany Quenda",
+      "team": "chelsea",
+      "shirt": 23,
+      "participation": "substitute_used",
+      "dannyBaselineRetained": false,
+      "reportedClaimIds": [],
+      "existingEventIds": [
+        "sub-2"
+      ],
+      "transcriptSearch": "Full existing975segment transcript searched by read-only source specialist;ASR candidates are not accepted facts",
+      "nativeReview": "Existing accepted visual reviews and46targeted native samples inspected;identity/contact gaps retained",
+      "coverageDisposition": "additional_sparse_reported_or_observed_evidence",
+      "reportedPerformanceClaimIds": [],
+      "nativeObservationIds": [
+        "vp-quenda-01"
+      ],
+      "newObservationCount": 1
+    },
+    {
+      "personId": "person-pl-reference-chelsea-nicoll-jazuli",
+      "sourcePlayerId": "chelsea:nicoll-jazuli",
+      "name": "Mahdi Nicoll-Jazuli",
+      "team": "chelsea",
+      "shirt": 32,
+      "participation": "substitute_used",
+      "dannyBaselineRetained": false,
+      "reportedClaimIds": [
+        "rp-21"
+      ],
+      "existingEventIds": [
+        "sub-3"
+      ],
+      "transcriptSearch": "Full existing975segment transcript searched by read-only source specialist;ASR candidates are not accepted facts",
+      "nativeReview": "Existing accepted visual reviews and46targeted native samples inspected;identity/contact gaps retained",
+      "coverageDisposition": "additional_sparse_reported_or_observed_evidence",
+      "reportedPerformanceClaimIds": [
+        "rp-21"
+      ],
+      "nativeObservationIds": [
+        "vp-nicoll-jazuli-01"
+      ],
+      "newObservationCount": 2
+    },
+    {
+      "personId": "person-pl-reference-chelsea-acheampong",
+      "sourcePlayerId": "chelsea:acheampong",
+      "name": "Josh Acheampong",
+      "team": "chelsea",
+      "shirt": 34,
+      "participation": "substitute_used",
+      "dannyBaselineRetained": false,
+      "reportedClaimIds": [
+        "rp-20"
+      ],
+      "existingEventIds": [
+        "sub-1"
+      ],
+      "transcriptSearch": "Full existing975segment transcript searched by read-only source specialist;ASR candidates are not accepted facts",
+      "nativeReview": "Existing accepted visual reviews and46targeted native samples inspected;identity/contact gaps retained",
+      "coverageDisposition": "existing_reported_goal_sequence_contribution",
+      "reportedPerformanceClaimIds": [],
+      "nativeObservationIds": [],
+      "newObservationCount": 0
+    },
+    {
+      "personId": "person-pl-reference-chelsea-estevao",
+      "sourcePlayerId": "chelsea:estevao",
+      "name": "Estevao Willian",
+      "team": "chelsea",
+      "shirt": 41,
+      "participation": "substitute_used",
+      "dannyBaselineRetained": false,
+      "reportedClaimIds": [],
+      "existingEventIds": [
+        "sub-4"
+      ],
+      "transcriptSearch": "Full existing975segment transcript searched by read-only source specialist;ASR candidates are not accepted facts",
+      "nativeReview": "Existing accepted visual reviews and46targeted native samples inspected;identity/contact gaps retained",
+      "coverageDisposition": "additional_sparse_reported_or_observed_evidence",
+      "reportedPerformanceClaimIds": [],
+      "nativeObservationIds": [
+        "vp-estevao-01"
+      ],
+      "newObservationCount": 1
+    }
+  ],
+  "unusedBench": [
+    "person-pl-reference-brentford-henry",
+    "person-pl-reference-brentford-wilson",
+    "person-pl-reference-brentford-balcombe",
+    "person-pl-reference-brentford-fredrick",
+    "person-pl-reference-chelsea-gittens",
+    "person-pl-reference-chelsea-hato",
+    "person-pl-reference-chelsea-gusto",
+    "person-pl-reference-chelsea-penders",
+    "person-pl-reference-chelsea-lavia"
+  ],
+  "existingEventContextRowsOnly": [
+    "rp-14",
+    "rp-19",
+    "rp-20"
+  ],
+  "withheld": [
+    {
+      "reason": "Small shirt20 remains a coordinator legibility gap;no advancing/carry interval accepted.",
+      "candidate": "Ajer advance/carry or point20"
+    },
+    {
+      "reason": "Native wide shirt2 remains ambiguous;ASR attribution not promoted.",
+      "candidate": "Hickey clearance/delivery identity"
+    },
+    {
+      "reason": "Readable later closeup does not identify earlier contact across a cut.",
+      "candidate": "Lacroix clearances/header miss"
+    },
+    {
+      "reason": "Closeup after cut does not identify previous wide contacts.",
+      "candidate": "Quenda deliveries"
+    },
+    {
+      "reason": "Prone point does not establish cause or legal decision.",
+      "candidate": "Barco foul/penalty/injury"
+    },
+    {
+      "reason": "Corner taker unreadable;source clocks96:02/05/08 exceed authoredsecondhalf51:00 endpoint;no clamp/retiming.",
+      "candidate": "Estevao late corner or point at5855/5858/5861"
+    },
+    {
+      "reason": "Additional discrete presence offers no new action;not promoted as another contribution.",
+      "candidate": "Diouf5460secondpoint"
+    }
+  ],
+  "originals": "All baseline24hashes andD095Danny3observations unchanged;no source reimport",
+  "timePolicy": "Reportedphase-only actions retainnullFootballTime endpoints andprecisionunknown;releaseonlyatendofthatperiodasexistingauthoredschedulepolicy. Actualpointclocksretainedwithconservativenextminuteeligibility. Unknownsourceavailability staysnull. Neverclampknownoutofcoveragepointtimes.",
+  "sourcePolicy": "One pinned curated review source may aggregate this normalized review with explicit originalreportURLs/paragraphs orframe/hash locators in each evidence item, preservingtransitive provenance and8sourcebundlecap. Retain originalD095source references andobservations verbatim.",
+  "independentVerification": "Implementation/factual/diff andactualuserapp gates required separately;thisartifact doesnotclaim thosepassed",
+  "supersedesSha256": "0619fb9694f79ca8260eb9c4f23bc0427491674d7ccb8618c36b44602a2acf06",
+  "amendment": "Source ambiguity clarified before implementation freeze:untimedpre-goalNeto/Chavarria accounts maydescribeoneattack;noclaimtheyare2incidents or2shots. No observationcount,eligibility,identityorotherfactualchange."
+}

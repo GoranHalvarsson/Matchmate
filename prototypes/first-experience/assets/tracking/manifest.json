@@ -1,0 +1,69 @@
+{
+  "source": "SkillCorner/opendata",
+  "pin": "4340d274572876239c154c90bc507a9b3250a656",
+  "matchId": 1874553,
+  "retrievedAt": "2026-10-17T11:42:57.853403+00:00",
+  "parserBytes": 4092971,
+  "parserByteCap": 20000000,
+  "selection": "First half 01:00-04:00 inclusive; 1801 samples, 22 source-roster identities.",
+  "rawPrefixRetained": false,
+  "fullTrackingObjectDownloaded": false,
+  "eventsImported": false,
+  "hashSemantics": "Receipts hash exact parser-returned bytes. Tracking receipt is a prefix, not the complete LFS object.",
+  "license": {
+    "name": "MIT",
+    "copyright": "Copyright (c) 2020 SkillCorner. https://skillcorner.com",
+    "file": "SKILLCORNER-LICENSE.txt"
+  },
+  "receipts": [
+    {
+      "kind": "metadata",
+      "url": "https://raw.githubusercontent.com/SkillCorner/opendata/4340d274572876239c154c90bc507a9b3250a656/data/matches/1874553/1874553_match.json",
+      "resolvedUrl": "https://raw.githubusercontent.com/SkillCorner/opendata/4340d274572876239c154c90bc507a9b3250a656/data/matches/1874553/1874553_match.json",
+      "status": 200,
+      "scope": "whole small response",
+      "bytes": 33730,
+      "sha256": "e6974e402779d8be44e75bf88ef2a3acfd4d025b87b3fc57f518fa826a645ad8"
+    },
+    {
+      "kind": "pointer",
+      "url": "https://raw.githubusercontent.com/SkillCorner/opendata/4340d274572876239c154c90bc507a9b3250a656/data/matches/1874553/1874553_tracking_extrapolated.jsonl",
+      "resolvedUrl": "https://raw.githubusercontent.com/SkillCorner/opendata/4340d274572876239c154c90bc507a9b3250a656/data/matches/1874553/1874553_tracking_extrapolated.jsonl",
+      "status": 200,
+      "scope": "whole small response",
+      "bytes": 133,
+      "sha256": "deb9af1b3d17b7eb59df6296cee4c42532342d87c59d33e381aeb3fd44a5f15b"
+    },
+    {
+      "kind": "tracking-prefix",
+      "url": "https://media.githubusercontent.com/media/SkillCorner/opendata/4340d274572876239c154c90bc507a9b3250a656/data/matches/1874553/1874553_tracking_extrapolated.jsonl",
+      "resolvedUrl": "https://media.githubusercontent.com/media/SkillCorner/opendata/4340d274572876239c154c90bc507a9b3250a656/data/matches/1874553/1874553_tracking_extrapolated.jsonl",
+      "status": 200,
+      "scope": "first 2411 complete lines only",
+      "bytes": 4058011,
+      "sha256": "172e0c1ab68fb515b93fabbdbc99c4d9cb8d7991c71550a82d5d6fd3d9659ff8"
+    },
+    {
+      "kind": "license",
+      "url": "https://raw.githubusercontent.com/SkillCorner/opendata/4340d274572876239c154c90bc507a9b3250a656/LICENSE",
+      "resolvedUrl": "https://raw.githubusercontent.com/SkillCorner/opendata/4340d274572876239c154c90bc507a9b3250a656/LICENSE",
+      "status": 200,
+      "scope": "whole small response",
+      "bytes": 1097,
+      "sha256": "3384cc66ffd008209759af5e6328677eabded72756fb1f56f4f82e68e9b3c6eb"
+    }
+  ],
+  "artifacts": [
+    {
+      "file": "1874553-60-240.json",
+      "bytes": 2865871,
+      "sha256": "291fa78ef599c34dac6ee04bb8c140fe802882fb6ccca6baa95d8eac69258cd6"
+    },
+    {
+      "file": "SKILLCORNER-LICENSE.txt",
+      "bytes": 1097,
+      "sha256": "3384cc66ffd008209759af5e6328677eabded72756fb1f56f4f82e68e9b3c6eb"
+    }
+  ],
+  "scope": "Authorized local unpublished recorded technical sample only. Premier League/live sourcing and hackathon submission clearance remain separate."
+}

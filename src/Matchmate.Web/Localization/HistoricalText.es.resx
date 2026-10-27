@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms</value></resheader>
+  <data name="PageTitle" xml:space="preserve"><value>Matchmate · Un partido en su temporada</value></data>
+  <data name="BackSeason" xml:space="preserve"><value>← Volver a la temporada</value></data>
+  <data name="SelectedMatch" xml:space="preserve"><value>Partido seleccionado</value></data>
+  <data name="OngoingResult" xml:space="preserve"><value>Resultado de la temporada en curso</value></data>
+  <data name="HistoricalResult" xml:space="preserve"><value>Resultado histórico</value></data>
+  <data name="FullTime" xml:space="preserve"><value>Finalizado</value></data>
+  <data name="Home" xml:space="preserve"><value>Local</value></data>
+  <data name="Away" xml:space="preserve"><value>Visitante</value></data>
+  <data name="ScoreLabel" xml:space="preserve"><value>{0} {1} – {2} {3}, finalizado</value></data>
+  <data name="Freshness" xml:space="preserve"><value>Resultados hasta el {0} · Obtenido el {1} UTC · Sin actualizaciones automáticas.</value></data>
+  <data name="ExploreFacts" xml:space="preserve"><value>Explorar los datos del partido</value></data>
+  <data name="FactsHint" xml:space="preserve"><value>Forma, tabla, encuentros anteriores y estadio</value></data>
+  <data name="BeforeMatch" xml:space="preserve"><value>Antes del partido</value></data>
+  <data name="HowArrived" xml:space="preserve"><value>Cómo llegaron.</value></data>
+  <data name="PreMatchNote" xml:space="preserve"><value>Hasta cinco resultados estrictamente anteriores a esta fecha, del más antiguo al más reciente. Los partidos del mismo día no cuentan para la forma previa.</value></data>
+  <data name="EndPlayedDate" xml:space="preserve"><value>Final de la fecha de juego</value></data>
+  <data name="TableAround" xml:space="preserve"><value>Su entorno en la tabla.</value></data>
+  <data name="Position" xml:space="preserve"><value>Posición</value></data>
+  <data name="Points" xml:space="preserve"><value>Puntos</value></data>
+  <data name="OnDate" xml:space="preserve"><value>En esta fecha</value></data>
+  <data name="NoPreviousRank" xml:space="preserve"><value>No hay puesto de la fecha de juego anterior.</value></data>
+  <data name="PositionChange" xml:space="preserve"><value>Cambio de posición: {0} respecto a la fecha de juego anterior.</value></data>
+  <data name="MovementNote" xml:space="preserve"><value>Contribuyen todos los resultados de esta fecha. Los cambios no se atribuyen solo a este partido.</value></data>
+  <data name="EarlierMeetings" xml:space="preserve"><value>Encuentros anteriores</value></data>
+  <data name="BeforeDay" xml:space="preserve"><value>Antes de este día.</value></data>
+  <data name="NoEarlierMeeting" xml:space="preserve"><value>No hay encuentros anteriores en las temporadas cargadas.</value></data>
+  <data name="PlaceInTime" xml:space="preserve"><value>Un lugar en el tiempo.</value></data>
+  <data name="GroundNote" xml:space="preserve"><value>Referencia del estadio del club para esa temporada, no confirmación de la sede de este partido.</value></data>
+  <data name="SourcesCoverage" xml:space="preserve"><value>Fuentes y cobertura</value></data>
+  <data name="ResultsLabel" xml:space="preserve"><value>Resultados:</value></data>
+  <data name="CommunityLicense" xml:space="preserve"><value> (mantenido por la comunidad, CC0).</value></data>
+  <data name="SourceNote" xml:space="preserve"><value>Esta referencia aporta resultados, forma previa, posiciones y encuentros anteriores de las temporadas cargadas. No incluye goleadores, alineaciones ni eventos del partido. Los estadios son referencias de temporada.</value></data>
+  <data name="CrestLicense" xml:space="preserve"><value>La licencia de los resultados no cubre los escudos de los clubes.</value></data>
+  <data name="FindingMatch" xml:space="preserve"><value>Buscando el partido…</value></data>
+  <data name="MatchUnavailable" xml:space="preserve"><value>Este partido no está disponible</value></data>
+  <data name="TryAgain" xml:space="preserve"><value>Intentar de nuevo</value></data>
+  <data name="StatusLoading" xml:space="preserve"><value>Cargando el contexto del resultado respaldado por fuentes…</value></data>
+  <data name="StatusUnavailable" xml:space="preserve"><value>Este resultado no está disponible. Comprueba la temporada seleccionada o reintenta cuando arranque la API.</value></data>
+  <data name="LegacyPageTitle" xml:space="preserve"><value>Matchmate · Partido grabado</value></data>
+  <data name="LegacyTagline" xml:space="preserve"><value>Un poco más cerca del partido.</value></data>
+  <data name="RecordedReplay" xml:space="preserve"><value>Repetición grabada</value></data>
+  <data name="ChooseRecording" xml:space="preserve"><value>Elige una grabación</value></data>
+  <data name="RecordingOption" xml:space="preserve"><value>{0} contra {1} · {2}</value></data>
+  <data name="RecordedExperience" xml:space="preserve"><value>Experiencia de partido grabado</value></data>
+  <data name="CloserGame" xml:space="preserve"><value>Una mirada más cercana al juego.</value></data>
+  <data name="RecordedOrigin" xml:space="preserve"><value>Muestra grabada de {0} · retrospectiva</value></data>
+  <data name="Versus" xml:space="preserve"><value>contra</value></data>
+  <data name="SourceInterval" xml:space="preserve"><value>{0} · intervalo de la fuente {1}–{2}. Sin señal en directo ni marcador deducido.</value></data>
+  <data name="Period" xml:space="preserve"><value>Periodo {0}</value></data>
+  <data name="PassageEnd" xml:space="preserve"><value>de {0}, fin del fragmento</value></data>
+  <data name="RecordedTracking" xml:space="preserve"><value>Repetición del seguimiento grabado</value></data>
+  <data name="MomentShape" xml:space="preserve"><value>La forma del momento</value></data>
+  <data name="LoadingFrame" xml:space="preserve"><value>Cargando fotograma</value></data>
+  <data name="AvailablePositions" xml:space="preserve"><value>{0} / {1} posiciones disponibles</value></data>
+  <data name="RecordedPositionsLabel" xml:space="preserve"><value>Posiciones grabadas de jugadores y balón; no se dibujan las ausentes</value></data>
+  <data name="BallQuality" xml:space="preserve"><value>Balón · {0}</value></data>
+  <data name="RecordingGap" xml:space="preserve"><value>Un vacío en la grabación</value></data>
+  <data name="PositionsUnavailable" xml:space="preserve"><value>Las posiciones de los jugadores no están disponibles aquí.</value></data>
+  <data name="LoadingMoment" xml:space="preserve"><value>Cargando este momento…</value></data>
+  <data name="BallLegend" xml:space="preserve"><value>Balón: {0}</value></data>
+  <data name="LoadingValue" xml:space="preserve"><value>cargando</value></data>
+  <data name="PositionLegend" xml:space="preserve"><value>Sólido = detectado · hueco discontinuo = estimado · cuadrado = calidad desconocida · no se dibujan posiciones ausentes</value></data>
+  <data name="Pause" xml:space="preserve"><value>Pausa</value></data>
+  <data name="Play" xml:space="preserve"><value>Reproducir</value></data>
+  <data name="ReplayTime" xml:space="preserve"><value>Tiempo de la repetición</value></data>
+  <data name="SourceGap" xml:space="preserve"><value>Vacío en la fuente · {0}–{1}</value></data>
+  <data name="GapNote" xml:space="preserve"><value>La reproducción se pausa al llegar a un vacío. Continúa por él o ve a un momento disponible.</value></data>
+  <data name="ContinueGap" xml:space="preserve"><value>Continuar por el vacío</value></data>
+  <data name="SkipNext" xml:space="preserve"><value>Saltar al siguiente</value></data>
+  <data name="ReturnBeforeGap" xml:space="preserve"><value>Volver antes del vacío</value></data>
+  <data name="RetryMoment" xml:space="preserve"><value>Reintentar el momento</value></data>
+  <data name="ChoosePlayer" xml:space="preserve"><value>Elige un jugador</value></data>
+  <data name="FollowSomeone" xml:space="preserve"><value>Sigue a alguien.</value></data>
+  <data name="SelectPlayerNote" xml:space="preserve"><value>Selecciona un nombre o un marcador. Cada posición conserva la calidad de su fuente.</value></data>
+  <data name="CloserLook" xml:space="preserve"><value>Tu mirada más cercana</value></data>
+  <data name="ShirtTeam" xml:space="preserve"><value>Dorsal {0} · {1}</value></data>
+  <data name="QualityPosition" xml:space="preserve"><value>Posición {0}</value></data>
+  <data name="Coordinates" xml:space="preserve"><value>x {0} m · y {1} m</value></data>
+  <data name="NoPositionFrame" xml:space="preserve"><value>No hay posición en este fotograma de la fuente.</value></data>
+  <data name="OutsidePitch" xml:space="preserve"><value>La coordenada de la fuente queda fuera del campo marcado.</value></data>
+  <data name="GroundedMoment" xml:space="preserve"><value>Basado en este momento</value></data>
+  <data name="SourceFrame" xml:space="preserve"><value>Fotograma de la fuente {0} en {1}. No se deducen velocidad, distancia ni conclusiones tácticas.</value></data>
+  <data name="RecordingLimits" xml:space="preserve"><value>Sobre esta grabación y sus límites</value></data>
+  <data name="RecordingMetadata" xml:space="preserve"><value>{0} fotogramas · {1} fotogramas de jugadores vacíos · origen: {2} · fuente: {3}</value></data>
+  <data name="PinnedSource" xml:space="preserve"><value>Fuente fijada</value></data>
+  <data name="TrackingOnly" xml:space="preserve"><value>Las anotaciones de eventos y la conversación basada en fuentes llegarán después. Esta vista solo muestra observaciones de seguimiento.</value></data>
+  <data name="Footer" xml:space="preserve"><value>Conversaciones con partidos, equipos y estadios — un paso fundamentado cada vez.</value></data>
+  <data name="LegacyStatusWaiting" xml:space="preserve"><value>Esperando un conjunto de datos grabado completo…</value></data>
+  <data name="LegacyStatusNoRecording" xml:space="preserve"><value>Aún no se ha publicado una grabación completa. Inténtalo tras su publicación.</value></data>
+  <data name="LegacyStatusWorkerWaiting" xml:space="preserve"><value>Esperando la publicación completa de Worker. Reintentando…</value></data>
+  <data name="LegacyStatusCatalogUnavailable" xml:space="preserve"><value>El catálogo de datos no está disponible. Inténtalo en breve.</value></data>
+  <data name="LegacyStatusLoadingRecording" xml:space="preserve"><value>Cargando esta grabación…</value></data>
+  <data name="LegacyStatusNotReady" xml:space="preserve"><value>Esta grabación no está lista. Intenta cargarla de nuevo.</value></data>
+  <data name="LegacyErrorVersion" xml:space="preserve"><value>La versión de la grabación cambió. Vuelve a cargarla.</value></data>
+  <data name="LegacyErrorMoment" xml:space="preserve"><value>No se pudo cargar este momento. La reproducción está en pausa.</value></data>
+  <data name="Detected" xml:space="preserve"><value>detectado</value></data>
+  <data name="Unavailable" xml:space="preserve"><value>no disponible</value></data>
+</root>

@@ -1,0 +1,344 @@
+{
+  "version": 1,
+  "kind": "local_manual_video_reconstruction",
+  "fixtureId": "premier-league:2026-27:2026-09-18:brentford:chelsea",
+  "source": {
+    "url": "https://www.brentfordfc.com/en/video/0_2hoy7vw7?provider=stream",
+    "reviewedOn": "2026-10-17",
+    "annotationArtifact": {
+      "file": "brentford-chelsea-2026-09-18-first-goal.json",
+      "sha256": "b445f5ecd530d49613fc722c9a41b0783153c2431a822a195d57ec05f516af31",
+      "bytes": 29404
+    },
+    "captureReceipt": {
+      "file": "../../output/pl-reconstruction/evidence/receipt.json",
+      "sha256": "9062bbdc8fa518014573a165ba19aae7702b46d25463b7493157b6f712339035",
+      "bytes": 1651
+    }
+  },
+  "method": {
+    "sampling": "seven_paused_same_shot_frames",
+    "continuousReview": false,
+    "timing": "DOM_currentTime_and_burned_in_second_clock",
+    "staleTransportText": "01:01:45",
+    "layout": "manual_normalized_landmark_estimates",
+    "axes": "x0_left_goal_x100_opposite_goal_y0_far_touchline_y100_near_touchline",
+    "calibration": "none",
+    "uncertaintyRadius": 8,
+    "uncertaintyUnit": "schematic_percentage_units_not_metres_or_statistical_confidence"
+  },
+  "bounds": {
+    "start": 3715,
+    "end": 3718,
+    "inspectEnd": 3718.5
+  },
+  "policy": {
+    "interpolation": "linear_adjacent_same_track_same_shot",
+    "maxGapSeconds": 0.5,
+    "carryOutside": false,
+    "liveKnownThen": false,
+    "measuredTracking": false,
+    "namedIdentities": false,
+    "ball": false
+  },
+  "participants": [
+    {
+      "id": "shirt27",
+      "label": "Brentford shirt 27",
+      "team": "brentford",
+      "shirt": 27,
+      "identity": null,
+      "basis": "same_shot_visible_team_and_shirt_27"
+    },
+    {
+      "id": "goalkeeper",
+      "label": "Chelsea goalkeeper",
+      "team": "chelsea",
+      "shirt": null,
+      "identity": null,
+      "basis": "same_shot_sole_green_goalkeeper"
+    }
+  ],
+  "frames": [
+    {
+      "id": "R01",
+      "time": 3715,
+      "clock": "60:22",
+      "score": [
+        0,
+        0
+      ],
+      "shotId": "wide-goalmouth",
+      "image": {
+        "file": "../../output/pl-reconstruction/evidence/R01-t3715.jpg",
+        "sha256": "74a2797d364a547165b2a3b4d3c9c69c5c95affcbb65753e9002de9eb078db83",
+        "bytes": 184823
+      },
+      "dom": {
+        "time": 3715,
+        "paused": true,
+        "ready": 4,
+        "seeking": false
+      },
+      "points": [
+        {
+          "participantId": "shirt27",
+          "x": 20,
+          "y": 73
+        },
+        {
+          "participantId": "goalkeeper",
+          "x": 3,
+          "y": 45
+        }
+      ]
+    },
+    {
+      "id": "R02",
+      "time": 3715.5,
+      "clock": "60:22",
+      "score": [
+        0,
+        0
+      ],
+      "shotId": "wide-goalmouth",
+      "image": {
+        "file": "../../output/pl-reconstruction/evidence/R02-t3715.5.jpg",
+        "sha256": "80e7df1c7db6cf7aeaf189b13bd13352555fc6d44212dde73be58a33ce91fdcd",
+        "bytes": 182453
+      },
+      "dom": {
+        "time": 3715.5,
+        "paused": true,
+        "ready": 4,
+        "seeking": false
+      },
+      "points": [
+        {
+          "participantId": "shirt27",
+          "x": 20,
+          "y": 72
+        },
+        {
+          "participantId": "goalkeeper",
+          "x": 4,
+          "y": 44
+        }
+      ]
+    },
+    {
+      "id": "R03",
+      "time": 3716,
+      "clock": "60:23",
+      "score": [
+        0,
+        0
+      ],
+      "shotId": "wide-goalmouth",
+      "image": {
+        "file": "../../output/pl-reconstruction/evidence/R03-t3716.jpg",
+        "sha256": "13eb478316d55aacf3f984a0e4380a6565cf70f36e43a9d9a117d830f1fe0173",
+        "bytes": 204118
+      },
+      "dom": {
+        "time": 3716,
+        "paused": true,
+        "ready": 4,
+        "seeking": false
+      },
+      "points": [
+        {
+          "participantId": "shirt27",
+          "x": 19,
+          "y": 70
+        },
+        {
+          "participantId": "goalkeeper",
+          "x": 4,
+          "y": 43
+        }
+      ]
+    },
+    {
+      "id": "R04",
+      "time": 3716.5,
+      "clock": "60:23",
+      "score": [
+        0,
+        0
+      ],
+      "shotId": "wide-goalmouth",
+      "image": {
+        "file": "../../output/pl-reconstruction/evidence/R04-t3716.5.jpg",
+        "sha256": "22eafc3c8292894c82d90dd36091144eb4f719c28203bdbcb6a6b5c26e4bb948",
+        "bytes": 200479
+      },
+      "dom": {
+        "time": 3716.5,
+        "paused": true,
+        "ready": 4,
+        "seeking": false
+      },
+      "points": [
+        {
+          "participantId": "shirt27",
+          "x": 18.5,
+          "y": 69
+        },
+        {
+          "participantId": "goalkeeper",
+          "x": 4,
+          "y": 42
+        }
+      ]
+    },
+    {
+      "id": "R05",
+      "time": 3717,
+      "clock": "60:24",
+      "score": [
+        0,
+        0
+      ],
+      "shotId": "wide-goalmouth",
+      "image": {
+        "file": "../../output/pl-reconstruction/evidence/R05-t3717.jpg",
+        "sha256": "15ef6b79a66991ba754db3c73a64c5d7b148998f2719ee196993ea8f24158525",
+        "bytes": 200002
+      },
+      "dom": {
+        "time": 3717,
+        "paused": true,
+        "ready": 4,
+        "seeking": false
+      },
+      "points": [
+        {
+          "participantId": "shirt27",
+          "x": 18,
+          "y": 68
+        },
+        {
+          "participantId": "goalkeeper",
+          "x": 3,
+          "y": 44
+        }
+      ]
+    },
+    {
+      "id": "R06",
+      "time": 3717.5,
+      "clock": "60:24",
+      "score": [
+        0,
+        0
+      ],
+      "shotId": "wide-goalmouth",
+      "image": {
+        "file": "../../output/pl-reconstruction/evidence/R06-t3717.5.jpg",
+        "sha256": "7a66a8b19f4ae3d80ce3f1bf491c5d2884b47c7076693fbc72a0543dae0b531c",
+        "bytes": 201577
+      },
+      "dom": {
+        "time": 3717.5,
+        "paused": true,
+        "ready": 4,
+        "seeking": false
+      },
+      "points": [
+        {
+          "participantId": "shirt27",
+          "x": 18.5,
+          "y": 67
+        },
+        {
+          "participantId": "goalkeeper",
+          "x": 3,
+          "y": 45
+        }
+      ]
+    },
+    {
+      "id": "R07",
+      "time": 3718,
+      "clock": "60:25",
+      "score": [
+        0,
+        0
+      ],
+      "shotId": "wide-goalmouth",
+      "image": {
+        "file": "../../output/pl-reconstruction/evidence/R07-t3718.jpg",
+        "sha256": "0cda80ae4815c4e7379e82aa46a15e2e3b57f43352a698ae1b703105755ee438",
+        "bytes": 215818
+      },
+      "dom": {
+        "time": 3718,
+        "paused": true,
+        "ready": 4,
+        "seeking": false
+      },
+      "points": [
+        {
+          "participantId": "shirt27",
+          "x": 19,
+          "y": 65
+        },
+        {
+          "participantId": "goalkeeper",
+          "x": 3,
+          "y": 46
+        }
+      ]
+    }
+  ],
+  "segments": [
+    {
+      "id": "S01",
+      "start": 3715,
+      "end": 3718,
+      "shotId": "wide-goalmouth",
+      "frameIds": [
+        "R01",
+        "R02",
+        "R03",
+        "R04",
+        "R05",
+        "R06",
+        "R07"
+      ],
+      "participantIds": [
+        "shirt27",
+        "goalkeeper"
+      ]
+    }
+  ],
+  "cuts": [
+    {
+      "after": "E09",
+      "before": "E10",
+      "bounds": [
+        3714,
+        3715
+      ]
+    },
+    {
+      "after": "E13",
+      "before": "E14",
+      "bounds": [
+        3718,
+        3719
+      ]
+    }
+  ],
+  "limits": [
+    "Seven sampled paused same-shot frames, not continuous or frame-complete review.",
+    "Manually placed normalized layout estimates with broad uncertainty, not calibrated coordinates or measured tracking.",
+    "Linear interpolation uses the neighbouring future reviewed endpoint; retrospective reconstruction, not known-then evidence or an observed running path.",
+    "No positions persist outside 3715-3718, across cuts, or through unknown identity/visibility.",
+    "Only anonymous shirt 27 and the goalkeeper are represented; ball and all other participants remain unknown.",
+    "No exact contacts, scorer action, goal time, outcome, speed, distance, tactics or named identity is established.",
+    "DOM timestamps and burned-in clocks stay separate; the stale transport text is not the capture time.",
+    "Existing source-use/submission/publication boundaries remain; no source media is embedded or downloaded as a video/audio file."
+  ]
+}

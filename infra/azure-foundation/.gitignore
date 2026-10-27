@@ -1,0 +1,4 @@
+# Generated ARM expansion and local compiler evidence; Bicep is the source of truth.
+main.json
+build.log
+key-vault.json

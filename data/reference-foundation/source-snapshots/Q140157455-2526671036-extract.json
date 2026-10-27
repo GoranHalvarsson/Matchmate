@@ -1,0 +1,117 @@
+{
+  "entities": {
+    "Q140157455": {
+      "pageid": 133596407,
+      "ns": 0,
+      "title": "Q140157455",
+      "lastrevid": 2526671036,
+      "modified": "2026-08-03T07:57:14Z",
+      "type": "item",
+      "id": "Q140157455",
+      "labels": {
+        "en": {
+          "language": "en",
+          "value": "2026–27 Leeds United F.C. season"
+        }
+      },
+      "claims": {
+        "P641": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P641",
+              "hash": "1624e15e061523279bc14bb6497168e45caacb32",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 2736,
+                  "id": "Q2736"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q140157455$14c72698-ccd6-43c9-a220-635925a1df97",
+            "rank": "normal"
+          }
+        ],
+        "P31": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P31",
+              "hash": "9ddb403180b684facfb50183c3b3a99ce0b171d1",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 26887310,
+                  "id": "Q26887310"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q140157455$12c6ee04-a342-46e2-820f-fd0679d5eb96",
+            "rank": "normal"
+          }
+        ],
+        "P5138": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P5138",
+              "hash": "b161e923096e3fd55b4eac52db9ba1716cde91ae",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 1128631,
+                  "id": "Q1128631"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q140157455$DDE9A1B9-1BB2-48B9-9050-602654C49BD7",
+            "rank": "normal"
+          }
+        ],
+        "P2348": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P2348",
+              "hash": "33dc124fb8ec0bedb17f94adfe80c432678d5a4d",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 53389812,
+                  "id": "Q53389812"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q140157455$113018bb-4226-35a5-e8d2-5bbac95fafd9",
+            "rank": "normal"
+          }
+        ]
+      },
+      "sitelinks": {
+        "enwiki": {
+          "site": "enwiki",
+          "title": "2026–27 Leeds United F.C. season",
+          "badges": []
+        },
+        "itwiki": {
+          "site": "itwiki",
+          "title": "Leeds United Football Club 2026-2027",
+          "badges": []
+        }
+      }
+    }
+  }
+}

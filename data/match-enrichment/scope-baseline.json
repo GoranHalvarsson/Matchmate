@@ -1,0 +1,78 @@
+[
+  {
+    "path": "prototypes/first-experience/preview.html",
+    "sha256": "ef424fa98700d846be681b26163e2861f1727f614e8d0d384bd316a1057d6775"
+  },
+  {
+    "path": "prototypes/first-experience/index.html",
+    "sha256": "fb3018739b5326515b9fb568ff4d2af8279d11196fa5b58dbfd3162f3f7d5f4f"
+  },
+  {
+    "path": "prototypes/first-experience/assets/seasons/2015-16.json",
+    "sha256": "4d8ab70f5d2c29231320be7404310bc1b0fbc6e6be0284e5ee667f581406fead"
+  },
+  {
+    "path": "prototypes/first-experience/assets/seasons/2016-17.json",
+    "sha256": "9c8cdb27355678ab81aacbbabc34a08d00b399aacc28ef4b733da4954a344f17"
+  },
+  {
+    "path": "data/reference-foundation/stadium-naming-review.json",
+    "sha256": "101612e92ba842f8c32c20c226d2db6bca86b9c743e38f470cd08bb4664694f4"
+  },
+  {
+    "path": "data/reference-foundation/stadium-naming-periods.json",
+    "sha256": "badaa9ac305e1212f90127e1eee703d737d81be05db8c37745cb4b86e7f1041a"
+  },
+  {
+    "path": "data/schemas/balls.schema.json",
+    "sha256": "7b02961cb5458594765f7eedbb5974f53a3759de577ec3adecb9520060393fe7"
+  },
+  {
+    "path": "data/schemas/club-ecosystem.schema.json",
+    "sha256": "4e5c565d59c47b490243a45980641c6068e563d1e8a23fea75fddb3abb316be1"
+  },
+  {
+    "path": "data/schemas/clubs-competitions.schema.json",
+    "sha256": "5962d506078b30ff761e11b6b61e26eae1fc043fd3023ac9b23f47b76ace4992"
+  },
+  {
+    "path": "data/schemas/common.schema.json",
+    "sha256": "9aafa7b13cf019c4ce96259f6f5dd40d4213a2bff878c657b269a7d843d6e930"
+  },
+  {
+    "path": "data/schemas/context.schema.json",
+    "sha256": "a912b5c1d4fb7f2feb192c8d31fe8db79f8eb454bcbd0cbaf7cf5afa3a19790e"
+  },
+  {
+    "path": "data/schemas/coverage.schema.json",
+    "sha256": "4772e92d0cecb83490980a9af9cba065fcd614401c65de070fd24b182a700246"
+  },
+  {
+    "path": "data/schemas/fixtures.schema.json",
+    "sha256": "9819c319c1aae8faf4b033e131b8fc1705f58016637a0ad930fc128c0da8abe3"
+  },
+  {
+    "path": "data/schemas/match-events.schema.json",
+    "sha256": "ac97ca8acf63c00bf6c315730e1241c31b7fde53a7c85d0d8d1853f50c76d48f"
+  },
+  {
+    "path": "data/schemas/people.schema.json",
+    "sha256": "5ec0769c94cc998eab388822fa1338ea8d2129708256ac3633446817c21288d3"
+  },
+  {
+    "path": "data/schemas/review-bundle.schema.json",
+    "sha256": "8bfb15489b5ed4bda7ac4b6030beb9d7e58e254af46cf1ea84b27c928813a9a6"
+  },
+  {
+    "path": "data/schemas/tracking.schema.json",
+    "sha256": "970cb9cc0db7c6dac9c95a872d1d6b154a7f22064776c582a3c68e51e3211b49"
+  },
+  {
+    "path": "data/schemas/transfers-finance.schema.json",
+    "sha256": "7e9faeb87def0e24cbcd7b03231d51d63f0298c67396577c27f9a09ab3b05a06"
+  },
+  {
+    "path": "data/schemas/venues.schema.json",
+    "sha256": "6a4e6ac79132a54ab8e806fe6b12ec9aa38aeb160dd5687d83efaf84275dfbb4"
+  }
+]

@@ -1,0 +1,225 @@
+{
+  "entities": {
+    "Q139916055": {
+      "pageid": 133366403,
+      "ns": 0,
+      "title": "Q139916055",
+      "lastrevid": 2535641091,
+      "modified": "2026-08-24T01:44:40Z",
+      "type": "item",
+      "id": "Q139916055",
+      "labels": {
+        "en": {
+          "language": "en",
+          "value": "2026–27 Manchester United F.C. season"
+        }
+      },
+      "claims": {
+        "P31": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P31",
+              "hash": "9ddb403180b684facfb50183c3b3a99ce0b171d1",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 26887310,
+                  "id": "Q26887310"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q139916055$b446240e-4b6d-222b-be18-e15f4f002b17",
+            "rank": "normal"
+          }
+        ],
+        "P5138": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P5138",
+              "hash": "2940a2da89df84caa829430a5ca0b91fd645e57d",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 18656,
+                  "id": "Q18656"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q139916055$87643fe7-40ad-8173-0ef9-32396b94d44d",
+            "rank": "normal"
+          }
+        ],
+        "P2094": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P2094",
+              "hash": "6c137752b3b79bad9a00b5fae9d171a795a357df",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 31930761,
+                  "id": "Q31930761"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q139916055$8b17a8ca-4348-3145-6c51-962f60edce5a",
+            "rank": "normal"
+          }
+        ],
+        "P641": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P641",
+              "hash": "1624e15e061523279bc14bb6497168e45caacb32",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 2736,
+                  "id": "Q2736"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q139916055$75cd41b1-4612-895f-c28f-c3d7e13ddf73",
+            "rank": "normal"
+          }
+        ],
+        "P17": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P17",
+              "hash": "a44880420787fb348836dc51d3babc5227c4ef7e",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 145,
+                  "id": "Q145"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q139916055$519fe038-493a-434b-5fda-e7eab4efee73",
+            "rank": "normal"
+          }
+        ],
+        "P155": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P155",
+              "hash": "a1db111791589beb2b4ba0645d94104073491199",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 133243286,
+                  "id": "Q133243286"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q139916055$094b2985-40d4-b9d5-fea5-f82f7d443bd6",
+            "rank": "normal"
+          }
+        ],
+        "P2348": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P2348",
+              "hash": "33dc124fb8ec0bedb17f94adfe80c432678d5a4d",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 53389812,
+                  "id": "Q53389812"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q139916055$d56180f1-4d06-6b90-6e6e-477702f4b1ee",
+            "rank": "normal"
+          }
+        ]
+      },
+      "sitelinks": {
+        "bgwiki": {
+          "site": "bgwiki",
+          "title": "ФК „Манчестър Юнайтед“ през сезон 2026/27",
+          "badges": []
+        },
+        "dawiki": {
+          "site": "dawiki",
+          "title": "Manchester United F.C. sæson 2026-27",
+          "badges": []
+        },
+        "enwiki": {
+          "site": "enwiki",
+          "title": "2026–27 Manchester United F.C. season",
+          "badges": []
+        },
+        "frwiki": {
+          "site": "frwiki",
+          "title": "Saison 2026-2027 de Manchester United",
+          "badges": []
+        },
+        "huwiki": {
+          "site": "huwiki",
+          "title": "A Manchester United FC 2026–2027-es szezonja",
+          "badges": []
+        },
+        "itwiki": {
+          "site": "itwiki",
+          "title": "Manchester United Football Club 2026-2027",
+          "badges": []
+        },
+        "plwiki": {
+          "site": "plwiki",
+          "title": "Manchester United F.C. w sezonie 2026/2027",
+          "badges": []
+        },
+        "ruwiki": {
+          "site": "ruwiki",
+          "title": "ФК «Манчестер Юнайтед» в сезоне 2026/2027",
+          "badges": []
+        },
+        "thwiki": {
+          "site": "thwiki",
+          "title": "สโมสรฟุตบอลแมนเชสเตอร์ยูไนเต็ดในฤดูกาล 2026–27",
+          "badges": []
+        },
+        "viwiki": {
+          "site": "viwiki",
+          "title": "Manchester United F.C. mùa giải 2026–27",
+          "badges": []
+        },
+        "zhwiki": {
+          "site": "zhwiki",
+          "title": "2026年至2027年曼聯足球俱樂部賽季",
+          "badges": []
+        }
+      }
+    }
+  }
+}

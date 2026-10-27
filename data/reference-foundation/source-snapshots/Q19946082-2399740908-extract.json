@@ -1,0 +1,223 @@
+{
+  "entities": {
+    "Q19946082": {
+      "pageid": 21587709,
+      "ns": 0,
+      "title": "Q19946082",
+      "lastrevid": 2399740908,
+      "modified": "2025-09-02T20:58:39Z",
+      "type": "item",
+      "id": "Q19946082",
+      "labels": {
+        "en": {
+          "language": "en",
+          "value": "2015–16 West Bromwich Albion F.C. season"
+        }
+      },
+      "claims": {
+        "P641": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P641",
+              "hash": "1624e15e061523279bc14bb6497168e45caacb32",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 2736,
+                  "id": "Q2736"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q19946082$0A66B4EC-FF60-4A92-BCF6-378E11716C3A",
+            "rank": "normal"
+          }
+        ],
+        "P31": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P31",
+              "hash": "9ddb403180b684facfb50183c3b3a99ce0b171d1",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 26887310,
+                  "id": "Q26887310"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q19946082$3A50CB88-FE54-421A-ACF2-59E9DC391886",
+            "rank": "normal"
+          }
+        ],
+        "P5138": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P5138",
+              "hash": "9c0117303e5299a690cc058d902c8ba617c93c96",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 18744,
+                  "id": "Q18744"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q19946082$2A33CA92-E6C1-4200-8E03-D5E941328966",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "fa278ebfc458360e5aed63d5058cca83c46134f1",
+                "snaks": {
+                  "P143": [
+                    {
+                      "snaktype": "value",
+                      "property": "P143",
+                      "hash": "e4f6d9441d0600513c4533c672b5ab472dc73694",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 328,
+                          "id": "Q328"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P143"
+                ]
+              }
+            ]
+          }
+        ],
+        "P2348": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P2348",
+              "hash": "aa2170c45da73f28c5e261a9d37f3a75ef9799c5",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 53386085,
+                  "id": "Q53386085"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q19946082$B6681205-2DA3-4555-BE5F-2A0277F6C309",
+            "rank": "normal"
+          }
+        ],
+        "P17": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P17",
+              "hash": "a44880420787fb348836dc51d3babc5227c4ef7e",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 145,
+                  "id": "Q145"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q19946082$9AB75270-83E3-4A03-B196-44AC3F4255F6",
+            "rank": "normal"
+          }
+        ],
+        "P155": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P155",
+              "hash": "d8b57f467a8a1c989bc73732ee478e969fda30bc",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 17015970,
+                  "id": "Q17015970"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q19946082$CEDA1272-86C0-45B2-AFFB-FAFD6F368665",
+            "rank": "normal"
+          }
+        ],
+        "P156": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P156",
+              "hash": "33877daac1277ac978f8d781c650a88f387689f6",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 24909458,
+                  "id": "Q24909458"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q19946082$7353E3BC-8CB1-425E-AA30-1EDE3BDD3A82",
+            "rank": "normal"
+          }
+        ],
+        "P2671": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P2671",
+              "hash": "542077c0e11b55030bdd36d00556a936dd35a41c",
+              "datavalue": {
+                "value": "/g/11btzym9gs",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q19946082$046F73E0-156E-4B64-8D97-66C63E7B3F03",
+            "rank": "normal"
+          }
+        ]
+      },
+      "sitelinks": {
+        "enwiki": {
+          "site": "enwiki",
+          "title": "2015–16 West Bromwich Albion F.C. season",
+          "badges": []
+        },
+        "zhwiki": {
+          "site": "zhwiki",
+          "title": "西布朗2015年至2016年球季",
+          "badges": []
+        }
+      }
+    }
+  }
+}

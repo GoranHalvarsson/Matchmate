@@ -1,0 +1,10 @@
+<Project Sdk="Aspire.AppHost.Sdk/13.5.3">
+  <PropertyGroup><OutputType>Exe</OutputType><AspireUseCliBundle>true</AspireUseCliBundle><UserSecretsId>matchmate-local-apphost</UserSecretsId></PropertyGroup>
+  <ItemGroup>
+    <!-- Pin the patched 2.x line used by Aspire's StreamJsonRpc dependency (GHSA-qhrr-8q5h-9q3h). -->
+    <PackageReference Include="MessagePack" Version="2.5.307" />
+    <ProjectReference Include="../Matchmate.Api/Matchmate.Api.csproj" />
+    <ProjectReference Include="../Matchmate.Web/Matchmate.Web.csproj" />
+    <ProjectReference Include="../Matchmate.Worker/Matchmate.Worker.csproj" />
+  </ItemGroup>
+</Project>

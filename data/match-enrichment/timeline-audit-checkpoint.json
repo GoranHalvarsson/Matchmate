@@ -1,0 +1,5 @@
+{
+  "sha256": "440bb4ddf55f707f4435cea9f66ebad6bc065d63369faff08062028c0aa95b30",
+  "scope": "Entire pre-lineup-statistics match JSON; remove lineup_statistics_audit only.",
+  "algorithm": "sha256 canonical JSON sorted keys compact UTF-8"
+}

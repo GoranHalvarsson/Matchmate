@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms</value></resheader>
+  <data name="Question.Summary" xml:space="preserve"><value>What has happened so far?</value></data>
+  <data name="Question.Positions" xml:space="preserve"><value>Explain this moment</value></data>
+  <data name="Question.Player" xml:space="preserve"><value>Tell me about this player?</value></data>
+  <data name="Question.Statistics" xml:space="preserve"><value>Show replay statistics</value></data>
+  <data name="Stats.Prefix" xml:space="preserve"><value>In this generated replay at {0}, </value></data>
+  <data name="Stats.ActualUnavailable" xml:space="preserve"><value>actual match statistics aren't available from this illustration.</value></data>
+  <data name="Stats.TargetUnavailable" xml:space="preserve"><value>shots-on-target or off-target totals aren't available from this illustration.</value></data>
+  <data name="Stats.MeasuredUnavailable" xml:space="preserve"><value>xG and measured movement statistics aren't available from this illustration.</value></data>
+  <data name="Stats.PlayerUnavailable" xml:space="preserve"><value>individual-player and pass-recipient totals aren't available from these team statistics.</value></data>
+  <data name="Stats.WindowUnavailable" xml:space="preserve"><value>that time window isn't available here; these totals cover completed actions up to this replay moment.</value></data>
+  <data name="Stats.ShotsNone" xml:space="preserve"><value>{0} have taken no shots yet</value></data>
+  <data name="Stats.ShotsZero" xml:space="preserve"><value>{0} have taken none</value></data>
+  <data name="Stats.ShotOne" xml:space="preserve"><value>{0} have taken a shot</value></data>
+  <data name="Stats.ShotsMany" xml:space="preserve"><value>{0} have taken {1} shots</value></data>
+  <data name="Stats.AttemptsZero" xml:space="preserve"><value>{0} have no finished pass attempts yet</value></data>
+  <data name="Stats.AttemptsOne" xml:space="preserve"><value>{0} have made one pass attempt</value></data>
+  <data name="Stats.AttemptsMany" xml:space="preserve"><value>{0} have made {1} pass attempts</value></data>
+  <data name="Stats.CompletedZero" xml:space="preserve"><value>{0} have no completed passes yet</value></data>
+  <data name="Stats.CompletedOne" xml:space="preserve"><value>{0} have completed a pass</value></data>
+  <data name="Stats.CompletedMany" xml:space="preserve"><value>{0} have completed {1} passes</value></data>
+  <data name="Stats.RateZero" xml:space="preserve"><value>{0} have no finished pass attempts yet, so the rate is unavailable</value></data>
+  <data name="Stats.Rate" xml:space="preserve"><value>{0} have completed {1} of {2} {3} ({4})</value></data>
+  <data name="Stats.PassOne" xml:space="preserve"><value>pass</value></data>
+  <data name="Stats.PassMany" xml:space="preserve"><value>passes</value></data>
+  <data name="Stats.ControlTime" xml:space="preserve"><value>{0} have {1} of illustrated control</value></data>
+  <data name="Stats.ControlShare" xml:space="preserve"><value>{0}: illustrated control share {1}</value></data>
+  <data name="Stats.FinishedOnly" xml:space="preserve"><value> Only finished spells count.</value></data>
+  <data name="Stats.ControlDenominator" xml:space="preserve"><value> Shares use {0} of finished control spells.</value></data>
+  <data name="Stats.Exclusions" xml:space="preserve"><value> Pauses, restarts, unknown time and unfinished spells are excluded.</value></data>
+  <data name="Stats.Overview" xml:space="preserve"><value>{0}: {1} {2}; {3} of {4} {5} completed ({6}); illustrated control {7} ({8} share)</value></data>
+  <data name="Stats.ShotWordOne" xml:space="preserve"><value>shot</value></data>
+  <data name="Stats.ShotWordMany" xml:space="preserve"><value>shots</value></data>
+  <data name="Stats.Unavailable" xml:space="preserve"><value>unavailable</value></data>
+  <data name="Stats.Seconds" xml:space="preserve"><value>{0} seconds</value></data>
+  <data name="Stats.Second" xml:space="preserve"><value>{0} second</value></data>
+  <data name="Stats.Minutes" xml:space="preserve"><value>{0} min</value></data>
+  <data name="Stats.MinutesSeconds" xml:space="preserve"><value>{0} min {1} sec</value></data>
+  <data name="Stats.MethodShots" xml:space="preserve"><value> Counts include only finished generated shot actions, not shots-on-target or actual-match totals.</value></data>
+  <data name="Stats.MethodAttempts" xml:space="preserve"><value> Attempts count finished generated pass actions, including completed passes and turnovers.</value></data>
+  <data name="Stats.MethodCompleted" xml:space="preserve"><value> Completed passes are the successful subset of finished generated pass attempts.</value></data>
+  <data name="Stats.MethodRate" xml:space="preserve"><value> Completion rate is completed passes divided by finished pass attempts; with no attempts it is unavailable.</value></data>
+  <data name="Stats.MethodTime" xml:space="preserve"><value> Durations sum only the team's completed generated control spells.</value></data>
+  <data name="Stats.MethodShare" xml:space="preserve"><value> Each share divides that team's completed control by the classified completed control total.</value></data>
+  <data name="Stats.MethodOverview" xml:space="preserve"><value> Completion rate divides completed passes by finished attempts. Shots count finished generated actions; control shares divide completed team control by the classified total.</value></data>
+  <data name="Language.Instruction" xml:space="preserve"><value>Respond in English.</value></data>
+  <data name="Source.NoScore" xml:space="preserve"><value>No score is supplied here, so I can't tell you who's ahead.</value></data>
+  <data name="Source.Level" xml:space="preserve"><value>{0} and {1} are level at {2}–{3} on the goals reported so far.</value></data>
+  <data name="Source.Lead" xml:space="preserve"><value>{0} lead {1} {2}–{3} on the goals reported so far.</value></data>
+  <data name="Source.GeneratedPositions" xml:space="preserve"><value>The player positions sketch the shape of play; they are an illustration, not a record of actual movement.</value></data>
+  <data name="Source.RecordedPositions" xml:space="preserve"><value>These player positions are recorded observations and estimates: a snapshot, not a continuous account of play.</value></data>
+  <data name="Source.UnknownPositions" xml:space="preserve"><value>The source does not establish how these player positions were obtained.</value></data>
+  <data name="Source.Gap" xml:space="preserve"><value>There's a gap here. Missing positions stay missing rather than being carried forward.</value></data>
+  <data name="Source.NoCarry" xml:space="preserve"><value>Missing positions stay missing; the display does not carry them forward.</value></data>
+  <data name="Source.PositionLimits" xml:space="preserve"><value>This display alone cannot establish runs, measured statistics or tactical assignments.</value></data>
+  <data name="Source.NoBall" xml:space="preserve"><value>No ball position is available here.</value></data>
+  <data name="Source.BallObserved" xml:space="preserve"><value>The ball has an observed position in this sample.</value></data>
+  <data name="Source.BallEstimated" xml:space="preserve"><value>The ball position is an estimate.</value></data>
+  <data name="Source.BallGenerated" xml:space="preserve"><value>The ball position is illustrated, rather than recorded.</value></data>
+  <data name="Source.BallUnknown" xml:space="preserve"><value>A ball position is shown, but its method is not specified.</value></data>
+  <data name="Source.PlayerIdentity" xml:space="preserve"><value>{0} is listed with {1}</value></data>
+  <data name="Source.PlayerShirt" xml:space="preserve"><value>{0}, wearing number {1}.</value></data>
+  <data name="Source.PlayerShirtOnly" xml:space="preserve"><value>{0} wears number {1}.</value></data>
+  <data name="Source.PlayerNoPosition" xml:space="preserve"><value>No current position is available here. That alone says nothing about whether they played.</value></data>
+  <data name="Source.PlayerGenerated" xml:space="preserve"><value>The position shown is an illustration, not a recorded run or evidence of intent.</value></data>
+  <data name="Source.PlayerObserved" xml:space="preserve"><value>A recorded position is available at this moment; a single point does not establish a run.</value></data>
+  <data name="Source.PlayerEstimated" xml:space="preserve"><value>The current position is an estimate, not a verified movement.</value></data>
+  <data name="Source.PlayerUnknown" xml:space="preserve"><value>A position is shown, but its method is not specified. It does not establish a run.</value></data>
+  <data name="Source.PlayerLimited" xml:space="preserve"><value>This is a limited picture, not a full-match assessment.</value></data>
+  <data name="Source.RawNotes" xml:space="preserve"><value>Reviewed passages remain in supporting evidence in their original language.</value></data>
+  <data name="Source.MethodSummary" xml:space="preserve"><value> The score uses only eligible reported goal events at this replay cursor; missing reports cannot establish a complete actual score.</value></data>
+  <data name="Source.MethodCoverage" xml:space="preserve"><value> Sample methods describe how each position was obtained; a single sample cannot establish measured movement or a tactical assignment.</value></data>
+  <data name="Source.MethodPlayerGenerated" xml:space="preserve"><value> Method: generated position sample. It is illustrative geometry, not measured movement; reviewed notes keep their own source and time limits.</value></data>
+  <data name="Source.MethodPlayerEstimated" xml:space="preserve"><value> Method: source-estimated position sample. It is not a verified run; reviewed notes keep their own source and time limits.</value></data>
+  <data name="Source.MethodPlayerObserved" xml:space="preserve"><value> Method: observed position sample. One point does not measure a run; reviewed notes keep their own source and time limits.</value></data>
+  <data name="Source.MethodPlayerUnknown" xml:space="preserve"><value> The current position method is unavailable; missing evidence stays unknown. Reviewed notes keep their own source and time limits.</value></data>
+  <data name="Feedback.Input" xml:space="preserve"><value>Please use valid text of at most 1,000 characters.</value></data>
+  <data name="Feedback.Ready" xml:space="preserve"><value>Choose a ready replay moment first.</value></data>
+  <data name="Feedback.SignIn" xml:space="preserve"><value>Sign in with your test account to chat.</value></data>
+  <data name="Feedback.Disconnected" xml:space="preserve"><value>AI follow-ups are not connected yet. Choose one of the suggested questions.</value></data>
+  <data name="Feedback.InvalidContext" xml:space="preserve"><value>Choose a valid ready replay context before routing a question.</value></data>
+  <data name="Feedback.Routing" xml:space="preserve"><value>Decision routing is unavailable or returned an invalid decision. No facts were retrieved.</value></data>
+  <data name="Feedback.NamedReference" xml:space="preserve"><value>I could not keep that follow-up tied to the previous player. Please name the player you mean.</value></data>
+  <data name="Feedback.SelectPlayer" xml:space="preserve"><value>Select a player on the pitch or in the roster, then ask again.</value></data>
+  <data name="Feedback.Clarify" xml:space="preserve"><value>Could you clarify the event, player or replay/live scope you mean?</value></data>
+  <data name="Feedback.Unsupported" xml:space="preserve"><value>This workflow does not support the requested capability.</value></data>
+  <data name="Feedback.Unavailable" xml:space="preserve"><value>The requested data capability is unavailable.</value></data>
+  <data name="Feedback.StatisticsUnavailable" xml:space="preserve"><value>Generated replay statistics are unavailable for this recording at this moment. Actual match statistics are not supplied by the illustration.</value></data>
+  <data name="Feedback.Retrieval" xml:space="preserve"><value>The requested evidence could not be retrieved safely. No fallback facts were supplied.</value></data>
+  <data name="Feedback.Stale" xml:space="preserve"><value>The session or replay context changed; reply discarded.</value></data>
+  <data name="Feedback.Cancelled" xml:space="preserve"><value>The request was cancelled, changed context or timed out. No answer was added.</value></data>
+  <data name="Feedback.UserCancelled" xml:space="preserve"><value>Reply cancelled.</value></data>
+  <data name="Feedback.Grounded" xml:space="preserve"><value>Reply grounded in the selected workflow evidence.</value></data>
+  <data name="Feedback.Partial" xml:space="preserve"><value>Reply uses partial evidence; retain its coverage limits.</value></data>
+  <data name="Feedback.Failure" xml:space="preserve"><value>The reply could not be completed safely. No answer was added.</value></data>
+  <data name="Visual.Goal" xml:space="preserve"><value>Choose a goal in the highlights, then ask how it happened.</value></data>
+  <data name="Visual.Substitution" xml:space="preserve"><value>Choose a substitution in the highlights, then ask for its diagram.</value></data>
+  <data name="Visual.Card" xml:space="preserve"><value>Choose a booking in the highlights, then ask for its diagram.</value></data>
+  <data name="Visual.Possession" xml:space="preserve"><value>Choose a completed possession interval in the highlights, then ask for its diagram.</value></data>
+  <data name="Visual.Event" xml:space="preserve"><value>Choose a supported event in the highlights, then ask for its diagram.</value></data>
+  <data name="Visual.Fallback" xml:space="preserve"><value>The supported event diagram is shown below. Source qualifications remain with each step. Goal positions are illustrative; completed intervals do not establish current possession.</value></data>
+  <data name="Chart.Show" xml:space="preserve"><value>Show chart</value></data>
+  <data name="Chart.Hide" xml:space="preserve"><value>Hide chart</value></data>
+  <data name="Chart.Generated" xml:space="preserve"><value>Generated replay</value></data>
+  <data name="Chart.Reported" xml:space="preserve"><value>Reported events</value></data>
+  <data name="Chart.Goals" xml:space="preserve"><value>Goals</value></data>
+  <data name="Chart.YellowCards" xml:space="preserve"><value>Yellow cards</value></data>
+  <data name="Chart.RedCards" xml:space="preserve"><value>Red cards</value></data>
+  <data name="Chart.Substitutions" xml:space="preserve"><value>Substitutions</value></data>
+  <data name="Chart.ReportedNote" xml:space="preserve"><value>Counts from available reports up to this replay moment; coverage may be incomplete. Zero means no available report, not proof that no incident occurred. These are not measured match statistics.</value></data>
+  <data name="Chart.PassAttempts" xml:space="preserve"><value>Passes attempted</value></data>
+  <data name="Chart.PassAccuracy" xml:space="preserve"><value>Pass accuracy</value></data>
+  <data name="Chart.Shots" xml:space="preserve"><value>Shots</value></data>
+  <data name="Chart.Match" xml:space="preserve"><value>{0} vs {1}</value></data>
+  <data name="Chart.Clock" xml:space="preserve"><value>Replay at {0}</value></data>
+  <data name="Chart.ChooseMetric" xml:space="preserve"><value>Choose chart metric</value></data>
+  <data name="Chart.Completed" xml:space="preserve"><value>{0} of {1} passes completed</value></data>
+  <data name="Chart.NoAttempts" xml:space="preserve"><value>Unavailable · no attempts</value></data>
+  <data name="Chart.Note" xml:space="preserve"><value>Finished generated actions only. These are illustration totals, not actual match statistics.</value></data>
+  <data name="Chart.Unavailable" xml:space="preserve"><value> Charts support team pass attempts, pass accuracy and shots at this replay moment. Choose one of those metrics without an extra qualification.</value></data>
+  <data name="Chart.CompareTeams" xml:space="preserve"><value>Compare teams</value></data>
+  <data name="Source.Reported.Intro" xml:space="preserve"><value>At replay {0}, here is what the available reports say so far.</value></data>
+  <data name="Source.Reported.SoFar" xml:space="preserve"><value>Reported so far:</value></data>
+  <data name="Source.Reported.Team" xml:space="preserve"><value>{0} — goals {1}, yellow cards {2}, red cards {3}, substitutions {4}.</value></data>
+  <data name="Source.Reported.Recent" xml:space="preserve"><value>Latest reports: {0}</value></data>
+  <data name="Source.Reported.None" xml:space="preserve"><value>No eligible incidents are reported at this replay moment. That does not establish that no incidents occurred.</value></data>
+  <data name="Source.Reported.Limits" xml:space="preserve"><value>These totals cover the available reports, not every incident or actual match statistics.</value></data>
+  <data name="Source.Reported.Unavailable" xml:space="preserve"><value>This recording supplies no reported match-event feed, so a comparison is unavailable.</value></data>
+  <data name="Source.Reported.TimeUnknown" xml:space="preserve"><value>Reported time unavailable</value></data>
+  <data name="Source.Reported.PlayerUnknown" xml:space="preserve"><value>player not identified</value></data>
+  <data name="Source.Reported.IncidentPrefix" xml:space="preserve"><value>{0} — {1}: </value></data>
+  <data name="Source.Reported.Goal" xml:space="preserve"><value>goal by {0}.</value></data>
+  <data name="Source.Reported.GoalDisallowed" xml:space="preserve"><value>goal disallowed.</value></data>
+  <data name="Source.Reported.Yellow" xml:space="preserve"><value>yellow card for {0}.</value></data>
+  <data name="Source.Reported.Red" xml:space="preserve"><value>{0} sent off ({1}).</value></data>
+  <data name="Source.Reported.Substitution" xml:space="preserve"><value>{0} replaces {1}.</value></data>
+  <data name="Source.Reported.Var" xml:space="preserve"><value>VAR decision reported; not an additional card.</value></data>
+  <data name="Feedback.ReportComparisonUnavailable" xml:space="preserve"><value>This recording supplies neither reported match events nor generated replay statistics, so a comparison is unavailable.</value></data>
+  <data name="Source.Reported.TeamUnknown" xml:space="preserve"><value>team not specified</value></data>
+  <data name="Source.Reported.ReportCount" xml:space="preserve"><value>{0} reports are available so far.</value></data>
+</root>

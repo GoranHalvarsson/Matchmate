@@ -1,0 +1,30 @@
+{
+  "source": "SkillCorner/opendata",
+  "pin": "4340d274572876239c154c90bc507a9b3250a656",
+  "matchId": 1874553,
+  "policy": "retrospective-minimal-pp-interval-completion-v1",
+  "retrievedAt": "2026-10-17T13:55:14.786027+00:00",
+  "selection": "At most six eligible player_possession rows: first three per source team sorted by raw frame_start, frame_end, event_id; then globally sorted by the same keys. Wholly first-half 60-240 seconds, matched endpoints, clean source-clock synchronization and full interval player coverage.",
+  "receipt": {
+    "url": "https://raw.githubusercontent.com/SkillCorner/opendata/4340d274572876239c154c90bc507a9b3250a656/data/matches/1874553/1874553_dynamic_events.csv",
+    "resolvedUrl": "https://raw.githubusercontent.com/SkillCorner/opendata/4340d274572876239c154c90bc507a9b3250a656/data/matches/1874553/1874553_dynamic_events.csv",
+    "status": 200,
+    "scope": "first 1001 complete lines only (header + 1000 rows)",
+    "bytes": 966956,
+    "sha256": "77e658496ccf7cf1e08c930fc45e56ac9e8545d558bb7ea326c85a062b1021f8"
+  },
+  "hashSemantics": "Exact parser-returned prefix bytes; not the full CSV or transport byte count.",
+  "rawPrefixRetained": false,
+  "fullEventFileDownloaded": false,
+  "trackingArtifact": {
+    "file": "1874553-60-240.json",
+    "bytes": 2865871,
+    "sha256": "291fa78ef599c34dac6ee04bb8c140fe802882fb6ccca6baa95d8eac69258cd6"
+  },
+  "artifact": {
+    "file": "1874553-completed-events.json",
+    "bytes": 1995,
+    "sha256": "7a59abc5a944eaa9675fa49f17f21ac7d685af140f196948522ac1481a4f84b1"
+  },
+  "limits": "Small curated source-classified PP actor/interval selection. Interval end is an explicitly retrospective replay spoiler cutoff, not verified live arrival or known-then availability. No targets, pass outcomes, metrics, scores, tactics or event coordinates. Other categories and ambiguous timing remain deferred. Local unpublished technical sample; not a complete feed or Premier League replacement."
+}

@@ -1,0 +1,418 @@
+{
+  "observed_on": "2026-10-17",
+  "pins": {
+    "skillcorner": "4340d274572876239c154c90bc507a9b3250a656",
+    "metrica": "e706dd506b360d69d9d123d5b8026e7294b13996",
+    "lastrow": "72129b58d0b866c21ab895d97b426333330f6294"
+  },
+  "frame_target": 300,
+  "per_source_parser_byte_cap": 5000000,
+  "no_raw_dataset_retained": true,
+  "application_imported": false,
+  "skillcorner": {
+    "match_id": 1874553,
+    "catalogue_count": 20,
+    "readme_described_count": 10,
+    "fixture": {
+      "date_time": "2024-11-23T06:00:00Z",
+      "home": "Brisbane Roar FC",
+      "away": "Adelaide United Football Club",
+      "competition": "AUS - A-League - 2024/2025",
+      "status": "closed"
+    },
+    "pitch_metres": [
+      105,
+      68
+    ],
+    "home_team_side": [
+      "left_to_right",
+      "right_to_left"
+    ],
+    "roster_count": 36,
+    "sample_frames": 300,
+    "frame_range": [
+      0,
+      299
+    ],
+    "period_counts": {
+      "None": 10,
+      "1": 290
+    },
+    "timestamp_nonnull_count": 290,
+    "timestamp_seconds_range": [
+      0.0,
+      28.9
+    ],
+    "timestamp_delta_counts": {
+      "0.1": 289
+    },
+    "per_frame_player_count_distribution": {
+      "0": 10,
+      "22": 290
+    },
+    "sample_unique_player_ids": 22,
+    "per_frame_finite_player_xy_count_distribution": {
+      "0": 10,
+      "22": 290
+    },
+    "missing_or_nonfinite_player_xy_observations": 0,
+    "unknown_player_ids": [],
+    "duplicate_player_id_frames": [],
+    "player_observation_flags": {
+      "False": 3023,
+      "True": 3357
+    },
+    "ball_observation_counts": {
+      "missing_xy": 10,
+      "present_xy": 290,
+      "extrapolated": 7,
+      "detected": 283
+    },
+    "player_observations_extrapolated_percent": 47.38,
+    "player_xy_outside_nominal_pitch_observations": 23,
+    "sample_player_xy_range": {
+      "x": [
+        -43.18,
+        50.26
+      ],
+      "y": [
+        -31.23,
+        35.19
+      ]
+    },
+    "identity_examples": [
+      {
+        "player_id": 50966,
+        "public_name": "Ben Halloran",
+        "team_id": 1802,
+        "team_name": "Brisbane Roar FC",
+        "shirt": 27,
+        "locator": "players[id=50966]; sampled player_data.player_id"
+      },
+      {
+        "player_id": 50973,
+        "public_name": "Joe Caletti Kato",
+        "team_id": 1802,
+        "team_name": "Brisbane Roar FC",
+        "shirt": 6,
+        "locator": "players[id=50973]; sampled player_data.player_id"
+      },
+      {
+        "player_id": 23925,
+        "public_name": "Ryan Kitto",
+        "team_id": 866,
+        "team_name": "Adelaide United Football Club",
+        "shirt": 7,
+        "locator": "players[id=23925]; sampled player_data.player_id"
+      },
+      {
+        "player_id": 26766,
+        "public_name": "Bart Vriends",
+        "team_id": 866,
+        "team_name": "Adelaide United Football Club",
+        "shirt": 3,
+        "locator": "players[id=26766]; sampled player_data.player_id"
+      }
+    ],
+    "lfs_pointer": {
+      "object_sha256": "ea97f58f8eaad925feaeacc6395ec24860dd80027af8a89450276adebd29d265",
+      "whole_object_size": 90729279,
+      "whole_object_downloaded_or_hash_verified": false
+    },
+    "limits": "Prefix only; initial null frames included. Broadcast-estimated positions and extrapolations, not independently verified ground truth. No whole-game coverage or event alignment established."
+  },
+  "metrica": {
+    "sample": "Sample Game 1",
+    "identity": "anonymised; no actual player/team/competition names",
+    "teams": {
+      "Home": {
+        "anonymous_player_columns": 14,
+        "column_ids": [
+          "Player1",
+          "Player10",
+          "Player11",
+          "Player12",
+          "Player13",
+          "Player14",
+          "Player2",
+          "Player3",
+          "Player4",
+          "Player5",
+          "Player6",
+          "Player7",
+          "Player8",
+          "Player9"
+        ],
+        "sample_frames": 300,
+        "frame_range": [
+          1,
+          300
+        ],
+        "periods": [
+          1
+        ],
+        "time_seconds_range": [
+          0.04,
+          12.0
+        ],
+        "delta_counts": {
+          "0.04": 299
+        },
+        "present_player_count_distribution": {
+          "11": 300
+        },
+        "sample_normalized_xy_range": {
+          "x": [
+            -0.00022,
+            0.55349
+          ],
+          "y": [
+            0.12689,
+            0.955
+          ]
+        },
+        "missing_ball_xy_frames": 0
+      },
+      "Away": {
+        "anonymous_player_columns": 14,
+        "column_ids": [
+          "Player15",
+          "Player16",
+          "Player17",
+          "Player18",
+          "Player19",
+          "Player20",
+          "Player21",
+          "Player22",
+          "Player23",
+          "Player24",
+          "Player25",
+          "Player26",
+          "Player27",
+          "Player28"
+        ],
+        "sample_frames": 300,
+        "frame_range": [
+          1,
+          300
+        ],
+        "periods": [
+          1
+        ],
+        "time_seconds_range": [
+          0.04,
+          12.0
+        ],
+        "delta_counts": {
+          "0.04": 299
+        },
+        "present_player_count_distribution": {
+          "11": 300
+        },
+        "sample_normalized_xy_range": {
+          "x": [
+            0.22319,
+            0.90509
+          ],
+          "y": [
+            0.021,
+            0.98046
+          ]
+        },
+        "missing_ball_xy_frames": 0
+      }
+    },
+    "shared_frame_count": 300,
+    "same_ball_coordinates_on_shared_frames": 300,
+    "whole_small_event_file_rows": 1745,
+    "event_rows_overlapping_sample": 7,
+    "event_rows_fully_contained_with_positive_end_frame": 5,
+    "overlap_event_rows_with_zero_end_frame": 1,
+    "event_type_counts_in_overlap": {
+      "SET PIECE": 1,
+      "PASS": 6
+    },
+    "unknown_event_player_ids_in_overlap": [],
+    "event_start_time_matches_frame_25fps": true,
+    "coordinate_semantics": "README: normalized 0..1 top-left origin, 105x68 metres; actual prefix ranges reported without clamping.",
+    "limits": "First 300 frames per team only, event alignment checked only for overlapping rows. Not Premier League or named-player evidence; reuse basis not comprehensively established."
+  },
+  "lastrow": {
+    "sample": "datasets/positional_data/LIV_[2]-1_CHE.csv",
+    "scope": "whole small selected play file; not main 19-play collection",
+    "rows": 4095,
+    "frames": 195,
+    "frame_range": [
+      0,
+      194
+    ],
+    "local_ids": 21,
+    "objects_per_frame_distribution": {
+      "21": 195
+    },
+    "present_xy_objects_per_frame_distribution": {
+      "21": 195
+    },
+    "missing_xy_rows": 0,
+    "missing_z_rows": 3900,
+    "duplicate_frame_local_id_pairs": [],
+    "nonnull_name_rows": 0,
+    "nonnull_team_rows": 3900,
+    "nonnull_shirt_rows": 390,
+    "partial_identity_examples": [
+      {
+        "player": "12",
+        "team": "attack",
+        "shirt": "10.0"
+      },
+      {
+        "player": "1214",
+        "team": "attack",
+        "shirt": "9.0"
+      }
+    ],
+    "sample_xy_range": {
+      "x": [
+        -0.6802721088435374,
+        54.82993197278917
+      ],
+      "y": [
+        15.12605042016807,
+        99.15000271338162
+      ]
+    },
+    "nonzero_z_local_ids": [
+      "0"
+    ],
+    "time_semantics": "README 20 fps; frame-local span derived as (last-first)/20, not match-clock timestamps",
+    "derived_frame_span_seconds": 9.7,
+    "limits": "Selected filename refers to Liverpool-Chelsea goal play, not verified match identity/date or player names. Name column is blank; team and two partial shirt references are not a verified public-name roster join. Object/ball roles not independently resolved. Authors warn accuracy is unsuitable for research and players can be missing."
+  },
+  "receipts": [
+    {
+      "source": "skillcorner",
+      "url": "https://raw.githubusercontent.com/SkillCorner/opendata/4340d274572876239c154c90bc507a9b3250a656/README.md",
+      "resolved_url": "https://raw.githubusercontent.com/SkillCorner/opendata/4340d274572876239c154c90bc507a9b3250a656/README.md",
+      "status": 200,
+      "scope": "whole small file",
+      "bytes_hashed": 12212,
+      "sha256": "c09886c6359e5f7ff3bfd71a653510caf2f674d238ca79219aa1ec9ebe6f4428",
+      "hash_semantics": "exact full response bytes"
+    },
+    {
+      "source": "skillcorner",
+      "url": "https://raw.githubusercontent.com/SkillCorner/opendata/4340d274572876239c154c90bc507a9b3250a656/LICENSE",
+      "resolved_url": "https://raw.githubusercontent.com/SkillCorner/opendata/4340d274572876239c154c90bc507a9b3250a656/LICENSE",
+      "status": 200,
+      "scope": "whole small file",
+      "bytes_hashed": 1097,
+      "sha256": "3384cc66ffd008209759af5e6328677eabded72756fb1f56f4f82e68e9b3c6eb",
+      "hash_semantics": "exact full response bytes"
+    },
+    {
+      "source": "metrica",
+      "url": "https://raw.githubusercontent.com/metrica-sports/sample-data/e706dd506b360d69d9d123d5b8026e7294b13996/README.md",
+      "resolved_url": "https://raw.githubusercontent.com/metrica-sports/sample-data/e706dd506b360d69d9d123d5b8026e7294b13996/README.md",
+      "status": 200,
+      "scope": "whole small file",
+      "bytes_hashed": 2901,
+      "sha256": "fa4b178e62c4d3559e13b6d3a4fdd42e45293461c2ab656e05a13360a6adcbcf",
+      "hash_semantics": "exact full response bytes"
+    },
+    {
+      "source": "lastrow",
+      "url": "https://raw.githubusercontent.com/Friends-of-Tracking-Data-FoTD/Last-Row/72129b58d0b866c21ab895d97b426333330f6294/README.md",
+      "resolved_url": "https://raw.githubusercontent.com/Friends-of-Tracking-Data-FoTD/Last-Row/72129b58d0b866c21ab895d97b426333330f6294/README.md",
+      "status": 200,
+      "scope": "whole small file",
+      "bytes_hashed": 1825,
+      "sha256": "8b519f56bef7509acfe1d2c4213d3322d863fe384a268b21b52efdbb99a7e502",
+      "hash_semantics": "exact full response bytes"
+    },
+    {
+      "source": "skillcorner",
+      "url": "https://raw.githubusercontent.com/SkillCorner/opendata/4340d274572876239c154c90bc507a9b3250a656/data/matches.json",
+      "resolved_url": "https://raw.githubusercontent.com/SkillCorner/opendata/4340d274572876239c154c90bc507a9b3250a656/data/matches.json",
+      "status": 200,
+      "scope": "whole small file",
+      "bytes_hashed": 6648,
+      "sha256": "4dd7a62f966046a8fde2563e69fd044997d471b213118aed436cb23ab1fdfad0",
+      "hash_semantics": "exact full response bytes"
+    },
+    {
+      "source": "skillcorner",
+      "url": "https://raw.githubusercontent.com/SkillCorner/opendata/4340d274572876239c154c90bc507a9b3250a656/data/matches/1874553/1874553_match.json",
+      "resolved_url": "https://raw.githubusercontent.com/SkillCorner/opendata/4340d274572876239c154c90bc507a9b3250a656/data/matches/1874553/1874553_match.json",
+      "status": 200,
+      "scope": "whole small file",
+      "bytes_hashed": 33730,
+      "sha256": "e6974e402779d8be44e75bf88ef2a3acfd4d025b87b3fc57f518fa826a645ad8",
+      "hash_semantics": "exact full response bytes"
+    },
+    {
+      "source": "skillcorner",
+      "url": "https://raw.githubusercontent.com/SkillCorner/opendata/4340d274572876239c154c90bc507a9b3250a656/data/matches/1874553/1874553_tracking_extrapolated.jsonl",
+      "resolved_url": "https://raw.githubusercontent.com/SkillCorner/opendata/4340d274572876239c154c90bc507a9b3250a656/data/matches/1874553/1874553_tracking_extrapolated.jsonl",
+      "status": 200,
+      "scope": "whole small file",
+      "bytes_hashed": 133,
+      "sha256": "deb9af1b3d17b7eb59df6296cee4c42532342d87c59d33e381aeb3fd44a5f15b",
+      "hash_semantics": "exact full response bytes"
+    },
+    {
+      "source": "skillcorner",
+      "url": "https://media.githubusercontent.com/media/SkillCorner/opendata/4340d274572876239c154c90bc507a9b3250a656/data/matches/1874553/1874553_tracking_extrapolated.jsonl",
+      "resolved_url": "https://media.githubusercontent.com/media/SkillCorner/opendata/4340d274572876239c154c90bc507a9b3250a656/data/matches/1874553/1874553_tracking_extrapolated.jsonl",
+      "status": 200,
+      "scope": "first 300 complete lines only",
+      "bytes_hashed": 555442,
+      "sha256": "076d775e6f4d3d37decee5180938eee335a8a1f5ecce7c91a7a26083156af667",
+      "hash_semantics": "exact bytes returned to parser; not full LFS object hash"
+    },
+    {
+      "source": "metrica",
+      "url": "https://raw.githubusercontent.com/metrica-sports/sample-data/e706dd506b360d69d9d123d5b8026e7294b13996/data/Sample_Game_1/Sample_Game_1_RawTrackingData_Home_Team.csv",
+      "resolved_url": "https://raw.githubusercontent.com/metrica-sports/sample-data/e706dd506b360d69d9d123d5b8026e7294b13996/data/Sample_Game_1/Sample_Game_1_RawTrackingData_Home_Team.csv",
+      "status": 200,
+      "scope": "first 303 complete lines only",
+      "bytes_hashed": 67464,
+      "sha256": "abd57b877e6c49dbf036b149b6890336200c53feccae03ba087faa677a174b6f",
+      "hash_semantics": "exact bytes returned to parser; not full LFS object hash"
+    },
+    {
+      "source": "metrica",
+      "url": "https://raw.githubusercontent.com/metrica-sports/sample-data/e706dd506b360d69d9d123d5b8026e7294b13996/data/Sample_Game_1/Sample_Game_1_RawTrackingData_Away_Team.csv",
+      "resolved_url": "https://raw.githubusercontent.com/metrica-sports/sample-data/e706dd506b360d69d9d123d5b8026e7294b13996/data/Sample_Game_1/Sample_Game_1_RawTrackingData_Away_Team.csv",
+      "status": 200,
+      "scope": "first 303 complete lines only",
+      "bytes_hashed": 67466,
+      "sha256": "3c3ae4e3b18c003020030cf33b9a89aa5cc7f9accf2d61d7704b706f71f0265e",
+      "hash_semantics": "exact bytes returned to parser; not full LFS object hash"
+    },
+    {
+      "source": "metrica",
+      "url": "https://raw.githubusercontent.com/metrica-sports/sample-data/e706dd506b360d69d9d123d5b8026e7294b13996/data/Sample_Game_1/Sample_Game_1_RawEventsData.csv",
+      "resolved_url": "https://raw.githubusercontent.com/metrica-sports/sample-data/e706dd506b360d69d9d123d5b8026e7294b13996/data/Sample_Game_1/Sample_Game_1_RawEventsData.csv",
+      "status": 200,
+      "scope": "whole small file",
+      "bytes_hashed": 139446,
+      "sha256": "097dda6345e17390dca095331458fd00e47960c480c76f4356fd4edf2575ef05",
+      "hash_semantics": "exact full response bytes"
+    },
+    {
+      "source": "lastrow",
+      "url": "https://raw.githubusercontent.com/Friends-of-Tracking-Data-FoTD/Last-Row/72129b58d0b866c21ab895d97b426333330f6294/datasets/positional_data/LIV_%5B2%5D-1_CHE.csv",
+      "resolved_url": "https://raw.githubusercontent.com/Friends-of-Tracking-Data-FoTD/Last-Row/72129b58d0b866c21ab895d97b426333330f6294/datasets/positional_data/LIV_%5B2%5D-1_CHE.csv",
+      "status": 200,
+      "scope": "whole small file",
+      "bytes_hashed": 586454,
+      "sha256": "d44f2af17a62db4945caba14dac087653681a19065563ff68e644e403308bec1",
+      "hash_semantics": "exact full response bytes"
+    }
+  ],
+  "bytes_returned_to_parser_by_source": {
+    "skillcorner": 609262,
+    "metrica": 277277,
+    "lastrow": 588279
+  }
+}

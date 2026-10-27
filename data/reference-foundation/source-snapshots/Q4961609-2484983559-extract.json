@@ -1,0 +1,981 @@
+{
+  "entities": {
+    "Q4961609": {
+      "pageid": 4742287,
+      "ns": 0,
+      "title": "Q4961609",
+      "lastrevid": 2484983559,
+      "modified": "2026-04-27T03:12:47Z",
+      "type": "item",
+      "id": "Q4961609",
+      "labels": {
+        "en": {
+          "language": "en",
+          "value": "Brentford Community Stadium"
+        }
+      },
+      "descriptions": {
+        "en": {
+          "language": "en",
+          "value": "stadium in London, England"
+        }
+      },
+      "claims": {
+        "P625": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P625",
+              "hash": "6cf48c1b7429f84b55863cdf4c156ef5ecae5a74",
+              "datavalue": {
+                "value": {
+                  "latitude": 51.490825,
+                  "longitude": -0.2887,
+                  "altitude": null,
+                  "precision": 0.0001,
+                  "globe": "http://www.wikidata.org/entity/Q2"
+                },
+                "type": "globecoordinate"
+              },
+              "datatype": "globe-coordinate"
+            },
+            "type": "statement",
+            "id": "q4961609$624F34E0-7A61-4439-ABFA-730F617FA999",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "fa278ebfc458360e5aed63d5058cca83c46134f1",
+                "snaks": {
+                  "P143": [
+                    {
+                      "snaktype": "value",
+                      "property": "P143",
+                      "hash": "e4f6d9441d0600513c4533c672b5ab472dc73694",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 328,
+                          "id": "Q328"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P143"
+                ]
+              }
+            ]
+          }
+        ],
+        "P1083": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P1083",
+              "hash": "a074c25b505b34172fe6d89db086c9d862eee237",
+              "datavalue": {
+                "value": {
+                  "amount": "+20000",
+                  "unit": "1"
+                },
+                "type": "quantity"
+              },
+              "datatype": "quantity"
+            },
+            "type": "statement",
+            "id": "Q4961609$B76A281E-2B47-4D7D-9924-0789D1AA5249",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "fa278ebfc458360e5aed63d5058cca83c46134f1",
+                "snaks": {
+                  "P143": [
+                    {
+                      "snaktype": "value",
+                      "property": "P143",
+                      "hash": "e4f6d9441d0600513c4533c672b5ab472dc73694",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 328,
+                          "id": "Q328"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P143"
+                ]
+              }
+            ]
+          }
+        ],
+        "P466": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P466",
+              "hash": "7c81fcd540ef5d057dc512f859c4e164c24d7db3",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 19571,
+                  "id": "Q19571"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q4961609$211F1050-DA4D-471C-9CCA-ACFD8CF8C0BC",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "fa278ebfc458360e5aed63d5058cca83c46134f1",
+                "snaks": {
+                  "P143": [
+                    {
+                      "snaktype": "value",
+                      "property": "P143",
+                      "hash": "e4f6d9441d0600513c4533c672b5ab472dc73694",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 328,
+                          "id": "Q328"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P143"
+                ]
+              }
+            ]
+          },
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P466",
+              "hash": "42bf319c34e646b95de0c1e79ee1dc5bea147a43",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 1193020,
+                  "id": "Q1193020"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q4961609$76a56ae5-4048-018b-719d-22fb04d95ed0",
+            "rank": "normal"
+          }
+        ],
+        "P131": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P131",
+              "hash": "be07278fab10fb5098589f78a00c6b84a3d07342",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 214162,
+                  "id": "Q214162"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q4961609$3A096784-BA91-4982-ACEB-F749C72D6D92",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "fa278ebfc458360e5aed63d5058cca83c46134f1",
+                "snaks": {
+                  "P143": [
+                    {
+                      "snaktype": "value",
+                      "property": "P143",
+                      "hash": "e4f6d9441d0600513c4533c672b5ab472dc73694",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 328,
+                          "id": "Q328"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P143"
+                ]
+              }
+            ]
+          }
+        ],
+        "P17": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P17",
+              "hash": "a44880420787fb348836dc51d3babc5227c4ef7e",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 145,
+                  "id": "Q145"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q4961609$95E51A87-34AE-4450-AD93-C761FAFB9ACE",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "e347ed74d5f73f36205d274a20452f79a384b0e4",
+                "snaks": {
+                  "P248": [
+                    {
+                      "snaktype": "value",
+                      "property": "P248",
+                      "hash": "1b3ef912a2bd61e18dd43abd184337eb010b2e96",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 830106,
+                          "id": "Q830106"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ],
+                  "P813": [
+                    {
+                      "snaktype": "value",
+                      "property": "P813",
+                      "hash": "2e8cd9b0cf326816ec447bea7951359ad21549f9",
+                      "datavalue": {
+                        "value": {
+                          "time": "+2015-04-06T00:00:00Z",
+                          "timezone": 0,
+                          "before": 0,
+                          "after": 0,
+                          "precision": 11,
+                          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                        },
+                        "type": "time"
+                      },
+                      "datatype": "time"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P248",
+                  "P813"
+                ]
+              }
+            ]
+          }
+        ],
+        "P31": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P31",
+              "hash": "050b4df0bdbf175ce919feb26db4bb81271c9fcf",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 1076486,
+                  "id": "Q1076486"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q4961609$080F86CF-9C1F-44B8-A291-43CF4B02C027",
+            "rank": "normal"
+          },
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P31",
+              "hash": "a2cb9ea692bc81efccddb68809a778e595f32b34",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 483110,
+                  "id": "Q483110"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q4961609$3dcd98e3-b5e2-4e37-9b22-ddc80134b552",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "14d2400e3b1d36332748dc330276f099eeaa8800",
+                "snaks": {
+                  "P143": [
+                    {
+                      "snaktype": "value",
+                      "property": "P143",
+                      "hash": "39224a9c2e8ce5424defbd16603d25771956c7fc",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 1551807,
+                          "id": "Q1551807"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P143"
+                ]
+              }
+            ]
+          }
+        ],
+        "P856": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P856",
+              "hash": "f233dbc00c6c7c1ec6691d83a8a9caf36613bbbf",
+              "datavalue": {
+                "value": "http://www.brentfordcommunitystadium.com",
+                "type": "string"
+              },
+              "datatype": "url"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P407": [
+                {
+                  "snaktype": "value",
+                  "property": "P407",
+                  "hash": "daf1c4fcb58181b02dff9cc89deb084004ddae4b",
+                  "datavalue": {
+                    "value": {
+                      "entity-type": "item",
+                      "numeric-id": 1860,
+                      "id": "Q1860"
+                    },
+                    "type": "wikibase-entityid"
+                  },
+                  "datatype": "wikibase-item"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P407"
+            ],
+            "id": "Q4961609$7B2753A4-446C-4B06-8480-347F8E499716",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "fa278ebfc458360e5aed63d5058cca83c46134f1",
+                "snaks": {
+                  "P143": [
+                    {
+                      "snaktype": "value",
+                      "property": "P143",
+                      "hash": "e4f6d9441d0600513c4533c672b5ab472dc73694",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 328,
+                          "id": "Q328"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P143"
+                ]
+              }
+            ]
+          }
+        ],
+        "P18": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P18",
+              "hash": "2c9f2b36e7fd9bae9b967604cf561ef785aadd76",
+              "datavalue": {
+                "value": "Brentford Community Stadium 2020.jpg",
+                "type": "string"
+              },
+              "datatype": "commonsMedia"
+            },
+            "type": "statement",
+            "id": "Q4961609$369F973A-71E6-4FE0-BB17-98EE16710713",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "ce5404b2e08baf39b52bd6f705c0dbe4f99a5a3c",
+                "snaks": {
+                  "P143": [
+                    {
+                      "snaktype": "value",
+                      "property": "P143",
+                      "hash": "e4f6d9441d0600513c4533c672b5ab472dc73694",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 328,
+                          "id": "Q328"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ],
+                  "P4656": [
+                    {
+                      "snaktype": "value",
+                      "property": "P4656",
+                      "hash": "8090d5f32247a9c5d297a79438a2edae6c9a487c",
+                      "datavalue": {
+                        "value": "https://en.wikipedia.org/w/index.php?title=Brentford_Community_Stadium&oldid=915732224",
+                        "type": "string"
+                      },
+                      "datatype": "url"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P143",
+                  "P4656"
+                ]
+              }
+            ]
+          }
+        ],
+        "P1619": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P1619",
+              "hash": "090408378a73771e86d93b77ebe084fa8c8fd2b3",
+              "datavalue": {
+                "value": {
+                  "time": "+2020-00-00T00:00:00Z",
+                  "timezone": 0,
+                  "before": 0,
+                  "after": 0,
+                  "precision": 9,
+                  "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                },
+                "type": "time"
+              },
+              "datatype": "time"
+            },
+            "type": "statement",
+            "id": "Q4961609$3324F3D8-FA31-444A-95FF-D73F2706D2DF",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "daee533edb6cb38994634c14298e13d1573a0b49",
+                "snaks": {
+                  "P143": [
+                    {
+                      "snaktype": "value",
+                      "property": "P143",
+                      "hash": "e4f6d9441d0600513c4533c672b5ab472dc73694",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 328,
+                          "id": "Q328"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ],
+                  "P4656": [
+                    {
+                      "snaktype": "value",
+                      "property": "P4656",
+                      "hash": "5590ff1bd955b64ccffaf208b7baa2111f2e4351",
+                      "datavalue": {
+                        "value": "https://en.wikipedia.org/w/index.php?title=Brentford_Community_Stadium&oldid=938853510",
+                        "type": "string"
+                      },
+                      "datatype": "url"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P143",
+                  "P4656"
+                ]
+              }
+            ]
+          }
+        ],
+        "P7959": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P7959",
+              "hash": "ed099a4e7a2fcf7c7f67c7fd7785bd92bbf4ef89",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 19186,
+                  "id": "Q19186"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q4961609$538261bb-0292-4bb5-8b88-297bdefefa95",
+            "rank": "normal"
+          }
+        ],
+        "P646": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P646",
+              "hash": "eb936e5fb71a46c176598333ebfb43b290707399",
+              "datavalue": {
+                "value": "/m/043sj5f",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q4961609$71A56C8D-DAA6-4D02-8A50-08C74DF2F2DB",
+            "rank": "normal"
+          }
+        ],
+        "P5288": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P5288",
+              "hash": "70e0ea283ef096e21a5dcf729c643e61a0d0fc2c",
+              "datavalue": {
+                "value": "eng/brentford_community_stadium",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q4961609$e71fcd0e-4ff7-96c7-18a3-d1db4f222168",
+            "rank": "normal"
+          }
+        ],
+        "P571": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P571",
+              "hash": "8cc33ab4f3e727298fbed246d2ce7b4dbaf2518c",
+              "datavalue": {
+                "value": {
+                  "time": "+2020-00-00T00:00:00Z",
+                  "timezone": 0,
+                  "before": 0,
+                  "after": 0,
+                  "precision": 9,
+                  "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                },
+                "type": "time"
+              },
+              "datatype": "time"
+            },
+            "type": "statement",
+            "id": "Q4961609$868E6BED-1D67-48E9-9632-CEBCC239B30E",
+            "rank": "normal"
+          }
+        ],
+        "P373": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P373",
+              "hash": "81205e4859b7ea78989581e10bdf079fa141aaf0",
+              "datavalue": {
+                "value": "Brentford Community Stadium",
+                "type": "string"
+              },
+              "datatype": "string"
+            },
+            "type": "statement",
+            "id": "Q4961609$577e7d59-ce79-4379-935a-00ea65e77058",
+            "rank": "normal"
+          }
+        ],
+        "P641": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P641",
+              "hash": "1624e15e061523279bc14bb6497168e45caacb32",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 2736,
+                  "id": "Q2736"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q4961609$3EC6F4CF-C38B-4E28-9FEE-129CA1167311",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "e0ee61eec34b27094bbbc1377a9897bd4fbfc38e",
+                "snaks": {
+                  "P143": [
+                    {
+                      "snaktype": "value",
+                      "property": "P143",
+                      "hash": "5a343e7e758a4282a01316d3e959b6e653b767fc",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 11920,
+                          "id": "Q11920"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ],
+                  "P4656": [
+                    {
+                      "snaktype": "value",
+                      "property": "P4656",
+                      "hash": "06dd3cf852db155071a8e3e7869e41115fb81213",
+                      "datavalue": {
+                        "value": "https://it.wikipedia.org/w/index.php?title=Brentford_Community_Stadium&oldid=127883174",
+                        "type": "string"
+                      },
+                      "datatype": "url"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P143",
+                  "P4656"
+                ]
+              }
+            ]
+          },
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P641",
+              "hash": "adb877228d79e68544dbe13ac61ae941a075f3a4",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 5849,
+                  "id": "Q5849"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q4961609$e187d04b-4e9f-4c4a-871d-13274509185c",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "14d2400e3b1d36332748dc330276f099eeaa8800",
+                "snaks": {
+                  "P143": [
+                    {
+                      "snaktype": "value",
+                      "property": "P143",
+                      "hash": "39224a9c2e8ce5424defbd16603d25771956c7fc",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 1551807,
+                          "id": "Q1551807"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P143"
+                ]
+              }
+            ]
+          }
+        ],
+        "P7938": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P7938",
+              "hash": "bac6e49f2dd931f65fcde973fed8a97b7112da0f",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 1077806,
+                  "id": "Q1077806"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P3831": [
+                {
+                  "snaktype": "value",
+                  "property": "P3831",
+                  "hash": "92b2a9bac12fb8e82c56dfef41567be36eeb563f",
+                  "datavalue": {
+                    "value": {
+                      "entity-type": "item",
+                      "numeric-id": 27971968,
+                      "id": "Q27971968"
+                    },
+                    "type": "wikibase-entityid"
+                  },
+                  "datatype": "wikibase-item"
+                }
+              ],
+              "P585": [
+                {
+                  "snaktype": "value",
+                  "property": "P585",
+                  "hash": "a6be46f7ad0a963928c79e954c6bebb458ccd2d8",
+                  "datavalue": {
+                    "value": {
+                      "time": "+2024-07-01T00:00:00Z",
+                      "timezone": 0,
+                      "before": 0,
+                      "after": 0,
+                      "precision": 10,
+                      "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                    },
+                    "type": "time"
+                  },
+                  "datatype": "time"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P3831",
+              "P585"
+            ],
+            "id": "Q4961609$62C780AA-45DD-4A0C-AB97-6A83EA05CD85",
+            "rank": "normal"
+          }
+        ]
+      },
+      "sitelinks": {
+        "arwiki": {
+          "site": "arwiki",
+          "title": "ملعب برينتفورد",
+          "badges": []
+        },
+        "bgwiki": {
+          "site": "bgwiki",
+          "title": "Брентфорд Къмюнити Стейдиъм",
+          "badges": []
+        },
+        "commonswiki": {
+          "site": "commonswiki",
+          "title": "Category:Brentford Community Stadium",
+          "badges": []
+        },
+        "cywiki": {
+          "site": "cywiki",
+          "title": "Stadiwm Cymunedol Brentford",
+          "badges": []
+        },
+        "dawiki": {
+          "site": "dawiki",
+          "title": "Brentford Community Stadium",
+          "badges": []
+        },
+        "dewiki": {
+          "site": "dewiki",
+          "title": "Brentford Community Stadium",
+          "badges": []
+        },
+        "enwiki": {
+          "site": "enwiki",
+          "title": "Brentford Community Stadium",
+          "badges": []
+        },
+        "eswiki": {
+          "site": "eswiki",
+          "title": "Brentford Community Stadium",
+          "badges": []
+        },
+        "euwiki": {
+          "site": "euwiki",
+          "title": "Brentford Community Stadium",
+          "badges": []
+        },
+        "fawiki": {
+          "site": "fawiki",
+          "title": "ورزشگاه جی‌تک کامیونیتی",
+          "badges": []
+        },
+        "fiwiki": {
+          "site": "fiwiki",
+          "title": "Brentford Community Stadium",
+          "badges": []
+        },
+        "frwiki": {
+          "site": "frwiki",
+          "title": "Gtech Community Stadium",
+          "badges": []
+        },
+        "hewiki": {
+          "site": "hewiki",
+          "title": "האצטדיון הקהילתי ברנטפורד",
+          "badges": []
+        },
+        "huwiki": {
+          "site": "huwiki",
+          "title": "Brentfordi Közösségi Stadion",
+          "badges": []
+        },
+        "idwiki": {
+          "site": "idwiki",
+          "title": "Stadion Brentford Community",
+          "badges": []
+        },
+        "iswiki": {
+          "site": "iswiki",
+          "title": "Brentford Community Stadium",
+          "badges": []
+        },
+        "itwiki": {
+          "site": "itwiki",
+          "title": "Brentford Community Stadium",
+          "badges": []
+        },
+        "jawiki": {
+          "site": "jawiki",
+          "title": "ブレントフォード・コミュニティ・スタジアム",
+          "badges": []
+        },
+        "kowiki": {
+          "site": "kowiki",
+          "title": "브렌트퍼드 커뮤니티 스타디움",
+          "badges": []
+        },
+        "nlwiki": {
+          "site": "nlwiki",
+          "title": "Brentford Community Stadium",
+          "badges": []
+        },
+        "nowiki": {
+          "site": "nowiki",
+          "title": "Brentford Community Stadium",
+          "badges": []
+        },
+        "plwiki": {
+          "site": "plwiki",
+          "title": "Brentford Community Stadium",
+          "badges": []
+        },
+        "ptwiki": {
+          "site": "ptwiki",
+          "title": "Brentford Community Stadium",
+          "badges": []
+        },
+        "rowiki": {
+          "site": "rowiki",
+          "title": "Brentford Community Stadium",
+          "badges": []
+        },
+        "ruwiki": {
+          "site": "ruwiki",
+          "title": "Брентфорд Коммьюнити",
+          "badges": []
+        },
+        "skwiki": {
+          "site": "skwiki",
+          "title": "Brentford Community Stadium",
+          "badges": []
+        },
+        "svwiki": {
+          "site": "svwiki",
+          "title": "Brentford Community Stadium",
+          "badges": []
+        },
+        "thwiki": {
+          "site": "thwiki",
+          "title": "เบรนต์ฟอร์ดคอมมิวนิตีสเตเดียม",
+          "badges": []
+        },
+        "trwiki": {
+          "site": "trwiki",
+          "title": "Brentford Topluluk Stadyumu",
+          "badges": []
+        },
+        "ukwiki": {
+          "site": "ukwiki",
+          "title": "Брентфорд Комм'юніті (стадіон)",
+          "badges": []
+        },
+        "viwiki": {
+          "site": "viwiki",
+          "title": "Sân vận động Cộng đồng Brentford",
+          "badges": []
+        },
+        "zh_yuewiki": {
+          "site": "zh_yuewiki",
+          "title": "賓福特社區球場",
+          "badges": []
+        },
+        "zhwiki": {
+          "site": "zhwiki",
+          "title": "賓福特社區球場",
+          "badges": []
+        }
+      }
+    }
+  }
+}

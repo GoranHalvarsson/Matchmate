@@ -1,0 +1,51 @@
+.historical-experience { max-width: 1180px; margin: 0 auto; padding: 24px 30px 48px; color: var(--ink, #203e35); }
+.historical-back-link { margin-bottom: 12px; font-size: 12px; }
+.historical-fixture-header { display: block; padding: 8px 0 28px; text-align: center; }
+.historical-fixture-meta .eyebrow { margin: 0 0 8px; font-size: 10px; letter-spacing: 1.5px; }
+.historical-fixture-meta > p:last-child { margin: 0; color: var(--muted, #627169); font-size: 13px; }
+.historical-fixture-meta > p > span { padding: 0 7px; color: #9aa18e; }
+.historical-fixture-teams { display: grid; grid-template-columns: minmax(0, 1fr) auto minmax(0, 1fr); align-items: center; gap: 28px; max-width: 880px; margin: 22px auto 0; }
+.historical-fixture-club { display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 10px; min-width: 0; }
+.historical-fixture-club ::deep .historical-fixture-crest { width: 64px; height: 64px; flex: 0 0 64px; margin: 0; }
+.historical-fixture-club > strong { font: 400 clamp(20px, 2.4vw, 28px)/1.2 Georgia, serif; overflow-wrap: anywhere; }
+.historical-fixture-side { color: var(--muted, #627169); font-size: 10px; text-transform: uppercase; letter-spacing: 1.3px; margin-top: -3px; }
+.historical-fixture-score { margin: 0; white-space: nowrap; font: 400 clamp(52px, 5.3vw, 72px)/1 Georgia, serif; letter-spacing: -1px; font-variant-numeric: tabular-nums; }
+.historical-fixture-score .historical-score-divider { margin: 0 6px; color: #9ba48c; font: inherit; }
+.historical-freshness { margin: 18px 0 0; color: var(--muted, #627169); font-size: 11px; }
+.historical-facts { margin-top: 22px; border: 1px solid var(--line, #d9ded3); border-radius: 14px; background: #eff0e5; }
+.historical-facts > summary { padding: 20px 24px; cursor: pointer; color: var(--ink, #203e35); }
+.historical-facts > summary::marker { color: var(--olive, #7c8b45); }
+.historical-facts-title { font: 400 22px/1.3 Georgia, serif; margin-left: 6px; }
+.historical-facts-hint { float: right; padding-top: 5px; font-size: 12px; color: var(--muted, #627169); }
+.historical-facts[open] > summary { border-bottom: 1px solid var(--line, #d9ded3); }
+.historical-facts-body { padding: 22px; }
+.historical-facts-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); align-items: start; gap: 18px; }
+.historical-fact-card { min-width: 0; padding: 24px; border: 1px solid var(--line, #d9ded3); border-radius: 12px; background: var(--white, #fffef9); }
+.historical-fact-card > .eyebrow { margin: 0 0 10px; font-size: 10px; }
+.historical-fact-card h2 { font: 400 24px/1.18 Georgia, serif; letter-spacing: -.4px; margin: 0 0 20px; }
+.historical-fact-card h3 { font: 400 19px/1.25 Georgia, serif; margin: 22px 0 9px; }
+.historical-fact-card p { font-size: 13px; line-height: 1.6; margin: 0 0 12px; }
+.historical-fact-card ::deep .recent-results a { padding: 11px 0; font-size: 13px; line-height: 1.5; gap: 5px; }
+.historical-fact-card ::deep .recent-results small { font-size: 12px; }
+.historical-fact-card ::deep .recent-results a:hover { color: #526428; }
+.historical-fact-card .historical-card-note { margin: 15px 0 0; font-size: 12px; line-height: 1.6; color: var(--muted, #627169); }
+.historical-standing { padding: 0 0 20px; margin-bottom: 20px; border-bottom: 1px solid var(--line, #d9ded3); }
+.historical-standing h3 { margin-top: 0; }
+.historical-table-stats { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 10px; margin: 17px 0 0; }
+.historical-table-stats strong { display: block; font: 400 32px/1.1 Georgia, serif; font-variant-numeric: tabular-nums; }
+.historical-table-stats span { display: block; color: var(--muted, #627169); font-size: 11px; line-height: 1.4; margin-top: 7px; }
+.historical-meeting { border-bottom: 1px solid var(--line, #d9ded3); padding: 0 0 12px; margin-bottom: 14px; }
+.historical-meeting small { display: block; margin-bottom: 5px; font-size: 12px; }
+.historical-meeting p { margin: 0; }
+.historical-ground { padding-top: 2px; }
+.historical-ground .historical-ground-name { font: 400 20px/1.3 Georgia, serif; margin-bottom: 5px; }
+.historical-sources { padding: 18px 2px 0; margin-top: 20px; border-top: 1px solid #d2d8c7; }
+.historical-sources > summary { cursor: pointer; font-size: 13px; min-height: 28px; }
+.historical-source-copy { max-width: 780px; padding: 12px 0 0; font-size: 13px; color: var(--muted, #627169); }
+.historical-source-copy p { line-height: 1.65; margin: 0 0 12px; }
+.historical-source-copy ::deep a { text-underline-offset: 3px; }
+.historical-source-copy small { font-size: 12px; }
+summary:focus-visible { outline: 3px solid var(--olive, #7c8b45); outline-offset: 3px; border-radius: 4px; }
+@media (max-width: 1000px) { .historical-facts-body { padding: 18px; } .historical-facts-grid { gap: 14px; } .historical-fact-card { padding: 20px; } }
+@media (max-width: 800px) { .historical-facts-grid { grid-template-columns: minmax(0, 1fr); } .historical-facts-hint { float: none; display: block; padding: 5px 0 0 21px; } .historical-fixture-teams { gap: 20px; } }
+@media (max-width: 520px) { .historical-experience { padding: 18px 16px 32px; } .historical-fixture-header { padding: 8px 0 24px; } .historical-fixture-meta .eyebrow { font-size: 9px; letter-spacing: 1px; } .historical-fixture-meta > p:last-child { font-size: 12px; } .historical-fixture-teams { gap: 10px; margin-top: 20px; } .historical-fixture-club { gap: 9px; } .historical-fixture-club ::deep .historical-fixture-crest { width: 48px; height: 48px; flex-basis: 48px; } .historical-fixture-club > strong { font-size: 17px; line-height: 1.25; } .historical-fixture-side { font-size: 9px; } .historical-fixture-score { font-size: 48px; letter-spacing: -1.5px; } .historical-fixture-score .historical-score-divider { margin: 0 2px; } .historical-freshness { font-size: 10px; line-height: 1.6; } .historical-facts > summary { padding: 18px; } .historical-facts-title { font-size: 20px; } .historical-facts-hint { font-size: 11px; } .historical-facts-body { padding: 12px; } .historical-fact-card { padding: 22px; } }

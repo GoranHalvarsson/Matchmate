@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms</value></resheader>
+  <data name="LeagueConversation" xml:space="preserve"><value>Conversación sobre la Premier League</value></data>
+  <data name="ConversationWith" xml:space="preserve"><value>Una conversación sobre {0}</value></data>
+  <data name="TheLeague" xml:space="preserve"><value>la Premier League</value></data>
+  <data name="LeagueHeading" xml:space="preserve"><value>¿Qué te gustaría saber?</value></data>
+  <data name="LeagueWelcomeEyebrow" xml:space="preserve"><value>Tu Matchmate</value></data>
+  <data name="LeagueWelcomeHeading" xml:space="preserve"><value>¿Por dónde empezamos?</value></data>
+  <data name="ShowLeagueConversation" xml:space="preserve"><value>Abrir conversación</value></data>
+  <data name="HideLeagueConversation" xml:space="preserve"><value>Ocultar conversación</value></data>
+  <data name="NewChat" xml:space="preserve"><value>Nueva conversación</value></data>
+  <data name="ContextUnavailable" xml:space="preserve"><value>Contexto no disponible</value></data>
+  <data name="OngoingSnapshot" xml:space="preserve"><value>Temporada en curso</value></data>
+  <data name="SourceThrough" xml:space="preserve"><value>La fuente incluye resultados hasta el {0}. Las respuestas se limitan a la fecha seleccionada.</value></data>
+  <data name="LeagueThread" xml:space="preserve"><value>Historial de la conversación sobre la Premier League</value></data>
+  <data name="ContextUpdating" xml:space="preserve"><value>El contexto seleccionado se está actualizando o no está disponible. Las respuestas anteriores conservan la fecha de cada pregunta.</value></data>
+  <data name="You" xml:space="preserve"><value>Tú</value></data>
+  <data name="LeagueAskedAt" xml:space="preserve"><value>Pregunta en {0} · {1} · {2} · {3}</value></data>
+  <data name="SourceAnswer" xml:space="preserve"><value>Respuesta de las fuentes</value></data>
+  <data name="MatchmateAi" xml:space="preserve"><value>Matchmate · IA</value></data>
+  <data name="Clarification" xml:space="preserve"><value>Aclaración</value></data>
+  <data name="Unsupported" xml:space="preserve"><value>Sin datos suficientes</value></data>
+  <data name="Unavailable" xml:space="preserve"><value>No disponible</value></data>
+  <data name="SupportingFactsCount" xml:space="preserve"><value>Datos de respaldo ({0})</value></data>
+  <data name="SupportingFacts" xml:space="preserve"><value>Datos de respaldo</value></data>
+  <data name="LeaguePending" xml:space="preserve"><value>Preparando una respuesta para la fecha seleccionada…</value></data>
+  <data name="CancelReply" xml:space="preserve"><value>Cancelar respuesta</value></data>
+  <data name="AskLeague" xml:space="preserve"><value>Pregunta sobre la Premier League o el club seleccionado</value></data>
+  <data name="LeaguePlaceholder" xml:space="preserve"><value>Pregunta sobre este equipo, lugar o temporada…</value></data>
+  <data name="AskMatchmate" xml:space="preserve"><value>Preguntar a Matchmate</value></data>
+  <data name="LeagueDisclosure" xml:space="preserve"><value>Las respuestas de IA usan la vista seleccionada. Las respuestas a las preguntas sugeridas se calculan directamente a partir de sus datos.</value></data>
+  <data name="ReplyCancelled" xml:space="preserve"><value>Respuesta cancelada.</value></data>
+  <data name="NewChatNotice" xml:space="preserve"><value>Nueva conversación. Se han borrado las preguntas y respuestas anteriores.</value></data>
+  <data name="LanguageChanged" xml:space="preserve"><value>Idioma cambiado a {0}. {1}</value></data>
+  <data name="EarlierLanguageKept" xml:space="preserve"><value>Las respuestas anteriores conservan su idioma original.</value></data>
+  <data name="PendingCancelledDraft" xml:space="preserve"><value>Se ha cancelado la respuesta pendiente. Se conservan tu borrador y las respuestas anteriores.</value></data>
+  <data name="Table" xml:space="preserve"><value>Clasificación</value></data>
+  <data name="ClubStanding" xml:space="preserve"><value>Posición del club</value></data>
+  <data name="RecentResults" xml:space="preserve"><value>Resultados recientes</value></data>
+  <data name="DateChanges" xml:space="preserve"><value>Cambios de la jornada</value></data>
+  <data name="GroundReference" xml:space="preserve"><value>Estadio de referencia del club</value></data>
+  <data name="Coverage" xml:space="preserve"><value>Cobertura</value></data>
+  <data name="MatchConversation" xml:space="preserve"><value>Conversación sobre el partido</value></data>
+  <data name="MatchEyebrow" xml:space="preserve"><value>Una conversación sobre este partido</value></data>
+  <data name="MatchHeading" xml:space="preserve"><value>¿Qué cuenta este partido?</value></data>
+  <data name="MatchWelcome" xml:space="preserve"><value>Descubre qué significó este resultado y cómo llegaron ambos equipos.</value></data>
+  <data name="MatchmateSource" xml:space="preserve"><value>Matchmate · Respuesta de las fuentes</value></data>
+  <data name="MatchmateClarification" xml:space="preserve"><value>Matchmate · Aclaración</value></data>
+  <data name="MatchPending" xml:space="preserve"><value>Analizando este partido…</value></data>
+  <data name="AskMatch" xml:space="preserve"><value>Pregunta sobre este partido</value></data>
+  <data name="MatchPlaceholder" xml:space="preserve"><value>Haz una pregunta o continúa la conversación…</value></data>
+  <data name="MatchDisconnected" xml:space="preserve"><value>El chat de IA no está conectado ahora. Los datos del partido están disponibles más abajo.</value></data>
+  <data name="MatchFootnote" xml:space="preserve"><value>Abre Datos de respaldo junto a una respuesta para ver en qué se basa.</value></data>
+  <data name="Result" xml:space="preserve"><value>Resultado</value></data>
+  <data name="BeforeMatch" xml:space="preserve"><value>Antes del partido</value></data>
+  <data name="EndDateStandings" xml:space="preserve"><value>Clasificación al final de la jornada</value></data>
+  <data name="MeetingsGround" xml:space="preserve"><value>Encuentros anteriores / estadio de referencia</value></data>
+  <data name="BeforeFirstDate" xml:space="preserve"><value>Antes de la primera jornada</value></data>
+  <data name="ComparedWith" xml:space="preserve"><value>En comparación con el {0}</value></data>
+  <data name="ResultsOnDate" xml:space="preserve"><value>Resultados de esta fecha</value></data>
+  <data name="NoResultsOnDate" xml:space="preserve"><value>No hay resultados de partidos finalizados para esta fecha.</value></data>
+  <data name="UnchangedClubs" xml:space="preserve"><value>Clubes sin cambios ({0})</value></data>
+  <data name="MovementLabel" xml:space="preserve"><value>Cambios de puntos y posición de los clubes</value></data>
+  <data name="MovementCaption" xml:space="preserve"><value>Puntos y posiciones de los clubes</value></data>
+  <data name="Club" xml:space="preserve"><value>Club</value></data>
+  <data name="OnDate" xml:space="preserve"><value>En esta fecha</value></data>
+  <data name="Played" xml:space="preserve"><value>Jugados</value></data>
+  <data name="Points" xml:space="preserve"><value>Puntos</value></data>
+  <data name="Position" xml:space="preserve"><value>Posición</value></data>
+  <data name="PlayedOnDate" xml:space="preserve"><value>Jugó</value></data>
+  <data name="DidNotPlay" xml:space="preserve"><value>No jugó</value></data>
+  <data name="Change" xml:space="preserve"><value>Cambio {0}</value></data>
+  <data name="AtMoment" xml:space="preserve"><value>En este momento · {0}</value></data>
+  <data name="ThisMoment" xml:space="preserve"><value>este momento</value></data>
+  <data name="AskContext" xml:space="preserve"><value>Pregunta sobre este contexto</value></data>
+  <data name="SourcePlaceholder" xml:space="preserve"><value>Pregunta sobre este equipo, lugar o momento…</value></data>
+  <data name="Ask" xml:space="preserve"><value>Preguntar</value></data>
+  <data name="SourceDisclosure" xml:space="preserve"><value>Las respuestas se calculan mediante código a partir de los datos disponibles. Estas preguntas no consultan ningún modelo.</value></data>
+  <data name="SourceFallback" xml:space="preserve"><value>Puedo responder a las preguntas anteriores con el contexto seleccionado. Estos registros no permiten otras afirmaciones, alineaciones ni explicaciones tácticas.</value></data>
+  <data name="SourceQuote" xml:space="preserve"><value>Texto original de la fuente (inglés)</value></data>
+  <data name="ResponsePending" xml:space="preserve"><value>Matchmate está respondiendo…</value></data>
+  <data name="Responding" xml:space="preserve"><value>Respondiendo…</value></data>
+</root>

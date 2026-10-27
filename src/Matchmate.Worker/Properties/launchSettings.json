@@ -1,0 +1,14 @@
+{
+  "profiles": {
+    "http": {
+      "commandName": "Project",
+      "dotnetRunMessages": true,
+      "applicationUrl": "http://localhost:5412",
+      "environmentVariables": {
+        "DOTNET_CLI_TELEMETRY_OPTOUT": "1",
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      },
+      "launchBrowser": false
+    }
+  }
+}

@@ -1,0 +1,265 @@
+{
+  "entities": {
+    "Q19870288": {
+      "pageid": 21499236,
+      "ns": 0,
+      "title": "Q19870288",
+      "lastrevid": 2529912702,
+      "modified": "2026-08-11T06:30:05Z",
+      "type": "item",
+      "id": "Q19870288",
+      "labels": {
+        "en": {
+          "language": "en",
+          "value": "2015–16 Arsenal F.C. season"
+        }
+      },
+      "claims": {
+        "P641": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P641",
+              "hash": "1624e15e061523279bc14bb6497168e45caacb32",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 2736,
+                  "id": "Q2736"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q19870288$6CA35A80-F1B9-4AF2-9BEB-91A570157FE3",
+            "rank": "normal"
+          }
+        ],
+        "P31": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P31",
+              "hash": "9ddb403180b684facfb50183c3b3a99ce0b171d1",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 26887310,
+                  "id": "Q26887310"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q19870288$f6ab6a58-47de-8041-6d5b-0e2cf6aca7b9",
+            "rank": "normal"
+          }
+        ],
+        "P17": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P17",
+              "hash": "a44880420787fb348836dc51d3babc5227c4ef7e",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 145,
+                  "id": "Q145"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q19870288$4E100C16-8CA6-451D-A6EF-9D5A6FBCC6ED",
+            "rank": "normal"
+          }
+        ],
+        "P5138": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P5138",
+              "hash": "df026d90517176810608da7500a1bc8b386bec20",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 9617,
+                  "id": "Q9617"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q19870288$81524B3E-A4E7-4FAE-BCE5-4E875FB41ADD",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "fa278ebfc458360e5aed63d5058cca83c46134f1",
+                "snaks": {
+                  "P143": [
+                    {
+                      "snaktype": "value",
+                      "property": "P143",
+                      "hash": "e4f6d9441d0600513c4533c672b5ab472dc73694",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 328,
+                          "id": "Q328"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P143"
+                ]
+              }
+            ]
+          }
+        ],
+        "P2348": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P2348",
+              "hash": "aa2170c45da73f28c5e261a9d37f3a75ef9799c5",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 53386085,
+                  "id": "Q53386085"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q19870288$0647FE5E-091A-4BCC-8D61-0FDAF5C4F7D7",
+            "rank": "normal"
+          }
+        ],
+        "P155": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P155",
+              "hash": "597e46863f05907da7eaccf8916a89a026bb60c4",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 16835002,
+                  "id": "Q16835002"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q19870288$650E9680-DB9E-4FC3-BD77-649ADE64588B",
+            "rank": "normal"
+          }
+        ],
+        "P156": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P156",
+              "hash": "7b5f2a3b4fb490dd97ed4ef0f5109c01da06e6b2",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 24039373,
+                  "id": "Q24039373"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q19870288$37A5A7AB-9124-4D56-823C-B98342301F2C",
+            "rank": "normal"
+          }
+        ],
+        "P2671": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P2671",
+              "hash": "2177afe273b93a2711fd2246ecabf7933940934e",
+              "datavalue": {
+                "value": "/g/11c3kj3c4r",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q19870288$F60589BB-B6C4-4DA7-B022-4D2E5105AFCD",
+            "rank": "normal"
+          }
+        ],
+        "P18": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P18",
+              "hash": "b72e621ba8caef1391892b9789574a6aec844a39",
+              "datavalue": {
+                "value": "Chelsea 2 Arsenal 0 (20944276374).jpg",
+                "type": "string"
+              },
+              "datatype": "commonsMedia"
+            },
+            "type": "statement",
+            "id": "Q19870288$8BF501CF-679C-4534-A8CB-41FD8EA1BA51",
+            "rank": "normal"
+          }
+        ]
+      },
+      "sitelinks": {
+        "arwiki": {
+          "site": "arwiki",
+          "title": "أرسنال موسم 2015–16",
+          "badges": []
+        },
+        "enwiki": {
+          "site": "enwiki",
+          "title": "2015–16 Arsenal F.C. season",
+          "badges": []
+        },
+        "frwiki": {
+          "site": "frwiki",
+          "title": "Saison 2015-2016 de l'Arsenal FC",
+          "badges": []
+        },
+        "itwiki": {
+          "site": "itwiki",
+          "title": "Arsenal Football Club 2015-2016",
+          "badges": []
+        },
+        "nlwiki": {
+          "site": "nlwiki",
+          "title": "Arsenal FC in het seizoen 2015/16",
+          "badges": []
+        },
+        "ruwiki": {
+          "site": "ruwiki",
+          "title": "ФК «Арсенал» (Лондон) в сезоне 2015/2016",
+          "badges": []
+        },
+        "thwiki": {
+          "site": "thwiki",
+          "title": "สโมสรฟุตบอลอาร์เซนอลในฤดูกาล 2015–16",
+          "badges": []
+        }
+      }
+    }
+  }
+}

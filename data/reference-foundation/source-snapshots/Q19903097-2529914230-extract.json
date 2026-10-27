@@ -1,0 +1,216 @@
+{
+  "entities": {
+    "Q19903097": {
+      "pageid": 21546426,
+      "ns": 0,
+      "title": "Q19903097",
+      "lastrevid": 2529914230,
+      "modified": "2026-08-11T06:39:08Z",
+      "type": "item",
+      "id": "Q19903097",
+      "labels": {
+        "en": {
+          "language": "en",
+          "value": "2015–16 Swansea City A.F.C. season"
+        }
+      },
+      "claims": {
+        "P641": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P641",
+              "hash": "1624e15e061523279bc14bb6497168e45caacb32",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 2736,
+                  "id": "Q2736"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q19903097$23A75B20-F97C-4D0B-97B1-53008E418493",
+            "rank": "normal"
+          }
+        ],
+        "P31": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P31",
+              "hash": "9ddb403180b684facfb50183c3b3a99ce0b171d1",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 26887310,
+                  "id": "Q26887310"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q19903097$3A609FCE-A9AE-4180-A922-D0B07E1871E3",
+            "rank": "normal"
+          }
+        ],
+        "P5138": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P5138",
+              "hash": "39381f71c0604bbb31a6089e3832cbf03cfa9fc1",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 18659,
+                  "id": "Q18659"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q19903097$5C7FEB5E-1603-4E06-B63F-F661B5430263",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "fa278ebfc458360e5aed63d5058cca83c46134f1",
+                "snaks": {
+                  "P143": [
+                    {
+                      "snaktype": "value",
+                      "property": "P143",
+                      "hash": "e4f6d9441d0600513c4533c672b5ab472dc73694",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 328,
+                          "id": "Q328"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P143"
+                ]
+              }
+            ]
+          }
+        ],
+        "P2348": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P2348",
+              "hash": "aa2170c45da73f28c5e261a9d37f3a75ef9799c5",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 53386085,
+                  "id": "Q53386085"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q19903097$34237219-9AF8-41ED-819D-5C47B2BC6A20",
+            "rank": "normal"
+          }
+        ],
+        "P17": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P17",
+              "hash": "a44880420787fb348836dc51d3babc5227c4ef7e",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 145,
+                  "id": "Q145"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q19903097$90FF12DF-80DB-4324-8A91-2277BE2BA762",
+            "rank": "normal"
+          }
+        ],
+        "P155": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P155",
+              "hash": "b4f1dc1a2470971341b953b47d67c66f9b1c50d8",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 17003122,
+                  "id": "Q17003122"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q19903097$0E49A9E1-0AE5-4BA0-AB76-07A733BF1AF5",
+            "rank": "normal"
+          }
+        ],
+        "P156": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P156",
+              "hash": "d18fa04296b7ff057410256fec36ce5bed871063",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 24182045,
+                  "id": "Q24182045"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q19903097$7B049842-5891-4966-AF6C-67B3A13675EC",
+            "rank": "normal"
+          }
+        ]
+      },
+      "sitelinks": {
+        "enwiki": {
+          "site": "enwiki",
+          "title": "2015–16 Swansea City A.F.C. season",
+          "badges": []
+        },
+        "itwiki": {
+          "site": "itwiki",
+          "title": "Swansea City Association Football Club 2015-2016",
+          "badges": []
+        },
+        "thwiki": {
+          "site": "thwiki",
+          "title": "สโมสรฟุตบอลสวอนซีซิตีในฤดูกาล 2015–16",
+          "badges": []
+        },
+        "zhwiki": {
+          "site": "zhwiki",
+          "title": "史雲斯2015年至2016年球季",
+          "badges": []
+        }
+      }
+    }
+  }
+}

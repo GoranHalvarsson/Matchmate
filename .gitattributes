@@ -1,0 +1,8 @@
+# These trees contain checksum-pinned data, fixtures and prototype artifacts.
+# Disable text normalization so checkout preserves their original bytes
+# and existing source receipts remain valid.
+data/** -text
+prototypes/first-experience/** -text
+tests/Matchmate.Tests/Fixtures/** -text
+output/brentford-liverpool-generated/dataset-v2/** -text
+output/brentford-liverpool-goal-review/goal-review.v1.json -text

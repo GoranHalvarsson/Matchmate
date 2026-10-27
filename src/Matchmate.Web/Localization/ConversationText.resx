@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms</value></resheader>
+  <data name="LeagueConversation" xml:space="preserve"><value>Premier League conversation</value></data>
+  <data name="ConversationWith" xml:space="preserve"><value>A conversation with {0}</value></data>
+  <data name="TheLeague" xml:space="preserve"><value>the Premier League</value></data>
+  <data name="LeagueHeading" xml:space="preserve"><value>What would you like to know?</value></data>
+  <data name="LeagueWelcomeEyebrow" xml:space="preserve"><value>Your Matchmate</value></data>
+  <data name="LeagueWelcomeHeading" xml:space="preserve"><value>Where shall we start?</value></data>
+  <data name="ShowLeagueConversation" xml:space="preserve"><value>Open chat</value></data>
+  <data name="HideLeagueConversation" xml:space="preserve"><value>Collapse chat</value></data>
+  <data name="NewChat" xml:space="preserve"><value>New chat</value></data>
+  <data name="ContextUnavailable" xml:space="preserve"><value>Context unavailable</value></data>
+  <data name="OngoingSnapshot" xml:space="preserve"><value>Ongoing snapshot</value></data>
+  <data name="SourceThrough" xml:space="preserve"><value>Source results through {0}. Answers stay at your selected date.</value></data>
+  <data name="LeagueThread" xml:space="preserve"><value>Premier League conversation thread</value></data>
+  <data name="ContextUpdating" xml:space="preserve"><value>The selected context is updating or unavailable. Earlier replies keep their asked-at dates.</value></data>
+  <data name="You" xml:space="preserve"><value>You</value></data>
+  <data name="LeagueAskedAt" xml:space="preserve"><value>Asked at {0} · {1} · {2} · {3}</value></data>
+  <data name="SourceAnswer" xml:space="preserve"><value>Source answer</value></data>
+  <data name="MatchmateAi" xml:space="preserve"><value>Matchmate · AI</value></data>
+  <data name="Clarification" xml:space="preserve"><value>Clarification</value></data>
+  <data name="Unsupported" xml:space="preserve"><value>Not supported</value></data>
+  <data name="Unavailable" xml:space="preserve"><value>Unavailable</value></data>
+  <data name="SupportingFactsCount" xml:space="preserve"><value>Supporting facts ({0})</value></data>
+  <data name="SupportingFacts" xml:space="preserve"><value>Supporting facts</value></data>
+  <data name="LeaguePending" xml:space="preserve"><value>Preparing a reply for this selected date…</value></data>
+  <data name="CancelReply" xml:space="preserve"><value>Cancel reply</value></data>
+  <data name="AskLeague" xml:space="preserve"><value>Ask about the Premier League or selected club</value></data>
+  <data name="LeaguePlaceholder" xml:space="preserve"><value>Ask about this team, place or season…</value></data>
+  <data name="AskMatchmate" xml:space="preserve"><value>Ask Matchmate</value></data>
+  <data name="LeagueDisclosure" xml:space="preserve"><value>AI answers use the selected snapshot. Suggested source answers are computed directly from its facts.</value></data>
+  <data name="ReplyCancelled" xml:space="preserve"><value>Reply cancelled.</value></data>
+  <data name="NewChatNotice" xml:space="preserve"><value>New chat. Earlier questions and replies have been cleared.</value></data>
+  <data name="LanguageChanged" xml:space="preserve"><value>Language changed to {0}. {1}</value></data>
+  <data name="EarlierLanguageKept" xml:space="preserve"><value>Earlier replies keep their original language.</value></data>
+  <data name="PendingCancelledDraft" xml:space="preserve"><value>The pending reply was cancelled. Your draft and earlier replies are kept.</value></data>
+  <data name="Table" xml:space="preserve"><value>Table</value></data>
+  <data name="ClubStanding" xml:space="preserve"><value>Club standing</value></data>
+  <data name="RecentResults" xml:space="preserve"><value>Recent results</value></data>
+  <data name="DateChanges" xml:space="preserve"><value>Played-date changes</value></data>
+  <data name="GroundReference" xml:space="preserve"><value>Club ground reference</value></data>
+  <data name="Coverage" xml:space="preserve"><value>Coverage</value></data>
+  <data name="MatchConversation" xml:space="preserve"><value>Match conversation</value></data>
+  <data name="MatchEyebrow" xml:space="preserve"><value>A conversation with this match</value></data>
+  <data name="MatchHeading" xml:space="preserve"><value>What’s the story?</value></data>
+  <data name="MatchWelcome" xml:space="preserve"><value>Explore what this result meant, and how both teams arrived.</value></data>
+  <data name="MatchmateSource" xml:space="preserve"><value>Matchmate · Source answer</value></data>
+  <data name="MatchmateClarification" xml:space="preserve"><value>Matchmate · clarification</value></data>
+  <data name="MatchPending" xml:space="preserve"><value>Looking at this match…</value></data>
+  <data name="AskMatch" xml:space="preserve"><value>Ask about this match</value></data>
+  <data name="MatchPlaceholder" xml:space="preserve"><value>Ask a question or follow up…</value></data>
+  <data name="MatchDisconnected" xml:space="preserve"><value>AI chat is not connected right now. The match facts are available below.</value></data>
+  <data name="MatchFootnote" xml:space="preserve"><value>Open Supporting facts beside an answer to see what it uses.</value></data>
+  <data name="Result" xml:space="preserve"><value>Result</value></data>
+  <data name="BeforeMatch" xml:space="preserve"><value>Before the match</value></data>
+  <data name="EndDateStandings" xml:space="preserve"><value>End-of-date standings</value></data>
+  <data name="MeetingsGround" xml:space="preserve"><value>Earlier meetings / ground reference</value></data>
+  <data name="BeforeFirstDate" xml:space="preserve"><value>Before the first played date</value></data>
+  <data name="ComparedWith" xml:space="preserve"><value>Compared with {0}</value></data>
+  <data name="ResultsOnDate" xml:space="preserve"><value>Results on this date</value></data>
+  <data name="NoResultsOnDate" xml:space="preserve"><value>No completed results are listed for this date.</value></data>
+  <data name="UnchangedClubs" xml:space="preserve"><value>Unchanged clubs ({0})</value></data>
+  <data name="MovementLabel" xml:space="preserve"><value>Club points and position changes</value></data>
+  <data name="MovementCaption" xml:space="preserve"><value>Club points and positions</value></data>
+  <data name="Club" xml:space="preserve"><value>Club</value></data>
+  <data name="OnDate" xml:space="preserve"><value>On this date</value></data>
+  <data name="Played" xml:space="preserve"><value>Played</value></data>
+  <data name="Points" xml:space="preserve"><value>Points</value></data>
+  <data name="Position" xml:space="preserve"><value>Position</value></data>
+  <data name="PlayedOnDate" xml:space="preserve"><value>Played</value></data>
+  <data name="DidNotPlay" xml:space="preserve"><value>Did not play</value></data>
+  <data name="Change" xml:space="preserve"><value>Change {0}</value></data>
+  <data name="AtMoment" xml:space="preserve"><value>At this moment · {0}</value></data>
+  <data name="ThisMoment" xml:space="preserve"><value>this moment</value></data>
+  <data name="AskContext" xml:space="preserve"><value>Ask about this context</value></data>
+  <data name="SourcePlaceholder" xml:space="preserve"><value>Ask about this team, place or moment…</value></data>
+  <data name="Ask" xml:space="preserve"><value>Ask</value></data>
+  <data name="SourceDisclosure" xml:space="preserve"><value>Source answers are computed in code from the available data. These questions do not call a model.</value></data>
+  <data name="SourceFallback" xml:space="preserve"><value>I can answer the source questions above for this selected context. These records do not support other claims, lineups or tactical explanations.</value></data>
+  <data name="SourceQuote" xml:space="preserve"><value>Original source text (English)</value></data>
+  <data name="ResponsePending" xml:space="preserve"><value>Matchmate is responding…</value></data>
+  <data name="Responding" xml:space="preserve"><value>Responding…</value></data>
+</root>

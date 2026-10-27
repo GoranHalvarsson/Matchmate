@@ -1,0 +1,4849 @@
+{
+  "entities": {
+    "Q2714": {
+      "pageid": 3686,
+      "ns": 0,
+      "title": "Q2714",
+      "lastrevid": 2553200065,
+      "modified": "2026-10-04T22:00:21Z",
+      "type": "item",
+      "id": "Q2714",
+      "labels": {
+        "en": {
+          "language": "en",
+          "value": "Watford F.C."
+        }
+      },
+      "descriptions": {
+        "en": {
+          "language": "en",
+          "value": "association football club in Watford, England"
+        }
+      },
+      "claims": {
+        "P115": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P115",
+              "hash": "25db5b03d44b4147102cb651d44cc03b050a5ae0",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 10626,
+                  "id": "Q10626"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "q2714$DC3F69FF-CF3F-46D6-A012-47FFF6617593",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "9c89e067d9ea810a401afa1fae995f4eb44dc143",
+                "snaks": {
+                  "P854": [
+                    {
+                      "snaktype": "value",
+                      "property": "P854",
+                      "hash": "b2a64c43bf56c8592fcfe6584372e9108691e682",
+                      "datavalue": {
+                        "value": "http://www.bbc.co.uk/news/uk-england-beds-bucks-herts-23628476",
+                        "type": "string"
+                      },
+                      "datatype": "url"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P854"
+                ]
+              }
+            ]
+          }
+        ],
+        "P118": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P118",
+              "hash": "b4fb0b181cefa4245c5e830ecb6770103af6002d",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 9448,
+                  "id": "Q9448"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P580": [
+                {
+                  "snaktype": "value",
+                  "property": "P580",
+                  "hash": "301fd6578ed6983cefaa7493099d4b2b15d8c844",
+                  "datavalue": {
+                    "value": {
+                      "time": "+2015-00-00T00:00:00Z",
+                      "timezone": 0,
+                      "before": 0,
+                      "after": 0,
+                      "precision": 9,
+                      "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                    },
+                    "type": "time"
+                  },
+                  "datatype": "time"
+                }
+              ],
+              "P582": [
+                {
+                  "snaktype": "value",
+                  "property": "P582",
+                  "hash": "fb65ecd8788c724489cde4a02138a267201a825c",
+                  "datavalue": {
+                    "value": {
+                      "time": "+2020-00-00T00:00:00Z",
+                      "timezone": 0,
+                      "before": 0,
+                      "after": 0,
+                      "precision": 9,
+                      "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                    },
+                    "type": "time"
+                  },
+                  "datatype": "time"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P580",
+              "P582"
+            ],
+            "id": "q2714$001B9D80-DD4D-45C0-8BBE-8E308DCB0360",
+            "rank": "normal"
+          },
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P118",
+              "hash": "4538b3f3cc11c3e53696758dc5c08aa6187d3598",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 19510,
+                  "id": "Q19510"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P580": [
+                {
+                  "snaktype": "value",
+                  "property": "P580",
+                  "hash": "3b25955dd9bb0ca33faeef962b05ba8839f3b04e",
+                  "datavalue": {
+                    "value": {
+                      "time": "+2020-00-00T00:00:00Z",
+                      "timezone": 0,
+                      "before": 0,
+                      "after": 0,
+                      "precision": 9,
+                      "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                    },
+                    "type": "time"
+                  },
+                  "datatype": "time"
+                }
+              ],
+              "P582": [
+                {
+                  "snaktype": "value",
+                  "property": "P582",
+                  "hash": "1ab4607250ac7a0c1a2f1b93c25e4bff9e147330",
+                  "datavalue": {
+                    "value": {
+                      "time": "+2021-00-00T00:00:00Z",
+                      "timezone": 0,
+                      "before": 0,
+                      "after": 0,
+                      "precision": 9,
+                      "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                    },
+                    "type": "time"
+                  },
+                  "datatype": "time"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P580",
+              "P582"
+            ],
+            "id": "Q2714$a03727b0-4c59-9b40-e02d-d57fc00874aa",
+            "rank": "normal"
+          },
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P118",
+              "hash": "b4fb0b181cefa4245c5e830ecb6770103af6002d",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 9448,
+                  "id": "Q9448"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P580": [
+                {
+                  "snaktype": "value",
+                  "property": "P580",
+                  "hash": "912e4e7b73654a7762d744e145473067d305ae2a",
+                  "datavalue": {
+                    "value": {
+                      "time": "+2021-00-00T00:00:00Z",
+                      "timezone": 0,
+                      "before": 0,
+                      "after": 0,
+                      "precision": 9,
+                      "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                    },
+                    "type": "time"
+                  },
+                  "datatype": "time"
+                }
+              ],
+              "P582": [
+                {
+                  "snaktype": "value",
+                  "property": "P582",
+                  "hash": "a215f4d0a61d415e46c186842a6caee0aec2db75",
+                  "datavalue": {
+                    "value": {
+                      "time": "+2022-00-00T00:00:00Z",
+                      "timezone": 0,
+                      "before": 0,
+                      "after": 0,
+                      "precision": 9,
+                      "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                    },
+                    "type": "time"
+                  },
+                  "datatype": "time"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P580",
+              "P582"
+            ],
+            "id": "Q2714$84094ad5-4287-b2d0-9725-b4aa5039d153",
+            "rank": "normal"
+          },
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P118",
+              "hash": "4538b3f3cc11c3e53696758dc5c08aa6187d3598",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 19510,
+                  "id": "Q19510"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P580": [
+                {
+                  "snaktype": "value",
+                  "property": "P580",
+                  "hash": "79cd3430e6bfe195c57660a487ff8f30acddeca7",
+                  "datavalue": {
+                    "value": {
+                      "time": "+2022-00-00T00:00:00Z",
+                      "timezone": 0,
+                      "before": 0,
+                      "after": 0,
+                      "precision": 9,
+                      "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                    },
+                    "type": "time"
+                  },
+                  "datatype": "time"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P580"
+            ],
+            "id": "Q2714$163f6b62-430c-002a-3c98-731f0b4c0b32",
+            "rank": "preferred"
+          }
+        ],
+        "P127": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P127",
+              "hash": "204e5f4ec76d21981ef7d3d12ac11fdede307054",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 10628,
+                  "id": "Q10628"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "q2714$49C1BCCC-1A29-40DC-BADE-02383CD83D68",
+            "rank": "normal"
+          }
+        ],
+        "P31": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P31",
+              "hash": "de95c192b6d83336c7c4d98d15b566a0ca33065a",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 476028,
+                  "id": "Q476028"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "q2714$8963DCFC-0B84-45BC-BA8F-EAD3060216CF",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "fa278ebfc458360e5aed63d5058cca83c46134f1",
+                "snaks": {
+                  "P143": [
+                    {
+                      "snaktype": "value",
+                      "property": "P143",
+                      "hash": "e4f6d9441d0600513c4533c672b5ab472dc73694",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 328,
+                          "id": "Q328"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P143"
+                ]
+              }
+            ]
+          }
+        ],
+        "P286": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P286",
+              "hash": "903835862cbba636ca49e504b7ae9d22008939e6",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 4886441,
+                  "id": "Q4886441"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P580": [
+                {
+                  "snaktype": "value",
+                  "property": "P580",
+                  "hash": "9aba3ce14b710fab0364cb0193abb5840188e22e",
+                  "datavalue": {
+                    "value": {
+                      "time": "+2018-01-21T00:00:00Z",
+                      "timezone": 0,
+                      "before": 0,
+                      "after": 0,
+                      "precision": 11,
+                      "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                    },
+                    "type": "time"
+                  },
+                  "datatype": "time"
+                }
+              ],
+              "P582": [
+                {
+                  "snaktype": "value",
+                  "property": "P582",
+                  "hash": "cdda47633cfd2a535498236ea4e6f3874d9e85dd",
+                  "datavalue": {
+                    "value": {
+                      "time": "+2019-09-07T00:00:00Z",
+                      "timezone": 0,
+                      "before": 0,
+                      "after": 0,
+                      "precision": 11,
+                      "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                    },
+                    "type": "time"
+                  },
+                  "datatype": "time"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P580",
+              "P582"
+            ],
+            "id": "q2714$A634E629-EFA9-4F77-9ADB-B1DB69E68D2F",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "f3217b27d8fd21e95c4dd172b9eef399017b66be",
+                "snaks": {
+                  "P854": [
+                    {
+                      "snaktype": "value",
+                      "property": "P854",
+                      "hash": "9d8a4dd45379d2a7ac78501560f1ebd862e5eeba",
+                      "datavalue": {
+                        "value": "https://www.transfermarkt.com/-/mitarbeiterhistorie/verein/1010",
+                        "type": "string"
+                      },
+                      "datatype": "url"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P854"
+                ]
+              }
+            ]
+          },
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P286",
+              "hash": "03011af0dc5f8eca8d25f068c02e7d93c08d2ff3",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 9354,
+                  "id": "Q9354"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P580": [
+                {
+                  "snaktype": "value",
+                  "property": "P580",
+                  "hash": "61f5e62db6796750c946c64fc1009d4e3513297d",
+                  "datavalue": {
+                    "value": {
+                      "time": "+2012-07-08T00:00:00Z",
+                      "timezone": 0,
+                      "before": 0,
+                      "after": 0,
+                      "precision": 11,
+                      "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                    },
+                    "type": "time"
+                  },
+                  "datatype": "time"
+                }
+              ],
+              "P582": [
+                {
+                  "snaktype": "value",
+                  "property": "P582",
+                  "hash": "13af3f7e78d854c560eb8263244006dd199445a2",
+                  "datavalue": {
+                    "value": {
+                      "time": "+2013-12-16T00:00:00Z",
+                      "timezone": 0,
+                      "before": 0,
+                      "after": 0,
+                      "precision": 11,
+                      "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                    },
+                    "type": "time"
+                  },
+                  "datatype": "time"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P580",
+              "P582"
+            ],
+            "id": "Q2714$7002baa5-426b-daf4-8161-0e06acf91af7",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "f3217b27d8fd21e95c4dd172b9eef399017b66be",
+                "snaks": {
+                  "P854": [
+                    {
+                      "snaktype": "value",
+                      "property": "P854",
+                      "hash": "9d8a4dd45379d2a7ac78501560f1ebd862e5eeba",
+                      "datavalue": {
+                        "value": "https://www.transfermarkt.com/-/mitarbeiterhistorie/verein/1010",
+                        "type": "string"
+                      },
+                      "datatype": "url"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P854"
+                ]
+              }
+            ]
+          },
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P286",
+              "hash": "ca46ee10ef5ff1f8df7c59e6b65ea304e9b30f16",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 370838,
+                  "id": "Q370838"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P580": [
+                {
+                  "snaktype": "value",
+                  "property": "P580",
+                  "hash": "09bdad39c7541c63faf9704e47d23fa4e0c2c287",
+                  "datavalue": {
+                    "value": {
+                      "time": "+2016-07-01T00:00:00Z",
+                      "timezone": 0,
+                      "before": 0,
+                      "after": 0,
+                      "precision": 11,
+                      "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                    },
+                    "type": "time"
+                  },
+                  "datatype": "time"
+                }
+              ],
+              "P582": [
+                {
+                  "snaktype": "value",
+                  "property": "P582",
+                  "hash": "46547588c7f55b781341c2adde8b669008a843d1",
+                  "datavalue": {
+                    "value": {
+                      "time": "+2017-05-22T00:00:00Z",
+                      "timezone": 0,
+                      "before": 0,
+                      "after": 0,
+                      "precision": 11,
+                      "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                    },
+                    "type": "time"
+                  },
+                  "datatype": "time"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P580",
+              "P582"
+            ],
+            "id": "Q2714$DBC99761-4237-485D-847D-6AA8B3073CF5",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "4e6968ee332e9c93ac33fae4fb76daed6afa5ee7",
+                "snaks": {
+                  "P248": [
+                    {
+                      "snaktype": "value",
+                      "property": "P248",
+                      "hash": "84ccb1d685bd81e4f63560bcc7f6ad2f99527ecb",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 2449070,
+                          "id": "Q2449070"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ],
+                  "P813": [
+                    {
+                      "snaktype": "value",
+                      "property": "P813",
+                      "hash": "47988d3806f7a4c5863f45977b4f54a1929f0640",
+                      "datavalue": {
+                        "value": {
+                          "time": "+2019-03-14T00:00:00Z",
+                          "timezone": 0,
+                          "before": 0,
+                          "after": 0,
+                          "precision": 11,
+                          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                        },
+                        "type": "time"
+                      },
+                      "datatype": "time"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P248",
+                  "P813"
+                ]
+              }
+            ]
+          },
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P286",
+              "hash": "d572b1202162764029c02bec1a297406dda875dd",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 352313,
+                  "id": "Q352313"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P580": [
+                {
+                  "snaktype": "value",
+                  "property": "P580",
+                  "hash": "48f751b15bbf5602f13be4d710cd6e459dc69e37",
+                  "datavalue": {
+                    "value": {
+                      "time": "+2015-07-01T00:00:00Z",
+                      "timezone": 0,
+                      "before": 0,
+                      "after": 0,
+                      "precision": 11,
+                      "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                    },
+                    "type": "time"
+                  },
+                  "datatype": "time"
+                }
+              ],
+              "P582": [
+                {
+                  "snaktype": "value",
+                  "property": "P582",
+                  "hash": "c28296e81777f45e944c3a158370259802b07179",
+                  "datavalue": {
+                    "value": {
+                      "time": "+2016-06-30T00:00:00Z",
+                      "timezone": 0,
+                      "before": 0,
+                      "after": 0,
+                      "precision": 11,
+                      "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                    },
+                    "type": "time"
+                  },
+                  "datatype": "time"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P580",
+              "P582"
+            ],
+            "id": "Q2714$720cbe3d-45fb-ca43-a946-11b67fed70c2",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "f3217b27d8fd21e95c4dd172b9eef399017b66be",
+                "snaks": {
+                  "P854": [
+                    {
+                      "snaktype": "value",
+                      "property": "P854",
+                      "hash": "9d8a4dd45379d2a7ac78501560f1ebd862e5eeba",
+                      "datavalue": {
+                        "value": "https://www.transfermarkt.com/-/mitarbeiterhistorie/verein/1010",
+                        "type": "string"
+                      },
+                      "datatype": "url"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P854"
+                ]
+              }
+            ]
+          },
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P286",
+              "hash": "d572b1202162764029c02bec1a297406dda875dd",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 352313,
+                  "id": "Q352313"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P580": [
+                {
+                  "snaktype": "value",
+                  "property": "P580",
+                  "hash": "9e73d3dcb06f43c0d3ccc8e4cc26af98a6957cb0",
+                  "datavalue": {
+                    "value": {
+                      "time": "+2019-09-07T00:00:00Z",
+                      "timezone": 0,
+                      "before": 0,
+                      "after": 0,
+                      "precision": 11,
+                      "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                    },
+                    "type": "time"
+                  },
+                  "datatype": "time"
+                }
+              ],
+              "P582": [
+                {
+                  "snaktype": "value",
+                  "property": "P582",
+                  "hash": "3a160ca220d4b811ba2c0cb24615204c92effd23",
+                  "datavalue": {
+                    "value": {
+                      "time": "+2019-12-01T00:00:00Z",
+                      "timezone": 0,
+                      "before": 0,
+                      "after": 0,
+                      "precision": 11,
+                      "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                    },
+                    "type": "time"
+                  },
+                  "datatype": "time"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P580",
+              "P582"
+            ],
+            "id": "Q2714$1ae5e922-4d8d-3988-c556-ce2abd0e8c37",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "f3217b27d8fd21e95c4dd172b9eef399017b66be",
+                "snaks": {
+                  "P854": [
+                    {
+                      "snaktype": "value",
+                      "property": "P854",
+                      "hash": "9d8a4dd45379d2a7ac78501560f1ebd862e5eeba",
+                      "datavalue": {
+                        "value": "https://www.transfermarkt.com/-/mitarbeiterhistorie/verein/1010",
+                        "type": "string"
+                      },
+                      "datatype": "url"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P854"
+                ]
+              }
+            ]
+          },
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P286",
+              "hash": "18b250b7ffbc92ef1e09278631a04d13f44a55a7",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 154126,
+                  "id": "Q154126"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P580": [
+                {
+                  "snaktype": "value",
+                  "property": "P580",
+                  "hash": "392bebf6afe01dce5777fc367765da29831d037b",
+                  "datavalue": {
+                    "value": {
+                      "time": "+2019-12-09T00:00:00Z",
+                      "timezone": 0,
+                      "before": 0,
+                      "after": 0,
+                      "precision": 11,
+                      "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                    },
+                    "type": "time"
+                  },
+                  "datatype": "time"
+                }
+              ],
+              "P582": [
+                {
+                  "snaktype": "value",
+                  "property": "P582",
+                  "hash": "582c65727ca05e905e35ccc70b3c474130fb230c",
+                  "datavalue": {
+                    "value": {
+                      "time": "+2020-07-19T00:00:00Z",
+                      "timezone": 0,
+                      "before": 0,
+                      "after": 0,
+                      "precision": 11,
+                      "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                    },
+                    "type": "time"
+                  },
+                  "datatype": "time"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P580",
+              "P582"
+            ],
+            "id": "Q2714$e3cc57f1-4d48-552b-eca9-35619cf04dcc",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "f3217b27d8fd21e95c4dd172b9eef399017b66be",
+                "snaks": {
+                  "P854": [
+                    {
+                      "snaktype": "value",
+                      "property": "P854",
+                      "hash": "9d8a4dd45379d2a7ac78501560f1ebd862e5eeba",
+                      "datavalue": {
+                        "value": "https://www.transfermarkt.com/-/mitarbeiterhistorie/verein/1010",
+                        "type": "string"
+                      },
+                      "datatype": "url"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P854"
+                ]
+              }
+            ]
+          },
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P286",
+              "hash": "a0b4c0d2210e70cd839ae607eadaf3013f6c1514",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 945233,
+                  "id": "Q945233"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P580": [
+                {
+                  "snaktype": "value",
+                  "property": "P580",
+                  "hash": "ceb8bef15015cf92827fd9caa506b04a0be77a89",
+                  "datavalue": {
+                    "value": {
+                      "time": "+2020-07-19T00:00:00Z",
+                      "timezone": 0,
+                      "before": 0,
+                      "after": 0,
+                      "precision": 11,
+                      "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                    },
+                    "type": "time"
+                  },
+                  "datatype": "time"
+                }
+              ],
+              "P582": [
+                {
+                  "snaktype": "value",
+                  "property": "P582",
+                  "hash": "8f4d266da6c17ee892bc872747e4096605554f80",
+                  "datavalue": {
+                    "value": {
+                      "time": "+2020-07-27T00:00:00Z",
+                      "timezone": 0,
+                      "before": 0,
+                      "after": 0,
+                      "precision": 11,
+                      "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                    },
+                    "type": "time"
+                  },
+                  "datatype": "time"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P580",
+              "P582"
+            ],
+            "id": "Q2714$4b287f64-4da6-8d06-2017-ef283d24d220",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "f3217b27d8fd21e95c4dd172b9eef399017b66be",
+                "snaks": {
+                  "P854": [
+                    {
+                      "snaktype": "value",
+                      "property": "P854",
+                      "hash": "9d8a4dd45379d2a7ac78501560f1ebd862e5eeba",
+                      "datavalue": {
+                        "value": "https://www.transfermarkt.com/-/mitarbeiterhistorie/verein/1010",
+                        "type": "string"
+                      },
+                      "datatype": "url"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P854"
+                ]
+              }
+            ]
+          },
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P286",
+              "hash": "d68bb520bea9df97a5b8b79ddd65dfebbe57ee91",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 2061129,
+                  "id": "Q2061129"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P580": [
+                {
+                  "snaktype": "value",
+                  "property": "P580",
+                  "hash": "51ebb3e79fd38d92c5ba15e6fbfba71bc9229ddb",
+                  "datavalue": {
+                    "value": {
+                      "time": "+2020-08-15T00:00:00Z",
+                      "timezone": 0,
+                      "before": 0,
+                      "after": 0,
+                      "precision": 11,
+                      "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                    },
+                    "type": "time"
+                  },
+                  "datatype": "time"
+                }
+              ],
+              "P582": [
+                {
+                  "snaktype": "value",
+                  "property": "P582",
+                  "hash": "5114acd00fc9c8e3011ce11550374dff9909c14f",
+                  "datavalue": {
+                    "value": {
+                      "time": "+2020-12-19T00:00:00Z",
+                      "timezone": 0,
+                      "before": 0,
+                      "after": 0,
+                      "precision": 11,
+                      "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                    },
+                    "type": "time"
+                  },
+                  "datatype": "time"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P580",
+              "P582"
+            ],
+            "id": "Q2714$c3c26247-4e04-e7ed-0549-196f55646e7a",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "f3217b27d8fd21e95c4dd172b9eef399017b66be",
+                "snaks": {
+                  "P854": [
+                    {
+                      "snaktype": "value",
+                      "property": "P854",
+                      "hash": "9d8a4dd45379d2a7ac78501560f1ebd862e5eeba",
+                      "datavalue": {
+                        "value": "https://www.transfermarkt.com/-/mitarbeiterhistorie/verein/1010",
+                        "type": "string"
+                      },
+                      "datatype": "url"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P854"
+                ]
+              }
+            ]
+          },
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P286",
+              "hash": "166ab9eb46eee4e610339d5460432d7fdad53c20",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 301390,
+                  "id": "Q301390"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P580": [
+                {
+                  "snaktype": "value",
+                  "property": "P580",
+                  "hash": "8cb55cd6b6296dba87673ad284dbf650877f0d40",
+                  "datavalue": {
+                    "value": {
+                      "time": "+2020-12-20T00:00:00Z",
+                      "timezone": 0,
+                      "before": 0,
+                      "after": 0,
+                      "precision": 11,
+                      "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                    },
+                    "type": "time"
+                  },
+                  "datatype": "time"
+                }
+              ],
+              "P582": [
+                {
+                  "snaktype": "value",
+                  "property": "P582",
+                  "hash": "48e6024e229271c7d688e99ced82b96c36bbb0dd",
+                  "datavalue": {
+                    "value": {
+                      "time": "+2021-10-03T00:00:00Z",
+                      "timezone": 0,
+                      "before": 0,
+                      "after": 0,
+                      "precision": 11,
+                      "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                    },
+                    "type": "time"
+                  },
+                  "datatype": "time"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P580",
+              "P582"
+            ],
+            "id": "Q2714$0dd4ebcc-4321-30c3-17c3-aaed45d10cc3",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "f3217b27d8fd21e95c4dd172b9eef399017b66be",
+                "snaks": {
+                  "P854": [
+                    {
+                      "snaktype": "value",
+                      "property": "P854",
+                      "hash": "9d8a4dd45379d2a7ac78501560f1ebd862e5eeba",
+                      "datavalue": {
+                        "value": "https://www.transfermarkt.com/-/mitarbeiterhistorie/verein/1010",
+                        "type": "string"
+                      },
+                      "datatype": "url"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P854"
+                ]
+              }
+            ]
+          },
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P286",
+              "hash": "36cfebe90dc8b4233e279779b7429e46bf3ce9ed",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 235068,
+                  "id": "Q235068"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P580": [
+                {
+                  "snaktype": "value",
+                  "property": "P580",
+                  "hash": "1795041519f5cc9fcae979fe490b72feba71cce7",
+                  "datavalue": {
+                    "value": {
+                      "time": "+2021-10-04T00:00:00Z",
+                      "timezone": 0,
+                      "before": 0,
+                      "after": 0,
+                      "precision": 11,
+                      "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                    },
+                    "type": "time"
+                  },
+                  "datatype": "time"
+                }
+              ],
+              "P582": [
+                {
+                  "snaktype": "value",
+                  "property": "P582",
+                  "hash": "1c345b3f84c013e196d32db8de6fda684cc27c3a",
+                  "datavalue": {
+                    "value": {
+                      "time": "+2022-01-24T00:00:00Z",
+                      "timezone": 0,
+                      "before": 0,
+                      "after": 0,
+                      "precision": 11,
+                      "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                    },
+                    "type": "time"
+                  },
+                  "datatype": "time"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P580",
+              "P582"
+            ],
+            "id": "Q2714$4aa1581d-4c4a-5a57-5927-d51039fed382",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "f3217b27d8fd21e95c4dd172b9eef399017b66be",
+                "snaks": {
+                  "P854": [
+                    {
+                      "snaktype": "value",
+                      "property": "P854",
+                      "hash": "9d8a4dd45379d2a7ac78501560f1ebd862e5eeba",
+                      "datavalue": {
+                        "value": "https://www.transfermarkt.com/-/mitarbeiterhistorie/verein/1010",
+                        "type": "string"
+                      },
+                      "datatype": "url"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P854"
+                ]
+              }
+            ]
+          },
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P286",
+              "hash": "f6094b58c80af50dc67c9cd43e637d07c185197e",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 203781,
+                  "id": "Q203781"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P580": [
+                {
+                  "snaktype": "value",
+                  "property": "P580",
+                  "hash": "ae415ebd0841d9e52c985df7974acb87b7b6c11a",
+                  "datavalue": {
+                    "value": {
+                      "time": "+2022-01-25T00:00:00Z",
+                      "timezone": 0,
+                      "before": 0,
+                      "after": 0,
+                      "precision": 11,
+                      "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                    },
+                    "type": "time"
+                  },
+                  "datatype": "time"
+                }
+              ],
+              "P582": [
+                {
+                  "snaktype": "value",
+                  "property": "P582",
+                  "hash": "eded2aca9d85de5f043ecb7eca8aae0db58da7aa",
+                  "datavalue": {
+                    "value": {
+                      "time": "+2022-06-30T00:00:00Z",
+                      "timezone": 0,
+                      "before": 0,
+                      "after": 0,
+                      "precision": 11,
+                      "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                    },
+                    "type": "time"
+                  },
+                  "datatype": "time"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P580",
+              "P582"
+            ],
+            "id": "Q2714$ba4c5718-4144-2e90-a5ce-a369d301d878",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "f3217b27d8fd21e95c4dd172b9eef399017b66be",
+                "snaks": {
+                  "P854": [
+                    {
+                      "snaktype": "value",
+                      "property": "P854",
+                      "hash": "9d8a4dd45379d2a7ac78501560f1ebd862e5eeba",
+                      "datavalue": {
+                        "value": "https://www.transfermarkt.com/-/mitarbeiterhistorie/verein/1010",
+                        "type": "string"
+                      },
+                      "datatype": "url"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P854"
+                ]
+              }
+            ]
+          },
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P286",
+              "hash": "be0f662da8ab9dca74c83d89b71da7023ba4dc0b",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 2067092,
+                  "id": "Q2067092"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P580": [
+                {
+                  "snaktype": "value",
+                  "property": "P580",
+                  "hash": "66eb135842b94b96be891cb32f38f4d1393e194f",
+                  "datavalue": {
+                    "value": {
+                      "time": "+2022-07-01T00:00:00Z",
+                      "timezone": 0,
+                      "before": 0,
+                      "after": 0,
+                      "precision": 11,
+                      "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                    },
+                    "type": "time"
+                  },
+                  "datatype": "time"
+                }
+              ],
+              "P582": [
+                {
+                  "snaktype": "value",
+                  "property": "P582",
+                  "hash": "35abf748c845968c415e8d7a1bcaddac2ccd1901",
+                  "datavalue": {
+                    "value": {
+                      "time": "+2022-09-26T00:00:00Z",
+                      "timezone": 0,
+                      "before": 0,
+                      "after": 0,
+                      "precision": 11,
+                      "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                    },
+                    "type": "time"
+                  },
+                  "datatype": "time"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P580",
+              "P582"
+            ],
+            "id": "Q2714$c607e430-4abf-ed87-e835-ec88fa766ae3",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "f3217b27d8fd21e95c4dd172b9eef399017b66be",
+                "snaks": {
+                  "P854": [
+                    {
+                      "snaktype": "value",
+                      "property": "P854",
+                      "hash": "9d8a4dd45379d2a7ac78501560f1ebd862e5eeba",
+                      "datavalue": {
+                        "value": "https://www.transfermarkt.com/-/mitarbeiterhistorie/verein/1010",
+                        "type": "string"
+                      },
+                      "datatype": "url"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P854"
+                ]
+              }
+            ]
+          },
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P286",
+              "hash": "61861b2672d63bca08a76425b029f54c47652185",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 489107,
+                  "id": "Q489107"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P580": [
+                {
+                  "snaktype": "value",
+                  "property": "P580",
+                  "hash": "4a83f6639518e96228f9db67f64233b5cc77824f",
+                  "datavalue": {
+                    "value": {
+                      "time": "+2022-09-26T00:00:00Z",
+                      "timezone": 0,
+                      "before": 0,
+                      "after": 0,
+                      "precision": 11,
+                      "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                    },
+                    "type": "time"
+                  },
+                  "datatype": "time"
+                }
+              ],
+              "P582": [
+                {
+                  "snaktype": "value",
+                  "property": "P582",
+                  "hash": "db31e77433572453c8b9d4c091a9ef4c51d707f6",
+                  "datavalue": {
+                    "value": {
+                      "time": "+2023-03-07T00:00:00Z",
+                      "timezone": 0,
+                      "before": 0,
+                      "after": 0,
+                      "precision": 11,
+                      "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                    },
+                    "type": "time"
+                  },
+                  "datatype": "time"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P580",
+              "P582"
+            ],
+            "id": "Q2714$77f5cfe2-4b45-78f6-8cbe-19f6bc786a91",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "fa278ebfc458360e5aed63d5058cca83c46134f1",
+                "snaks": {
+                  "P143": [
+                    {
+                      "snaktype": "value",
+                      "property": "P143",
+                      "hash": "e4f6d9441d0600513c4533c672b5ab472dc73694",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 328,
+                          "id": "Q328"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P143"
+                ]
+              },
+              {
+                "hash": "f3217b27d8fd21e95c4dd172b9eef399017b66be",
+                "snaks": {
+                  "P854": [
+                    {
+                      "snaktype": "value",
+                      "property": "P854",
+                      "hash": "9d8a4dd45379d2a7ac78501560f1ebd862e5eeba",
+                      "datavalue": {
+                        "value": "https://www.transfermarkt.com/-/mitarbeiterhistorie/verein/1010",
+                        "type": "string"
+                      },
+                      "datatype": "url"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P854"
+                ]
+              }
+            ]
+          },
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P286",
+              "hash": "93ae50acffab09ed4fc3eb25e61a6858679fbb54",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 5108471,
+                  "id": "Q5108471"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P580": [
+                {
+                  "snaktype": "value",
+                  "property": "P580",
+                  "hash": "9f44af5d38429e335af66660ae42d185553666dc",
+                  "datavalue": {
+                    "value": {
+                      "time": "+2023-03-07T00:00:00Z",
+                      "timezone": 0,
+                      "before": 0,
+                      "after": 0,
+                      "precision": 11,
+                      "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                    },
+                    "type": "time"
+                  },
+                  "datatype": "time"
+                }
+              ],
+              "P582": [
+                {
+                  "snaktype": "value",
+                  "property": "P582",
+                  "hash": "dc2fc298f7fc88b8744ffabf43ddd95a2d129f45",
+                  "datavalue": {
+                    "value": {
+                      "time": "+2023-05-10T00:00:00Z",
+                      "timezone": 0,
+                      "before": 0,
+                      "after": 0,
+                      "precision": 11,
+                      "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                    },
+                    "type": "time"
+                  },
+                  "datatype": "time"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P580",
+              "P582"
+            ],
+            "id": "Q2714$a59fdff0-4b30-b270-49ef-fab3c9507d52",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "f3217b27d8fd21e95c4dd172b9eef399017b66be",
+                "snaks": {
+                  "P854": [
+                    {
+                      "snaktype": "value",
+                      "property": "P854",
+                      "hash": "9d8a4dd45379d2a7ac78501560f1ebd862e5eeba",
+                      "datavalue": {
+                        "value": "https://www.transfermarkt.com/-/mitarbeiterhistorie/verein/1010",
+                        "type": "string"
+                      },
+                      "datatype": "url"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P854"
+                ]
+              }
+            ]
+          },
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P286",
+              "hash": "4039add9f1f9cdd2db46220ac82fc7ed09dd9118",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 456652,
+                  "id": "Q456652"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P580": [
+                {
+                  "snaktype": "value",
+                  "property": "P580",
+                  "hash": "b8bccb9fc4a2267626cceba9d367f2ebb716bf27",
+                  "datavalue": {
+                    "value": {
+                      "time": "+2023-07-01T00:00:00Z",
+                      "timezone": 0,
+                      "before": 0,
+                      "after": 0,
+                      "precision": 11,
+                      "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                    },
+                    "type": "time"
+                  },
+                  "datatype": "time"
+                }
+              ],
+              "P582": [
+                {
+                  "snaktype": "value",
+                  "property": "P582",
+                  "hash": "39ff7890b8c39277d538dbd367bed25d4ea1f368",
+                  "datavalue": {
+                    "value": {
+                      "time": "+2024-03-09T00:00:00Z",
+                      "timezone": 0,
+                      "before": 0,
+                      "after": 0,
+                      "precision": 11,
+                      "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                    },
+                    "type": "time"
+                  },
+                  "datatype": "time"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P580",
+              "P582"
+            ],
+            "id": "Q2714$482c9d57-4830-03f4-2fc5-62d3e2fc78ec",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "f3217b27d8fd21e95c4dd172b9eef399017b66be",
+                "snaks": {
+                  "P854": [
+                    {
+                      "snaktype": "value",
+                      "property": "P854",
+                      "hash": "9d8a4dd45379d2a7ac78501560f1ebd862e5eeba",
+                      "datavalue": {
+                        "value": "https://www.transfermarkt.com/-/mitarbeiterhistorie/verein/1010",
+                        "type": "string"
+                      },
+                      "datatype": "url"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P854"
+                ]
+              }
+            ]
+          },
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P286",
+              "hash": "5630a39108e4b9374648989317bd5f6e532531fc",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 10577,
+                  "id": "Q10577"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P580": [
+                {
+                  "snaktype": "value",
+                  "property": "P580",
+                  "hash": "c9f3b6d70d77603fb48d4e4a8c545f115ea6621b",
+                  "datavalue": {
+                    "value": {
+                      "time": "+2024-03-10T00:00:00Z",
+                      "timezone": 0,
+                      "before": 0,
+                      "after": 0,
+                      "precision": 11,
+                      "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                    },
+                    "type": "time"
+                  },
+                  "datatype": "time"
+                }
+              ],
+              "P582": [
+                {
+                  "snaktype": "value",
+                  "property": "P582",
+                  "hash": "8010c7724c7697df67e63b79bee8422d9d887f3f",
+                  "datavalue": {
+                    "value": {
+                      "time": "+2025-05-06T00:00:00Z",
+                      "timezone": 0,
+                      "before": 0,
+                      "after": 0,
+                      "precision": 11,
+                      "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                    },
+                    "type": "time"
+                  },
+                  "datatype": "time"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P580",
+              "P582"
+            ],
+            "id": "Q2714$49a5a7e0-4b4a-3212-d813-fe41d601a62b",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "f3217b27d8fd21e95c4dd172b9eef399017b66be",
+                "snaks": {
+                  "P854": [
+                    {
+                      "snaktype": "value",
+                      "property": "P854",
+                      "hash": "9d8a4dd45379d2a7ac78501560f1ebd862e5eeba",
+                      "datavalue": {
+                        "value": "https://www.transfermarkt.com/-/mitarbeiterhistorie/verein/1010",
+                        "type": "string"
+                      },
+                      "datatype": "url"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P854"
+                ]
+              }
+            ]
+          },
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P286",
+              "hash": "f0efe645bdaf5cbfb4642d2646d0e98fe1f106f3",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 2740889,
+                  "id": "Q2740889"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P580": [
+                {
+                  "snaktype": "value",
+                  "property": "P580",
+                  "hash": "e7804b29ca4e73dbbbc2265b6c4e4a3525fac501",
+                  "datavalue": {
+                    "value": {
+                      "time": "+2025-05-13T00:00:00Z",
+                      "timezone": 0,
+                      "before": 0,
+                      "after": 0,
+                      "precision": 11,
+                      "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                    },
+                    "type": "time"
+                  },
+                  "datatype": "time"
+                }
+              ],
+              "P582": [
+                {
+                  "snaktype": "value",
+                  "property": "P582",
+                  "hash": "e0472ea166e3e67746836b70b8dfe63031c2237c",
+                  "datavalue": {
+                    "value": {
+                      "time": "+2025-10-08T00:00:00Z",
+                      "timezone": 0,
+                      "before": 0,
+                      "after": 0,
+                      "precision": 11,
+                      "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                    },
+                    "type": "time"
+                  },
+                  "datatype": "time"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P580",
+              "P582"
+            ],
+            "id": "Q2714$d5caaeb2-40b9-292f-aa3a-88cba513a93a",
+            "rank": "normal"
+          },
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P286",
+              "hash": "903835862cbba636ca49e504b7ae9d22008939e6",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 4886441,
+                  "id": "Q4886441"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P580": [
+                {
+                  "snaktype": "value",
+                  "property": "P580",
+                  "hash": "132a1736552998e5145ecdafa14ca3092e94fc9f",
+                  "datavalue": {
+                    "value": {
+                      "time": "+2025-10-08T00:00:00Z",
+                      "timezone": 0,
+                      "before": 0,
+                      "after": 0,
+                      "precision": 11,
+                      "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                    },
+                    "type": "time"
+                  },
+                  "datatype": "time"
+                }
+              ],
+              "P582": [
+                {
+                  "snaktype": "value",
+                  "property": "P582",
+                  "hash": "68e480245dcd193eb8fcb101c444d311d5e54683",
+                  "datavalue": {
+                    "value": {
+                      "time": "+2026-02-01T00:00:00Z",
+                      "timezone": 0,
+                      "before": 0,
+                      "after": 0,
+                      "precision": 11,
+                      "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                    },
+                    "type": "time"
+                  },
+                  "datatype": "time"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P580",
+              "P582"
+            ],
+            "id": "Q2714$2ffb1b91-418b-5bad-bb1e-37a131215d50",
+            "rank": "normal"
+          },
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P286",
+              "hash": "4d3862e5fbce632fe19d5515502de91466bcd911",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 42097417,
+                  "id": "Q42097417"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P580": [
+                {
+                  "snaktype": "value",
+                  "property": "P580",
+                  "hash": "ce18fa5fbda99b47ea7c96df70f82f095737eeeb",
+                  "datavalue": {
+                    "value": {
+                      "time": "+2026-02-09T00:00:00Z",
+                      "timezone": 0,
+                      "before": 0,
+                      "after": 0,
+                      "precision": 11,
+                      "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                    },
+                    "type": "time"
+                  },
+                  "datatype": "time"
+                }
+              ],
+              "P582": [
+                {
+                  "snaktype": "value",
+                  "property": "P582",
+                  "hash": "ab6a5b0d073a6a5b474e62564d20dbc632c5a541",
+                  "datavalue": {
+                    "value": {
+                      "time": "+2026-05-03T00:00:00Z",
+                      "timezone": 0,
+                      "before": 0,
+                      "after": 0,
+                      "precision": 11,
+                      "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                    },
+                    "type": "time"
+                  },
+                  "datatype": "time"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P580",
+              "P582"
+            ],
+            "id": "Q2714$e9658e7b-4d16-18e7-3ff9-de04728e5c68",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "8b4a16758c5f4a66e7911c9ccb5c80a494fa2fbf",
+                "snaks": {
+                  "P854": [
+                    {
+                      "snaktype": "value",
+                      "property": "P854",
+                      "hash": "fdfe3dcd844f4715f51e0d21dbfce4f2f675c2da",
+                      "datavalue": {
+                        "value": "https://www.watfordfc.com/news/2026/february/09/ed-still-watford-head-coach/",
+                        "type": "string"
+                      },
+                      "datatype": "url"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P854"
+                ]
+              }
+            ]
+          },
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P286",
+              "hash": "c8d0a007d3184be113ef641660f7bb8ab9ca2be0",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 65127311,
+                  "id": "Q65127311"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P580": [
+                {
+                  "snaktype": "value",
+                  "property": "P580",
+                  "hash": "27cfe47c29eb2565eab7a25f167ed004834cb4e1",
+                  "datavalue": {
+                    "value": {
+                      "time": "+2026-06-15T00:00:00Z",
+                      "timezone": 0,
+                      "before": 0,
+                      "after": 0,
+                      "precision": 11,
+                      "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                    },
+                    "type": "time"
+                  },
+                  "datatype": "time"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P580"
+            ],
+            "id": "Q2714$e5af2d54-4e33-3323-ac89-7cc90179a305",
+            "rank": "preferred",
+            "references": [
+              {
+                "hash": "96f8ee596cf83b1c78635629ca9e6ab6febad45d",
+                "snaks": {
+                  "P854": [
+                    {
+                      "snaktype": "value",
+                      "property": "P854",
+                      "hash": "9b7d982c0930d6acecd3e91be61bd3ae1f09d52f",
+                      "datavalue": {
+                        "value": "https://www.watfordfc.com/news/2026/june/15/official-dionisi-appointed-watford-head-coach/",
+                        "type": "string"
+                      },
+                      "datatype": "url"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P854"
+                ]
+              }
+            ]
+          }
+        ],
+        "P373": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P373",
+              "hash": "828677b93ca34e215d73520cfd2675f53319280a",
+              "datavalue": {
+                "value": "Watford F.C.",
+                "type": "string"
+              },
+              "datatype": "string"
+            },
+            "type": "statement",
+            "id": "q2714$013FB083-015F-40BF-B2A8-155E720E6F0E",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "fa278ebfc458360e5aed63d5058cca83c46134f1",
+                "snaks": {
+                  "P143": [
+                    {
+                      "snaktype": "value",
+                      "property": "P143",
+                      "hash": "e4f6d9441d0600513c4533c672b5ab472dc73694",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 328,
+                          "id": "Q328"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P143"
+                ]
+              }
+            ]
+          }
+        ],
+        "P434": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P434",
+              "hash": "00b0c59c284e5b5d7e91185925de132f1b5e1cf7",
+              "datavalue": {
+                "value": "8a2dc0da-bdae-4d1e-9130-c25c011ffd47",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "q2714$E7BA2DE6-A82B-462B-9A2E-162DFCFAA881",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "706208b3024200fd0a39ad499808dd0d98d74065",
+                "snaks": {
+                  "P248": [
+                    {
+                      "snaktype": "value",
+                      "property": "P248",
+                      "hash": "623cc8f0e2f65afe4d66b91962d354a2f3aa9a27",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 14005,
+                          "id": "Q14005"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P248"
+                ]
+              }
+            ]
+          }
+        ],
+        "P856": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P856",
+              "hash": "577766cfe281f516f7152b074ce9fa90f2dc0fe4",
+              "datavalue": {
+                "value": "https://www.watfordfc.com/",
+                "type": "string"
+              },
+              "datatype": "url"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P407": [
+                {
+                  "snaktype": "value",
+                  "property": "P407",
+                  "hash": "daf1c4fcb58181b02dff9cc89deb084004ddae4b",
+                  "datavalue": {
+                    "value": {
+                      "entity-type": "item",
+                      "numeric-id": 1860,
+                      "id": "Q1860"
+                    },
+                    "type": "wikibase-entityid"
+                  },
+                  "datatype": "wikibase-item"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P407"
+            ],
+            "id": "Q2714$a61ba3a1-4aa3-1a97-d418-827ea92040ad",
+            "rank": "normal"
+          }
+        ],
+        "P571": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P571",
+              "hash": "b7a16e3cf4363ee733807d9ef7df0feed3e9608f",
+              "datavalue": {
+                "value": {
+                  "time": "+1881-01-01T00:00:00Z",
+                  "timezone": 0,
+                  "before": 0,
+                  "after": 0,
+                  "precision": 9,
+                  "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                },
+                "type": "time"
+              },
+              "datatype": "time"
+            },
+            "type": "statement",
+            "id": "Q2714$c0c49834-4356-98ab-b09c-270828cdf314",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "6914443c24f93ca61dea0dda02fd735dc9211dfa",
+                "snaks": {
+                  "P212": [
+                    {
+                      "snaktype": "value",
+                      "property": "P212",
+                      "hash": "3b78d3dc850575f5101aef7c71147a046c8811cc",
+                      "datavalue": {
+                        "value": "978-0-9509601-6-6",
+                        "type": "string"
+                      },
+                      "datatype": "external-id"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P212"
+                ]
+              },
+              {
+                "hash": "adb4ec45bf0dd40e5abe73f2982e4c8f7542ee9b",
+                "snaks": {
+                  "P212": [
+                    {
+                      "snaktype": "value",
+                      "property": "P212",
+                      "hash": "1c0ab6fed8cec828f6f9340475f7817709be91b5",
+                      "datavalue": {
+                        "value": "978-0-9527458-1-5",
+                        "type": "string"
+                      },
+                      "datatype": "external-id"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P212"
+                ]
+              }
+            ]
+          }
+        ],
+        "P910": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P910",
+              "hash": "bc64c818374d455d5be6be1e0c74406e782a97b9",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 8153276,
+                  "id": "Q8153276"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q2714$EBB24D95-E13C-41F2-98EF-6527C8772268",
+            "rank": "normal"
+          }
+        ],
+        "P646": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P646",
+              "hash": "9bfe95b587c2acfbcad52087604d269b61a2b1d7",
+              "datavalue": {
+                "value": "/m/0lmm3",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q2714$3F2B6BFC-B744-4C83-80B6-408AC9909A2C",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "2b00cb481cddcac7623114367489b5c194901c4a",
+                "snaks": {
+                  "P248": [
+                    {
+                      "snaktype": "value",
+                      "property": "P248",
+                      "hash": "a94b740202b097dd33355e0e6c00e54b9395e5e0",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 15241312,
+                          "id": "Q15241312"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ],
+                  "P577": [
+                    {
+                      "snaktype": "value",
+                      "property": "P577",
+                      "hash": "fde79ecb015112d2f29229ccc1ec514ed3e71fa2",
+                      "datavalue": {
+                        "value": {
+                          "time": "+2013-10-28T00:00:00Z",
+                          "timezone": 0,
+                          "before": 0,
+                          "after": 0,
+                          "precision": 11,
+                          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                        },
+                        "type": "time"
+                      },
+                      "datatype": "time"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P248",
+                  "P577"
+                ]
+              }
+            ]
+          }
+        ],
+        "P641": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P641",
+              "hash": "1624e15e061523279bc14bb6497168e45caacb32",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 2736,
+                  "id": "Q2736"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q2714$E04FBD72-4825-40A1-9D3B-07009B3CAADC",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "fa278ebfc458360e5aed63d5058cca83c46134f1",
+                "snaks": {
+                  "P143": [
+                    {
+                      "snaktype": "value",
+                      "property": "P143",
+                      "hash": "e4f6d9441d0600513c4533c672b5ab472dc73694",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 328,
+                          "id": "Q328"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P143"
+                ]
+              }
+            ]
+          }
+        ],
+        "P1344": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P1344",
+              "hash": "7b1d62eb964a06665fbe08602abf35fefece5ce3",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 4581669,
+                  "id": "Q4581669"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q2714$A22F10A2-B274-450E-8A39-6DD2914C3096",
+            "rank": "normal"
+          }
+        ],
+        "P214": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P214",
+              "hash": "5a3e7da184bb7d5fa956740483af35fac8f73841",
+              "datavalue": {
+                "value": "143325706",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q2714$67BFCDC1-ABEB-4643-9C33-C3C445E949DD",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "94cd09bdd3373d7b8eb4e3cc26e524afe7466ff7",
+                "snaks": {
+                  "P248": [
+                    {
+                      "snaktype": "value",
+                      "property": "P248",
+                      "hash": "6b7d4330c4aac4caec4ede9de0311ce273f88ecd",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 54919,
+                          "id": "Q54919"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ],
+                  "P813": [
+                    {
+                      "snaktype": "value",
+                      "property": "P813",
+                      "hash": "bf4494cf3e2345d75aa355a5847a72d38ca6c55d",
+                      "datavalue": {
+                        "value": {
+                          "time": "+2015-08-02T00:00:00Z",
+                          "timezone": 0,
+                          "before": 0,
+                          "after": 0,
+                          "precision": 11,
+                          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                        },
+                        "type": "time"
+                      },
+                      "datatype": "time"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P248",
+                  "P813"
+                ]
+              }
+            ]
+          }
+        ],
+        "P131": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P131",
+              "hash": "47c8fa209c67f86fbe54886cf5cc200bccd82731",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 2598,
+                  "id": "Q2598"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q2714$3b6a7096-4f31-927a-8d7a-e3a449ad77b9",
+            "rank": "normal"
+          }
+        ],
+        "P3417": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P3417",
+              "hash": "5bc65c0da078610ae96c497d8f9734e204126fed",
+              "datavalue": {
+                "value": "Watford-F-C",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q2714$B7764986-5AA0-44B9-872E-0E33EEDEE61D",
+            "rank": "normal"
+          }
+        ],
+        "P2002": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P2002",
+              "hash": "b612688758b14eb07a8af53a5a4f49c1cac1dcab",
+              "datavalue": {
+                "value": "WatfordFC",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P6552": [
+                {
+                  "snaktype": "value",
+                  "property": "P6552",
+                  "hash": "d4a0b354319f0548f8681b91a079831cd2e2fb5e",
+                  "datavalue": {
+                    "value": "226590250",
+                    "type": "string"
+                  },
+                  "datatype": "external-id"
+                }
+              ],
+              "P1552": [
+                {
+                  "snaktype": "value",
+                  "property": "P1552",
+                  "hash": "62f0039d240f7eeba6c6908a0d8807a6188324a1",
+                  "datavalue": {
+                    "value": {
+                      "entity-type": "item",
+                      "numeric-id": 28378282,
+                      "id": "Q28378282"
+                    },
+                    "type": "wikibase-entityid"
+                  },
+                  "datatype": "wikibase-item"
+                }
+              ],
+              "P3744": [
+                {
+                  "snaktype": "value",
+                  "property": "P3744",
+                  "hash": "b0f53fc6c6376181b2c11b4925052a0819e1b1c1",
+                  "datavalue": {
+                    "value": {
+                      "amount": "+764102",
+                      "unit": "1"
+                    },
+                    "type": "quantity"
+                  },
+                  "datatype": "quantity"
+                }
+              ],
+              "P580": [
+                {
+                  "snaktype": "value",
+                  "property": "P580",
+                  "hash": "4cb6bfe44a712d1ef1e55fc6f92bc5511704d2b0",
+                  "datavalue": {
+                    "value": {
+                      "time": "+2010-12-14T00:00:00Z",
+                      "timezone": 0,
+                      "before": 0,
+                      "after": 0,
+                      "precision": 11,
+                      "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                    },
+                    "type": "time"
+                  },
+                  "datatype": "time"
+                }
+              ],
+              "P585": [
+                {
+                  "snaktype": "value",
+                  "property": "P585",
+                  "hash": "1c93e48662911fd5ffedcfee744a0f01148afe92",
+                  "datavalue": {
+                    "value": {
+                      "time": "+2021-06-08T00:00:00Z",
+                      "timezone": 0,
+                      "before": 0,
+                      "after": 0,
+                      "precision": 11,
+                      "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                    },
+                    "type": "time"
+                  },
+                  "datatype": "time"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P6552",
+              "P1552",
+              "P3744",
+              "P580",
+              "P585"
+            ],
+            "id": "Q2714$DA050536-9D71-41B3-BF8E-D18709CEC8D3",
+            "rank": "normal"
+          }
+        ],
+        "P2003": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P2003",
+              "hash": "73f6d7658f122d44ab7da00a2807ef27879e3900",
+              "datavalue": {
+                "value": "watfordfcofficial",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q2714$02404491-7E2F-4B4F-BD28-E8FA9D8A9FE3",
+            "rank": "normal"
+          }
+        ],
+        "P2013": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P2013",
+              "hash": "bce58c3c41cd9624f3c1a7167cb7a154f8285324",
+              "datavalue": {
+                "value": "watfordfc",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q2714$D6D83076-923E-44B0-A39D-53608B9E70F1",
+            "rank": "normal"
+          }
+        ],
+        "P1448": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P1448",
+              "hash": "96ab589e6d564f42543fc9433918adf4c5528e16",
+              "datavalue": {
+                "value": {
+                  "text": "Watford Football Club",
+                  "language": "en"
+                },
+                "type": "monolingualtext"
+              },
+              "datatype": "monolingualtext"
+            },
+            "type": "statement",
+            "id": "Q2714$43c7e745-4675-2e87-4d4e-8b3e5ba4eb29",
+            "rank": "normal"
+          }
+        ],
+        "P1449": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P1449",
+              "hash": "c3e0272e653fdf84e12c7a2a60538b62333a61ef",
+              "datavalue": {
+                "value": {
+                  "text": "The Hornets",
+                  "language": "en"
+                },
+                "type": "monolingualtext"
+              },
+              "datatype": "monolingualtext"
+            },
+            "type": "statement",
+            "id": "Q2714$3156d195-4642-a30f-f1f6-7a50f79c2b34",
+            "rank": "normal"
+          }
+        ],
+        "P159": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P159",
+              "hash": "3adbb086853f5f08b13c7056e09fdcfa438b5610",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 2598,
+                  "id": "Q2598"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q2714$15e43ebb-4e94-349e-5d04-e381b3689bdd",
+            "rank": "normal"
+          }
+        ],
+        "P17": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P17",
+              "hash": "a44880420787fb348836dc51d3babc5227c4ef7e",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 145,
+                  "id": "Q145"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q2714$EF5E59ED-70C3-4FEB-901B-5A31EAA2B2CA",
+            "rank": "normal"
+          }
+        ],
+        "P213": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P213",
+              "hash": "11a590aa0eb21684f78eb8e31dc64414b4ce6f27",
+              "datavalue": {
+                "value": "0000000449043327",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q2714$7C5041DA-626C-4483-A0EB-038AE54544E9",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "fe30c3d8276dce76f79eeb1b32fe76c537a259fa",
+                "snaks": {
+                  "P248": [
+                    {
+                      "snaktype": "value",
+                      "property": "P248",
+                      "hash": "8a10589baea5bee9f0ab02319d7da5e45bef3ca0",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 28527677,
+                          "id": "Q28527677"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P248"
+                ]
+              }
+            ]
+          }
+        ],
+        "P6112": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P6112",
+              "hash": "f0248d1d3bea1ae63258008e10c89d45ca1443e2",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 7132961,
+                  "id": "Q7132961"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q2714$F8D9901A-966B-47A7-A8A0-B9E31378663B",
+            "rank": "normal"
+          }
+        ],
+        "P1830": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P1830",
+              "hash": "c0e11e2579d4293caffeb8f1b0308eedbbe004ae",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 10626,
+                  "id": "Q10626"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q2714$76AB3660-3CA5-43C5-8AEF-0F1D6DF26E1D",
+            "rank": "normal"
+          }
+        ],
+        "P244": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P244",
+              "hash": "ff8785ca619e3cdaf1228b6ec0aa6eff0634fda1",
+              "datavalue": {
+                "value": "nb2007023277",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q2714$CD142361-6454-4054-B956-ACBF7F3A4A78",
+            "rank": "normal"
+          }
+        ],
+        "P3500": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P3500",
+              "hash": "ee822f47f9e8ec86740aa09e16a15e7eb8e6bb80",
+              "datavalue": {
+                "value": "427521",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q2714$482A1805-4CE7-439E-B6C6-8F8A716B9545",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "fdf7c8b67ed7023b04fa5d9b74d97a43ed73c816",
+                "snaks": {
+                  "P248": [
+                    {
+                      "snaktype": "value",
+                      "property": "P248",
+                      "hash": "654ac97d41e766b6860b1b7acd87f11a6b00c4f9",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 64159407,
+                          "id": "Q64159407"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ],
+                  "P213": [
+                    {
+                      "snaktype": "value",
+                      "property": "P213",
+                      "hash": "11a590aa0eb21684f78eb8e31dc64414b4ce6f27",
+                      "datavalue": {
+                        "value": "0000000449043327",
+                        "type": "string"
+                      },
+                      "datatype": "external-id"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P248",
+                  "P213"
+                ]
+              }
+            ]
+          }
+        ],
+        "P7223": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P7223",
+              "hash": "fe1c70be155488042ca57952add2d3cb33ef3647",
+              "datavalue": {
+                "value": "1010",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q2714$458fc831-44e2-faec-e41d-6fcfa2e052fe",
+            "rank": "normal"
+          }
+        ],
+        "P7287": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P7287",
+              "hash": "bd7199688848c62b0f7ef0871a3e5616a58ce219",
+              "datavalue": {
+                "value": "watford-fc",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q2714$c12c4444-4a24-5e39-1c76-a5bce4c8e766",
+            "rank": "normal"
+          }
+        ],
+        "P6131": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P6131",
+              "hash": "31aa371b27936bfc578e23afea1e604df1f02686",
+              "datavalue": {
+                "value": "696",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q2714$9b6688e0-4de2-b873-cc43-64698258c421",
+            "rank": "normal"
+          }
+        ],
+        "P7280": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P7280",
+              "hash": "6bc2fd4f1004d9365ab1b512f2fca9ea63a20ede",
+              "datavalue": {
+                "value": "2599",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q2714$390a03fd-4501-88d7-a332-e15d1b60c870",
+            "rank": "normal"
+          }
+        ],
+        "P7361": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P7361",
+              "hash": "c9677c095b01102c7dc917c88fabf49d5f9bb64c",
+              "datavalue": {
+                "value": "52744",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q2714$ff84560a-4206-1741-34ba-e53d4b0c2bb2",
+            "rank": "normal"
+          }
+        ],
+        "P7454": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P7454",
+              "hash": "c347bf87945a41bba19b607e655ab9a3dd67eb92",
+              "datavalue": {
+                "value": "2741",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q2714$df07ab3c-4d70-4d87-dcde-f49407823090",
+            "rank": "normal"
+          }
+        ],
+        "P3479": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P3479",
+              "hash": "c0027aa1fe51b04dc7021f1a29efbb7064f49f43",
+              "datavalue": {
+                "value": "dfcc9df8-960f-49e6-8098-69a89fda0da4",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q2714$281DF1AE-E4BF-4F67-B74E-8F31F8797B02",
+            "rank": "normal"
+          }
+        ],
+        "P8687": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P8687",
+              "hash": "49ca8ccb694e1277caf625fbc02b4891190db633",
+              "datavalue": {
+                "value": {
+                  "amount": "+732124",
+                  "unit": "1"
+                },
+                "type": "quantity"
+              },
+              "datatype": "quantity"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P6552": [
+                {
+                  "snaktype": "value",
+                  "property": "P6552",
+                  "hash": "d4a0b354319f0548f8681b91a079831cd2e2fb5e",
+                  "datavalue": {
+                    "value": "226590250",
+                    "type": "string"
+                  },
+                  "datatype": "external-id"
+                }
+              ],
+              "P585": [
+                {
+                  "snaktype": "value",
+                  "property": "P585",
+                  "hash": "054fdf1148b0638d8b9b1d04d0417fc0a51f0805",
+                  "datavalue": {
+                    "value": {
+                      "time": "+2021-01-05T00:00:00Z",
+                      "timezone": 0,
+                      "before": 0,
+                      "after": 0,
+                      "precision": 11,
+                      "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                    },
+                    "type": "time"
+                  },
+                  "datatype": "time"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P6552",
+              "P585"
+            ],
+            "id": "Q2714$9a4b4ca7-6dc8-4d28-9d79-29729e8ad89c",
+            "rank": "normal"
+          },
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P8687",
+              "hash": "326dc3c9f2a2914119d4ad7c1a52bc7d249c0774",
+              "datavalue": {
+                "value": {
+                  "amount": "+704967",
+                  "unit": "1"
+                },
+                "type": "quantity"
+              },
+              "datatype": "quantity"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P6552": [
+                {
+                  "snaktype": "value",
+                  "property": "P6552",
+                  "hash": "d4a0b354319f0548f8681b91a079831cd2e2fb5e",
+                  "datavalue": {
+                    "value": "226590250",
+                    "type": "string"
+                  },
+                  "datatype": "external-id"
+                }
+              ],
+              "P585": [
+                {
+                  "snaktype": "value",
+                  "property": "P585",
+                  "hash": "f4da88e58bb9b446848b3eed88e75b74e12d6336",
+                  "datavalue": {
+                    "value": {
+                      "time": "+2020-04-24T00:00:00Z",
+                      "timezone": 0,
+                      "before": 0,
+                      "after": 0,
+                      "precision": 11,
+                      "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                    },
+                    "type": "time"
+                  },
+                  "datatype": "time"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P6552",
+              "P585"
+            ],
+            "id": "Q2714$a3c6c630-169b-40b7-8609-30d9cfb6fb75",
+            "rank": "normal"
+          },
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P8687",
+              "hash": "73d44e3bb4384023b054736a5e658831082d9067",
+              "datavalue": {
+                "value": {
+                  "amount": "+118000",
+                  "unit": "1",
+                  "upperBound": "+118999",
+                  "lowerBound": "+118000"
+                },
+                "type": "quantity"
+              },
+              "datatype": "quantity"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P2397": [
+                {
+                  "snaktype": "value",
+                  "property": "P2397",
+                  "hash": "442bbacf5f2b8ae3681c4d2f0b57272ef200b369",
+                  "datavalue": {
+                    "value": "UCptKljTrbdMTgmuekGKhRug",
+                    "type": "string"
+                  },
+                  "datatype": "external-id"
+                }
+              ],
+              "P585": [
+                {
+                  "snaktype": "value",
+                  "property": "P585",
+                  "hash": "7e9807360460d8fc83a6b6ce57f238506cd3fa34",
+                  "datavalue": {
+                    "value": {
+                      "time": "+2021-07-04T00:00:00Z",
+                      "timezone": 0,
+                      "before": 0,
+                      "after": 0,
+                      "precision": 11,
+                      "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                    },
+                    "type": "time"
+                  },
+                  "datatype": "time"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P2397",
+              "P585"
+            ],
+            "id": "Q2714$5e94c53a-6053-46d3-9a0f-dcdd1d6f315d",
+            "rank": "normal"
+          },
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P8687",
+              "hash": "5e3e5da588c43b4df14446085d5d5c527e99b121",
+              "datavalue": {
+                "value": {
+                  "amount": "+842147",
+                  "unit": "1"
+                },
+                "type": "quantity"
+              },
+              "datatype": "quantity"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P6552": [
+                {
+                  "snaktype": "value",
+                  "property": "P6552",
+                  "hash": "d4a0b354319f0548f8681b91a079831cd2e2fb5e",
+                  "datavalue": {
+                    "value": "226590250",
+                    "type": "string"
+                  },
+                  "datatype": "external-id"
+                }
+              ],
+              "P585": [
+                {
+                  "snaktype": "value",
+                  "property": "P585",
+                  "hash": "3c9e03736fe9c011e836a12675eae797f96db5ff",
+                  "datavalue": {
+                    "value": {
+                      "time": "+2022-01-27T00:00:00Z",
+                      "timezone": 0,
+                      "before": 0,
+                      "after": 0,
+                      "precision": 11,
+                      "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                    },
+                    "type": "time"
+                  },
+                  "datatype": "time"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P6552",
+              "P585"
+            ],
+            "id": "Q2714$eef8bc4e-2701-4a9f-968c-1fce55ea72a7",
+            "rank": "normal"
+          },
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P8687",
+              "hash": "d97171e2735acee26322e0439969795a568cc46b",
+              "datavalue": {
+                "value": {
+                  "amount": "+175000",
+                  "unit": "1",
+                  "upperBound": "+175999",
+                  "lowerBound": "+175000"
+                },
+                "type": "quantity"
+              },
+              "datatype": "quantity"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P2397": [
+                {
+                  "snaktype": "value",
+                  "property": "P2397",
+                  "hash": "442bbacf5f2b8ae3681c4d2f0b57272ef200b369",
+                  "datavalue": {
+                    "value": "UCptKljTrbdMTgmuekGKhRug",
+                    "type": "string"
+                  },
+                  "datatype": "external-id"
+                }
+              ],
+              "P585": [
+                {
+                  "snaktype": "value",
+                  "property": "P585",
+                  "hash": "a20358bd0489af4e7d50445ff96dc8c9b5ef968b",
+                  "datavalue": {
+                    "value": {
+                      "time": "+2022-03-18T00:00:00Z",
+                      "timezone": 0,
+                      "before": 0,
+                      "after": 0,
+                      "precision": 11,
+                      "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                    },
+                    "type": "time"
+                  },
+                  "datatype": "time"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P2397",
+              "P585"
+            ],
+            "id": "Q2714$6228f213-7c1d-4507-80a4-0a999c729485",
+            "rank": "normal"
+          },
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P8687",
+              "hash": "b168e32689ac3c48af6fa13f3598f11b3648f917",
+              "datavalue": {
+                "value": {
+                  "amount": "+904507",
+                  "unit": "1"
+                },
+                "type": "quantity"
+              },
+              "datatype": "quantity"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P6552": [
+                {
+                  "snaktype": "value",
+                  "property": "P6552",
+                  "hash": "d4a0b354319f0548f8681b91a079831cd2e2fb5e",
+                  "datavalue": {
+                    "value": "226590250",
+                    "type": "string"
+                  },
+                  "datatype": "external-id"
+                }
+              ],
+              "P585": [
+                {
+                  "snaktype": "value",
+                  "property": "P585",
+                  "hash": "6ceb09f719cf668fb5dec42b6a261e5017b84913",
+                  "datavalue": {
+                    "value": {
+                      "time": "+2023-02-07T00:00:00Z",
+                      "timezone": 0,
+                      "before": 0,
+                      "after": 0,
+                      "precision": 11,
+                      "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                    },
+                    "type": "time"
+                  },
+                  "datatype": "time"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P6552",
+              "P585"
+            ],
+            "id": "Q2714$4d79b53f-15e1-42b1-9fd0-748f800d1d26",
+            "rank": "preferred"
+          },
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P8687",
+              "hash": "0ac929895e7528cac9ccdf1e576de8b428711664",
+              "datavalue": {
+                "value": {
+                  "amount": "+183000",
+                  "unit": "1",
+                  "upperBound": "+183999",
+                  "lowerBound": "+183000"
+                },
+                "type": "quantity"
+              },
+              "datatype": "quantity"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P2397": [
+                {
+                  "snaktype": "value",
+                  "property": "P2397",
+                  "hash": "442bbacf5f2b8ae3681c4d2f0b57272ef200b369",
+                  "datavalue": {
+                    "value": "UCptKljTrbdMTgmuekGKhRug",
+                    "type": "string"
+                  },
+                  "datatype": "external-id"
+                }
+              ],
+              "P585": [
+                {
+                  "snaktype": "value",
+                  "property": "P585",
+                  "hash": "a8bd43a0e4d959a5c9c558c2834b81311ce9054b",
+                  "datavalue": {
+                    "value": {
+                      "time": "+2023-03-22T00:00:00Z",
+                      "timezone": 0,
+                      "before": 0,
+                      "after": 0,
+                      "precision": 11,
+                      "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                    },
+                    "type": "time"
+                  },
+                  "datatype": "time"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P2397",
+              "P585"
+            ],
+            "id": "Q2714$87cf0696-a945-4b68-9537-621b70de3b76",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "58a6269a7282347320705325b7864f6a78658db2",
+                "snaks": {
+                  "P813": [
+                    {
+                      "snaktype": "value",
+                      "property": "P813",
+                      "hash": "b30214ab2341df33eaf6cd0166751459da477f79",
+                      "datavalue": {
+                        "value": {
+                          "time": "+2023-03-22T00:00:00Z",
+                          "timezone": 0,
+                          "before": 0,
+                          "after": 0,
+                          "precision": 11,
+                          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                        },
+                        "type": "time"
+                      },
+                      "datatype": "time"
+                    }
+                  ],
+                  "P248": [
+                    {
+                      "snaktype": "value",
+                      "property": "P248",
+                      "hash": "e6e6374525f7d680f01ff599745f367fb1369b87",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 8056784,
+                          "id": "Q8056784"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P813",
+                  "P248"
+                ]
+              }
+            ]
+          },
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P8687",
+              "hash": "ee5530a57f92c2367b1e26d1601d97b66abf1026",
+              "datavalue": {
+                "value": {
+                  "amount": "+189000",
+                  "unit": "1",
+                  "upperBound": "+189999",
+                  "lowerBound": "+189000"
+                },
+                "type": "quantity"
+              },
+              "datatype": "quantity"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P2397": [
+                {
+                  "snaktype": "value",
+                  "property": "P2397",
+                  "hash": "442bbacf5f2b8ae3681c4d2f0b57272ef200b369",
+                  "datavalue": {
+                    "value": "UCptKljTrbdMTgmuekGKhRug",
+                    "type": "string"
+                  },
+                  "datatype": "external-id"
+                }
+              ],
+              "P585": [
+                {
+                  "snaktype": "value",
+                  "property": "P585",
+                  "hash": "36c84ba5e324a1958d8d8a807467bd8a66d4509f",
+                  "datavalue": {
+                    "value": {
+                      "time": "+2024-03-23T00:00:00Z",
+                      "timezone": 0,
+                      "before": 0,
+                      "after": 0,
+                      "precision": 11,
+                      "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                    },
+                    "type": "time"
+                  },
+                  "datatype": "time"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P2397",
+              "P585"
+            ],
+            "id": "Q2714$0b725de8-4062-4b41-a804-48fcd9b347ea",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "8272dda5bd1714141cddd9f6aacde28b2a33bd6e",
+                "snaks": {
+                  "P813": [
+                    {
+                      "snaktype": "value",
+                      "property": "P813",
+                      "hash": "c57884fc65017f7b587f906c34c1ffb91a3c8303",
+                      "datavalue": {
+                        "value": {
+                          "time": "+2024-03-23T00:00:00Z",
+                          "timezone": 0,
+                          "before": 0,
+                          "after": 0,
+                          "precision": 11,
+                          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                        },
+                        "type": "time"
+                      },
+                      "datatype": "time"
+                    }
+                  ],
+                  "P248": [
+                    {
+                      "snaktype": "value",
+                      "property": "P248",
+                      "hash": "e6e6374525f7d680f01ff599745f367fb1369b87",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 8056784,
+                          "id": "Q8056784"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P813",
+                  "P248"
+                ]
+              }
+            ]
+          },
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P8687",
+              "hash": "8683686b16024a78ac0e56b6ac81543e4223c6cc",
+              "datavalue": {
+                "value": {
+                  "amount": "+194000",
+                  "unit": "1",
+                  "upperBound": "+194999",
+                  "lowerBound": "+194000"
+                },
+                "type": "quantity"
+              },
+              "datatype": "quantity"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P2397": [
+                {
+                  "snaktype": "value",
+                  "property": "P2397",
+                  "hash": "442bbacf5f2b8ae3681c4d2f0b57272ef200b369",
+                  "datavalue": {
+                    "value": "UCptKljTrbdMTgmuekGKhRug",
+                    "type": "string"
+                  },
+                  "datatype": "external-id"
+                }
+              ],
+              "P585": [
+                {
+                  "snaktype": "value",
+                  "property": "P585",
+                  "hash": "e4e91893400d9a4b37bdd5f52f5f3e74e2aec479",
+                  "datavalue": {
+                    "value": {
+                      "time": "+2025-03-30T00:00:00Z",
+                      "timezone": 0,
+                      "before": 0,
+                      "after": 0,
+                      "precision": 11,
+                      "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                    },
+                    "type": "time"
+                  },
+                  "datatype": "time"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P2397",
+              "P585"
+            ],
+            "id": "Q2714$f4100626-9b47-4825-ab7e-293d6ba25497",
+            "rank": "preferred",
+            "references": [
+              {
+                "hash": "9710518ec494fb9b8a0316d2dcfe7b6f5f85942f",
+                "snaks": {
+                  "P813": [
+                    {
+                      "snaktype": "value",
+                      "property": "P813",
+                      "hash": "92e6efa1f8f27a21fc0f7eec70b7f886e1a9a0c0",
+                      "datavalue": {
+                        "value": {
+                          "time": "+2025-03-30T00:00:00Z",
+                          "timezone": 0,
+                          "before": 0,
+                          "after": 0,
+                          "precision": 11,
+                          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                        },
+                        "type": "time"
+                      },
+                      "datatype": "time"
+                    }
+                  ],
+                  "P248": [
+                    {
+                      "snaktype": "value",
+                      "property": "P248",
+                      "hash": "e6e6374525f7d680f01ff599745f367fb1369b87",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 8056784,
+                          "id": "Q8056784"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P813",
+                  "P248"
+                ]
+              }
+            ]
+          }
+        ],
+        "P4527": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P4527",
+              "hash": "c2a0b71e912b30bfa2afaa42d56c9200c41f5d5e",
+              "datavalue": {
+                "value": "471249",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P1810": [
+                {
+                  "snaktype": "value",
+                  "property": "P1810",
+                  "hash": "2729bd21384c01e1b9e60f3beddfb348cb701915",
+                  "datavalue": {
+                    "value": "Watford FC",
+                    "type": "string"
+                  },
+                  "datatype": "string"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P1810"
+            ],
+            "id": "Q2714$73e64bd2-4e96-ee34-1746-9813df8d3968",
+            "rank": "normal"
+          }
+        ],
+        "P8672": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P8672",
+              "hash": "68dfca2d56b2ddd869be457f05f614d2aed9582c",
+              "datavalue": {
+                "value": "731226178107805696",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P1810": [
+                {
+                  "snaktype": "value",
+                  "property": "P1810",
+                  "hash": "2729bd21384c01e1b9e60f3beddfb348cb701915",
+                  "datavalue": {
+                    "value": "Watford FC",
+                    "type": "string"
+                  },
+                  "datatype": "string"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P1810"
+            ],
+            "id": "Q2714$98D38867-0333-4A85-A0B2-4ADF0CF86B62",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "751960851fa235edaddbc9b689395740c56c71e1",
+                "snaks": {
+                  "P1065": [
+                    {
+                      "snaktype": "value",
+                      "property": "P1065",
+                      "hash": "cd432ccb4c173858e960ad05696c85162d5669ba",
+                      "datavalue": {
+                        "value": "https://web.archive.org/web/20210221120801/https://twitter.com/i/api/1.1/onboarding/task.json?flow_name=topics_selector",
+                        "type": "string"
+                      },
+                      "datatype": "url"
+                    }
+                  ],
+                  "P2960": [
+                    {
+                      "snaktype": "value",
+                      "property": "P2960",
+                      "hash": "2f6cd8fdfa49e076c77e12f032eca37d5dbd8aea",
+                      "datavalue": {
+                        "value": {
+                          "time": "+2021-02-21T00:00:00Z",
+                          "timezone": 0,
+                          "before": 0,
+                          "after": 0,
+                          "precision": 11,
+                          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                        },
+                        "type": "time"
+                      },
+                      "datatype": "time"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P1065",
+                  "P2960"
+                ]
+              }
+            ]
+          }
+        ],
+        "P7085": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P7085",
+              "hash": "a86004a065096fb0dad35e19670b0023b0cf9ecb",
+              "datavalue": {
+                "value": "watfordfcofficial",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q2714$aab568a5-42d2-5846-140f-d746c87c7f52",
+            "rank": "normal"
+          }
+        ],
+        "P2397": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P2397",
+              "hash": "442bbacf5f2b8ae3681c4d2f0b57272ef200b369",
+              "datavalue": {
+                "value": "UCptKljTrbdMTgmuekGKhRug",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P1810": [
+                {
+                  "snaktype": "value",
+                  "property": "P1810",
+                  "hash": "2729bd21384c01e1b9e60f3beddfb348cb701915",
+                  "datavalue": {
+                    "value": "Watford FC",
+                    "type": "string"
+                  },
+                  "datatype": "string"
+                }
+              ],
+              "P1552": [
+                {
+                  "snaktype": "value",
+                  "property": "P1552",
+                  "hash": "c0091d81789347a87f21388e9e2863ce3e4df0ef",
+                  "datavalue": {
+                    "value": {
+                      "entity-type": "item",
+                      "numeric-id": 48799541,
+                      "id": "Q48799541"
+                    },
+                    "type": "wikibase-entityid"
+                  },
+                  "datatype": "wikibase-item"
+                }
+              ],
+              "P580": [
+                {
+                  "snaktype": "value",
+                  "property": "P580",
+                  "hash": "d2383758cdd5a807d264a8c542eb8035ad322eef",
+                  "datavalue": {
+                    "value": {
+                      "time": "+2012-10-15T00:00:00Z",
+                      "timezone": 0,
+                      "before": 0,
+                      "after": 0,
+                      "precision": 11,
+                      "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                    },
+                    "type": "time"
+                  },
+                  "datatype": "time"
+                }
+              ],
+              "P3744": [
+                {
+                  "snaktype": "value",
+                  "property": "P3744",
+                  "hash": "b03767eb82e458492f92d7c6c62110fc2f34c39b",
+                  "datavalue": {
+                    "value": {
+                      "amount": "+118000",
+                      "unit": "1"
+                    },
+                    "type": "quantity"
+                  },
+                  "datatype": "quantity"
+                }
+              ],
+              "P3740": [
+                {
+                  "snaktype": "value",
+                  "property": "P3740",
+                  "hash": "5358a8ccb751cb037463ba5bab9650168dde3b7a",
+                  "datavalue": {
+                    "value": {
+                      "amount": "+1789",
+                      "unit": "1"
+                    },
+                    "type": "quantity"
+                  },
+                  "datatype": "quantity"
+                }
+              ],
+              "P5436": [
+                {
+                  "snaktype": "value",
+                  "property": "P5436",
+                  "hash": "be09552b8f8e03c432ab026ba5aa4a20489cd0f3",
+                  "datavalue": {
+                    "value": {
+                      "amount": "+24636568",
+                      "unit": "1"
+                    },
+                    "type": "quantity"
+                  },
+                  "datatype": "quantity"
+                }
+              ],
+              "P585": [
+                {
+                  "snaktype": "value",
+                  "property": "P585",
+                  "hash": "175096784de2ac933d12943a3a92c0f8d543dd2a",
+                  "datavalue": {
+                    "value": {
+                      "time": "+2021-06-13T00:00:00Z",
+                      "timezone": 0,
+                      "before": 0,
+                      "after": 0,
+                      "precision": 11,
+                      "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                    },
+                    "type": "time"
+                  },
+                  "datatype": "time"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P1810",
+              "P1552",
+              "P580",
+              "P3744",
+              "P3740",
+              "P5436",
+              "P585"
+            ],
+            "id": "Q2714$8d9cb80f-4bbf-271c-d94a-fc00642e1a9d",
+            "rank": "normal"
+          }
+        ],
+        "P4264": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P4264",
+              "hash": "2576460532dff64d220e540c0b463ff0186914a0",
+              "datavalue": {
+                "value": "watford-football-club",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q2714$a565c402-4fc0-dabf-39f3-4a1dc52deb50",
+            "rank": "normal"
+          }
+        ],
+        "P1424": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P1424",
+              "hash": "3208dbe1b9f5f389bbef8676422369acbca00ae0",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 20344512,
+                  "id": "Q20344512"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P3831": [
+                {
+                  "snaktype": "value",
+                  "property": "P3831",
+                  "hash": "cd874a9f13f6d83cf7142fcf1a11f81cdcbcd674",
+                  "datavalue": {
+                    "value": {
+                      "entity-type": "item",
+                      "numeric-id": 11753321,
+                      "id": "Q11753321"
+                    },
+                    "type": "wikibase-entityid"
+                  },
+                  "datatype": "wikibase-item"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P3831"
+            ],
+            "id": "Q2714$b5ecc17c-47a9-89c6-d42a-46cfd9d18bc3",
+            "rank": "normal"
+          },
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P1424",
+              "hash": "36b39554f1c8326565030518345a4ff06857d035",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 14400281,
+                  "id": "Q14400281"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P3831": [
+                {
+                  "snaktype": "value",
+                  "property": "P3831",
+                  "hash": "49b0ad1ad4953dd2e0153bb9c031bc30abef9c25",
+                  "datavalue": {
+                    "value": {
+                      "entity-type": "item",
+                      "numeric-id": 115707333,
+                      "id": "Q115707333"
+                    },
+                    "type": "wikibase-entityid"
+                  },
+                  "datatype": "wikibase-item"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P3831"
+            ],
+            "id": "Q2714$F75283F3-C2EB-480E-AFB4-9492AA334ABD",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "a3c23c3cd2c509c5d9f54974b5a081e91af50265",
+                "snaks": {
+                  "P3452": [
+                    {
+                      "snaktype": "value",
+                      "property": "P3452",
+                      "hash": "41160b581208cc53b75b3c8716401e00e22bd7df",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 14400281,
+                          "id": "Q14400281"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P3452"
+                ]
+              }
+            ]
+          }
+        ],
+        "P3984": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P3984",
+              "hash": "f7e2dbc5714f0e914aa80952066d7eb0d1c46056",
+              "datavalue": {
+                "value": "watford",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q2714$f2dec391-290e-452b-bbde-feb0e2a3092e",
+            "rank": "normal"
+          }
+        ],
+        "P1705": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P1705",
+              "hash": "e8492c987eff6c94b1ae4b3b0ca5c7ed206d12da",
+              "datavalue": {
+                "value": {
+                  "text": "Watford F.C.",
+                  "language": "en"
+                },
+                "type": "monolingualtext"
+              },
+              "datatype": "monolingualtext"
+            },
+            "type": "statement",
+            "id": "Q2714$77331455-4f6c-c0df-3f33-e300a920b19a",
+            "rank": "normal"
+          }
+        ],
+        "P7502": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P7502",
+              "hash": "08edf83fc44a6a10158e2a29b7ebc4d6d6627845",
+              "datavalue": {
+                "value": "Watford_F.C.-VXBNP",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q2714$D9211039-1CD2-411C-B663-45AE4256CFEC",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "dccd797478a6f4eca0bd72f9b7a6169f7b481cce",
+                "snaks": {
+                  "P813": [
+                    {
+                      "snaktype": "value",
+                      "property": "P813",
+                      "hash": "849bf31a75ee81eef52deceed6ee34b2f429e12c",
+                      "datavalue": {
+                        "value": {
+                          "time": "+2022-09-10T00:00:00Z",
+                          "timezone": 0,
+                          "before": 0,
+                          "after": 0,
+                          "precision": 11,
+                          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                        },
+                        "type": "time"
+                      },
+                      "datatype": "time"
+                    }
+                  ],
+                  "P854": [
+                    {
+                      "snaktype": "value",
+                      "property": "P854",
+                      "hash": "4005061800505d70d233ccc34c6d863cfd325598",
+                      "datavalue": {
+                        "value": "https://golden.com/wiki/Watford_F.C.-VXBNP",
+                        "type": "string"
+                      },
+                      "datatype": "url"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P813",
+                  "P854"
+                ]
+              }
+            ]
+          }
+        ],
+        "P4342": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P4342",
+              "hash": "60e728fd8a533153689c928367678163146c67bd",
+              "datavalue": {
+                "value": "Watford_-_fotballklubb",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q2714$F2D0577E-46B9-4139-9FEC-9772828B1B95",
+            "rank": "normal"
+          }
+        ],
+        "P1617": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P1617",
+              "hash": "768cae94428554ec5e90ccd5a7164eb09854e9cc",
+              "datavalue": {
+                "value": "7d1d29cb-dab4-a24f-8600-393be1f354fe",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q2714$95b39c03-4bc6-e883-53a3-558dab4350c9",
+            "rank": "normal"
+          }
+        ],
+        "P1889": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P1889",
+              "hash": "345a26f5d1ba58a168006ab77aa8cfb424562c0c",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 394466,
+                  "id": "Q394466"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P8338": [
+                {
+                  "snaktype": "value",
+                  "property": "P8338",
+                  "hash": "10db7f0a8549e82d7241cc12622280519d30f888",
+                  "datavalue": {
+                    "value": {
+                      "text": "沃特福德足球俱乐部",
+                      "language": "zh-hans"
+                    },
+                    "type": "monolingualtext"
+                  },
+                  "datatype": "monolingualtext"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P8338"
+            ],
+            "id": "Q2714$5211328d-4604-d30e-957f-433d329b51c5",
+            "rank": "normal"
+          }
+        ],
+        "P7351": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P7351",
+              "hash": "5ecb4be8b5b64d26765ecfd63c0f6ddc5262c66a",
+              "datavalue": {
+                "value": "320",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q2714$11235441-2E20-49A3-B2ED-3B8A07B4ED8A",
+            "rank": "normal"
+          }
+        ],
+        "P7854": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P7854",
+              "hash": "9a7ad7406077f8ae98075ce2ddc770cd5561f689",
+              "datavalue": {
+                "value": "528",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q2714$5d974d9e-4f78-c9fe-69ba-3291a600d8f8",
+            "rank": "normal"
+          }
+        ],
+        "P6364": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P6364",
+              "hash": "27964e3095abe90419dd1affcaa1158a7d091af6",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 943,
+                  "id": "Q943"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q2714$89cdb1ba-47b6-68ce-a506-1e236400581b",
+            "rank": "normal"
+          },
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P6364",
+              "hash": "d2f4f8bd8bee8754e4d8d0aa1d249d5c3c580e70",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 23445,
+                  "id": "Q23445"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q2714$19733275-4702-6b89-683e-3ecd535870b4",
+            "rank": "normal"
+          },
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P6364",
+              "hash": "5b6a936cf6595ab4754453cb7dca28df8a98c894",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 3142,
+                  "id": "Q3142"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q2714$05b59958-4360-ec6d-dcf6-c28a0411e26c",
+            "rank": "normal"
+          }
+        ],
+        "P13591": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P13591",
+              "hash": "f7dcb3faee96eba5dd96d0d43d29865f5c7b2319",
+              "datavalue": {
+                "value": "group/b5174b70-255b-4a53-b571-06b8a7e32112",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q2714$57B9DA95-879E-4D28-81AD-EAB17D56E024",
+            "rank": "normal"
+          }
+        ],
+        "P859": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P859",
+              "hash": "fd46c7fecbb1b29b6fe3c9448dc252cd1d15a090",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 123377722,
+                  "id": "Q123377722"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P580": [
+                {
+                  "snaktype": "value",
+                  "property": "P580",
+                  "hash": "e18d3ba7a83b3a85bc3146e03813224f03817c66",
+                  "datavalue": {
+                    "value": {
+                      "time": "+2023-00-00T00:00:00Z",
+                      "timezone": 0,
+                      "before": 0,
+                      "after": 0,
+                      "precision": 9,
+                      "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                    },
+                    "type": "time"
+                  },
+                  "datatype": "time"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P580"
+            ],
+            "id": "Q2714$0ecdaf26-497d-a618-efac-3b9f5ef88953",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "b65753da630e83317f330cae204d0d0837a61eeb",
+                "snaks": {
+                  "P854": [
+                    {
+                      "snaktype": "value",
+                      "property": "P854",
+                      "hash": "6e538da093881156c1f45d8df2bc7e3060048abb",
+                      "datavalue": {
+                        "value": "https://www.watfordfc.com/news/2023/june/15/official-watford-fc-mrq-announce-new-partnership",
+                        "type": "string"
+                      },
+                      "datatype": "url"
+                    }
+                  ],
+                  "P1476": [
+                    {
+                      "snaktype": "value",
+                      "property": "P1476",
+                      "hash": "a1b245048109239e887c00aa4ac9b7e98cce6ac4",
+                      "datavalue": {
+                        "value": {
+                          "text": "Official: Watford FC & MrQ Announce New Partnership",
+                          "language": "en"
+                        },
+                        "type": "monolingualtext"
+                      },
+                      "datatype": "monolingualtext"
+                    }
+                  ],
+                  "P577": [
+                    {
+                      "snaktype": "value",
+                      "property": "P577",
+                      "hash": "2222efc620dab736098114717adbc1c4494a063e",
+                      "datavalue": {
+                        "value": {
+                          "time": "+2023-06-15T00:00:00Z",
+                          "timezone": 0,
+                          "before": 0,
+                          "after": 0,
+                          "precision": 11,
+                          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                        },
+                        "type": "time"
+                      },
+                      "datatype": "time"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P854",
+                  "P1476",
+                  "P577"
+                ]
+              }
+            ]
+          }
+        ],
+        "P3106": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P3106",
+              "hash": "1d25867f1a28ccbee5c8d3530a277108bcacecf2",
+              "datavalue": {
+                "value": "football/watford",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q2714$5B910B82-9743-4329-9360-9B96EBAE309F",
+            "rank": "normal"
+          }
+        ],
+        "P11892": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P11892",
+              "hash": "f6a35e9bf7d545c842d7d339d27e414ea2d4c860",
+              "datavalue": {
+                "value": "watfordfcofficial",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q2714$54562CA1-7192-4367-949E-63CED2B9F81E",
+            "rank": "normal"
+          }
+        ],
+        "P345": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P345",
+              "hash": "8e2471fd71460a9fe0b730ea9837da7118bd812b",
+              "datavalue": {
+                "value": "nm6417075",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q2714$6acc928c-4972-1c14-020e-8d2200248d2a",
+            "rank": "normal"
+          }
+        ]
+      },
+      "sitelinks": {
+        "arwiki": {
+          "site": "arwiki",
+          "title": "نادي واتفورد",
+          "badges": []
+        },
+        "arzwiki": {
+          "site": "arzwiki",
+          "title": "نادى واتفورد",
+          "badges": []
+        },
+        "azbwiki": {
+          "site": "azbwiki",
+          "title": "واتفورد فوتبال کولوبو",
+          "badges": []
+        },
+        "banwiki": {
+          "site": "banwiki",
+          "title": "Watford F.C.",
+          "badges": []
+        },
+        "be_x_oldwiki": {
+          "site": "be_x_oldwiki",
+          "title": "Ўотфард (футбольны клюб)",
+          "badges": []
+        },
+        "bewiki": {
+          "site": "bewiki",
+          "title": "ФК Уотфард",
+          "badges": []
+        },
+        "bgwiki": {
+          "site": "bgwiki",
+          "title": "ФК „Уотфорд“",
+          "badges": []
+        },
+        "bhwiki": {
+          "site": "bhwiki",
+          "title": "वाटफोर्ड फुटबॉल क्लब",
+          "badges": []
+        },
+        "bnwiki": {
+          "site": "bnwiki",
+          "title": "ওয়াটফোর্ড ফুটবল ক্লাব",
+          "badges": []
+        },
+        "bswiki": {
+          "site": "bswiki",
+          "title": "Watford FC",
+          "badges": []
+        },
+        "cawiki": {
+          "site": "cawiki",
+          "title": "Watford Football Club",
+          "badges": []
+        },
+        "cswiki": {
+          "site": "cswiki",
+          "title": "Watford FC",
+          "badges": []
+        },
+        "cywiki": {
+          "site": "cywiki",
+          "title": "Watford F.C.",
+          "badges": []
+        },
+        "dawiki": {
+          "site": "dawiki",
+          "title": "Watford F.C.",
+          "badges": []
+        },
+        "dewiki": {
+          "site": "dewiki",
+          "title": "FC Watford",
+          "badges": []
+        },
+        "diqwiki": {
+          "site": "diqwiki",
+          "title": "Watford FC",
+          "badges": []
+        },
+        "elwiki": {
+          "site": "elwiki",
+          "title": "Γουότφορντ ΦΚ",
+          "badges": []
+        },
+        "enwiki": {
+          "site": "enwiki",
+          "title": "Watford F.C.",
+          "badges": []
+        },
+        "eowiki": {
+          "site": "eowiki",
+          "title": "Watford FC",
+          "badges": []
+        },
+        "eswiki": {
+          "site": "eswiki",
+          "title": "Watford Football Club",
+          "badges": []
+        },
+        "etwiki": {
+          "site": "etwiki",
+          "title": "Watford FC",
+          "badges": []
+        },
+        "euwiki": {
+          "site": "euwiki",
+          "title": "Watford Football Club",
+          "badges": []
+        },
+        "fawiki": {
+          "site": "fawiki",
+          "title": "باشگاه فوتبال واتفورد",
+          "badges": []
+        },
+        "fiwiki": {
+          "site": "fiwiki",
+          "title": "Watford FC",
+          "badges": []
+        },
+        "fowiki": {
+          "site": "fowiki",
+          "title": "Watford F.C.",
+          "badges": []
+        },
+        "frwiki": {
+          "site": "frwiki",
+          "title": "Watford Football Club",
+          "badges": []
+        },
+        "glwiki": {
+          "site": "glwiki",
+          "title": "Watford F.C.",
+          "badges": []
+        },
+        "hewiki": {
+          "site": "hewiki",
+          "title": "ווטפורד (כדורגל)",
+          "badges": []
+        },
+        "hifwiki": {
+          "site": "hifwiki",
+          "title": "Watford Football Club",
+          "badges": []
+        },
+        "hrwiki": {
+          "site": "hrwiki",
+          "title": "Watford F.C.",
+          "badges": []
+        },
+        "huwiki": {
+          "site": "huwiki",
+          "title": "Watford FC",
+          "badges": []
+        },
+        "hywiki": {
+          "site": "hywiki",
+          "title": "Ուոթֆորդ ՖԱ",
+          "badges": []
+        },
+        "idwiki": {
+          "site": "idwiki",
+          "title": "Watford F.C.",
+          "badges": []
+        },
+        "iowiki": {
+          "site": "iowiki",
+          "title": "Watford FC",
+          "badges": []
+        },
+        "iswiki": {
+          "site": "iswiki",
+          "title": "Watford F.C.",
+          "badges": []
+        },
+        "itwiki": {
+          "site": "itwiki",
+          "title": "Watford Football Club",
+          "badges": []
+        },
+        "jawiki": {
+          "site": "jawiki",
+          "title": "ワトフォードFC",
+          "badges": []
+        },
+        "kawiki": {
+          "site": "kawiki",
+          "title": "უოტფორდი (საფეხბურთო კლუბი)",
+          "badges": []
+        },
+        "kkwiki": {
+          "site": "kkwiki",
+          "title": "Уотфорд (футбол клубы)",
+          "badges": []
+        },
+        "kmwiki": {
+          "site": "kmwiki",
+          "title": "វ៉ាត់ហ្វត",
+          "badges": []
+        },
+        "kowiki": {
+          "site": "kowiki",
+          "title": "왓퍼드 FC",
+          "badges": []
+        },
+        "kuwiki": {
+          "site": "kuwiki",
+          "title": "Watford FC",
+          "badges": []
+        },
+        "lbwiki": {
+          "site": "lbwiki",
+          "title": "Watford FC",
+          "badges": []
+        },
+        "lezwiki": {
+          "site": "lezwiki",
+          "title": "Вотфорд (футболдин клуб)",
+          "badges": []
+        },
+        "ltwiki": {
+          "site": "ltwiki",
+          "title": "Watford FC",
+          "badges": []
+        },
+        "lvwiki": {
+          "site": "lvwiki",
+          "title": "Watford FC",
+          "badges": []
+        },
+        "maiwiki": {
+          "site": "maiwiki",
+          "title": "वाटफोर्ड फुटबल क्लब",
+          "badges": []
+        },
+        "mkwiki": {
+          "site": "mkwiki",
+          "title": "ФК Вотфорд",
+          "badges": []
+        },
+        "mrwiki": {
+          "site": "mrwiki",
+          "title": "वॉटफर्ड एफ.सी.",
+          "badges": []
+        },
+        "mswiki": {
+          "site": "mswiki",
+          "title": "Watford F.C.",
+          "badges": []
+        },
+        "mtwiki": {
+          "site": "mtwiki",
+          "title": "Watford FC",
+          "badges": []
+        },
+        "newiki": {
+          "site": "newiki",
+          "title": "वाटफोर्ड एफ.सी",
+          "badges": []
+        },
+        "nlwiki": {
+          "site": "nlwiki",
+          "title": "Watford FC",
+          "badges": []
+        },
+        "nnwiki": {
+          "site": "nnwiki",
+          "title": "Watford FC",
+          "badges": []
+        },
+        "nowiki": {
+          "site": "nowiki",
+          "title": "Watford FC",
+          "badges": []
+        },
+        "pawiki": {
+          "site": "pawiki",
+          "title": "ਵੌਟਫ਼ਰਡ ਫੁੱਟਬਾਲ ਕਲੱਬ",
+          "badges": []
+        },
+        "plwiki": {
+          "site": "plwiki",
+          "title": "Watford F.C.",
+          "badges": []
+        },
+        "ptwiki": {
+          "site": "ptwiki",
+          "title": "Watford Football Club",
+          "badges": []
+        },
+        "rowiki": {
+          "site": "rowiki",
+          "title": "Watford FC",
+          "badges": []
+        },
+        "ruwiki": {
+          "site": "ruwiki",
+          "title": "Уотфорд (футбольный клуб)",
+          "badges": []
+        },
+        "scowiki": {
+          "site": "scowiki",
+          "title": "Watford F.C.",
+          "badges": []
+        },
+        "simplewiki": {
+          "site": "simplewiki",
+          "title": "Watford F.C.",
+          "badges": []
+        },
+        "skwiki": {
+          "site": "skwiki",
+          "title": "Watford FC",
+          "badges": []
+        },
+        "slwiki": {
+          "site": "slwiki",
+          "title": "Watford F.C.",
+          "badges": []
+        },
+        "sqwiki": {
+          "site": "sqwiki",
+          "title": "Watford F.C.",
+          "badges": []
+        },
+        "srwiki": {
+          "site": "srwiki",
+          "title": "ФК Вотфорд",
+          "badges": []
+        },
+        "svwiki": {
+          "site": "svwiki",
+          "title": "Watford FC",
+          "badges": []
+        },
+        "thwiki": {
+          "site": "thwiki",
+          "title": "สโมสรฟุตบอลวอตฟอร์ด",
+          "badges": []
+        },
+        "trwiki": {
+          "site": "trwiki",
+          "title": "Watford FC",
+          "badges": []
+        },
+        "ukwiki": {
+          "site": "ukwiki",
+          "title": "Вотфорд (футбольний клуб)",
+          "badges": []
+        },
+        "uzwiki": {
+          "site": "uzwiki",
+          "title": "Watford F.C.",
+          "badges": []
+        },
+        "viwiki": {
+          "site": "viwiki",
+          "title": "Watford F.C.",
+          "badges": []
+        },
+        "wuuwiki": {
+          "site": "wuuwiki",
+          "title": "沃特福德足球俱乐部",
+          "badges": []
+        },
+        "zh_yuewiki": {
+          "site": "zh_yuewiki",
+          "title": "屈福特足球會",
+          "badges": []
+        },
+        "zhwiki": {
+          "site": "zhwiki",
+          "title": "沃特福德足球俱乐部",
+          "badges": []
+        }
+      }
+    }
+  }
+}

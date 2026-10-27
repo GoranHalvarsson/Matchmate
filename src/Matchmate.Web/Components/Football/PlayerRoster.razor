@@ -1,0 +1,135 @@
+@using Matchmate.Web.Localization
+@using Matchmate.Contracts
+@using Matchmate.Web.Experience
+
+<aside class="players-card" aria-label="@T("PlayersLabel")">
+    @if (Projection.Rows.FirstOrDefault(p => p.Person.PersonId == SelectedPerson) is { } selected)
+    {
+        var position = selected.Observation;
+        <section class="selected-player">
+            <div class="selected-player-heading">
+                <b class="roster-shirt selected-shirt @(selected.Person.TeamId == View.Dataset.Fixture?.Home.Id ? "home" : "away")">@selected.Person.Shirt</b>
+                <div><p class="eyebrow">@T("SelectedPlayer") · @(Teams.FirstOrDefault(t => t.Id == selected.Person.TeamId)?.Name ?? T("Unknown"))</p><h3>@selected.Person.Name</h3></div>
+            </div>
+            <p class="selected-role">@Role(selected)</p>
+            @if (Projection.HasGeneratedDistance)
+            {
+                <p class="selected-generated-distance"><strong>@T("GeneratedDistanceLabel"): @Distance(selected)</strong></p>
+                <p class="selected-distance-qualification">@T("GeneratedDistanceShortExplanation")</p>
+            }
+            <details class="selected-player-details">
+                <summary>@T("SelectedPlayerDetails")</summary>
+                @if (selected.Role is { } role)
+                {
+                    <p class="role-source"><AppLink Href="@role.SourceUrl" Target="_blank" Rel="noopener noreferrer">@T(role.SourceTitleKey)</AppLink></p>
+                    <p>@T("RoleEvidenceBoundary")</p>
+                }
+                <p>@(position is null ? T(PositionsLoading ? "PositionsLoadingNotCarried" : "NotActiveSample") : ReplayText.Value(Language, position.Method) + " · " + ReplayText.Value(Language, position.Quality) + " · " + ReplayText.Value(Language, position.Availability))</p>
+                @if (position is { Availability: "present" })
+                {
+                    <p>@T("Coordinates", position.XM?.ToString("F2", MatchLanguages.Culture(Language)), position.YM?.ToString("F2", MatchLanguages.Culture(Language)), position.ZM?.ToString("F2", MatchLanguages.Culture(Language)) ?? T("Unknown"))</p>
+                }
+                <small>@position?.SlotId</small>
+            </details>
+        </section>
+    }
+    <div class="roster-scroll">
+        <div class="roster-heading">
+            <h2>@T(Projection.HasGeneratedDistance ? "RosterPlayers" : "OnPitch")</h2>
+            <span>@T(Projection.HasGeneratedDistance ? "CurrentOnPitch" : "ActiveSlots", PositionsLoading || Projection.HasGeneratedDistance && View.Frame is null ? "—" : Projection.OnPitchCount.ToString(MatchLanguages.Culture(Language)))</span>
+        </div>
+        <p class="roster-source-note">@T(ExperiencePresentation.Generated(View.Dataset) ? "GeneratedRosterNote" : "RecordedRosterNote")</p>
+        @if (Projection.HasGeneratedDistance)
+        {
+            <div class="generated-distance-note">
+                <strong>@T("GeneratedDistanceLabel")</strong>
+                <small>@T("AtAcceptedReplay", ExperiencePresentation.Clock(View.GeneratedDistance!.CursorMs))</small>
+                <p>@T("GeneratedDistanceExplanation")</p>
+            </div>
+        }
+        @if (PositionsLoading) { <p><LoadingStatus Text="@T("PositionsStillLoading")" /></p> }
+        @foreach (var team in Teams) { @TeamTable(team, false) }
+        <details class="all-roster">
+            <summary>@T("AllRoster", View.Dataset.People.Length)</summary>
+            <p>@T("RosterNote")</p>
+            @foreach (var team in Teams) { @TeamTable(team, true) }
+        </details>
+    </div>
+</aside>
+
+@code {
+    [CascadingParameter] public MatchLanguage Language { get; set; }
+    [Parameter, EditorRequired] public FootballView View { get; set; } = default!;
+    [Parameter] public string? SelectedPerson { get; set; }
+    [Parameter] public EventCallback<string> Select { get; set; }
+    [Parameter] public bool Disabled { get; set; }
+    [Parameter] public bool PositionsLoading { get; set; }
+    private FootballView? _projectedView;
+    private PlayerRosterProjection? _projection;
+    private readonly HashSet<string> _ascendingTeams = new(StringComparer.Ordinal);
+    private (string Dataset, string Version, string Stream)? _sortContext;
+    private string T(string key, params object?[] args) => ReplayText.Get(Language, key, args);
+    private FootballTeam[] Teams => View.Dataset.Fixture is { } fixture ? [fixture.Home, fixture.Away] : [];
+    private PlayerRosterProjection Projection
+    {
+        get
+        {
+            if (!ReferenceEquals(_projectedView, View))
+            {
+                var context = (View.Context.DatasetId, View.Context.DatasetVersion, View.Context.StreamId);
+                if (_sortContext != context) { _ascendingTeams.Clear(); _sortContext = context; }
+                _projection = new(View); _projectedView = View;
+            }
+            return _projection!;
+        }
+    }
+    private void ToggleDistanceSort(string teamId)
+    {
+        if (Disabled || !Projection.HasGeneratedDistance || !Teams.Any(t => t.Id == teamId)) return;
+        if (!_ascendingTeams.Add(teamId)) _ascendingTeams.Remove(teamId);
+    }
+    private Task SelectPerson(string personId) => Disabled ? Task.CompletedTask : Select.InvokeAsync(personId);
+    private string Role(PlayerRosterRow row) => row.Role is { } role
+        ? T("RoleWithScope", T(MatchRoleCatalog.RoleKey(role.Role)), T(MatchRoleCatalog.ScopeKey(role.Scope))) : T("RoleUnverified");
+    private string Distance(PlayerRosterRow row) => row.CumulativeCentimetres is { } cm
+        ? T("GeneratedDistanceMetres", Math.Round(cm / 100m, 0, MidpointRounding.AwayFromZero).ToString("N0", MatchLanguages.Culture(Language)))
+        : T("GeneratedDistanceUnavailable");
+    private RenderFragment TeamTable(FootballTeam team, bool allRoster) => @<table class="team-roster" data-team="@team.Id" data-roster="@(allRoster ? "all" : "played")">
+        <caption>@team.Name</caption>
+        <thead><tr>
+            <th scope="col">@T("RosterPlayerColumn")</th>
+            @if (Projection.HasGeneratedDistance)
+            {
+                <th scope="col" class="distance-column" aria-sort="@(_ascendingTeams.Contains(team.Id) ? "ascending" : "descending")">
+                    <button type="button" class="distance-sort" disabled="@Disabled" aria-label="@T(_ascendingTeams.Contains(team.Id) ? "SortDistanceDescending" : "SortDistanceAscending", team.Name)" @onclick="() => ToggleDistanceSort(team.Id)">
+                        @T("GeneratedDistanceColumn") <span aria-hidden="true">@(_ascendingTeams.Contains(team.Id) ? "↑" : "↓")</span>
+                    </button>
+                </th>
+            }
+            else { <th scope="col" class="observation-column">@T("SourceSample")</th> }
+        </tr></thead>
+        <tbody>
+            @foreach (var row in Projection.Team(team.Id, allRoster, _ascendingTeams.Contains(team.Id)))
+            {
+                <tr @key="row.Person.PersonId" class="@(row.Person.PersonId == SelectedPerson ? "selected" : "")" data-person="@row.Person.PersonId">
+                    <td>
+                        <button type="button" class="roster-person" disabled="@Disabled" aria-pressed="@ExperiencePresentation.Pressed(SelectedPerson == row.Person.PersonId)" @onclick="() => SelectPerson(row.Person.PersonId)">
+                            <b class="roster-shirt @(team.Id == View.Dataset.Fixture!.Home.Id ? "home" : "away")">@row.Person.Shirt</b>
+                            <span class="roster-identity">@row.Person.Name<small class="roster-role">@Role(row)</small>
+                                @if (Projection.HasGeneratedDistance && !row.OnPitch && row.CumulativeCentimetres is not null) { <small class="off-pitch">@T(View.Frame is not null && !View.TrackingGap && !PositionsLoading ? "RosterOffPitch" : "PositionUnavailable")</small> }
+                            </span>
+                        </button>
+                    </td>
+                    @if (Projection.HasGeneratedDistance)
+                    {
+                        <td class="distance-column"><span class="generated-distance-value" title="@(row.CumulativeCentimetres is null ? T("GeneratedDistanceUnavailable") : null)">@(row.CumulativeCentimetres is null ? "—" : Distance(row))</span></td>
+                    }
+                    else
+                    {
+                        <td class="observation-column"><small>@(row.Observation is { } observation ? ReplayText.Value(Language, observation.Method) + " / " + ReplayText.Value(Language, observation.Availability) : T("PositionUnavailable"))</small></td>
+                    }
+                </tr>
+            }
+        </tbody>
+    </table>;
+}

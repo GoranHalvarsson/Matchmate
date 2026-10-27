@@ -1,0 +1,23 @@
+@using Matchmate.Web.Experience
+@using Matchmate.Web.Localization
+@using Matchmate.Web.Chat
+@if (Recap is { } card)
+{
+    <section class="replay-recap" aria-label="@card.Heading" data-recap="@card.Action.Boundary.Kind">
+        <p class="recap-scope">@T(card.IsReported ? "ReportedRecapScope" : "RecapScope", ExperiencePresentation.Clock(card.Action.Boundary.MatchClockMs), ReplayText.Audience(Language, AudienceMode))</p>
+        <h2>@card.Heading</h2>
+        <p class="recap-reported">@card.ReportedSummary</p>
+        @if (card.ReportedDetail is { } detail) { <p class="recap-detail">@detail</p> }
+        @if (card.GeneratedSummary is { } generated) { <p class="recap-generated">@generated</p> }
+        <p class="recap-note">@card.ControlNote</p>
+        <button type="button" disabled="@Disabled" @onclick="() => OnAsk.InvokeAsync(card.Action)">@T("RecapAsk") <span aria-hidden="true">↗</span></button>
+    </section>
+}
+@code {
+    [CascadingParameter] public MatchLanguage Language { get; set; }
+    [Parameter] public ReplayRecap? Recap { get; set; }
+    [Parameter] public MatchAudienceMode AudienceMode { get; set; }
+    [Parameter] public bool Disabled { get; set; }
+    [Parameter] public EventCallback<ReplayRecapAction> OnAsk { get; set; }
+    private string T(string key, params object?[] args) => ReplayText.Get(Language, key, args);
+}

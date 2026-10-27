@@ -1,0 +1,1079 @@
+{
+  "entities": {
+    "Q31678": {
+      "pageid": 34625,
+      "ns": 0,
+      "title": "Q31678",
+      "lastrevid": 2516855901,
+      "modified": "2026-07-13T01:38:50Z",
+      "type": "item",
+      "id": "Q31678",
+      "labels": {
+        "en": {
+          "language": "en",
+          "value": "The Hawthorns"
+        }
+      },
+      "descriptions": {
+        "en": {
+          "language": "en",
+          "value": "football stadium in West Bromwich, Sandwell, England"
+        }
+      },
+      "claims": {
+        "P373": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P373",
+              "hash": "7f12b205f5bd188ab4ad1611d5a57d166e1cc8e5",
+              "datavalue": {
+                "value": "The Hawthorns",
+                "type": "string"
+              },
+              "datatype": "string"
+            },
+            "type": "statement",
+            "id": "q31678$4C7A89C8-127E-494A-AB6A-AE1F4897492A",
+            "rank": "normal"
+          }
+        ],
+        "P625": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P625",
+              "hash": "d55685e3b4a2f1fc10843e3229c756b329c6814b",
+              "datavalue": {
+                "value": {
+                  "latitude": 52.509166666667,
+                  "longitude": -1.9638888888889,
+                  "altitude": null,
+                  "precision": null,
+                  "globe": "http://www.wikidata.org/entity/Q2"
+                },
+                "type": "globecoordinate"
+              },
+              "datatype": "globe-coordinate"
+            },
+            "type": "statement",
+            "id": "q31678$2A1C0AF8-4299-43BA-8828-3D69CCF4C231",
+            "rank": "normal"
+          }
+        ],
+        "P17": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P17",
+              "hash": "a44880420787fb348836dc51d3babc5227c4ef7e",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 145,
+                  "id": "Q145"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q31678$9F9E6363-87F1-4AF8-BB93-F7535A8CAC30",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "fa278ebfc458360e5aed63d5058cca83c46134f1",
+                "snaks": {
+                  "P143": [
+                    {
+                      "snaktype": "value",
+                      "property": "P143",
+                      "hash": "e4f6d9441d0600513c4533c672b5ab472dc73694",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 328,
+                          "id": "Q328"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P143"
+                ]
+              }
+            ]
+          }
+        ],
+        "P646": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P646",
+              "hash": "a69d6936fad8744abe324eb80cd648385171eaf6",
+              "datavalue": {
+                "value": "/m/030n2q",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q31678$2DB1C24C-B4EA-44A3-B928-097169F3689B",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "2b00cb481cddcac7623114367489b5c194901c4a",
+                "snaks": {
+                  "P248": [
+                    {
+                      "snaktype": "value",
+                      "property": "P248",
+                      "hash": "a94b740202b097dd33355e0e6c00e54b9395e5e0",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 15241312,
+                          "id": "Q15241312"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ],
+                  "P577": [
+                    {
+                      "snaktype": "value",
+                      "property": "P577",
+                      "hash": "fde79ecb015112d2f29229ccc1ec514ed3e71fa2",
+                      "datavalue": {
+                        "value": {
+                          "time": "+2013-10-28T00:00:00Z",
+                          "timezone": 0,
+                          "before": 0,
+                          "after": 0,
+                          "precision": 11,
+                          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                        },
+                        "type": "time"
+                      },
+                      "datatype": "time"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P248",
+                  "P577"
+                ]
+              }
+            ]
+          }
+        ],
+        "P18": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P18",
+              "hash": "14672a6b84ec0e57de33aeb529c79d56c157077b",
+              "datavalue": {
+                "value": "West brom stadium.JPG",
+                "type": "string"
+              },
+              "datatype": "commonsMedia"
+            },
+            "type": "statement",
+            "id": "Q31678$2291438C-919B-4DB3-A51D-FD7A9DF6CDD5",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "fa278ebfc458360e5aed63d5058cca83c46134f1",
+                "snaks": {
+                  "P143": [
+                    {
+                      "snaktype": "value",
+                      "property": "P143",
+                      "hash": "e4f6d9441d0600513c4533c672b5ab472dc73694",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 328,
+                          "id": "Q328"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P143"
+                ]
+              }
+            ]
+          }
+        ],
+        "P1083": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P1083",
+              "hash": "024dc4bdcae55fe4a294a71e5219d4e2ca8244f4",
+              "datavalue": {
+                "value": {
+                  "amount": "+26445",
+                  "unit": "1"
+                },
+                "type": "quantity"
+              },
+              "datatype": "quantity"
+            },
+            "type": "statement",
+            "id": "Q31678$34D983B7-DD4C-40C0-B777-69B9E6BBFE64",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "fa278ebfc458360e5aed63d5058cca83c46134f1",
+                "snaks": {
+                  "P143": [
+                    {
+                      "snaktype": "value",
+                      "property": "P143",
+                      "hash": "e4f6d9441d0600513c4533c672b5ab472dc73694",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 328,
+                          "id": "Q328"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P143"
+                ]
+              }
+            ]
+          }
+        ],
+        "P466": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P466",
+              "hash": "3bcf2fc6141cde2830dcc6cef839f2a0a0888636",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 18744,
+                  "id": "Q18744"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q31678$65FC9F6A-44A9-4F86-8E28-E3C66E1D659A",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "fa278ebfc458360e5aed63d5058cca83c46134f1",
+                "snaks": {
+                  "P143": [
+                    {
+                      "snaktype": "value",
+                      "property": "P143",
+                      "hash": "e4f6d9441d0600513c4533c672b5ab472dc73694",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 328,
+                          "id": "Q328"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P143"
+                ]
+              }
+            ]
+          }
+        ],
+        "P131": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P131",
+              "hash": "e89886e9cd7af353ebe094ae2e132a5f8093405e",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 212826,
+                  "id": "Q212826"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q31678$10A1C749-F596-4EE2-8714-C9F63C4D3C04",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "fa278ebfc458360e5aed63d5058cca83c46134f1",
+                "snaks": {
+                  "P143": [
+                    {
+                      "snaktype": "value",
+                      "property": "P143",
+                      "hash": "e4f6d9441d0600513c4533c672b5ab472dc73694",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 328,
+                          "id": "Q328"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P143"
+                ]
+              }
+            ]
+          }
+        ],
+        "P127": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P127",
+              "hash": "080ae66cd2c80c3f475d27929e9f78eb3a87e836",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 18744,
+                  "id": "Q18744"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q31678$06459AD4-9472-4D02-AACE-5E879AB837B1",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "fa278ebfc458360e5aed63d5058cca83c46134f1",
+                "snaks": {
+                  "P143": [
+                    {
+                      "snaktype": "value",
+                      "property": "P143",
+                      "hash": "e4f6d9441d0600513c4533c672b5ab472dc73694",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 328,
+                          "id": "Q328"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P143"
+                ]
+              }
+            ]
+          }
+        ],
+        "P31": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P31",
+              "hash": "7b466b8c482c2e26817ab6e8d6ab48ca623ba2e7",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 1154710,
+                  "id": "Q1154710"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q31678$BF016A5E-E7DF-4F81-BE43-58289D3A4125",
+            "rank": "normal"
+          }
+        ],
+        "P1566": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P1566",
+              "hash": "846d6fd17e20e38caf9e12f2490e4b92302e68f5",
+              "datavalue": {
+                "value": "6288539",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q31678$AA81BE51-BED2-4C85-9BC9-8BA87D6F960A",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "88694a0f4d1486770c269f7db16a1982f74da69d",
+                "snaks": {
+                  "P248": [
+                    {
+                      "snaktype": "value",
+                      "property": "P248",
+                      "hash": "1b3ef912a2bd61e18dd43abd184337eb010b2e96",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 830106,
+                          "id": "Q830106"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P248"
+                ]
+              }
+            ]
+          }
+        ],
+        "P641": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P641",
+              "hash": "1624e15e061523279bc14bb6497168e45caacb32",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 2736,
+                  "id": "Q2736"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q31678$2390A502-C168-476B-B556-E7FA3D6EADF4",
+            "rank": "normal"
+          }
+        ],
+        "P454": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P454",
+              "hash": "8eaecb03c18f1dbe72f3e55b713178511018dffb",
+              "datavalue": {
+                "value": "20039534",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q31678$579BFBD6-0FF1-4527-BBF3-9764B7242F13",
+            "rank": "normal"
+          }
+        ],
+        "P3417": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P3417",
+              "hash": "bb71a5cf6732a6690d73976833d2018947325eeb",
+              "datavalue": {
+                "value": "The-Hawthorns",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q31678$97D97779-3235-4AE7-B95C-A4F4A383DCEA",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "3b0a5bb3c1f955edce73740124f7d935698092ad",
+                "snaks": {
+                  "P248": [
+                    {
+                      "snaktype": "value",
+                      "property": "P248",
+                      "hash": "3ac9682e789a3a3791d4fd088b265ea03abef101",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 51711,
+                          "id": "Q51711"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P248"
+                ]
+              }
+            ]
+          }
+        ],
+        "P5288": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P5288",
+              "hash": "62e05a895f38342f3366d06778ba4dbf9eeac9df",
+              "datavalue": {
+                "value": "eng/the_hawthorns",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q31678$6cfc2460-4b9a-80b4-b882-00b65e47e478",
+            "rank": "normal"
+          }
+        ],
+        "P1619": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P1619",
+              "hash": "efd6157bd318df322309baea6be434a850f41241",
+              "datavalue": {
+                "value": {
+                  "time": "+1900-09-00T00:00:00Z",
+                  "timezone": 0,
+                  "before": 0,
+                  "after": 0,
+                  "precision": 10,
+                  "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                },
+                "type": "time"
+              },
+              "datatype": "time"
+            },
+            "type": "statement",
+            "id": "Q31678$724CA370-7A8B-43D6-ADC6-708D8592DA74",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "5fe902898cd974e77f9ec3abb754ae0bf04c5411",
+                "snaks": {
+                  "P143": [
+                    {
+                      "snaktype": "value",
+                      "property": "P143",
+                      "hash": "e4f6d9441d0600513c4533c672b5ab472dc73694",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 328,
+                          "id": "Q328"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ],
+                  "P4656": [
+                    {
+                      "snaktype": "value",
+                      "property": "P4656",
+                      "hash": "b1e8a2e4e82a0c3e8f6e51db07fd52387943959f",
+                      "datavalue": {
+                        "value": "https://en.wikipedia.org/w/index.php?title=The_Hawthorns&oldid=857797018",
+                        "type": "string"
+                      },
+                      "datatype": "url"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P143",
+                  "P4656"
+                ]
+              }
+            ]
+          }
+        ],
+        "P7959": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P7959",
+              "hash": "e04376b56b3665e50c13e8a71bc23fc5250f8f8f",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 67574558,
+                  "id": "Q67574558"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q31678$126329a2-bc54-4d53-9d9b-1fd487793b38",
+            "rank": "normal"
+          }
+        ],
+        "P765": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P765",
+              "hash": "ab3a0226f7ed3463d5ca5477b5d8b6daf5f38cd7",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 207766,
+                  "id": "Q207766"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q31678$73805463-BB2E-40F2-8AF7-E8EC782BC2C0",
+            "rank": "normal"
+          }
+        ],
+        "P571": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P571",
+              "hash": "0eb519efc4ddef05e41cc529ed9e65d4166f02ac",
+              "datavalue": {
+                "value": {
+                  "time": "+1900-09-03T00:00:00Z",
+                  "timezone": 0,
+                  "before": 0,
+                  "after": 0,
+                  "precision": 11,
+                  "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                },
+                "type": "time"
+              },
+              "datatype": "time"
+            },
+            "type": "statement",
+            "id": "Q31678$3DD6B877-2085-4BCA-AF17-908BD60BE0A0",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "5ea1072a6bfea108955695e9478a20e406fe9994",
+                "snaks": {
+                  "P143": [
+                    {
+                      "snaktype": "value",
+                      "property": "P143",
+                      "hash": "e4f6d9441d0600513c4533c672b5ab472dc73694",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 328,
+                          "id": "Q328"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ],
+                  "P4656": [
+                    {
+                      "snaktype": "value",
+                      "property": "P4656",
+                      "hash": "c228e0e32a1ee03b645bef66463b9ace52c7b658",
+                      "datavalue": {
+                        "value": "https://en.wikipedia.org/w/index.php?title=The_Hawthorns&oldid=1149814691",
+                        "type": "string"
+                      },
+                      "datatype": "url"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P143",
+                  "P4656"
+                ]
+              }
+            ]
+          }
+        ],
+        "P7938": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P7938",
+              "hash": "44a4550755e2dd371f90236bf7426ea98c9a1e81",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 126884553,
+                  "id": "Q126884553"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P3831": [
+                {
+                  "snaktype": "value",
+                  "property": "P3831",
+                  "hash": "92b2a9bac12fb8e82c56dfef41567be36eeb563f",
+                  "datavalue": {
+                    "value": {
+                      "entity-type": "item",
+                      "numeric-id": 27971968,
+                      "id": "Q27971968"
+                    },
+                    "type": "wikibase-entityid"
+                  },
+                  "datatype": "wikibase-item"
+                }
+              ],
+              "P585": [
+                {
+                  "snaktype": "value",
+                  "property": "P585",
+                  "hash": "a6be46f7ad0a963928c79e954c6bebb458ccd2d8",
+                  "datavalue": {
+                    "value": {
+                      "time": "+2024-07-01T00:00:00Z",
+                      "timezone": 0,
+                      "before": 0,
+                      "after": 0,
+                      "precision": 10,
+                      "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                    },
+                    "type": "time"
+                  },
+                  "datatype": "time"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P3831",
+              "P585"
+            ],
+            "id": "Q31678$D27D8371-DB79-438D-8D87-AFE42C9374FC",
+            "rank": "normal"
+          }
+        ],
+        "P1617": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P1617",
+              "hash": "9ba302641b52adc82b329c28129e9ba38fa822db",
+              "datavalue": {
+                "value": "c7f4deeb-7e43-461d-8764-124d3f83a656",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q31678$b91cde46-4210-bbdb-9b03-4670354e3b71",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "8582d8416671f1f2567247201bac753552435ca5",
+                "snaks": {
+                  "P248": [
+                    {
+                      "snaktype": "value",
+                      "property": "P248",
+                      "hash": "ea55dc6ac5c3ab77c77d4ae7979e3276d0d4cd20",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 18336371,
+                          "id": "Q18336371"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P248"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "sitelinks": {
+        "arwiki": {
+          "site": "arwiki",
+          "title": "ذا هاوثورنز",
+          "badges": []
+        },
+        "arzwiki": {
+          "site": "arzwiki",
+          "title": "ذا هوثورنز",
+          "badges": []
+        },
+        "bgwiki": {
+          "site": "bgwiki",
+          "title": "Хоторнс",
+          "badges": []
+        },
+        "bhwiki": {
+          "site": "bhwiki",
+          "title": "हव्थोर्न्स",
+          "badges": []
+        },
+        "bswiki": {
+          "site": "bswiki",
+          "title": "The Hawthorns",
+          "badges": []
+        },
+        "cawiki": {
+          "site": "cawiki",
+          "title": "The Hawthorns",
+          "badges": []
+        },
+        "ckbwiki": {
+          "site": "ckbwiki",
+          "title": "یاریگای ھاوسۆرنس",
+          "badges": []
+        },
+        "commonswiki": {
+          "site": "commonswiki",
+          "title": "Category:The Hawthorns",
+          "badges": []
+        },
+        "cswiki": {
+          "site": "cswiki",
+          "title": "The Hawthorns",
+          "badges": []
+        },
+        "cywiki": {
+          "site": "cywiki",
+          "title": "The Hawthorns",
+          "badges": []
+        },
+        "dawiki": {
+          "site": "dawiki",
+          "title": "The Hawthorns",
+          "badges": []
+        },
+        "dewiki": {
+          "site": "dewiki",
+          "title": "The Hawthorns",
+          "badges": []
+        },
+        "enwiki": {
+          "site": "enwiki",
+          "title": "The Hawthorns",
+          "badges": []
+        },
+        "eswiki": {
+          "site": "eswiki",
+          "title": "The Hawthorns",
+          "badges": []
+        },
+        "etwiki": {
+          "site": "etwiki",
+          "title": "The Hawthorns",
+          "badges": []
+        },
+        "euwiki": {
+          "site": "euwiki",
+          "title": "The Hawthorns",
+          "badges": []
+        },
+        "fawiki": {
+          "site": "fawiki",
+          "title": "ورزشگاه هاوتورنز",
+          "badges": []
+        },
+        "fiwiki": {
+          "site": "fiwiki",
+          "title": "The Hawthorns",
+          "badges": []
+        },
+        "frwiki": {
+          "site": "frwiki",
+          "title": "The Hawthorns",
+          "badges": []
+        },
+        "glwiki": {
+          "site": "glwiki",
+          "title": "The Hawthorns",
+          "badges": []
+        },
+        "guwiki": {
+          "site": "guwiki",
+          "title": "હાથોર્ન્સ",
+          "badges": []
+        },
+        "hewiki": {
+          "site": "hewiki",
+          "title": "ההות'ורנס",
+          "badges": []
+        },
+        "hifwiki": {
+          "site": "hifwiki",
+          "title": "The Hawthorns",
+          "badges": []
+        },
+        "huwiki": {
+          "site": "huwiki",
+          "title": "The Hawthorns",
+          "badges": []
+        },
+        "idwiki": {
+          "site": "idwiki",
+          "title": "The Hawthorns",
+          "badges": []
+        },
+        "iswiki": {
+          "site": "iswiki",
+          "title": "The Hawthorns",
+          "badges": []
+        },
+        "itwiki": {
+          "site": "itwiki",
+          "title": "The Hawthorns",
+          "badges": []
+        },
+        "jawiki": {
+          "site": "jawiki",
+          "title": "ザ・ホーソンズ",
+          "badges": []
+        },
+        "kowiki": {
+          "site": "kowiki",
+          "title": "더 호손스",
+          "badges": []
+        },
+        "lvwiki": {
+          "site": "lvwiki",
+          "title": "The Hawthorns",
+          "badges": []
+        },
+        "maiwiki": {
+          "site": "maiwiki",
+          "title": "हव्थोर्न्स",
+          "badges": []
+        },
+        "mswiki": {
+          "site": "mswiki",
+          "title": "The Hawthorns",
+          "badges": []
+        },
+        "nlwiki": {
+          "site": "nlwiki",
+          "title": "The Hawthorns",
+          "badges": []
+        },
+        "nowiki": {
+          "site": "nowiki",
+          "title": "The Hawthorns",
+          "badges": []
+        },
+        "pawiki": {
+          "site": "pawiki",
+          "title": "ਹਾਥੌਰਨਜ਼",
+          "badges": []
+        },
+        "plwiki": {
+          "site": "plwiki",
+          "title": "The Hawthorns",
+          "badges": []
+        },
+        "rowiki": {
+          "site": "rowiki",
+          "title": "The Hawthorns",
+          "badges": []
+        },
+        "ruwiki": {
+          "site": "ruwiki",
+          "title": "Хоторнс",
+          "badges": []
+        },
+        "scowiki": {
+          "site": "scowiki",
+          "title": "The Hawthorns",
+          "badges": []
+        },
+        "simplewiki": {
+          "site": "simplewiki",
+          "title": "The Hawthorns",
+          "badges": []
+        },
+        "skwiki": {
+          "site": "skwiki",
+          "title": "The Hawthorns",
+          "badges": []
+        },
+        "srwiki": {
+          "site": "srwiki",
+          "title": "Хоторнс",
+          "badges": []
+        },
+        "svwiki": {
+          "site": "svwiki",
+          "title": "The Hawthorns",
+          "badges": []
+        },
+        "thwiki": {
+          "site": "thwiki",
+          "title": "เดอะฮอว์ทอนส์",
+          "badges": []
+        },
+        "trwiki": {
+          "site": "trwiki",
+          "title": "The Hawthorns",
+          "badges": []
+        },
+        "ukwiki": {
+          "site": "ukwiki",
+          "title": "Готорнс",
+          "badges": []
+        },
+        "zhwiki": {
+          "site": "zhwiki",
+          "title": "山楂球场",
+          "badges": []
+        }
+      }
+    }
+  }
+}

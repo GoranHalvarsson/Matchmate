@@ -1,0 +1,563 @@
+[
+  {
+    "ground_id": "selhurst-park",
+    "source_observed_name": "Selhurst Park",
+    "source_id": "wikidata-Q1066373",
+    "source_field": "labels.en.value",
+    "observed_at": "2026-10-17",
+    "reviewed_seasons": [
+      "2015/16",
+      "2016/17",
+      "2026/27"
+    ],
+    "naming_event_ids": [],
+    "review_status": "source_label_reviewed_no_complete_name_interval",
+    "complete_historical_intervals": false,
+    "limitation": "Current/retrospective label does not prove season-specific commercial name or unchanged naming. No renaming event found in this bounded evidence set is not proof none occurred. Ground membership/fixture context remains separate."
+  },
+  {
+    "ground_id": "griffin-park",
+    "source_observed_name": "Griffin Park",
+    "source_id": "wikidata-Q1546623",
+    "source_field": "labels.en.value",
+    "observed_at": "2026-10-17",
+    "reviewed_seasons": [
+      "2015/16",
+      "2016/17",
+      "2026/27"
+    ],
+    "naming_event_ids": [],
+    "review_status": "source_label_reviewed_no_complete_name_interval",
+    "complete_historical_intervals": false,
+    "limitation": "Current/retrospective label does not prove season-specific commercial name or unchanged naming. No renaming event found in this bounded evidence set is not proof none occurred. Ground membership/fixture context remains separate."
+  },
+  {
+    "ground_id": "emirates-stadium",
+    "source_observed_name": "Emirates Stadium",
+    "source_id": "wikidata-Q163995",
+    "source_field": "labels.en.value",
+    "observed_at": "2026-10-17",
+    "reviewed_seasons": [
+      "2015/16",
+      "2016/17",
+      "2026/27"
+    ],
+    "naming_event_ids": [],
+    "review_status": "source_label_reviewed_no_complete_name_interval",
+    "complete_historical_intervals": false,
+    "limitation": "Current/retrospective label does not prove season-specific commercial name or unchanged naming. No renaming event found in this bounded evidence set is not proof none occurred. Ground membership/fixture context remains separate."
+  },
+  {
+    "ground_id": "london-stadium",
+    "source_observed_name": "London Stadium",
+    "source_id": "wikidata-Q172190",
+    "source_field": "labels.en.value",
+    "observed_at": "2026-10-17",
+    "reviewed_seasons": [
+      "2015/16",
+      "2016/17",
+      "2026/27"
+    ],
+    "naming_event_ids": [],
+    "review_status": "source_label_reviewed_no_complete_name_interval",
+    "complete_historical_intervals": false,
+    "limitation": "Current/retrospective label does not prove season-specific commercial name or unchanged naming. No renaming event found in this bounded evidence set is not proof none occurred. Ground membership/fixture context remains separate."
+  },
+  {
+    "ground_id": "villa-park",
+    "source_observed_name": "Villa Park",
+    "source_id": "wikidata-Q175339",
+    "source_field": "labels.en.value",
+    "observed_at": "2026-10-17",
+    "reviewed_seasons": [
+      "2015/16",
+      "2016/17",
+      "2026/27"
+    ],
+    "naming_event_ids": [],
+    "review_status": "source_label_reviewed_no_complete_name_interval",
+    "complete_historical_intervals": false,
+    "limitation": "Current/retrospective label does not prove season-specific commercial name or unchanged naming. No renaming event found in this bounded evidence set is not proof none occurred. Ground membership/fixture context remains separate."
+  },
+  {
+    "ground_id": "white-hart-lane",
+    "source_observed_name": "White Hart Lane",
+    "source_id": "wikidata-Q186425",
+    "source_field": "labels.en.value",
+    "observed_at": "2026-10-17",
+    "reviewed_seasons": [
+      "2015/16",
+      "2016/17",
+      "2026/27"
+    ],
+    "naming_event_ids": [],
+    "review_status": "source_label_reviewed_no_complete_name_interval",
+    "complete_historical_intervals": false,
+    "limitation": "Current/retrospective label does not prove season-specific commercial name or unchanged naming. No renaming event found in this bounded evidence set is not proof none occurred. Ground membership/fixture context remains separate."
+  },
+  {
+    "ground_id": "hill-dickinson-stadium",
+    "source_observed_name": "Hill Dickinson Stadium",
+    "source_id": "wikidata-Q29347805",
+    "source_field": "labels.en.value",
+    "observed_at": "2026-10-17",
+    "reviewed_seasons": [
+      "2015/16",
+      "2016/17",
+      "2026/27"
+    ],
+    "naming_event_ids": [],
+    "review_status": "source_label_reviewed_no_complete_name_interval",
+    "complete_historical_intervals": false,
+    "limitation": "Current/retrospective label does not prove season-specific commercial name or unchanged naming. No renaming event found in this bounded evidence set is not proof none occurred. Ground membership/fixture context remains separate."
+  },
+  {
+    "ground_id": "boleyn-ground",
+    "source_observed_name": "Boleyn Ground",
+    "source_id": "wikidata-Q330731",
+    "source_field": "labels.en.value",
+    "observed_at": "2026-10-17",
+    "reviewed_seasons": [
+      "2015/16",
+      "2016/17",
+      "2026/27"
+    ],
+    "naming_event_ids": [],
+    "review_status": "source_label_reviewed_no_complete_name_interval",
+    "complete_historical_intervals": false,
+    "limitation": "Current/retrospective label does not prove season-specific commercial name or unchanged naming. No renaming event found in this bounded evidence set is not proof none occurred. Ground membership/fixture context remains separate."
+  },
+  {
+    "ground_id": "tottenham-hotspur-stadium",
+    "source_observed_name": "Tottenham Hotspur Stadium",
+    "source_id": "wikidata-Q55074091",
+    "source_field": "labels.en.value",
+    "observed_at": "2026-10-17",
+    "reviewed_seasons": [
+      "2015/16",
+      "2016/17",
+      "2026/27"
+    ],
+    "naming_event_ids": [],
+    "review_status": "source_label_reviewed_no_complete_name_interval",
+    "complete_historical_intervals": false,
+    "limitation": "Current/retrospective label does not prove season-specific commercial name or unchanged naming. No renaming event found in this bounded evidence set is not proof none occurred. Ground membership/fixture context remains separate."
+  },
+  {
+    "ground_id": "dean-court",
+    "source_observed_name": "Dean Court",
+    "source_id": "wikidata-Q619094",
+    "source_field": "labels.en.value",
+    "observed_at": "2026-10-17",
+    "reviewed_seasons": [
+      "2015/16",
+      "2016/17",
+      "2026/27"
+    ],
+    "naming_event_ids": [
+      "name-event-6"
+    ],
+    "review_status": "primary_naming_events_plus_source_label",
+    "complete_historical_intervals": false,
+    "limitation": "Current/retrospective label does not prove season-specific commercial name or unchanged naming. No renaming event found in this bounded evidence set is not proof none occurred. Ground membership/fixture context remains separate."
+  },
+  {
+    "ground_id": "brighton-community-stadium",
+    "source_observed_name": "Brighton Community Stadium",
+    "source_id": "wikidata-Q619409",
+    "source_field": "labels.en.value",
+    "observed_at": "2026-10-17",
+    "reviewed_seasons": [
+      "2015/16",
+      "2016/17",
+      "2026/27"
+    ],
+    "naming_event_ids": [],
+    "review_status": "source_label_reviewed_no_complete_name_interval",
+    "complete_historical_intervals": false,
+    "limitation": "Current/retrospective label does not prove season-specific commercial name or unchanged naming. No renaming event found in this bounded evidence set is not proof none occurred. Ground membership/fixture context remains separate."
+  },
+  {
+    "ground_id": "turf-moor",
+    "source_observed_name": "Turf Moor",
+    "source_id": "wikidata-Q683112",
+    "source_field": "labels.en.value",
+    "observed_at": "2026-10-17",
+    "reviewed_seasons": [
+      "2015/16",
+      "2016/17",
+      "2026/27"
+    ],
+    "naming_event_ids": [],
+    "review_status": "source_label_reviewed_no_complete_name_interval",
+    "complete_historical_intervals": false,
+    "limitation": "Current/retrospective label does not prove season-specific commercial name or unchanged naming. No renaming event found in this bounded evidence set is not proof none occurred. Ground membership/fixture context remains separate."
+  },
+  {
+    "ground_id": "coventry-building-society-arena",
+    "source_observed_name": "Coventry Building Society Arena",
+    "source_id": "wikidata-Q842077",
+    "source_field": "labels.en.value",
+    "observed_at": "2026-10-17",
+    "reviewed_seasons": [
+      "2015/16",
+      "2016/17",
+      "2026/27"
+    ],
+    "naming_event_ids": [
+      "name-event-8"
+    ],
+    "review_status": "primary_naming_events_plus_source_label",
+    "complete_historical_intervals": false,
+    "limitation": "Current/retrospective label does not prove season-specific commercial name or unchanged naming. No renaming event found in this bounded evidence set is not proof none occurred. Ground membership/fixture context remains separate."
+  },
+  {
+    "ground_id": "goodison-park",
+    "source_observed_name": "Goodison Park",
+    "source_id": "wikidata-Q968420",
+    "source_field": "labels.en.value",
+    "observed_at": "2026-10-17",
+    "reviewed_seasons": [
+      "2015/16",
+      "2016/17",
+      "2026/27"
+    ],
+    "naming_event_ids": [],
+    "review_status": "source_label_reviewed_no_complete_name_interval",
+    "complete_historical_intervals": false,
+    "limitation": "Current/retrospective label does not prove season-specific commercial name or unchanged naming. No renaming event found in this bounded evidence set is not proof none occurred. Ground membership/fixture context remains separate."
+  },
+  {
+    "ground_id": "vicarage-road",
+    "source_observed_name": "Vicarage Road",
+    "source_id": "wikidata-Q10626",
+    "source_field": "labels.en.value",
+    "observed_at": "2026-10-17",
+    "reviewed_seasons": [
+      "2015/16",
+      "2016/17",
+      "2026/27"
+    ],
+    "naming_event_ids": [],
+    "review_status": "source_label_reviewed_no_complete_name_interval",
+    "complete_historical_intervals": false,
+    "limitation": "Current/retrospective label does not prove season-specific commercial name or unchanged naming. No renaming event found in this bounded evidence set is not proof none occurred. Ground membership/fixture context remains separate."
+  },
+  {
+    "ground_id": "carrow-road",
+    "source_observed_name": "Carrow Road",
+    "source_id": "wikidata-Q123017",
+    "source_field": "labels.en.value",
+    "observed_at": "2026-10-17",
+    "reviewed_seasons": [
+      "2015/16",
+      "2016/17",
+      "2026/27"
+    ],
+    "naming_event_ids": [],
+    "review_status": "source_label_reviewed_no_complete_name_interval",
+    "complete_historical_intervals": false,
+    "limitation": "Current/retrospective label does not prove season-specific commercial name or unchanged naming. No renaming event found in this bounded evidence set is not proof none occurred. Ground membership/fixture context remains separate."
+  },
+  {
+    "ground_id": "st-james-park",
+    "source_observed_name": "St James’ Park",
+    "source_id": "wikidata-Q191774",
+    "source_field": "labels.en.value",
+    "observed_at": "2026-10-17",
+    "reviewed_seasons": [
+      "2015/16",
+      "2016/17",
+      "2026/27"
+    ],
+    "naming_event_ids": [],
+    "review_status": "source_label_reviewed_no_complete_name_interval",
+    "complete_historical_intervals": false,
+    "limitation": "Current/retrospective label does not prove season-specific commercial name or unchanged naming. No renaming event found in this bounded evidence set is not proof none occurred. Ground membership/fixture context remains separate."
+  },
+  {
+    "ground_id": "the-hawthorns",
+    "source_observed_name": "The Hawthorns",
+    "source_id": "wikidata-Q31678",
+    "source_field": "labels.en.value",
+    "observed_at": "2026-10-17",
+    "reviewed_seasons": [
+      "2015/16",
+      "2016/17",
+      "2026/27"
+    ],
+    "naming_event_ids": [],
+    "review_status": "source_label_reviewed_no_complete_name_interval",
+    "complete_historical_intervals": false,
+    "limitation": "Current/retrospective label does not prove season-specific commercial name or unchanged naming. No renaming event found in this bounded evidence set is not proof none occurred. Ground membership/fixture context remains separate."
+  },
+  {
+    "ground_id": "craven-cottage",
+    "source_observed_name": "Craven Cottage",
+    "source_id": "wikidata-Q318043",
+    "source_field": "labels.en.value",
+    "observed_at": "2026-10-17",
+    "reviewed_seasons": [
+      "2015/16",
+      "2016/17",
+      "2026/27"
+    ],
+    "naming_event_ids": [],
+    "review_status": "source_label_reviewed_no_complete_name_interval",
+    "complete_historical_intervals": false,
+    "limitation": "Current/retrospective label does not prove season-specific commercial name or unchanged naming. No renaming event found in this bounded evidence set is not proof none occurred. Ground membership/fixture context remains separate."
+  },
+  {
+    "ground_id": "stadium-of-light",
+    "source_observed_name": "Stadium of Light",
+    "source_id": "wikidata-Q31969",
+    "source_field": "labels.en.value",
+    "observed_at": "2026-10-17",
+    "reviewed_seasons": [
+      "2015/16",
+      "2016/17",
+      "2026/27"
+    ],
+    "naming_event_ids": [],
+    "review_status": "source_label_reviewed_no_complete_name_interval",
+    "complete_historical_intervals": false,
+    "limitation": "Current/retrospective label does not prove season-specific commercial name or unchanged naming. No renaming event found in this bounded evidence set is not proof none occurred. Ground membership/fixture context remains separate."
+  },
+  {
+    "ground_id": "anfield",
+    "source_observed_name": "Anfield",
+    "source_id": "wikidata-Q45671",
+    "source_field": "labels.en.value",
+    "observed_at": "2026-10-17",
+    "reviewed_seasons": [
+      "2015/16",
+      "2016/17",
+      "2026/27"
+    ],
+    "naming_event_ids": [],
+    "review_status": "source_label_reviewed_no_complete_name_interval",
+    "complete_historical_intervals": false,
+    "limitation": "Current/retrospective label does not prove season-specific commercial name or unchanged naming. No renaming event found in this bounded evidence set is not proof none occurred. Ground membership/fixture context remains separate."
+  },
+  {
+    "ground_id": "etihad-stadium",
+    "source_observed_name": "Etihad Stadium",
+    "source_id": "wikidata-Q48159",
+    "source_field": "labels.en.value",
+    "observed_at": "2026-10-17",
+    "reviewed_seasons": [
+      "2015/16",
+      "2016/17",
+      "2026/27"
+    ],
+    "naming_event_ids": [
+      "name-event-5"
+    ],
+    "review_status": "primary_naming_events_plus_source_label",
+    "complete_historical_intervals": false,
+    "limitation": "Current/retrospective label does not prove season-specific commercial name or unchanged naming. No renaming event found in this bounded evidence set is not proof none occurred. Ground membership/fixture context remains separate."
+  },
+  {
+    "ground_id": "britannia-stadium",
+    "source_observed_name": "Britannia Stadium",
+    "source_id": "wikidata-Q500922",
+    "source_field": "labels.en.value",
+    "observed_at": "2026-10-17",
+    "reviewed_seasons": [
+      "2015/16",
+      "2016/17",
+      "2026/27"
+    ],
+    "naming_event_ids": [
+      "name-event-9"
+    ],
+    "review_status": "primary_naming_events_plus_source_label",
+    "complete_historical_intervals": false,
+    "limitation": "Current/retrospective label does not prove season-specific commercial name or unchanged naming. No renaming event found in this bounded evidence set is not proof none occurred. Ground membership/fixture context remains separate."
+  },
+  {
+    "ground_id": "st-mary-s-stadium",
+    "source_observed_name": "St Mary's Stadium",
+    "source_id": "wikidata-Q567339",
+    "source_field": "labels.en.value",
+    "observed_at": "2026-10-17",
+    "reviewed_seasons": [
+      "2015/16",
+      "2016/17",
+      "2026/27"
+    ],
+    "naming_event_ids": [],
+    "review_status": "source_label_reviewed_no_complete_name_interval",
+    "complete_historical_intervals": false,
+    "limitation": "Current/retrospective label does not prove season-specific commercial name or unchanged naming. No renaming event found in this bounded evidence set is not proof none occurred. Ground membership/fixture context remains separate."
+  },
+  {
+    "ground_id": "liberty-stadium",
+    "source_observed_name": "Liberty Stadium",
+    "source_id": "wikidata-Q580480",
+    "source_field": "labels.en.value",
+    "observed_at": "2026-10-17",
+    "reviewed_seasons": [
+      "2015/16",
+      "2016/17",
+      "2026/27"
+    ],
+    "naming_event_ids": [
+      "name-event-2"
+    ],
+    "review_status": "primary_naming_events_plus_source_label",
+    "complete_historical_intervals": false,
+    "limitation": "Current/retrospective label does not prove season-specific commercial name or unchanged naming. No renaming event found in this bounded evidence set is not proof none occurred. Ground membership/fixture context remains separate."
+  },
+  {
+    "ground_id": "city-ground",
+    "source_observed_name": "City Ground",
+    "source_id": "wikidata-Q593446",
+    "source_field": "labels.en.value",
+    "observed_at": "2026-10-17",
+    "reviewed_seasons": [
+      "2015/16",
+      "2016/17",
+      "2026/27"
+    ],
+    "naming_event_ids": [],
+    "review_status": "source_label_reviewed_no_complete_name_interval",
+    "complete_historical_intervals": false,
+    "limitation": "Current/retrospective label does not prove season-specific commercial name or unchanged naming. No renaming event found in this bounded evidence set is not proof none occurred. Ground membership/fixture context remains separate."
+  },
+  {
+    "ground_id": "elland-road",
+    "source_observed_name": "Elland Road",
+    "source_id": "wikidata-Q619505",
+    "source_field": "labels.en.value",
+    "observed_at": "2026-10-17",
+    "reviewed_seasons": [
+      "2015/16",
+      "2016/17",
+      "2026/27"
+    ],
+    "naming_event_ids": [],
+    "review_status": "source_label_reviewed_no_complete_name_interval",
+    "complete_historical_intervals": false,
+    "limitation": "Current/retrospective label does not prove season-specific commercial name or unchanged naming. No renaming event found in this bounded evidence set is not proof none occurred. Ground membership/fixture context remains separate."
+  },
+  {
+    "ground_id": "portman-road",
+    "source_observed_name": "Portman Road",
+    "source_id": "wikidata-Q619558",
+    "source_field": "labels.en.value",
+    "observed_at": "2026-10-17",
+    "reviewed_seasons": [
+      "2015/16",
+      "2016/17",
+      "2026/27"
+    ],
+    "naming_event_ids": [],
+    "review_status": "source_label_reviewed_no_complete_name_interval",
+    "complete_historical_intervals": false,
+    "limitation": "Current/retrospective label does not prove season-specific commercial name or unchanged naming. No renaming event found in this bounded evidence set is not proof none occurred. Ground membership/fixture context remains separate."
+  },
+  {
+    "ground_id": "leicester-city-stadium",
+    "source_observed_name": "Leicester City Stadium",
+    "source_id": "wikidata-Q620031",
+    "source_field": "labels.en.value",
+    "observed_at": "2026-10-17",
+    "reviewed_seasons": [
+      "2015/16",
+      "2016/17",
+      "2026/27"
+    ],
+    "naming_event_ids": [
+      "name-event-7"
+    ],
+    "review_status": "primary_naming_events_plus_source_label",
+    "complete_historical_intervals": false,
+    "limitation": "Current/retrospective label does not prove season-specific commercial name or unchanged naming. No renaming event found in this bounded evidence set is not proof none occurred. Ground membership/fixture context remains separate."
+  },
+  {
+    "ground_id": "mkm-stadium",
+    "source_observed_name": "MKM Stadium",
+    "source_id": "wikidata-Q630160",
+    "source_field": "labels.en.value",
+    "observed_at": "2026-10-17",
+    "reviewed_seasons": [
+      "2015/16",
+      "2016/17",
+      "2026/27"
+    ],
+    "naming_event_ids": [
+      "name-event-3",
+      "name-event-4"
+    ],
+    "review_status": "primary_naming_events_plus_source_label",
+    "complete_historical_intervals": false,
+    "limitation": "Current/retrospective label does not prove season-specific commercial name or unchanged naming. No renaming event found in this bounded evidence set is not proof none occurred. Ground membership/fixture context remains separate."
+  },
+  {
+    "ground_id": "riverside-stadium",
+    "source_observed_name": "Riverside Stadium",
+    "source_id": "wikidata-Q822886",
+    "source_field": "labels.en.value",
+    "observed_at": "2026-10-17",
+    "reviewed_seasons": [
+      "2015/16",
+      "2016/17",
+      "2026/27"
+    ],
+    "naming_event_ids": [],
+    "review_status": "source_label_reviewed_no_complete_name_interval",
+    "complete_historical_intervals": false,
+    "limitation": "Current/retrospective label does not prove season-specific commercial name or unchanged naming. No renaming event found in this bounded evidence set is not proof none occurred. Ground membership/fixture context remains separate."
+  },
+  {
+    "ground_id": "old-trafford",
+    "source_observed_name": "Old Trafford",
+    "source_id": "wikidata-Q83457",
+    "source_field": "labels.en.value",
+    "observed_at": "2026-10-17",
+    "reviewed_seasons": [
+      "2015/16",
+      "2016/17",
+      "2026/27"
+    ],
+    "naming_event_ids": [],
+    "review_status": "source_label_reviewed_no_complete_name_interval",
+    "complete_historical_intervals": false,
+    "limitation": "Current/retrospective label does not prove season-specific commercial name or unchanged naming. No renaming event found in this bounded evidence set is not proof none occurred. Ground membership/fixture context remains separate."
+  },
+  {
+    "ground_id": "stamford-bridge",
+    "source_observed_name": "Stamford Bridge",
+    "source_id": "wikidata-Q171458",
+    "source_field": "labels.en.value",
+    "observed_at": "2026-10-17",
+    "reviewed_seasons": [
+      "2015/16",
+      "2016/17",
+      "2026/27"
+    ],
+    "naming_event_ids": [],
+    "review_status": "source_label_reviewed_no_complete_name_interval",
+    "complete_historical_intervals": false,
+    "limitation": "Current/retrospective label does not prove season-specific commercial name or unchanged naming. No renaming event found in this bounded evidence set is not proof none occurred. Ground membership/fixture context remains separate."
+  },
+  {
+    "ground_id": "brentford-community-stadium",
+    "source_observed_name": "Brentford Community Stadium",
+    "source_id": "wikidata-Q4961609",
+    "source_field": "labels.en.value",
+    "observed_at": "2026-10-17",
+    "reviewed_seasons": [
+      "2015/16",
+      "2016/17",
+      "2026/27"
+    ],
+    "naming_event_ids": [
+      "name-event-1"
+    ],
+    "review_status": "primary_naming_events_plus_source_label",
+    "complete_historical_intervals": false,
+    "limitation": "Current/retrospective label does not prove season-specific commercial name or unchanged naming. No renaming event found in this bounded evidence set is not proof none occurred. Ground membership/fixture context remains separate."
+  }
+]

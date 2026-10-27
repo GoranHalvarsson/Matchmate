@@ -1,0 +1,23 @@
+{
+  "version": 1,
+  "artifact": {
+    "file": "brentford-chelsea-2026-09-18-longer-passage-ball.json",
+    "sha256": "9b715612300936354839436d4cf4f0387933cd3df65cfe431e3a364428ba5378",
+    "bytes": 78830
+  },
+  "researchLedger": {
+    "sha256": "dd7dcddc89b86fd7e318af992fa6afad9990631784334f10764f30142fe2d102",
+    "bytes": 192691
+  },
+  "personArtifact": {
+    "sha256": "27d9da0fa866b39d94a922085c07aac86aba2b9725842172446fead6dbaeb10c",
+    "bytes": 550466
+  },
+  "sourceVideoSha256": "87b511b61f3d48e410294e06bf71bbc3a88c7b7ca6a50b89e572808c3e82711f",
+  "reviewedScreenObservations": 49,
+  "nearGroundEstimates": 13,
+  "existingSampleTimes": 337,
+  "method": "Retrospective native source/crop review with nearby +/-2 frames; later frames support adjudication, not known-then provider knowledge. Only coordinator-approved apparent near-ground points project through current qualified cameras. No holds/interpolation or inferred events.",
+  "sourceMediaBundled": false,
+  "publicationClearance": false
+}

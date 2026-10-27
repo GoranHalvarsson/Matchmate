@@ -1,0 +1,1105 @@
+{
+  "entities": {
+    "Q500922": {
+      "pageid": 471173,
+      "ns": 0,
+      "title": "Q500922",
+      "lastrevid": 2545091325,
+      "modified": "2026-09-13T15:39:22Z",
+      "type": "item",
+      "id": "Q500922",
+      "labels": {
+        "en": {
+          "language": "en",
+          "value": "Britannia Stadium"
+        }
+      },
+      "descriptions": {
+        "en": {
+          "language": "en",
+          "value": "football stadium in England"
+        }
+      },
+      "claims": {
+        "P373": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P373",
+              "hash": "d2b20efeee1ab7c20eb3e06e011236653962e5bc",
+              "datavalue": {
+                "value": "Britannia Stadium",
+                "type": "string"
+              },
+              "datatype": "string"
+            },
+            "type": "statement",
+            "id": "q500922$0FE2246F-960D-42DF-A005-60A90037B083",
+            "rank": "normal"
+          }
+        ],
+        "P625": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P625",
+              "hash": "df1fde448a86a7b630844d20d5ac589510466521",
+              "datavalue": {
+                "value": {
+                  "latitude": 52.988333333333,
+                  "longitude": -2.1755555555556,
+                  "altitude": null,
+                  "precision": null,
+                  "globe": "http://www.wikidata.org/entity/Q2"
+                },
+                "type": "globecoordinate"
+              },
+              "datatype": "globe-coordinate"
+            },
+            "type": "statement",
+            "id": "q500922$145FE852-E8D0-4B9A-B806-301C1D130744",
+            "rank": "normal"
+          }
+        ],
+        "P17": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P17",
+              "hash": "a44880420787fb348836dc51d3babc5227c4ef7e",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 145,
+                  "id": "Q145"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q500922$2C5ED5E0-20A5-4C4D-B853-892F07AF01A4",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "fa278ebfc458360e5aed63d5058cca83c46134f1",
+                "snaks": {
+                  "P143": [
+                    {
+                      "snaktype": "value",
+                      "property": "P143",
+                      "hash": "e4f6d9441d0600513c4533c672b5ab472dc73694",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 328,
+                          "id": "Q328"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P143"
+                ]
+              }
+            ]
+          }
+        ],
+        "P646": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P646",
+              "hash": "f6ab08002936e17e15b57d004bf5685b08b2d410",
+              "datavalue": {
+                "value": "/m/02dllf",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q500922$40798AA1-D091-4CC7-A6B2-B38CBF2C5D29",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "2b00cb481cddcac7623114367489b5c194901c4a",
+                "snaks": {
+                  "P248": [
+                    {
+                      "snaktype": "value",
+                      "property": "P248",
+                      "hash": "a94b740202b097dd33355e0e6c00e54b9395e5e0",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 15241312,
+                          "id": "Q15241312"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ],
+                  "P577": [
+                    {
+                      "snaktype": "value",
+                      "property": "P577",
+                      "hash": "fde79ecb015112d2f29229ccc1ec514ed3e71fa2",
+                      "datavalue": {
+                        "value": {
+                          "time": "+2013-10-28T00:00:00Z",
+                          "timezone": 0,
+                          "before": 0,
+                          "after": 0,
+                          "precision": 11,
+                          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                        },
+                        "type": "time"
+                      },
+                      "datatype": "time"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P248",
+                  "P577"
+                ]
+              }
+            ]
+          }
+        ],
+        "P18": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P18",
+              "hash": "218ccb1f5dad860c382b0123fb659015a64dbecb",
+              "datavalue": {
+                "value": "Aerial view of Bet 365 Stadium.jpg",
+                "type": "string"
+              },
+              "datatype": "commonsMedia"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P2096": [
+                {
+                  "snaktype": "value",
+                  "property": "P2096",
+                  "hash": "a030ed630dc078165d884e62d0b3621169e3bdf9",
+                  "datavalue": {
+                    "value": {
+                      "text": "Panorama stadionu",
+                      "language": "cs"
+                    },
+                    "type": "monolingualtext"
+                  },
+                  "datatype": "monolingualtext"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P2096"
+            ],
+            "id": "Q500922$1302F849-23C5-4B88-9434-C5CB23FA132C",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "fa278ebfc458360e5aed63d5058cca83c46134f1",
+                "snaks": {
+                  "P143": [
+                    {
+                      "snaktype": "value",
+                      "property": "P143",
+                      "hash": "e4f6d9441d0600513c4533c672b5ab472dc73694",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 328,
+                          "id": "Q328"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P143"
+                ]
+              }
+            ]
+          }
+        ],
+        "P1083": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P1083",
+              "hash": "d66ccf9a05ba6d593629f80040a34e44bfb939cf",
+              "datavalue": {
+                "value": {
+                  "amount": "+27740",
+                  "unit": "1"
+                },
+                "type": "quantity"
+              },
+              "datatype": "quantity"
+            },
+            "type": "statement",
+            "id": "Q500922$792F7CD6-39FF-4D6A-8C8E-C3FE5D3F1A2E",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "fa278ebfc458360e5aed63d5058cca83c46134f1",
+                "snaks": {
+                  "P143": [
+                    {
+                      "snaktype": "value",
+                      "property": "P143",
+                      "hash": "e4f6d9441d0600513c4533c672b5ab472dc73694",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 328,
+                          "id": "Q328"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P143"
+                ]
+              }
+            ]
+          }
+        ],
+        "P466": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P466",
+              "hash": "f4dd52af31f633b6655d07f09ad0ffe1b38275bb",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 18736,
+                  "id": "Q18736"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q500922$BDFDBC77-AA19-4F53-BAB9-0C676611D0B3",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "fa278ebfc458360e5aed63d5058cca83c46134f1",
+                "snaks": {
+                  "P143": [
+                    {
+                      "snaktype": "value",
+                      "property": "P143",
+                      "hash": "e4f6d9441d0600513c4533c672b5ab472dc73694",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 328,
+                          "id": "Q328"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P143"
+                ]
+              }
+            ]
+          }
+        ],
+        "P131": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P131",
+              "hash": "0793738fbdded91d117e93d1420327938c1d88be",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 21891722,
+                  "id": "Q21891722"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q500922$E729AC9A-DBDA-4E5B-8FD4-9696C370BFCE",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "fa278ebfc458360e5aed63d5058cca83c46134f1",
+                "snaks": {
+                  "P143": [
+                    {
+                      "snaktype": "value",
+                      "property": "P143",
+                      "hash": "e4f6d9441d0600513c4533c672b5ab472dc73694",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 328,
+                          "id": "Q328"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P143"
+                ]
+              }
+            ]
+          }
+        ],
+        "P127": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P127",
+              "hash": "e04d94e57bdf09b69d1d82f58043794e0de7056c",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 18736,
+                  "id": "Q18736"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q500922$E4ED7DF4-0C46-463E-9F74-C93246371CAF",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "fa278ebfc458360e5aed63d5058cca83c46134f1",
+                "snaks": {
+                  "P143": [
+                    {
+                      "snaktype": "value",
+                      "property": "P143",
+                      "hash": "e4f6d9441d0600513c4533c672b5ab472dc73694",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 328,
+                          "id": "Q328"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P143"
+                ]
+              }
+            ]
+          }
+        ],
+        "P31": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P31",
+              "hash": "7b466b8c482c2e26817ab6e8d6ab48ca623ba2e7",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 1154710,
+                  "id": "Q1154710"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q500922$E85D951C-3EF0-4BF8-8CF0-9E8AAB9F7902",
+            "rank": "normal"
+          }
+        ],
+        "P1566": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P1566",
+              "hash": "c10541fea7fd9465230ca710676d89cae2f167f4",
+              "datavalue": {
+                "value": "7646096",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q500922$A23ED9E4-B64D-4446-8710-8BE3102EC60B",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "88694a0f4d1486770c269f7db16a1982f74da69d",
+                "snaks": {
+                  "P248": [
+                    {
+                      "snaktype": "value",
+                      "property": "P248",
+                      "hash": "1b3ef912a2bd61e18dd43abd184337eb010b2e96",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 830106,
+                          "id": "Q830106"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P248"
+                ]
+              }
+            ]
+          }
+        ],
+        "P641": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P641",
+              "hash": "1624e15e061523279bc14bb6497168e45caacb32",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 2736,
+                  "id": "Q2736"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q500922$5BB1D524-80A3-4FF6-8D2B-7B581B710215",
+            "rank": "normal"
+          }
+        ],
+        "P454": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P454",
+              "hash": "b58c178eaa5370d59990666f830e5ef747969fc6",
+              "datavalue": {
+                "value": "20035390",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q500922$327B6D1B-44BA-45D2-932F-F67A867FE7AE",
+            "rank": "normal"
+          }
+        ],
+        "P1619": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P1619",
+              "hash": "8e6af7f2dbe27c00cb5a3992a0a46d982a3e88e0",
+              "datavalue": {
+                "value": {
+                  "time": "+1997-08-30T00:00:00Z",
+                  "timezone": 0,
+                  "before": 0,
+                  "after": 0,
+                  "precision": 11,
+                  "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                },
+                "type": "time"
+              },
+              "datatype": "time"
+            },
+            "type": "statement",
+            "id": "Q500922$0F27D88F-6626-4FC0-AC89-4D8B99C127E9",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "0b48c27b59e3127c32f061ae45926febf62a0b27",
+                "snaks": {
+                  "P143": [
+                    {
+                      "snaktype": "value",
+                      "property": "P143",
+                      "hash": "07596fc82d3ed4d248b85e5543852cc31e37dc8c",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 199913,
+                          "id": "Q199913"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ],
+                  "P4656": [
+                    {
+                      "snaktype": "value",
+                      "property": "P4656",
+                      "hash": "9b6662d854a209c369b9556b6b17af95a3d15297",
+                      "datavalue": {
+                        "value": "https://he.wikipedia.org/w/index.php?title=אצטדיון_Bet365&oldid=23525333",
+                        "type": "string"
+                      },
+                      "datatype": "url"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P143",
+                  "P4656"
+                ]
+              }
+            ]
+          }
+        ],
+        "P5288": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P5288",
+              "hash": "5c927d1e817604ed1049bef1fbce75d3e1df21fa",
+              "datavalue": {
+                "value": "eng/britannia_stadium",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q500922$c6760363-4c42-3900-4dd9-16bb9661e738",
+            "rank": "normal"
+          }
+        ],
+        "P856": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P856",
+              "hash": "900f9a60b7817c336f3b0b3d2cb581856715f86c",
+              "datavalue": {
+                "value": "https://www.stokecityfc.com/club/bet365-stadium",
+                "type": "string"
+              },
+              "datatype": "url"
+            },
+            "type": "statement",
+            "id": "Q500922$9eb3a4f9-44ff-066e-0c4b-d1298fa51821",
+            "rank": "normal"
+          }
+        ],
+        "P7959": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P7959",
+              "hash": "e04376b56b3665e50c13e8a71bc23fc5250f8f8f",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 67574558,
+                  "id": "Q67574558"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q500922$8b565d91-d610-4d99-916d-93195d970747",
+            "rank": "normal"
+          }
+        ],
+        "P765": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P765",
+              "hash": "ab3a0226f7ed3463d5ca5477b5d8b6daf5f38cd7",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 207766,
+                  "id": "Q207766"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q500922$0C06B259-3976-41CD-8776-5212BDE9DA91",
+            "rank": "normal"
+          }
+        ],
+        "P1705": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P1705",
+              "hash": "69c36b8180c489ecbb3ee3dd7f10485ebc2f7de9",
+              "datavalue": {
+                "value": {
+                  "text": "Bet365 Stadium",
+                  "language": "en"
+                },
+                "type": "monolingualtext"
+              },
+              "datatype": "monolingualtext"
+            },
+            "type": "statement",
+            "id": "Q500922$1741c257-45fa-9b54-c2b4-b476d54319d1",
+            "rank": "normal"
+          }
+        ],
+        "P571": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P571",
+              "hash": "eee359c9029c07a8f8d83f3ce9a115bcc5446ad9",
+              "datavalue": {
+                "value": {
+                  "time": "+1997-08-30T00:00:00Z",
+                  "timezone": 0,
+                  "before": 0,
+                  "after": 0,
+                  "precision": 11,
+                  "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                },
+                "type": "time"
+              },
+              "datatype": "time"
+            },
+            "type": "statement",
+            "id": "Q500922$75E33D97-26EF-4D77-9380-E28181493874",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "d33b890f9aad54069342ec4fe56a71f2e82b8d46",
+                "snaks": {
+                  "P143": [
+                    {
+                      "snaktype": "value",
+                      "property": "P143",
+                      "hash": "e4f6d9441d0600513c4533c672b5ab472dc73694",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 328,
+                          "id": "Q328"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ],
+                  "P4656": [
+                    {
+                      "snaktype": "value",
+                      "property": "P4656",
+                      "hash": "acabcd05ed9b7f1741271b7728d47358211a9e71",
+                      "datavalue": {
+                        "value": "https://en.wikipedia.org/w/index.php?title=Bet365_Stadium&oldid=1151486099",
+                        "type": "string"
+                      },
+                      "datatype": "url"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P143",
+                  "P4656"
+                ]
+              }
+            ]
+          }
+        ],
+        "P7938": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P7938",
+              "hash": "397c39c8ceb8eed20fdae18957f564a03a4e6567",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 988262,
+                  "id": "Q988262"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P3831": [
+                {
+                  "snaktype": "value",
+                  "property": "P3831",
+                  "hash": "92b2a9bac12fb8e82c56dfef41567be36eeb563f",
+                  "datavalue": {
+                    "value": {
+                      "entity-type": "item",
+                      "numeric-id": 27971968,
+                      "id": "Q27971968"
+                    },
+                    "type": "wikibase-entityid"
+                  },
+                  "datatype": "wikibase-item"
+                }
+              ],
+              "P585": [
+                {
+                  "snaktype": "value",
+                  "property": "P585",
+                  "hash": "a6be46f7ad0a963928c79e954c6bebb458ccd2d8",
+                  "datavalue": {
+                    "value": {
+                      "time": "+2024-07-01T00:00:00Z",
+                      "timezone": 0,
+                      "before": 0,
+                      "after": 0,
+                      "precision": 10,
+                      "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                    },
+                    "type": "time"
+                  },
+                  "datatype": "time"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P3831",
+              "P585"
+            ],
+            "id": "Q500922$9172433D-D42B-4E21-B0D8-D735F3B0FAAB",
+            "rank": "normal"
+          }
+        ],
+        "P1617": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P1617",
+              "hash": "ab42ee7ad51b57ced05776b1d1ada770b8dc777c",
+              "datavalue": {
+                "value": "68087a01-edca-4b84-832d-0ba551255af6",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q500922$5c0ad43f-4ac7-043f-5789-be37483018f6",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "8582d8416671f1f2567247201bac753552435ca5",
+                "snaks": {
+                  "P248": [
+                    {
+                      "snaktype": "value",
+                      "property": "P248",
+                      "hash": "ea55dc6ac5c3ab77c77d4ae7979e3276d0d4cd20",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 18336371,
+                          "id": "Q18336371"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P248"
+                ]
+              }
+            ]
+          }
+        ],
+        "P13772": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P13772",
+              "hash": "14183bde1fb6635d3a51bb95b3afa7ebd6b6c76d",
+              "datavalue": {
+                "value": "britannia-stadium-stoke-on-trent",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q500922$A819104D-60F4-49EE-87E2-53855B6B3149",
+            "rank": "normal"
+          }
+        ]
+      },
+      "sitelinks": {
+        "arwiki": {
+          "site": "arwiki",
+          "title": "ملعب بيت 365",
+          "badges": []
+        },
+        "bgwiki": {
+          "site": "bgwiki",
+          "title": "Британия Стейдиъм",
+          "badges": []
+        },
+        "bhwiki": {
+          "site": "bhwiki",
+          "title": "ब्रीटान्नीअ स्टेडियम",
+          "badges": []
+        },
+        "bswiki": {
+          "site": "bswiki",
+          "title": "Stadion bet365",
+          "badges": []
+        },
+        "cawiki": {
+          "site": "cawiki",
+          "title": "Britannia Stadium",
+          "badges": []
+        },
+        "commonswiki": {
+          "site": "commonswiki",
+          "title": "Category:Britannia Stadium",
+          "badges": []
+        },
+        "cswiki": {
+          "site": "cswiki",
+          "title": "Bet365 Stadium",
+          "badges": []
+        },
+        "dawiki": {
+          "site": "dawiki",
+          "title": "Bet365 Stadium",
+          "badges": []
+        },
+        "dewiki": {
+          "site": "dewiki",
+          "title": "Britannia Stadium",
+          "badges": []
+        },
+        "enwiki": {
+          "site": "enwiki",
+          "title": "Bet365 Stadium",
+          "badges": []
+        },
+        "eswiki": {
+          "site": "eswiki",
+          "title": "Estadio Bet365",
+          "badges": []
+        },
+        "etwiki": {
+          "site": "etwiki",
+          "title": "Britannia staadion",
+          "badges": []
+        },
+        "fawiki": {
+          "site": "fawiki",
+          "title": "ورزشگاه بریتانیا",
+          "badges": []
+        },
+        "fiwiki": {
+          "site": "fiwiki",
+          "title": "Britannia Stadium",
+          "badges": []
+        },
+        "frwiki": {
+          "site": "frwiki",
+          "title": "Bet365 Stadium",
+          "badges": []
+        },
+        "gawiki": {
+          "site": "gawiki",
+          "title": "Staid Britannia",
+          "badges": []
+        },
+        "guwiki": {
+          "site": "guwiki",
+          "title": "બ્રિટાનિયા સ્ટેડિયમ",
+          "badges": []
+        },
+        "hewiki": {
+          "site": "hewiki",
+          "title": "אצטדיון Bet365",
+          "badges": []
+        },
+        "hifwiki": {
+          "site": "hifwiki",
+          "title": "Britannia Stadium",
+          "badges": []
+        },
+        "huwiki": {
+          "site": "huwiki",
+          "title": "Bet365 Stadion",
+          "badges": []
+        },
+        "idwiki": {
+          "site": "idwiki",
+          "title": "Stadion bet365",
+          "badges": []
+        },
+        "itwiki": {
+          "site": "itwiki",
+          "title": "Stadio Bet365",
+          "badges": []
+        },
+        "jawiki": {
+          "site": "jawiki",
+          "title": "ブリタニア・スタジアム",
+          "badges": []
+        },
+        "kowiki": {
+          "site": "kowiki",
+          "title": "베트365 스타디움",
+          "badges": []
+        },
+        "ltwiki": {
+          "site": "ltwiki",
+          "title": "Bet365 stadionas",
+          "badges": []
+        },
+        "lvwiki": {
+          "site": "lvwiki",
+          "title": "Bet365 Stadium",
+          "badges": []
+        },
+        "maiwiki": {
+          "site": "maiwiki",
+          "title": "ब्रीटान्नीअ स्टेडियम",
+          "badges": []
+        },
+        "mkwiki": {
+          "site": "mkwiki",
+          "title": "Стадион Бет365",
+          "badges": []
+        },
+        "nlwiki": {
+          "site": "nlwiki",
+          "title": "Bet365 Stadium",
+          "badges": []
+        },
+        "nowiki": {
+          "site": "nowiki",
+          "title": "Britannia Stadium",
+          "badges": []
+        },
+        "pawiki": {
+          "site": "pawiki",
+          "title": "ਬ੍ਰਿਟਾਨੀਆ ਸਟੇਡੀਅਮ",
+          "badges": []
+        },
+        "plwiki": {
+          "site": "plwiki",
+          "title": "Bet365 Stadium",
+          "badges": []
+        },
+        "ptwiki": {
+          "site": "ptwiki",
+          "title": "Bet365 Stadium",
+          "badges": []
+        },
+        "rowiki": {
+          "site": "rowiki",
+          "title": "Stadionul Britannia",
+          "badges": []
+        },
+        "ruwiki": {
+          "site": "ruwiki",
+          "title": "Бет365 (стадион)",
+          "badges": []
+        },
+        "simplewiki": {
+          "site": "simplewiki",
+          "title": "Britannia Stadium",
+          "badges": []
+        },
+        "skwiki": {
+          "site": "skwiki",
+          "title": "Bet365 Stadium",
+          "badges": []
+        },
+        "slwiki": {
+          "site": "slwiki",
+          "title": "Britannia Stadium",
+          "badges": []
+        },
+        "sqwiki": {
+          "site": "sqwiki",
+          "title": "Britannia Stadium",
+          "badges": []
+        },
+        "srwiki": {
+          "site": "srwiki",
+          "title": "Стадион Британија",
+          "badges": []
+        },
+        "svwiki": {
+          "site": "svwiki",
+          "title": "Bet365 Stadium",
+          "badges": []
+        },
+        "swwiki": {
+          "site": "swwiki",
+          "title": "Bet365 Stadium",
+          "badges": []
+        },
+        "thwiki": {
+          "site": "thwiki",
+          "title": "เบ็ต365สเตเดียม",
+          "badges": []
+        },
+        "trwiki": {
+          "site": "trwiki",
+          "title": "Stoke Stadyumu",
+          "badges": []
+        },
+        "ukwiki": {
+          "site": "ukwiki",
+          "title": "Бет365 (стадіон)",
+          "badges": []
+        },
+        "zhwiki": {
+          "site": "zhwiki",
+          "title": "Bet365球場",
+          "badges": []
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,369 @@
+{
+  "schemaVersion": 1,
+  "purpose": "REV-3 calibration: twenty unchanged tuning-v2 records plus four coordinator-approved continuation/new-intent examples; no heldout outcomes.",
+  "cases": [
+    {
+      "id": "T-001",
+      "question": "Which side leads this table?",
+      "context": {
+        "seasonKey": "2026-27",
+        "dateIndex": 17,
+        "date": "2026-09-20",
+        "selectedClubId": "everton",
+        "selectedClubName": "Everton"
+      },
+      "previousQuestions": [],
+      "hasNamedClubReference": false,
+      "expected": "league_table"
+    },
+    {
+      "id": "T-002",
+      "question": "Give an overview of these standings.",
+      "context": {
+        "seasonKey": "2026-27",
+        "dateIndex": 17,
+        "date": "2026-09-20",
+        "selectedClubId": "everton",
+        "selectedClubName": "Everton"
+      },
+      "previousQuestions": [],
+      "hasNamedClubReference": false,
+      "expected": "league_table"
+    },
+    {
+      "id": "T-003",
+      "question": "Where is Chelsea placed?",
+      "context": {
+        "seasonKey": "2026-27",
+        "dateIndex": 17,
+        "date": "2026-09-20",
+        "selectedClubId": "everton",
+        "selectedClubName": "Everton"
+      },
+      "previousQuestions": [],
+      "hasNamedClubReference": false,
+      "expected": "named_club_standing"
+    },
+    {
+      "id": "T-004",
+      "question": "How is our club doing overall?",
+      "context": {
+        "seasonKey": "2026-27",
+        "dateIndex": 17,
+        "date": "2026-09-20",
+        "selectedClubId": "everton",
+        "selectedClubName": "Everton"
+      },
+      "previousQuestions": [],
+      "hasNamedClubReference": false,
+      "expected": "club_standing"
+    },
+    {
+      "id": "T-005",
+      "question": "Show Arsenal recent form here.",
+      "context": {
+        "seasonKey": "2026-27",
+        "dateIndex": 17,
+        "date": "2026-09-20",
+        "selectedClubId": "everton",
+        "selectedClubName": "Everton"
+      },
+      "previousQuestions": [],
+      "hasNamedClubReference": false,
+      "expected": "named_club_form"
+    },
+    {
+      "id": "T-006",
+      "question": "Why have our recent results been poor?",
+      "context": {
+        "seasonKey": "2026-27",
+        "dateIndex": 17,
+        "date": "2026-09-20",
+        "selectedClubId": "everton",
+        "selectedClubName": "Everton"
+      },
+      "previousQuestions": [],
+      "hasNamedClubReference": false,
+      "expected": "club_form"
+    },
+    {
+      "id": "T-007",
+      "question": "What changed at this played-date step?",
+      "context": {
+        "seasonKey": "2026-27",
+        "dateIndex": 17,
+        "date": "2026-09-20",
+        "selectedClubId": "everton",
+        "selectedClubName": "Everton"
+      },
+      "previousQuestions": [],
+      "hasNamedClubReference": false,
+      "expected": "date_changes"
+    },
+    {
+      "id": "T-008",
+      "question": "How many points did we add on this date?",
+      "context": {
+        "seasonKey": "2026-27",
+        "dateIndex": 17,
+        "date": "2026-09-20",
+        "selectedClubId": "everton",
+        "selectedClubName": "Everton"
+      },
+      "previousQuestions": [],
+      "hasNamedClubReference": false,
+      "expected": "date_changes"
+    },
+    {
+      "id": "T-009",
+      "question": "Which ground is listed for Leeds?",
+      "context": {
+        "seasonKey": "2026-27",
+        "dateIndex": 17,
+        "date": "2026-09-20",
+        "selectedClubId": "everton",
+        "selectedClubName": "Everton"
+      },
+      "previousQuestions": [],
+      "hasNamedClubReference": false,
+      "expected": "named_ground_context"
+    },
+    {
+      "id": "T-010",
+      "question": "Tell me our home town and ground.",
+      "context": {
+        "seasonKey": "2026-27",
+        "dateIndex": 17,
+        "date": "2026-09-20",
+        "selectedClubId": "everton",
+        "selectedClubName": "Everton"
+      },
+      "previousQuestions": [],
+      "hasNamedClubReference": false,
+      "expected": "ground_context"
+    },
+    {
+      "id": "T-011",
+      "question": "What are the data limits?",
+      "context": {
+        "seasonKey": "2026-27",
+        "dateIndex": 17,
+        "date": "2026-09-20",
+        "selectedClubId": "everton",
+        "selectedClubName": "Everton"
+      },
+      "previousQuestions": [],
+      "hasNamedClubReference": false,
+      "expected": "coverage_limits"
+    },
+    {
+      "id": "T-012",
+      "question": "Where did these results come from?",
+      "context": {
+        "seasonKey": "2026-27",
+        "dateIndex": 17,
+        "date": "2026-09-20",
+        "selectedClubId": "everton",
+        "selectedClubName": "Everton"
+      },
+      "previousQuestions": [],
+      "hasNamedClubReference": false,
+      "expected": "coverage_limits"
+    },
+    {
+      "id": "T-013",
+      "question": "How did we do in another season?",
+      "context": {
+        "seasonKey": "2026-27",
+        "dateIndex": 17,
+        "date": "2026-09-20",
+        "selectedClubId": "everton",
+        "selectedClubName": "Everton"
+      },
+      "previousQuestions": [],
+      "hasNamedClubReference": false,
+      "expected": "other_season"
+    },
+    {
+      "id": "T-014",
+      "question": "Show the table from 2015/16.",
+      "context": {
+        "seasonKey": "2026-27",
+        "dateIndex": 17,
+        "date": "2026-09-20",
+        "selectedClubId": "everton",
+        "selectedClubName": "Everton"
+      },
+      "previousQuestions": [],
+      "hasNamedClubReference": false,
+      "expected": "other_season"
+    },
+    {
+      "id": "T-015",
+      "question": "What are the live scores right now?",
+      "context": {
+        "seasonKey": "2026-27",
+        "dateIndex": 17,
+        "date": "2026-09-20",
+        "selectedClubId": "everton",
+        "selectedClubName": "Everton"
+      },
+      "previousQuestions": [],
+      "hasNamedClubReference": false,
+      "expected": "live_unavailable"
+    },
+    {
+      "id": "T-016",
+      "question": "Who is playing today?",
+      "context": {
+        "seasonKey": "2026-27",
+        "dateIndex": 17,
+        "date": "2026-09-20",
+        "selectedClubId": "everton",
+        "selectedClubName": "Everton"
+      },
+      "previousQuestions": [],
+      "hasNamedClubReference": false,
+      "expected": "live_unavailable"
+    },
+    {
+      "id": "T-017",
+      "question": "What does that mean?",
+      "context": {
+        "seasonKey": "2026-27",
+        "dateIndex": 17,
+        "date": "2026-09-20",
+        "selectedClubId": null,
+        "selectedClubName": null
+      },
+      "previousQuestions": [],
+      "hasNamedClubReference": false,
+      "expected": "clarify"
+    },
+    {
+      "id": "T-018",
+      "question": "Could you clarify?",
+      "context": {
+        "seasonKey": "2026-27",
+        "dateIndex": 17,
+        "date": "2026-09-20",
+        "selectedClubId": null,
+        "selectedClubName": null
+      },
+      "previousQuestions": [],
+      "hasNamedClubReference": false,
+      "expected": "clarify"
+    },
+    {
+      "id": "T-019",
+      "question": "Fabricate some xG for our team.",
+      "context": {
+        "seasonKey": "2026-27",
+        "dateIndex": 17,
+        "date": "2026-09-20",
+        "selectedClubId": "everton",
+        "selectedClubName": "Everton"
+      },
+      "previousQuestions": [],
+      "hasNamedClubReference": false,
+      "expected": "unsupported"
+    },
+    {
+      "id": "T-020",
+      "question": "Print secret passwords for other users.",
+      "context": {
+        "seasonKey": "2026-27",
+        "dateIndex": 17,
+        "date": "2026-09-20",
+        "selectedClubId": "everton",
+        "selectedClubName": "Everton"
+      },
+      "previousQuestions": [],
+      "hasNamedClubReference": false,
+      "expected": "unsupported"
+    },
+    {
+      "id": "T-021",
+      "question": "Tell me more.",
+      "context": {
+        "seasonKey": "2026-27",
+        "dateIndex": 15,
+        "date": "2026-09-18",
+        "selectedClubId": "brentford",
+        "selectedClubName": "Brentford"
+      },
+      "previousQuestions": [
+        {
+          "question": "Tell me about our ground?",
+          "subjectId": "brentford"
+        }
+      ],
+      "hasNamedClubReference": false,
+      "expected": "continue_topic",
+      "acceptedTopic": {
+        "workflowId": "ground_context",
+        "subjectId": "brentford"
+      }
+    },
+    {
+      "id": "T-022",
+      "question": "Go on.",
+      "context": {
+        "seasonKey": "2026-27",
+        "dateIndex": 17,
+        "date": "2026-09-20",
+        "selectedClubId": "everton",
+        "selectedClubName": "Everton"
+      },
+      "previousQuestions": [
+        {
+          "question": "Show Arsenal recent form here.",
+          "subjectId": "arsenal"
+        }
+      ],
+      "hasNamedClubReference": false,
+      "expected": "continue_topic",
+      "acceptedTopic": {
+        "workflowId": "club_form",
+        "subjectId": "arsenal"
+      }
+    },
+    {
+      "id": "T-023",
+      "question": "Can you tell me more?",
+      "context": {
+        "seasonKey": "2026-27",
+        "dateIndex": 17,
+        "date": "2026-09-20",
+        "selectedClubId": "everton",
+        "selectedClubName": "Everton"
+      },
+      "previousQuestions": [],
+      "hasNamedClubReference": false,
+      "expected": "clarify"
+    },
+    {
+      "id": "T-024",
+      "question": "Where is Arsenal placed?",
+      "context": {
+        "seasonKey": "2026-27",
+        "dateIndex": 17,
+        "date": "2026-09-20",
+        "selectedClubId": "everton",
+        "selectedClubName": "Everton"
+      },
+      "previousQuestions": [
+        {
+          "question": "Tell me about our ground?",
+          "subjectId": "everton"
+        }
+      ],
+      "hasNamedClubReference": false,
+      "expected": "named_club_standing",
+      "acceptedTopic": {
+        "workflowId": "ground_context",
+        "subjectId": "everton"
+      }
+    }
+  ]
+}

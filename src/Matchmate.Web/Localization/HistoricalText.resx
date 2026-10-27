@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms</value></resheader>
+  <data name="PageTitle" xml:space="preserve"><value>Matchmate · A match in its season</value></data>
+  <data name="BackSeason" xml:space="preserve"><value>← Back to the season</value></data>
+  <data name="SelectedMatch" xml:space="preserve"><value>Selected match</value></data>
+  <data name="OngoingResult" xml:space="preserve"><value>Ongoing season result</value></data>
+  <data name="HistoricalResult" xml:space="preserve"><value>Historical result</value></data>
+  <data name="FullTime" xml:space="preserve"><value>Full time</value></data>
+  <data name="Home" xml:space="preserve"><value>Home</value></data>
+  <data name="Away" xml:space="preserve"><value>Away</value></data>
+  <data name="ScoreLabel" xml:space="preserve"><value>{0} {1} – {2} {3}, full time</value></data>
+  <data name="Freshness" xml:space="preserve"><value>Results through {0} · Retrieved {1} UTC · No automatic updates.</value></data>
+  <data name="ExploreFacts" xml:space="preserve"><value>Explore the match facts</value></data>
+  <data name="FactsHint" xml:space="preserve"><value>Form, table, earlier meetings and ground</value></data>
+  <data name="BeforeMatch" xml:space="preserve"><value>Before the match</value></data>
+  <data name="HowArrived" xml:space="preserve"><value>How they arrived.</value></data>
+  <data name="PreMatchNote" xml:space="preserve"><value>Up to five results strictly before this date, oldest first. Same-day matches do not enter pre-match form.</value></data>
+  <data name="EndPlayedDate" xml:space="preserve"><value>End of played date</value></data>
+  <data name="TableAround" xml:space="preserve"><value>The table around them.</value></data>
+  <data name="Position" xml:space="preserve"><value>Position</value></data>
+  <data name="Points" xml:space="preserve"><value>Points</value></data>
+  <data name="OnDate" xml:space="preserve"><value>On this date</value></data>
+  <data name="NoPreviousRank" xml:space="preserve"><value>No previous played-date rank.</value></data>
+  <data name="PositionChange" xml:space="preserve"><value>Position change: {0} versus previous played date.</value></data>
+  <data name="MovementNote" xml:space="preserve"><value>All results on this date contribute. Movement is not attributed to this match alone.</value></data>
+  <data name="EarlierMeetings" xml:space="preserve"><value>Earlier meetings</value></data>
+  <data name="BeforeDay" xml:space="preserve"><value>Before this day.</value></data>
+  <data name="NoEarlierMeeting" xml:space="preserve"><value>No earlier meeting in the loaded seasons.</value></data>
+  <data name="PlaceInTime" xml:space="preserve"><value>A place in time.</value></data>
+  <data name="GroundNote" xml:space="preserve"><value>The club’s season ground reference, rather than confirmation of this fixture’s venue.</value></data>
+  <data name="SourcesCoverage" xml:space="preserve"><value>Sources and coverage</value></data>
+  <data name="ResultsLabel" xml:space="preserve"><value>Results:</value></data>
+  <data name="CommunityLicense" xml:space="preserve"><value> (community-maintained, CC0).</value></data>
+  <data name="SourceNote" xml:space="preserve"><value>This reference supplies results, pre-match form, table positions and earlier meetings from the loaded seasons. Scorers, lineups and match events are not included. Club grounds are season references.</value></data>
+  <data name="CrestLicense" xml:space="preserve"><value>The results licence does not cover club crests.</value></data>
+  <data name="FindingMatch" xml:space="preserve"><value>Finding the match…</value></data>
+  <data name="MatchUnavailable" xml:space="preserve"><value>This match is unavailable</value></data>
+  <data name="TryAgain" xml:space="preserve"><value>Try again</value></data>
+  <data name="StatusLoading" xml:space="preserve"><value>Loading source-backed result context…</value></data>
+  <data name="StatusUnavailable" xml:space="preserve"><value>This result is unavailable. Check the selected season or retry after the API starts.</value></data>
+  <data name="LegacyPageTitle" xml:space="preserve"><value>Matchmate · Recorded match</value></data>
+  <data name="LegacyTagline" xml:space="preserve"><value>The match, a little closer.</value></data>
+  <data name="RecordedReplay" xml:space="preserve"><value>Recorded replay</value></data>
+  <data name="ChooseRecording" xml:space="preserve"><value>Choose a recording</value></data>
+  <data name="RecordingOption" xml:space="preserve"><value>{0} vs {1} · {2}</value></data>
+  <data name="RecordedExperience" xml:space="preserve"><value>Recorded match experience</value></data>
+  <data name="CloserGame" xml:space="preserve"><value>A closer look at the game.</value></data>
+  <data name="RecordedOrigin" xml:space="preserve"><value>{0} recorded sample · retrospective</value></data>
+  <data name="Versus" xml:space="preserve"><value>vs</value></data>
+  <data name="SourceInterval" xml:space="preserve"><value>{0} · {1}–{2} source interval. No live feed or inferred score.</value></data>
+  <data name="Period" xml:space="preserve"><value>Period {0}</value></data>
+  <data name="PassageEnd" xml:space="preserve"><value>of {0} passage end</value></data>
+  <data name="RecordedTracking" xml:space="preserve"><value>Recorded tracking replay</value></data>
+  <data name="MomentShape" xml:space="preserve"><value>The shape of the moment</value></data>
+  <data name="LoadingFrame" xml:space="preserve"><value>Loading frame</value></data>
+  <data name="AvailablePositions" xml:space="preserve"><value>{0} / {1} positions available</value></data>
+  <data name="RecordedPositionsLabel" xml:space="preserve"><value>Recorded player and ball positions; missing positions are not drawn</value></data>
+  <data name="BallQuality" xml:space="preserve"><value>Ball · {0}</value></data>
+  <data name="RecordingGap" xml:space="preserve"><value>A gap in the recording</value></data>
+  <data name="PositionsUnavailable" xml:space="preserve"><value>Player positions are unavailable here.</value></data>
+  <data name="LoadingMoment" xml:space="preserve"><value>Loading this moment…</value></data>
+  <data name="BallLegend" xml:space="preserve"><value>Ball: {0}</value></data>
+  <data name="LoadingValue" xml:space="preserve"><value>loading</value></data>
+  <data name="PositionLegend" xml:space="preserve"><value>Solid = detected · hollow dashed = estimated · square = unknown player quality · missing positions not drawn</value></data>
+  <data name="Pause" xml:space="preserve"><value>Pause</value></data>
+  <data name="Play" xml:space="preserve"><value>Play</value></data>
+  <data name="ReplayTime" xml:space="preserve"><value>Match replay time</value></data>
+  <data name="SourceGap" xml:space="preserve"><value>Source gap · {0}–{1}</value></data>
+  <data name="GapNote" xml:space="preserve"><value>Playback pauses when it reaches a gap. Continue through this gap, or move to an available moment.</value></data>
+  <data name="ContinueGap" xml:space="preserve"><value>Continue through gap</value></data>
+  <data name="SkipNext" xml:space="preserve"><value>Skip to next</value></data>
+  <data name="ReturnBeforeGap" xml:space="preserve"><value>Return before gap</value></data>
+  <data name="RetryMoment" xml:space="preserve"><value>Retry moment</value></data>
+  <data name="ChoosePlayer" xml:space="preserve"><value>Choose a player</value></data>
+  <data name="FollowSomeone" xml:space="preserve"><value>Follow someone.</value></data>
+  <data name="SelectPlayerNote" xml:space="preserve"><value>Select a name or a marker. Each position keeps its source quality.</value></data>
+  <data name="CloserLook" xml:space="preserve"><value>Your closer look</value></data>
+  <data name="ShirtTeam" xml:space="preserve"><value>Shirt {0} · {1}</value></data>
+  <data name="QualityPosition" xml:space="preserve"><value>{0} position</value></data>
+  <data name="Coordinates" xml:space="preserve"><value>x {0} m · y {1} m</value></data>
+  <data name="NoPositionFrame" xml:space="preserve"><value>No position in this source frame.</value></data>
+  <data name="OutsidePitch" xml:space="preserve"><value>Source coordinate lies outside the marked pitch.</value></data>
+  <data name="GroundedMoment" xml:space="preserve"><value>Grounded in this moment</value></data>
+  <data name="SourceFrame" xml:space="preserve"><value>Source frame {0} at {1}. No speed, distance or tactical claims are inferred.</value></data>
+  <data name="RecordingLimits" xml:space="preserve"><value>About this recording and its limits</value></data>
+  <data name="RecordingMetadata" xml:space="preserve"><value>{0} frames · {1} empty player frames · origin: {2} · source: {3}</value></data>
+  <data name="PinnedSource" xml:space="preserve"><value>Pinned source</value></data>
+  <data name="TrackingOnly" xml:space="preserve"><value>Event annotations and grounded conversation are later slices. This view shows tracking observations only.</value></data>
+  <data name="Footer" xml:space="preserve"><value>Conversations with matches, teams and stadiums — one grounded step at a time.</value></data>
+  <data name="LegacyStatusWaiting" xml:space="preserve"><value>Waiting for a complete recorded dataset…</value></data>
+  <data name="LegacyStatusNoRecording" xml:space="preserve"><value>No complete recording is published yet. Try again after publication.</value></data>
+  <data name="LegacyStatusWorkerWaiting" xml:space="preserve"><value>Waiting for the worker's complete publication. Retrying…</value></data>
+  <data name="LegacyStatusCatalogUnavailable" xml:space="preserve"><value>The dataset catalog is unavailable. Try again shortly.</value></data>
+  <data name="LegacyStatusLoadingRecording" xml:space="preserve"><value>Loading this recording…</value></data>
+  <data name="LegacyStatusNotReady" xml:space="preserve"><value>This recording is not ready. Try loading it again.</value></data>
+  <data name="LegacyErrorVersion" xml:space="preserve"><value>The recording version changed. Reload this recording.</value></data>
+  <data name="LegacyErrorMoment" xml:space="preserve"><value>This moment could not be loaded. Playback is paused.</value></data>
+  <data name="Detected" xml:space="preserve"><value>detected</value></data>
+  <data name="Unavailable" xml:space="preserve"><value>unavailable</value></data>
+</root>

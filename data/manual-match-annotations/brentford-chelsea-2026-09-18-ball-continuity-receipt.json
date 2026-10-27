@@ -1,0 +1,44 @@
+{
+  "version": 1,
+  "artifact": {
+    "file": "brentford-chelsea-2026-09-18-ball-continuity.json",
+    "sha256": "028f0b59242f9f393779bea4d69a703896bd2c4fccb86eb82c1e61ad5de3536f",
+    "bytes": 102358
+  },
+  "source": {
+    "url": "https://www.brentfordfc.com/en/video/0_2hoy7vw7?provider=stream",
+    "videoSha256": "87b511b61f3d48e410294e06bf71bbc3a88c7b7ca6a50b89e572808c3e82711f",
+    "personArtifact": {
+      "sha256": "27d9da0fa866b39d94a922085c07aac86aba2b9725842172446fead6dbaeb10c",
+      "bytes": 550466
+    },
+    "sparseBallArtifact": {
+      "sha256": "9b715612300936354839436d4cf4f0387933cd3df65cfe431e3a364428ba5378",
+      "bytes": 78830
+    },
+    "trialLedger": {
+      "sha256": "59efe2064d1afa4a5e447148aac9c76028ce8ff19b37c8eb8e8fa51af65bd281",
+      "bytes": 347010
+    },
+    "trialProtocol": {
+      "sha256": "c31352345efd8eb16632b2abb24c859990006df83d39d9fdeb95ebcf851d34cc",
+      "bytes": 4998
+    },
+    "groundReviewPolicy": {
+      "sha256": "820b257f1eaa06898d1c56e948805dfa6087128009bc9c078260f35af953a859",
+      "bytes": 1974
+    },
+    "manualAugmentation": {
+      "sha256": "22da8713a677b287261ae410babed3dc4075dda108ee740e5147df4cd9bd8ae5",
+      "bytes": 6113
+    }
+  },
+  "nativeObservations": 55,
+  "automaticGroundEstimates": 54,
+  "manualAugmentation": "M803-1",
+  "firstNativeIndex": 765,
+  "lastNativeIndex": 819,
+  "runtimeMode": "ball_only_native_detail",
+  "sourceMediaBundled": false,
+  "publicationClearance": false
+}

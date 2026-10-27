@@ -1,0 +1,284 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Shared identity, time, provenance and measurement definitions",
+  "$defs": {
+    "record_id": {
+      "type": "string",
+      "pattern": "^[a-z][a-z0-9-]*$"
+    },
+    "revision_id": {
+      "type": "string",
+      "pattern": "^[a-z][a-z0-9-]*$"
+    },
+    "supersedes_revision_id": {
+      "anyOf": [
+        {
+          "type": "string",
+          "x-revision-reference": true
+        },
+        {
+          "type": "null"
+        }
+      ]
+    },
+    "source_id": {
+      "type": "string",
+      "pattern": "^[a-z][a-z0-9-]*$",
+      "x-reference": "source"
+    },
+    "provenance": {
+      "type": "string",
+      "enum": [
+        "synthetic",
+        "sourced",
+        "derived"
+      ]
+    },
+    "claim_status": {
+      "type": "string",
+      "enum": [
+        "authored",
+        "confirmed",
+        "reported",
+        "disputed",
+        "interpretation"
+      ]
+    },
+    "valid_from": {
+      "type": "string",
+      "format": "date-time",
+      "pattern": "Z$"
+    },
+    "valid_to": {
+      "anyOf": [
+        {
+          "type": "string",
+          "format": "date-time",
+          "pattern": "Z$"
+        },
+        {
+          "type": "null"
+        }
+      ]
+    },
+    "recorded_at": {
+      "type": "string",
+      "format": "date-time",
+      "pattern": "Z$"
+    },
+    "published_at": {
+      "anyOf": [
+        {
+          "type": "string",
+          "format": "date-time",
+          "pattern": "Z$"
+        },
+        {
+          "type": "null"
+        }
+      ]
+    },
+    "synthetic_released_at": {
+      "anyOf": [
+        {
+          "type": "string",
+          "format": "date-time",
+          "pattern": "Z$"
+        },
+        {
+          "type": "null"
+        }
+      ]
+    },
+    "source": {
+      "type": "object",
+      "properties": {
+        "source_id": {
+          "type": "string",
+          "pattern": "^[a-z][a-z0-9-]*$"
+        },
+        "title": {
+          "type": "string",
+          "minLength": 1
+        },
+        "origin": {
+          "type": "string",
+          "enum": [
+            "synthetic_authoring",
+            "provider",
+            "publication"
+          ]
+        },
+        "locator": {
+          "type": "string",
+          "minLength": 1
+        },
+        "retrieved_at": {
+          "type": "string",
+          "format": "date-time",
+          "pattern": "Z$"
+        },
+        "usage": {
+          "type": "string",
+          "enum": [
+            "synthetic_project_example",
+            "permission_review_required",
+            "permission_recorded"
+          ]
+        }
+      },
+      "required": [
+        "source_id",
+        "title",
+        "origin",
+        "locator",
+        "retrieved_at",
+        "usage"
+      ],
+      "additionalProperties": false
+    },
+    "clock": {
+      "type": "object",
+      "properties": {
+        "period_id": {
+          "type": "string",
+          "pattern": "^[a-z][a-z0-9-]*$",
+          "x-reference": "period"
+        },
+        "elapsed_ms": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "sequence": {
+          "type": "integer",
+          "minimum": 0
+        }
+      },
+      "required": [
+        "period_id",
+        "elapsed_ms",
+        "sequence"
+      ],
+      "additionalProperties": false
+    },
+    "position": {
+      "type": "object",
+      "properties": {
+        "x_m": {
+          "type": "number"
+        },
+        "y_m": {
+          "type": "number"
+        },
+        "z_m": {
+          "anyOf": [
+            {
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        }
+      },
+      "required": [
+        "x_m",
+        "y_m",
+        "z_m"
+      ],
+      "additionalProperties": false
+    },
+    "money": {
+      "type": "object",
+      "properties": {
+        "currency": {
+          "type": "string",
+          "pattern": "^[A-Z]{3}$"
+        },
+        "amount_minor": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "minor_unit_digits": {
+          "type": "integer",
+          "minimum": 0,
+          "maximum": 4
+        }
+      },
+      "required": [
+        "currency",
+        "amount_minor",
+        "minor_unit_digits"
+      ],
+      "additionalProperties": false
+    },
+    "locality": {
+      "type": "object",
+      "properties": {
+        "town_city": {
+          "type": "string",
+          "minLength": 1
+        },
+        "region": {
+          "anyOf": [
+            {
+              "type": "string",
+              "minLength": 1
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "country": {
+          "type": "string",
+          "minLength": 1
+        },
+        "country_code": {
+          "type": "string",
+          "pattern": "^[A-Z]{2}$"
+        }
+      },
+      "required": [
+        "town_city",
+        "region",
+        "country",
+        "country_code"
+      ],
+      "additionalProperties": false
+    },
+    "address": {
+      "type": "object",
+      "properties": {
+        "lines": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          },
+          "minItems": 1
+        },
+        "postal_code": {
+          "anyOf": [
+            {
+              "type": "string",
+              "minLength": 1
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "locality": {
+          "$ref": "#/$defs/locality"
+        }
+      },
+      "required": [
+        "lines",
+        "postal_code",
+        "locality"
+      ],
+      "additionalProperties": false
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "profiles": {
+    "https": {
+      "commandName": "Project",
+      "dotnetRunMessages": true,
+      "applicationUrl": "https://localhost:7410;http://localhost:5410",
+      "environmentVariables": {
+        "DOTNET_CLI_TELEMETRY_OPTOUT": "1",
+        "ASPNETCORE_ENVIRONMENT": "Development",
+        "AZURE_TOKEN_CREDENTIALS": "AzureCliCredential"
+      },
+      "launchBrowser": false
+    }
+  }
+}

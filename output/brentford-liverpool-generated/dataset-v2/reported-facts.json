@@ -1,0 +1,1654 @@
+{
+  "version": 1,
+  "kind": "completed_official_match_record",
+  "fixture": {
+    "id": "premier-league:2026-27:2026-10-17:brentford:liverpool",
+    "officialMatchId": "2645256",
+    "home": "Brentford",
+    "away": "Liverpool",
+    "date": {
+      "value": "2026-10-17",
+      "evidence": {
+        "source": "pl-overview",
+        "locator": "Fixture header; 17 October 2026"
+      }
+    },
+    "season": {
+      "value": "2026/27",
+      "evidence": {
+        "source": "pl-overview",
+        "locator": "Fixture header; competition season"
+      }
+    },
+    "competition": {
+      "value": "Premier League",
+      "evidence": {
+        "source": "pl-overview",
+        "locator": "Fixture header; competition"
+      }
+    },
+    "result": {
+      "value": [
+        1,
+        2
+      ],
+      "status": "completed",
+      "evidence": {
+        "source": "pl-overview",
+        "locator": "Fixture header; Full Time; Brentford 1 Liverpool 2"
+      },
+      "corroboration": [
+        {
+          "source": "brentford-report",
+          "locator": "Report title and final score"
+        },
+        {
+          "source": "liverpool-report",
+          "locator": "Report title and final score"
+        }
+      ]
+    }
+  },
+  "policy": {
+    "scope": "completed_match_reference",
+    "asOfCursor": false,
+    "knownThen": false,
+    "completeEventFeed": false,
+    "measuredPositions": false,
+    "pitchIdentityJoins": false,
+    "applicationInput": false,
+    "generatedMovement": false
+  },
+  "players": [
+    {
+      "id": "brentford:kelleher",
+      "name": "Caoimhín Kelleher",
+      "team": "brentford",
+      "shirt": 1,
+      "status": "starter",
+      "role": null,
+      "provenance": "reported",
+      "lineupEvidence": {
+        "source": "pl-lineups",
+        "locator": "brentford starting XI; shirt 1; Caoimhín Kelleher"
+      },
+      "nameEvidence": {
+        "source": "pl-lineups",
+        "locator": "brentford starting XI; shirt 1; Caoimhín Kelleher"
+      },
+      "captainEvidence": null
+    },
+    {
+      "id": "brentford:kayode",
+      "name": "Michael Kayode",
+      "team": "brentford",
+      "shirt": 33,
+      "status": "starter",
+      "role": null,
+      "provenance": "reported",
+      "lineupEvidence": {
+        "source": "pl-lineups",
+        "locator": "brentford starting XI; shirt 33; Michael Kayode"
+      },
+      "nameEvidence": {
+        "source": "pl-lineups",
+        "locator": "brentford starting XI; shirt 33; Michael Kayode"
+      },
+      "captainEvidence": null
+    },
+    {
+      "id": "brentford:van-den-berg",
+      "name": "Sepp van den Berg",
+      "team": "brentford",
+      "shirt": 4,
+      "status": "starter",
+      "role": null,
+      "provenance": "reported",
+      "lineupEvidence": {
+        "source": "pl-lineups",
+        "locator": "brentford starting XI; shirt 4; Sepp van den Berg"
+      },
+      "nameEvidence": {
+        "source": "pl-lineups",
+        "locator": "brentford starting XI; shirt 4; Sepp van den Berg"
+      },
+      "captainEvidence": null
+    },
+    {
+      "id": "brentford:ajer",
+      "name": "Kristoffer Ajer",
+      "team": "brentford",
+      "shirt": 20,
+      "status": "starter",
+      "role": null,
+      "provenance": "reported",
+      "lineupEvidence": {
+        "source": "pl-lineups",
+        "locator": "brentford starting XI; shirt 20; Kristoffer Ajer"
+      },
+      "nameEvidence": {
+        "source": "pl-lineups",
+        "locator": "brentford starting XI; shirt 20; Kristoffer Ajer"
+      },
+      "captainEvidence": null
+    },
+    {
+      "id": "brentford:lewis-potter",
+      "name": "Keane Lewis-Potter",
+      "team": "brentford",
+      "shirt": 23,
+      "status": "starter",
+      "role": null,
+      "provenance": "reported",
+      "lineupEvidence": {
+        "source": "pl-lineups",
+        "locator": "brentford starting XI; shirt 23; Keane Lewis-Potter"
+      },
+      "nameEvidence": {
+        "source": "pl-lineups",
+        "locator": "brentford starting XI; shirt 23; Keane Lewis-Potter"
+      },
+      "captainEvidence": null
+    },
+    {
+      "id": "brentford:yarmoliuk",
+      "name": "Yehor Yarmoliuk",
+      "team": "brentford",
+      "shirt": 6,
+      "status": "starter",
+      "role": null,
+      "provenance": "reported",
+      "lineupEvidence": {
+        "source": "pl-lineups",
+        "locator": "brentford starting XI; shirt 6; Yehor Yarmoliuk"
+      },
+      "nameEvidence": {
+        "source": "pl-lineups",
+        "locator": "brentford starting XI; shirt 6; Yehor Yarmoliuk"
+      },
+      "captainEvidence": null
+    },
+    {
+      "id": "brentford:janelt",
+      "name": "Vitaly Janelt",
+      "team": "brentford",
+      "shirt": 27,
+      "status": "starter",
+      "role": null,
+      "provenance": "reported",
+      "lineupEvidence": {
+        "source": "pl-lineups",
+        "locator": "brentford starting XI; shirt 27; Vitaly Janelt"
+      },
+      "nameEvidence": {
+        "source": "pl-lineups",
+        "locator": "brentford starting XI; shirt 27; Vitaly Janelt"
+      },
+      "captainEvidence": {
+        "source": "pl-lineups",
+        "locator": "brentford starting XI; shirt 27; Vitaly Janelt; C marker"
+      }
+    },
+    {
+      "id": "brentford:ouattara",
+      "name": "Dango Ouattara",
+      "team": "brentford",
+      "shirt": 11,
+      "status": "starter",
+      "role": null,
+      "provenance": "reported",
+      "lineupEvidence": {
+        "source": "pl-lineups",
+        "locator": "brentford starting XI; shirt 11; Dango Ouattara"
+      },
+      "nameEvidence": {
+        "source": "pl-lineups",
+        "locator": "brentford starting XI; shirt 11; Dango Ouattara"
+      },
+      "captainEvidence": null
+    },
+    {
+      "id": "brentford:jensen",
+      "name": "Mathias Jensen",
+      "team": "brentford",
+      "shirt": 8,
+      "status": "starter",
+      "role": null,
+      "provenance": "reported",
+      "lineupEvidence": {
+        "source": "pl-lineups",
+        "locator": "brentford starting XI; shirt 8; Mathias Jensen"
+      },
+      "nameEvidence": {
+        "source": "pl-lineups",
+        "locator": "brentford starting XI; shirt 8; Mathias Jensen"
+      },
+      "captainEvidence": null
+    },
+    {
+      "id": "brentford:anthony",
+      "name": "Jaidon Anthony",
+      "team": "brentford",
+      "shirt": 19,
+      "status": "starter",
+      "role": null,
+      "provenance": "reported",
+      "lineupEvidence": {
+        "source": "pl-lineups",
+        "locator": "brentford starting XI; shirt 19; Jaidon Anthony"
+      },
+      "nameEvidence": {
+        "source": "pl-lineups",
+        "locator": "brentford starting XI; shirt 19; Jaidon Anthony"
+      },
+      "captainEvidence": null
+    },
+    {
+      "id": "brentford:thiago",
+      "name": "Igor Thiago Nascimento Rodrigues",
+      "team": "brentford",
+      "shirt": 9,
+      "status": "starter",
+      "role": null,
+      "provenance": "reported",
+      "lineupEvidence": {
+        "source": "pl-lineups",
+        "locator": "brentford starting XI; shirt 9; Igor Thiago Nascimento Rodrigues"
+      },
+      "nameEvidence": {
+        "source": "pl-lineups",
+        "locator": "brentford starting XI; shirt 9; Igor Thiago Nascimento Rodrigues"
+      },
+      "captainEvidence": null
+    },
+    {
+      "id": "brentford:hickey",
+      "name": "Aaron Hickey",
+      "team": "brentford",
+      "shirt": 2,
+      "status": "bench",
+      "role": null,
+      "provenance": "reported",
+      "lineupEvidence": {
+        "source": "pl-lineups",
+        "locator": "brentford Substitutes; shirt 2; Aaron Hickey"
+      },
+      "nameEvidence": {
+        "source": "pl-lineups",
+        "locator": "brentford Substitutes; shirt 2; Aaron Hickey"
+      },
+      "captainEvidence": null
+    },
+    {
+      "id": "brentford:schade",
+      "name": "Kevin Schade",
+      "team": "brentford",
+      "shirt": 7,
+      "status": "bench",
+      "role": null,
+      "provenance": "reported",
+      "lineupEvidence": {
+        "source": "pl-lineups",
+        "locator": "brentford Substitutes; shirt 7; Kevin Schade"
+      },
+      "nameEvidence": {
+        "source": "pl-lineups",
+        "locator": "brentford Substitutes; shirt 7; Kevin Schade"
+      },
+      "captainEvidence": null
+    },
+    {
+      "id": "brentford:valdimarsson",
+      "name": "Hákon Valdimarsson",
+      "team": "brentford",
+      "shirt": 12,
+      "status": "bench",
+      "role": null,
+      "provenance": "reported",
+      "lineupEvidence": {
+        "source": "pl-lineups",
+        "locator": "brentford Substitutes; shirt 12; Hákon Valdimarsson"
+      },
+      "nameEvidence": {
+        "source": "pl-lineups",
+        "locator": "brentford Substitutes; shirt 12; Hákon Valdimarsson"
+      },
+      "captainEvidence": null
+    },
+    {
+      "id": "brentford:wilson",
+      "name": "Callum Wilson",
+      "team": "brentford",
+      "shirt": 13,
+      "status": "bench",
+      "role": null,
+      "provenance": "reported",
+      "lineupEvidence": {
+        "source": "pl-lineups",
+        "locator": "brentford Substitutes; shirt 13; Callum Wilson"
+      },
+      "nameEvidence": {
+        "source": "pl-lineups",
+        "locator": "brentford Substitutes; shirt 13; Callum Wilson"
+      },
+      "captainEvidence": null
+    },
+    {
+      "id": "brentford:carvalho",
+      "name": "Fábio Carvalho",
+      "team": "brentford",
+      "shirt": 14,
+      "status": "bench",
+      "role": null,
+      "provenance": "reported",
+      "lineupEvidence": {
+        "source": "pl-lineups",
+        "locator": "brentford Substitutes; shirt 14; Fábio Carvalho"
+      },
+      "nameEvidence": {
+        "source": "pl-lineups",
+        "locator": "brentford Substitutes; shirt 14; Fábio Carvalho"
+      },
+      "captainEvidence": null
+    },
+    {
+      "id": "brentford:sangare",
+      "name": "Mamadou Sangaré",
+      "team": "brentford",
+      "shirt": 18,
+      "status": "bench",
+      "role": null,
+      "provenance": "reported",
+      "lineupEvidence": {
+        "source": "pl-lineups",
+        "locator": "brentford Substitutes; shirt 18; Mamadou Sangaré"
+      },
+      "nameEvidence": {
+        "source": "pl-lineups",
+        "locator": "brentford Substitutes; shirt 18; Mamadou Sangaré"
+      },
+      "captainEvidence": null
+    },
+    {
+      "id": "brentford:collins",
+      "name": "Nathan Collins",
+      "team": "brentford",
+      "shirt": 22,
+      "status": "bench",
+      "role": null,
+      "provenance": "reported",
+      "lineupEvidence": {
+        "source": "pl-lineups",
+        "locator": "brentford Substitutes; shirt 22; Nathan Collins"
+      },
+      "nameEvidence": {
+        "source": "pl-lineups",
+        "locator": "brentford Substitutes; shirt 22; Nathan Collins"
+      },
+      "captainEvidence": null
+    },
+    {
+      "id": "brentford:damsgaard",
+      "name": "Mikkel Damsgaard",
+      "team": "brentford",
+      "shirt": 24,
+      "status": "bench",
+      "role": null,
+      "provenance": "reported",
+      "lineupEvidence": {
+        "source": "pl-lineups",
+        "locator": "brentford Substitutes; shirt 24; Mikkel Damsgaard"
+      },
+      "nameEvidence": {
+        "source": "pl-lineups",
+        "locator": "brentford Substitutes; shirt 24; Mikkel Damsgaard"
+      },
+      "captainEvidence": null
+    },
+    {
+      "id": "brentford:diouf",
+      "name": "El Hadji Malick Diouf",
+      "team": "brentford",
+      "shirt": 25,
+      "status": "bench",
+      "role": null,
+      "provenance": "reported",
+      "lineupEvidence": {
+        "source": "pl-lineups",
+        "locator": "brentford Substitutes; shirt 25; El Hadji Malick Diouf"
+      },
+      "nameEvidence": {
+        "source": "pl-lineups",
+        "locator": "brentford Substitutes; shirt 25; El Hadji Malick Diouf"
+      },
+      "captainEvidence": null
+    },
+    {
+      "id": "liverpool:alisson",
+      "name": "Alisson Ramsés Becker",
+      "team": "liverpool",
+      "shirt": 1,
+      "status": "starter",
+      "role": null,
+      "provenance": "reported",
+      "lineupEvidence": {
+        "source": "pl-lineups",
+        "locator": "liverpool starting XI; shirt 1; Alisson Ramsés Becker"
+      },
+      "nameEvidence": {
+        "source": "pl-lineups",
+        "locator": "liverpool starting XI; shirt 1; Alisson Ramsés Becker"
+      },
+      "captainEvidence": null
+    },
+    {
+      "id": "liverpool:araujo",
+      "name": "Ronald Araujo",
+      "team": "liverpool",
+      "shirt": 33,
+      "status": "starter",
+      "role": null,
+      "provenance": "reported",
+      "lineupEvidence": {
+        "source": "pl-lineups",
+        "locator": "liverpool starting XI; shirt 33; Ronald Araujo"
+      },
+      "nameEvidence": {
+        "source": "pl-lineups",
+        "locator": "liverpool starting XI; shirt 33; Ronald Araujo"
+      },
+      "captainEvidence": null
+    },
+    {
+      "id": "liverpool:jacquet",
+      "name": "Jérémy Jacquet",
+      "team": "liverpool",
+      "shirt": 5,
+      "status": "starter",
+      "role": null,
+      "provenance": "reported",
+      "lineupEvidence": {
+        "source": "pl-lineups",
+        "locator": "liverpool starting XI; shirt 5; Jérémy Jacquet"
+      },
+      "nameEvidence": {
+        "source": "pl-lineups",
+        "locator": "liverpool starting XI; shirt 5; Jérémy Jacquet"
+      },
+      "captainEvidence": null
+    },
+    {
+      "id": "liverpool:van-dijk",
+      "name": "Virgil van Dijk",
+      "team": "liverpool",
+      "shirt": 4,
+      "status": "starter",
+      "role": null,
+      "provenance": "reported",
+      "lineupEvidence": {
+        "source": "pl-lineups",
+        "locator": "liverpool starting XI; shirt 4; Virgil van Dijk"
+      },
+      "nameEvidence": {
+        "source": "pl-lineups",
+        "locator": "liverpool starting XI; shirt 4; Virgil van Dijk"
+      },
+      "captainEvidence": {
+        "source": "pl-lineups",
+        "locator": "liverpool starting XI; shirt 4; Virgil van Dijk; C marker"
+      }
+    },
+    {
+      "id": "liverpool:kerkez",
+      "name": "Milos Kerkez",
+      "team": "liverpool",
+      "shirt": 6,
+      "status": "starter",
+      "role": null,
+      "provenance": "reported",
+      "lineupEvidence": {
+        "source": "pl-lineups",
+        "locator": "liverpool starting XI; shirt 6; Milos Kerkez"
+      },
+      "nameEvidence": {
+        "source": "pl-lineups",
+        "locator": "liverpool starting XI; shirt 6; Milos Kerkez"
+      },
+      "captainEvidence": null
+    },
+    {
+      "id": "liverpool:mac-allister",
+      "name": "Alexis Mac Allister",
+      "team": "liverpool",
+      "shirt": 10,
+      "status": "starter",
+      "role": null,
+      "provenance": "reported",
+      "lineupEvidence": {
+        "source": "pl-lineups",
+        "locator": "liverpool starting XI; shirt 10; Alexis Mac Allister"
+      },
+      "nameEvidence": {
+        "source": "pl-lineups",
+        "locator": "liverpool starting XI; shirt 10; Alexis Mac Allister"
+      },
+      "captainEvidence": null
+    },
+    {
+      "id": "liverpool:szoboszlai",
+      "name": "Dominik Szoboszlai",
+      "team": "liverpool",
+      "shirt": 8,
+      "status": "starter",
+      "role": null,
+      "provenance": "reported",
+      "lineupEvidence": {
+        "source": "pl-lineups",
+        "locator": "liverpool starting XI; shirt 8; Dominik Szoboszlai"
+      },
+      "nameEvidence": {
+        "source": "pl-lineups",
+        "locator": "liverpool starting XI; shirt 8; Dominik Szoboszlai"
+      },
+      "captainEvidence": null
+    },
+    {
+      "id": "liverpool:munoz",
+      "name": "Víctor Muñoz",
+      "team": "liverpool",
+      "shirt": 23,
+      "status": "starter",
+      "role": null,
+      "provenance": "reported",
+      "lineupEvidence": {
+        "source": "pl-lineups",
+        "locator": "liverpool starting XI; shirt 23; Víctor Muñoz"
+      },
+      "nameEvidence": {
+        "source": "pl-lineups",
+        "locator": "liverpool starting XI; shirt 23; Víctor Muñoz"
+      },
+      "captainEvidence": null
+    },
+    {
+      "id": "liverpool:wirtz",
+      "name": "Florian Wirtz",
+      "team": "liverpool",
+      "shirt": 7,
+      "status": "starter",
+      "role": null,
+      "provenance": "reported",
+      "lineupEvidence": {
+        "source": "pl-lineups",
+        "locator": "liverpool starting XI; shirt 7; Florian Wirtz"
+      },
+      "nameEvidence": {
+        "source": "pl-lineups",
+        "locator": "liverpool starting XI; shirt 7; Florian Wirtz"
+      },
+      "captainEvidence": null
+    },
+    {
+      "id": "liverpool:barcola",
+      "name": "Bradley Barcola",
+      "team": "liverpool",
+      "shirt": 29,
+      "status": "starter",
+      "role": null,
+      "provenance": "reported",
+      "lineupEvidence": {
+        "source": "pl-lineups",
+        "locator": "liverpool starting XI; shirt 29; Bradley Barcola"
+      },
+      "nameEvidence": {
+        "source": "pl-lineups",
+        "locator": "liverpool starting XI; shirt 29; Bradley Barcola"
+      },
+      "captainEvidence": null
+    },
+    {
+      "id": "liverpool:isak",
+      "name": "Alexander Isak",
+      "team": "liverpool",
+      "shirt": 9,
+      "status": "starter",
+      "role": null,
+      "provenance": "reported",
+      "lineupEvidence": {
+        "source": "pl-lineups",
+        "locator": "liverpool starting XI; shirt 9; Alexander Isak"
+      },
+      "nameEvidence": {
+        "source": "pl-lineups",
+        "locator": "liverpool starting XI; shirt 9; Alexander Isak"
+      },
+      "captainEvidence": null
+    },
+    {
+      "id": "liverpool:gomez",
+      "name": "Joe Gomez",
+      "team": "liverpool",
+      "shirt": 2,
+      "status": "bench",
+      "role": null,
+      "provenance": "reported",
+      "lineupEvidence": {
+        "source": "pl-lineups",
+        "locator": "liverpool Substitutes; shirt 2; Joe Gomez"
+      },
+      "nameEvidence": {
+        "source": "pl-lineups",
+        "locator": "liverpool Substitutes; shirt 2; Joe Gomez"
+      },
+      "captainEvidence": null
+    },
+    {
+      "id": "liverpool:endo",
+      "name": "Wataru Endo",
+      "team": "liverpool",
+      "shirt": 3,
+      "status": "bench",
+      "role": null,
+      "provenance": "reported",
+      "lineupEvidence": {
+        "source": "pl-lineups",
+        "locator": "liverpool Substitutes; shirt 3; Wataru Endo"
+      },
+      "nameEvidence": {
+        "source": "pl-lineups",
+        "locator": "liverpool Substitutes; shirt 3; Wataru Endo"
+      },
+      "captainEvidence": null
+    },
+    {
+      "id": "liverpool:gakpo",
+      "name": "Cody Gakpo",
+      "team": "liverpool",
+      "shirt": 18,
+      "status": "bench",
+      "role": null,
+      "provenance": "reported",
+      "lineupEvidence": {
+        "source": "pl-lineups",
+        "locator": "liverpool Substitutes; shirt 18; Cody Gakpo"
+      },
+      "nameEvidence": {
+        "source": "pl-lineups",
+        "locator": "liverpool Substitutes; shirt 18; Cody Gakpo"
+      },
+      "captainEvidence": null
+    },
+    {
+      "id": "liverpool:tsimikas",
+      "name": "Kostas Tsimikas",
+      "team": "liverpool",
+      "shirt": 21,
+      "status": "bench",
+      "role": null,
+      "provenance": "reported",
+      "lineupEvidence": {
+        "source": "pl-lineups",
+        "locator": "liverpool Substitutes; shirt 21; Kostas Tsimikas"
+      },
+      "nameEvidence": {
+        "source": "pl-lineups",
+        "locator": "liverpool Substitutes; shirt 21; Kostas Tsimikas"
+      },
+      "captainEvidence": null
+    },
+    {
+      "id": "liverpool:mamardashvili",
+      "name": "Giorgi Mamardashvili",
+      "team": "liverpool",
+      "shirt": 25,
+      "status": "bench",
+      "role": null,
+      "provenance": "reported",
+      "lineupEvidence": {
+        "source": "pl-lineups",
+        "locator": "liverpool Substitutes; shirt 25; Giorgi Mamardashvili"
+      },
+      "nameEvidence": {
+        "source": "pl-lineups",
+        "locator": "liverpool Substitutes; shirt 25; Giorgi Mamardashvili"
+      },
+      "captainEvidence": null
+    },
+    {
+      "id": "liverpool:frimpong",
+      "name": "Jeremie Frimpong",
+      "team": "liverpool",
+      "shirt": 30,
+      "status": "bench",
+      "role": null,
+      "provenance": "reported",
+      "lineupEvidence": {
+        "source": "pl-lineups",
+        "locator": "liverpool Substitutes; shirt 30; Jeremie Frimpong"
+      },
+      "nameEvidence": {
+        "source": "pl-lineups",
+        "locator": "liverpool Substitutes; shirt 30; Jeremie Frimpong"
+      },
+      "captainEvidence": null
+    },
+    {
+      "id": "liverpool:nyoni",
+      "name": "Trey Nyoni",
+      "team": "liverpool",
+      "shirt": 42,
+      "status": "bench",
+      "role": null,
+      "provenance": "reported",
+      "lineupEvidence": {
+        "source": "pl-lineups",
+        "locator": "liverpool Substitutes; shirt 42; Trey Nyoni"
+      },
+      "nameEvidence": {
+        "source": "pl-lineups",
+        "locator": "liverpool Substitutes; shirt 42; Trey Nyoni"
+      },
+      "captainEvidence": null
+    },
+    {
+      "id": "liverpool:koumas",
+      "name": "Lewis Koumas",
+      "team": "liverpool",
+      "shirt": 67,
+      "status": "bench",
+      "role": null,
+      "provenance": "reported",
+      "lineupEvidence": {
+        "source": "pl-lineups",
+        "locator": "liverpool Substitutes; shirt 67; Lewis Koumas"
+      },
+      "nameEvidence": {
+        "source": "pl-lineups",
+        "locator": "liverpool Substitutes; shirt 67; Lewis Koumas"
+      },
+      "captainEvidence": null
+    },
+    {
+      "id": "liverpool:ngumoha",
+      "name": "Rio Ngumoha",
+      "team": "liverpool",
+      "shirt": 73,
+      "status": "bench",
+      "role": null,
+      "provenance": "reported",
+      "lineupEvidence": {
+        "source": "pl-lineups",
+        "locator": "liverpool Substitutes; shirt 73; Rio Ngumoha"
+      },
+      "nameEvidence": {
+        "source": "pl-lineups",
+        "locator": "liverpool Substitutes; shirt 73; Rio Ngumoha"
+      },
+      "captainEvidence": null
+    }
+  ],
+  "formations": [
+    {
+      "team": "brentford",
+      "value": "4-2-3-1",
+      "measured": false,
+      "evidence": {
+        "source": "pl-lineups",
+        "locator": "Brentford Formation label"
+      },
+      "disagreements": [
+        {
+          "value": "4-3-3",
+          "evidence": {
+            "source": "brentford-report",
+            "locator": "Brentford team listing formation"
+          }
+        }
+      ]
+    },
+    {
+      "team": "liverpool",
+      "value": "4-2-3-1",
+      "measured": false,
+      "evidence": {
+        "source": "pl-lineups",
+        "locator": "Liverpool Formation label"
+      },
+      "disagreements": []
+    }
+  ],
+  "stats": [],
+  "events": [
+    {
+      "id": "yellow-1",
+      "kind": "yellow_card",
+      "team": "liverpool",
+      "player": "liverpool:barcola",
+      "time": {
+        "printed": "31",
+        "minute": 31,
+        "added_minute": null,
+        "seconds": null,
+        "precision": "reported_minute",
+        "phase": "first_half"
+      },
+      "provenance": "reported",
+      "mediaInterval": null,
+      "matchClock": null,
+      "availableAt": null,
+      "evidence": {
+        "source": "pl-commentary",
+        "locator": "Full commentary; 31 yellow card; liverpool:barcola"
+      },
+      "disagreements": [],
+      "reason": "bad foul"
+    },
+    {
+      "id": "sub-1",
+      "kind": "substitution",
+      "team": "liverpool",
+      "off": "liverpool:szoboszlai",
+      "on": "liverpool:nyoni",
+      "time": {
+        "printed": "32",
+        "minute": 32,
+        "added_minute": null,
+        "seconds": null,
+        "precision": "reported_minute",
+        "phase": "first_half"
+      },
+      "provenance": "reported",
+      "reason": "injury",
+      "mediaInterval": null,
+      "matchClock": null,
+      "availableAt": null,
+      "evidence": {
+        "source": "pl-commentary",
+        "locator": "Full commentary; 32 Substitution; liverpool:nyoni replaces liverpool:szoboszlai"
+      },
+      "disagreements": []
+    },
+    {
+      "id": "var-1",
+      "kind": "var_decision",
+      "team": "liverpool",
+      "player": null,
+      "time": {
+        "printed": "41",
+        "minute": 41,
+        "added_minute": null,
+        "seconds": null,
+        "precision": "reported_minute",
+        "phase": "first_half"
+      },
+      "provenance": "reported",
+      "mediaInterval": null,
+      "matchClock": null,
+      "availableAt": null,
+      "evidence": {
+        "source": "pl-commentary",
+        "locator": "Full commentary; 41 VAR Decision: No Penalty Liverpool; no player attribution recorded"
+      },
+      "disagreements": [],
+      "decision": "no_penalty",
+      "participantQualification": "No player attribution recorded from the inspected decision; no penalty incident/contact second is inferred"
+    },
+    {
+      "id": "goal-1",
+      "kind": "goal",
+      "team": "brentford",
+      "player": "brentford:lewis-potter",
+      "time": {
+        "printed": "44",
+        "minute": 44,
+        "added_minute": null,
+        "seconds": null,
+        "precision": "reported_minute",
+        "phase": "first_half"
+      },
+      "provenance": "reported",
+      "mediaInterval": null,
+      "matchClock": null,
+      "availableAt": null,
+      "evidence": {
+        "source": "pl-commentary",
+        "locator": "Full commentary; 44 goal; brentford:lewis-potter"
+      },
+      "disagreements": [],
+      "scoreAfter": [
+        1,
+        0
+      ],
+      "assist": {
+        "player": "brentford:thiago",
+        "status": "explicitly_credited",
+        "evidence": {
+          "source": "pl-commentary",
+          "locator": "44 Goal; assist Igor Thiago"
+        }
+      }
+    },
+    {
+      "id": "var-2",
+      "kind": "var_decision",
+      "team": "brentford",
+      "player": "brentford:yarmoliuk",
+      "time": {
+        "printed": "45+5",
+        "minute": 45,
+        "added_minute": 5,
+        "seconds": null,
+        "precision": "reported_minute",
+        "phase": "first_half"
+      },
+      "provenance": "reported",
+      "mediaInterval": null,
+      "matchClock": null,
+      "availableAt": null,
+      "evidence": {
+        "source": "pl-commentary",
+        "locator": "Full commentary; 45+5 VAR Decision: Card upgraded Yehor Yarmoliuk; brentford:yarmoliuk"
+      },
+      "disagreements": [],
+      "decision": "card_upgraded",
+      "relatedEvent": "dismissal-1",
+      "participantQualification": "Separate review decision; not a second dismissal"
+    },
+    {
+      "id": "dismissal-1",
+      "kind": "red_card",
+      "team": "brentford",
+      "player": "brentford:yarmoliuk",
+      "time": {
+        "printed": "45+8",
+        "minute": 45,
+        "added_minute": 8,
+        "seconds": null,
+        "precision": "reported_minute",
+        "phase": "first_half"
+      },
+      "provenance": "reported",
+      "mediaInterval": null,
+      "matchClock": null,
+      "availableAt": null,
+      "evidence": {
+        "source": "pl-commentary",
+        "locator": "Full commentary; 45+8 Red Card; brentford:yarmoliuk"
+      },
+      "disagreements": [],
+      "dismissalType": "straight_red",
+      "reason": "violent conduct",
+      "classificationEvidence": {
+        "source": "pl-overview",
+        "locator": "Match recap; Yarmoliuk straight red card"
+      }
+    },
+    {
+      "id": "sub-2",
+      "kind": "substitution",
+      "team": "liverpool",
+      "off": "liverpool:araujo",
+      "on": "liverpool:frimpong",
+      "time": {
+        "printed": "45",
+        "minute": 45,
+        "added_minute": null,
+        "seconds": null,
+        "precision": "reported_minute",
+        "phase": "half_time"
+      },
+      "provenance": "reported",
+      "reason": null,
+      "mediaInterval": null,
+      "matchClock": null,
+      "availableAt": null,
+      "evidence": {
+        "source": "pl-commentary",
+        "locator": "Full commentary; 45 Substitution; liverpool:frimpong replaces liverpool:araujo"
+      },
+      "disagreements": [
+        {
+          "value": "46",
+          "evidence": {
+            "source": "liverpool-report",
+            "locator": "Team listing; Frimpong 46; narrative says interval"
+          }
+        }
+      ],
+      "phaseEvidence": {
+        "source": "pl-commentary",
+        "locator": "Three raw-45 substitutions listed between First Half ends 45+11 and Second Half begins"
+      },
+      "timingQualification": "PL prints 45; source sequence identifies halftime. This is not an assertion that the change preceded 45+8 dismissal."
+    },
+    {
+      "id": "sub-3",
+      "kind": "substitution",
+      "team": "brentford",
+      "off": "brentford:ouattara",
+      "on": "brentford:schade",
+      "time": {
+        "printed": "45",
+        "minute": 45,
+        "added_minute": null,
+        "seconds": null,
+        "precision": "reported_minute",
+        "phase": "half_time"
+      },
+      "provenance": "reported",
+      "reason": null,
+      "mediaInterval": null,
+      "matchClock": null,
+      "availableAt": null,
+      "evidence": {
+        "source": "pl-commentary",
+        "locator": "Full commentary; 45 Substitution; brentford:schade replaces brentford:ouattara"
+      },
+      "disagreements": [
+        {
+          "value": "HT",
+          "evidence": {
+            "source": "brentford-report",
+            "locator": "Team listing; schade for ouattara HT"
+          }
+        }
+      ],
+      "phaseEvidence": {
+        "source": "pl-commentary",
+        "locator": "Three raw-45 substitutions listed between First Half ends 45+11 and Second Half begins"
+      },
+      "timingQualification": "PL prints 45; source sequence identifies halftime. This is not an assertion that the change preceded 45+8 dismissal."
+    },
+    {
+      "id": "sub-4",
+      "kind": "substitution",
+      "team": "brentford",
+      "off": "brentford:jensen",
+      "on": "brentford:sangare",
+      "time": {
+        "printed": "45",
+        "minute": 45,
+        "added_minute": null,
+        "seconds": null,
+        "precision": "reported_minute",
+        "phase": "half_time"
+      },
+      "provenance": "reported",
+      "reason": null,
+      "mediaInterval": null,
+      "matchClock": null,
+      "availableAt": null,
+      "evidence": {
+        "source": "pl-commentary",
+        "locator": "Full commentary; 45 Substitution; brentford:sangare replaces brentford:jensen"
+      },
+      "disagreements": [
+        {
+          "value": "HT",
+          "evidence": {
+            "source": "brentford-report",
+            "locator": "Team listing; sangare for jensen HT"
+          }
+        }
+      ],
+      "phaseEvidence": {
+        "source": "pl-commentary",
+        "locator": "Three raw-45 substitutions listed between First Half ends 45+11 and Second Half begins"
+      },
+      "timingQualification": "PL prints 45; source sequence identifies halftime. This is not an assertion that the change preceded 45+8 dismissal."
+    },
+    {
+      "id": "yellow-2",
+      "kind": "yellow_card",
+      "team": "brentford",
+      "player": "brentford:thiago",
+      "time": {
+        "printed": "46",
+        "minute": 46,
+        "added_minute": null,
+        "seconds": null,
+        "precision": "reported_minute",
+        "phase": "second_half"
+      },
+      "provenance": "reported",
+      "mediaInterval": null,
+      "matchClock": null,
+      "availableAt": null,
+      "evidence": {
+        "source": "pl-commentary",
+        "locator": "Full commentary; 46 yellow card; brentford:thiago"
+      },
+      "disagreements": [],
+      "reason": "bad foul"
+    },
+    {
+      "id": "yellow-3",
+      "kind": "yellow_card",
+      "team": "liverpool",
+      "player": "liverpool:jacquet",
+      "time": {
+        "printed": "49",
+        "minute": 49,
+        "added_minute": null,
+        "seconds": null,
+        "precision": "reported_minute",
+        "phase": "second_half"
+      },
+      "provenance": "reported",
+      "mediaInterval": null,
+      "matchClock": null,
+      "availableAt": null,
+      "evidence": {
+        "source": "pl-commentary",
+        "locator": "Full commentary; 49 yellow card; liverpool:jacquet"
+      },
+      "disagreements": [],
+      "reason": "bad foul"
+    },
+    {
+      "id": "sub-5",
+      "kind": "substitution",
+      "team": "liverpool",
+      "off": "liverpool:frimpong",
+      "on": "liverpool:ngumoha",
+      "time": {
+        "printed": "52",
+        "minute": 52,
+        "added_minute": null,
+        "seconds": null,
+        "precision": "reported_minute",
+        "phase": "second_half"
+      },
+      "provenance": "reported",
+      "reason": "injury",
+      "mediaInterval": null,
+      "matchClock": null,
+      "availableAt": null,
+      "evidence": {
+        "source": "pl-commentary",
+        "locator": "Full commentary; 52 Substitution; liverpool:ngumoha replaces liverpool:frimpong"
+      },
+      "disagreements": []
+    },
+    {
+      "id": "yellow-4",
+      "kind": "yellow_card",
+      "team": "liverpool",
+      "player": "liverpool:mac-allister",
+      "time": {
+        "printed": "53",
+        "minute": 53,
+        "added_minute": null,
+        "seconds": null,
+        "precision": "reported_minute",
+        "phase": "second_half"
+      },
+      "provenance": "reported",
+      "mediaInterval": null,
+      "matchClock": null,
+      "availableAt": null,
+      "evidence": {
+        "source": "pl-commentary",
+        "locator": "Full commentary; 53 yellow card; liverpool:mac-allister"
+      },
+      "disagreements": [],
+      "reason": null
+    },
+    {
+      "id": "yellow-5",
+      "kind": "yellow_card",
+      "team": "brentford",
+      "player": "brentford:schade",
+      "time": {
+        "printed": "60",
+        "minute": 60,
+        "added_minute": null,
+        "seconds": null,
+        "precision": "reported_minute",
+        "phase": "second_half"
+      },
+      "provenance": "reported",
+      "mediaInterval": null,
+      "matchClock": null,
+      "availableAt": null,
+      "evidence": {
+        "source": "pl-commentary",
+        "locator": "Full commentary; 60 yellow card; brentford:schade"
+      },
+      "disagreements": [],
+      "reason": null
+    },
+    {
+      "id": "goal-2",
+      "kind": "goal",
+      "team": "liverpool",
+      "player": "liverpool:munoz",
+      "time": {
+        "printed": "62",
+        "minute": 62,
+        "added_minute": null,
+        "seconds": null,
+        "precision": "reported_minute",
+        "phase": "second_half"
+      },
+      "provenance": "reported",
+      "mediaInterval": null,
+      "matchClock": null,
+      "availableAt": null,
+      "evidence": {
+        "source": "pl-commentary",
+        "locator": "Full commentary; 62 goal; liverpool:munoz"
+      },
+      "disagreements": [],
+      "scoreAfter": [
+        1,
+        1
+      ],
+      "assist": {
+        "player": "liverpool:wirtz",
+        "status": "explicitly_credited",
+        "evidence": {
+          "source": "pl-commentary",
+          "locator": "62 Goal; assist Florian Wirtz"
+        }
+      }
+    },
+    {
+      "id": "yellow-6",
+      "kind": "yellow_card",
+      "team": "brentford",
+      "player": "brentford:janelt",
+      "time": {
+        "printed": "63",
+        "minute": 63,
+        "added_minute": null,
+        "seconds": null,
+        "precision": "reported_minute",
+        "phase": "second_half"
+      },
+      "provenance": "reported",
+      "mediaInterval": null,
+      "matchClock": null,
+      "availableAt": null,
+      "evidence": {
+        "source": "pl-commentary",
+        "locator": "Full commentary; 63 yellow card; brentford:janelt"
+      },
+      "disagreements": [],
+      "reason": null,
+      "reasonClaims": [
+        {
+          "value": "dissent",
+          "evidence": {
+            "source": "pl-overview",
+            "locator": "Match recap; Janelt first caution for dissent"
+          }
+        }
+      ]
+    },
+    {
+      "id": "goal-3",
+      "kind": "goal",
+      "team": "liverpool",
+      "player": "liverpool:isak",
+      "time": {
+        "printed": "70",
+        "minute": 70,
+        "added_minute": null,
+        "seconds": null,
+        "precision": "reported_minute",
+        "phase": "second_half"
+      },
+      "provenance": "reported",
+      "mediaInterval": null,
+      "matchClock": null,
+      "availableAt": null,
+      "evidence": {
+        "source": "pl-commentary",
+        "locator": "Full commentary; 70 goal; liverpool:isak"
+      },
+      "disagreements": [],
+      "scoreAfter": [
+        1,
+        2
+      ],
+      "assist": {
+        "player": "liverpool:barcola",
+        "status": "explicitly_credited",
+        "evidence": {
+          "source": "pl-commentary",
+          "locator": "70 Goal; assist Bradley Barcola"
+        }
+      }
+    },
+    {
+      "id": "sub-6",
+      "kind": "substitution",
+      "team": "brentford",
+      "off": "brentford:van-den-berg",
+      "on": "brentford:hickey",
+      "time": {
+        "printed": "71",
+        "minute": 71,
+        "added_minute": null,
+        "seconds": null,
+        "precision": "reported_minute",
+        "phase": "second_half"
+      },
+      "provenance": "reported",
+      "reason": null,
+      "mediaInterval": null,
+      "matchClock": null,
+      "availableAt": null,
+      "evidence": {
+        "source": "pl-commentary",
+        "locator": "Full commentary; 71 Substitution; brentford:hickey replaces brentford:van-den-berg"
+      },
+      "disagreements": []
+    },
+    {
+      "id": "sub-7",
+      "kind": "substitution",
+      "team": "brentford",
+      "off": "brentford:lewis-potter",
+      "on": "brentford:diouf",
+      "time": {
+        "printed": "77",
+        "minute": 77,
+        "added_minute": null,
+        "seconds": null,
+        "precision": "reported_minute",
+        "phase": "second_half"
+      },
+      "provenance": "reported",
+      "reason": null,
+      "mediaInterval": null,
+      "matchClock": null,
+      "availableAt": null,
+      "evidence": {
+        "source": "pl-commentary",
+        "locator": "Full commentary; 77 Substitution; brentford:diouf replaces brentford:lewis-potter"
+      },
+      "disagreements": []
+    },
+    {
+      "id": "sub-8",
+      "kind": "substitution",
+      "team": "brentford",
+      "off": "brentford:anthony",
+      "on": "brentford:damsgaard",
+      "time": {
+        "printed": "77",
+        "minute": 77,
+        "added_minute": null,
+        "seconds": null,
+        "precision": "reported_minute",
+        "phase": "second_half"
+      },
+      "provenance": "reported",
+      "reason": null,
+      "mediaInterval": null,
+      "matchClock": null,
+      "availableAt": null,
+      "evidence": {
+        "source": "pl-commentary",
+        "locator": "Full commentary; 77 Substitution; brentford:damsgaard replaces brentford:anthony"
+      },
+      "disagreements": []
+    },
+    {
+      "id": "sub-9",
+      "kind": "substitution",
+      "team": "liverpool",
+      "off": "liverpool:isak",
+      "on": "liverpool:koumas",
+      "time": {
+        "printed": "79",
+        "minute": 79,
+        "added_minute": null,
+        "seconds": null,
+        "precision": "reported_minute",
+        "phase": "second_half"
+      },
+      "provenance": "reported",
+      "reason": null,
+      "mediaInterval": null,
+      "matchClock": null,
+      "availableAt": null,
+      "evidence": {
+        "source": "pl-commentary",
+        "locator": "Full commentary; 79 Substitution; liverpool:koumas replaces liverpool:isak"
+      },
+      "disagreements": []
+    },
+    {
+      "id": "sub-10",
+      "kind": "substitution",
+      "team": "liverpool",
+      "off": "liverpool:munoz",
+      "on": "liverpool:gomez",
+      "time": {
+        "printed": "79",
+        "minute": 79,
+        "added_minute": null,
+        "seconds": null,
+        "precision": "reported_minute",
+        "phase": "second_half"
+      },
+      "provenance": "reported",
+      "reason": null,
+      "mediaInterval": null,
+      "matchClock": null,
+      "availableAt": null,
+      "evidence": {
+        "source": "pl-commentary",
+        "locator": "Full commentary; 79 Substitution; liverpool:gomez replaces liverpool:munoz"
+      },
+      "disagreements": []
+    },
+    {
+      "id": "dismissal-2",
+      "kind": "red_card",
+      "team": "brentford",
+      "player": "brentford:janelt",
+      "time": {
+        "printed": "90+2",
+        "minute": 90,
+        "added_minute": 2,
+        "seconds": null,
+        "precision": "reported_minute",
+        "phase": "second_half"
+      },
+      "provenance": "reported",
+      "mediaInterval": null,
+      "matchClock": null,
+      "availableAt": null,
+      "evidence": {
+        "source": "pl-commentary",
+        "locator": "Full commentary; 90+2 Second Yellow Card; brentford:janelt"
+      },
+      "disagreements": [],
+      "dismissalType": "second_yellow",
+      "reason": "bad foul"
+    }
+  ],
+  "summary": {
+    "halfTimeResult": {
+      "value": [
+        1,
+        0
+      ],
+      "evidence": {
+        "source": "pl-overview",
+        "locator": "Fixture header; HT Brentford 1 Liverpool 0"
+      }
+    },
+    "venue": null,
+    "attendance": null,
+    "scheduledKickoff": null,
+    "officials": []
+  },
+  "reportedBoundaries": [
+    {
+      "id": "half-time",
+      "kind": "reported_period_end",
+      "time": {
+        "printed": "45+11",
+        "minute": 45,
+        "added_minute": 11,
+        "seconds": null,
+        "precision": "reported_minute",
+        "phase": "first_half"
+      },
+      "provenance": "reported",
+      "mediaInterval": null,
+      "matchClock": null,
+      "availableAt": null,
+      "evidence": {
+        "source": "pl-commentary",
+        "locator": "Full commentary; 45+11 First Half ends"
+      }
+    },
+    {
+      "id": "full-time",
+      "kind": "reported_period_end",
+      "time": {
+        "printed": "90+7",
+        "minute": 90,
+        "added_minute": 7,
+        "seconds": null,
+        "precision": "reported_minute",
+        "phase": "second_half"
+      },
+      "provenance": "reported",
+      "mediaInterval": null,
+      "matchClock": null,
+      "availableAt": null,
+      "evidence": {
+        "source": "pl-commentary",
+        "locator": "Full commentary; 90+7 Full Time"
+      }
+    }
+  ],
+  "sourceConflicts": [
+    {
+      "id": "brentford-report-url-date",
+      "field": "fixture.date",
+      "status": "retained",
+      "claims": [
+        {
+          "value": "2026-11-17",
+          "claimType": "URL date segment",
+          "evidence": {
+            "source": "brentford-report",
+            "locator": "URL path ends 17-11-2026"
+          }
+        },
+        {
+          "value": "2026-10-17",
+          "claimType": "report body publication/date",
+          "evidence": {
+            "source": "brentford-report",
+            "locator": "Body date 17 Oct 26 and match report context"
+          }
+        }
+      ],
+      "treatment": "Use corroborated 17 October fixture identity; preserve misleading URL, never silently rewrite it."
+    },
+    {
+      "id": "pl-goal-interval-prose",
+      "field": "goal-3 narrative interval after goal-2",
+      "status": "unresolved",
+      "claims": [
+        {
+          "value": "seven minutes later",
+          "evidence": {
+            "source": "pl-overview",
+            "locator": "Recap prose after the 62-minute equaliser"
+          }
+        },
+        {
+          "value": [
+            "62",
+            "70"
+          ],
+          "evidence": {
+            "source": "pl-commentary",
+            "locator": "Goal rows 62 and 70"
+          }
+        },
+        {
+          "value": "eight minutes",
+          "evidence": {
+            "source": "brentford-report",
+            "locator": "Interval between Liverpool goals"
+          }
+        }
+      ],
+      "treatment": "Retain raw reported 62 and 70. Do not derive exact elapsed seconds from either narrative."
+    }
+  ],
+  "videoLinks": [],
+  "limits": [
+    "Local manually curated reported facts, not application input. Source truth is attributed to the actual browser researcher; the semantic validator does not reread webpages.",
+    "23 selected event rows comprise 21 goal/card/substitution rows plus two VAR decisions; this is not an exhaustive incident feed. Two reported period-end labels are separate context rows.",
+    "Six yellow-card rows exclude the separately classified second-yellow dismissal; there are two dismissals, one straight red and one second-yellow red. Do not add the VAR upgrade as another dismissal.",
+    "Reported minute, phase and source sequence are preserved. No contact second, source-media time, clock mapping, availability cutoff or same-minute ordering is supplied.",
+    "All source availability is unknown. These completed-match claims are retrospective and cannot supply known-then or viewer-cursor answers.",
+    "Fixture rosters, shirt numbers, captain markers and reported formations do not identify visible tracklets or establish actual player positions/roles.",
+    "Uncollected statistics, venue, attendance, kickoff and officials stay empty or null; nonmention is not zero or explicit absence.",
+    "Public official webpages and ordinary playback do not establish redistribution, source-use or hackathon submission clearance."
+  ],
+  "sources": [
+    {
+      "id": "pl-overview",
+      "publisher": "Premier League",
+      "url": "https://www.premierleague.com/en/match/2645256/brentford-vs-liverpool/overview",
+      "observedOn": "2026-10-26",
+      "observationReceipt": "browser-observation-receipt.json",
+      "availableAt": null,
+      "reuse": "not_cleared",
+      "note": "Rendered fixture header, score and match recap"
+    },
+    {
+      "id": "pl-lineups",
+      "publisher": "Premier League",
+      "url": "https://www.premierleague.com/en/match/2645256/brentford-vs-liverpool/lineups",
+      "observedOn": "2026-10-26",
+      "observationReceipt": "browser-observation-receipt.json",
+      "availableAt": null,
+      "reuse": "not_cleared",
+      "note": "Hydrated fixture-specific XI plus Substitutes widget, not generic squad links"
+    },
+    {
+      "id": "pl-commentary",
+      "publisher": "Premier League",
+      "url": "https://www.premierleague.com/en/match/2645256/brentford-vs-liverpool/commentary",
+      "observedOn": "2026-10-26",
+      "observationReceipt": "browser-observation-receipt.json",
+      "availableAt": null,
+      "reuse": "not_cleared",
+      "note": "Full detailed commentary; Key Events filter hides yellow/substitution rows"
+    },
+    {
+      "id": "brentford-report",
+      "publisher": "Brentford FC",
+      "url": "https://www.brentfordfc.com/en/news/match-reports-brentford-1-liverpool-2-premier-league-17-11-2026",
+      "observedOn": "2026-10-26",
+      "observationReceipt": "browser-observation-receipt.json",
+      "availableAt": null,
+      "reuse": "not_cleared",
+      "note": "Club report body dated 17 Oct 26; URL date segment conflicts with body"
+    },
+    {
+      "id": "liverpool-report",
+      "publisher": "Liverpool FC",
+      "url": "https://www.liverpoolfc.com/news/brentford-liverpool-premier-league-match-report",
+      "observedOn": "2026-10-26",
+      "observationReceipt": "browser-observation-receipt.json",
+      "availableAt": null,
+      "reuse": "not_cleared",
+      "note": "Club report and match-team listing"
+    }
+  ]
+}

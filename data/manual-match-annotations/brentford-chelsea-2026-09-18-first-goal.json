@@ -1,0 +1,1013 @@
+{
+  "schemaVersion": 1,
+  "kind": "local_manual_annotations_not_application_input",
+  "fixture": {
+    "id": "premier-league:2026-27:2026-09-18:brentford:chelsea",
+    "officialMatchId": 2645236,
+    "competition": "Premier League",
+    "date": "2026-09-18",
+    "homeId": "brentford",
+    "awayId": "chelsea"
+  },
+  "source": {
+    "videoUrl": "https://www.brentfordfc.com/en/video/0_2hoy7vw7?provider=stream",
+    "reviewedOn": "2026-10-17",
+    "method": "sampled_paused_browser_keyframes",
+    "captureReceipt": {
+      "file": "../../output/premier-league-first-goal/evidence/capture-receipt.json",
+      "bytes": 6424,
+      "sha256": "0707784831e36c42e9240ca68ec52203ec4fe7d9e0f67934b1d8719484f24cfa"
+    },
+    "captureHashManifest": {
+      "file": "../../output/premier-league-first-goal/evidence-hashes.json",
+      "bytes": 3406,
+      "sha256": "7ab91d83833ab43f3a964dda27c84aa5970dcd753fb19b9a008f7b56d953da05"
+    },
+    "mediaFilesRetained": false
+  },
+  "passage": {
+    "clipStart": 3707.22,
+    "clipEnd": 3730,
+    "displayMatchClockStart": "60:14",
+    "displayMatchClockEnd": "60:37",
+    "sampleCount": 16,
+    "continuousReview": false,
+    "clockMapping": "separate_DOM_clip_time_and_displayed_second_no_global_fit"
+  },
+  "dependencies": {
+    "researchPack": {
+      "file": "../match-enrichment/brentford-chelsea-2026-09-18.json",
+      "bytes": 99760,
+      "sha256": "bed64858ef991a06e57e306342414928a2a483aa25f7f3de03adcd89d6de0327"
+    },
+    "sourceRegistry": {
+      "file": "../match-enrichment/sources.json",
+      "bytes": 6281,
+      "sha256": "2ca5d653f5ecdfbdecdd9df2a7945347d140bc590a805b97566115039af6bc54"
+    }
+  },
+  "policy": {
+    "observations": "last_supporting_capture_retrospective_projection",
+    "positions": "exact_capture_only_no_hold_or_interpolation",
+    "reports": "static_retrospective_never_cursor_released",
+    "liveKnownThen": false,
+    "measuredTracking": false
+  },
+  "evidencePoints": [
+    {
+      "id": "E02",
+      "sourceUrl": "https://www.brentfordfc.com/en/video/0_2hoy7vw7?provider=stream",
+      "clipSeconds": 3707.22,
+      "displayMatchClock": "60:14",
+      "displayClockPrecision": "second",
+      "displayedScore": [
+        0,
+        0
+      ],
+      "image": {
+        "file": "../../output/premier-league-first-goal/evidence/E02-t3707.22.jpg",
+        "bytes": 160034,
+        "sha256": "91b4e8d760b357d3f522a91493889b55f44dbe92be626403f33c9d02676638a2"
+      },
+      "capture": {
+        "before": {
+          "currentTime": 3707.22,
+          "paused": true,
+          "readyState": 4
+        },
+        "after": {
+          "currentTime": 3707.22,
+          "paused": true,
+          "readyState": 4
+        }
+      },
+      "legibleJerseys": [
+        {
+          "teamId": "brentford",
+          "shirtNumber": 19
+        }
+      ],
+      "positionLandmark": "goalmouth"
+    },
+    {
+      "id": "E03",
+      "sourceUrl": "https://www.brentfordfc.com/en/video/0_2hoy7vw7?provider=stream",
+      "clipSeconds": 3708,
+      "displayMatchClock": "60:15",
+      "displayClockPrecision": "second",
+      "displayedScore": [
+        0,
+        0
+      ],
+      "image": {
+        "file": "../../output/premier-league-first-goal/evidence/E03-t3708.jpg",
+        "bytes": 165126,
+        "sha256": "3a4f3a36501abc8cadd290bc3d74cfbcb40c2e3cecbda63108f00e2793432e44"
+      },
+      "capture": {
+        "before": {
+          "currentTime": 3708,
+          "paused": true,
+          "readyState": 4
+        },
+        "after": {
+          "currentTime": 3708,
+          "paused": true,
+          "readyState": 4
+        }
+      },
+      "legibleJerseys": [
+        {
+          "teamId": "brentford",
+          "shirtNumber": 19
+        }
+      ],
+      "positionLandmark": "goalmouth"
+    },
+    {
+      "id": "E04",
+      "sourceUrl": "https://www.brentfordfc.com/en/video/0_2hoy7vw7?provider=stream",
+      "clipSeconds": 3709,
+      "displayMatchClock": "60:16",
+      "displayClockPrecision": "second",
+      "displayedScore": [
+        0,
+        0
+      ],
+      "image": {
+        "file": "../../output/premier-league-first-goal/evidence/E04-t3709.jpg",
+        "bytes": 106710,
+        "sha256": "5b5ecd07de441d2c1dfb9a075b2083f759111a57811c427beb367245d675efc7"
+      },
+      "capture": {
+        "before": {
+          "currentTime": 3709,
+          "paused": true,
+          "readyState": 4
+        },
+        "after": {
+          "currentTime": 3709,
+          "paused": true,
+          "readyState": 4
+        }
+      },
+      "legibleJerseys": [],
+      "positionLandmark": null
+    },
+    {
+      "id": "E05",
+      "sourceUrl": "https://www.brentfordfc.com/en/video/0_2hoy7vw7?provider=stream",
+      "clipSeconds": 3710,
+      "displayMatchClock": "60:17",
+      "displayClockPrecision": "second",
+      "displayedScore": [
+        0,
+        0
+      ],
+      "image": {
+        "file": "../../output/premier-league-first-goal/evidence/E05-t3710.jpg",
+        "bytes": 112364,
+        "sha256": "5556a893b64202023f8b488ebb862c9e7d7b717574a9d38e5c7cf3c5780ac3a3"
+      },
+      "capture": {
+        "before": {
+          "currentTime": 3710,
+          "paused": true,
+          "readyState": 4
+        },
+        "after": {
+          "currentTime": 3710,
+          "paused": true,
+          "readyState": 4
+        }
+      },
+      "legibleJerseys": [],
+      "positionLandmark": null
+    },
+    {
+      "id": "E06",
+      "sourceUrl": "https://www.brentfordfc.com/en/video/0_2hoy7vw7?provider=stream",
+      "clipSeconds": 3711,
+      "displayMatchClock": "60:18",
+      "displayClockPrecision": "second",
+      "displayedScore": [
+        0,
+        0
+      ],
+      "image": {
+        "file": "../../output/premier-league-first-goal/evidence/E06-t3711.jpg",
+        "bytes": 102526,
+        "sha256": "18eb18c2e12f2b3c604d4b2b32f88a57dc00cacedff3a5cc31613c6d018055d4"
+      },
+      "capture": {
+        "before": {
+          "currentTime": 3711,
+          "paused": true,
+          "readyState": 4
+        },
+        "after": {
+          "currentTime": 3711,
+          "paused": true,
+          "readyState": 4
+        }
+      },
+      "legibleJerseys": [],
+      "positionLandmark": null
+    },
+    {
+      "id": "E07",
+      "sourceUrl": "https://www.brentfordfc.com/en/video/0_2hoy7vw7?provider=stream",
+      "clipSeconds": 3712,
+      "displayMatchClock": "60:19",
+      "displayClockPrecision": "second",
+      "displayedScore": [
+        0,
+        0
+      ],
+      "image": {
+        "file": "../../output/premier-league-first-goal/evidence/E07-t3712.jpg",
+        "bytes": 120631,
+        "sha256": "e13e671157d009793ffd369fa8014cec9a8960c65ef00f6330d3b5be858ed69b"
+      },
+      "capture": {
+        "before": {
+          "currentTime": 3712,
+          "paused": true,
+          "readyState": 4
+        },
+        "after": {
+          "currentTime": 3712,
+          "paused": true,
+          "readyState": 4
+        }
+      },
+      "legibleJerseys": [
+        {
+          "teamId": "brentford",
+          "shirtNumber": 24
+        }
+      ],
+      "positionLandmark": "corner_boundary"
+    },
+    {
+      "id": "E08",
+      "sourceUrl": "https://www.brentfordfc.com/en/video/0_2hoy7vw7?provider=stream",
+      "clipSeconds": 3713,
+      "displayMatchClock": "60:20",
+      "displayClockPrecision": "second",
+      "displayedScore": [
+        0,
+        0
+      ],
+      "image": {
+        "file": "../../output/premier-league-first-goal/evidence/E08-t3713.jpg",
+        "bytes": 117036,
+        "sha256": "f3b31e1cc44701d585b94d84a26edfe2b73fa58dae28b6ddb77e0b69eedffffc"
+      },
+      "capture": {
+        "before": {
+          "currentTime": 3713,
+          "paused": true,
+          "readyState": 4
+        },
+        "after": {
+          "currentTime": 3713,
+          "paused": true,
+          "readyState": 4
+        }
+      },
+      "legibleJerseys": [],
+      "positionLandmark": null
+    },
+    {
+      "id": "E09",
+      "sourceUrl": "https://www.brentfordfc.com/en/video/0_2hoy7vw7?provider=stream",
+      "clipSeconds": 3714,
+      "displayMatchClock": "60:21",
+      "displayClockPrecision": "second",
+      "displayedScore": [
+        0,
+        0
+      ],
+      "image": {
+        "file": "../../output/premier-league-first-goal/evidence/E09-t3714.jpg",
+        "bytes": 106022,
+        "sha256": "dea9359b8de8ea073e8f3e82b3a2bac184028f9fff28274e5af9b5f665516cf6"
+      },
+      "capture": {
+        "before": {
+          "currentTime": 3714,
+          "paused": true,
+          "readyState": 4
+        },
+        "after": {
+          "currentTime": 3714,
+          "paused": true,
+          "readyState": 4
+        }
+      },
+      "legibleJerseys": [],
+      "positionLandmark": null
+    },
+    {
+      "id": "E10",
+      "sourceUrl": "https://www.brentfordfc.com/en/video/0_2hoy7vw7?provider=stream",
+      "clipSeconds": 3715,
+      "displayMatchClock": "60:22",
+      "displayClockPrecision": "second",
+      "displayedScore": [
+        0,
+        0
+      ],
+      "image": {
+        "file": "../../output/premier-league-first-goal/evidence/E10-t3715.jpg",
+        "bytes": 117912,
+        "sha256": "71117dace80e80de8b88545603cf06efffbe5737729a4dc9d83f91c5617cfbce"
+      },
+      "capture": {
+        "before": {
+          "currentTime": 3715,
+          "paused": true,
+          "readyState": 4
+        },
+        "after": {
+          "currentTime": 3715,
+          "paused": true,
+          "readyState": 4
+        }
+      },
+      "legibleJerseys": [],
+      "positionLandmark": null
+    },
+    {
+      "id": "E11",
+      "sourceUrl": "https://www.brentfordfc.com/en/video/0_2hoy7vw7?provider=stream",
+      "clipSeconds": 3716,
+      "displayMatchClock": "60:23",
+      "displayClockPrecision": "second",
+      "displayedScore": [
+        0,
+        0
+      ],
+      "image": {
+        "file": "../../output/premier-league-first-goal/evidence/E11-t3716.jpg",
+        "bytes": 127735,
+        "sha256": "1af57b7b6f7c8d4ac69a45b4a0feade3758025d15f2038ac61d2c125b44351e2"
+      },
+      "capture": {
+        "before": {
+          "currentTime": 3716,
+          "paused": true,
+          "readyState": 4
+        },
+        "after": {
+          "currentTime": 3716,
+          "paused": true,
+          "readyState": 4
+        }
+      },
+      "legibleJerseys": [],
+      "positionLandmark": null
+    },
+    {
+      "id": "E12",
+      "sourceUrl": "https://www.brentfordfc.com/en/video/0_2hoy7vw7?provider=stream",
+      "clipSeconds": 3717,
+      "displayMatchClock": "60:24",
+      "displayClockPrecision": "second",
+      "displayedScore": [
+        0,
+        0
+      ],
+      "image": {
+        "file": "../../output/premier-league-first-goal/evidence/E12-t3717.jpg",
+        "bytes": 117438,
+        "sha256": "097cb2bb48c3b9d04ac86b3689c8525dd74da369a741b30d7101d9828a187491"
+      },
+      "capture": {
+        "before": {
+          "currentTime": 3717,
+          "paused": true,
+          "readyState": 4
+        },
+        "after": {
+          "currentTime": 3717,
+          "paused": true,
+          "readyState": 4
+        }
+      },
+      "legibleJerseys": [],
+      "positionLandmark": null
+    },
+    {
+      "id": "E01",
+      "sourceUrl": "https://www.brentfordfc.com/en/video/0_2hoy7vw7?provider=stream",
+      "clipSeconds": 3717.22,
+      "displayMatchClock": "60:24",
+      "displayClockPrecision": "second",
+      "displayedScore": [
+        0,
+        0
+      ],
+      "image": {
+        "file": "../../output/premier-league-first-goal/evidence/E01-t3717.22.jpg",
+        "bytes": 127701,
+        "sha256": "0de336e2cfd9cdb4f7dc7012cf7c58fabfdd08b1b1da695eba7faa38f7c1f21b"
+      },
+      "capture": {
+        "before": {
+          "currentTime": 3717.22,
+          "paused": true,
+          "readyState": 4
+        },
+        "after": {
+          "currentTime": 3717.22,
+          "paused": true,
+          "readyState": 4
+        }
+      },
+      "legibleJerseys": [
+        {
+          "teamId": "brentford",
+          "shirtNumber": 19
+        }
+      ],
+      "positionLandmark": "goalmouth"
+    },
+    {
+      "id": "E13",
+      "sourceUrl": "https://www.brentfordfc.com/en/video/0_2hoy7vw7?provider=stream",
+      "clipSeconds": 3718,
+      "displayMatchClock": "60:25",
+      "displayClockPrecision": "second",
+      "displayedScore": [
+        0,
+        0
+      ],
+      "image": {
+        "file": "../../output/premier-league-first-goal/evidence/E13-t3718.jpg",
+        "bytes": 122461,
+        "sha256": "02834b2795f9e46c82603b5bbc9fa527ec6b52f4f2db3b6a68fceef8faa038e9"
+      },
+      "capture": {
+        "before": {
+          "currentTime": 3718,
+          "paused": true,
+          "readyState": 4
+        },
+        "after": {
+          "currentTime": 3718,
+          "paused": true,
+          "readyState": 4
+        }
+      },
+      "legibleJerseys": [],
+      "positionLandmark": null
+    },
+    {
+      "id": "E14",
+      "sourceUrl": "https://www.brentfordfc.com/en/video/0_2hoy7vw7?provider=stream",
+      "clipSeconds": 3719,
+      "displayMatchClock": "60:26",
+      "displayClockPrecision": "second",
+      "displayedScore": [
+        0,
+        0
+      ],
+      "image": {
+        "file": "../../output/premier-league-first-goal/evidence/E14-t3719.jpg",
+        "bytes": 67820,
+        "sha256": "f0b4e8bf1fcb4d05c902ba4acebb3cf7bd963ea85f54849e2684db82a6ac5e4a"
+      },
+      "capture": {
+        "before": {
+          "currentTime": 3719,
+          "paused": true,
+          "readyState": 4
+        },
+        "after": {
+          "currentTime": 3719,
+          "paused": true,
+          "readyState": 4
+        }
+      },
+      "legibleJerseys": [
+        {
+          "teamId": "brentford",
+          "shirtNumber": 19
+        }
+      ],
+      "positionLandmark": null
+    },
+    {
+      "id": "E15",
+      "sourceUrl": "https://www.brentfordfc.com/en/video/0_2hoy7vw7?provider=stream",
+      "clipSeconds": 3720,
+      "displayMatchClock": "60:27",
+      "displayClockPrecision": "second",
+      "displayedScore": [
+        0,
+        0
+      ],
+      "image": {
+        "file": "../../output/premier-league-first-goal/evidence/E15-t3720.jpg",
+        "bytes": 72222,
+        "sha256": "4a7f9f51130096454140e9a4b0e5dd6445b2c858cfcacd033a407b9f9bb4e30c"
+      },
+      "capture": {
+        "before": {
+          "currentTime": 3720,
+          "paused": true,
+          "readyState": 4
+        },
+        "after": {
+          "currentTime": 3720,
+          "paused": true,
+          "readyState": 4
+        }
+      },
+      "legibleJerseys": [],
+      "positionLandmark": null
+    },
+    {
+      "id": "E16",
+      "sourceUrl": "https://www.brentfordfc.com/en/video/0_2hoy7vw7?provider=stream",
+      "clipSeconds": 3730,
+      "displayMatchClock": "60:37",
+      "displayClockPrecision": "second",
+      "displayedScore": [
+        1,
+        0
+      ],
+      "image": {
+        "file": "../../output/premier-league-first-goal/evidence/E16-t3730.jpg",
+        "bytes": 91464,
+        "sha256": "340b0252c47e0d1fdcf8086f49c2e704a0a54c41f5615ff9129a19c4267b432c"
+      },
+      "capture": {
+        "before": {
+          "currentTime": 3730,
+          "paused": true,
+          "readyState": 4
+        },
+        "after": {
+          "currentTime": 3730,
+          "paused": true,
+          "readyState": 4
+        }
+      },
+      "legibleJerseys": [],
+      "positionLandmark": null
+    }
+  ],
+  "identityJoins": [
+    {
+      "id": "I19",
+      "playerId": "brentford:anthony",
+      "teamId": "brentford",
+      "shirtNumber": 19,
+      "publicName": "Jaidon Anthony",
+      "jerseySourcePath": "$.lineup_statistics_audit.lineup_rows[7]",
+      "nameSourcePath": "$.players[28].identity_resolution",
+      "basis": "same_capture_legible_team_and_jersey_plus_prior_source_pack",
+      "faceRecognition": false
+    },
+    {
+      "id": "I24",
+      "playerId": "brentford:damsgaard",
+      "teamId": "brentford",
+      "shirtNumber": 24,
+      "publicName": "Mikkel Damsgaard",
+      "jerseySourcePath": "$.lineup_statistics_audit.lineup_rows[8]",
+      "nameSourcePath": "$.players[27].identity_resolution",
+      "basis": "same_capture_legible_team_and_jersey_plus_prior_source_pack",
+      "faceRecognition": false
+    }
+  ],
+  "retrospectiveReportClaims": [
+    {
+      "id": "R01",
+      "kind": "reported_goal",
+      "playerId": "brentford:anthony",
+      "rawMinute": "61",
+      "seconds": null,
+      "precision": "reported_minute",
+      "sourcePath": "$.goals[0]",
+      "sourceId": "chelsea-report",
+      "sourceLocator": "line 53; scorers",
+      "cursorEligible": false,
+      "availableAtClipSeconds": null
+    },
+    {
+      "id": "R02",
+      "kind": "reported_finish_and_assist",
+      "playerId": "brentford:anthony",
+      "rawMinute": "61",
+      "seconds": null,
+      "precision": "reported_minute",
+      "bodyPart": "head",
+      "location": "very close range",
+      "sequence": "following a corner",
+      "assistPlayerId": "brentford:schuster",
+      "assistShirtNumber": 44,
+      "sourcePath": "$.timeline_audit.goals[0]",
+      "sourceId": "pl-commentary",
+      "sourceLocator": "61 Goal group; scorer and finish description",
+      "assistSourceLocator": "61 Goal group; Assist Jannik Schuster / headed pass",
+      "cursorEligible": false,
+      "availableAtClipSeconds": null
+    }
+  ],
+  "videoObservations": [
+    {
+      "id": "O01",
+      "kind": "goalmouth_cluster",
+      "evidenceIds": [
+        "E02",
+        "E03"
+      ],
+      "availableAtClipSeconds": 3708,
+      "identityJoinId": null,
+      "note": "Low goalmouth view with near-post/six-yard crowding. Brentford shirts 19, 7, 20 and Chelsea 4, 29 are legible across the pair, without assigning all numbers to both images. No contact is observed."
+    },
+    {
+      "id": "O02",
+      "kind": "legible_jersey",
+      "evidenceIds": [
+        "E02"
+      ],
+      "availableAtClipSeconds": 3707.22,
+      "identityJoinId": "I19",
+      "note": "Brentford shirt 19 is legible at this capture."
+    },
+    {
+      "id": "O03",
+      "kind": "legible_jersey",
+      "evidenceIds": [
+        "E03"
+      ],
+      "availableAtClipSeconds": 3708,
+      "identityJoinId": "I19",
+      "note": "Brentford shirt 19 is legible at this capture."
+    },
+    {
+      "id": "O04",
+      "kind": "obscured_restart",
+      "evidenceIds": [
+        "E04",
+        "E05",
+        "E06"
+      ],
+      "availableAtClipSeconds": 3711,
+      "identityJoinId": null,
+      "note": "Close view behind an anonymous Brentford actor with raised arms; ball and restart location are obscured. Restart type/contact is not established."
+    },
+    {
+      "id": "O05",
+      "kind": "legible_jersey",
+      "evidenceIds": [
+        "E07"
+      ],
+      "availableAtClipSeconds": 3712,
+      "identityJoinId": "I24",
+      "note": "Brentford shirt 24 is legible at the corner boundary."
+    },
+    {
+      "id": "O06",
+      "kind": "corner_setup",
+      "evidenceIds": [
+        "E07",
+        "E08",
+        "E09"
+      ],
+      "availableAtClipSeconds": 3714,
+      "identityJoinId": null,
+      "note": "Corner-side setup; E09 shows a grounded ball beside the corner flag/arc with a taker approaching. Actual foot-ball contact is not captured."
+    },
+    {
+      "id": "O07",
+      "kind": "crowded_wide_goalmouth",
+      "evidenceIds": [
+        "E10",
+        "E11"
+      ],
+      "availableAtClipSeconds": 3716,
+      "identityJoinId": null,
+      "note": "High wide goalmouth view; contacts, shirt numbers and headers are insufficiently clear."
+    },
+    {
+      "id": "O08",
+      "kind": "legible_jersey",
+      "evidenceIds": [
+        "E01"
+      ],
+      "availableAtClipSeconds": 3717.22,
+      "identityJoinId": "I19",
+      "note": "Brentford shirt 19 is legible in the wide goalmouth view."
+    },
+    {
+      "id": "O09",
+      "kind": "goalmouth_reactions",
+      "evidenceIds": [
+        "E12",
+        "E01",
+        "E13"
+      ],
+      "availableAtClipSeconds": 3718,
+      "identityJoinId": null,
+      "note": "Wide goalmouth/reactions; no defensible assist, finish or goal-line-crossing contact."
+    },
+    {
+      "id": "O10",
+      "kind": "legible_jersey_reaction",
+      "evidenceIds": [
+        "E14"
+      ],
+      "availableAtClipSeconds": 3719,
+      "identityJoinId": "I19",
+      "note": "Running reaction with Brentford 19 legible on shorts. Field geometry is insufficient for a position estimate."
+    },
+    {
+      "id": "O11",
+      "kind": "anonymous_celebration",
+      "evidenceIds": [
+        "E15"
+      ],
+      "availableAtClipSeconds": 3720,
+      "identityJoinId": null,
+      "note": "Close celebration without a legible number; actor remains anonymous, with no face identification or identity propagated across a cut."
+    },
+    {
+      "id": "O12",
+      "kind": "first_captured_one_nil",
+      "evidenceIds": [
+        "E16"
+      ],
+      "availableAtClipSeconds": 3730,
+      "identityJoinId": null,
+      "note": "First captured 1–0 scoreboard, with tight group celebration. Most geometry and identities are obscured. This is not the goal time."
+    }
+  ],
+  "coarsePositionEstimates": [
+    {
+      "id": "P01",
+      "identityJoinId": "I19",
+      "evidenceId": "E02",
+      "clipSeconds": 3707.22,
+      "zone": "near_goalmouth_cluster",
+      "method": "visible_pitch_landmark_coarse_zone",
+      "precision": "coarse_zone",
+      "uncertainty": "Exact location within the visible zone is unresolved; crowding/perspective prevent metric coordinates.",
+      "availability": "exact_capture_only"
+    },
+    {
+      "id": "P02",
+      "identityJoinId": "I19",
+      "evidenceId": "E03",
+      "clipSeconds": 3708,
+      "zone": "near_goalmouth_cluster",
+      "method": "visible_pitch_landmark_coarse_zone",
+      "precision": "coarse_zone",
+      "uncertainty": "Exact location within the visible zone is unresolved; crowding/perspective prevent metric coordinates.",
+      "availability": "exact_capture_only"
+    },
+    {
+      "id": "P04",
+      "identityJoinId": "I24",
+      "evidenceId": "E07",
+      "clipSeconds": 3712,
+      "zone": "corner_boundary",
+      "method": "visible_pitch_landmark_coarse_zone",
+      "precision": "coarse_zone",
+      "uncertainty": "Exact location within the visible zone is unresolved; crowding/perspective prevent metric coordinates.",
+      "availability": "exact_capture_only"
+    },
+    {
+      "id": "P03",
+      "identityJoinId": "I19",
+      "evidenceId": "E01",
+      "clipSeconds": 3717.22,
+      "zone": "near_goalmouth_cluster",
+      "method": "visible_pitch_landmark_coarse_zone",
+      "precision": "coarse_zone",
+      "uncertainty": "Exact location within the visible zone is unresolved; crowding/perspective prevent metric coordinates.",
+      "availability": "exact_capture_only"
+    }
+  ],
+  "cameraChangeBounds": [
+    {
+      "afterEvidenceId": "E03",
+      "beforeEvidenceId": "E04",
+      "clipBounds": [
+        3708,
+        3709
+      ],
+      "kind": "camera_change_between_captures"
+    },
+    {
+      "afterEvidenceId": "E09",
+      "beforeEvidenceId": "E10",
+      "clipBounds": [
+        3714,
+        3715
+      ],
+      "kind": "camera_change_between_captures"
+    },
+    {
+      "afterEvidenceId": "E13",
+      "beforeEvidenceId": "E14",
+      "clipBounds": [
+        3718,
+        3719
+      ],
+      "kind": "camera_change_between_captures"
+    },
+    {
+      "afterEvidenceId": "E15",
+      "beforeEvidenceId": "E16",
+      "clipBounds": [
+        3720,
+        3730
+      ],
+      "kind": "group_shot_transition_intervening_shots_unknown"
+    }
+  ],
+  "samplingGaps": [
+    {
+      "afterEvidenceId": "E02",
+      "beforeEvidenceId": "E03",
+      "clipBoundsExclusive": [
+        3707.22,
+        3708
+      ],
+      "movementReviewed": false
+    },
+    {
+      "afterEvidenceId": "E03",
+      "beforeEvidenceId": "E04",
+      "clipBoundsExclusive": [
+        3708,
+        3709
+      ],
+      "movementReviewed": false
+    },
+    {
+      "afterEvidenceId": "E04",
+      "beforeEvidenceId": "E05",
+      "clipBoundsExclusive": [
+        3709,
+        3710
+      ],
+      "movementReviewed": false
+    },
+    {
+      "afterEvidenceId": "E05",
+      "beforeEvidenceId": "E06",
+      "clipBoundsExclusive": [
+        3710,
+        3711
+      ],
+      "movementReviewed": false
+    },
+    {
+      "afterEvidenceId": "E06",
+      "beforeEvidenceId": "E07",
+      "clipBoundsExclusive": [
+        3711,
+        3712
+      ],
+      "movementReviewed": false
+    },
+    {
+      "afterEvidenceId": "E07",
+      "beforeEvidenceId": "E08",
+      "clipBoundsExclusive": [
+        3712,
+        3713
+      ],
+      "movementReviewed": false
+    },
+    {
+      "afterEvidenceId": "E08",
+      "beforeEvidenceId": "E09",
+      "clipBoundsExclusive": [
+        3713,
+        3714
+      ],
+      "movementReviewed": false
+    },
+    {
+      "afterEvidenceId": "E09",
+      "beforeEvidenceId": "E10",
+      "clipBoundsExclusive": [
+        3714,
+        3715
+      ],
+      "movementReviewed": false
+    },
+    {
+      "afterEvidenceId": "E10",
+      "beforeEvidenceId": "E11",
+      "clipBoundsExclusive": [
+        3715,
+        3716
+      ],
+      "movementReviewed": false
+    },
+    {
+      "afterEvidenceId": "E11",
+      "beforeEvidenceId": "E12",
+      "clipBoundsExclusive": [
+        3716,
+        3717
+      ],
+      "movementReviewed": false
+    },
+    {
+      "afterEvidenceId": "E12",
+      "beforeEvidenceId": "E01",
+      "clipBoundsExclusive": [
+        3717,
+        3717.22
+      ],
+      "movementReviewed": false
+    },
+    {
+      "afterEvidenceId": "E01",
+      "beforeEvidenceId": "E13",
+      "clipBoundsExclusive": [
+        3717.22,
+        3718
+      ],
+      "movementReviewed": false
+    },
+    {
+      "afterEvidenceId": "E13",
+      "beforeEvidenceId": "E14",
+      "clipBoundsExclusive": [
+        3718,
+        3719
+      ],
+      "movementReviewed": false
+    },
+    {
+      "afterEvidenceId": "E14",
+      "beforeEvidenceId": "E15",
+      "clipBoundsExclusive": [
+        3719,
+        3720
+      ],
+      "movementReviewed": false
+    },
+    {
+      "afterEvidenceId": "E15",
+      "beforeEvidenceId": "E16",
+      "clipBoundsExclusive": [
+        3720,
+        3730
+      ],
+      "movementReviewed": false
+    }
+  ],
+  "unknowns": [
+    {
+      "kind": "exact_goal_or_line_crossing_time",
+      "value": null,
+      "reason": "No defensible contact/line-crossing sample; neither first captured 1–0 nor the reported minute supplies an exact goal second."
+    },
+    {
+      "kind": "assist_or_header_contact_actor",
+      "value": null,
+      "reason": "Schuster/head/very close range are prior report claims. Shirt 44 is not independently legible on a touch actor."
+    },
+    {
+      "kind": "kick_contact_time",
+      "value": null,
+      "reason": "Corner setup is visible; actual foot-ball contact is not captured."
+    },
+    {
+      "kind": "anonymous_e15_identity",
+      "value": null,
+      "reason": "No legible number; no face recognition or cross-cut identity propagation."
+    },
+    {
+      "kind": "e14_position",
+      "value": null,
+      "reason": "Shirt 19 is legible, but field geometry is insufficient for even a coarse position estimate."
+    },
+    {
+      "kind": "other_players_and_unsampled_positions",
+      "value": null,
+      "reason": "Off-camera, occluded, unidentified and unsampled positions are unknown; no complete 22-player presence or field positions are inferred."
+    }
+  ],
+  "limits": [
+    "Only E01–E16 from the approved evidence folder were reviewed; chronological order follows DOM clip time, not capture numbering.",
+    "Paused sampled keyframes are not a continuous, frame-complete or whole-match audit.",
+    "Displayed match-clock labels have second precision; DOM clip timestamps remain separate. No 61-to-61:00 conversion or universal offset.",
+    "All between-keyframe movement is unreviewed, including across camera changes. No held positions, interpolation, speed, trails, XY or metric calibration.",
+    "Names join only legible team/jersey evidence to the prior research pack; no face recognition or inherited identity across cuts.",
+    "Report scorer/assist/finish descriptions remain static retrospective claims, not observed touches or cursor facts.",
+    "Original source-use/submission/publication boundaries remain; no app integration, live feed, full-team reconstruction or free-text AI."
+  ]
+}
