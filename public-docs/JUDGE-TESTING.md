@@ -1,14 +1,33 @@
 # Judge testing instructions
 
-[Hosted demo — judge access required](https://mm-web-dev.redtree-349789df.swedencentral.azurecontainerapps.io/)
+## Judge access
 
-Use the private access instructions arranged for judging. The hosted app requires an assigned Tester identity; this repository contains no credentials. The operator must arrange and verify the judge identities and code-receipt route before judging.
+[Open the Matchmate demo](https://mm-web-dev.redtree-349789df.swedencentral.azurecontainerapps.io/)
+
+Matchmate is free to try. Create an account using an email address whose inbox you can access. No invitation, shared password, Microsoft 365 subscription or repository access is required.
 
 ## Sign in
 
-Follow the privately supplied access instructions. The current app uses Microsoft Entra email-code sign-in and requires an assigned **Tester** role. Use the identity and code-receipt route arranged for judging. If your session expires, sign in again through the same route. If sign-in or authorization fails, report it through the private submission channel without sharing a verification code.
+### First visit
 
-[Official Rules §4.8 — Testing](https://github.com/microsoft/insidethegamehackathon/blob/main/OFFICIAL%20RULES.md#48-testing) requires a working project link, login credentials in the testing instructions for a private demo, and free access without restrictions until judging ends. The private access arrangement remains an operator task; these prepared pages do not confirm it is complete.
+1. Open the demo and choose **Continue with email**.
+2. Microsoft's sign-in page opens. Choose **“No account? Create one”** to register.
+3. Enter your email address and follow the prompts to receive a verification code.
+4. Enter the code on Microsoft's page and complete any requested account details.
+5. You will return to Matchmate. Choose a featured replay to begin exploring.
+
+**Important:** On your first visit, choose **Create one** before entering your email. Entering an unregistered address on the existing-account sign-in form can show “We couldn't find an account with this email address.”
+
+### Returning visits
+
+Sign in using the same email address and follow the email-code prompts. You do not need to create another account.
+
+### If you need help
+
+- The verification email may take a few minutes to arrive. Check your spam folder before requesting another code. If you request another code, use the latest message.
+- If Microsoft shows an account chooser, select **Use another account** to use a different email address.
+- If an AI request temporarily reaches a usage limit, follow the message shown and retry after the indicated wait.
+- Report persistent problems through the hackathon submission channel. Include the page, action and visible error, but never share verification codes or other sign-in secrets.
 
 ## Suggested walkthrough
 
